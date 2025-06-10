@@ -20,24 +20,23 @@
               "icon": "lucide-file",
               "title": "T002-Autonomic Computing IBM by Horn"
             }
-          }
-        ]
-      },
-      {
-        "id": "a4d61c337ad55ec6",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "fe80bd9b60e75426",
+            "id": "5876aa690a48dc25",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Hoja de test.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Hoja de test"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tesis Auto-Ingenieria/T002-Autonomic Computing IBM by Horn.md",
+                "file": "Hoja de test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for T002-Autonomic Computing IBM by Horn"
+              "title": "Backlinks for Hoja de test"
             }
           },
           {
@@ -129,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tesis Auto-Ingenieria/T002-Autonomic Computing IBM by Horn.md",
+                "file": "Hoja de test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from T002-Autonomic Computing IBM by Horn"
+              "title": "Outgoing links from Hoja de test"
             }
           },
           {
@@ -158,21 +157,31 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tesis Auto-Ingenieria/T002-Autonomic Computing IBM by Horn.md",
+                "file": "Hoja de test.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of T002-Autonomic Computing IBM by Horn"
+              "title": "Outline of Hoja de test"
+            }
+          },
+          {
+            "id": "83ccea632e5075e2",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,10 +194,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "02adcc3ec5d47589",
+  "active": "5876aa690a48dc25",
   "lastOpenFiles": [
-    "Tesis Auto-Ingenieria/T001-Tesis Giovanna.md",
     "Tesis Auto-Ingenieria/T002-Autonomic Computing IBM by Horn.md",
+    "Hoja de test.md",
+    "Tesis Auto-Ingenieria/T001-Tesis Giovanna.md",
     "Welcome.md",
     "Tesis Auto-Ingenieria"
   ]
