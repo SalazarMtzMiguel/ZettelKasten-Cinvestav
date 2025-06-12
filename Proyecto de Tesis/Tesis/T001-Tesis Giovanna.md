@@ -1,5 +1,6 @@
 Lectura basada en la tesis [[Tesis Giovanna.pdf]]
 # Nuevo Marco Conceptual de Sistemas de Autoingeniería y una Arquitectura para la Gestión de su Ciclo de Vida
+#ResumenTesis
 ## Capitulo 1 - Introduccion
 Los sistemas de autoingenieria cuentan con caracteristicas como la autosanacion, autoreparacion, autoadaptacion, autoconfiguradion, etc. SES = Self-Engineering Systems
 Los SES registran perdidas en su funcionamiento u operacion y responden de manera que puedan reestablecer su funcionamiento normal.
