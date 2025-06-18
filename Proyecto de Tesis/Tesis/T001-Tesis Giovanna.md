@@ -18,8 +18,8 @@ A partir de un nuevo marco conceptual y una arquitectura de sistemas de autoinge
 ### Estructura del documento
 Sin nada mas que añadir
 ## Capitulo 2 - Marco Teorico
-### Ingenieria de sistemas
-Un sistema es una estructura con diversos elementos que interactuan para lograr resultados que de manera indiv
+### Ingeniería de sistemas
+Un sistema es una estructura con diversos elementos que interactuan para lograr resultados que de manera individual. Para desarrollar un sistema se llevan a cabo procesos metodicos
 #### Ingenieria de software
 #### Ingenieria de requerimientos
 ### Ciclo de vida de un sistema
