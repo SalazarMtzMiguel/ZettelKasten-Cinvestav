@@ -19,8 +19,11 @@ A partir de un nuevo marco conceptual y una arquitectura de sistemas de autoinge
 Sin nada mas que añadir
 ## Capitulo 2 - Marco Teorico
 ### Ingeniería de sistemas
-Un sistema es una estructura con diversos elementos que interactuan para lograr resultados que de manera individual. Para desarrollar un sistema se llevan a cabo procesos metodicos
+Un sistema es una estructura con diversos elementos que interactuan para lograr resultados que de manera individual. Para desarrollar un sistema se llevan a cabo procesos metodicos para la aplicacion de los principios de la ingenieria con tal de resolver un problema mediante la conceptualizacion, el diseño, la implementacion, pruebas, desplietue y certificacion del funcionamiento del sistema.
 #### Ingenieria de software
+Hablar de software es habler de lo sprogramas y la documentacion asociada a un sistema computacional con un hardware que lo sporta y ejecuta. un sistema de software habla unicamente de lo que no es tangible, es decir las cuestiones fisicas, materiales o componentes.
+El termino ingenieria de software sugio en 1968 cuando se afirmo que un enfoque individual resulta en un sistema complejo y costoso. por ello la necesidad emergente de desarrollar nuevas tecnicas y metodos para la gestion del desarrolllo de sistemas de software. Es necesario seguir una pauta, un procedimiento metodico y bien definido para desarrollar cualquier sistema de SW.
+Es necesario lllevar a cabo las tareas de la ingenieria de requerimientos, diseño, codificacion (implementacion), pruebas y mantenimiento de lSW en cuestion.
 #### Ingenieria de requerimientos
 ### Ciclo de vida de un sistema
 ### Operacion y mantenimiento de un sistema de software
