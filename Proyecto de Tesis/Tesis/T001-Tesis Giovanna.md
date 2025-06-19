@@ -24,6 +24,7 @@ Un sistema es una estructura con diversos elementos que interactuan para lograr 
 Hablar de software es habler de lo sprogramas y la documentacion asociada a un sistema computacional con un hardware que lo sporta y ejecuta. un sistema de software habla unicamente de lo que no es tangible, es decir las cuestiones fisicas, materiales o componentes.
 El termino ingenieria de software sugio en 1968 cuando se afirmo que un enfoque individual resulta en un sistema complejo y costoso. por ello la necesidad emergente de desarrollar nuevas tecnicas y metodos para la gestion del desarrolllo de sistemas de software. Es necesario seguir una pauta, un procedimiento metodico y bien definido para desarrollar cualquier sistema de SW.
 Es necesario lllevar a cabo las tareas de la ingenieria de requerimientos, diseño, codificacion (implementacion), pruebas y mantenimiento de lSW en cuestion.
+Todas las etapas son las siguientes
 #### Ingenieria de requerimientos
 ### Ciclo de vida de un sistema
 ### Operacion y mantenimiento de un sistema de software
