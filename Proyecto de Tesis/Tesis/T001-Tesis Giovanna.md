@@ -30,8 +30,27 @@ Existen multiples modelos para el desarrollo de software como el modelo en casca
 ![[Modelo_Cascada.png]]
 #### Ingenieria de requerimientos
 Un requerimiento es la sentencia en la cual se plasma una caracteristica, restriccion operacional, restriccion funcional o restriccion  de diseño del sistema, con el atributo de que cumplir la especificacion es necesaria para que el sistema sea aceptado.
-
+Ahora bien, la primer estapa es la de requerimientos, esta sera nuestra piedra angular para todo lo que constituira el sistema, ya que en ella se define el problema que se va a atacar a traves de una solucion.
+Una clasificación comúnmente utilizada para los tipos de requerimientos del sistema corresponden a los funcionales y los no funcionales. Siendo los funcionales aquellos que describen las prestaciones del sistema, expresado mediante servicios, tareas o funciones que el sistema debe de realizar, así como también las condiciones bajo las cuales ciertas entradas deben convertirse en ciertas salidas.
+Los requerimientos funcionales también podrían especificar para ciertos tipos de sistemas
+y condiciones lo que el sistema no debiera hacer. Por otro lado, los requerimientos no
+funcionales corresponden a los aspectos relacionados a las propiedades del sistema,
+su alcance y limitaciones bajo las cuales este tendrá que operar.
+![[Ciclo de vida de un sistema de sw.png]]
 ### Ciclo de vida de un sistema
+El ciclo va desde su planeacion hasta su desecho, para describir y establecer un estandar se creo el marco comun denominado Ciclo de Vida de Desarrollo de Software (SDLC en ingles), esto consiste en un proceso organizado con multiples etapas:
+- Inicialización: en esta etapa se plantea la necesidad de desarrollar el sistema,
+así como su propósito y sus requerimientos. Dichos requerimientos son evaluados mediante la negociación entre las partes interesadas y los desarrolladores para llegar a acuerdos mutuos.
+- Adquisición/Desarrollo: en primer lugar, se procesa, almacena y transmite la
+información necesaria para el desarrollo del sistema, según las especificaciones
+establecidas. Posteriormente, el sistema se diseña, programa y desarrolla.
+- Implementación: en esta fase se revisa en detalle el diseño del sistema propuesto
+y se llevan a cabo pruebas exhaustivas al sistema antes de su implementación.
+Una vez realizadas las pruebas de las funcionalidades del sistema para asegurar
+su correcto funcionamiento, así como la validación del cumplimiento satisfactorio de los requerimientos, se implementa el sistema en cuestión en campo.
+- Operación y mantenimiento:
+en esta etapa el sistema se encuentra en funcionamiento brindando los servicios para los cuales fue diseñado. Cualquier ajuste o modificación necesaria en el software o hardware se implementa según sea necesario para optimizar su rendimiento, así como al atención a sus posibles cambios en requerimientos.
+- Desecho: esta fase implica realizar la evolución o la transición del sistema. Así bien, si se decide dar por finalizado al sistema, este puede desecharse, migrar o reutilizarse.
 ### Operacion y mantenimiento de un sistema de software
 ### Evolucion de un sistema de software
 #### Leyes de evolucion del software
