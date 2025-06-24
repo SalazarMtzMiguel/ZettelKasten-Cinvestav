@@ -104,7 +104,9 @@ Tambien se menciona que debe de contar con cuatro propiedades basicas:
 - Auto-optimizacion: Se busca continuamente oportunidades para mejorar eficiencia y eficacia del sistema y sus componentes.
 - Autoproteccion: El sistema es capaz de defenderse de ataques maliciosos.
 ## Capitulo 3 - Estado del Arte
-
+En la literatura se han encontrado multiples definicion es de sistemas de autoingenieria:
+- “Un sistema es de autoingenier´ıa cuando registra y responde a una pérdida de funcionalidad o capacidad operativa, y autom´aticamente toma medidas para regresar la funcionalidad” #Revision cita 32
+- “Capacidad diseñada e integrada a un sistema para identificar de forma independiente cualquier perdida o posible pérdida de funcionalidad, y luego restaurar automáticamente la funcionalidad total o parcial para mantener su disponibilidad y mejorar la resiliencia del sistema.” #Revision cita 13
 ### Conceptualizacion de sistemas de autoingenieria
 ### Arquitecturas de referencia
 ### Modelado basado en agentes para ingenieria de software
