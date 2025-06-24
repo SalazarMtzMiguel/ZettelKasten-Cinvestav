@@ -100,7 +100,7 @@ El computo autonomico tiene reaices bioinspiradas como lo que es el sistema nerv
 NOTA: revisar cita 36
 Tambien se menciona que debe de contar con cuatro propiedades basicas:
 - Autoconfiguracion: El sistema mantiene una configuracion automatizada de sus componentes
-- Autosanacion: El sistema es capaz de diagnosticar y reparar fallas que se pudiesen presentar tanto a nivelr software como en hardware (Verificar la segunda #BuscarPruebas)
+- Autosanacion: El sistema es capaz de diagnosticar y reparar fallas que se pudiesen presentar tanto a nivelr software como en hardware (Verificar la segunda #BuscarPruebas).
 - Auto-optimizacion: Se busca continuamente oportunidades para mejorar eficiencia y eficacia del sistema y sus componentes.
 - Autoproteccion: El sistema es capaz de defenderse de ataques maliciosos.
 ## Capitulo 3 - Estado del Arte
@@ -108,6 +108,14 @@ En la literatura se han encontrado multiples definicion es de sistemas de autoin
 - “Un sistema es de autoingenierıa cuando registra y responde a una pérdida de funcionalidad o capacidad operativa, y automaticamente toma medidas para regresar la funcionalidad” #Revision cita 32
 - “Capacidad diseñada e integrada a un sistema para identificar de forma independiente cualquier perdida o posible pérdida de funcionalidad, y luego restaurar automáticamente la funcionalidad total o parcial para mantener su disponibilidad y mejorar la resiliencia del sistema.” #Revision cita 13
 ### Conceptualización de sistemas de autoingenieria
+#Revision cita 66 se propone un proceso de ingenieria agil con una arquitectura para los sistemas autogestionables basado en la ingenieria de software. Dicha arquitectura utiliza medidores o indicadores para interactuar con el sistema en ejecucion y recuperar datos para traducirlos en metricas para el ajuste del sistema o la adaptacion.
+El modelo se sistema viable #Revision cita 7 se centra en que todas las organizaciones son sistemas de tal manera que comparten principios y caracteristicas que dictan como se adaptan y sobreviven en entorno cambiantes.
+Dicho modelo propone de cinco subsistemas:
+- Implementacion
+- Coordinacion
+- Control
+- Inteligencia
+- Politica
 
 ### Arquitecturas de referencia
 ### Modelado basado en agentes para ingenieria de software
