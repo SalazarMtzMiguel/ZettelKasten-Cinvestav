@@ -52,6 +52,11 @@ su correcto funcionamiento, así como la validación del cumplimiento satisfacto
 en esta etapa el sistema se encuentra en funcionamiento brindando los servicios para los cuales fue diseñado. Cualquier ajuste o modificación necesaria en el software o hardware se implementa según sea necesario para optimizar su rendimiento, así como al atención a sus posibles cambios en requerimientos.
 - Desecho: esta fase implica realizar la evolución o la transición del sistema. Así bien, si se decide dar por finalizado al sistema, este puede desecharse, migrar o reutilizarse.
 ### Operacion y mantenimiento de un sistema de software
+Despues de las etapas previas al despliegue (Ingenieria de requerimientos, diseño de arquitectura, implementacion y pruebas) existe lo que es el mantenimiento, el sistema puede tener 4 tipos de mantenimiento:
+- Correctivo: Corregir posibles fallos y atender errores durante el ffuncionamiento nomal del sistema
+- Adaptativo: Corresponden a cambios para que el sistema se adapte a nuevos ambientes.
+- Perfeccionador: Se basa en actualizar en sistema en base a nuevos requerimientos del usuario final.
+- Preventivo: 
 ### Evolucion de un sistema de software
 #### Leyes de evolucion del software
 #### Gestion de cambio
