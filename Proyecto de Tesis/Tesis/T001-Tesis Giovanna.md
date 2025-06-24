@@ -65,7 +65,9 @@ Esta etapa corresponde a un estado despues del despliegue ya que en esta etapa d
 El ciclo de vida de un sistema no termina con su despliegue, sino que este sigue vigente hasta su mantenimiento y evolución, en donde se atienden los cambios que le puedan ser requeridos al sistema posterior a dicho despliegue.
 #### Leyes de evolucion del software
 NOTA: Revisar cita 51 y 29
-
+Son reglas las cuales establecen como derivar en nuevas versiones o entregas de software a sistemas ya existentes, las leyes son:
+- Cambio constante: los sistemas deben de adaptarse cotinuamente si no se comienzan a volver isatisfactorios.
+- Incremento de la complejidad: 
 #### Gestion de cambio
 ### Definiciones de Metamorfosis
 ### Adaptacion y Autoadaptacion
