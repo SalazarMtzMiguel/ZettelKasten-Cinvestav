@@ -75,7 +75,8 @@ Son reglas las cuales establecen como derivar en nuevas versiones o entregas de 
 - Calidad decreciente: la calidad del sistema ira decreciendo a menos que se intervenga para que se adapte a los cambios del entorno.
 - Retroalimentacion del sistema: los procesos de evolucion tienen en cuenta la retroalimentacion de usuarios y desarrolladores.
 #### Gestion de cambio
-
+El cambio en un sistema de software consiste en el proceso de introduccion de nuevos requerimientos, modificacion a los ya planteados o implementados, o el cambio de operacion del sistema.
+Mientra surjan nuevos requerimientos la evolucion del sistema es inevitable, asi que existen maneras de gestionar estos requerimientos, se dividen en pasos o etapas, 
 ### Definiciones de Metamorfosis
 ### Adaptacion y Autoadaptacion
 ### Computo Autonomico
