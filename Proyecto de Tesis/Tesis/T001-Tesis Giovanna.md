@@ -56,8 +56,12 @@ Despues de las etapas previas al despliegue (Ingenieria de requerimientos, dise√
 - Correctivo: Corregir posibles fallos y atender errores durante el ffuncionamiento nomal del sistema
 - Adaptativo: Corresponden a cambios para que el sistema se adapte a nuevos ambientes.
 - Perfeccionador: Se basa en actualizar en sistema en base a nuevos requerimientos del usuario final.
-- Preventivo: 
+- Preventivo: Se actualiza el sistema y la documentacion, para que sea sostenible y resiliente ante posibles fallos.
+Existen modelos para la etapa de mantenimiento con objetivos unicos, por ejemplo.
+- QuickFix: Identifica el problema e implementa la solucion de la manera mas rapida posible.
+- Reutilizacion Total: Se hace un analisis de requerimientos del nuevo sistema buscando implementar y reutilizar la mayor parte del sistema actual.
 ### Evolucion de un sistema de software
+
 #### Leyes de evolucion del software
 #### Gestion de cambio
 ### Definiciones de Metamorfosis
