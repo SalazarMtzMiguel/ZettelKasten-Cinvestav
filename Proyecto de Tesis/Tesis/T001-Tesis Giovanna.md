@@ -83,7 +83,7 @@ Mientra surjan nuevos requerimientos la evolucion del sistema es inevitable, asi
 ### Definiciones de Metamorfosis
 Es importante analizar la definición que se le ha atribuido al termino de metamorfosis cuyo significado viene del latin y griego, meta (mas alla, despues de), morph (forma, estructura) y osis (acciones, condiciones, estados), tiene una aplicacion mas biologica en donde se describe como el desarrollo de organismos a través de una serie de estados diferenciados entres si, los cuales están asociados a funciones especificas, la metamorfosis implica que la forma y estructura básicas de un organismo surgen como resultado de una secuencia de ajustes en el desarrollo.
 ### Adaptacion y Autoadaptacion
-
+Se denomina adaptacion a la capacidad de un sistema de ajustar automaticamente su estructura
 ### Computo Autonomico
 ## Capitulo 3 - Estado del Arte
 ### Conceptualizacion de sistemas de autoingenieria
