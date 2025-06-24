@@ -64,6 +64,7 @@ Existen modelos para la etapa de mantenimiento con objetivos unicos, por ejemplo
 Esta etapa corresponde a un estado despues del despliegue ya que en esta etapa de abordan los nuevos requerimientos y necesidades del sistema.
 El ciclo de vida de un sistema no termina con su despliegue, sino que este sigue vigente hasta su mantenimiento y evolución, en donde se atienden los cambios que le puedan ser requeridos al sistema posterior a dicho despliegue.
 #### Leyes de evolucion del software
+#Revision #MasInfo
 NOTA: Revisar cita 51 y 29
 Son reglas las cuales establecen como derivar en nuevas versiones o entregas de software a sistemas ya existentes, las leyes son:
 - Cambio constante: los sistemas deben de adaptarse cotinuamente si no se comienzan a volver isatisfactorios.
@@ -86,6 +87,21 @@ Es importante analizar la definición que se le ha atribuido al termino de metam
 Se denomina adaptacion a la capacidad de un sistema de ajustar automaticamente su estructura o funcionalidad para satisfacer diversas necesidades.
 La autoadaptacion consiste en la capacidad de un sistema de ajustar el comportamiento durante su ejecucion en respuesta a la percepcion del entorno como del propio sistema considerando su contexto, ambiente y actores que se involucran en el.
 ### Computo Autonomico
+El computo autonomico tiene reaices bioinspiradas como lo que es el sistema nervioso autonomo humano que regula funciones automaticas como la respiracion, el control pupilar, el ritmo cardiaco, la presion arterial etc. Este campo fue explorado en los sistemas ACS (Sistemas de computo autonomico) y son capaces de adaptarse a diferentes situaciones segun necesidades previstas y para que los sistemas sean autonomicos deben de cumplir con lo siguiente:
+- Conocimiento de si mismo
+- Capacidad de configurarse y reconfigurarse en condiciones variables e impredecibles
+- Busqueda de optimizacion en su funcionamiento
+- Capacidad de recuperacion frente a eventos que puedan causar fallos
+- Funcionalidad de autoproteccion
+- Conocimiento del entorno y capacidad de actuar acorde al contexto
+- No podra existir un ambiente hermetico
+- Anticipar y gestionar de manera eficiente los recursos necesarios, sin mostrar su complejidad
+#Revision #MasInfo 
+NOTA: revisar cita 36
+Tambien se menciona que debe de contar con cuatro propiedades basicas:
+- Autoconfiguracion: El sistema mantiene una configuracion automatizada de sus componentes
+- Autosanacion: El sistema es capaz de diagnosticar y reparar fallas que se pudiesen presentar tanto a nivelr software como en hardware (Verificar la segunda #BuscarPruebas)
+- Auto-optimizacion: Se buscan  
 ## Capitulo 3 - Estado del Arte
 ### Conceptualizacion de sistemas de autoingenieria
 ### Arquitecturas de referencia
