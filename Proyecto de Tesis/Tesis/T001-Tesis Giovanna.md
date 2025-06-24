@@ -67,8 +67,15 @@ El ciclo de vida de un sistema no termina con su despliegue, sino que este sigue
 NOTA: Revisar cita 51 y 29
 Son reglas las cuales establecen como derivar en nuevas versiones o entregas de software a sistemas ya existentes, las leyes son:
 - Cambio constante: los sistemas deben de adaptarse cotinuamente si no se comienzan a volver isatisfactorios.
-- Incremento de la complejidad: 
+- Incremento de la complejidad: a medida que un sistema evoluciona se vuelve mas complejo a menos que se tomen medidas para lo contrario.
+- Autoregulacion: el proceso de evolucion se autoregula con distribuciones y patrones estadisticos predecibles.
+- conservacion organizacional: la tasa efectiva de evolucion corresponde a la estabilidad invariante a lo largo de la vida util del producto.
+- Conservacion de familiaridad: a medida que pasa la evolucion, todo lo asociado al sistema debe de mantenerse en el dominio de su contenido, y comportamiento para lograr su evolucion satisfactoria.
+- Crecimiento continuo: el contenido funcional del sistema debe de irse incrementando para satisfacer al usuario.
+- Calidad decreciente: la calidad del sistema ira decreciendo a menos que se intervenga para que se adapte a los cambios del entorno.
+- Retroalimentacion del sistema: los procesos de evolucion tienen en cuenta la retroalimentacion de usuarios y desarrolladores.
 #### Gestion de cambio
+
 ### Definiciones de Metamorfosis
 ### Adaptacion y Autoadaptacion
 ### Computo Autonomico
