@@ -61,7 +61,7 @@ Existen modelos para la etapa de mantenimiento con objetivos unicos, por ejemplo
 - QuickFix: Identifica el problema e implementa la solucion de la manera mas rapida posible.
 - Reutilizacion Total: Se hace un analisis de requerimientos del nuevo sistema buscando implementar y reutilizar la mayor parte del sistema actual.
 ### Evolucion de un sistema de software
-
+Esta estapa corresponde a un estado despues del despliegue ya que en esta etapa de abordan los nuevos erqueriemientos y necesidades del sistema.
 #### Leyes de evolucion del software
 #### Gestion de cambio
 ### Definiciones de Metamorfosis
