@@ -1,4 +1,4 @@
-Lectura basada en la tesis [[Tesis Giovanna.pdf]]
+Lectura basada en la tesis [[Tesis Giovana.pdf]]
 # Nuevo Marco Conceptual de Sistemas de Autoingeniería y una Arquitectura para la Gestión de su Ciclo de Vida
 #ResumenTesis
 ## Capitulo 1 - Introducción
@@ -105,9 +105,10 @@ Tambien se menciona que debe de contar con cuatro propiedades basicas:
 - Autoproteccion: El sistema es capaz de defenderse de ataques maliciosos.
 ## Capitulo 3 - Estado del Arte
 En la literatura se han encontrado multiples definicion es de sistemas de autoingenieria:
-- “Un sistema es de autoingenier´ıa cuando registra y responde a una pérdida de funcionalidad o capacidad operativa, y autom´aticamente toma medidas para regresar la funcionalidad” #Revision cita 32
+- “Un sistema es de autoingenierıa cuando registra y responde a una pérdida de funcionalidad o capacidad operativa, y automaticamente toma medidas para regresar la funcionalidad” #Revision cita 32
 - “Capacidad diseñada e integrada a un sistema para identificar de forma independiente cualquier perdida o posible pérdida de funcionalidad, y luego restaurar automáticamente la funcionalidad total o parcial para mantener su disponibilidad y mejorar la resiliencia del sistema.” #Revision cita 13
-### Conceptualizacion de sistemas de autoingenieria
+### Conceptualización de sistemas de autoingenieria
+
 ### Arquitecturas de referencia
 ### Modelado basado en agentes para ingenieria de software
 ### Comparacion de trabajos
