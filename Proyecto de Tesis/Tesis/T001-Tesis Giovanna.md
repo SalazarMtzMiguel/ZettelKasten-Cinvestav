@@ -76,8 +76,12 @@ Son reglas las cuales establecen como derivar en nuevas versiones o entregas de 
 - Retroalimentacion del sistema: los procesos de evolucion tienen en cuenta la retroalimentacion de usuarios y desarrolladores.
 #### Gestion de cambio
 El cambio en un sistema de software consiste en el proceso de introduccion de nuevos requerimientos, modificacion a los ya planteados o implementados, o el cambio de operacion del sistema.
-Mientra surjan nuevos requerimientos la evolucion del sistema es inevitable, asi que existen maneras de gestionar estos requerimientos, se dividen en pasos o etapas, 
+Mientra surjan nuevos requerimientos la evolucion del sistema es inevitable, asi que existen maneras de gestionar estos requerimientos, se dividen en pasos o etapas:
+- Analisis del uevo problema y especificaciones del cambio: Se evalua la propuesta, asi como el problema actual, se ve si es viable para la modificacion de requerimientos y la posterior implementacion.
+- Analisis del cambio requerido: Se analiza para saber si se procede con el cambio de requerimientos.
+- Implementacion del cambio: Se presentan los cambios realizados en la implementacion del sistema y la documentacion correspondiente.
 ### Definiciones de Metamorfosis
+
 ### Adaptacion y Autoadaptacion
 ### Computo Autonomico
 ## Capitulo 3 - Estado del Arte
