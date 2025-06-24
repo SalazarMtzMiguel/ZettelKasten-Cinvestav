@@ -101,8 +101,10 @@ NOTA: revisar cita 36
 Tambien se menciona que debe de contar con cuatro propiedades basicas:
 - Autoconfiguracion: El sistema mantiene una configuracion automatizada de sus componentes
 - Autosanacion: El sistema es capaz de diagnosticar y reparar fallas que se pudiesen presentar tanto a nivelr software como en hardware (Verificar la segunda #BuscarPruebas)
-- Auto-optimizacion: Se buscan  
+- Auto-optimizacion: Se busca continuamente oportunidades para mejorar eficiencia y eficacia del sistema y sus componentes.
+- Autoproteccion: El sistema es capaz de defenderse de ataques maliciosos.
 ## Capitulo 3 - Estado del Arte
+
 ### Conceptualizacion de sistemas de autoingenieria
 ### Arquitecturas de referencia
 ### Modelado basado en agentes para ingenieria de software
