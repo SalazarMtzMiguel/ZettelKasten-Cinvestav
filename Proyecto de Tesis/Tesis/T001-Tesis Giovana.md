@@ -104,10 +104,13 @@ Tambien se menciona que debe de contar con cuatro propiedades basicas:
 - Auto-optimizacion: Se busca continuamente oportunidades para mejorar eficiencia y eficacia del sistema y sus componentes.
 - Autoproteccion: El sistema es capaz de defenderse de ataques maliciosos.
 ## Capitulo 3 - Estado del Arte
+En esta sección se presentan y analizan las definiciones previas en la literatura sobre
+los sistemas de autoingenierıa.
+### Conceptualización de sistemas de autoingenieria
 En la literatura se han encontrado multiples definicion es de sistemas de autoingenieria:
 - “Un sistema es de autoingenierıa cuando registra y responde a una pérdida de funcionalidad o capacidad operativa, y automaticamente toma medidas para regresar la funcionalidad” #Revision cita 32
 - “Capacidad diseñada e integrada a un sistema para identificar de forma independiente cualquier perdida o posible pérdida de funcionalidad, y luego restaurar automáticamente la funcionalidad total o parcial para mantener su disponibilidad y mejorar la resiliencia del sistema.” #Revision cita 13
-### Conceptualización de sistemas de autoingenieria
+### Arquitecturas de referencia
 #Revision cita 66 se propone un proceso de ingenieria agil con una arquitectura para los sistemas autogestionables basado en la ingenieria de software. Dicha arquitectura utiliza medidores o indicadores para interactuar con el sistema en ejecucion y recuperar datos para traducirlos en metricas para el ajuste del sistema o la adaptacion.
 El modelo se sistema viable #Revision cita 7 se centra en que todas las organizaciones son sistemas de tal manera que comparten principios y caracteristicas que dictan como se adaptan y sobreviven en entorno cambiantes.
 Dicho modelo propone de cinco subsistemas:
@@ -116,9 +119,15 @@ Dicho modelo propone de cinco subsistemas:
 - Control
 - Inteligencia
 - Politica
-
-### Arquitecturas de referencia
+#Revision cita 47 plantea una vision de los sistemas de autogestion a nivel arquitectonico en donde sus componentes configuran automaticamente su interaccion para que sean compatibles con configuraciones arquitectonicas y objetivos del sistema. Para ello se define en tres capas:
+- control de componentes
+- gestion de cambios
+- gestion de objetivos
+#Revision cita 46 presenta la arquitectura MAPE-K (Monitoring, Analyzing, Planning, Execution y Knowledge) siendo la representacion conceptual de un sistema autonomico.
+donde el componente monitor observa y recompila los datos del sistema, asi como del entorno. El componente de analisis estudia  los datos para la deteccion de situaciones que requieran una adaptacion. El componente de planeacion desarrolla estrategias de adaptacion para responder a los cambios. El componente de ejecucion realiza las estrategias planteadas. Y el componente de conocimiento almacena el estado del sistema asi como almacenar el conocimiento compartido por otros componentes.
+![[Bucle de control MAPEK.png]]
 ### Modelado basado en agentes para ingenieria de software
+
 ### Comparacion de trabajos
 ## Capitulo 4 - Propuesta
 ### Metodologia
