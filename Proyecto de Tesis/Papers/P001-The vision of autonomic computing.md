@@ -1,4 +1,4 @@
-Basado en el paper [[The vision of autonomic computing.pdf]]
+Basado en el paper [[(Kephart and Chess) The vision of autonomic computing.pdf]]
 #CitaLatex
 Cita BibLatex:
 @article{kephart2003vision,
