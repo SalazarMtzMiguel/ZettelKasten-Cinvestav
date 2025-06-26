@@ -1,3 +1,18 @@
+#CitaLatex 
+@mastersthesis{perez2024,
+  author = {Pérez Carrillo, Giovana Patricia},
+  title = {Nuevo Marco Conceptual de Sistemas de Autoingeniería y una Arquitectura para la Gestión de su Ciclo de Vida},
+  type = {Tesis de Maestría en Ciencias},
+  school = {Centro de Investigación y de Estudios Avanzados del Instituto Politécnico Nacional Unidad Guadalajara},
+  year = {2024},
+  month = {aug},
+  address = {Guadalajara, México},
+  note = {
+    Directores: Dr. Mario Ángel Siller González Pico y Dr. Luis Alberto Alonso Pastor.
+    Becaria CONAHCYT (expediente no. 1229663).
+    Formación previa: Ingeniería en Diseño Electrónico y Sistemas Inteligentes (CETI, 2018-2022)
+  }
+}
 Lectura basada en la tesis [[Tesis Giovana.pdf]]
 # Nuevo Marco Conceptual de Sistemas de Autoingeniería y una Arquitectura para la Gestión de su Ciclo de Vida
 #ResumenTesis
