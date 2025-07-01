@@ -142,10 +142,25 @@ Dicho modelo propone de cinco subsistemas:
 donde el componente monitor observa y recompila los datos del sistema, asi como del entorno. El componente de analisis estudia  los datos para la deteccion de situaciones que requieran una adaptacion. El componente de planeacion desarrolla estrategias de adaptacion para responder a los cambios. El componente de ejecucion realiza las estrategias planteadas. Y el componente de conocimiento almacena el estado del sistema asi como almacenar el conocimiento compartido por otros componentes.
 ![[Bucle de control MAPEK.png]]
 ### Modelado basado en agentes para ingenieria de software
-
+El modelado basado en agentes es una herramienta para simular y estudiar fenomenos complejos emergentes #Revision cita 39 se plantea el como evoluciona el software y permite describir el comportamiento de los desarrolladores.
+En #Revision cita 40 se presenta un modelo de simulacion basado en agentes para la evolucion de agentes del sogtware a traves de aprendizaje estadistico y mineria de datos.
+Actualmente las definiciones de los SES dejan fuera aspectos de ingenieria de sistemas y se concentran en la operacion y mantenimiento por lo cual es necesario que a los SES se les de un enfoque sistematico como el que brinda la ingenieria de sogtware.
 ### Comparacion de trabajos
+Una nueva visión para los SES enfocada en la evolución y gestión de su ciclo de vida
+usando el enfoque de la ingenierı́a requiere comparar posibles caracterı́sticas que se
+puedan presentar en estos sistemas.
+![[Tabla 3.1 definiciones.png]]
+![[Tabla 3.2 comparacion trabajos.png]]
 ## Capitulo 4 - Propuesta
 ### Metodologia
+Basicamente como trabajo:
+este trabajo se estructura en tres bloques fundamentales
+primero una revisión de la literatura, en el que se ha realizado
+una selección de la literatura más relevante sobre terminologı́a de sistemas de autoin-
+genierı́a mediante una revisión sistemática basada en la metodologı́a PRISMA #Revision cita 59.
+En el segundo bloque se plantean la definición y conceptualización del marco conceptual de los sistemas de autoingenierı́a, con el objetivo de definir e iterar en la teorı́a propuesta.
+en el bloque de análisis y validación se involucra una prueba de concepto mediante la experimentación con un caso estudio especı́fico ası́ como el análisis en escenarios teóricos con el objetivo de validar la teorı́a propuesta.
+![[Metodologia Tesis Gio.png]]
 #### Revision de la literatura
 #### Definicion y conceptualizacion
 #### Analisis y validacion
