@@ -162,6 +162,7 @@ En el segundo bloque se plantean la definición y conceptualización del marco c
 en el bloque de análisis y validación se involucra una prueba de concepto mediante la experimentación con un caso estudio especı́fico ası́ como el análisis en escenarios teóricos con el objetivo de validar la teorı́a propuesta.
 ![[Metodologia Tesis Gio.png]]
 #### Revision de la literatura
+El nucleo de esta tesis es la revision sistematica de la literatura para llevar un proceso estructurado para conocer la teoria existente sobre los sistemas de autoingenieria
 #### Definicion y conceptualizacion
 #### Analisis y validacion
 ### Propuesta marco conceptual y arquitectura: Sistemas de autoingenieria
