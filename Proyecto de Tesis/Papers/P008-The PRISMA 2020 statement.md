@@ -64,3 +64,5 @@ Lectura basada en el paper [[(PRISMA) The PRISMA 2020 statement.pdf]]
 - **Enfoque en transparencia**: Para reducir sesgos y facilitar replicabilidad.  
 
 PRISMA 2020 busca adaptarse a avances metodológicos (ejemplo: machine learning para screening) y promover estándares rigurosos en investigación.
+- - -
+
