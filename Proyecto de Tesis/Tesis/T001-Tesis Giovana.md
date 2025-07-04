@@ -157,7 +157,7 @@ Basicamente como trabajo:
 este trabajo se estructura en tres bloques fundamentales
 primero una revisión de la literatura, en el que se ha realizado
 una selección de la literatura más relevante sobre terminologı́a de sistemas de autoin-
-genierı́a mediante una revisión sistemática basada en la metodologı́a PRISMA #Revision cita 59.
+genierı́a mediante una revisión sistemática basada en la metodologı́a PRISMA (Se explica mas detallado en [[P008-The PRISMA 2020 statement]]).
 En el segundo bloque se plantean la definición y conceptualización del marco conceptual de los sistemas de autoingenierı́a, con el objetivo de definir e iterar en la teorı́a propuesta.
 en el bloque de análisis y validación se involucra una prueba de concepto mediante la experimentación con un caso estudio especı́fico ası́ como el análisis en escenarios teóricos con el objetivo de validar la teorı́a propuesta.
 ![[Metodologia Tesis Gio.png]]
