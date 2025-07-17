@@ -63,12 +63,9 @@ Lectura basada en el paper [[(PRISMA) The PRISMA 2020 statement.pdf]]
 - **Mayor detalle**: Búsquedas completas, roles de revisores, disponibilidad de datos.  
 - **Enfoque en transparencia**: Para reducir sesgos y facilitar replicabilidad.  
 
-PRISMA 2020 busca adaptarse a avances metodológicos (ejemplo: machine learning para screening) y promover estándares rigurosos en investigación.
+
 - - -
 
-¡Perfecto! Aquí tienes **las 27 partes del checklist PRISMA 2020**, organizadas por secciones y listas en formato Markdown, ideal para tu sistema de notas:
-
----
 
 ##  Sección 1: Título
 
