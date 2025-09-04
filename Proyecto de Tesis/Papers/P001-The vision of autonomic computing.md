@@ -13,3 +13,6 @@ Cita BibLatex:
 }
 #ResumenPaper
 
+
+Basicamente el pilar de la auto-gestion es que no se tenga a un administrador al pendiente del sistema en un rendimiento de 24/7.
+![[P001 Tabla 1 conceptps clave de la auto-gestion.png]]
