@@ -56,3 +56,49 @@ El ciclo de vida de un elementos autonomico (individual) o de sus relaciones ent
 este inicia con su diseño e imlementacion, se continua con las pruebas y verificacion, luego se procede con la instalacion, configuracion, optimizacion, actualizacion, monitoreo, determinacion del problema, recuperacion y culmina con su desinstalacion o reemplazo.
 
 ### Instalacion y configuracion
+
+instalar y configurar estos elementos autonomos seran un proceso de arranque que inicia con el registro del mismo en el directorio de servicio, listando sus capacidades e informacion de contando.
+
+### Monitoreo y determinacion del problema.
+
+Los elementos se vana a monitorear a si mismos para asegurar que van a coincidir con sus propios objetivos.
+
+### Actualizacion
+los elementos necesitan actualizarse a si mismos en el tiempo, incluso pueden crear nuevos elementos como parte de una actualizacion de sistema, pudiendo eliminar versiones obsoletas.
+
+### Manejo del ciclo de vida
+los elementos estaran en varias actividades simultaneamente, participando en una o mas negociaciones eb varuas fases de cinoketacuibm buscando de manera proactiva entradas de otros elementos.
+
+## Relaciones entre elementos autonomicos
+
+### Especificacion
+Un elemento debe tener asociado a el, un set de servicios de entrada que pueden desarrollar y un conjunto de servisions de entrada que requieren ser expresados en un formato estandar que nos demas elementos pueden entender.
+
+### Ubicacion
+un elemento debe ser capaz de localizar servicios de entrada que necesite, en torno otros elemento requiere sus servisios de salida debe de poder localizar ese elementos.
+
+### Negociacion
+Una vez un elemento encuentra proveedores potenciales de un servicio de entrada este debe de negociar con ellos como obtener ese servicio.
+
+### Provision
+Uno de los dos elementos alcanza el acuerdo, entonces proporciona sus recursos inernos.
+
+### Operacion
+Uno de los dos lados ha sido provisionado, estos operan bajo el tratado negociado.
+
+### Terminacion
+Una vez fueron despachados se termina el acuerdo, y se puede grabar informacion de ocmo fue la relacion para tener un registro de reputacion.
+
+## Problemas de todo el sistema
+Otros problemas de ingeniería importantes que surgen a nivel de sistema incluyen la seguridad, la privacidad y la confianza, así como la aparición de nuevos tipos de servicios para satisfacer las necesidades de otros elementos autónomos.
+Estos incluyen la autenticación, la autorización, el cifrado, la firma, la auditoría y la monitorización seguras, el no repudio, la agregación de datos y el enmascaramiento de identidad, y el cumplimiento de requisitos legales complejos que varían de un estado a otro o de un país a otro.
+
+## Especificacion de metas
+Mientras los sistemas autonomicos puedam asumir mucho de su operacion e integration, los humanos puedes proveerles a estos sistemas politicas, las metas y restricciones que gobiernen sus acciones.
+Se debe de garantizar que las metas son especificadas corrrectamente y que el sistema se comporte rasonablemente incluso cuando las metas no lo son.
+## Abstracciones de comportamiento y modelos
+Definir abstracciones y modelo propios para el entendimiento, control y diseño emergente en sustemas es un desafir en el corazon del computo autonomico.
+Un enfoque plausible combina técnicas avanzadas de búsqueda y optimización con modelos parametrizados de la relación entre lo local y lo global y el probable conjunto de influencias ambientales a las que estará sujeto el sistema.
+
+## Teoria de la robustez
+Un desafio relacionesdo es desarrollar teoria de la robustez para este tipo
