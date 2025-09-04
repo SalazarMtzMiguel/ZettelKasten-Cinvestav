@@ -16,3 +16,5 @@ Cita BibLatex:
 
 Basicamente el pilar de la auto-gestion es que no se tenga a un administrador al pendiente del sistema en un rendimiento de 24/7.
 ![[P001 Tabla 1 conceptps clave de la auto-gestion.png]]
+Un systema autonomico es el resultado de un conjunto de elementos autonomicos que se comunican e interactuan entre si.
+![[P001 Figura1 MAPEK como elementos autonomicos.png]]
