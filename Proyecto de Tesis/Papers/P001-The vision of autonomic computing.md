@@ -101,4 +101,14 @@ Definir abstracciones y modelo propios para el entendimiento, control y diseño 
 Un enfoque plausible combina técnicas avanzadas de búsqueda y optimización con modelos parametrizados de la relación entre lo local y lo global y el probable conjunto de influencias ambientales a las que estará sujeto el sistema.
 
 ## Teoria de la robustez
-Un desafio relacionesdo es desarrollar teoria de la robustez para este tipo
+Un desafio relacionesdo es desarrollar teoria de la robustez para este tipo de sistemas, incluyendo definiciones y nalisis, diversidad, redundancia y optimalidad y su srelaciones de uno a otro.
+
+## Aprendizaje y teoria de la optimizacion
+El aprendizaje maquina de un agente en solitario en ambientes relativamente estaticos es bien estudiado y es bien soportado por resultados teoricos fuertes.
+
+## Teoria de la negociacion
+Desde la perspectiva de los elementos individuales, debemos desarrollar y analizar algoritmos y protocolos de negociación, y determinar qué algoritmos de licitación o negociación son más efectivos.
+Desde la perspectiva del sistema en su conjunto, debemos establecer cómo el comportamiento general del sistema depende de la combinación de algoritmos de negociación que utilizan los distintos elementos autónomos, y establecer las condiciones bajo las cuales las negociaciones multilaterales, en contraposición a las bilaterales, entre los elementos son necesarias o deseables.
+
+## Modelado estadistico automatizado
+Modelos estadisticos de sistemas conectados de manera grande podran predecir el rendimiento de un flujo de datos de sensores de dispositivos individuales.
