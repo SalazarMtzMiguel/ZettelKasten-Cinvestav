@@ -45,4 +45,14 @@ Un systema autonomico es el resultado de un conjunto de elementos autonomicos qu
 
 El administrador autonomico distingue el elemento autonomico de su parte que no lo es, mediante la monitorizacion del elemento gestionado y su ambiente externo, y contruye y ejecuta planes basados en el analisis de su informacion, entonces el administrados autonomico puede relevar a los humanos en la responsabilidad directa de adminitracion del elemento en cuestion.
 
-Cada elemento autonomico sera responsa
+Cada elemento autonomico sera responsable por la gestion de su propio estado inter y comportamiento y sus interacciones con un entorno.
+
+# Desafios de ingenieria
+
+El ciclo de vida de un elementos autonomico (individual) o de sus relaciones entre otros elementos revela gran cantidad de desafios.
+
+## Ciclo de vida de un elemento autonomico
+
+este inicia con su diseño e imlementacion, se continua con las pruebas y verificacion, luego se procede con la instalacion, configuracion, optimizacion, actualizacion, monitoreo, determinacion del problema, recuperacion y culmina con su desinstalacion o reemplazo.
+
+### Instalacion y configuracion
