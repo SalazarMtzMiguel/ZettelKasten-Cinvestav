@@ -158,11 +158,23 @@ este trabajo se estructura en tres bloques fundamentales
 primero una revisión de la literatura, en el que se ha realizado
 una selección de la literatura más relevante sobre terminologı́a de sistemas de autoin-
 genierı́a mediante una revisión sistemática basada en la metodologı́a PRISMA (Se explica mas detallado en [[P008-The PRISMA 2020 statement]]).
+#### Revision de la literatura
+El nucleo de esta tesis es la revision sistematica de la literatura para llevar un proceso estructurado para conocer la teoria existente sobre los sistemas de autoingenieria
+
 En el segundo bloque se plantean la definición y conceptualización del marco conceptual de los sistemas de autoingenierı́a, con el objetivo de definir e iterar en la teorı́a propuesta.
 en el bloque de análisis y validación se involucra una prueba de concepto mediante la experimentación con un caso estudio especı́fico ası́ como el análisis en escenarios teóricos con el objetivo de validar la teorı́a propuesta.
 ![[Metodologia Tesis Gio.png]]
-#### Revision de la literatura
-El nucleo de esta tesis es la revision sistematica de la literatura para llevar un proceso estructurado para conocer la teoria existente sobre los sistemas de autoingenieria
+Para el proceso de la revision sistematica se ilustra  de la siguiente manera:
+![[Figura 4.2 Tesis Gio.png]]
+El objetivo es determina el alcance y el enfoque de la investigacion, asi analizar puntos fuertes y debiles de la investigacion y los resultados esperados.
+
+Para formular una pregunta de investigacion adecuada se usa la tecnica PICO. las variables de la tecnica son:
+P para cliente, problema de investigacion o  poblacion
+I para intervencion o innovacion
+C para la comparacion o contexto
+O para los resultados esperados
+![[PICO para Tesis de Gio.png]]
+
 #### Definicion y conceptualizacion
 #### Analisis y validacion
 ### Propuesta marco conceptual y arquitectura: Sistemas de autoingenieria
