@@ -7,7 +7,7 @@ P para cliente, problema de investigacion o  poblacion
 I para intervencion o innovacion
 C para la comparacion o contexto
 O para los resultados esperados
-basado en la imagen de PICO para el trabajo de mi compañera Giovana [[T001-Tesis Giovana]]
+basado en la imagen de PICO para el trabajo de mi compañera Giovana [[T001-Tesis Giovana]] y [[]]
 
 P: Auto-diseño en la autoingenieria
 I: Realizar un marco conceptual para esta etapa de la auto-ingenieria y un modelo
