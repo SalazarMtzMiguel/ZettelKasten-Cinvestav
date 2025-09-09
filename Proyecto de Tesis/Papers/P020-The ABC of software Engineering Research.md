@@ -11,3 +11,5 @@ A lo que sera mi tema de investigacion corresponde segun el paper y su tabla:
 ![[P020 Renglon util para mi I.png]]
 Esto se profundiza en la seccion 3.7 pagina 17 del documento en general.
 Se deben de revisar las citas del paper (161, 200, 201, 136, 65, 225) #MasInfo 
+Resumen
+Basicamente es encontrar recursos y conceptualizar lo que sea necesario para armar el rompecabezas de la parte teorica que se esta formulando.
