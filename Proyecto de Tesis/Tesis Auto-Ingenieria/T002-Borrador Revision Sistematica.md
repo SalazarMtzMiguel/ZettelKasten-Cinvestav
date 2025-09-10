@@ -46,7 +46,7 @@ Palabras clave:
 
 **1. Self-architecting Systems**
 
-- What are the fundamental principles of self-architecting systems in software engineering?
+- What are the fundamental principles of self-architecting systems in software engineering? 
     
 - What are the main benefits and challenges of implementing self-architecting systems?
     
