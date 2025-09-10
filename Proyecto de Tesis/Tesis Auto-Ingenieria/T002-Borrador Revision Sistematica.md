@@ -17,7 +17,7 @@ O: Terminologias y modelo para integracion
 Con esto en mente podemos tener la pregunta para la revision sistematica:
 
 #PreguntaInvestigacion
-¿Como se ha abordado el autodiseño de sistemas y como se han automatizado procesos tradicionales de la ingenieria de diseño?
+¿Como se ha abordado el autodiseño de sistemas? y ¿como se han automatizado procesos tradicionales de la ingenieria de diseño?
 
 La ultima parte referente a: [[T003-Proceso de Ingenieria de Diseño]]
 
