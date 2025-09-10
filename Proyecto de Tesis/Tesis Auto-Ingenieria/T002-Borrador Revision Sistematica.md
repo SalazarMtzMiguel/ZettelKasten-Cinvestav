@@ -27,6 +27,7 @@ Self-Design
 Evolutionary design in software Systems​
 Generative design in software Systems​
 Software design automation​
+Self-sufficient systems​
 AI for software engineering​
 
 Self-Architectural Design
@@ -40,4 +41,6 @@ Auto-Interface Design
 Auto-Component Design
 Auto-Data Structure Design
 Auto-Algorithm Design
+
+## Preguntas clave:
 

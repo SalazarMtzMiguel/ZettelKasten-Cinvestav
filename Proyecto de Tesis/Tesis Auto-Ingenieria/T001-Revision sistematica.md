@@ -119,4 +119,6 @@ Aquí una tabla con ideas para construir queries de búsqueda:
 
 ---
 
-¿Quieres que prepare una búsqueda en Google Scholar con estos términos y te dé artículos recientes relevantes?
+![[Tabla para herramientas y su uso.png]]
+
+
