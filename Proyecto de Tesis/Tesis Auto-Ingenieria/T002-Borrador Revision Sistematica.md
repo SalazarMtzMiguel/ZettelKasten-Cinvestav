@@ -46,7 +46,7 @@ Palabras clave:
 
 **1. Self-architecting Systems**
 
-- ==What are the fundamental principles of self-architecting systems in software engineering?== 
+- ==What are the fundamental principles of self-architecting systems in software engineering?==
      
 - What are the main benefits and challenges of implementing self-architecting systems?
     
@@ -59,7 +59,7 @@ Palabras clave:
     
 - ==What are the key methodologies used to implement self-design in software systems?==
     
-- What are the effects of self-design on software maintainability and scalability?  
+- ==What are the effects of self-design on software maintainability and scalability?==  
     
 
 **3. Evolutionary design in software Systems**
@@ -68,14 +68,14 @@ Palabras clave:
     
 - ==How does evolutionary design in software systems compare to traditional design methodologies?==
     
-- ==What are the limitations of using evolutionary algorithms for software systems design?==
+- What are the limitations of using evolutionary algorithms for software systems design?
     
 
 **4. Generative design in software Systems**
 
 - What are the effects of generative design on the software development lifecycle?  
     
-- ==What are the most common generative design techniques applied to software systems?==
+- What are the most common generative design techniques applied to software systems?
     
 - Does generative design improve the quality and innovation of software systems? 
     
