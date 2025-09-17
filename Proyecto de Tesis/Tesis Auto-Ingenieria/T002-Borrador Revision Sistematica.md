@@ -73,9 +73,9 @@ Palabras clave:
 
 **4. Generative design in software Systems**
 
-- What are the effects of generative design on the software development lifecycle?  
+- ==What are the effects of generative design on the software development lifecycle?==  
     
-- What are the most common generative design techniques applied to software systems?
+- ==What are the most common generative design techniques applied to software systems?==
     
 - Does generative design improve the quality and innovation of software systems? 
     
