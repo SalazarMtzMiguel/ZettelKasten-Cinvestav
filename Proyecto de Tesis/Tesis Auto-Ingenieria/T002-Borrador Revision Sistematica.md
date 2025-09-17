@@ -91,7 +91,7 @@ Palabras clave:
 
 **6. Self-sufficient systems**
 
-- What are the core characteristics that define self-sufficient software systems?
+- ==What are the core characteristics that define self-sufficient software systems?==
     
 - What are the main barriers to achieving fully self-sufficient systems in practice?
     
