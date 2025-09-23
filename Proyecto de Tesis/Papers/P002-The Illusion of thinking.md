@@ -11,3 +11,5 @@
   primaryclass = {cs.AI}
 }
 Basado en el paper [[(Apple) The illusion of thinking.pdf]]
+
+El documento narra las diferencias clave de lo que son los LLM y los LRM
