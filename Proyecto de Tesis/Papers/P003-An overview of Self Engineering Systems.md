@@ -31,3 +31,8 @@ Caracteristicas clave:
 4. No debe haber intervencion humana, en cualquier proceso la respuesta y comportamiento debera ser automatico.
 
 
+Se consideran las siguientes caracteristicas.
+Monitoreo: Observar todo habilita reducir la oportunidad de
+Gatillo:
+Respuesta:
+Verificacion:
