@@ -25,5 +25,5 @@ Para mantener guturos sistemas algo mas ambicioso el diseño de un sistemas auto
 Aqui se defines un sistema de autoingenieria como:
 la habilidad de diseñar y construir un sistema que independientemente identifica cualquier perdida de funcionalidad o potencial y automaticamente restaurar la funcionalidad parcial o completamente para mantener su disponibilidad y mejorar la resiliencia del sistema.
 1. Tener la habilidad de restaurar percial o completamente una funcion o capacidad perdida.
-2. Debe de contruir un sistema
+2. Debe de contruir un sistema 
 
