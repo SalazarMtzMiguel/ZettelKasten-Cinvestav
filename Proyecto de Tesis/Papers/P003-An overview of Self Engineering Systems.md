@@ -24,6 +24,10 @@ La busqueda actual en MRO (maintenance, repair and overhaul), requiere monitoreo
 Para mantener guturos sistemas algo mas ambicioso el diseño de un sistemas auto-ingeniado es requerico cuando puede mantener sus funciones clave, a pesar de su degradacion, uso, daño o fallas en su ciclo de vida.
 Aqui se defines un sistema de autoingenieria como:
 la habilidad de diseñar y construir un sistema que independientemente identifica cualquier perdida de funcionalidad o potencial y automaticamente restaurar la funcionalidad parcial o completamente para mantener su disponibilidad y mejorar la resiliencia del sistema.
+Caracteristicas clave:
 1. Tener la habilidad de restaurar percial o completamente una funcion o capacidad perdida.
-2. Debe de contruir un sistema 
+2. Debe de estar en el sistema no ser añadido despues.
+3. Apunta a evadir o reducir el mantenimiento, prolongar y/o incrementar la resiliencia y robustez.
+4. No debe haber intervencion humana, en cualquier proceso la respuesta y comportamiento debera ser automatico.
+
 
