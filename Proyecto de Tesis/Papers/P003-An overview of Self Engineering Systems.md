@@ -49,6 +49,11 @@ El self- es decir el auto se puso en lugar de autonomo y automatico puesto que a
 El administrador autonomico en computo autonomico tiene un ciclo de control similar, MAPE.
 ![[Figura 1 Brooks.png]]
 
-
+Nombra caracteristicas como:
+Auto-sanacion
+Auto-reparacion
+Auto-organizacion
+Auto-optimizacion
+Auto-sellado
 
 Hasta aqui lo dejare puesto que muchas caracteristicas van mas a lo fisico que a lo que seria en el enfoque de la auto-ingenieria de software.
