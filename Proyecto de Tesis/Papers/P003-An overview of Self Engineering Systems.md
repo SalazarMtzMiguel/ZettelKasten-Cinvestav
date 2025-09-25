@@ -47,6 +47,7 @@ El self- es decir el auto se puso en lugar de autonomo y automatico puesto que a
 ## Control de Auto-Ingenieria
 
 El administrador autonomico en computo autonomico tiene un ciclo de control similar, MAPE.
+![[Figura 1 Brooks.png]]
 
 
 
