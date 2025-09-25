@@ -55,5 +55,15 @@ Auto-reparacion
 Auto-organizacion
 Auto-optimizacion
 Auto-sellado
+Auto-limpieza
+Auto-ensamblaje
+Auto-folding
+Auto-administracion
+Auto-diagnostico
+Auto-modelado
+Auto-evaluacion
+Auto-inspeccion
+Auto-conciencia
+Auto-testing
 
 Hasta aqui lo dejare puesto que muchas caracteristicas van mas a lo fisico que a lo que seria en el enfoque de la auto-ingenieria de software.
