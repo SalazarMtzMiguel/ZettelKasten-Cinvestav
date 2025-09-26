@@ -1,4 +1,3 @@
-Basado en el paper [[(Kephart and Chess) The vision of autonomic computing.pdf]]
 #CitaLatex
 Cita BibLatex:
 @article{kephart2003vision,
@@ -11,6 +10,9 @@ Cita BibLatex:
   year={2003},
   publisher={IEEE}
 }
+
+Basado en el paper [[(Kephart and Chess) The vision of autonomic computing.pdf]]
+
 #ResumenPaper
 
 Los sistemas cada vez con mas complejos y de hecho ya son masivos, esto lleva a que incluso a las personas mas capaces y habilidosas tengan problemas para instalar, configurar, optimiza, mantener y fusionar. Entonces no existe manera de que estos procesos sean llevados a cabo de manera rapida y decisiva en un sonjunto rapido de cambios o de conflictos bajo demanda.

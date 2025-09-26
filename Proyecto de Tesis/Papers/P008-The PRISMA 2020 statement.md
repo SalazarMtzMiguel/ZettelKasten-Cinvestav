@@ -1,4 +1,16 @@
-#CompletarCita
+#CitaLatex 
+@article {Pagen2020PRISMA,
+author = {Page, Matthew J and McKenzie, Joanne E and Bossuyt, Patrick M and Boutron, Isabelle and Hoffmann, Tammy C and Mulrow, Cynthia D and Shamseer, Larissa and Tetzlaff, Jennifer M and Akl, Elie A and Brennan, Sue E and Chou, Roger and Glanville, Julie and Grimshaw, Jeremy M and Hr{\'o}bjartsson, Asbj{\o}rn and Lalu, Manoj M and Li, Tianjing and Loder, Elizabeth W and Mayo-Wilson, Evan and McDonald, Steve and McGuinness, Luke A and Stewart, Lesley A and Thomas, James and Tricco, Andrea C and Welch, Vivian A and Whiting, Penny and Moher, David},
+title = {The PRISMA 2020 statement: an updated guideline for reporting systematic reviews},
+volume = {372},
+elocation-id = {n71},
+year = {2021},
+doi = {10.1136/bmj.n71},
+publisher = {BMJ Publishing Group Ltd},
+URL = {https://www.bmj.com/content/372/bmj.n71},
+eprint = {https://www.bmj.com/content/372/bmj.n71.full.pdf},
+journal = {BMJ}
+}
 Lectura basada en el paper [[(PRISMA) The PRISMA 2020 statement.pdf]]
 
 ### Puntos Clave del Documento PRISMA 2020:
