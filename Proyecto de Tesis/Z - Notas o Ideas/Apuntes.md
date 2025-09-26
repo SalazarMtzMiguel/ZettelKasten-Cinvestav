@@ -12,3 +12,11 @@ Otro objetivo especifico es lleva a cabo un CASO ESTUDIO de  VALIDACION, VERIFIC
 
 Trabajos de automatizacion de ingenieria de diseño,
 Otros trabajos con ingenieria de requerimientos, estructurar el paper con lo que tiene interseccion de etapas de automatizacion del diseño,
+computo autonomico qu eetien que ver con pruebas, requerimientos, diseño, 
+
+
+
+
+Future generation computer sistems a donde se mandata el paper
+
+Tabla de excel que diga como
