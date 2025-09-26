@@ -1,6 +1,8 @@
 Objetivo:
 Realizar una busqueda para encontrar como se a abordado el sujeto "Auto-diseño en la auto-ingenieria" y procesos automatizados en el proceso tradicional de la ingenieria de diseño.
 
+Se basa en la metodologia PRISMA (notas y paper citado en: [[P008-The PRISMA 2020 statement]] )
+
 PICO par la pregunta de investigacion:
 Para formular una pregunta de investigacion adecuada se usa la tecnica PICO. las variables de la tecnica son:
 P para cliente, problema de investigacion o  poblacion
@@ -9,7 +11,7 @@ C para la comparacion o contexto
 O para los resultados esperados
 basado en la imagen de PICO para el trabajo de mi compañera Giovana [[T001-Tesis Giovana]] y [[P019-And, at first, it was the research question]]
 
-P: Auto-diseño en la autoingenieria
+P: Auto-diseño en la auto-ingenieria
 I: Realizar un marco conceptual para esta etapa de la auto-ingenieria y un modelo
 C: En el contexto de la ingenieria de sistemas computacionales
 O: Terminologias y modelo para integracion
