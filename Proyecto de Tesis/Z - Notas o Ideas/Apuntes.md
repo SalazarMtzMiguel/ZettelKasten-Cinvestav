@@ -20,3 +20,6 @@ computo autonomico qu eetien que ver con pruebas, requerimientos, diseño,
 Future generation computer sistems a donde se mandata el paper
 
 Tabla de excel que diga como
+
+
+Agent.Based modeling for integrating human behavior into the FEW NEXUS.
