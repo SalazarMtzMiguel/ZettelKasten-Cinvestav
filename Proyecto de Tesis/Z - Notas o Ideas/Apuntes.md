@@ -8,3 +8,7 @@
 A cada pregunta planteada le corresponde un objetivo especifico (4).
 
 Otro objetivo especifico es lleva a cabo un CASO ESTUDIO de  VALIDACION, VERIFICACION Y PRUEBAS.
+
+
+Trabajos de automatizacion de ingenieria de diseño,
+Otros trabajos con ingenieria de requerimientos, estructurar el paper con lo que tiene interseccion de etapas de automatizacion del diseño,
