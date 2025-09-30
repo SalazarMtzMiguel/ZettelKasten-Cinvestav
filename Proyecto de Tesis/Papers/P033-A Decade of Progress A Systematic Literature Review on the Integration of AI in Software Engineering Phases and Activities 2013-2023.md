@@ -1,4 +1,16 @@
-#CompletarCita 
+#CitaLatex 
+@ARTICLE{10740293,
+  author={Durrani, Usman Khan and Akpinar, Mustafa and Fatih Adak, Muhammed and Talha Kabakus, Abdullah and Maruf Öztürk, Muhammed and Saleh, Mohammed},
+  journal={IEEE Access}, 
+  title={A Decade of Progress: A Systematic Literature Review on the Integration of AI in Software Engineering Phases and Activities (2013-2023)}, 
+  year={2024},
+  volume={12},
+  number={},
+  pages={171185-171204},
+  keywords={Artificial intelligence;Systematics;Software;Maintenance;Testing;Optimization;Software engineering;Resource management;Encoding;Codes;AI;artificial intelligence;deep learning;expert systems;integration;machine learning;natural language processing;optimization algorithms;planning;requirement engineering;software deployment;software development;software engineering;software maintenance;software testing;systematic literature review},
+  doi={10.1109/ACCESS.2024.3488904}}
+
+
 Lectura basada en [[(Usman Khan Durrani) A Decade of Progress A Systematic Literature Review on the Integration of AI in Software Engineering Phases and Activities 2013-2023.pdf]]
 
 

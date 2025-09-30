@@ -1,4 +1,15 @@
-#CompletarCita 
+#CitaLatex 
+@INPROCEEDINGS{10476069,
+  author={Chang, Tianyou and Chen, Shizhan and Fan, Guodong and Feng, Zhiyong},
+  booktitle={2023 IEEE 29th International Conference on Parallel and Distributed Systems (ICPADS)}, 
+  title={A Self-Iteration Code Generation Method Based on Large Language Models}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={275-281},
+  keywords={Codes;Benchmark testing;Chatbots;Software;Task analysis;Faces;Iteration;Code generation;Large language models},
+  doi={10.1109/ICPADS60453.2023.00049}}
+
 Lectura basada en [[(Tianyou Chang) A Self-Iteration Code Generation Method Based on Large Language Models.pdf]]
 
 
