@@ -1,4 +1,24 @@
-#CompletarCita 
+#CitaLatex 
+@article{10.1145/3487043,
+author = {Mart\'{\i}nez-Fern\'{a}ndez, Silverio and Bogner, Justus and Franch, Xavier and Oriol, Marc and Siebert, Julien and Trendowicz, Adam and Vollmer, Anna Maria and Wagner, Stefan},
+title = {Software Engineering for AI-Based Systems: A Survey},
+year = {2022},
+issue_date = {April 2022},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {31},
+number = {2},
+issn = {1049-331X},
+url = {https://doi.org/10.1145/3487043},
+doi = {10.1145/3487043},
+abstract = {AI-based systems are software systems with functionalities enabled by at least one AI component (e.g., for image-, speech-recognition, and autonomous driving). AI-based systems are becoming pervasive in society due to advances in AI. However, there is limited synthesized knowledge on Software Engineering (SE) approaches for building, operating, and maintaining AI-based systems. To collect and analyze state-of-the-art knowledge about SE for AI-based systems, we conducted a systematic mapping study. We considered 248 studies published between January 2010 and March 2020. SE for AI-based systems is an emerging research area, where more than 2/3 of the studies have been published since 2018. The most studied properties of AI-based systems are dependability and safety. We identified multiple SE approaches for AI-based systems, which we classified according to the SWEBOK areas. Studies related to software testing and software quality are very prevalent, while areas like software maintenance seem neglected. Data-related issues are the most recurrent challenges. Our results are valuable for: researchers, to quickly understand the state-of-the-art and learn which topics need more research; practitioners, to learn about the approaches and challenges that SE entails for AI-based systems; and, educators, to bridge the gap among SE and AI in their curricula.},
+journal = {ACM Trans. Softw. Eng. Methodol.},
+month = apr,
+articleno = {37e},
+numpages = {59},
+keywords = {Software engineering, artificial intelligence, AI-based systems, systematic mapping study}
+}
+
 Lectura basada en [[(Silverio Martinez) Software Engineering for AI-Based Systems A Survey.pdf]]
 
 
