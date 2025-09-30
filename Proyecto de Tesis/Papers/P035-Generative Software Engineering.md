@@ -1,4 +1,14 @@
-#CompletarCita 
+#CitaLatex 
+@misc{huang2024generativesoftwareengineering,
+      title={Generative Software Engineering}, 
+      author={Yuan Huang and Yinan Chen and Xiangping Chen and Junqi Chen and Rui Peng and Zhicao Tang and Jinbo Huang and Furen Xu and Zibin Zheng},
+      year={2024},
+      eprint={2403.02583},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      url={https://arxiv.org/abs/2403.02583}, 
+}
+
 Lectura basada en [[(Yuan Huang) Generative Software Engineering.pdf]]
 
 
