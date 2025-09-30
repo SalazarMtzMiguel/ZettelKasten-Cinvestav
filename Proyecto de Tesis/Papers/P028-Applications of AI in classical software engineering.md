@@ -1,4 +1,18 @@
-#CompletarCita 
+#CitaLatex 
+@article{barenkampApplicationsAIClassical2020,
+  title = {Applications of {{AI}} in Classical Software Engineering},
+  author = {Barenkamp, Marco and Rebstadt, Jonas and Thomas, Oliver},
+  date = {2020-07-26},
+  journaltitle = {AI Perspectives},
+  shortjournal = {AI Perspectives},
+  volume = {2},
+  number = {1},
+  pages = {1},
+  issn = {2523-398X},
+  doi = {10.1186/s42467-020-00005-4},
+  url = {https://doi.org/10.1186/s42467-020-00005-4},
+  abstract = {Although Artificial Intelligence (AI) has become a buzzword for self-organizing IT applications, its relevance to software engineering has hardly been analyzed systematically. This study combines a systematic review of previous research in the field and five qualitative interviews with software developers who use or want to use AI tools in their daily work routines, to assess the status of development, future development potentials and equally the risks of AI application to software engineering. The study classifies the insights in the software development life cycle.}
+}
 Lectura basada en [[(Marco Barenkamp) Applications of AI in classical software.pdf]]
 
 

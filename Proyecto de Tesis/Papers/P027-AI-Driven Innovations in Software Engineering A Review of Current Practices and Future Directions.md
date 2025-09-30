@@ -1,4 +1,17 @@
-#CompletarCita 
+#CitaLatex 
+@Article{app15031344,
+AUTHOR = {Alenezi, Mamdouh and Akour, Mohammed},
+TITLE = {AI-Driven Innovations in Software Engineering: A Review of Current Practices and Future Directions},
+JOURNAL = {Applied Sciences},
+VOLUME = {15},
+YEAR = {2025},
+NUMBER = {3},
+ARTICLE-NUMBER = {1344},
+URL = {https://www.mdpi.com/2076-3417/15/3/1344},
+ISSN = {2076-3417},
+ABSTRACT = {The software engineering landscape is undergoing a significant transformation with the advent of artificial intelligence (AI). AI technologies are poised to redefine traditional software development practices, offering innovative solutions to long-standing challenges. This paper explores the integration of AI into software engineering processes, aiming to identify its impacts, benefits, and the challenges that accompany this paradigm shift. A comprehensive analysis of current AI applications in software engineering is conducted, supported by case studies and theoretical models. The study examines various phases of software development to assess where AI contributes most effectively. The integration of AI enhances productivity, improves code quality, and accelerates development cycles. Key areas of impact include automated code generation, intelligent debugging, predictive maintenance, and enhanced decision-making processes. AI is revolutionizing software engineering by introducing automation and intelligence into the development lifecycle. Embracing AI-driven tools and methodologies is essential for staying competitive in the evolving technological landscape.},
+DOI = {10.3390/app15031344}
+}
 Lectura basada en [[(Mamdouh Alenezi) AI-Driven Innovations in Software Engineering A Review of Current Practices and Future DIrections.pdf]]
 
 
