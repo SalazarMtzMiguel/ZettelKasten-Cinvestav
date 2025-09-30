@@ -1,4 +1,18 @@
-#CompletarCita 
+#CitaLatex 
+@article{RAMIREZ2015234,
+title = {An approach for the evolutionary discovery of software architectures},
+journal = {Information Sciences},
+volume = {305},
+pages = {234-255},
+year = {2015},
+issn = {0020-0255},
+doi = {https://doi.org/10.1016/j.ins.2015.01.017},
+url = {https://www.sciencedirect.com/science/article/pii/S0020025515000559},
+author = {Aurora Ramírez and José Raúl Romero and Sebastián Ventura},
+keywords = {Search based software engineering, Software architecture discovery, Evolutionary algorithms, Ranking aggregation fitness},
+abstract = {Software architectures constitute important analysis artefacts in software projects, as they reflect the main functional blocks of the software. They provide high-level analysis artefacts that are useful when architects need to analyse the structure of working systems. Normally, they do this process manually, supported by their prior experiences. Even so, the task can be very tedious when the actual design is unclear due to continuous uncontrolled modifications. Since the recent appearance of search based software engineering, multiple tasks in the area of software engineering have been formulated as complex search and optimisation problems, where evolutionary computation has found a new area of application. This paper explores the design of an evolutionary algorithm (EA) for the discovery of the underlying architecture of software systems. Important efforts have been directed towards the creation of a generic and human-oriented process. Hence, the selection of a comprehensible encoding, a fitness function inspired by accurate software design metrics, and a genetic operator simulating architectural transformations all represent important characteristics of the proposed approach. Finally, a complete parameter study and experimentation have been performed using real software systems, looking for a generic evolutionary approach to help software engineers towards their decision making process.}
+}
+
 Lectura basada en [[(Aurora Ramirez) An approach for the evolutionary discovery of software architectures.pdf]]
 
 ### Resumen del Paper: "Un Enfoque para el Descubrimiento Evolutivo de Arquitecturas de Software"

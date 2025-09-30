@@ -1,4 +1,12 @@
-#CompletarCita 
+#CitaLatex 
+@article{acosta2021generative,
+  title={Generative design software and different approaches},
+  author={Acosta-Zazueta, Gonzalo and Alcaide-Marzal, Jorge and Diego-M{\'a}s, Jos{\'e} Antonio},
+  journal={Proceedings of DARCH},
+  volume={2021},
+  number={1st},
+  year={2021}
+}
 Lectura basada en [[(Gonzalo Acosta-Zazueta) GENERATIVE DESIGN SOFTWARE AND DIFFERENT APPROACHES.pdf]]
 
 

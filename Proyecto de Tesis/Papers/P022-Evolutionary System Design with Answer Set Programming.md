@@ -1,4 +1,18 @@
-#CompletarCita 
+#CitaLatex 
+@Article{a16040179,
+AUTHOR = {Haubelt, Christian and Müller, Luise and Neubauer, Kai and Schaub, Torsten and Wanko, Philipp},
+TITLE = {Evolutionary System Design with Answer Set Programming},
+JOURNAL = {Algorithms},
+VOLUME = {16},
+YEAR = {2023},
+NUMBER = {4},
+ARTICLE-NUMBER = {179},
+URL = {https://www.mdpi.com/1999-4893/16/4/179},
+ISSN = {1999-4893},
+ABSTRACT = {We address the problem of evolutionary system design (ESD) by means of answer set programming modulo difference constraints (AMT). The goal of this design approach is to synthesize new product variants or generations from existing products. We start by formalizing the underlying system synthesis problem and design space exploration process, which consists of finding the Pareto front with respect to latency, cost, energy, and similarity measures between the two designs. We then present AMT-based encodings to capture all of these aspects. The idea is to use plain ASP for conflict detection and resolution and for routing and to use difference constraints for scheduling. Moreover, we propose a new approach for expressing the similarity that we use at three alternative levels of AMT-based design space exploration, namely, at the strategic, heuristic, and objective levels, which is performed to guide the exploration towards designs of high interest. Last but not least, we systematically evaluate the emerging techniques empirically and identify the most promising AMT techniques.},
+DOI = {10.3390/a16040179}
+}
+
 Lectura basada en [[(Christian Haubelt) Evolutionary System Design with Answer Set Programming.pdf]]
 
 
