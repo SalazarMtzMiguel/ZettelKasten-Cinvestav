@@ -64,7 +64,7 @@ Este concepto es crucial porque permite que el aprendizaje ocurra no solo a nive
 - **Diferenciación con MAPE-K:** A diferencia de MAPE-K, este estilo descompone el componente de Conocimiento (K) en una representación de grano fino (los 5 niveles) y está diseñado para aprender conocimiento que no se conoce a priori.
 - **Diferenciación con ODA/SEEC:** El estilo propuesto se describe como **OLDA (Observe-Learn-Decide-Act)**, explicitando el aprendizaje como un componente de primer nivel, separado de la decisión.
 
-### Conclusión: ¿Es útil para tu tesis?
+### Conclusión: 
 
 Este paper sería **muy útil para tu tesis** si tu investigación se enfoca en:
 

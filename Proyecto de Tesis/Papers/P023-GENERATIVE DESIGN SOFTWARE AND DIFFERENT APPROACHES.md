@@ -44,7 +44,7 @@ A partir de su revisión, el paper identifica una clara tendencia en el ámbito 
 - **Popularidad:** La facilidad de uso de los lenguajes de programación visual como Grasshopper los hace más productivos y motivadores, especialmente para principiantes, lo que puede explicar su popularidad en la investigación.
 - **Flexibilidad:** Grasshopper ofrece un entorno de programación extensible que permite a los diseñadores explorar una amplia gama de soluciones basadas en un espacio de diseño definido, en lugar de limitarse a crear un modelo digital final y fijo.
 
-### Conclusión: ¿Es útil para tu tesis?
+### Conclusión:
 
 Este paper sería **muy útil para tu tesis**, especialmente si tu trabajo se encuentra en las siguientes áreas:
 

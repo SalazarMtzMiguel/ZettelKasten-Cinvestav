@@ -59,7 +59,7 @@ El paper dedica una sección importante a las implicaciones éticas y el futuro 
 - **Impacto en la Profesión:** La IA automatizará tareas repetitivas, lo que podría llevar a un **desplazamiento laboral** y a la comoditización de las habilidades de codificación básicas. Al mismo tiempo, aumentará la demanda de profesionales con habilidades en **arquitectura y diseño de soluciones complejas**. Esto también requerirá una adaptación de los planes de estudio universitarios.
     
 
-### Conclusión: ¿Es útil para tu tesis?
+### Conclusión:
 
 Este paper es **extremadamente útil para tu tesis**, especialmente si estás realizando una revisión sistemática, por las siguientes razones:
 

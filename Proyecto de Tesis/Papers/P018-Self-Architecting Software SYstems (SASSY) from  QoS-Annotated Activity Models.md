@@ -65,7 +65,7 @@ Esta es una de las contribuciones más importantes. Cuando la simple selección 
 
 El marco está diseñado para ser dinámico. Si en tiempo de ejecución un servicio no cumple su contrato de QoS, los monitores pueden disparar el proceso de SASSY para generar y desplegar una nueva arquitectura adaptada. De igual manera, si los requisitos cambian (evolución), el experto modifica el modelo SAS y SASSY adapta la arquitectura existente.
 
-### Conclusión: ¿Es útil para tu tesis?
+### Conclusión:
 
 Este paper sería **muy útil para tu tesis** si tu investigación se enfoca en alguna de estas áreas:
 

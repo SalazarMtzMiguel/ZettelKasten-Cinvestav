@@ -51,7 +51,7 @@ Estas operaciones están guiadas por heurísticas basadas en el conocimiento del
 - Se realizó un estudio exhaustivo de los parámetros del algoritmo (métodos de selección, pesos de las mutaciones, tamaño de la población) para encontrar la configuración más adecuada y ofrecer guías a los arquitectos.
 - Los resultados demuestran que el algoritmo es capaz de gestionar el **conflicto (_trade-off_) entre las métricas** (por ejemplo, mejorar el ERP puede empeorar el ICD) y encontrar soluciones de buena calidad para todos los casos de estudio.
 
-### Conclusión: ¿Es útil para tu tesis?
+### Conclusión:
 
 Este paper podría ser **muy útil para tu tesis**, especialmente si tu investigación se centra en:
 

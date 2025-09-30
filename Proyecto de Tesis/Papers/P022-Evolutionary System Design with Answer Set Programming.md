@@ -51,7 +51,7 @@ Los autores realizaron una evaluación empírica exhaustiva comparando las tres 
 - **Las Estrategias resultaron ser demasiado restrictivas:** En muchos casos, los cambios entre las especificaciones del padre y el hijo hacían que la similitud estricta fuera imposible, llevando a la conclusión de que no existía ninguna solución (_insatisfiability_). Sin embargo, en los casos en que funcionaron, ofrecieron garantías de similitud.
 - **Las Preferencias no tuvieron un buen rendimiento:** Añadir la similitud como un cuarto objetivo de optimización aumentó significativamente la complejidad del problema, lo que resultó en que se encontraron menos soluciones en el tiempo asignado.
 
-### Conclusión: ¿Es útil para tu tesis?
+### Conclusión:
 
 Este paper podría ser **muy útil para tu tesis**, especialmente si tu investigación se centra en:
 

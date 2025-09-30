@@ -71,7 +71,7 @@ Los autores evaluaron su método (ICA-TS con FCA) comparándolo con otros algori
 - **Eficacia del algoritmo híbrido:** El método ICA-TS con FCA demostró ser **el más eficiente**, superando a GA y a ICA, especialmente en el caso de estudio más grande y complejo.
 - **Importancia de la inicialización con FCA:** Los resultados muestran que iniciar el proceso con FCA **mejora significativamente el rendimiento final** y ayuda a que los algoritmos converjan más rápido.
 
-### Conclusión: ¿Es útil para tu tesis?
+### Conclusión: 
 
 Este paper podría ser **muy útil para tu tesis** si tu investigación se centra en alguno de los siguientes temas:
 

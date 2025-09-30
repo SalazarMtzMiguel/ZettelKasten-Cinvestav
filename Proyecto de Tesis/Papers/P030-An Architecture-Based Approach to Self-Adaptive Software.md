@@ -53,7 +53,7 @@ Este es un documento fundamental que propone un **marco metodológico completo y
         1. **Planificación de Observación (Observation Planning):** Determina qué observaciones son necesarias para decidir cuándo y dónde se requieren adaptaciones, considerando los costos de monitoreo.
         2. **Planificación de Adaptación (Adaptation Planning):** Determina exactamente qué adaptaciones realizar y cuándo, utilizando enfoques como marcos de solución predefinidos para reducir la complejidad computacional.
 
-#### Utilidad para tu Tesis
+#### Utilidad para tu kTesis
 
 Este documento es de gran valor, especialmente si tu tesis se centra en sistemas de software adaptativos, autónomos o en la intersección de la IA y la arquitectura de software.
 

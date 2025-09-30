@@ -59,7 +59,7 @@ El método funciona de la siguiente manera:
     3. **Sobreimpulso máximo:** El grado en que el sistema excede su objetivo durante la adaptación.
     4. **Adaptación del control:** Una métrica relacionada con el ajuste del propio control.
 
-### Conclusión: ¿Es útil para tu tesis?
+### Conclusión:
 
 Este paper podría ser **muy útil para tu tesis**, especialmente si tu investigación se centra en:
 

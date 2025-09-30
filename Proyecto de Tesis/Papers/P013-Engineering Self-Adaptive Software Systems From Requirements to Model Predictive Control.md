@@ -73,7 +73,7 @@ Los autores evalúan CobRA simulando dos sistemas (un agendador de reuniones y u
 
 - **Resultados:** **CobRA superó a Zanshin en la mayoría de los casos**. Logró recuperarse más rápido de los fallos, mantuvo un mejor equilibrio entre requisitos en conflicto y minimizó de manera más efectiva la función de costo global. La razón es que el modelo cuantitativo y la planificación predictiva del MPC permiten adaptaciones más precisas y proactivas que las basadas únicamente en la heurística de un experto.
 
-### Conclusión para tu Tesis
+### Conclusión
 
 Este paper es muy relevante porque aborda de manera robusta y formal el problema de la autoadaptación en sistemas con múltiples objetivos en conflicto.
 
