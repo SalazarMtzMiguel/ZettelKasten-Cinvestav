@@ -1,4 +1,16 @@
-#CompletarCita 
+#CitaLatex 
+@INPROCEEDINGS{10710979,
+  author={Guntupalli, Jayesh and Watanabe, Kentarou},
+  booktitle={2024 IEEE 29th International Conference on Emerging Technologies and Factory Automation (ETFA)}, 
+  title={Integrating Generative AI for Enhanced Automation in System Design Processes}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-4},
+  keywords={Generative AI;Pipelines;Prototypes;Streaming media;System analysis and design;Manufacturing automation;Generative AI;System Engineering;System Design;Large Language Model;Retrieval Augmented Generation},
+  doi={10.1109/ETFA61755.2024.10710979}}
+
+
 Lectura basada en [[(Jayesh Guntupalli) Integrating Generative AI for Enhanced Automation in System Design Processes.pdf]]
 
 
