@@ -1,4 +1,16 @@
-#CompletarCita 
+#CitaLatex 
+@ARTICLE{769885,
+  author={Oreizy, P. and Gorlick, M.M. and Taylor, R.N. and Heimhigner, D. and Johnson, G. and Medvidovic, N. and Quilici, A. and Rosenblum, D.S. and Wolf, A.L.},
+  journal={IEEE Intelligent Systems and their Applications}, 
+  title={An architecture-based approach to self-adaptive software}, 
+  year={1999},
+  volume={14},
+  number={3},
+  pages={54-62},
+  keywords={Application software;Monitoring;Costs;Unmanned aerial vehicles;Sensor systems;Software systems;Runtime;Traffic control;Disaster management;Environmental management},
+  doi={10.1109/5254.769885}}
+
+
 Lectura badasa en [[(Peyman Oreizy) An Architecture-Based Approach to Self-Adaptative Software.pdf]]
 
 

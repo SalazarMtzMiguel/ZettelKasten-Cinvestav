@@ -1,4 +1,17 @@
-#CompletarCita 
+#CitaLatex 
+@article{DAY202068,
+  title = {Autonomic Feature Selection Using Computational Intelligence},
+  author = {Day, Patrick and Iannucci, Stefano and Banicescu, Ioana},
+  date = {2020},
+  journaltitle = {Future Generation Computer Systems},
+  volume = {111},
+  pages = {68--81},
+  issn = {0167-739X},
+  doi = {10.1016/j.future.2020.04.015},
+  url = {https://www.sciencedirect.com/science/article/pii/S0167739X19320564},
+  abstract = {This paper introduces an autonomic method to optimize Feature Selection (FS) in autonomic systems while also presenting a taxonomy of FS techniques. Feature selection is a dimension reduction technique that has been proven to lead to improved performance by avoiding overfitting and to address complexity, thus providing faster and cost-effective algorithms. To be successful, the current FS methods are heavily reliant on two key elements: (1) a well defined and static learning objective, and (2) a relevant dataset. Current FS approaches involve mostly a manual process and do not take into account the constant change in the state of the underlying system. However, the method to automate the FS process presented in this paper, the Autonomic Feature Selection (AFS), uses representation and transfer learning concepts borrowed from the deep learning area. Representations of various types of monitoring data from a system are learned, and the resulting knowledge is transferred and re-used. The AFS is targeted to self-aware software systems, where the learning objective and (or) the availability of the relevant data are subject to change. The results suggest that although building and transferring learned representations is computationally expensive, its benefits outweigh the cost, by offering the potential to build flexible and re-usable knowledge structures.},
+  keywords = {Autonomic computing,Computational intelligence,Deep learning,Feature selection,Representation & transfer learning,Self-protecting systems}
+}
 Lectura basada en [[(Patrick Day) Autonomic Feature Selection using Computational Intelligence.pdf]]
 
 
