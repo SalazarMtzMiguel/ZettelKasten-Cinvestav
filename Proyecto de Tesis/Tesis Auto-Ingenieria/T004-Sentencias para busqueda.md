@@ -7,7 +7,7 @@ NOTA: los resultados unicamente se limitan a 10 años de 2015-2025 puesto que mu
 TITLE-ABS-KEY("self-architecting system*" OR "self architectural system*" OR "auto-architecting system*" 
 OR "auto architectural system*" OR "self-architectural design" OR "auto-architectural design")
 ```
-Scopus:
+Scopus: 1
 Web of science:
 IEEE Xplore:
 ACM Digital:
@@ -23,7 +23,7 @@ Consensus:
 TITLE-ABS-KEY("self-design" OR "self design" OR "auto-design" OR "auto design" 
 OR "self software design" OR "auto software design")
 ```
-Scopus:
+Scopus: 679
 Web of science:
 IEEE Xplore:
 ACM Digital:
