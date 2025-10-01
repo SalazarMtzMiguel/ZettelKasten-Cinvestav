@@ -1,4 +1,5 @@
 Basado en lo mencionado en [[T002-Borrador Revision Sistematica]]
+NOTA: los resultados unicamente se limitan a 10 años de 2015-2025 puesto que muchas areas se han mejorado con la llegada de los LLM.
 
 ## 1. Self-Architecting Systems
 
@@ -6,6 +7,13 @@ Basado en lo mencionado en [[T002-Borrador Revision Sistematica]]
 TITLE-ABS-KEY("self-architecting system*" OR "self architectural system*" OR "auto-architecting system*" 
 OR "auto architectural system*" OR "self-architectural design" OR "auto-architectural design")
 ```
+Scopus:
+Web of science:
+IEEE Xplore:
+ACM Digital:
+Google Academico:
+Scispace:
+Consensus:
 
 ---
 
@@ -15,6 +23,13 @@ OR "auto architectural system*" OR "self-architectural design" OR "auto-architec
 TITLE-ABS-KEY("self-design" OR "self design" OR "auto-design" OR "auto design" 
 OR "self software design" OR "auto software design")
 ```
+Scopus:
+Web of science:
+IEEE Xplore:
+ACM Digital:
+Google Academico:
+Scispace:
+Consensus:
 
 ---
 
@@ -24,6 +39,13 @@ OR "self software design" OR "auto software design")
 TITLE-ABS-KEY(("evolutionary design" OR "evolutionary software design") 
 AND ("software system*" OR "software engineering"))
 ```
+Scopus:
+Web of science:
+IEEE Xplore:
+ACM Digital:
+Google Academico:
+Scispace:
+Consensus:
 
 ---
 
@@ -33,6 +55,13 @@ AND ("software system*" OR "software engineering"))
 TITLE-ABS-KEY(("generative design" OR "generative software design") 
 AND ("software system*" OR "software engineering"))
 ```
+Scopus:
+Web of science:
+IEEE Xplore:
+ACM Digital:
+Google Academico:
+Scispace:
+Consensus:
 
 ---
 
@@ -42,6 +71,13 @@ AND ("software system*" OR "software engineering"))
 TITLE-ABS-KEY("software design automation" OR "design automation in software engineering" 
 OR "automated software design" OR "AI for software design")
 ```
+Scopus:
+Web of science:
+IEEE Xplore:
+ACM Digital:
+Google Academico:
+Scispace:
+Consensus:
 
 ---
 
@@ -51,6 +87,13 @@ OR "automated software design" OR "AI for software design")
 TITLE-ABS-KEY("self-sufficient system*" OR "autonomous self-sufficient software" 
 OR "self-sufficient software system*")
 ```
+Scopus:
+Web of science:
+IEEE Xplore:
+ACM Digital:
+Google Academico:
+Scispace:
+Consensus:
 
 ---
 
@@ -60,6 +103,13 @@ OR "self-sufficient software system*")
 TITLE-ABS-KEY(("AI for software engineering" OR "artificial intelligence in software engineering" 
 OR "machine learning in software engineering"))
 ```
+Scopus:
+Web of science:
+IEEE Xplore:
+ACM Digital:
+Google Academico:
+Scispace:
+Consensus:
 
 ---
 
@@ -69,6 +119,13 @@ OR "machine learning in software engineering"))
 TITLE-ABS-KEY("self-architectural design" OR "auto-architectural design" 
 OR "self adaptive architecture" OR "self-adaptive design")
 ```
+Scopus:
+Web of science:
+IEEE Xplore:
+ACM Digital:
+Google Academico:
+Scispace:
+Consensus:
 
 ---
 
@@ -78,6 +135,13 @@ OR "self adaptive architecture" OR "self-adaptive design")
 TITLE-ABS-KEY("self-interface design" OR "auto-interface design" 
 OR "autonomous interface design" OR "adaptive interface design")
 ```
+Scopus:
+Web of science:
+IEEE Xplore:
+ACM Digital:
+Google Academico:
+Scispace:
+Consensus:
 
 ---
 
@@ -87,6 +151,13 @@ OR "autonomous interface design" OR "adaptive interface design")
 TITLE-ABS-KEY("self-component design" OR "auto-component design" 
 OR "autonomous component design" OR "self-generated component*")
 ```
+Scopus:
+Web of science:
+IEEE Xplore:
+ACM Digital:
+Google Academico:
+Scispace:
+Consensus:
 
 ---
 
@@ -96,6 +167,13 @@ OR "autonomous component design" OR "self-generated component*")
 TITLE-ABS-KEY("self-data structure design" OR "auto-data structure design" 
 OR "autonomous data structure optimization" OR "self-optimizing data structure*")
 ```
+Scopus:
+Web of science:
+IEEE Xplore:
+ACM Digital:
+Google Academico:
+Scispace:
+Consensus:
 
 ---
 
@@ -107,4 +185,10 @@ OR "autonomous algorithm design" OR "automated algorithm design"
 OR "generative algorithm design" OR "AI-based algorithm design")
 ```
 
-Consensus: 353 resultados
+Scopus:
+Web of science:
+IEEE Xplore:
+ACM Digital:
+Google Academico:
+Scispace:
+Consensus:
