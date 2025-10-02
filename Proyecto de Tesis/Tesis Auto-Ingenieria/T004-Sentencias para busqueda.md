@@ -8,7 +8,7 @@ TITLE-ABS-KEY("self-architecting system*" OR "self architectural system*" OR "au
 OR "auto architectural system*" OR "self-architectural design" OR "auto-architectural design")
 ```
 Scopus: 1 rango de fechas 0
-Web of science:
+Web of science: 33 rango: 16
 IEEE Xplore:
 ACM Digital:
 Google Academico:
