@@ -103,7 +103,7 @@ Consensus:
 TITLE-ABS-KEY(("AI for software engineering" OR "artificial intelligence in software engineering" 
 OR "machine learning in software engineering"))
 ```
-Scopus:
+Scopus: 57 rango de fechas: 47
 Web of science:
 IEEE Xplore:
 ACM Digital:
@@ -119,7 +119,7 @@ Consensus:
 TITLE-ABS-KEY("self-architectural design" OR "auto-architectural design" 
 OR "self adaptive architecture" OR "self-adaptive design")
 ```
-Scopus:
+Scopus: 137 rango:  137
 Web of science:
 IEEE Xplore:
 ACM Digital:
@@ -135,7 +135,7 @@ Consensus:
 TITLE-ABS-KEY("self-interface design" OR "auto-interface design" 
 OR "autonomous interface design" OR "adaptive interface design")
 ```
-Scopus:
+Scopus: 40 rango: 18
 Web of science:
 IEEE Xplore:
 ACM Digital:
@@ -151,7 +151,7 @@ Consensus:
 TITLE-ABS-KEY("self-component design" OR "auto-component design" 
 OR "autonomous component design" OR "self-generated component*")
 ```
-Scopus:
+Scopus: 3 rango: 2
 Web of science:
 IEEE Xplore:
 ACM Digital:
@@ -167,7 +167,7 @@ Consensus:
 TITLE-ABS-KEY("self-data structure design" OR "auto-data structure design" 
 OR "autonomous data structure optimization" OR "self-optimizing data structure*")
 ```
-Scopus:
+Scopus: 0
 Web of science:
 IEEE Xplore:
 ACM Digital:
@@ -185,7 +185,7 @@ OR "autonomous algorithm design" OR "automated algorithm design"
 OR "generative algorithm design" OR "AI-based algorithm design")
 ```
 
-Scopus:
+Scopus: 67 rango: 61
 Web of science:
 IEEE Xplore:
 ACM Digital:
