@@ -7,7 +7,7 @@ NOTA: los resultados unicamente se limitan a 10 años de 2015-2025 puesto que mu
 TITLE-ABS-KEY("self-architecting system*" OR "self architectural system*" OR "auto-architecting system*" 
 OR "auto architectural system*" OR "self-architectural design" OR "auto-architectural design")
 ```
-Scopus: 1
+Scopus: 1 rango de fechas 0
 Web of science:
 IEEE Xplore:
 ACM Digital:
@@ -23,7 +23,7 @@ Consensus:
 TITLE-ABS-KEY("self-design" OR "self design" OR "auto-design" OR "auto design" 
 OR "self software design" OR "auto software design")
 ```
-Scopus: 679
+Scopus: 679 rango de fechas: 353
 Web of science:
 IEEE Xplore:
 ACM Digital:
@@ -39,7 +39,7 @@ Consensus:
 TITLE-ABS-KEY(("evolutionary design" OR "evolutionary software design") 
 AND ("software system*" OR "software engineering"))
 ```
-Scopus:
+Scopus: 45 rango de fechas: 5
 Web of science:
 IEEE Xplore:
 ACM Digital:
@@ -55,7 +55,7 @@ Consensus:
 TITLE-ABS-KEY(("generative design" OR "generative software design") 
 AND ("software system*" OR "software engineering"))
 ```
-Scopus:
+Scopus: 21 rango de fechas: 14
 Web of science:
 IEEE Xplore:
 ACM Digital:
@@ -71,7 +71,7 @@ Consensus:
 TITLE-ABS-KEY("software design automation" OR "design automation in software engineering" 
 OR "automated software design" OR "AI for software design")
 ```
-Scopus:
+Scopus: 54 rango de fechas: 15
 Web of science:
 IEEE Xplore:
 ACM Digital:
@@ -87,7 +87,7 @@ Consensus:
 TITLE-ABS-KEY("self-sufficient system*" OR "autonomous self-sufficient software" 
 OR "self-sufficient software system*")
 ```
-Scopus:
+Scopus: 211 rango de fechas: 
 Web of science:
 IEEE Xplore:
 ACM Digital:
