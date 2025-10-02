@@ -10,7 +10,7 @@ OR "auto architectural system*" OR "self-architectural design" OR "auto-architec
 Scopus: 1 rango de fechas 0
 Web of science: 33 rango: 16
 IEEE Xplore: 2,286 rango: 1,175
-ACM Digital: 59 rango: 50
+ACM Digital: 59 rango: 20
 Google Academico:
 Scispace:
 Consensus:
@@ -26,7 +26,7 @@ OR "self software design" OR "auto software design")
 Scopus: 679 rango de fechas: 353
 Web of science: 11,863 rango de fechas: 7,329
 IEEE Xplore: 96,204 rango: 57,107
-ACM Digital:
+ACM Digital: 59 rango: 
 Google Academico:
 Scispace:
 Consensus:
