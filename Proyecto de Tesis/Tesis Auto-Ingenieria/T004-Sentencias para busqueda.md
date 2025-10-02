@@ -152,7 +152,7 @@ TITLE-ABS-KEY("self-component design" OR "auto-component design"
 OR "autonomous component design" OR "self-generated component*")
 ```
 Scopus: 3 rango: 2
-Web of science:
+Web of science: 16 rango: 8
 IEEE Xplore:
 ACM Digital:
 Google Academico:
@@ -168,7 +168,7 @@ TITLE-ABS-KEY("self-data structure design" OR "auto-data structure design"
 OR "autonomous data structure optimization" OR "self-optimizing data structure*")
 ```
 Scopus: 0
-Web of science:
+Web of science: 1 rango: 1
 IEEE Xplore:
 ACM Digital:
 Google Academico:
@@ -186,7 +186,7 @@ OR "generative algorithm design" OR "AI-based algorithm design")
 ```
 
 Scopus: 67 rango: 61
-Web of science:
+Web of science: 358 rango:221
 IEEE Xplore:
 ACM Digital:
 Google Academico:
