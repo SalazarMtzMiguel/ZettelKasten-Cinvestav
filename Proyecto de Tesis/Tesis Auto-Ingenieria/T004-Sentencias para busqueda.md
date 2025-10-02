@@ -104,7 +104,7 @@ TITLE-ABS-KEY(("AI for software engineering" OR "artificial intelligence in soft
 OR "machine learning in software engineering"))
 ```
 Scopus: 57 rango de fechas: 47
-Web of science:
+Web of science: 86 rango: 69
 IEEE Xplore:
 ACM Digital:
 Google Academico:
@@ -120,7 +120,7 @@ TITLE-ABS-KEY("self-architectural design" OR "auto-architectural design"
 OR "self adaptive architecture" OR "self-adaptive design")
 ```
 Scopus: 137 rango:  137
-Web of science:
+Web of science: 482 rango: 306
 IEEE Xplore:
 ACM Digital:
 Google Academico:
@@ -136,7 +136,7 @@ TITLE-ABS-KEY("self-interface design" OR "auto-interface design"
 OR "autonomous interface design" OR "adaptive interface design")
 ```
 Scopus: 40 rango: 18
-Web of science:
+Web of science: 162 rango: 88
 IEEE Xplore:
 ACM Digital:
 Google Academico:
