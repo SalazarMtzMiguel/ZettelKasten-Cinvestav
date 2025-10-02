@@ -24,7 +24,7 @@ TITLE-ABS-KEY("self-design" OR "self design" OR "auto-design" OR "auto design"
 OR "self software design" OR "auto software design")
 ```
 Scopus: 679 rango de fechas: 353
-Web of science: 11,863 rango de fechas: 
+Web of science: 11,863 rango de fechas: 7,329
 IEEE Xplore:
 ACM Digital:
 Google Academico:
@@ -40,7 +40,7 @@ TITLE-ABS-KEY(("evolutionary design" OR "evolutionary software design")
 AND ("software system*" OR "software engineering"))
 ```
 Scopus: 45 rango de fechas: 5
-Web of science:
+Web of science: 4 rango de fechas: 1
 IEEE Xplore:
 ACM Digital:
 Google Academico:
@@ -56,7 +56,7 @@ TITLE-ABS-KEY(("generative design" OR "generative software design")
 AND ("software system*" OR "software engineering"))
 ```
 Scopus: 21 rango de fechas: 14
-Web of science:
+Web of science: 2 rango: 2
 IEEE Xplore:
 ACM Digital:
 Google Academico:
@@ -72,7 +72,7 @@ TITLE-ABS-KEY("software design automation" OR "design automation in software eng
 OR "automated software design" OR "AI for software design")
 ```
 Scopus: 54 rango de fechas: 15
-Web of science:
+Web of science: 230 rango: 97
 IEEE Xplore:
 ACM Digital:
 Google Academico:
@@ -88,7 +88,7 @@ TITLE-ABS-KEY("self-sufficient system*" OR "autonomous self-sufficient software"
 OR "self-sufficient software system*")
 ```
 Scopus: 211 rango de fechas: 150
-Web of science:
+Web of science: 136 rango: 97
 IEEE Xplore:
 ACM Digital:
 Google Academico:
