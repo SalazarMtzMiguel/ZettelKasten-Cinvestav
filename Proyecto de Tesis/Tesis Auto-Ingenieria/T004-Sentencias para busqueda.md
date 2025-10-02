@@ -87,7 +87,7 @@ Consensus:
 TITLE-ABS-KEY("self-sufficient system*" OR "autonomous self-sufficient software" 
 OR "self-sufficient software system*")
 ```
-Scopus: 211 rango de fechas: 
+Scopus: 211 rango de fechas: 150
 Web of science:
 IEEE Xplore:
 ACM Digital:
