@@ -138,7 +138,7 @@ OR "autonomous interface design" OR "adaptive interface design")
 Scopus: 40 rango: 18
 Web of science: 162 rango: 88
 IEEE Xplore: 9,419 rango: 5,319
-ACM Digital:
+ACM Digital: 62 rango: 38
 Google Academico:
 Scispace:
 Consensus:
@@ -154,7 +154,7 @@ OR "autonomous component design" OR "self-generated component*")
 Scopus: 3 rango: 2
 Web of science: 16 rango: 8
 IEEE Xplore: 7,320 rango: 5,060
-ACM Digital:
+ACM Digital: 12 rango: 7
 Google Academico:
 Scispace:
 Consensus:
@@ -170,7 +170,7 @@ OR "autonomous data structure optimization" OR "self-optimizing data structure*"
 Scopus: 0
 Web of science: 1 rango: 1
 IEEE Xplore: 1,246 rango: 1,096
-ACM Digital:
+ACM Digital: 0
 Google Academico:
 Scispace:
 Consensus:
@@ -188,7 +188,7 @@ OR "generative algorithm design" OR "AI-based algorithm design")
 Scopus: 67 rango: 61
 Web of science: 358 rango:221
 IEEE Xplore: 43,109 rango: 31,047
-ACM Digital:
+ACM Digital: 90 rango: 54
 Google Academico:
 Scispace:
 Consensus:
