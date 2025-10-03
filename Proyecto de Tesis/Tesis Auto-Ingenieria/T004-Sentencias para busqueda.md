@@ -12,8 +12,8 @@ Web of science: 33 rango: 16
 IEEE Xplore: 2,286 rango: 1,175
 ACM Digital: 59 rango: 20
 Google Academico:
-Scispace:
-Consensus:
+Scispace: 20
+Consensus: 0
 
 ---
 
@@ -190,5 +190,5 @@ Web of science: 358 rango:221
 IEEE Xplore: 43,109 rango: 31,047
 ACM Digital: 90 rango: 54
 Google Academico:
-Scispace:
+Scispace: 20
 Consensus:
