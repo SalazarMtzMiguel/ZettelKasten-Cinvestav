@@ -26,7 +26,7 @@ OR "self software design" OR "auto software design")
 Scopus: 679 rango de fechas: 353
 Web of science: 11,863 rango de fechas: 7,329
 IEEE Xplore: 96,204 rango: 57,107
-ACM Digital: 59 rango: 20
+ACM Digital: 590 rango: 411
 Google Academico:
 Scispace:
 Consensus:
@@ -42,7 +42,7 @@ AND ("software system*" OR "software engineering"))
 Scopus: 45 rango de fechas: 5
 Web of science: 4 rango de fechas: 1
 IEEE Xplore: 26,612 rango de fechas: 11,939
-ACM Digital:
+ACM Digital: 394 rango: 168
 Google Academico:
 Scispace:
 Consensus:
@@ -58,7 +58,7 @@ AND ("software system*" OR "software engineering"))
 Scopus: 21 rango de fechas: 14
 Web of science: 2 rango: 2
 IEEE Xplore: 16,491 rango: 15,551
-ACM Digital:
+ACM Digital: 960 rango: 595
 Google Academico:
 Scispace:
 Consensus:
@@ -74,7 +74,7 @@ OR "automated software design" OR "AI for software design")
 Scopus: 54 rango de fechas: 15
 Web of science: 230 rango: 97
 IEEE Xplore: 50,348 rango:  26,350
-ACM Digital:
+ACM Digital: 37 rango: 17
 Google Academico:
 Scispace:
 Consensus:
@@ -90,7 +90,7 @@ OR "self-sufficient software system*")
 Scopus: 211 rango de fechas: 150
 Web of science: 136 rango: 97
 IEEE Xplore: 672 rango: 483
-ACM Digital:
+ACM Digital: 2 rango 2
 Google Academico:
 Scispace:
 Consensus:
@@ -106,7 +106,7 @@ OR "machine learning in software engineering"))
 Scopus: 57 rango de fechas: 47
 Web of science: 86 rango: 69
 IEEE Xplore: 55,312 rango: 43,819
-ACM Digital:
+ACM Digital: 145 rango: 126
 Google Academico:
 Scispace:
 Consensus:
@@ -122,7 +122,7 @@ OR "self adaptive architecture" OR "self-adaptive design")
 Scopus: 137 rango:  137
 Web of science: 482 rango: 306
 IEEE Xplore:  6,525 rango: 3,758
-ACM Digital:
+ACM Digital: 100 rango: 53
 Google Academico:
 Scispace:
 Consensus:
