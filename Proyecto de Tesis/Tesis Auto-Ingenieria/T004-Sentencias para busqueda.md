@@ -11,7 +11,6 @@ Scopus: 1 rango de fechas 0
 Web of science: 33 rango: 16
 IEEE Xplore: 2,286 rango: 1,175
 ACM Digital: 59 rango: 20
-Google Academico:
 Scispace: 20
 Consensus: 0
 
@@ -27,9 +26,8 @@ Scopus: 679 rango de fechas: 353
 Web of science: 11,863 rango de fechas: 7,329
 IEEE Xplore: 96,204 rango: 57,107
 ACM Digital: 590 rango: 411
-Google Academico:
 Scispace: 100
-Consensus:
+Consensus: 20
 
 ---
 
@@ -43,9 +41,8 @@ Scopus: 45 rango de fechas: 5
 Web of science: 4 rango de fechas: 1
 IEEE Xplore: 26,612 rango de fechas: 11,939
 ACM Digital: 394 rango: 168
-Google Academico:
 Scispace: 20
-Consensus:
+Consensus: 19
 
 ---
 
@@ -59,9 +56,8 @@ Scopus: 21 rango de fechas: 14
 Web of science: 2 rango: 2
 IEEE Xplore: 16,491 rango: 15,551
 ACM Digital: 960 rango: 595
-Google Academico:
 Scispace: 20
-Consensus:
+Consensus: 20
 
 ---
 
@@ -75,9 +71,8 @@ Scopus: 54 rango de fechas: 15
 Web of science: 230 rango: 97
 IEEE Xplore: 50,348 rango:  26,350
 ACM Digital: 37 rango: 17
-Google Academico:
 Scispace: 20 
-Consensus:
+Consensus: 18
 
 ---
 
@@ -91,9 +86,8 @@ Scopus: 211 rango de fechas: 150
 Web of science: 136 rango: 97
 IEEE Xplore: 672 rango: 483
 ACM Digital: 2 rango 2
-Google Academico:
 Scispace: 20
-Consensus:
+Consensus: 17
 
 ---
 
@@ -107,9 +101,8 @@ Scopus: 57 rango de fechas: 47
 Web of science: 86 rango: 69
 IEEE Xplore: 55,312 rango: 43,819
 ACM Digital: 145 rango: 126
-Google Academico:
 Scispace: 20
-Consensus:
+Consensus: 20
 
 ---
 
@@ -123,9 +116,8 @@ Scopus: 137 rango:  137
 Web of science: 482 rango: 306
 IEEE Xplore:  6,525 rango: 3,758
 ACM Digital: 100 rango: 53
-Google Academico:
 Scispace: 20
-Consensus:
+Consensus: 20
 
 ---
 
@@ -139,9 +131,8 @@ Scopus: 40 rango: 18
 Web of science: 162 rango: 88
 IEEE Xplore: 9,419 rango: 5,319
 ACM Digital: 62 rango: 38
-Google Academico:
 Scispace: 20
-Consensus:
+Consensus: 20
 
 ---
 
@@ -155,9 +146,8 @@ Scopus: 3 rango: 2
 Web of science: 16 rango: 8
 IEEE Xplore: 7,320 rango: 5,060
 ACM Digital: 12 rango: 7
-Google Academico:
 Scispace: 20
-Consensus:
+Consensus: 20
 
 ---
 
@@ -171,9 +161,8 @@ Scopus: 0
 Web of science: 1 rango: 1
 IEEE Xplore: 1,246 rango: 1,096
 ACM Digital: 0
-Google Academico:
 Scispace: 17
-Consensus:
+Consensus: 50
 
 ---
 
@@ -189,6 +178,5 @@ Scopus: 67 rango: 61
 Web of science: 358 rango:221
 IEEE Xplore: 43,109 rango: 31,047
 ACM Digital: 90 rango: 54
-Google Academico:
 Scispace: 20
-Consensus:
+Consensus: 50
