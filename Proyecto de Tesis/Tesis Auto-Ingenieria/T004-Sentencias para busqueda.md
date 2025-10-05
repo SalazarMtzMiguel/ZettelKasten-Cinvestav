@@ -8,7 +8,7 @@ TITLE-ABS-KEY("self-architecting system*" OR "self architectural system*" OR "au
 OR "auto architectural system*" OR "self-architectural design" OR "auto-architectural design")
 ```
 Scopus: 1 rango de fechas 0 por titulo:
-Web of science: 33 rango: 16 por titulo:
+Web of science: 33 rango: 16 por titulo: 6
 IEEE Xplore: 2,286 rango: 1,175 por titulo:
 ACM Digital: 59 rango: 20 por titulo:
 
@@ -24,7 +24,7 @@ TITLE-ABS-KEY("self-design" OR "self design" OR "auto-design" OR "auto design"
 OR "self software design" OR "auto software design")
 ```
 Scopus: 679 rango de fechas: 353 por titulo:
-Web of science: 11,863 rango de fechas: 7,329 por titulo:
+Web of science: 11,863 rango de fechas: 7,329 por titulo: 12
 IEEE Xplore: 96,204 rango: 57,107 por titulo:
 ACM Digital: 590 rango: 411 por titulo:
 
@@ -40,7 +40,7 @@ TITLE-ABS-KEY(("evolutionary design" OR "evolutionary software design")
 AND ("software system*" OR "software engineering"))
 ```
 Scopus: 45 rango de fechas: 5 por titulo:
-Web of science: 4 rango de fechas: 1 por titulo:
+Web of science: 4 rango de fechas: 1 por titulo: 1
 IEEE Xplore: 26,612 rango de fechas: 11,939 por titulo:
 ACM Digital: 394 rango: 168 por titulo:
 
@@ -56,7 +56,7 @@ TITLE-ABS-KEY(("generative design" OR "generative software design")
 AND ("software system*" OR "software engineering"))
 ```
 Scopus: 21 rango de fechas: 14 por titulo:
-Web of science: 2 rango: 2 por titulo:
+Web of science: 2 rango: 2 por titulo: 2
 IEEE Xplore: 16,491 rango: 15,551 por titulo:
 ACM Digital: 960 rango: 595 por titulo:
 
