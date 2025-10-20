@@ -38,3 +38,11 @@
 |A Conceptual Architecture for Enabling Future Self-Adaptive Service Systems||
 |A guide to design uncertainty-aware self-adaptive components in Cyber-Physical Systems|10.1016/j.future.2021.10.027|
 
+|   |   |
+|---|---|
+ 
+|A generative design algorithm for the architectural design||
+|An Automated Machine Learning-Genetic Algorithm Framework With Active Learning for Design Optimization|10.1115/1.4050489|
+|Automated Algorithm Configuration and Design|10.1145/3520304.3533663|
+|Automated Algorithm Configuration and Design|10.1145/3583133.3595046|
+
