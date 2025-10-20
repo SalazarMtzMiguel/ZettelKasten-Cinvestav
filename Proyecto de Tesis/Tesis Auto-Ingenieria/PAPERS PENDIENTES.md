@@ -31,3 +31,10 @@
 |Teaching Software Engineering for AI-Enabled Systems|10.1145/3377814.3381714|
 |Ways of Applying Artificial Intelligence in Software Engineering|10.1145/3194104.3194109|
 
+|   |   |
+|---|---|
+ 
+|A CLASSIFICATION FRAMEWORK OF UNCERTAINTY IN ARCHITECTURE-BASED SELF-ADAPTIVE SYSTEMS WITH MULTIPLE QUALITY REQUIREMENTS|10.1016/B978-0-12-802855-1.00003-4|
+|A Conceptual Architecture for Enabling Future Self-Adaptive Service Systems||
+|A guide to design uncertainty-aware self-adaptive components in Cyber-Physical Systems|10.1016/j.future.2021.10.027|
+
