@@ -46,3 +46,28 @@
 |Automated Algorithm Configuration and Design|10.1145/3520304.3533663|
 |Automated Algorithm Configuration and Design|10.1145/3583133.3595046|
 
+|   |   |
+|---|---|
+ 
+|Application of machine learning for software engineers|10.4018/979-8-3693-3502-4.ch004|
+|Artificial Intelligence in Software Engineering: Perspectives and Challenges|10.1109/ICSCCC58608.2023.10176436|
+|Role of Data Mining and Machine Learning in Software Reusability|10.1109/ICIC53490.2021.9693064|
+|   |   |
+|---|---|
+ 
+|Advances and Challenges in Intelligent Adaptive Interface Design|10.1002/9781119036821.ch11|
+|   |   |
+|---|---|
+ 
+|MeetCI: A computational intelligence software design automation framework|10.1109/FUZZ-IEEE.2018.8491664|
+|Semi-automatic object-oriented software design using metaheuristic algorithms|10.1109/CSIEC.2017.7940169|
+|   |   |
+|---|---|
+ 
+|LAOS: Large Language Model-Driven Adaptive Operator Selection for Evolutionary Algorithms|10.1145/3712256.3726450|
+|Towards a white box approach to automated algorithm design||
+
+|   |   |
+|---|---|
+ 
+|Hybrid models of solving optimization tasks on the basis of integrating evolutionary design and multiagent technologies|10.1007/978-3-030-19810-7_38|
