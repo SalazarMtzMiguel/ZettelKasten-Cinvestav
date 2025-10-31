@@ -23,3 +23,7 @@ Tabla de excel que diga como
 
 
 Agent.Based modeling for integrating human behavior into the FEW NEXUS.
+
+
+
+Vigencia, el tiempo, no se consideran todas las
