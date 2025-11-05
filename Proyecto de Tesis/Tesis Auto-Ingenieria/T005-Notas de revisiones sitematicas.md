@@ -27,3 +27,24 @@ cuenta con
 	4. Software testing
 	5. Mantenimiento de software
 	6. proceso de ingenieria de software
+	7. software engineering models and methods
+	8. software quality
+	9. remaining SWEBOK areas
+	10. Discussion
+7. Pregunta de investigacion 4
+	1. Requerimientos de software
+	2. Diseño de software
+	3. construccion de software
+	4. Software testing
+	5. Software engineering process
+	6. Software engineering models and methods
+	7. calidad de software
+	8. Software engineering professional practice
+	9. Software runtime behaviour
+	10. Remaining SWEBOK areas
+	11. Discussion
+8. threats to validity
+	1. Study selection validity
+	2. Data validity
+	3. validad de la investigacion
+9. Conclusiones
