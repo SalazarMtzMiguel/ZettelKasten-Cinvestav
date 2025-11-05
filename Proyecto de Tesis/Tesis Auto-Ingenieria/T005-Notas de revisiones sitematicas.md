@@ -9,4 +9,21 @@ cuenta con
 3. Metodologia de investigacion
 	1. Definicion de las preguntas de investigacion
 	2. Conducta de busqueda
-	3. 
+	3. screening of papers
+	4. palabras clave
+	5. estraccion de datos y proceso de mapeo
+4. Pregunta de investigacion 1
+	1. Bibliometrias
+	2. Caracteristicas de los estudios primarios
+	3. Discusion
+5. Pregunta de investigacion 2
+	1. Explicacion topico
+	2. Otra pregunta relacionada
+	3. Discusion
+6. Pregunta de investigacion 3
+	1. topico (requerimientos de software)
+	2. Diseño de software #REVISARURGENTE 
+	3. Construccion de software
+	4. Software testing
+	5. Mantenimiento de software
+	6. proceso de ingenieria de software
