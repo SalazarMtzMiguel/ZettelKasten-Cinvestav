@@ -9,8 +9,8 @@ cuenta con
 3. Metodologia de investigacion: define que se uso el paper de Kitvhenham y el de SMS de petersen #revisarcita 159
 	1. Definicion de las preguntas de investigacion: estipula como se forman las preguntas y que se contestan mejor en la seccion 3.5
 	2. Conducta de busqueda: aplico la tecnica de snowballing #revisarcita 212, luego muestra los criterios de inclusion y exclusion en una tabla
-	3. screening of papers
-	4. palabras clave
+	3. screening of papers: simplimente como se seleccionaron
+	4. palabras clave: las premisas clave
 	5. estraccion de datos y proceso de mapeo
 4. Pregunta de investigacion 1
 	1. Bibliometrias
