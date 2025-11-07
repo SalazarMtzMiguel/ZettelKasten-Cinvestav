@@ -5,10 +5,10 @@ cuenta con
 1. Introduccion: introduce y describe el documento
 2. Background: Describe la sinergia entre SE y la IA y trabajo relacionado
 	1. Tema relacionado: habla de un antecedente el perceptron
-	2. Trabajo relacionado en un topico: 
-3. Metodologia de investigacion
-	1. Definicion de las preguntas de investigacion
-	2. Conducta de busqueda
+	2. Trabajo relacionado en un topico: y ya
+3. Metodologia de investigacion: define que se uso el paper de Kitvhenham y el de SMS de petersen #revisarcita 159
+	1. Definicion de las preguntas de investigacion: estipula como se forman las preguntas y que se contestan mejor en la seccion 3.5
+	2. Conducta de busqueda: aplico la tecnica de snowballing #revisarcita 212, luego muestra los criterios de inclusion y exclusion en una tabla
 	3. screening of papers
 	4. palabras clave
 	5. estraccion de datos y proceso de mapeo
@@ -48,3 +48,6 @@ cuenta con
 	2. Data validity
 	3. validad de la investigacion
 9. Conclusiones
+Tabla 1 como ejemplo ![[Pasted image 20251107125555.png]]
+Tecnica snowballing ![[Pasted image 20251107130641.png]]
+Criterios en forma de tabla ![[Pasted image 20251107130930.png]]
