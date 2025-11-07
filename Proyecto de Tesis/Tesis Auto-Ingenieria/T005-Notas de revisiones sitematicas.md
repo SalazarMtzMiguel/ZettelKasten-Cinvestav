@@ -11,7 +11,7 @@ cuenta con
 	2. Conducta de busqueda: aplico la tecnica de snowballing #revisarcita 212, luego muestra los criterios de inclusion y exclusion en una tabla
 	3. screening of papers: simplimente como se seleccionaron
 	4. palabras clave: las premisas clave
-	5. estraccion de datos y proceso de mapeo
+	5. estraccion de datos y proceso de mapeo: describe mas o menos como se responde a cada pregunta
 4. Pregunta de investigacion 1
 	1. Bibliometrias
 	2. Caracteristicas de los estudios primarios
