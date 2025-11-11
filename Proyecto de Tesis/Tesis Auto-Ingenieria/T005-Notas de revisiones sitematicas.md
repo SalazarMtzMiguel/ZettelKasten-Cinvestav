@@ -51,3 +51,10 @@ cuenta con
 Tabla 1 como ejemplo ![[Pasted image 20251107125555.png]]
 Tecnica snowballing ![[Pasted image 20251107130641.png]]
 Criterios en forma de tabla ![[Pasted image 20251107130930.png]]
+Distribucion de papers: ![[Pasted image 20251111100304.png]]
+tipo de paper:
+![[Pasted image 20251111100322.png]]
+Formacion de los autores:![[Pasted image 20251111100405.png]]
+Distribucion de papers en el globo:![[Pasted image 20251111100425.png]]
+Mayores instituciones con aportes:
+![[Pasted image 20251111100455.png]]
