@@ -58,3 +58,9 @@ Formacion de los autores:![[Pasted image 20251111100405.png]]
 Distribucion de papers en el globo:![[Pasted image 20251111100425.png]]
 Mayores instituciones con aportes:
 ![[Pasted image 20251111100455.png]]
+como se presentan terminos: ![[Pasted image 20251111110713.png]]
+scope: ![[Pasted image 20251111110736.png]]
+DOMINIO: ![[Pasted image 20251111110748.png]]
+Dominio: ![[Pasted image 20251111110756.png]]
+Level of abstraction: ![[Pasted image 20251111111155.png]]
+
