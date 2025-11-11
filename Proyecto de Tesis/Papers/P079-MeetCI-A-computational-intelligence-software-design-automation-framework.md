@@ -1,3 +1,3 @@
-# P079 - MeetCI A computational intelligence software design automation framework
+#CompletarCita 
 
-Referencia del archivo original: `(Igor Khokhlov) MeetCI A computational intelligence software design automation framework.pdf`
+Referencia del archivo original: `(Igor Khokhlov) MeetCI A computational intelligence software design automation framework.pdf` [[(Igor Khokhlov) MeetCI A computational intelligence software design automation framework.pdf]]

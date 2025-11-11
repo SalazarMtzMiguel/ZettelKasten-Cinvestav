@@ -1,3 +1,4 @@
-# P085 - Artificial Intelligence in Software Requirements Engineering State-of-the-Art
+#CompletarCita 
 
-Referencia del archivo original: `(Kaihua Liu) Artificial Intelligence in Software Requirements Engineering State-of-the-Art.pdf`
+Referencia del archivo original: `(Kaihua Liu) Artificial Intelligence in Software Requirements Engineering State-of-the-Art.pdf` [[(Kaihua Liu) Artificial Intelligence in Software Requirements Engineering State-of-the-Art.pdf]]
+

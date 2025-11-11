@@ -1,3 +1,4 @@
-# P092 - Architectural Solutions for Self-Adaptive Systems
+#CompletarCita 
 
-Referencia del archivo original: `(Lina Garcés) Architectural Solutions for Self-Adaptive Systems.pdf`
+Referencia del archivo original: `(Lina Garcés) Architectural Solutions for Self-Adaptive Systems.pdf` [[(Lina Garcés) Architectural Solutions for Self-Adaptive Systems.pdf]]
+

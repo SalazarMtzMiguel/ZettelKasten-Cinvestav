@@ -1,3 +1,3 @@
-# P072 - Effort estimation models using evolutionary learning algorithms for software development
+#CompletarCita 
 
-Referencia del archivo original: `(Goldie Gabrani) Effort estimation models using evolutionary learning algorithms for software development.pdf`
+Referencia del archivo original: `(Goldie Gabrani) Effort estimation models using evolutionary learning algorithms for software development.pdf` [[(Goldie Gabrani) Effort estimation models using evolutionary learning algorithms for software development.pdf]]

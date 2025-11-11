@@ -1,3 +1,4 @@
-# P100 - Automation and Artificial Intelligence in Software Engineering
+#CompletarCita 
 
-Referencia del archivo original: `(Milan Latinovic) Automation and Artificial Intelligence in Software Engineering.pdf`
+Referencia del archivo original: `(Milan Latinovic) Automation and Artificial Intelligence in Software Engineering.pdf` [[(Milan Latinovic) Automation and Artificial Intelligence in Software Engineering.pdf]]
+

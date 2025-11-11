@@ -1,3 +1,3 @@
-# P065 - A Conceptual Architecture for Enabling Future Self-Adaptive Service
+#CompletarCita 
 
-Referencia del archivo original: `(Fabian Burzlaff) A Conceptual Architecture for Enabling Future Self-Adaptive Service.pdf`
+Referencia del archivo original: `(Fabian Burzlaff) A Conceptual Architecture for Enabling Future Self-Adaptive Service.pdf` [[(Fabian Burzlaff) A Conceptual Architecture for Enabling Future Self-Adaptive Service.pdf]]

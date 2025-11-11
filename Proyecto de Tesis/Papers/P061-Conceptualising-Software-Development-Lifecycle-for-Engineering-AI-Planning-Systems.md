@@ -1,3 +1,3 @@
-# P061 - Conceptualising Software Development Lifecycle for Engineering AI Planning Systems
+#CompletarCita 
 
-Referencia del archivo original: `(Dmitriy V) Conceptualising Software Development Lifecycle for Engineering AI Planning Systems.pdf`
+Referencia del archivo original: `(Dmitriy V) Conceptualising Software Development Lifecycle for Engineering AI Planning Systems.pdf` [[(Dmitriy V) Conceptualising Software Development Lifecycle for Engineering AI Planning Systems.pdf]]

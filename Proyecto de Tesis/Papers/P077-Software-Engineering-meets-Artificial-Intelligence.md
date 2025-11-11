@@ -1,3 +1,3 @@
-# P077 - Software Engineering meets Artificial Intelligence
+#CompletarCita 
 
-Referencia del archivo original: `(Holger Klus) Software Engineering meets Artificial Intelligence.pdf`
+Referencia del archivo original: `(Holger Klus) Software Engineering meets Artificial Intelligence.pdf` [[(Holger Klus) Software Engineering meets Artificial Intelligence.pdf]]

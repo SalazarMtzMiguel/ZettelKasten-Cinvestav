@@ -1,3 +1,4 @@
-# P095 - A Methodological Approach to Model-Driven Design and Development of Automation Systems
+#CompletarCita 
 
-Referencia del archivo original: `(María Luz Alvarez) A Methodological Approach to Model-Driven Design and Development of Automation Systems.pdf`
+Referencia del archivo original: `(María Luz Alvarez) A Methodological Approach to Model-Driven Design and Development of Automation Systems.pdf` [[(María Luz Alvarez) A Methodological Approach to Model-Driven Design and Development of Automation Systems.pdf]]
+

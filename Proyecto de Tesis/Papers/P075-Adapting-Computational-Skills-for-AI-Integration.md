@@ -1,3 +1,4 @@
-# P075 - Adapting Computational Skills for AI Integration
+#CompletarCita 
 
-Referencia del archivo original: `(Hanya Elhashemy) Adapting Computational Skills for AI Integration.pdf`
+Referencia del archivo original: `(Hanya Elhashemy) Adapting Computational Skills for AI Integration.pdf` [[(Hanya Elhashemy) Adapting Computational Skills for AI Integration.pdf]]
+

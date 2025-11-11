@@ -1,3 +1,4 @@
-# P086 - Evolution of Software Development Strategies
+#CompletarCita 
 
-Referencia del archivo original: `(Katrina Falkner) Evolution of Software Development Strategies.pdf`
+Referencia del archivo original: `(Katrina Falkner) Evolution of Software Development Strategies.pdf` [[(Katrina Falkner) Evolution of Software Development Strategies.pdf]]
+
