@@ -1,3 +1,3 @@
-# P115 - Printed_Circuit_Board_Design_in_Computer-Aided_Design_Tool
+#CompletarCita 
 
-Referencia del archivo original: `(Petra Hadrovic) Printed_Circuit_Board_Design_in_Computer-Aided_Design_Tool.pdf`
+Referencia del archivo original: `(Petra Hadrovic) Printed_Circuit_Board_Design_in_Computer-Aided_Design_Tool.pdf` [[(Petra Hadrovic) Printed_Circuit_Board_Design_in_Computer-Aided_Design_Tool.pdf]]

@@ -1,3 +1,3 @@
-# P107 - Automated Design of Machine Learning
+#CompletarCita 
 
-Referencia del archivo original: `(Nelishia Pillay) Automated Design of Machine Learning.pdf`
+Referencia del archivo original: `(Nelishia Pillay) Automated Design of Machine Learning.pdf` [[(Nelishia Pillay) Automated Design of Machine Learning.pdf]]

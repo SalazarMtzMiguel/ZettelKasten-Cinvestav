@@ -1,3 +1,3 @@
-# P114 - Architectural Aspects of Self-Aware and Self-Expressive Computing Systems From Psychology to Engineering
+#CompletarCita 
 
-Referencia del archivo original: `(Peter R. Lewis) Architectural Aspects of Self-Aware and Self-Expressive Computing Systems From Psychology to Engineering.pdf`
+Referencia del archivo original: `(Peter R. Lewis) Architectural Aspects of Self-Aware and Self-Expressive Computing Systems From Psychology to Engineering.pdf` [[(Peter R. Lewis) Architectural Aspects of Self-Aware and Self-Expressive Computing Systems From Psychology to Engineering.pdf]]

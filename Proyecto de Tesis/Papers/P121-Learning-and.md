@@ -1,3 +1,4 @@
-# P121 - Learning and
+#CompletarCita 
 
-Referencia del archivo original: `(Roberto Battiti) Learning and.pdf`
+Referencia del archivo original: `(Roberto Battiti) Learning and.pdf` [[(Roberto Battiti) Learning and.pdf]]
+

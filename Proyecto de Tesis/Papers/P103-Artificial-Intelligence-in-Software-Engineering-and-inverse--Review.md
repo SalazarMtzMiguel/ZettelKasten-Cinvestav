@@ -1,3 +1,3 @@
-# P103 - Artificial Intelligence in Software Engineering and inverse  Review
+#CompletarCita 
 
-Referencia del archivo original: `(Mohammad Shehab) Artificial Intelligence in Software Engineering and inverse  Review.pdf`
+Referencia del archivo original: `(Mohammad Shehab) Artificial Intelligence in Software Engineering and inverse  Review.pdf` [[(Mohammad Shehab) Artificial Intelligence in Software Engineering and inverse  Review.pdf]]

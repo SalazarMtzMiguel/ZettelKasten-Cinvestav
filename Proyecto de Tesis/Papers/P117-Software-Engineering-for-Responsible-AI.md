@@ -1,3 +1,4 @@
-# P117 - Software Engineering for Responsible AI
+#CompletarCita 
 
-Referencia del archivo original: `(Qinghua Lu) Software Engineering for Responsible AI.pdf`
+Referencia del archivo original: `(Qinghua Lu) Software Engineering for Responsible AI.pdf` [[(Qinghua Lu) Software Engineering for Responsible AI.pdf]]
+

@@ -1,3 +1,3 @@
-# P110 - Distributed, Ambient
+#CompletarCita 
 
-Referencia del archivo original: `(Norbert A. Streitz) Distributed, Ambient.pdf`
+Referencia del archivo original: `(Norbert A. Streitz) Distributed, Ambient.pdf` [[(Norbert A. Streitz) Distributed, Ambient.pdf]]

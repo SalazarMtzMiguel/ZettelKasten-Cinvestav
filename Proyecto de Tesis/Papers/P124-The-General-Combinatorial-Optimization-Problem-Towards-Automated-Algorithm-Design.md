@@ -1,3 +1,4 @@
-# P124 - The General Combinatorial Optimization Problem Towards Automated Algorithm Design
+#CompletarCita 
 
-Referencia del archivo original: `(Rong Qu) The General Combinatorial Optimization Problem Towards Automated Algorithm Design.pdf`
+Referencia del archivo original: `(Rong Qu) The General Combinatorial Optimization Problem Towards Automated Algorithm Design.pdf` [[(Rong Qu) The General Combinatorial Optimization Problem Towards Automated Algorithm Design.pdf]]
+
