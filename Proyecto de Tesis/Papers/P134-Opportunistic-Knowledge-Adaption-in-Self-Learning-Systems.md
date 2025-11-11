@@ -1,3 +1,4 @@
-# P134 - Opportunistic Knowledge Adaption in Self-Learning Systems
+#CompletarCita 
 
-Referencia del archivo original: `(Simon Reichhuber) Opportunistic Knowledge Adaption in Self-Learning Systems.pdf`
+Referencia del archivo original: `(Simon Reichhuber) Opportunistic Knowledge Adaption in Self-Learning Systems.pdf` [[(Simon Reichhuber) Opportunistic Knowledge Adaption in Self-Learning Systems.pdf]]
+
