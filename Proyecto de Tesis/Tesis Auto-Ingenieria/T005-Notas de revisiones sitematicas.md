@@ -72,3 +72,4 @@ Captura incompleta pero que ayude a ilustrar como se trabajo en el paper: ![[Pas
 Ahora una captura de una framework conceptual del paper:
 ![[Pasted image 20251112122845.png]]
 Tecnicas que se usan en el paper: ![[Pasted image 20251112122928.png]]
+Asociasion con temas de IA con ingenieria de software: ![[Pasted image 20251112125413.png]]
