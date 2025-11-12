@@ -21,7 +21,7 @@ cuenta con
 	2. Otra pregunta relacionada
 	3. Discusion
 6. Pregunta de investigacion 3
-	1. topico (requerimientos de software)
+	1. Tópico (requerimientos de software)
 	2. Diseño de software #REVISARURGENTE 
 	3. Construccion de software
 	4. Software testing
