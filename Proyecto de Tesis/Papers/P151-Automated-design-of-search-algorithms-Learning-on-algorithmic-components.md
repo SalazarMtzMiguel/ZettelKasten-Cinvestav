@@ -1,3 +1,3 @@
-# P151 - Automated design of search algorithms Learning on algorithmic components
+#CompletarCita 
 
-Referencia del archivo original: `(Weiyao Meng) Automated design of search algorithms Learning on algorithmic components.pdf`
+Referencia del archivo original: `(Weiyao Meng) Automated design of search algorithms Learning on algorithmic components.pdf` [[(Weiyao Meng) Automated design of search algorithms Learning on algorithmic components.pdf]]
