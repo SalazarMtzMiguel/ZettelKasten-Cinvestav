@@ -64,3 +64,11 @@ DOMINIO: ![[Pasted image 20251111110748.png]]
 Dominio: ![[Pasted image 20251111110756.png]]
 Level of abstraction: ![[Pasted image 20251111111155.png]]
 
+Ahora pondre imagenes que ilustran elementos clave del paper [[P033-A Decade of Progress A Systematic Literature Review on the Integration of AI in Software Engineering Phases and Activities 2013-2023]]
+
+![[Pasted image 20251112122534.png]]
+![[Pasted image 20251112122549.png]]
+Captura incompleta pero que ayude a ilustrar como se trabajo en el paper: ![[Pasted image 20251112122759.png]]
+Ahora una captura de una framework conceptual del paper:
+![[Pasted image 20251112122845.png]]
+Tecnicas que se usan en el paper: ![[Pasted image 20251112122928.png]]
