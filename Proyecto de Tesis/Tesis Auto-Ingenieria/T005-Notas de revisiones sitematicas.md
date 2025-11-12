@@ -73,3 +73,10 @@ Ahora una captura de una framework conceptual del paper:
 ![[Pasted image 20251112122845.png]]
 Tecnicas que se usan en el paper: ![[Pasted image 20251112122928.png]]
 Asociasion con temas de IA con ingenieria de software: ![[Pasted image 20251112125413.png]]
+Ahora el mapping: ![[Pasted image 20251112130930.png]]
+Tabla mapping: ![[Pasted image 20251112131000.png]]
+nube de palabras: ![[Pasted image 20251112131121.png]]
+Mapeo de IA: ![[Pasted image 20251112131211.png]]
+Mapeo de IA y SE fases en contexto de precision: ![[Pasted image 20251112131239.png]]
+Nube de palabras para esta seccion: ![[Pasted image 20251112131315.png]]
+
