@@ -1,3 +1,4 @@
-# P143 - Generative Artificial Intelligence Use in Optimising Software Engineering Process A Systematic Liter
+#CompletarCita 
 
-Referencia del archivo original: `(Uldis Karlovs-Karlovskis) Generative Artificial Intelligence Use in Optimising Software Engineering Process A Systematic Liter.pdf`
+Referencia del archivo original: `(Uldis Karlovs-Karlovskis) Generative Artificial Intelligence Use in Optimising Software Engineering Process A Systematic Liter.pdf` [[(Uldis Karlovs-Karlovskis) Generative Artificial Intelligence Use in Optimising Software Engineering Process A Systematic Liter.pdf]]
+

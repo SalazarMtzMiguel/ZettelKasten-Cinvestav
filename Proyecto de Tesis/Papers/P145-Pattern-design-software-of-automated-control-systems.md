@@ -1,3 +1,4 @@
-# P145 - Pattern-design software of automated control systems
+#CompletarCita 
 
-Referencia del archivo original: `(Valiev R.A.) Pattern-design software of automated control systems.pdf`
+Referencia del archivo original: `(Valiev R.A.) Pattern-design software of automated control systems.pdf` [[(Valiev R.A.) Pattern-design software of automated control systems.pdf]]
+

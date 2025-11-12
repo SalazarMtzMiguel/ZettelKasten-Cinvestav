@@ -1,3 +1,4 @@
-# P142 - The use of artificial intelligence in engineering
+#CompletarCita 
 
-Referencia del archivo original: `(Timur Aygumov) The use of artificial intelligence in engineering.pdf`
+Referencia del archivo original: `(Timur Aygumov) The use of artificial intelligence in engineering.pdf` [[(Timur Aygumov) The use of artificial intelligence in engineering.pdf]]
+

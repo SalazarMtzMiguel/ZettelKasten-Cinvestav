@@ -1,3 +1,4 @@
-# P140 - a generic framework
+#CompletarCita 
 
-Referencia del archivo original: `(Tarik Houichime) Optimized design refactoring (ODR) a generic framework.pdf`
+Referencia del archivo original: `(Tarik Houichime) Optimized design refactoring (ODR) a generic framework.pdf` [[(Tarik Houichime) Optimized design refactoring (ODR) a generic framework.pdf]]
+

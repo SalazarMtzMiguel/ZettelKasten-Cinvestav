@@ -1,3 +1,4 @@
-# P148 - Adaptive Knowledge Bases in Self-Adaptive System Design
+#CompletarCita 
 
-Referencia del archivo original: `(Verena Klos) Adaptive Knowledge Bases in Self-Adaptive System Design.pdf`
+Referencia del archivo original: `(Verena Klos) Adaptive Knowledge Bases in Self-Adaptive System Design.pdf` [[(Verena Klos) Adaptive Knowledge Bases in Self-Adaptive System Design.pdf]]
+

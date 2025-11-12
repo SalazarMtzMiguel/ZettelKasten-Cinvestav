@@ -1,3 +1,3 @@
-# P149 - Improving Software Engineering Practices AI-Driven Adoption of Design Patterns
+#CompletarCita 
+Referencia del archivo original: `(Vinay Supekar) Improving Software Engineering Practices AI-Driven Adoption of Design Patterns.pdf` [[(Vinay Supekar) Improving Software Engineering Practices AI-Driven Adoption of Design Patterns.pdf]]
 
-Referencia del archivo original: `(Vinay Supekar) Improving Software Engineering Practices AI-Driven Adoption of Design Patterns.pdf`
