@@ -11,7 +11,7 @@ C para la comparacion o contexto
 O para los resultados esperados
 basado en la imagen de PICO para el trabajo de mi compañera Giovana [[T001-Tesis Giovana]] y [[P019-And, at first, it was the research question]]
 
-P: Auto-diseño en la auto-ingenieria
+P: Auto-diseño en la auto-ingenieria de software
 I: Realizar un marco conceptual para esta etapa de la auto-ingenieria y un modelo
 C: En el contexto de la ingenieria de sistemas computacionales
 O: Terminologias y modelo para integracion
@@ -19,7 +19,7 @@ O: Terminologias y modelo para integracion
 Con esto en mente podemos tener la pregunta para la revision sistematica:
 
 #PreguntaInvestigacion
-¿Como se ha abordado el autodiseño de sistemas? y ¿como se han automatizado procesos tradicionales de la ingenieria de diseño?
+==¿Como se ha abordado el autodiseño de sistemas? y ¿como se han automatizado procesos tradicionales de la ingenieria de diseño?==
 
 La ultima parte referente a: [[T003-Proceso de Ingenieria de Diseño]]
 
