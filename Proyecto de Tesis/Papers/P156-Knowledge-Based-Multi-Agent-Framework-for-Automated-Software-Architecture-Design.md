@@ -1,3 +1,4 @@
-# P156 - Knowledge-Based Multi-Agent Framework for Automated Software Architecture Design
+#CompletarCita 
 
-Referencia del archivo original: `(Yiran Zhang) Knowledge-Based Multi-Agent Framework for Automated Software Architecture Design.pdf`
+Referencia del archivo original: `(Yiran Zhang) Knowledge-Based Multi-Agent Framework for Automated Software Architecture Design.pdf` [[(Yiran Zhang) Knowledge-Based Multi-Agent Framework for Automated Software Architecture Design.pdf]]
+

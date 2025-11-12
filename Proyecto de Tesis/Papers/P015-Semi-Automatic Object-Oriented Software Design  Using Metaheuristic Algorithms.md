@@ -10,7 +10,7 @@
 	keywords={Wireless fidelity;Software Design;Search-Based Software Engineering;Meta-Heuristic Algorithm;Formal Concept Analysis},
 	doi={10.1109/CSIEC.2017.7940169}}
 	
-Lectura basada en: [[(Zeynab lavidi ) Semi-automatic object-oriented software design using metaheuristic algorithms.pdf]]
+Lectura basada en: [[(Zeynab Javidi ) Semi-automatic object-oriented software design using metaheuristic algorithms.pdf]]
 
 
 ### Resumen del Paper: "Diseño Semi-Automático de Software Orientado a Objetos Usando Algoritmos Metaheurísticos"

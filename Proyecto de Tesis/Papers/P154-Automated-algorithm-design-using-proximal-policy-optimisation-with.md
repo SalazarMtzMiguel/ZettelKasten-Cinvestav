@@ -1,3 +1,4 @@
-# P154 - Automated algorithm design using proximal policy optimisation with
+#CompletarCita 
 
-Referencia del archivo original: `(Wenjie Yi) Automated algorithm design using proximal policy optimisation with.pdf`
+Referencia del archivo original: `(Wenjie Yi) Automated algorithm design using proximal policy optimisation with.pdf` [[(Wenjie Yi) Automated algorithm design using proximal policy optimisation with.pdf]]
+
