@@ -1,4 +1,4 @@
-La clasificación precisa de cómo se ha abordado o llevado a cabo el diseño automático o auto-diseño de software, según los documentos proporcionados, se puede dividir en varios enfoques principales, a menudo superpuestos y basados en diferentes técnicas de Inteligencia Artificial (IA) y metodologías de Ingeniería de Software (IS).
+ La clasificación precisa de cómo se ha abordado o llevado a cabo el diseño automático o auto-diseño de software, según los documentos proporcionados, se puede dividir en varios enfoques principales, a menudo superpuestos y basados en diferentes técnicas de Inteligencia Artificial (IA) y metodologías de Ingeniería de Software (IS).
 
 A continuación, se presenta una clasificación académica y precisa:
 
