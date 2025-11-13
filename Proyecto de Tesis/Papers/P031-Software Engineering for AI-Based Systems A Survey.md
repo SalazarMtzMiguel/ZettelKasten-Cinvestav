@@ -1,5 +1,5 @@
 #CitaLatex 
-@article{10.1145/3487043,
+@article{MartinezSilverioSoftwareEngineering,
 author = {Mart\'{\i}nez-Fern\'{a}ndez, Silverio and Bogner, Justus and Franch, Xavier and Oriol, Marc and Siebert, Julien and Trendowicz, Adam and Vollmer, Anna Maria and Wagner, Stefan},
 title = {Software Engineering for AI-Based Systems: A Survey},
 year = {2022},

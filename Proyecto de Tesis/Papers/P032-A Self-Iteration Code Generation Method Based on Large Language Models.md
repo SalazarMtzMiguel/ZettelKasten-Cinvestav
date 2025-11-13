@@ -1,5 +1,5 @@
 #CitaLatex 
-@INPROCEEDINGS{10476069,
+@INPROCEEDINGS{ChangASelf-IterationCode,
   author={Chang, Tianyou and Chen, Shizhan and Fan, Guodong and Feng, Zhiyong},
   booktitle={2023 IEEE 29th International Conference on Parallel and Distributed Systems (ICPADS)}, 
   title={A Self-Iteration Code Generation Method Based on Large Language Models}, 

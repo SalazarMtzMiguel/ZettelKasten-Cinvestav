@@ -1,5 +1,5 @@
 #CitaLatex 
-@ARTICLE{10740293,
+@ARTICLE{DurraniADecadeof,
   author={Durrani, Usman Khan and Akpinar, Mustafa and Fatih Adak, Muhammed and Talha Kabakus, Abdullah and Maruf Öztürk, Muhammed and Saleh, Mohammed},
   journal={IEEE Access}, 
   title={A Decade of Progress: A Systematic Literature Review on the Integration of AI in Software Engineering Phases and Activities (2013-2023)}, 

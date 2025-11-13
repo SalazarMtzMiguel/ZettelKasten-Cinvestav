@@ -1,3 +1,3 @@
-# P044 - SoftwareArchitecture
+#CitaLatex 
 
-Referencia del archivo original: `(Anton Jansen) SoftwareArchitecture.pdf`
+Referencia del archivo original: `(Anton Jansen) SoftwareArchitecture.pdf` [[(Anton Jansen) SoftwareArchitecture.pdf]]

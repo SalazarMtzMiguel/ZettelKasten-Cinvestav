@@ -1,5 +1,5 @@
 #CitaLatex 
-@ARTICLE{769885,
+@ARTICLE{OreizyAnarchitecture-based,
   author={Oreizy, P. and Gorlick, M.M. and Taylor, R.N. and Heimhigner, D. and Johnson, G. and Medvidovic, N. and Quilici, A. and Rosenblum, D.S. and Wolf, A.L.},
   journal={IEEE Intelligent Systems and their Applications}, 
   title={An architecture-based approach to self-adaptive software}, 
