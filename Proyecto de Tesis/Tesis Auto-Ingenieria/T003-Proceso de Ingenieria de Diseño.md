@@ -1,5 +1,7 @@
 Basado en la presentacion del Dr. Mario Angel Siller
+
 ![[Ingenieria de diseño presentacion 2024.png]]
+![[Pasted image 20251113140926.png]]
 Diseño arquitectonico
 		Arquitectura del sistema
 Especificacion abstracta
