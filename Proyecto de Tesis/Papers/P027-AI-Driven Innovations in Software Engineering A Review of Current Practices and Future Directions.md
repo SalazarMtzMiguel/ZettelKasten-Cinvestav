@@ -1,5 +1,5 @@
 #CitaLatex 
-@Article{app15031344,
+@Article{AleneziAI-Driven,
 AUTHOR = {Alenezi, Mamdouh and Akour, Mohammed},
 TITLE = {AI-Driven Innovations in Software Engineering: A Review of Current Practices and Future Directions},
 JOURNAL = {Applied Sciences},

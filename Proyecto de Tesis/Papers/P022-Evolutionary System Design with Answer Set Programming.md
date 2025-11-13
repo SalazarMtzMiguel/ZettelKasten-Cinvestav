@@ -1,5 +1,5 @@
 #CitaLatex 
-@Article{a16040179,
+@Article{HaubeltEvolutionarySystemDesign,
 AUTHOR = {Haubelt, Christian and Müller, Luise and Neubauer, Kai and Schaub, Torsten and Wanko, Philipp},
 TITLE = {Evolutionary System Design with Answer Set Programming},
 JOURNAL = {Algorithms},

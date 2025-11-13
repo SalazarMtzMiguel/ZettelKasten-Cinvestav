@@ -1,5 +1,5 @@
 #CitaLatex 
-@INPROCEEDINGS{10710979,
+@INPROCEEDINGS{GuntupalliIntegratingGenerative,
   author={Guntupalli, Jayesh and Watanabe, Kentarou},
   booktitle={2024 IEEE 29th International Conference on Emerging Technologies and Factory Automation (ETFA)}, 
   title={Integrating Generative AI for Enhanced Automation in System Design Processes}, 

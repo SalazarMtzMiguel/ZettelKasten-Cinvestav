@@ -1,4 +1,18 @@
-#CompletarCita 
+#CitaLatex 
+@article{Ali2023AI-driven,
+  title = {AI-driven software engineering},
+  volume = {3},
+  ISSN = {2977-3911},
+  url = {http://dx.doi.org/10.54254/2977-3903/3/2023030},
+  DOI = {10.54254/2977-3903/3/2023030},
+  number = {1},
+  journal = {Advances in Engineering Innovation},
+  publisher = {EWA Publishing},
+  author = {Ali,  Josh Mahmood},
+  year = {2023},
+  month = oct,
+  pages = {None--None}
+}
 Lectura basada en [[(Josh Mahmood Ali) AI-driven software engineering.pdf]]
 
 

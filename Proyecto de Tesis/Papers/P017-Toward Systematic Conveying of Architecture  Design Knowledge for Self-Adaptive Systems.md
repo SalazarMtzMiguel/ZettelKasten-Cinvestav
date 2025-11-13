@@ -1,5 +1,5 @@
 #CitaLatex 
-@INPROCEEDINGS{6803251,
+@INPROCEEDINGS{AndradeTowardSystematicConveying,
 	author={Andrade, Sandro Santos and de Araújo Macêdo, Raimundo José},
 	booktitle={2013 IEEE 7th International Conference on Self-Adaptation and Self-Organizing Systems Workshops}, 
 	title={Toward Systematic Conveying of Architecture Design Knowledge for Self-Adaptive Systems}, 

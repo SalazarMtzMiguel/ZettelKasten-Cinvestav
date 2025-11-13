@@ -1,5 +1,5 @@
 #CitaLatex 
-@INPROCEEDINGS{5068821,
+@INPROCEEDINGS{MalekSelf-Architecting,
 	author={Malek, Sam and Esfahani, Naeem and Menasce, Daniel A. and Sousa, Joao P. and Gomaa, Hassan},
 	booktitle={2009 ICSE Workshop on Principles of Engineering Service Oriented Systems}, 
 	title={Self-Architecting Software SYstems (SASSY) from QoS-annotated activity models}, 

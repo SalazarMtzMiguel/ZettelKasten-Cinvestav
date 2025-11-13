@@ -1,5 +1,5 @@
 #CitaLatex 
-@INPROCEEDINGS{6827105,
+@INPROCEEDINGS{FaniyiArchitectingSelf-Aware,
 		author={Faniyi, Funmilade and Lewis, Peter R. and Bahsoon, Rami and Yao, Xin},
 		booktitle={2014 IEEE/IFIP Conference on Software Architecture}, 
 		title={Architecting Self-Aware Software Systems}, 

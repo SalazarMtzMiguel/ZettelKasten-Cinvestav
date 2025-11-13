@@ -1,5 +1,5 @@
 #CitaLatex 
-@INPROCEEDINGS{7940169,
+@INPROCEEDINGS{JavidiSemi-Automatic,
 	author={Javidi, Zeynab and Akbari, Reza and Bushehrian, Omid},
 	booktitle={2017 2nd Conference on Swarm Intelligence and Evolutionary Computation (CSIEC)}, 
 	title={Semi-automatic object-oriented software design using metaheuristic algorithms}, 
