@@ -1,5 +1,5 @@
 #CompletarCita 
-@INPROCEEDINGS{8593012,
+@INPROCEEDINGS{AlrumaihHala2018TowardAutomatedSoftware,
   author={Alrumaih, Hala and Mirza, Abdulrahman and Alsalamah, Hessah},
   booktitle={2018 21st Saudi Computer Society National Computer Conference (NCC)}, 
   title={Toward Automated Software Requirements Classification}, 

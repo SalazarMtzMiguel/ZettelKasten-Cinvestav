@@ -1,5 +1,5 @@
 #CompletarCita 
-@INPROCEEDINGS{7306570,
+@INPROCEEDINGS{Joachim2015ATestingScheme,
   author={Hänsel, Joachim and Vogel, Thomas and Giese, Holger},
   booktitle={2015 IEEE International Conference on Self-Adaptive and Self-Organizing Systems Workshops}, 
   title={A Testing Scheme for Self-Adaptive Software Systems with Architectural Runtime Models}, 

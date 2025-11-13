@@ -1,5 +1,5 @@
 #CompletarCita 
-@INPROCEEDINGS{11030046,
+@INPROCEEDINGS{BarzaminiHamed2025AnAI-drivenRequirements,
   author={Barzamini, Hamed and Nazaritiji, Fatemeh and Brockmann, Annalise and Ferdowsi, Hasan and Rahimi, Mona},
   booktitle={2025 IEEE/ACM 4th International Conference on AI Engineering – Software Engineering for AI (CAIN)}, 
   title={An AI-driven Requirements Engineering Framework Tailored for Evaluating AI-Based Software}, 

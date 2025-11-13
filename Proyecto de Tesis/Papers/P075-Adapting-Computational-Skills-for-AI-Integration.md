@@ -1,5 +1,5 @@
 #CompletarCita 
-@INPROCEEDINGS{10663020,
+@INPROCEEDINGS{ElhashemyHanya2024AdaptingComputationalSkills,
   author={Elhashemy, Hanya and Abelson, Harold and Michaeli, Tilman},
   booktitle={2024 36th International Conference on Software Engineering Education and Training (CSEE&T)}, 
   title={Adapting Computational Skills for AI Integration}, 

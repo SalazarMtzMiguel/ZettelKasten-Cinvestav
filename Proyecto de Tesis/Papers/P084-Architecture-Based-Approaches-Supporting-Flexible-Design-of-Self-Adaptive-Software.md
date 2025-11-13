@@ -1,5 +1,5 @@
 #CompletarCita 
-@INPROCEEDINGS{7881573,
+@INPROCEEDINGS{ChaJung-Eun2016ArchitectureBasedApproaches,
   author={Cha, Jung-Eun and Kim, Jeong-Si and Jeong, Young-Joon},
   booktitle={2016 International Conference on Computational Science and Computational Intelligence (CSCI)}, 
   title={Architecture Based Approaches Supporting Flexible Design of Self-Adaptive Software}, 

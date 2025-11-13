@@ -1,5 +1,5 @@
 #CompletarCita 
-@INPROCEEDINGS{9131470,
+@INPROCEEDINGS{Donetskaya2020DevelopmentofDesignProcedures,
   author={Donetskaya, Ju. V. and Gatchin, Yu. A.},
   booktitle={2020 Wave Electronics and its Application in Information and Telecommunication Systems (WECONF)}, 
   title={Development of Design Procedures for the Synthesis of Design Solutions for Data Management, Design and Production Procedures at the Stages of the Life Cycle of an Electronic Product}, 

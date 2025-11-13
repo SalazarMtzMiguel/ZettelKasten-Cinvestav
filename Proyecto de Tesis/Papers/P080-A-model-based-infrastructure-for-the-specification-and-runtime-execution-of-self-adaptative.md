@@ -1,5 +1,5 @@
 #CompletarCita 
-@article{Alfonso2023,
+@article{Alfonso2023Amodel-basedinfrastructure,
   title = {A model-based infrastructure for the specification and runtime execution of self-adaptive IoT architectures},
   volume = {105},
   ISSN = {1436-5057},
