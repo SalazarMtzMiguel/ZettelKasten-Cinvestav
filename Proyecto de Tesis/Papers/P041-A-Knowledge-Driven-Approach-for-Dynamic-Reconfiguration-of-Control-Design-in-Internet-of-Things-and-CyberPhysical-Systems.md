@@ -1,5 +1,5 @@
 #CitaLatex 
-@ARTICLE{10737388,
+@ARTICLE{BanerjeeAmarAKnowledge-Driven,
   author={Banerjee, Amar and Choppella, Venkatesh},
   journal={IEEE Internet of Things Journal}, 
   title={A Knowledge-Driven Approach for Dynamic Reconfiguration of Control Design in Internet of Things and Cyber–Physical Systems}, 

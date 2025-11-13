@@ -1,5 +1,5 @@
 #CitaLatex 
-@INPROCEEDINGS{10932477,
+@INPROCEEDINGS{AdityaPaiAI-Driven,
   author={H, Aditya Pai and S, Chandrappa and S, Guru Prasad M and Thakare, Atul and Christa, Sharon and Kumar, Pratik},
   booktitle={2025 2nd International Conference on Computational Intelligence, Communication Technology and Networking (CICTN)}, 
   title={AI-Driven Software Reuse: Optimization and Comparative Performance Analysis}, 

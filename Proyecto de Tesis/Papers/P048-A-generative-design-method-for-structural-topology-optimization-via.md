@@ -1,5 +1,5 @@
 #CitaLatex 
-@article{Li2020,
+@article{Li2020Agenerativedesignmethod,
   title = {A generative design method for structural topology optimization via transformable triangular mesh (TTM) algorithm},
   volume = {62},
   ISSN = {1615-1488},

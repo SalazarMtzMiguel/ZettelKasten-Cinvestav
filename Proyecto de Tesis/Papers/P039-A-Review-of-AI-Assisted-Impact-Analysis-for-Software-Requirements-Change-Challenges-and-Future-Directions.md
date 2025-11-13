@@ -1,5 +1,5 @@
 #CitaLatex 
-@INPROCEEDINGS{10877072,
+@INPROCEEDINGS{SamhanAhmadAReviewofAI-Assisted,
   author={Samhan, Ahmad and AlHajHassan, Suhair and Dabaa't, Sara Abu and Elrashidi, Ali},
   booktitle={2024 25th International Arab Conference on Information Technology (ACIT)}, 
   title={A Review of AI-Assisted Impact Analysis for Software Requirements Change: Challenges and Future Directions}, 

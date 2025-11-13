@@ -1,5 +1,5 @@
 #CitaLatex 
-@INPROCEEDINGS{10738945,
+@INPROCEEDINGS{AnupriyaSharmaArtificialIntelligence,
   author={Ghai, Anupriya Sharma and Rawat, Vandna and Gupta, Vishan Kumar and Ghai, Kapil},
   booktitle={2024 International Conference on Electrical Electronics and Computing Technologies (ICEECT)}, 
   title={Artificial Intelligence in System and Software Engineering for Auto Code Generation}, 

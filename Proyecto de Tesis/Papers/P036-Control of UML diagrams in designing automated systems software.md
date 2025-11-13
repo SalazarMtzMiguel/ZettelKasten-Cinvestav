@@ -1,5 +1,5 @@
 #CitaLatex 
-@INPROCEEDINGS{7338564,
+@INPROCEEDINGS{AfanasyevControlofUML,
   author={Afanasyev, A.N. and Voit, N.N. and Voevodin, E. Yu. and Gainullin, R.F.},
   booktitle={2015 9th International Conference on Application of Information and Communication Technologies (AICT)}, 
   title={Control of UML diagrams in designing automated systems software}, 

@@ -1,5 +1,5 @@
 #CitaLatex 
-@INPROCEEDINGS{7844665,
+@INPROCEEDINGS{FarahaniAliAnevaluationmethod,
   author={Farahani, Ali and Nazemi, Eslam and Cabri, Giacomo and Rafizadeh, Alireza},
   booktitle={2016 IEEE International Conference on Systems, Man, and Cybernetics (SMC)}, 
   title={An evaluation method for Self-Adaptive systems}, 

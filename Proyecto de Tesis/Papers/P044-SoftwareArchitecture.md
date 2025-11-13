@@ -1,5 +1,5 @@
 #CitaLatex 
-@book{2020,
+@book{SoftwareArchitectureSpringerInternational,
   title = {Software Architecture: 14th European Conference,  ECSA 2020,  L’Aquila,  Italy,  September 14–18,  2020,  Proceedings},
   ISBN = {9783030589233},
   ISSN = {1611-3349},

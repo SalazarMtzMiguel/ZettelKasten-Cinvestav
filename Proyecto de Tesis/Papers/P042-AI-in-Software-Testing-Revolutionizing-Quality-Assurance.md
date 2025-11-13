@@ -1,5 +1,5 @@
 #CitaLatex 
-@INPROCEEDINGS{10819179,
+@INPROCEEDINGS{TrifunovaAndreaAIinSoftwareTesting,
   author={Trifunova, Andrea and Jakimovski, Boro and Chorbev, Ivan and Lameski, Petre},
   booktitle={2024 32nd Telecommunications Forum (TELFOR)}, 
   title={AI in Software Testing: Revolutionizing Quality Assurance}, 

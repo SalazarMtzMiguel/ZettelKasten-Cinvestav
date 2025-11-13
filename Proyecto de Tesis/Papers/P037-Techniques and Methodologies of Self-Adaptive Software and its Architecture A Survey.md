@@ -1,5 +1,5 @@
  #CitaLatex 
- @INPROCEEDINGS{9676190,
+ @INPROCEEDINGS{RiazTechniquesandMethodologies,
   author={Riaz, Abdur Rehman and Rauf, Asma and Gilani, Syed Mushhad M. and Bashir, Muhammad Bilal},
   booktitle={2021 4th International Conference on Computing & Information Sciences (ICCIS)}, 
   title={Techniques and Methodologies of Self-Adaptive Software and its Architecture: A Survey}, 
