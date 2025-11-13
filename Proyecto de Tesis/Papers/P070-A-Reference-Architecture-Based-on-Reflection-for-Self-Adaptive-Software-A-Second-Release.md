@@ -1,5 +1,5 @@
 #CompletarCita 
-@ARTICLE{10597388,
+@ARTICLE{FrankJos2024AReferenceArchitecture,
   author={Affonso, Frank José and Nagassaki Campos, Gabriel and Guiguer Menaldo, Guilherme},
   journal={IEEE Access}, 
   title={A Reference Architecture Based on Reflection for Self-Adaptive Software: A Second Release}, 

@@ -1,5 +1,5 @@
 #CompletarCita 
-@INPROCEEDINGS{7266948,
+@INPROCEEDINGS{FelixMaximilian2015RuntimeEvolutionoftheAdaptation,
   author={Roth, Felix Maximilian and Krupitzer, Christian and Becker, Christian},
   booktitle={2015 IEEE International Conference on Autonomic Computing}, 
   title={Runtime Evolution of the Adaptation Logic in Self-Adaptive Systems}, 

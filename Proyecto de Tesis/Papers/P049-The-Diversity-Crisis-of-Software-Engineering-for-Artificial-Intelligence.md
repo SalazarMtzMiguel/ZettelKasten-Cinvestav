@@ -1,5 +1,5 @@
 #CitaLatex 
-@ARTICLE{9173624,
+@ARTICLE{AdamsBramTheDiversityCrisis,
   author={Adams, Bram and Khomh, Foutse},
   journal={IEEE Software}, 
   title={The Diversity Crisis of Software Engineering for Artificial Intelligence}, 

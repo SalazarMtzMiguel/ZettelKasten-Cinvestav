@@ -1,5 +1,5 @@
 #CompletarCita 
-@INPROCEEDINGS{10628472,
+@INPROCEEDINGS{LoDavid2024RequirementsEngineering,
   author={Lo, David},
   booktitle={2024 IEEE 32nd International Requirements Engineering Conference (RE)}, 
   title={Requirements Engineering for Trustworthy Human-AI Synergy in Software Engineering 2.0}, 

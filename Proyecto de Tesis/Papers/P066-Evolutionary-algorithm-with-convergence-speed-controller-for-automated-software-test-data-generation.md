@@ -1,5 +1,5 @@
 #CompletarCita 
-@INPROCEEDINGS{7969400,
+@INPROCEEDINGS{FangqingLiu2017Evolutionaryalgorithm,
   author={Fangqing Liu and Han Huang and Zhifeng Hao},
   booktitle={2017 IEEE Congress on Evolutionary Computation (CEC)}, 
   title={Evolutionary algorithm with convergence speed controller for automated software test data generation problem}, 

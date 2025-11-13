@@ -1,5 +1,5 @@
 #CompletarCita 
-@INPROCEEDINGS{8549607,
+@INPROCEEDINGS{NikolaevaDimitrichka2018Approachtobuildaclass,
   author={Nikolaeva, Dimitrichka Zheleva and Bozhikova, Violeta Todorova},
   booktitle={2018 IEEE XXVII International Scientific Conference Electronics - ET}, 
   title={Approach to build a class of Software Systems through a Combination of Design Patterns}, 

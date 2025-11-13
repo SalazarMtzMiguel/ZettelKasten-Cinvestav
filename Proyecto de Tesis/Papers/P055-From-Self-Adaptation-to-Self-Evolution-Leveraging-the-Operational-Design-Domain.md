@@ -1,5 +1,5 @@
 #CitaLatex 
-@INPROCEEDINGS{10174091,
+@INPROCEEDINGS{WeynsDannyFromSelf-Adaptation,
   author={Weyns, Danny and Andersson, Jesper},
   booktitle={2023 IEEE/ACM 18th Symposium on Software Engineering for Adaptive and Self-Managing Systems (SEAMS)}, 
   title={From Self-Adaptation to Self-Evolution Leveraging the Operational Design Domain}, 

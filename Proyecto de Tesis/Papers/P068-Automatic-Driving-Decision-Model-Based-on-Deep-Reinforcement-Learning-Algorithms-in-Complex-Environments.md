@@ -1,5 +1,5 @@
 #CompletarCita 
-@INPROCEEDINGS{10708807,
+@INPROCEEDINGS{WangFeng2024AutomaticDrivingDecision,
   author={Wang, Feng},
   booktitle={2024 3rd International Conference on Artificial Intelligence and Autonomous Robot Systems (AIARS)}, 
   title={Automatic Driving Decision Model Based on Deep Reinforcement Learning Algorithms in Complex Environments}, 

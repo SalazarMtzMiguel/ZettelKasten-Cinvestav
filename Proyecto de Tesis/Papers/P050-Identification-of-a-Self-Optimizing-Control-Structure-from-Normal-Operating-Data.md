@@ -1,5 +1,5 @@
 #CitaLatex 
-@INPROCEEDINGS{8815270,
+@INPROCEEDINGS{AlcalaCarlosFIdentificationofaSelf-Optimizing,
   author={Alcala, Carlos F. and Salsbury, Timothy I. and House, John M.},
   booktitle={2019 American Control Conference (ACC)}, 
   title={Identification of a Self-Optimizing Control Structure from Normal Operating Data}, 

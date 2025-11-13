@@ -1,5 +1,5 @@
 #CompletarCita 
-@INPROCEEDINGS{8777584,
+@INPROCEEDINGS{WangooDivanshi2018ArtificialIntelligence,
   author={Wangoo, Divanshi Priyadarshni},
   booktitle={2018 4th International Conference on Computing Communication and Automation (ICCCA)}, 
   title={Artificial Intelligence Techniques in Software Engineering for Automated Software Reuse and Design}, 

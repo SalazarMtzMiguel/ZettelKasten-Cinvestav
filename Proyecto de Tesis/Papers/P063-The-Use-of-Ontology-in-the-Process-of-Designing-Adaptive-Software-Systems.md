@@ -1,5 +1,5 @@
 #CompletarCita 
-@INPROCEEDINGS{10000528,
+@INPROCEEDINGS{FedasyukDmytro2022TheUseofOntology,
   author={Fedasyuk, Dmytro and Lutsyk, Illia},
   booktitle={2022 IEEE 17th International Conference on Computer Sciences and Information Technologies (CSIT)}, 
   title={The Use of Ontology in the Process of Designing Adaptive Software Systems}, 
