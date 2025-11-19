@@ -90,7 +90,7 @@ Consensus: 17
 | Etapa del cribado | Query  | Fechas | Titulo y Abstract | Lectura Final |
 | ----------------- | ------ | ------ | ----------------- | ------------- |
 | Scopus            | 57     | 47     | 3                 |               |
-| Web of science    | 86     | 69     |                   |               |
+| Web of science    | 86     | 69     | 9                 |               |
 | IEEE Xplore       | 55,312 | 43,819 | 15                |               |
 | ACM Digital       | 145    | 126    | 7                 |               |
 
@@ -103,10 +103,10 @@ Consensus: 20
 
 | Etapa del cribado | Query | Fechas | Titulo y Abstract | Lectura Final |
 | ----------------- | ----- | ------ | ----------------- | ------------- |
-| Scopus            | 137   | 137    |                   |               |
-| Web of science    | 482   | 306    |                   |               |
-| IEEE Xplore       | 6,525 | 3,758  |                   |               |
-| ACM Digital       | 100   | 53     |                   |               |
+| Scopus            | 137   | 137    | 0                 |               |
+| Web of science    | 482   | 306    | 7                 |               |
+| IEEE Xplore       | 6,525 | 3,758  | 15                |               |
+| ACM Digital       | 100   | 53     | 0                 |               |
 
 Scispace: 20
 Consensus: 20
@@ -117,10 +117,10 @@ Consensus: 20
 
 | Etapa del cribado | Query | Fechas | Titulo y Abstract | Lectura Final |
 | ----------------- | ----- | ------ | ----------------- | ------------- |
-| Scopus            | 40    | 18     |                   |               |
-| Web of science    | 162   | 88     |                   |               |
-| IEEE Xplore       | 9,419 | 5,319  |                   |               |
-| ACM Digital       | 62    | 38     |                   |               |
+| Scopus            | 40    | 18     | 1                 |               |
+| Web of science    | 162   | 88     | 3                 |               |
+| IEEE Xplore       | 9,419 | 5,319  | 0                 |               |
+| ACM Digital       | 62    | 38     | 0                 |               |
 
 Scispace: 20
 Consensus: 20
@@ -131,10 +131,10 @@ Consensus: 20
 
 | Etapa del cribado | Query | Fechas | Titulo y Abstract | Lectura Final |
 | ----------------- | ----- | ------ | ----------------- | ------------- |
-| Scopus            | 3     | 2      |                   |               |
-| Web of science    | 16    | 8      |                   |               |
-| IEEE Xplore       | 7,320 | 5,060  |                   |               |
-| ACM Digital       | 12    | 7      |                   |               |
+| Scopus            | 3     | 2      | 0                 |               |
+| Web of science    | 16    | 8      | 1                 |               |
+| IEEE Xplore       | 7,320 | 5,060  | 4                 |               |
+| ACM Digital       | 12    | 7      | 0                 |               |
 
 Scispace: 20
 Consensus: 20
@@ -147,8 +147,8 @@ Consensus: 20
 | ----------------- | ----- | ------ | ----------------- | ------------- |
 | Scopus            | 0     | 0      |                   |               |
 | Web of science    | 1     | 1      |                   |               |
-| IEEE Xplore       | 1,246 | 1,096  |                   |               |
-| ACM Digital       | 0     | 0      |                   |               |
+| IEEE Xplore       | 1,246 | 1,096  | 1                 |               |
+| ACM Digital       | 0     | 0      | 1                 |               |
 
 Scispace: 17
 Consensus: 50
@@ -159,10 +159,10 @@ Consensus: 50
 
 | Etapa del cribado | Query  | Fechas | Titulo y Abstract | Lectura Final |
 | ----------------- | ------ | ------ | ----------------- | ------------- |
-| Scopus            | 67     | 61     |                   |               |
-| Web of science    | 358    | 221    |                   |               |
-| IEEE Xplore       | 43,109 | 31,047 |                   |               |
-| ACM Digital       | 90     | 54     |                   |               |
+| Scopus            | 67     | 61     | 4                 |               |
+| Web of science    | 358    | 221    | 13                |               |
+| IEEE Xplore       | 43,109 | 31,047 | 2                 |               |
+| ACM Digital       | 90     | 54     | 1                 |               |
 
 Scispace: 20
 Consensus: 50
