@@ -131,14 +131,10 @@ Consensus: 20
 
 | Etapa del cribado | Query | Fechas | Titulo y Abstract | Lectura Final |
 | ----------------- | ----- | ------ | ----------------- | ------------- |
-| Scopus            |       |        |                   |               |
-| Web of science    |       |        |                   |               |
-| IEEE Xplore       |       |        |                   |               |
-| ACM Digital       |       |        |                   |               |
-Scopus: 3 rango: 2 por titulo:
-Web of science: 16 rango: 8 por titulo:
-IEEE Xplore: 7,320 rango: 5,060 por titulo:
-ACM Digital: 12 rango: 7 por titulo:
+| Scopus            | 3     | 2      |                   |               |
+| Web of science    | 16    | 8      |                   |               |
+| IEEE Xplore       | 7,320 | 5,060  |                   |               |
+| ACM Digital       | 12    | 7      |                   |               |
 
 Scispace: 20
 Consensus: 20
@@ -149,14 +145,10 @@ Consensus: 20
 
 | Etapa del cribado | Query | Fechas | Titulo y Abstract | Lectura Final |
 | ----------------- | ----- | ------ | ----------------- | ------------- |
-| Scopus            |       |        |                   |               |
-| Web of science    |       |        |                   |               |
-| IEEE Xplore       |       |        |                   |               |
-| ACM Digital       |       |        |                   |               |
-Scopus: 0
-Web of science: 1 rango: 1 por titulo:
-IEEE Xplore: 1,246 rango: 1,096 por titulo:
-ACM Digital: 0
+| Scopus            | 0     |        |                   |               |
+| Web of science    | 1     | 1      |                   |               |
+| IEEE Xplore       | 1,246 | 1,096  |                   |               |
+| ACM Digital       | 0     |        |                   |               |
 
 Scispace: 17
 Consensus: 50
@@ -165,17 +157,12 @@ Consensus: 50
 
 ## 12. Self/Auto-Algorithm Design
 
-| Etapa del cribado | Query | Fechas | Titulo y Abstract | Lectura Final |
-| ----------------- | ----- | ------ | ----------------- | ------------- |
-| Scopus            |       |        |                   |               |
-| Web of science    |       |        |                   |               |
-| IEEE Xplore       |       |        |                   |               |
-| ACM Digital       |       |        |                   |               |
-
-Scopus: 67 rango: 61 por titulo:
-Web of science: 358 rango:221 por titulo:
-IEEE Xplore: 43,109 rango: 31,047 por titulo:
-ACM Digital: 90 rango: 54 por titulo:
+| Etapa del cribado | Query  | Fechas | Titulo y Abstract | Lectura Final |
+| ----------------- | ------ | ------ | ----------------- | ------------- |
+| Scopus            | 67     | 61     |                   |               |
+| Web of science    | 358    | 221    |                   |               |
+| IEEE Xplore       | 43,109 | 31,047 |                   |               |
+| ACM Digital       | 90     | 54     |                   |               |
 
 Scispace: 20
 Consensus: 50
