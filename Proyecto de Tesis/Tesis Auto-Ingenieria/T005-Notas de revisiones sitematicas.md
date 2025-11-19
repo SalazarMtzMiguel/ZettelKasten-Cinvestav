@@ -80,3 +80,4 @@ Mapeo de IA: ![[Pasted image 20251112131211.png]]
 Mapeo de IA y SE fases en contexto de precision: ![[Pasted image 20251112131239.png]]
 Nube de palabras para esta seccion: ![[Pasted image 20251112131315.png]]
 
+![[Pasted image 20251118180223.png]]
