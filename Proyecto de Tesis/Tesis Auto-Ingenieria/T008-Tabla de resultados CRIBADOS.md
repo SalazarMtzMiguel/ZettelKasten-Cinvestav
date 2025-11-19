@@ -81,7 +81,7 @@ Consensus: 18
 | Etapa del cribado | Query | Fechas | Titulo y Abstract | Lectura Final |
 | ----------------- | ----- | ------ | ----------------- | ------------- |
 | Scopus            | 211   | 150    |                   |               |
-| Web of science    | 136   | 97     |                   |               |
+| Web of science    | 136   | 97     | 2                 |               |
 | IEEE Xplore       | 672   | 483    |                   |               |
 | ACM Digital       | 2     | 2      | 0                 |               |
 
