@@ -9,6 +9,7 @@ Es resultado de lo visto en [[T004-Sentencias para busqueda]]
 | Web of science    | 33    | 16     | 6                 |               |
 | IEEE Xplore       | 2,286 | 1,175  | 8                 |               |
 | ACM Digital       | 59    | 20     | 2                 |               |
+|                   |       |        | 16                |               |
 
 Scispace: 20
 Consensus: 0
@@ -23,6 +24,7 @@ Consensus: 0
 | Web of science    | 11,863 | 7,329  | 12                |               |
 | IEEE Xplore       | 96,204 | 57,107 | 8                 |               |
 | ACM Digital       | 590    | 411    | 4                 |               |
+|                   |        |        | 24                |               |
 
 Scispace: 100
 Consensus: 20
@@ -37,6 +39,7 @@ Consensus: 20
 | Web of science    | 4      | 1      | 1                 |               |
 | IEEE Xplore       | 26,612 | 11,939 | 6                 |               |
 | ACM Digital       | 394    | 168    | 5                 |               |
+|                   |        |        | 13                |               |
 
 Scispace: 20
 Consensus: 19
@@ -51,6 +54,7 @@ Consensus: 19
 | Web of science    | 2      | 2      | 2                 |               |
 | IEEE Xplore       | 16,421 | 15,551 | 1                 |               |
 | ACM Digital       | 960    | 595    | 2                 |               |
+|                   |        |        | 8                 |               |
 
 Scispace: 20
 Consensus: 20
@@ -65,6 +69,7 @@ Consensus: 20
 | Web of science    | 230    | 97     | 11                |               |
 | IEEE Xplore       | 50,348 | 26,350 | 15                |               |
 | ACM Digital       | 37     | 17     | 0                 |               |
+|                   |        |        | 28                |               |
 
 Scispace: 20 
 Consensus: 18
