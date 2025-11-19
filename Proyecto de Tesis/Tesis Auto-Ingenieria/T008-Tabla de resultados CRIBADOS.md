@@ -7,8 +7,8 @@ Es resultado de lo visto en [[T004-Sentencias para busqueda]]
 | ----------------- | ----- | ------ | ----------------- | ------------- |
 | Scopus            | 1     | 0      | 0                 | 0             |
 | Web of science    | 33    | 16     | 6                 |               |
-| IEEE Xplore       | 2,286 | 1,175  |                   |               |
-| ACM Digital       | 59    | 20     |                   |               |
+| IEEE Xplore       | 2,286 | 1,175  | 8                 |               |
+| ACM Digital       | 59    | 20     | 0                 | 0             |
 
 Scispace: 20
 Consensus: 0
