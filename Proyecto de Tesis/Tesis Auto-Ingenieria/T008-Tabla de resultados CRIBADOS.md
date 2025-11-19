@@ -5,15 +5,10 @@ Es resultado de lo visto en [[T004-Sentencias para busqueda]]
 
 | Etapa del cribado | Query | Fechas | Titulo y Abstract | Lectura Final |
 | ----------------- | ----- | ------ | ----------------- | ------------- |
-| Scopus            |       |        |                   |               |
-| Web of science    |       |        |                   |               |
-| IEEE Xplore       |       |        |                   |               |
-| ACM Digital       |       |        |                   |               |
-
-Scopus: 1 rango de fechas 0 por titulo:
-Web of science: 33 rango: 16 por titulo: 6
-IEEE Xplore: 2,286 rango: 1,175 por titulo:
-ACM Digital: 59 rango: 20 por titulo:
+| Scopus            | 1     | 0      | 0                 | 0             |
+| Web of science    | 33    | 16     | 6                 |               |
+| IEEE Xplore       | 2,286 | 1,175  |                   |               |
+| ACM Digital       | 59    | 20     |                   |               |
 
 Scispace: 20
 Consensus: 0
@@ -22,14 +17,12 @@ Consensus: 0
 
 ## 2. Self-Design
 
-```
-TITLE-ABS-KEY("self-design" OR "self design" OR "auto-design" OR "auto design" 
-OR "self software design" OR "auto software design")
-```
-Scopus: 679 rango de fechas: 353 por titulo:
-Web of science: 11,863 rango de fechas: 7,329 por titulo: 12
-IEEE Xplore: 96,204 rango: 57,107 por titulo:
-ACM Digital: 590 rango: 411 por titulo:
+| Etapa del cribado | Query  | Fechas | Titulo y Abstract | Lectura Final |
+| ----------------- | ------ | ------ | ----------------- | ------------- |
+| Scopus            | 679    | 353    |                   |               |
+| Web of science    | 11,863 | 7,329  | 12                |               |
+| IEEE Xplore       | 96,204 | 57,107 |                   |               |
+| ACM Digital       | 590    | 411    |                   |               |
 
 Scispace: 100
 Consensus: 20
@@ -38,14 +31,12 @@ Consensus: 20
 
 ## 3. Evolutionary Design in Software Systems
 
-```
-TITLE-ABS-KEY(("evolutionary design" OR "evolutionary software design") 
-AND ("software system*" OR "software engineering"))
-```
-Scopus: 45 rango de fechas: 5 por titulo:
-Web of science: 4 rango de fechas: 1 por titulo: 1
-IEEE Xplore: 26,612 rango de fechas: 11,939 por titulo:
-ACM Digital: 394 rango: 168 por titulo:
+| Etapa del cribado | Query  | Fechas | Titulo y Abstract | Lectura Final |
+| ----------------- | ------ | ------ | ----------------- | ------------- |
+| Scopus            | 45     | 5      |                   |               |
+| Web of science    | 4      | 1      | 1                 |               |
+| IEEE Xplore       | 26,612 | 11,939 |                   |               |
+| ACM Digital       | 394    | 168    |                   |               |
 
 Scispace: 20
 Consensus: 19
@@ -54,14 +45,12 @@ Consensus: 19
 
 ## 4. Generative Design in Software Systems
 
-```
-TITLE-ABS-KEY(("generative design" OR "generative software design") 
-AND ("software system*" OR "software engineering"))
-```
-Scopus: 21 rango de fechas: 14 por titulo:
-Web of science: 2 rango: 2 por titulo: 2
-IEEE Xplore: 16,491 rango: 15,551 por titulo:
-ACM Digital: 960 rango: 595 por titulo:
+| Etapa del cribado | Query  | Fechas | Titulo y Abstract | Lectura Final |
+| ----------------- | ------ | ------ | ----------------- | ------------- |
+| Scopus            | 21     | 14     |                   |               |
+| Web of science    | 2      | 2      | 2                 |               |
+| IEEE Xplore       | 16,421 | 15,551 |                   |               |
+| ACM Digital       | 960    | 595    |   
 
 Scispace: 20
 Consensus: 20
@@ -70,14 +59,12 @@ Consensus: 20
 
 ## 5. Software Design Automation
 
-```
-TITLE-ABS-KEY("software design automation" OR "design automation in software engineering" 
-OR "automated software design" OR "AI for software design")
-```
-Scopus: 54 rango de fechas: 15 por titulo:
-Web of science: 230 rango: 97 por titulo:
-IEEE Xplore: 50,348 rango:  26,350 por titulo:
-ACM Digital: 37 rango: 17 por titulo:
+| Etapa del cribado | Query  | Fechas | Titulo y Abstract | Lectura Final |
+| ----------------- | ------ | ------ | ----------------- | ------------- |
+| Scopus            | 54     | 15     |                   |               |
+| Web of science    | 230    | 97     |                   |               |
+| IEEE Xplore       | 50,348 | 26,350 |                   |               |
+| ACM Digital       | 37     | 17     |                   |               |
 
 Scispace: 20 
 Consensus: 18
@@ -86,14 +73,12 @@ Consensus: 18
 
 ## 6. Self-Sufficient Systems
 
-```
-TITLE-ABS-KEY("self-sufficient system*" OR "autonomous self-sufficient software" 
-OR "self-sufficient software system*")
-```
-Scopus: 211 rango de fechas: 150 por titulo:
-Web of science: 136 rango: 97 por titulo:
-IEEE Xplore: 672 rango: 483 por titulo:
-ACM Digital: 2 rango 2 por titulo:
+| Etapa del cribado | Query | Fechas | Titulo y Abstract | Lectura Final |
+| ----------------- | ----- | ------ | ----------------- | ------------- |
+| Scopus            | 211   | 150    |                   |               |
+| Web of science    | 136   | 97     |                   |               |
+| IEEE Xplore       | 672   | 483    |                   |               |
+| ACM Digital       | 2     | 2      |                   |               |
 
 Scispace: 20
 Consensus: 17
@@ -102,14 +87,12 @@ Consensus: 17
 
 ## 7. AI for Software Engineering
 
-```
-TITLE-ABS-KEY(("AI for software engineering" OR "artificial intelligence in software engineering" 
-OR "machine learning in software engineering"))
-```
-Scopus: 57 rango de fechas: 47  por titulo:
-Web of science: 86 rango: 69 por titulo:
-IEEE Xplore: 55,312 rango: 43,819 por titulo:
-ACM Digital: 145 rango: 126 por titulo:
+| Etapa del cribado | Query  | Fechas | Titulo y Abstract | Lectura Final |
+| ----------------- | ------ | ------ | ----------------- | ------------- |
+| Scopus            | 57     | 47     |                   |               |
+| Web of science    | 86     | 69     |                   |               |
+| IEEE Xplore       | 55,312 | 43,819 |                   |               |
+| ACM Digital       | 145    | 126    |                   |               |
 
 Scispace: 20
 Consensus: 20
@@ -118,14 +101,12 @@ Consensus: 20
 
 ## 8. Self/Auto-Architectural Design
 
-```
-TITLE-ABS-KEY("self-architectural design" OR "auto-architectural design" 
-OR "self adaptive architecture" OR "self-adaptive design")
-```
-Scopus: 137 rango:  137 por titulo:
-Web of science: 482 rango: 306 por titulo:
-IEEE Xplore:  6,525 rango: 3,758 por titulo:
-ACM Digital: 100 rango: 53 por titulo:
+| Etapa del cribado | Query | Fechas | Titulo y Abstract | Lectura Final |
+| ----------------- | ----- | ------ | ----------------- | ------------- |
+| Scopus            | 137   | 137    |                   |               |
+| Web of science    | 482   | 306    |                   |               |
+| IEEE Xplore       | 6,525 | 3,758  |                   |               |
+| ACM Digital       | 100   | 53     |                   |               |
 
 Scispace: 20
 Consensus: 20
@@ -134,14 +115,12 @@ Consensus: 20
 
 ## 9. Self/Auto-Interface Design
 
-```
-TITLE-ABS-KEY("self-interface design" OR "auto-interface design" 
-OR "autonomous interface design" OR "adaptive interface design")
-```
-Scopus: 40 rango: 18 por titulo:
-Web of science: 162 rango: 88 por titulo:
-IEEE Xplore: 9,419 rango: 5,319 por titulo:
-ACM Digital: 62 rango: 38 por titulo:
+| Etapa del cribado | Query | Fechas | Titulo y Abstract | Lectura Final |
+| ----------------- | ----- | ------ | ----------------- | ------------- |
+| Scopus            | 40    | 18     |                   |               |
+| Web of science    | 162   | 88     |                   |               |
+| IEEE Xplore       | 9,419 | 5,319  |                   |               |
+| ACM Digital       | 62    | 38     |                   |               |
 
 Scispace: 20
 Consensus: 20
@@ -150,10 +129,12 @@ Consensus: 20
 
 ## 10. Self/Auto-Component Design
 
-```
-TITLE-ABS-KEY("self-component design" OR "auto-component design" 
-OR "autonomous component design" OR "self-generated component*")
-```
+| Etapa del cribado | Query | Fechas | Titulo y Abstract | Lectura Final |
+| ----------------- | ----- | ------ | ----------------- | ------------- |
+| Scopus            |       |        |                   |               |
+| Web of science    |       |        |                   |               |
+| IEEE Xplore       |       |        |                   |               |
+| ACM Digital       |       |        |                   |               |
 Scopus: 3 rango: 2 por titulo:
 Web of science: 16 rango: 8 por titulo:
 IEEE Xplore: 7,320 rango: 5,060 por titulo:
@@ -166,10 +147,12 @@ Consensus: 20
 
 ## 11. Self/Auto-Data Structure Design
 
-```
-TITLE-ABS-KEY("self-data structure design" OR "auto-data structure design" 
-OR "autonomous data structure optimization" OR "self-optimizing data structure*")
-```
+| Etapa del cribado | Query | Fechas | Titulo y Abstract | Lectura Final |
+| ----------------- | ----- | ------ | ----------------- | ------------- |
+| Scopus            |       |        |                   |               |
+| Web of science    |       |        |                   |               |
+| IEEE Xplore       |       |        |                   |               |
+| ACM Digital       |       |        |                   |               |
 Scopus: 0
 Web of science: 1 rango: 1 por titulo:
 IEEE Xplore: 1,246 rango: 1,096 por titulo:
@@ -182,11 +165,12 @@ Consensus: 50
 
 ## 12. Self/Auto-Algorithm Design
 
-```
-TITLE-ABS-KEY("self-algorithm design" OR "auto-algorithm design" 
-OR "autonomous algorithm design" OR "automated algorithm design" 
-OR "generative algorithm design" OR "AI-based algorithm design")
-```
+| Etapa del cribado | Query | Fechas | Titulo y Abstract | Lectura Final |
+| ----------------- | ----- | ------ | ----------------- | ------------- |
+| Scopus            |       |        |                   |               |
+| Web of science    |       |        |                   |               |
+| IEEE Xplore       |       |        |                   |               |
+| ACM Digital       |       |        |                   |               |
 
 Scopus: 67 rango: 61 por titulo:
 Web of science: 358 rango:221 por titulo:
