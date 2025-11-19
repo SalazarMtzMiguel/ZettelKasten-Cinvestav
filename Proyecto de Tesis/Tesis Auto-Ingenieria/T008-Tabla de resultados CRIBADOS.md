@@ -145,10 +145,10 @@ Consensus: 20
 
 | Etapa del cribado | Query | Fechas | Titulo y Abstract | Lectura Final |
 | ----------------- | ----- | ------ | ----------------- | ------------- |
-| Scopus            | 0     |        |                   |               |
+| Scopus            | 0     | 0      |                   |               |
 | Web of science    | 1     | 1      |                   |               |
 | IEEE Xplore       | 1,246 | 1,096  |                   |               |
-| ACM Digital       | 0     |        |                   |               |
+| ACM Digital       | 0     | 0      |                   |               |
 
 Scispace: 17
 Consensus: 50
