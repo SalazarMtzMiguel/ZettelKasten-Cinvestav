@@ -9,7 +9,7 @@ Es resultado de lo visto en [[T004-Sentencias para busqueda]]
 | Web of science    | 33    | 16     | 6                 |               |
 | IEEE Xplore       | 2,286 | 1,175  | 8                 |               |
 | ACM Digital       | 59    | 20     | 2                 |               |
-|                   |       |        | 16                |               |
+|                   | 2,379 | 1,211  | 16                |               |
 
 Scispace: 20
 Consensus: 0
@@ -18,13 +18,13 @@ Consensus: 0
 
 ## 2. Self-Design
 
-| Etapa del cribado | Query  | Fechas | Titulo y Abstract | Lectura Final |
-| ----------------- | ------ | ------ | ----------------- | ------------- |
-| Scopus            | 679    | 353    | 0                 |               |
-| Web of science    | 11,863 | 7,329  | 12                |               |
-| IEEE Xplore       | 96,204 | 57,107 | 8                 |               |
-| ACM Digital       | 590    | 411    | 4                 |               |
-|                   |        |        | 24                |               |
+| Etapa del cribado | Query   | Fechas | Titulo y Abstract | Lectura Final |
+| ----------------- | ------- | ------ | ----------------- | ------------- |
+| Scopus            | 679     | 353    | 0                 |               |
+| Web of science    | 11,863  | 7,329  | 12                |               |
+| IEEE Xplore       | 96,204  | 57,107 | 8                 |               |
+| ACM Digital       | 590     | 411    | 4                 |               |
+|                   | 109,336 | 65,200 | 24                |               |
 
 Scispace: 100
 Consensus: 20
@@ -39,7 +39,7 @@ Consensus: 20
 | Web of science    | 4      | 1      | 1                 |               |
 | IEEE Xplore       | 26,612 | 11,939 | 6                 |               |
 | ACM Digital       | 394    | 168    | 5                 |               |
-|                   |        |        | 13                |               |
+|                   | 27,055 | 12,113 | 13                |               |
 
 Scispace: 20
 Consensus: 19
@@ -54,7 +54,7 @@ Consensus: 19
 | Web of science    | 2      | 2      | 2                 |               |
 | IEEE Xplore       | 16,421 | 15,551 | 1                 |               |
 | ACM Digital       | 960    | 595    | 2                 |               |
-|                   |        |        | 8                 |               |
+|                   | 17,404 | 16,162 | 8                 |               |
 
 Scispace: 20
 Consensus: 20
@@ -69,7 +69,7 @@ Consensus: 20
 | Web of science    | 230    | 97     | 11                |               |
 | IEEE Xplore       | 50,348 | 26,350 | 15                |               |
 | ACM Digital       | 37     | 17     | 0                 |               |
-|                   |        |        | 28                |               |
+|                   | 50,669 | 26,479 | 28                |               |
 
 Scispace: 20 
 Consensus: 18
@@ -84,7 +84,7 @@ Consensus: 18
 | Web of science    | 136   | 97     | 2                 |               |
 | IEEE Xplore       | 672   | 483    | 0                 |               |
 | ACM Digital       | 2     | 2      | 0                 |               |
-|                   |       |        | 2                 |               |
+|                   | 1,021 | 732    | 2                 |               |
 
 Scispace: 20
 Consensus: 17
