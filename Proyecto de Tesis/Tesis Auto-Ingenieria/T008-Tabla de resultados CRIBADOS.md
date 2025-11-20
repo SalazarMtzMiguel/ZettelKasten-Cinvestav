@@ -99,7 +99,7 @@ Consensus: 17
 | Web of science    | 86     | 69     | 9                 |               |
 | IEEE Xplore       | 55,312 | 43,819 | 15                |               |
 | ACM Digital       | 145    | 126    | 7                 |               |
-|                   |        |        | 34                |               |
+|                   | 55,600 | 44,061 | 34                |               |
 
 Scispace: 20
 Consensus: 20
@@ -114,7 +114,7 @@ Consensus: 20
 | Web of science    | 482   | 306    | 7                 |               |
 | IEEE Xplore       | 6,525 | 3,758  | 15                |               |
 | ACM Digital       | 100   | 53     | 0                 |               |
-|                   |       |        | 22                |               |
+|                   | 7,244 | 4,254  | 22                |               |
 
 Scispace: 20
 Consensus: 20
