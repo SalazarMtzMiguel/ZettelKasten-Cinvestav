@@ -129,7 +129,7 @@ Consensus: 20
 | Web of science    | 162   | 88     | 3                 |               |
 | IEEE Xplore       | 9,419 | 5,319  | 0                 |               |
 | ACM Digital       | 62    | 38     | 0                 |               |
-|                   |       |        | 4                 |               |
+|                   | 9,683 | 5,463  | 4                 |               |
 
 Scispace: 20
 Consensus: 20
@@ -144,7 +144,7 @@ Consensus: 20
 | Web of science    | 16    | 8      | 1                 |               |
 | IEEE Xplore       | 7,320 | 5,060  | 4                 |               |
 | ACM Digital       | 12    | 7      | 0                 |               |
-|                   |       |        | 5                 |               |
+|                   | 7,351 | 5,077  | 5                 |               |
 
 Scispace: 20
 Consensus: 20
@@ -159,7 +159,7 @@ Consensus: 20
 | Web of science    | 1     | 1      | 0                 |               |
 | IEEE Xplore       | 1,246 | 1,096  | 1                 |               |
 | ACM Digital       | 0     | 0      | 1                 |               |
-|                   |       |        | 2                 |               |
+|                   | 1,247 | 1,097  | 2                 |               |
 
 Scispace: 17
 Consensus: 50
@@ -174,7 +174,7 @@ Consensus: 50
 | Web of science    | 358    | 221    | 13                |               |
 | IEEE Xplore       | 43,109 | 31,047 | 2                 |               |
 | ACM Digital       | 90     | 54     | 1                 |               |
-|                   |        |        | 20                |               |
+|                   | 43,624 | 31,383 | 20                |               |
 
 Scispace: 20
 Consensus: 50
