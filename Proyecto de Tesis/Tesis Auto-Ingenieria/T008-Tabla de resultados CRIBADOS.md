@@ -20,7 +20,7 @@ Consensus: 0
 
 | Etapa del cribado | Query  | Fechas | Titulo y Abstract | Lectura Final |
 | ----------------- | ------ | ------ | ----------------- | ------------- |
-| Scopus            | 679    | 353    |                   |               |
+| Scopus            | 679    | 353    | 0                 |               |
 | Web of science    | 11,863 | 7,329  | 12                |               |
 | IEEE Xplore       | 96,204 | 57,107 | 8                 |               |
 | ACM Digital       | 590    | 411    | 4                 |               |
