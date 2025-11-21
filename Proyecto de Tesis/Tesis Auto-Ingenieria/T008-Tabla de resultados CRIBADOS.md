@@ -156,9 +156,9 @@ Consensus: 20
 | Etapa del cribado | Query | Fechas | Titulo y Abstract | Lectura Final |
 | ----------------- | ----- | ------ | ----------------- | ------------- |
 | Scopus            | 0     | 0      | 0                 |               |
-| Web of science    | 1     | 1      | 0                 |               |
+| Web of science    | 1     | 1      | 1                 |               |
 | IEEE Xplore       | 1,246 | 1,096  | 1                 |               |
-| ACM Digital       | 0     | 0      | 1                 |               |
+| ACM Digital       | 0     | 0      | 0                 |               |
 |                   | 1,247 | 1,097  | 2                 |               |
 
 Scispace: 17
