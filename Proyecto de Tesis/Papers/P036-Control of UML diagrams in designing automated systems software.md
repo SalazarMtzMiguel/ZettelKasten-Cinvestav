@@ -15,3 +15,27 @@
 
 Referencia del archivo original: `(A.N. Afanasyev) Control of UML diagrams in designing automated systems software.pdf` [[(A.N. Afanasyev) Control of UML diagrams in designing automated systems software.pdf]]
 
+El documento tiene la siguiente estructura:
+![[Pasted image 20251125164940.png]]
+# Introduccion
+‘‘Evidence-based Software Engineering” (EBSE).
+# Metodo
+## Preguntas de investigacion
+## Proceso de investigacion 
+## Criterios de inclusion y exlcusion 
+## Evaluacion de calidad 
+## Recoleccion de informacion 
+## Analisis de datos 
+## Desviaciones del protocolo 
+# Resultados 
+## Resultados de busquedas 
+## Factores de calidad 
+# Discusion 
+## Que tantas actividades EBSE han estado alli desde 2004 
+## Que topicos de investivacion han sido cubiertos 
+## Cual es el principal EBSE de investigacion 
+## Cuales son las limitaciones de la investigacion actual 
+## Limitaciones de este estudio 
+# Conclusiones 
+#  Reconocimientos 
+# Referencias
