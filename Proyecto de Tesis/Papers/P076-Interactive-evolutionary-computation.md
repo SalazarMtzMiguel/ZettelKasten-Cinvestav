@@ -1,4 +1,4 @@
-#CompletarCita 
+#CitaLatex 
 @article{Ishibuchi2016,
   title = {Interactive evolutionary computation with minimum fitness evaluation requirement and offline algorithm design},
   volume = {5},

@@ -1,4 +1,4 @@
-#CompletarCita 
+#CitaLatex 
 @INPROCEEDINGS{Joachim2015ATestingScheme,
   author={Hänsel, Joachim and Vogel, Thomas and Giese, Holger},
   booktitle={2015 IEEE International Conference on Self-Adaptive and Self-Organizing Systems Workshops}, 

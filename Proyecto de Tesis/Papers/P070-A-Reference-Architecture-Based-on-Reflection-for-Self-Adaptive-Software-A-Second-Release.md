@@ -1,4 +1,4 @@
-#CompletarCita 
+#CitaLatex 
 @ARTICLE{FrankJos2024AReferenceArchitecture,
   author={Affonso, Frank José and Nagassaki Campos, Gabriel and Guiguer Menaldo, Guilherme},
   journal={IEEE Access}, 

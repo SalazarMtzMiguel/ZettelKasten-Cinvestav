@@ -1,4 +1,4 @@
-#CompletarCita 
+#CitaLatex 
 @INPROCEEDINGS{AlharbiJasser2021MachineLearningwith,
   author={Alharbi, Jasser and Bhattacharyya, Siddhartha},
   booktitle={2021 IEEE International Systems Conference (SysCon)}, 

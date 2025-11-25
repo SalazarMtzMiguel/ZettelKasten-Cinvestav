@@ -1,4 +1,4 @@
-#CompletarCita 
+#CitaLatex  
 @book{DannyWeyns2015SoftwareArchitecture,
   title = {Software Architecture: 9th European Conference,  ECSA 2015,  Dubrovnik/Cavtat,  Croatia,  September 7-11,  2015. Proceedings},
   ISBN = {9783319237275},

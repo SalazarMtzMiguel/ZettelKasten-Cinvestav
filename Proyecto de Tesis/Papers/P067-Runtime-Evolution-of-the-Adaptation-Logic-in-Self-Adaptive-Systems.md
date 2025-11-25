@@ -1,4 +1,4 @@
-#CompletarCita 
+#CitaLatex 
 @INPROCEEDINGS{FelixMaximilian2015RuntimeEvolutionoftheAdaptation,
   author={Roth, Felix Maximilian and Krupitzer, Christian and Becker, Christian},
   booktitle={2015 IEEE International Conference on Autonomic Computing}, 

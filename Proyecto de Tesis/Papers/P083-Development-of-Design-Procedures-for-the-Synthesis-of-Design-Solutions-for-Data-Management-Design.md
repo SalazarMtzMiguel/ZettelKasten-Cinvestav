@@ -1,4 +1,4 @@
-#CompletarCita 
+#CitaLatex 
 @INPROCEEDINGS{Donetskaya2020DevelopmentofDesignProcedures,
   author={Donetskaya, Ju. V. and Gatchin, Yu. A.},
   booktitle={2020 Wave Electronics and its Application in Information and Telecommunication Systems (WECONF)}, 

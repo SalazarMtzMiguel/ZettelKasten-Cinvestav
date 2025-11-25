@@ -1,4 +1,4 @@
-#CompletarCita 
+#CitaLatex 
 @article{buonamici2021generative,
   title={Generative design: An explorative study.},
   author={Buonamici, Francesco and Carfagni, Monica and Furferi, Rocco and Volpe, Yary and Governi, Lapo},

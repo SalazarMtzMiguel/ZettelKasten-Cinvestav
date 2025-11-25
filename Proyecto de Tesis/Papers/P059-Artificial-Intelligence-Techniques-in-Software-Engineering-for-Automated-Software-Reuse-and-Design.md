@@ -1,4 +1,4 @@
-#CompletarCita 
+#CitaLatex 
 @INPROCEEDINGS{WangooDivanshi2018ArtificialIntelligence,
   author={Wangoo, Divanshi Priyadarshni},
   booktitle={2018 4th International Conference on Computing Communication and Automation (ICCCA)}, 

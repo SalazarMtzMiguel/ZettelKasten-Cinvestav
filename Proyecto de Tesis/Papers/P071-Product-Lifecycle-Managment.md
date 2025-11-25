@@ -1,4 +1,4 @@
-#CompletarCita 
+#CitaLatex 
 @book{FredericNoel2023ProductLifecycleManagement,
   title = {Product Lifecycle Management. PLM in Transition Times: The Place of Humans and Transformative Technologies: 19th IFIP WG 5.1 International Conference,  PLM 2022,  Grenoble,  France,  July 10–13,  2022,  Revised Selected Papers},
   ISBN = {9783031251825},

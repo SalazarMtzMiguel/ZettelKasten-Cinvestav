@@ -1,4 +1,4 @@
-#CompletarCita 
+#CitaLatex 
 @INPROCEEDINGS{DmitriyV2023ComputationalDesign,
   author={Ivolga, Dmitriy V. and Borisov, Ivan I. and Nasonov, Kirill V. and Kolyubin, Sergey A.},
   booktitle={2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 

@@ -1,4 +1,4 @@
-#CompletarCita 
+#CitaLatex 
 @INPROCEEDINGS{WangFeng2024AutomaticDrivingDecision,
   author={Wang, Feng},
   booktitle={2024 3rd International Conference on Artificial Intelligence and Autonomous Robot Systems (AIARS)}, 

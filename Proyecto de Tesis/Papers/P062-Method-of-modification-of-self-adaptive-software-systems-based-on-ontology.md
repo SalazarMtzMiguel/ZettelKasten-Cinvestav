@@ -1,4 +1,4 @@
-#CompletarCita 
+#CitaLatex 
 @INPROCEEDINGS{FedasyukDmytro2022Methodofmodification,
   author={Fedasyuk, Dmytro and Lutsyk, Illia},
   booktitle={2022 IEEE 16th International Conference on Advanced Trends in Radioelectronics, Telecommunications and Computer Engineering (TCSET)}, 

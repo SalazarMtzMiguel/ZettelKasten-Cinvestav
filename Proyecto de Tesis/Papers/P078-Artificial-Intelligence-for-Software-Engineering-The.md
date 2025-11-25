@@ -1,4 +1,4 @@
-#CompletarCita 
+#CitaLatex 
 @article{AhmedIftekhar2025ArtificialIntelligencefor,
 author = {Ahmed, Iftekhar and Aleti, Aldeida and Cai, Haipeng and Chatzigeorgiou, Alexander and He, Pinjia and Hu, Xing and Pezz\`{e}, Mauro and Poshyvanyk, Denys and Xia, Xin},
 title = {Artificial Intelligence for Software Engineering: The Journey So Far and the Road Ahead},

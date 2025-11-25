@@ -1,4 +1,4 @@
-#CompletarCita 
+#CitaLatex 
 @INPROCEEDINGS{LoDavid2024RequirementsEngineering,
   author={Lo, David},
   booktitle={2024 IEEE 32nd International Requirements Engineering Conference (RE)}, 

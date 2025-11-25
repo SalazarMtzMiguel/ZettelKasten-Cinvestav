@@ -1,4 +1,4 @@
-#CompletarCita 
+#CitaLatex 
 @article{GALVANLOPEZ2015270,
 title = {Design of an autonomous intelligent Demand-Side Management system using stochastic optimisation evolutionary algorithms},
 journal = {Neurocomputing},

@@ -1,4 +1,4 @@
-#CompletarCita 
+#CitaLatex 
 @inproceedings{georgievski2023conceptualising,
   title={Conceptualising Software Development Lifecycle for Engineering AI Planning Systems.},
   author={Georgievski, Ilche},

@@ -1,4 +1,4 @@
-#CompletarCita 
+#CitaLatex 
 @INPROCEEDINGS{AlrumaihHala2018TowardAutomatedSoftware,
   author={Alrumaih, Hala and Mirza, Abdulrahman and Alsalamah, Hessah},
   booktitle={2018 21st Saudi Computer Society National Computer Conference (NCC)}, 

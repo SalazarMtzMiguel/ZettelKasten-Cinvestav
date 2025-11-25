@@ -1,4 +1,4 @@
-#CompletarCita 
+#CitaLatex 
 @INPROCEEDINGS{KhokhlovIgor2018MeetCI,
   author={Khokhlov, Igor and Jain, Chinmay and Miller-Jacobson, Ben and Heyman, Andrew and Reznik, Leonid and Jacques, Robert St.},
   booktitle={2018 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE)}, 

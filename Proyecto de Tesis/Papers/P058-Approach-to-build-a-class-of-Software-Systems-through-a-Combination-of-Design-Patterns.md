@@ -1,4 +1,4 @@
-#CompletarCita 
+#CitaLatex 
 @INPROCEEDINGS{NikolaevaDimitrichka2018Approachtobuildaclass,
   author={Nikolaeva, Dimitrichka Zheleva and Bozhikova, Violeta Todorova},
   booktitle={2018 IEEE XXVII International Scientific Conference Electronics - ET}, 

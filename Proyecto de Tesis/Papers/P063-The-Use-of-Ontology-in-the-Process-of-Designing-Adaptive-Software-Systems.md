@@ -1,4 +1,4 @@
-#CompletarCita 
+#CitaLatex 
 @INPROCEEDINGS{FedasyukDmytro2022TheUseofOntology,
   author={Fedasyuk, Dmytro and Lutsyk, Illia},
   booktitle={2022 IEEE 17th International Conference on Computer Sciences and Information Technologies (CSIT)}, 
