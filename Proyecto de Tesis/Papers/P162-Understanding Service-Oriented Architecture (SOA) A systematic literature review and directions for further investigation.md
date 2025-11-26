@@ -13,3 +13,9 @@
   pages = {101491}
 }
 Basado en [[(Niknejad) Understanding Service-Oriented Architecture (SOA).pdf]]
+
+Revisar cita 35
+El diagrama que muesta es de 5 fases:
+	Identificar las preguntar de investigacion
+	Estrategia de busqueda y seleccion de articulos
+	
