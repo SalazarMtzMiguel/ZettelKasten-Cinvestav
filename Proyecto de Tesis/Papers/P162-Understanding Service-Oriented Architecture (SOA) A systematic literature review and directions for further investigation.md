@@ -33,3 +33,6 @@ En la seccion de estraccion de datos y sintesis ejemplifica como fue el cribado 
 Presenta un mapa mental de los temasd buscados:
 ![[Pasted image 20251126123630.png]]
 En el temas de resultados por pregunta de investigacion, 
+menciona caracteristicas y papers de cada una de lo que ayudo a formular las respuestas despues una tabla extensa de resultados.
+En la seccion de conclusion:
+Explica como se categorizaron los papers, 
