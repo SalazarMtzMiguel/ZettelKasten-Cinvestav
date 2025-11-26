@@ -18,4 +18,10 @@ Revisar cita 35
 El diagrama que muesta es de 5 fases:
 	Identificar las preguntar de investigacion
 	Estrategia de busqueda y seleccion de articulos
-	
+	Extraccion de datos
+	Sintesis y resultados
+	Reportar
+![[Pasted image 20251126120300.png]]
+En el ropico de criterios de inclusion y exclusion maneja:
+rango de fechas, idioma, y su tabla respectiva
+![[Pasted image 20251126120717.png]]
