@@ -30,3 +30,6 @@ con sus palabras clave con comodines OR y AND
 ![[Pasted image 20251126121652.png]]
 ![[Pasted image 20251126121700.png]]
 En la seccion de estraccion de datos y sintesis ejemplifica como fue el cribado mediante el uso de hojas de calculo con campos para su filtrado.
+Presenta un mapa mental de los temasd buscados:
+![[Pasted image 20251126123630.png]]
+En el temas de resultados por pregunta de investigacion, 
