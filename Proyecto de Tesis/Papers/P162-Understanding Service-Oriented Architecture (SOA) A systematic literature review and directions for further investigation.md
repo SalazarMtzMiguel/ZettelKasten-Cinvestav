@@ -14,7 +14,7 @@
 }
 Basado en [[(Niknejad) Understanding Service-Oriented Architecture (SOA).pdf]]
 
-Revisar cita 35
+#revisarcita  35
 El diagrama que muesta es de 5 fases:
 	Identificar las preguntar de investigacion
 	Estrategia de busqueda y seleccion de articulos
@@ -24,4 +24,9 @@ El diagrama que muesta es de 5 fases:
 ![[Pasted image 20251126120300.png]]
 En el ropico de criterios de inclusion y exclusion maneja:
 rango de fechas, idioma, y su tabla respectiva
-![[Pasted image 20251126120717.png]]
+![[Pasted image 20251126120717.png]]En le topico de estrategia de busqueda
+#revisarcita 42
+con sus palabras clave con comodines OR y AND
+![[Pasted image 20251126121652.png]]
+![[Pasted image 20251126121700.png]]
+En la seccion de estraccion de datos y sintesis ejemplifica como fue el cribado mediante el uso de hojas de calculo con campos para su filtrado.
