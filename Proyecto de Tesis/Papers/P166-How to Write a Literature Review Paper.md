@@ -38,4 +38,8 @@ Proceso de seleccion de estudios
 	Seleccion del lugar
 	Lectura de abstract y categorizacion
 	Snowballing
-Extraccion de analisis y
+Extraccion de analisis
+	Matriz de atributos
+Se debe de tener una narrativa critica, contar con una discusion del por que de la revision sistematica, Se debe de contar con resultados descriptivos.
+Resumen
+Principales conlcusiones y valor añadido al tema o al area de investigacion.
