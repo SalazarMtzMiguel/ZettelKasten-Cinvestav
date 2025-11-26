@@ -14,4 +14,28 @@
   pages = {278–288}
 }
 Basado en [[(Wee, Banister) How to Write a Literature Review Paper.pdf]]
-[]()
+
+Así resumido:
+Este tipo de papers tienen varios tipos de contribuciones, y con ello el tipo de paper:
+Empírico
+Metodológico
+Teórico
+Investiga en la literatura y una agenda de investigación
+Relevancia para aplicaciones en mundo real
+Modelo conceptual
+
+Ya mas entrado en lo que es la metodologia y protocolo del estudio tenemos:
+Preguntas de investigacion
+La estrategia de busqueda que se subdivide en:
+	Seleccion de bases de datos
+	Caracteristicas de busqueda
+	Criterios especificos
+	Filtro de calidad
+	Periodo temporal
+Proceso de seleccion de estudios
+	Prefiltrado
+	Diltrado por secuencia de palabras
+	Seleccion del lugar
+	Lectura de abstract y categorizacion
+	Snowballing
+Extraccion de analisis y
