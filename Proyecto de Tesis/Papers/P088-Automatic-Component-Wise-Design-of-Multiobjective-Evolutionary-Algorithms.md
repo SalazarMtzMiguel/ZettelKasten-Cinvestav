@@ -1,5 +1,5 @@
 #CitaLatex 
-@article{Bezerra2016,
+@article{Bezerra2016AutomaticComponent,
   title = {Automatic Component-Wise Design of Multiobjective Evolutionary Algorithms},
   volume = {20},
   ISSN = {1941-0026},

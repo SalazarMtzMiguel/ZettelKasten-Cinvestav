@@ -1,5 +1,5 @@
 #CitaLatex 
-@inproceedings{vanStein2025,
+@inproceedings{vanStein2025CodeEvolution,
   series = {GECCO ’25},
   title = {Code Evolution Graphs: Understanding Large Language Model Driven Design of Algorithms},
   url = {http://dx.doi.org/10.1145/3712256.3726328},

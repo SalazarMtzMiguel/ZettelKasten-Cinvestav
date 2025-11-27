@@ -1,5 +1,5 @@
 #CitaLatex 
-@article{Garces2020,
+@article{Garces2020ArchitecturalSolutions,
   title = {Architectural Solutions for Self-Adaptive Systems},
   volume = {53},
   ISSN = {1558-0814},

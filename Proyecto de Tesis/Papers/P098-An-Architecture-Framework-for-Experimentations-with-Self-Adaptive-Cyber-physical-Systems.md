@@ -1,5 +1,5 @@
 #CitaLatex 
-@inproceedings{Kit2015,
+@inproceedings{Kit2015AnArchitectureFramework,
   title = {An Architecture Framework for Experimentations with Self-Adaptive Cyber-physical Systems},
   url = {http://dx.doi.org/10.1109/SEAMS.2015.28},
   DOI = {10.1109/seams.2015.28},

@@ -1,5 +1,5 @@
 #CitaLatex 
-@article{Gobillot2018,
+@article{Gobillot2018ADesign,
   title = {A Design and Analysis Methodology for Component-Based Real-Time Architectures of Autonomous Systems},
   volume = {96},
   ISSN = {1573-0409},

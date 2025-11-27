@@ -1,5 +1,5 @@
 #CitaLatex 
-@inproceedings{Chondamrongkul2022,
+@inproceedings{Chondamrongkul2022ArchitecturalRefactoring,
   title = {Architectural Refactoring for Functional Properties in Evolutionary Architecture},
   url = {http://dx.doi.org/10.1109/ICSA53651.2022.00022},
   DOI = {10.1109/icsa53651.2022.00022},

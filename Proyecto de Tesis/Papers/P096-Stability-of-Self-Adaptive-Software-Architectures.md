@@ -1,5 +1,5 @@
 #CitaLatex 
-@inproceedings{Salama2015,
+@inproceedings{Salama2015StabilityofSelf-Adaptive,
   title = {Stability of Self-Adaptive Software Architectures},
   url = {http://dx.doi.org/10.1109/ASE.2015.93},
   DOI = {10.1109/ase.2015.93},

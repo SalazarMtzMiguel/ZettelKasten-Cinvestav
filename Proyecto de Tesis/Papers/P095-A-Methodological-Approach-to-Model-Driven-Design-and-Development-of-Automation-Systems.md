@@ -1,5 +1,5 @@
 #CitaLatex 
-@article{Alvarez2018,
+@article{Alvarez2018MethodologicalApproach,
   title = {A Methodological Approach to Model-Driven Design and Development of Automation Systems},
   volume = {15},
   ISSN = {1558-3783},

@@ -1,5 +1,5 @@
 #CitaLatex 
-@inproceedings{Farrell2021,
+@inproceedings{Farrell2021Evolution,
   title = {Evolution of the IEEE P7009 Standard: Towards Fail-Safe Design of Autonomous Systems},
   url = {http://dx.doi.org/10.1109/ISSREW53611.2021.00109},
   DOI = {10.1109/issrew53611.2021.00109},

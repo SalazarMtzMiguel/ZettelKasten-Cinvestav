@@ -1,5 +1,5 @@
 #CitaLatex 
-@article{Ma2024,
+@article{LiangMa2024Ahybridneural,
   title = {A hybrid neural combinatorial optimization framework assisted by automated algorithm design},
   volume = {10},
   ISSN = {2198-6053},

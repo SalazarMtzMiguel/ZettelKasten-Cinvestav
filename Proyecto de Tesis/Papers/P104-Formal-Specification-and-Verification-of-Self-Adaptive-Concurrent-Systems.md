@@ -1,5 +1,5 @@
 #CitaLatex 
-@article{Fakhir2018,
+@article{Fakhir2018FormalSpecification,
   title = {Formal Specification and Verification of Self-Adaptive Concurrent Systems},
   volume = {6},
   ISSN = {2169-3536},

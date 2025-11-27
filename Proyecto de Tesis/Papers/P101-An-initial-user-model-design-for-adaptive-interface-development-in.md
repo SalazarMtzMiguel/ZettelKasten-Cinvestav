@@ -1,5 +1,5 @@
 #CitaLatex 
-@article{Suryani2024,
+@article{Suryani2024Aninitialuser,
   title = {An initial user model design for adaptive interface development in learning management system based on cognitive load},
   volume = {26},
   ISSN = {1435-5566},

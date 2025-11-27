@@ -1,5 +1,5 @@
 #CitaLatex 
-@inproceedings{EmamiTaba2017,
+@inproceedings{EmamiTaba2017AGame-Theoretic,
   title = {A Game-Theoretic Decision-Making Framework for Engineering Self-Protecting Software Systems},
   url = {http://dx.doi.org/10.1109/ICSE-C.2017.43},
   DOI = {10.1109/icse-c.2017.43},

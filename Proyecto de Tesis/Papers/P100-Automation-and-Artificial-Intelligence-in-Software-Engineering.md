@@ -1,5 +1,5 @@
 #CitaLatex 
-@inproceedings{Latinovic2021,
+@inproceedings{Latinovic2021Automationand,
   series = {HICSS},
   title = {Automation and Artificial Intelligence in Software Engineering: Experiences,  Challenges,  and Opportunities},
   ISSN = {2572-6862},

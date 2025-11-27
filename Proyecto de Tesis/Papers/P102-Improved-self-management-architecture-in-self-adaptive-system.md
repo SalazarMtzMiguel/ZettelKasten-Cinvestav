@@ -1,5 +1,5 @@
 #CitaLatex 
-@INPROCEEDINGS{7956435,
+@INPROCEEDINGS{Savargiv2017Improvedself-management,
   author={Savargiv, Mohammad and Nazemi, Eslam and MehrMolaei, Soheila},
   booktitle={2017 Artificial Intelligence and Robotics (IRANOPEN)}, 
   title={Improved self-management architecture in self-adaptive system}, 

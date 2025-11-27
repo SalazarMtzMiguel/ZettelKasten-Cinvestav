@@ -1,5 +1,5 @@
 #CitaLatex 
-@inproceedings{Liu2022,
+@inproceedings{Liu2022ArtificialIntelligence,
   title = {Artificial Intelligence in Software Requirements Engineering: State-of-the-Art},
   url = {http://dx.doi.org/10.1109/IRI54793.2022.00034},
   DOI = {10.1109/iri54793.2022.00034},

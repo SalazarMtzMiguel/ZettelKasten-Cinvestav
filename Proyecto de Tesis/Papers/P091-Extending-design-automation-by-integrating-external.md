@@ -1,5 +1,5 @@
 #CitaLatex 
-@inproceedings{Zhang2021,
+@inproceedings{Zhang2021Extendingdesign,
   title = {Extending design automation by integrating external services for product design},
   url = {http://dx.doi.org/10.1109/INDIN45523.2021.9557486},
   DOI = {10.1109/indin45523.2021.9557486},

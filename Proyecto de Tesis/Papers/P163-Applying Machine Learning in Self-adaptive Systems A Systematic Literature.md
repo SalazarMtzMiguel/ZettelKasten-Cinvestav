@@ -14,3 +14,10 @@
   pages = {1–37}
 }
 Basado en [[(Omid Gheibi) Applying Machine Learning in Self-adaptive Systems.pdf]]
+EL paper se centra en metodos de machine learning para sistemas auto-adaptativos, 
+Tiene la seccion 2 como background
+Me gusta que intorduce qeu el campo de ML esta en cuatro dimenciondes #revisarcita 4,80
+Puede ser supervisado, no supervisado o intereactivo con sus respectivas diferencias.
+Puede ser acitivo o pasivo
+Adversarial o no adversarial
+Online o protocolo por lotes

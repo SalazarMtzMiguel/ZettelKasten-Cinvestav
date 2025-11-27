@@ -1,5 +1,5 @@
 #CitaLatex 
-@inproceedings{Bhandari2023,
+@inproceedings{Bhandari2023ArtificialIntelligence,
   title = {Artificial Intelligence in Software Engineering: Perspectives and Challenges},
   url = {http://dx.doi.org/10.1109/ICSCCC58608.2023.10176436},
   DOI = {10.1109/icsccc58608.2023.10176436},
