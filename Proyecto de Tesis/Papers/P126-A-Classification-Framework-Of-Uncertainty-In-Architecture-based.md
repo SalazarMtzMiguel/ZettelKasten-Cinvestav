@@ -1,5 +1,5 @@
 #CitaLatex 
-@incollection{MAHDAVIHEZAVEHI201745,
+@incollection{Mahdavi2017AClassification,
 title = {Chapter 3 - A Classification Framework of Uncertainty in Architecture-Based Self-Adaptive Systems With Multiple Quality Requirements},
 editor = {Ivan Mistrik and Nour Ali and Rick Kazman and John Grundy and Bradley Schmerl},
 booktitle = {Managing Trade-Offs in Adaptable Software Architectures},

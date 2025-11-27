@@ -1,5 +1,5 @@
 #CitaLatex 
-@article{Zhao2025,
+@article{Zhao2025AutomatedMetaheuristic,
   title = {Automated Metaheuristic Algorithm Design With Autoregressive Learning},
   volume = {29},
   ISSN = {1941-0026},

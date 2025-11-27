@@ -1,5 +1,5 @@
 #CitaLatex 
-@inproceedings{Bye2016,
+@inproceedings{Bye2016SoftwareFramework,
   title = {A Software Framework For Intelligent Computer-Automated Product Design},
   url = {http://dx.doi.org/10.7148/2016-0534},
   DOI = {10.7148/2016-0534},

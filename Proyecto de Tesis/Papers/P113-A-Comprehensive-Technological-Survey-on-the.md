@@ -1,5 +1,5 @@
 #CitaLatex 
-@article{Zhou2019,
+@article{Zhou2019ComprehensiveTechnological,
   title = {A Comprehensive Technological Survey on the Dependable Self-Management CPS: From Self-Adaptive Architecture to Self-Management Strategies},
   volume = {19},
   ISSN = {1424-8220},

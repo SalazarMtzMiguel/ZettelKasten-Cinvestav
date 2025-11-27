@@ -1,5 +1,5 @@
 #CitaLatex 
-@article{Qu2020,
+@article{Qu2020GeneralCombinatorial,
   title = {The General Combinatorial Optimization Problem: Towards Automated Algorithm Design},
   volume = {15},
   ISSN = {1556-6048},

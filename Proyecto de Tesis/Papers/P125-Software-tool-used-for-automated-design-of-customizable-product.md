@@ -1,5 +1,5 @@
 #CitaLatex 
-@article{Pescaru2017,
+@article{Pescaru2017Softwaretool,
   title = {Software tool used for automated design of customizable product},
   volume = {137},
   ISSN = {2261-236X},

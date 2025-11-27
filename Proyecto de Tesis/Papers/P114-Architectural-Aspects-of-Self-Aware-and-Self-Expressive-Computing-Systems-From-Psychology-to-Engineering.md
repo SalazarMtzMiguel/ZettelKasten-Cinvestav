@@ -1,5 +1,5 @@
 #CitaLatex 
-@ARTICLE{7185305,
+@ARTICLE{Lewis2015ArchitecturalAspects,
   author={Lewis, Peter R. and Chandra, Arjun and Faniyi, Funmilade and Glette, Kyrre and Chen, Tao and Bahsoon, Rami and Torresen, Jim and Yao, Xin},
   journal={Computer}, 
   title={Architectural Aspects of Self-Aware and Self-Expressive Computing Systems: From Psychology to Engineering}, 

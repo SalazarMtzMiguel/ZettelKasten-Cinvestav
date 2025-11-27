@@ -1,5 +1,5 @@
 #CitaLatex 
-@article{Lu2023,
+@article{Lu2023SoftwareEngineering,
   title = {Software Engineering for Responsible AI},
   volume = {56},
   ISSN = {1558-0814},

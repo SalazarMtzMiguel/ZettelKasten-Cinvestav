@@ -1,5 +1,5 @@
 #CitaLatex 
-@article{AlAli2022,
+@article{AlAli2022Aguidetodesign,
   title = {A guide to design uncertainty-aware self-adaptive components in Cyber–Physical Systems},
   volume = {128},
   ISSN = {0167-739X},

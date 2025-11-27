@@ -1,5 +1,5 @@
 #CitaLatex 
-@INPROCEEDINGS{7784944,
+@INPROCEEDINGS{Kaur2016Anapproachtoimprove,
   author={Kaur, Parampreet and Luhach, Ashish Kr.},
   booktitle={2016 5th International Conference on Reliability, Infocom Technologies and Optimization (Trends and Future Directions) (ICRITO)}, 
   title={An approach to improve test path generation: Inclination towards automated model-based software design and testing}, 
