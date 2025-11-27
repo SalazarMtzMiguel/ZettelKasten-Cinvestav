@@ -1,5 +1,5 @@
 #CitaLatex 
-@inproceedings{Mei2015,
+@inproceedings{Mei2015ATSSoftware,
   title = {ATS Software Framework Design Pattern and Application},
   url = {http://dx.doi.org/10.1109/IMCCC.2015.37},
   DOI = {10.1109/imccc.2015.37},

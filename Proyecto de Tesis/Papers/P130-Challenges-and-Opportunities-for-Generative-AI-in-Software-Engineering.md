@@ -1,5 +1,5 @@
 #CitaLatex 
-@inbook{10.1145/3696630.3728718,
+@inbook{Rico2025ChallengesandOpportunities,
 author = {Rico, Sergio and \"{O}berg, Lena-Maria},
 title = {Challenges and Opportunities for Generative AI in Software Engineering: A Managerial View},
 year = {2025},

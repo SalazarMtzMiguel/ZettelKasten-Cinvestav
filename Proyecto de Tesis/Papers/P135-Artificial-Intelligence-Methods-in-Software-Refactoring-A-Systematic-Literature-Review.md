@@ -1,5 +1,5 @@
 #CitaLatex 
-@inproceedings{Motogna2024,
+@inproceedings{Motogna2024ArtificialIntelligence,
   title = {Artificial Intelligence Methods in Software Refactoring: A Systematic Literature Review},
   url = {http://dx.doi.org/10.1109/SEAA64295.2024.00055},
   DOI = {10.1109/seaa64295.2024.00055},

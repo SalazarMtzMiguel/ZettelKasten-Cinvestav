@@ -1,5 +1,5 @@
 #CitaLatex 
-@INPROCEEDINGS{7910942,
+@INPROCEEDINGS{Valiev2016Pattern-design,
   author={Valiev, R. A. and Khuzyatov, Sh. Sh.},
   booktitle={2016 2nd International Conference on Industrial Engineering, Applications and Manufacturing (ICIEAM)}, 
   title={Pattern-design software of automated control systems}, 

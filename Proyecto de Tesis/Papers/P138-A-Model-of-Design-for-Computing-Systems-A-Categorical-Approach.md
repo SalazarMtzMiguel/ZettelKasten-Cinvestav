@@ -1,5 +1,5 @@
 #CitaLatex 
-@article{Mohammadat2023,
+@article{Mohammadat2023AModelof,
   title = {A Model of Design for Computing Systems: A Categorical Approach},
   volume = {11},
   ISSN = {2169-3536},

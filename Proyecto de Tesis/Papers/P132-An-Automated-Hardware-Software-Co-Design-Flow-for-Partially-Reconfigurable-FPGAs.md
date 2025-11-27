@@ -1,4 +1,4 @@
-#@inproceedings{Yousuf2016,
+@inproceedings{Yousuf2016AnAutomated,
   title = {An Automated Hardware/Software Co-Design Flow for Partially Reconfigurable FPGAs},
   url = {http://dx.doi.org/10.1109/ISVLSI.2016.73},
   DOI = {10.1109/isvlsi.2016.73},

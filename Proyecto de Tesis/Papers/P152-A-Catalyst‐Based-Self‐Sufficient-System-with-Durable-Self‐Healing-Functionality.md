@@ -1,5 +1,5 @@
 #CitaLatex 
-@article{Sun2015,
+@article{Sun2015ACatalyst‐Based,
   title = {A Catalyst‐Based Self‐Sufficient System with Durable Self‐Healing Functionality},
   volume = {18},
   ISSN = {1527-2648},

@@ -1,5 +1,5 @@
 #CitaLatex 
-@INPROCEEDINGS{8701250,
+@INPROCEEDINGS{SenthilVelan2019IntroducingArtificial,
   author={S., Senthil Velan},
   booktitle={2019 Amity International Conference on Artificial Intelligence (AICAI)}, 
   title={Introducing Artificial Intelligence Agents to the Empirical Measurement of Design Properties for Aspect Oriented Software Development}, 

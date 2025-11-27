@@ -1,5 +1,5 @@
 #CitaLatex 
-@inproceedings{Wang2025,
+@inproceedings{Wang2025AI-Driven,
   title = {AI-Driven Software Design and Applications: Construction of Personalized Learning Measurement Models Under the Taxonomic Development Perspective},
   url = {http://dx.doi.org/10.1109/IAEAC65194.2025.11166530},
   DOI = {10.1109/iaeac65194.2025.11166530},

@@ -1,5 +1,5 @@
 #CitaLatex 
-@inproceedings{Chilluri2025,
+@inproceedings{Chilluri2025DesignandImplementation,
   title = {Design and Implementation of a User Centered Design Framework for Software Development},
   url = {http://dx.doi.org/10.1109/CE2CT64011.2025.10941419},
   DOI = {10.1109/ce2ct64011.2025.10941419},

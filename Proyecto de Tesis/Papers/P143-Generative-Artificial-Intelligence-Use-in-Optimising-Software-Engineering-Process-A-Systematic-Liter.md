@@ -1,5 +1,5 @@
 #CitaLatex 
-@article{KarlovsKarlovskis2024,
+@article{KarlovsKarlovskis2024GenerativeArtificial,
   title = {Generative Artificial Intelligence Use in Optimising Software Engineering Process: A Systematic Literature Review},
   volume = {29},
   ISSN = {2255-8691},

@@ -1,5 +1,5 @@
 #CitaLatex 
-@article{Yi2023,
+@article{Yi2023Automateddesign,
   title = {Automated design of search algorithms based on reinforcement learning},
   volume = {649},
   ISSN = {0020-0255},

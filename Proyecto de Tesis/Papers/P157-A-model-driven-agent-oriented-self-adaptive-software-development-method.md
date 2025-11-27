@@ -1,5 +1,5 @@
 #CitaLatex 
-@INPROCEEDINGS{7382301,
+@INPROCEEDINGS{YiweiLei2015Amodeldriven,
   author={Yiwei Lei and Kerong Ben and Zhiyong He},
   booktitle={2015 12th International Conference on Fuzzy Systems and Knowledge Discovery (FSKD)}, 
   title={A model driven agent-oriented self-adaptive software development method}, 

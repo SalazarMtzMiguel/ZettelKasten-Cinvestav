@@ -1,5 +1,5 @@
 #CitaLatex 
-@inproceedings{Rajendran2025,
+@inproceedings{Rajendran2025AMulti-Agent,
   title = {A Multi-Agent LLM Environment for Software Design and Refactoring: A Conceptual Framework},
   url = {http://dx.doi.org/10.1109/SOUTHEASTCON56624.2025.10971563},
   DOI = {10.1109/southeastcon56624.2025.10971563},

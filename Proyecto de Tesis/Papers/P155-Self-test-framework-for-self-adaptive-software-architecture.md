@@ -1,5 +1,5 @@
 #CitaLatex 
-@INPROCEEDINGS{8212749,
+@INPROCEEDINGS{Roopa2017Self-testframework,
   author={Roopa, Y. Mohana and Babu, M. Ramesh},
   booktitle={2017 International conference of Electronics, Communication and Aerospace Technology (ICECA)}, 
   title={Self-test framework for self-adaptive software architecture}, 

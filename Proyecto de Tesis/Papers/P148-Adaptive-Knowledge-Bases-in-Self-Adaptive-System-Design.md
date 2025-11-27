@@ -1,5 +1,5 @@
 #CitaLatex 
-@inproceedings{Klos2015,
+@inproceedings{Klos2015AdaptiveKnowledge,
   title = {Adaptive Knowledge Bases in Self-Adaptive System Design},
   url = {http://dx.doi.org/10.1109/SEAA.2015.48},
   DOI = {10.1109/seaa.2015.48},

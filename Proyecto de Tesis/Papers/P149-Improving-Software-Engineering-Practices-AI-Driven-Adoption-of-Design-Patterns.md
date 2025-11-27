@@ -1,5 +1,5 @@
 #CitaLatex 
-@inproceedings{Supekar2024,
+@inproceedings{Supekar2024ImprovingSoftware,
   title = {Improving Software Engineering Practices: AI-Driven Adoption of Design Patterns},
   url = {http://dx.doi.org/10.1109/ICACCTECH65084.2024.00128},
   DOI = {10.1109/icacctech65084.2024.00128},

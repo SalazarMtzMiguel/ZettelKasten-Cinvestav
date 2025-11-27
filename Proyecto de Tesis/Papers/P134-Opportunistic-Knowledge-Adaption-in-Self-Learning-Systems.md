@@ -1,5 +1,5 @@
 #CitaLatex 
-@inproceedings{Reichhuber2020,
+@inproceedings{Reichhuber2020Opportunistic,
   title = {Opportunistic Knowledge Adaption in Self-Learning Systems},
   url = {http://dx.doi.org/10.1109/ACSOS-C51401.2020.00069},
   DOI = {10.1109/acsos-c51401.2020.00069},

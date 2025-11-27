@@ -1,5 +1,5 @@
 #CitaLatex 
-@inproceedings{Zhang2025,
+@inproceedings{Zhang2025Knowledge-Based,
   series = {FSE Companion ’25},
   title = {Knowledge-Based Multi-Agent Framework for Automated Software Architecture Design},
   url = {http://dx.doi.org/10.1145/3696630.3728493},

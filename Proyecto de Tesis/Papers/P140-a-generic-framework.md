@@ -1,5 +1,5 @@
 #CitaLatex 
-@article{Houichime2024,
+@article{Houichime2024Optimized,
   title = {Optimized design refactoring (ODR): a generic framework for automated search-based refactoring to optimize object-oriented software architectures},
   volume = {31},
   ISSN = {1573-7535},

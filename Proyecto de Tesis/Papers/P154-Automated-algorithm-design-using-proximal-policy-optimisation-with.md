@@ -1,5 +1,5 @@
 #CitaLatex 
-@article{Yi2023,
+@article{Yi2023Automatedalgorithm,
   title = {Automated algorithm design using proximal policy optimisation with identified features},
   volume = {216},
   ISSN = {0957-4174},

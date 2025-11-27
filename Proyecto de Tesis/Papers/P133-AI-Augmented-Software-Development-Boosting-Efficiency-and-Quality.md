@@ -1,5 +1,5 @@
 #CitaLatex 
-@inproceedings{Pangavhane2024,
+@inproceedings{Pangavhane2024AI-Augmented,
   title = {AI-Augmented Software Development: Boosting Efficiency and Quality},
   url = {http://dx.doi.org/10.1109/DASA63652.2024.10836523},
   DOI = {10.1109/dasa63652.2024.10836523},

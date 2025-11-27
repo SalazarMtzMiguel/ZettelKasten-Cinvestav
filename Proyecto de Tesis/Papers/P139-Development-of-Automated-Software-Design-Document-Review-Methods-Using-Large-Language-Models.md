@@ -1,5 +1,5 @@
 #CitaLatex 
-@inproceedings{Fukuda2025,
+@inproceedings{Fukuda2025Development,
   title = {Development of Automated Software Design Document Review Methods Using Large Language Models},
   url = {http://dx.doi.org/10.1109/SANER64311.2025.00017},
   DOI = {10.1109/saner64311.2025.00017},

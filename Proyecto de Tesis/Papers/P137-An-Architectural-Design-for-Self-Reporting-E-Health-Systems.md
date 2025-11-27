@@ -1,5 +1,5 @@
 #CitaLatex 
-@inproceedings{Mukhiya2019,
+@inproceedings{Mukhiya2019AnArchitectural,
   title = {An Architectural Design for Self-Reporting E-Health Systems},
   url = {http://dx.doi.org/10.1109/SEH.2019.00008},
   DOI = {10.1109/seh.2019.00008},

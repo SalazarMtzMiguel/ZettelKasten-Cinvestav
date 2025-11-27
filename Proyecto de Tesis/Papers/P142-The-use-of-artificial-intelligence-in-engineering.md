@@ -1,5 +1,5 @@
 #CitaLatex 
-@article{Aygumov2024,
+@article{Aygumov2024Theuse,
   title = {The use of artificial intelligence in engineering tools},
   volume = {145},
   ISSN = {2117-4458},
