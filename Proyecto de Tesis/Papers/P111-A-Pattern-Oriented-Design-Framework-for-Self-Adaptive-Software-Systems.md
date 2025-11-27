@@ -1,5 +1,5 @@
 #CitaLatex 
-@inproceedings{Arcaini2019,
+@inproceedings{Arcaini2019APattern-Oriented,
   title = {A Pattern-Oriented Design Framework for Self-Adaptive Software Systems},
   url = {http://dx.doi.org/10.1109/ICSA-C.2019.00037},
   DOI = {10.1109/icsa-c.2019.00037},
