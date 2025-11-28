@@ -13,7 +13,6 @@
   month = dec,
   pages = {923–931}
 }
-
 Referencia del archivo original: `(Wen Sun) A Catalyst‐Based Self‐Sufficient System with Durable Self‐Healing Functionality.pdf` [[(Wen Sun) A Catalyst‐Based Self‐Sufficient System with Durable Self‐Healing Functionality.pdf]]
 
 # ==PAPER DE OTRO DOMINIO ES IRRELEVANTE==
