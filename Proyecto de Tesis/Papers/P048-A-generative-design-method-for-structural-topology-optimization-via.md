@@ -15,3 +15,5 @@
 }
 
 Referencia del archivo original: `(Baotong Li) A generative design method for structural topology optimization via.pdf` [[(Baotong Li) A generative design method for structural topology optimization via.pdf]]
+
+# ==Paper irrelevante es de otro dominio==

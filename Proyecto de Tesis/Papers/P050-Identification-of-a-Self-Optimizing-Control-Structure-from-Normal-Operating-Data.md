@@ -15,3 +15,4 @@
 
 
 Referencia del archivo original: `(Carlos F. Alcala) Identification of a Self-Optimizing Control Structure from Normal Operating Data.pdf` [[(Carlos F. Alcala) Identification of a Self-Optimizing Control Structure from Normal Operating Data.pdf]]
+# ==Paper del dominio de arquitectura==
