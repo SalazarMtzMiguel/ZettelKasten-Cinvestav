@@ -10,6 +10,8 @@
 
 Referencia del archivo original: `(Francesco Buonamici) Generative Design An explorative study.pdf` [[(Francesco Buonamici) Generative Design An explorative study.pdf]]
 
+# ==Irrelevante==
+
 El documento seleccionado es el artículo de estudio exploratorio **"Generative Design: An Explorative Study"** (Diseño Generativo: Un Estudio Exploratorio), escrito por Francesco Buonamici, Monica Carfagni, Rocco Furferi, Yary Volpe y Lapo Governi.
 
 El trabajo se enfoca en el campo del diseño mecánico y tiene como objetivo describir y evaluar las soluciones de Diseño Generativo (GD) disponibles para problemas de optimización estructural.
