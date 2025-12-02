@@ -1,4 +1,13 @@
 #CitaLatex 
+@MISC{noauthor_2019-px,
+  title      = "Proceedings of the 52nd Hawaii international conference on
+                system sciences",
+  publisher  = "Hawaii International Conference on System Sciences",
+  month      =  jan,
+  year       =  2019,
+  conference = "Hawaii International Conference on System Sciences"
+}
+
 
 Referencia del archivo original: `(Fabian Burzlaff) A Conceptual Architecture for Enabling Future Self-Adaptive Service.pdf` [[(Fabian Burzlaff) A Conceptual Architecture for Enabling Future Self-Adaptive Service.pdf]]
 
