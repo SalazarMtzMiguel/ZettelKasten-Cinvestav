@@ -21,6 +21,8 @@ keywords = {Automated Software Development, Machine Learning, Large Language Mod
 
 Referencia del archivo original: `(Iftekhar Ahmed) Artificial Intelligence for Software Engineering The.pdf` [[(Iftekhar Ahmed) Artificial Intelligence for Software Engineering The Journey so Far and the Road Ahead.pdf]]
 
+Duplicado de [[P024-Artificial Intelligence for Software Engineering The  Journey So Far and the Road Ahead]]
+
 El documento seleccionado es el artículo **"Artificial Intelligence for Software Engineering: The Journey So Far and the Road Ahead"** (Inteligencia Artificial para la Ingeniería de Software: El Camino Recorrido y el Horizonte), cuyos autores son Iftekhar Ahmed, Aldeida Aleti, Haipeng Cai, Alexander Chatzigeorgiou, y otros.
 
 Este trabajo es un **informe de hoja de ruta (_roadmap paper_)** que examina el impacto profundo de la Inteligencia Artificial (IA), el Aprendizaje Profundo (DL), y los Modelos de Lenguaje Grande (LLMs) en la Ingeniería de _Software_ (SE). El objetivo es destacar las historias de éxito, identificar los desafíos pendientes y trazar una hoja de ruta de investigación hasta 2030.
