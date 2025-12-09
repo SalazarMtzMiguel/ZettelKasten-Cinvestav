@@ -1,5 +1,5 @@
 #CitaLatex 
-@article{10.1145/3672459,
+@article{SelfCollaboration2024Yihong,
 author = {Dong, Yihong and Jiang, Xue and Jin, Zhi and Li, Ge},
 title = {Self-Collaboration Code Generation via ChatGPT},
 year = {2024},
