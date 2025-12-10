@@ -14,7 +14,7 @@
   month={Sep.},}
 
 Referencia del archivo original: `(Bram Adams) The Diversity Crisis of Software Engineering for Artificial Intelligence.pdf` [[(Bram Adams) The Diversity Crisis of Software Engineering for Artificial Intelligence.pdf]]
-
+# ==IRRELEVANTE==
 El documento seleccionado es el artículo **"The Diversity Crisis of Software Engineering for Artificial Intelligence"** (La Crisis de Diversidad de la Ingeniería de Software para la Inteligencia Artificial), escrito por Bram Adams y Foutse Khomh.
 
 A continuación, se presenta un resumen claro y completo del _paper_, la identificación de las ideas clave que sustentan sus conclusiones y la determinación de su valor.
