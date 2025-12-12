@@ -1,75 +1,73 @@
 #CitaLatex 
-@inproceedings{adriaensen2016towards,
-  title={Towards a White Box Approach to Automated Algorithm Design.},
-  author={Adriaensen, Steven and Now{\'e}, Ann},
-  booktitle={IJCAI},
-  pages={554--560},
-  year={2016}
+@inproceedings{Motogna2024ArtificialIntelligence,
+  title = {Artificial Intelligence Methods in Software Refactoring: A Systematic Literature Review},
+  url = {http://dx.doi.org/10.1109/SEAA64295.2024.00055},
+  DOI = {10.1109/seaa64295.2024.00055},
+  booktitle = {2024 50th Euromicro Conference on Software Engineering and Advanced Applications (SEAA)},
+  publisher = {IEEE},
+  author = {Motogna,  Simona and Berciu,  Liviu-Marian and Moldovan,  Vasilica-Andreea},
+  year = {2024},
+  month = aug,
+  pages = {309–316}
 }
 
+Referencia del archivo original: `(Simona Motogna) Artificial Intelligence Methods in Software Refactoring A Systematic Literature Review.pdf` [[(Simona Motogna) Artificial Intelligence Methods in Software Refactoring A Systematic Literature Review.pdf]]
 
-Referencia del archivo original: `(Steven Adriaensen) Towards a White Box Approach to Automated Algorithm Design.pdf` [[(Steven Adriaensen) Towards a White Box Approach to Automated Algorithm Design.pdf]]
+El documento seleccionado es el artículo **"Artificial Intelligence Methods in Software Refactoring: A Systematic Literature Review"** (Métodos de Inteligencia Artificial en el Refactoring de _Software_: Una Revisión Sistemática de la Literatura), escrito por Simona Motogna, Liviu-Marian Berciu y Vasilica-Andreea Moldovan.
 
-El documento seleccionado para el análisis es el artículo **"Towards a White Box Approach to Automated Algorithm Design"** (Hacia un Enfoque de Caja Blanca para el Diseño Automatizado de Algoritmos), escrito por Steven Adriaensen y Ann Nowé.
-
-Este trabajo propone un nuevo paradigma de **diseño automatizado de algoritmos (ADP)** que supera las limitaciones de los métodos tradicionales de configuración de algoritmos de "caja negra" (_black box_), al reformular el ADP como un **Proceso de Decisión de Markov (MDP)**.
+Este trabajo presenta una **Revisión Sistemática de la Literatura (SLR)** con el objetivo de mapear el estado del arte en la aplicación de métodos de Inteligencia Artificial (IA) y _Machine Learning_ (ML) en las diferentes fases del ciclo de vida del **Refactoring de _Software_**. El _refactoring_ es un proceso esencial en la ingeniería de _software_ que busca mejorar la calidad del código (estructura, mantenibilidad y reutilización) sin alterar el comportamiento o la funcionalidad del sistema.
 
 ### Resumen Completo del Documento
 
-**1. Contexto y Problema (Limitaciones del Diseño Tradicional y de Caja Negra):** Tradicionalmente, el diseño de algoritmos para problemas del mundo real se realiza de forma **manual, _ad hoc_, y mediante prueba y error**, lo que lo convierte en un proceso tedioso, costoso y que a menudo produce resultados mediocres.
+**1. Metodología de la Revisión Sistemática (SLR):** Los autores siguieron una metodología rigurosa basada en protocolos definidos. El objetivo principal era describir el dominio de la IA/ML en relación con el _refactoring_ de sistemas de _software_.
 
-El paradigma **Programación por Optimización (Programming by Optimization, o PbO)** se propuso como una alternativa, donde las elecciones algorítmicas se dejan abiertas, creando un gran espacio de diseño, y se utilizan métodos de configuración de algoritmos (como ParamILS o iRace) para generar automáticamente la mejor instancia algorítmica para un caso de uso específico.
+- **Alcance:** El estudio incluyó publicaciones revisadas por pares (revistas y conferencias) entre **2010 y marzo de 2024**. El año 2010 fue elegido como punto de partida debido a los avances significativos en IA/ML (particularmente _deep learning_) y el aumento en la disponibilidad de _datasets_ de repositorios de _software_ de código abierto.
+- **Estrategia de Búsqueda:** Se consultaron cinco bibliotecas digitales principales (ACM Digital Library, IEEE Explore, ScienceDirect, Springer-Link y Wiley Online Library) utilizando una consulta de palabras clave estructurada (L1: sistemas de _software_, L2: _refactoring_, L3: IA/ML).
+- **Recolección de Datos:** Se extrajeron 1,986 artículos inicialmente, que se redujeron a 127 mediante revisión manual. Se aplicó una técnica de **_snowballing_ hacia atrás** para añadir 29 entradas adicionales.
+- **Conjunto de Datos Final:** El análisis se basó en un conjunto final de **156 artículos**.
 
-Sin embargo, los configuradores contemporáneos (optimizadores de caja negra) tienen una debilidad crítica: tratan el rendimiento del algoritmo como una **"caja negra"**. En este modelo, una función de costo simplemente mapea una configuración y una entrada a un valor de costo. Estos optimizadores no explotan el hecho de que el mapeo es una consecuencia de la ejecución del algoritmo, es decir, que las decisiones de diseño afectan la trayectoria de ejecución de una entrada de una manera particular que luego se relaciona con el costo de ejecución.
+**2. Resultados y Tendencias (Distribución de la Investigación):**
 
-**2. Solución Propuesta: El Enfoque de Caja Blanca (White Box Approach):** Los autores proponen un enfoque alternativo de **caja blanca**. Este enfoque reformula el ADP como un **Proceso de Decisión Secuencial** modelado como un **Proceso de Decisión de Markov (MDP)**.
+- **Tendencia de Publicación:** Se observó una **tendencia creciente** en las publicaciones sobre el tema desde 2010, con un **claro avance a partir de 2016** y un **pico de publicaciones en 2023**. Esto sugiere un interés y avances crecientes en la aplicación de metodologías de IA al _refactoring_.
+- **Tipo de Investigación:** La distribución de los artículos mostró un **dominio abrumador de los trabajos orientados a la Solución (72.44%)**. Las formas de investigación como la **Evaluación (20.51%), la Validación (1.92%) y la Experiencia (0.64%) están menos representadas**. Esto subraya una preferencia por la innovación de soluciones sobre la evaluación rigurosa de su efectividad.
+- **Fases del Ciclo de Vida Abordadas (RQ1):** El estudio se centró en seis fases del _refactoring_.
+    - **Detección de _Refactoring_:** Representa la etapa con **más contribuciones (37.18%)**.
+    - **Recomendación de _Refactoring_:** Es la segunda etapa de mayor interés, con el 32.69% de los artículos.
+    - **Predicción:** Representa el 10.90% de los estudios.
+    - **Priorización, Pruebas y Documentación** son áreas significativamente **menos exploradas**.
 
-- **Formalización como MDP:** El ADP de caja blanca se formaliza como el MDP $\text{MDP}_{\text{adp}}$.
-    - **Estados (S):** Los estados son descripciones instantáneas de la Máquina de Turing extendida que incluyen el punto de elección (design choice) que se acaba de alcanzar y el contenido de la cinta (contexto).
-    - **Acciones (A):** Las acciones corresponden a las alternativas de decisión definidas para cada punto de elección.
-    - **Recompensa (R):** La función de recompensa $\rho$ representa la contribución de una transición específica al rendimiento general del algoritmo.
-- **Contexto y Política:** La combinación del contenido de la cinta y la posición de la cabeza se denomina **contexto** en el que debe tomarse la decisión de diseño. Una solución a este MDP es una **política $\pi$**.
+**3. Métodos de IA/ML Utilizados (RQ2):** Se identificaron 56 métodos diferentes de IA/ML aplicados a las etapas de _refactoring_.
 
-**3. Beneficios del Enfoque de Caja Blanca:**
-
-El nuevo enfoque de caja blanca introduce dos beneficios principales al exponer la estructura interna de la ejecución del algoritmo:
-
-1. **Acelerar la Meta-optimización (_Speed up Meta-optimization_):**
-    
-    - La evaluación de caja blanca proporciona una lista de tuplas $(s_i, a_i, r_i)$ (estado, acción, recompensa) durante la ejecución.
-    - Esta información detallada (de caja blanca) se puede **generalizar a través de diferentes diseños y entradas**, mejorando la eficiencia de los datos. Los datos pueden compartirse a través de configuraciones siempre que tomen la misma decisión en los estados encontrados hasta ese momento.
-    - Esto permite una **muestra más informada**, lo que acelera el proceso de optimización. Por ejemplo, el agente PURS (Propósito de Prueba de Concepto) busca activamente caminos de ejecución no explorados, encontrando rápidamente la solución óptima en el primer _benchmark_.
-2. **Diseños Mejores y Adaptativos (_Better/Adaptive Designs_):**
-    
-    - Mientras que el ADP de caja negra solo considera **configuraciones estáticas**, la formulación de caja blanca considera **diseños adaptativos** dependientes del **contexto de ejecución** (Contexto $\times \Phi \rightarrow A$) como candidatos a solución.
-    - El ADP de caja blanca **engloba el problema de selección de algoritmos**. Permite cambiar las decisiones de diseño dinámicamente, incluso si la entrada es la misma.
-    - El hallazgo de la política óptima $\pi^*$ garantiza el **rendimiento óptimo en cualquier entrada y distribución $D$**, evitando problemas de sobreajuste (_overfitting_).
-
-**4. Implementación y Evaluación (Prueba de Concepto):** Los autores implementaron un optimizador de caja blanca (**WB**) en una biblioteca de Java para una variante "ajena al contexto" (_context-oblivious_) del ADP ($\text{COADP}_{\text{adp}}$).
-
-- **Benchmark 1 (Acelerar la Optimización):** Demostró que el optimizador de caja blanca (WB-PURS) encontró la solución óptima en $\approx 100$ evaluaciones, significativamente más rápido que el optimizador de caja negra (BB-URS) que requirió $\approx 1$ millón de evaluaciones. Esto se debe a la capacidad de la caja blanca para **generalizar información entre configuraciones similares**.
-- **Benchmark 2 (Diseños Adaptativos):** Demostró que WB-URS encontró la **política dinámica óptima**, que acumuló una recompensa de 5, mientras que BB-URS (que solo considera configuraciones estáticas) solo pudo alcanzar una recompensa esperada de 1.
-
-**5. Conclusión:** El marco formal del MDP para el ADP de caja blanca subsume problemas como la selección de algoritmos, la parametrización y la adaptación dinámica. Esto permite aprovechar las soluciones propuestas a lo largo de seis décadas de investigación de MDP (como el **Aprendizaje por Refuerzo, o RL**) para automatizar el diseño de algoritmos.
+- **Clasificación por Tipo de Aprendizaje:**
+    - **Aprendizaje Supervisado:** El **más común (56.41%)**. Esto se debe a que los investigadores buscan una mayor precisión y fiabilidad al aprender de datos etiquetados (labeled data).
+    - **Aprendizaje No Supervisado:** Utilizado por el 23.71%, destacando su valor para descubrir patrones ocultos cuando la obtención de datos etiquetados es difícil.
+    - **Aprendizaje Semi-Supervisado:** Adopción moderada (9.61%), utilizado estratégicamente cuando los datos etiquetados son limitados.
+    - **Métodos Híbridos:** Su uso refleja el reconocimiento de la necesidad de integrar diversas técnicas para abordar la complejidad.
+- **Top 5 Algoritmos Más Utilizados:** Los más frecuentes demuestran una clara inclinación por las técnicas de optimización y la robustez.
+    1. **Random Forests (18 estudios):** Destaca su uso en la **Predicción** de _refactoring_ (29.41% de los casos de predicción).
+    2. **Genetic Algorithm (17 estudios):** Dominante en la **Recomendación** de _refactoring_ (15.68% de los casos de recomendación).
+    3. **Support Vector Machine (SVM) (15 estudios)**.
+    4. **Convolutional Neural Network (CNN) (12 estudios):** Dominante en la **Detección** de _refactoring_ (20.68% de los casos de detección).
+    5. **Decision Trees (11 estudios)**.
 
 ---
 
 ### Ideas Clave que Fundamentan las Conclusiones
 
-Las conclusiones sobre el valor del enfoque de caja blanca y la necesidad de este nuevo marco se fundamentan en las siguientes ideas clave:
+Las conclusiones de la SLR sobre las tendencias, las brechas y las oportunidades de investigación se fundamentan en las siguientes ideas clave:
 
-1. **El Diseño de Algoritmos es Intrínsecamente un Proceso de Decisión Secuencial, no una Simple Mapeo de Caja Negra:** La conclusión principal del trabajo (reformular el ADP como MDP) se basa en el argumento de que el enfoque de caja negra pierde información crucial porque no modela las **relaciones intrínsecas** entre las decisiones de diseño y su contribución al rendimiento del algoritmo. La **formalización como MDP** permite capturar esta naturaleza secuencial.
-2. **La Exposición de las Trayectorias de Ejecución Permite la Generalización del Conocimiento a Través de Configuraciones e Inputs:** La conclusión de que el enfoque de caja blanca acelera la meta-optimización se fundamenta en que, al obtener tuplas $(s_i, a_i, r_i)$ en tiempo de ejecución, el conocimiento puede ser **reutilizado y compartido** entre diferentes ejecuciones. Esto permite una **muestra más informada** (ej. PURS) y reduce el error de estimación (sobreconfianza, u _overconfidence_) inherente a los optimizadores de caja negra.
-3. **El Rendimiento Óptimo Requiere Diseños Adaptativos y Dependientes del Contexto, que no Pueden Ser Hallados por Optimizadores Estáticos:** La conclusión de que el enfoque de caja blanca genera mejores diseños se basa en el hallazgo de que la política $\pi^*$ óptima es una **configuración dependiente del contexto de ejecución**. Dado que el ADP de caja blanca considera este **superconjunto de diseños adaptativos**, es capaz de resolver el problema de selección de algoritmos de manera dinámica (_on-the-fly_), algo que los configuradores estáticos de caja negra no pueden lograr.
+1. **El _Refactoring_ es Intrínsecamente un Problema de Optimización y Clasificación que se Beneficia de la Robustez de los Algoritmos de Conjunto (_Ensemble_) y Evolutivos:** La conclusión sobre los métodos de IA más comunes se basa en que los algoritmos en el Top 5 (Random Forests, Genetic Algorithms, SVM, CNNs) **muestran eficacia y versatilidad** al aplicarse al proceso de _refactoring_. La predominancia de Random Forests y Genetic Algorithms subraya el interés por las técnicas de **optimización y la robustez**.
+2. **Existe una Fuerte Desviación Investigativa hacia la Propuesta de Soluciones, Creando una Brecha Crítica en la Evaluación Rigurosa de la Implementación en la Práctica:** La conclusión de que se necesita más investigación se fundamenta en el hallazgo de que **más del 72% de los artículos proponen soluciones**, mientras que las publicaciones centradas en la **Evaluación, Validación o Experiencia son mínimas**. Esta falta de evaluación y validación rigurosa **impide la implementación práctica** de las soluciones de IA/ML en entornos de _software_ reales, limitando su impacto en las prácticas empresariales.
+3. **La Detección y Recomendación de _Refactoring_ Dominan la Investigación, pero la Priorización y la Predicción son Áreas Maduras para Obtener Grandes Beneficios de ML:** La conclusión sobre las oportunidades de investigación se fundamenta en el análisis de las fases. Aunque la Detección es la fase más investigada, los autores creen firmemente que la **Predicción y Priorización de _refactoring_** pueden **beneficiarse más de las soluciones de IA/ML** y generar mejoras significativas en los costos generales de desarrollo y el rendimiento del sistema.
 
 ---
 
 ### Valor del Paper
 
-El artículo **"Towards a White Box Approach to Automated Algorithm Design"** es de **alto valor teórico y fundacional** para el futuro del diseño automatizado de algoritmos:
+El artículo **"Artificial Intelligence Methods in Software Refactoring: A Systematic Literature Review"** tiene un valor sustancial como documento de referencia y de trazado de caminos para la investigación:
 
-- **Marco Teórico Unificado y Formal:** Proporciona el primer marco general y formal (la extensión de la Máquina de Turing y la formulación $\text{MDP}_{\text{adp}}$) que subsume los problemas de selección, parametrización y adaptación dinámica de algoritmos. Esto sienta las bases para un **enfoque más unificado** en el campo.
-- **Superación de las Limitaciones de Caja Negra:** Al pasar de configuraciones estáticas (_black box_) a **políticas dependientes del contexto de ejecución (_white box_)**, el trabajo aborda las principales debilidades de los enfoques existentes de PbO, como el riesgo de sobreajuste y la incapacidad para gestionar decisiones dinámicas.
-- **Viabilidad Demostrada:** Aunque la implementación completa es un desafío futuro, la **Prueba de Concepto** con los micro-_benchmarks_ demuestra empíricamente los beneficios prometidos, tanto en la velocidad de optimización (reducción masiva de evaluaciones con PURS) como en la calidad del diseño (encontrando la política dinámica óptima que los métodos estáticos no pueden).
+- **Mapeo Exhaustivo y Actualizado:** Proporciona un **análisis integral y actualizado** (2010-2024) de la intersección entre IA y _refactoring_, refinando el alcance de estudios anteriores. El conjunto de datos de 156 artículos es un recurso significativo para la comunidad investigadora.
+- **Identificación de Tendencias y Brechas:** El estudio identifica **brechas críticas** en el tipo de investigación (falta de evaluación/validación) y en las fases del _refactoring_ menos abordadas (Priorización y Pruebas). Esto ofrece una **hoja de ruta clara** para futuras investigaciones.
+- **Clasificación de Métodos por Tarea:** El _paper_ va más allá de un simple conteo de algoritmos, mostrando qué métodos específicos (ej., CNN para Detección, Genetic Algorithms para Recomendación, Random Forests para Predicción) son más efectivos para **fases específicas del ciclo de vida del _refactoring_**.
 
-El enfoque de caja negra tradicional era como intentar optimizar un motor ajustando solo la configuración externa (la cantidad de gasolina y el tiempo de encendido), sin mirar lo que sucede en los cilindros. El enfoque de **Caja Blanca basado en MDP** es como instalar sensores en cada parte de la máquina para **medir exactamente la recompensa y el estado después de cada decisión interna**. Esto no solo permite optimizar el motor de manera más rápida y precisa, sino que también permite diseñar un motor que **cambia activamente sus componentes internos** (adaptación dinámica) en función del contexto exacto de la ejecución (por ejemplo, ajustando la mezcla de combustible en tiempo real según la humedad y la temperatura detectadas en el momento preciso de la combustión).
+Este SLR es como el **catálogo de herramientas y el informe de mercado** de la industria de la reparación automatizada de _software_. Indica con precisión **qué máquinas (algoritmos)** están siendo más utilizadas, **dónde están construyendo (Detección)**, y **dónde hay que invertir más esfuerzo (Evaluación y Priorización)** para que estas herramientas de IA pasen de ser prototipos de laboratorio a soluciones robustas y fiables para la práctica industrial.
