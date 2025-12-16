@@ -13,6 +13,8 @@
 
 Referencia del archivo original: `(Robin T. Bye) A Software Framework For Intelligent Computer-automated Product Design.pdf` [[(Robin T. Bye) A Software Framework For Intelligent Computer-automated Product Design.pdf]]
 
+# ==Irrelevante==
+
 El documento seleccionado para el análisis es el artículo **"A Software Framework For Intelligent Computer-automated Product Design"** (Un Marco de _Software_ para el Diseño de Productos Inteligente Asistido por Computadora), escrito por Robin T. Bye, Ottar L. Osen, Birger Skogeng Pedersen, Ibrahim A. Hameed y Hans Georg Schaathun.
 
 Este trabajo describe la primera versión completa de un **marco de _software_ genérico y modular para el diseño de productos inteligente y asistido por computadora (CautoD)**. El objetivo es automatizar y optimizar la fase de diseño de productos complejos, como las grúas _knuckleboom_ _offshore_ y los cabrestantes (winches), utilizando técnicas de **Inteligencia Artificial (IA)**, específicamente **Algoritmos Genéticos (GA)**.
