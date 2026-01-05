@@ -22,14 +22,14 @@
 | 19  | [[P038-AI Driven Software Reuse Optimization and Comparative Performance Analysis]]                                                |
 | 20  | [[P040-An-evaluation-method-for-Self-Adaptive-systems]]                                                                            |
 | 21  | [[P041-A-Knowledge-Driven-Approach-for-Dynamic-Reconfiguration-of-Control-Design-in-Internet-of-Things-and-CyberPhysical-Systems]] |
-| 22  |                                                                                                                                    |
-| 23  |                                                                                                                                    |
-| 24  |                                                                                                                                    |
-| 25  |                                                                                                                                    |
-| 26  |                                                                                                                                    |
-| 27  |                                                                                                                                    |
-| 28  |                                                                                                                                    |
-| 29  |                                                                                                                                    |
+| 22  | [[P045-Artificial-Intelligence-in-System-and-Software-Engineering-for-Auto-Code-Generation]]                                       |
+| 23  | [[P047-Transforming-Software-Engineering-Processes-Through-Generative-AI-A-Framework-for-Integration-and-Implementation]]          |
+| 24  | [[P051-Special-section-on-realizing-artificial-intelligence-synergies]]                                                            |
+| 25  | [[P052-Explainable-AI-for-Software-Engineering]]                                                                                   |
+| 26  | [[P053-Evolutionary-Computation-and-Reinforcement-Learning-for-Cyber-physical-System-Design]]                                      |
+| 27  | [[P055-From-Self-Adaptation-to-Self-Evolution-Leveraging-the-Operational-Design-Domain]]                                           |
+| 28  | [[P058-Approach-to-build-a-class-of-Software-Systems-through-a-Combination-of-Design-Patterns]]                                    |
+| 29  | [[P059-Artificial-Intelligence-Techniques-in-Software-Engineering-for-Automated-Software-Reuse-and-Design]]                        |
 | 30  |                                                                                                                                    |
 | 31  |                                                                                                                                    |
 | 32  |                                                                                                                                    |
