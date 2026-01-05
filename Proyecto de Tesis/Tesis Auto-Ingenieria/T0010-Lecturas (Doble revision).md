@@ -16,10 +16,10 @@
 | 13  | [[P027-AI-Driven Innovations in Software Engineering A Review of Current Practices and Future Directions]]                 |
 | 14  | [[P028-Applications of AI in classical software engineering]]                                                              |
 | 15  | [[P029-Autonomic Feature selection using Computational Intelligence]]                                                      |
-| 16  |                                                                                                                            |
-| 17  |                                                                                                                            |
-| 18  |                                                                                                                            |
-| 19  |                                                                                                                            |
+| 16  | [[P030-An Architecture-Based Approach to Self-Adaptive Software]]                                                          |
+| 17  | [[P034-Self-Collaboration Code Generation via ChatGPT]]                                                                    |
+| 18  | [[P036-Control of UML diagrams in designing automated systems software]]                                                   |
+| 19  | [[]]                                                                                                                       |
 | 20  |                                                                                                                            |
 | 21  |                                                                                                                            |
 | 22  |                                                                                                                            |
