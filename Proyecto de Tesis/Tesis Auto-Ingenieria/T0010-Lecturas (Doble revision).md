@@ -30,9 +30,9 @@
 | 27  | [[P055-From-Self-Adaptation-to-Self-Evolution-Leveraging-the-Operational-Design-Domain]]                                           |
 | 28  | [[P058-Approach-to-build-a-class-of-Software-Systems-through-a-Combination-of-Design-Patterns]]                                    |
 | 29  | [[P059-Artificial-Intelligence-Techniques-in-Software-Engineering-for-Automated-Software-Reuse-and-Design]]                        |
-| 30  |                                                                                                                                    |
-| 31  |                                                                                                                                    |
-| 32  |                                                                                                                                    |
+| 30  | [[P061-Conceptualising-Software-Development-Lifecycle-for-Engineering-AI-Planning-Systems]]                                        |
+| 31  | [[P062-Method-of-modification-of-self-adaptive-software-systems-based-on-ontology]]                                                |
+| 32  | [[P063-The-Use-of-Ontology-in-the-Process-of-Designing-Adaptive-Software-Systems]]                                                 |
 | 33  |                                                                                                                                    |
 | 34  |                                                                                                                                    |
 | 35  |                                                                                                                                    |
