@@ -42,11 +42,11 @@
 | 39  | [[P075-Adapting-Computational-Skills-for-AI-Integration]]                                                                          |
 | 40  | [[P076-Interactive-evolutionary-computation]]                                                                                      |
 | 41  | [[P077-Software-Engineering-meets-Artificial-Intelligence]]                                                                        |
-| 42  |                                                                                                                                    |
-| 43  |                                                                                                                                    |
-| 44  |                                                                                                                                    |
-| 45  |                                                                                                                                    |
-| 46  |                                                                                                                                    |
+| 42  | [[P079-MeetCI-A-computational-intelligence-software-design-automation-framework]]                                                  |
+| 43  | [[P080-A-model-based-infrastructure-for-the-specification-and-runtime-execution-of-self-adaptative]]                               |
+| 44  | [[P081-Machine-Learning-with-System-Software-Engineering-in-Selection-and-Integration-of-Intelligent-Algorithms]]                  |
+| 45  | [[P082-A-Testing-Scheme-for-Self-Adaptive-Software-Systems-with-Architectural-Runtime-Models]]                                     |
+| 46  | [[P083-Development-of-Design-Procedures-for-the-Synthesis-of-Design-Solutions-for-Data-Management-Design]]                         |
 | 47  |                                                                                                                                    |
 | 48  |                                                                                                                                    |
 | 49  |                                                                                                                                    |
