@@ -47,41 +47,43 @@
 | 44  | [[P081-Machine-Learning-with-System-Software-Engineering-in-Selection-and-Integration-of-Intelligent-Algorithms]]                  |
 | 45  | [[P082-A-Testing-Scheme-for-Self-Adaptive-Software-Systems-with-Architectural-Runtime-Models]]                                     |
 | 46  | [[P083-Development-of-Design-Procedures-for-the-Synthesis-of-Design-Solutions-for-Data-Management-Design]]                         |
-| 47  |                                                                                                                                    |
-| 48  |                                                                                                                                    |
-| 49  |                                                                                                                                    |
-| 50  |                                                                                                                                    |
-| 51  |                                                                                                                                    |
-| 52  |                                                                                                                                    |
-| 53  |                                                                                                                                    |
-| 54  |                                                                                                                                    |
-| 55  |                                                                                                                                    |
-| 56  |                                                                                                                                    |
-| 57  |                                                                                                                                    |
-| 58  |                                                                                                                                    |
-| 59  |                                                                                                                                    |
-| 60  |                                                                                                                                    |
-| 61  |                                                                                                                                    |
-| 62  |                                                                                                                                    |
-| 63  |                                                                                                                                    |
-| 64  |                                                                                                                                    |
-| 65  |                                                                                                                                    |
-| 67  |                                                                                                                                    |
-| 68  |                                                                                                                                    |
-| 69  |                                                                                                                                    |
-| 70  |                                                                                                                                    |
-| 71  |                                                                                                                                    |
-| 72  |                                                                                                                                    |
-| 73  |                                                                                                                                    |
-| 74  |                                                                                                                                    |
-| 75  |                                                                                                                                    |
-| 76  |                                                                                                                                    |
-| 78  |                                                                                                                                    |
-| 79  |                                                                                                                                    |
-| 80  |                                                                                                                                    |
-| 81  |                                                                                                                                    |
-| 82  |                                                                                                                                    |
-| 83  |                                                                                                                                    |
+| 47  | [[P084-Architecture-Based-Approaches-Supporting-Flexible-Design-of-Self-Adaptive-Software]]                                        |
+| 48  | [[P086-Evolution-of-Software-Development-Strategies]]                                                                              |
+| 49  | [[P087-Artificial-Intelligence-in-Software-Engineering-Perspectives-and-Challenges]]                                               |
+| 50  | [[P088-Automatic-Component-Wise-Design-of-Multiobjective-Evolutionary-Algorithms]]                                                 |
+| 51  | [[P089-Automatically-Designing-State-of-the-Art-Multi-and-Many-Objective-Evolutionary-Algorithms]]                                 |
+| 52  | [[P090-A-hybrid-neural-combinatorial-optimization-framework-assisted-by]]                                                          |
+| 53  | [[P091-Extending-design-automation-by-integrating-external]]                                                                       |
+| 54  | [[P092-Architectural-Solutions-for-Self-Adaptive-Systems]]                                                                         |
+| 55  | [[P093-Generative-Design-Methodology-and-Framework-Exploiting]]                                                                    |
+| 56  | [[P094-A-Game-Theoretic-Decision-Making-Framework-for-Engineering-Self-Protecting-Software-Systems]]                               |
+| 57  | [[P095-A-Methodological-Approach-to-Model-Driven-Design-and-Development-of-Automation-Systems]]                                    |
+| 58  | [[P096-Stability-of-Self-Adaptive-Software-Architectures]]                                                                         |
+| 59  | [[P097-Evolution-of-the-IEEE-P7009-Standard-Towards-Fail-Safe-Design-of-Autonomous-Systems]]                                       |
+| 60  | [[P098-An-Architecture-Framework-for-Experimentations-with-Self-Adaptive-Cyber-physical-Systems]]                                  |
+| 61  | [[P099-A-case-study-on-machine-learning-model-for-code-review-expert]]                                                             |
+| 62  | [[P100-Automation-and-Artificial-Intelligence-in-Software-Engineering]]                                                            |
+| 63  | [[P101-An-initial-user-model-design-for-adaptive-interface-development-in]]                                                        |
+| 64  | [[P102-Improved-self-management-architecture-in-self-adaptive-system]]                                                             |
+| 65  | [[P104-Formal-Specification-and-Verification-of-Self-Adaptive-Concurrent-Systems]]                                                 |
+| 66  | [[P106-Architectural-Refactoring-for-Functional-Properties-in-Evolutionary-Architecture]]                                          |
+| 67  | [[P107-Automated-Design-of-Machine-Learning]]                                                                                      |
+| 68  | [[P108-A-Design-and-Analysis-Methodology-for-Component-Based-Real-Time]]                                                           |
+| 69  | [[P109-Code-Evolution-Graphs-Understanding-Large-Language-Model]]                                                                  |
+| 70  | [[P111-A-Pattern-Oriented-Design-Framework-for-Self-Adaptive-Software-Systems]]                                                    |
+| 71  | [[P112-An-approach-to-improve-test-path-generation-Inclination-towards-automated-model-based-software-design-and-testing]]         |
+| 72  | [[P113-A-Comprehensive-Technological-Survey-on-the]]                                                                               |
+| 73  | [[P114-Architectural-Aspects-of-Self-Aware-and-Self-Expressive-Computing-Systems-From-Psychology-to-Engineering]]                  |
+| 74  | [[P116-Automated-Metaheuristic-Algorithm-Design-With-Autoregressive-Learning]]                                                     |
+| 75  | [[P117-Software-Engineering-for-Responsible-AI]]                                                                                   |
+| 76  | [[P118-Role-of-Data-Minig-and-Machine-Learning-in-Software-Reusability]]                                                           |
+| 77  | [[P119-Automated-Planning-for-Self-Adaptive-Systems]]                                                                              |
+| 78  | [[P122-A-Runtime-Framework-for-Machine-Augmented-Software-Design-Using-Unsupervised-Self-Learning]]                                |
+| 79  | [[P124-The-General-Combinatorial-Optimization-Problem-Towards-Automated-Algorithm-Design]]                                         |
+| 80  | [[P125-Software-tool-used-for-automated-design-of-customizable-product]]                                                           |
+| 81  | [[P127-A-Framework-for-Optimization-of-Software-Test-Cases-Generation-using-Cuckoo-Search-Algorithm]]                              |
+| 82  | [[P128-Autonomous-Systems-Design-Charting-a-New_Discipline]]                                                                       |
+| 83  | [[P129-Introducing-Artificial-Intelligence-Agents-to-the-Empirical-Measurement-of-Design-Properties-for-Aspect]]                   |
 | 84  |                                                                                                                                    |
 | 85  |                                                                                                                                    |
 | 86  |                                                                                                                                    |
