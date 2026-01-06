@@ -33,15 +33,15 @@
 | 30  | [[P061-Conceptualising-Software-Development-Lifecycle-for-Engineering-AI-Planning-Systems]]                                        |
 | 31  | [[P062-Method-of-modification-of-self-adaptive-software-systems-based-on-ontology]]                                                |
 | 32  | [[P063-The-Use-of-Ontology-in-the-Process-of-Designing-Adaptive-Software-Systems]]                                                 |
-| 33  |                                                                                                                                    |
-| 34  |                                                                                                                                    |
-| 35  |                                                                                                                                    |
-| 36  |                                                                                                                                    |
-| 37  |                                                                                                                                    |
-| 38  |                                                                                                                                    |
-| 39  |                                                                                                                                    |
-| 40  |                                                                                                                                    |
-| 41  |                                                                                                                                    |
+| 33  | [[P064-Design-of-an-autonomous-intelligent-Demand-Side-Management]]                                                                |
+| 34  | [[P065-A-Conceptual-Architecture-for-Enabling-Future-Self-Adaptive-Service]]                                                       |
+| 35  | [[P066-Evolutionary-algorithm-with-convergence-speed-controller-for-automated-software-test-data-generation]]                      |
+| 36  | [[P067-Runtime-Evolution-of-the-Adaptation-Logic-in-Self-Adaptive-Systems]]                                                        |
+| 37  | [[P070-A-Reference-Architecture-Based-on-Reflection-for-Self-Adaptive-Software-A-Second-Release]]                                  |
+| 38  | [[P072-Effort-estimation-models-using-evolutionary-learning-algorithms-for-software-development]]                                  |
+| 39  | [[P075-Adapting-Computational-Skills-for-AI-Integration]]                                                                          |
+| 40  | [[P076-Interactive-evolutionary-computation]]                                                                                      |
+| 41  | [[P077-Software-Engineering-meets-Artificial-Intelligence]]                                                                        |
 | 42  |                                                                                                                                    |
 | 43  |                                                                                                                                    |
 | 44  |                                                                                                                                    |

@@ -1,7 +1,6 @@
 #CitaLatex 
 @MISC{noauthor_2019-px,
-  title      = "Proceedings of the 52nd Hawaii international conference on
-                system sciences",
+  title      = "A Conceptual Architecture for Enabling Future Self-Adaptive Service Systems",
   publisher  = "Hawaii International Conference on System Sciences",
   month      =  jan,
   year       =  2019,
