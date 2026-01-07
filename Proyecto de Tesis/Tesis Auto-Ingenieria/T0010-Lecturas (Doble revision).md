@@ -101,8 +101,8 @@
 | 98  | [[P148-Adaptive-Knowledge-Bases-in-Self-Adaptive-System-Design]]                                                                        |
 | 99  | [[P149-Improving-Software-Engineering-Practices-AI-Driven-Adoption-of-Design-Patterns]]                                                 |
 | 100 | [[P150-Invited-Hardware-Software-Co-Synthesis-and-Co-Optimization-for-Autonomous-Systems]]                                              |
-| 101 |                                                                                                                                         |
-| 102 |                                                                                                                                         |
+| 101 | [[P151-Automated-design-of-search-algorithms-Learning-on-algorithmic-components]]                                                       |
+| 102 | [[P153-Automated-design-of-search-algorithms-based-on-reinforcement-learning]]                                                          |
 | 103 |                                                                                                                                         |
 | 104 |                                                                                                                                         |
 | 105 |                                                                                                                                         |
