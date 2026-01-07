@@ -85,21 +85,22 @@
 | 82  | [[P128-Autonomous-Systems-Design-Charting-a-New_Discipline]]                                                                            |
 | 83  | [[P129-Introducing-Artificial-Intelligence-Agents-to-the-Empirical-Measurement-of-Design-Properties-for-Aspect]]                        |
 | 84  | [[(Shang) AI-Driven Software Design and Applications Construction of Personalized Learning Measurement Models Under the Taxonomic.pdf]] |
-| 85  |                                                                                                                                         |
-| 86  |                                                                                                                                         |
-| 87  |                                                                                                                                         |
-| 89  |                                                                                                                                         |
-| 90  |                                                                                                                                         |
-| 91  |                                                                                                                                         |
-| 92  |                                                                                                                                         |
-| 93  |                                                                                                                                         |
-| 94  |                                                                                                                                         |
-| 95  |                                                                                                                                         |
-| 96  |                                                                                                                                         |
-| 97  |                                                                                                                                         |
-| 98  |                                                                                                                                         |
-| 99  |                                                                                                                                         |
-| 100 |                                                                                                                                         |
+| 85  | [[P132-An-Automated-Hardware-Software-Co-Design-Flow-for-Partially-Reconfigurable-FPGAs]]                                               |
+| 86  | [[P133-AI-Augmented-Software-Development-Boosting-Efficiency-and-Quality]]                                                              |
+| 87  | [[P134-Opportunistic-Knowledge-Adaption-in-Self-Learning-Systems]]                                                                      |
+| 88  | [[P136-Towards-a-White-Box-Approach-to-Automated-Algorithm-Design]]                                                                     |
+| 89  | [[P137-An-Architectural-Design-for-Self-Reporting-E-Health-Systems]]                                                                    |
+| 90  | [[P138-A-Model-of-Design-for-Computing-Systems-A-Categorical-Approach]]                                                                 |
+| 91  | [[P139-Development-of-Automated-Software-Design-Document-Review-Methods-Using-Large-Language-Models]]                                   |
+| 92  | [[P140-a-generic-framework]]                                                                                                            |
+| 93  | [[P141-Generic-Adaptive-Monitoring-Based-on-Executed-Architecture-Runtime-Model-Queries-and-Events]]                                    |
+| 94  | [[P142-The-use-of-artificial-intelligence-in-engineering]]                                                                              |
+| 95  | [[P145-Pattern-design-software-of-automated-control-systems]]                                                                           |
+| 96  | [[P146-A-Multi-Agent-LLM-Environment-for-Software-Design-and-Refactoring-A-Conceptual-Framework]]                                       |
+| 97  | [[P147-Design-and-Implementation-of-a-User-Centered-Design-Framework-for-Software-Development]]                                         |
+| 98  | [[P148-Adaptive-Knowledge-Bases-in-Self-Adaptive-System-Design]]                                                                        |
+| 99  | [[P149-Improving-Software-Engineering-Practices-AI-Driven-Adoption-of-Design-Patterns]]                                                 |
+| 100 | [[P150-Invited-Hardware-Software-Co-Synthesis-and-Co-Optimization-for-Autonomous-Systems]]                                              |
 | 101 |                                                                                                                                         |
 | 102 |                                                                                                                                         |
 | 103 |                                                                                                                                         |
