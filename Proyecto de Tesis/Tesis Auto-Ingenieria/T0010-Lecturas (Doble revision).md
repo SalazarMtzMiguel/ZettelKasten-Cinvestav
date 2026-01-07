@@ -1,7 +1,7 @@
 
 | Listo | #   | Cita                                                                                                                                    |
 | ----- | --- | --------------------------------------------------------------------------------------------------------------------------------------- |
-|       | 1   | [[P009-Self Designing Software]]                                                                                                        |
+| ×     | 1   | [[P009-Self Designing Software]]                                                                                                        |
 |       | 2   | [[P010-A biological-like synthesis framework for software engineering environments]]                                                    |
 |       | 3   | [[P011-The Role of Artificial Intelligence in Modern Software Engineering]]                                                             |
 |       | 4   | [[P012-Exploring the synergy between generative AI and software engineering Automating  code optimization and bug fixing]]              |
