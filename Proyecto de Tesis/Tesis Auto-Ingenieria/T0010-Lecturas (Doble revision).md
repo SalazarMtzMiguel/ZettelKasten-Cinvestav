@@ -103,10 +103,10 @@
 | 100 | [[P150-Invited-Hardware-Software-Co-Synthesis-and-Co-Optimization-for-Autonomous-Systems]]                                              |
 | 101 | [[P151-Automated-design-of-search-algorithms-Learning-on-algorithmic-components]]                                                       |
 | 102 | [[P153-Automated-design-of-search-algorithms-based-on-reinforcement-learning]]                                                          |
-| 103 |                                                                                                                                         |
-| 104 |                                                                                                                                         |
-| 105 |                                                                                                                                         |
-| 106 |                                                                                                                                         |
+| 103 | [[P154-Automated-algorithm-design-using-proximal-policy-optimisation-with]]                                                             |
+| 104 | [[P156-Knowledge-Based-Multi-Agent-Framework-for-Automated-Software-Architecture-Design]]                                               |
+| 105 | [[P157-A-model-driven-agent-oriented-self-adaptive-software-development-method]]                                                        |
+| 106 | [[P158-ATS-Software-Framework-Design-Pattern-and-Application]]                                                                          |
 | 107 |                                                                                                                                         |
 | 108 |                                                                                                                                         |
 | 109 |                                                                                                                                         |
