@@ -64,3 +64,6 @@ El resultado de este enfoque es un entorno de software con ventajas significativ
 
 ![[Pasted image 20260109113719.png]]
 ![[Pasted image 20260109113910.png]]
+![[Pasted image 20260109115011.png]]
+![[Pasted image 20260109115415.png]]
+![[Pasted image 20260109115718.png]]
