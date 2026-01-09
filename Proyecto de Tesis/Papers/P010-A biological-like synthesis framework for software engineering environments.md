@@ -61,3 +61,6 @@ El resultado de este enfoque es un entorno de software con ventajas significativ
 - **Sin recolección de basura (Garbage Collection)**: Como todos los componentes tienen un TTL y se eliminan al expirar, no hay necesidad de procesos de limpieza de memoria, lo que reduce la sobrecarga del sistema.
 - **Conservación de energía y recursos**: Los recursos se utilizan solo cuando son necesarios y se liberan rápidamente, lo que conduce a un ahorro sustancial de energía.
 - **Viabilidad demostrada**: Una simulación del modelo, aplicada a la gestión de memoria, demostró que el esquema es viable y puede **reducir los costos operativos en comparación con algoritmos tradicionales** como LRU (Least Recently Used).
+
+![[Pasted image 20260109113719.png]]
+![[Pasted image 20260109113910.png]]
