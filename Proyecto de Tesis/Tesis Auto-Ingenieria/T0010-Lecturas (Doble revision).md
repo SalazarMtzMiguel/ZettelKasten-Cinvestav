@@ -4,7 +4,7 @@
 | ×     | 1   | [[P009-Self Designing Software]]                                                                                                        |
 | ×     | 2   | [[P010-A biological-like synthesis framework for software engineering environments]]                                                    |
 | ×     | 3   | [[P011-The Role of Artificial Intelligence in Modern Software Engineering]]                                                             |
-|       | 4   | [[P012-Exploring the synergy between generative AI and software engineering Automating  code optimization and bug fixing]]              |
+| ×     | 4   | [[P012-Exploring the synergy between generative AI and software engineering Automating  code optimization and bug fixing]]              |
 |       | 5   | [[P013-Engineering Self-Adaptive Software Systems From Requirements to Model Predictive Control]]                                       |
 |       | 6   | [[P015-Semi-Automatic Object-Oriented Software Design  Using Metaheuristic Algorithms]]                                                 |
 |       | 7   | [[P016-Architecting Self-aware Software Systems]]                                                                                       |
