@@ -84,3 +84,5 @@ Este paper es muy relevante porque aborda de manera robusta y formal el problema
     - **Manejo de Objetivos de Optimización:** Extiende el enfoque para manejar no solo umbrales fijos sino también la optimización continua de métricas (e.g., maximizar ingresos).
 
 Este enfoque representa un avance significativo sobre las técnicas de adaptación puramente reactivas o basadas en reglas heurísticas, ofreciendo un camino para construir sistemas autónomos con garantías formales sobre su comportamiento adaptativo.
+
+![[Captura de pantalla 2026-01-14 162857.png]]
