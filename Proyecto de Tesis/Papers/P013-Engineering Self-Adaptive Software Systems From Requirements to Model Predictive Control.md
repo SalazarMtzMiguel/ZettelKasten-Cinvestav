@@ -86,3 +86,4 @@ Este paper es muy relevante porque aborda de manera robusta y formal el problema
 Este enfoque representa un avance significativo sobre las técnicas de adaptación puramente reactivas o basadas en reglas heurísticas, ofreciendo un camino para construir sistemas autónomos con garantías formales sobre su comportamiento adaptativo.
 
 ![[Captura de pantalla 2026-01-14 162857.png]]
+![[Pasted image 20260114165901.png]]
