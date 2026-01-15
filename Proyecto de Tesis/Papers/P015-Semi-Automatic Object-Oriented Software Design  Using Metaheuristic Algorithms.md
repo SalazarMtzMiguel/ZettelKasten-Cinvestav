@@ -80,3 +80,8 @@ Este paper podría ser **muy útil para tu tesis** si tu investigación se centr
 - **Aplicación de Algoritmos Metaheurísticos:** Muestra cómo un algoritmo híbrido (ICA-TS) puede superar a otros más simples para resolver problemas de optimización combinatoria.
 - **Métricas de Calidad de Software:** Utiliza y optimiza métricas de diseño orientadas a objetos (cohesión, acoplamiento, etc.) de una manera práctica y cuantitativa.
 - **Modelado y Optimización:** El uso de FCA para la inicialización es una técnica interesante que combina modelado conceptual con optimización numérica.
+
+#revisarcita 22, 23, 20
+
+![[Pasted image 20260115124844.png]]
+![[Pasted image 20260115125605.png]]
