@@ -6,7 +6,7 @@
 | ×     | 3   | [[P011-The Role of Artificial Intelligence in Modern Software Engineering]]                                                             | SI                  |
 | ×     | 4   | [[P012-Exploring the synergy between generative AI and software engineering Automating  code optimization and bug fixing]]              | NO                  |
 | ×     | 5   | [[P013-Engineering Self-Adaptive Software Systems From Requirements to Model Predictive Control]]                                       | La parte del modelo |
-|       | 6   | [[P015-Semi-Automatic Object-Oriented Software Design  Using Metaheuristic Algorithms]]                                                 |                     |
+| ×     | 6   | [[P015-Semi-Automatic Object-Oriented Software Design  Using Metaheuristic Algorithms]]                                                 | Medio               |
 |       | 7   | [[P016-Architecting Self-aware Software Systems]]                                                                                       |                     |
 |       | 8   | [[P017-Toward Systematic Conveying of Architecture  Design Knowledge for Self-Adaptive Systems]]                                        |                     |
 |       | 9   | [[P021-An aproach for the evolutionary discovery of software architectures]]                                                            |                     |
