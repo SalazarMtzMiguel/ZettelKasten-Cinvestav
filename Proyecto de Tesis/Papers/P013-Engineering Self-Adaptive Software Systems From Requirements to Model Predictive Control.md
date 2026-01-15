@@ -87,3 +87,4 @@ Este enfoque representa un avance significativo sobre las t√©cnicas de adaptaci√
 
 ![[Captura de pantalla 2026-01-14 162857.png]]
 ![[Pasted image 20260114165901.png]]
+![[Pasted image 20260115112651.png]]
