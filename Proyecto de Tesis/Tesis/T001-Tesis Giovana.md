@@ -181,8 +181,14 @@ O para los resultados esperados
 #### Definicion conceptual y formal
 ![[Pasted image 20260119171643.png]]
 ![[Pasted image 20260119171754.png]]
+![[Pasted image 20260119172701.png]]
+![[Pasted image 20260119172743.png]]
+
 
 #### Propuesta arquitectonica
+![[Pasted image 20260119173149.png]]
+![[Pasted image 20260119173845.png]]
+
 #### Resumen conceptual
 ## Capitulo 5 - Experimentacion y Analisis de Resultados
 ### Experimentacion y analisis de resultados
