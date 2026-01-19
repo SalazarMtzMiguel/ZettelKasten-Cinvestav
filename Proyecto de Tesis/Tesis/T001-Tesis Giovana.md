@@ -179,6 +179,9 @@ O para los resultados esperados
 #### Analisis y validacion
 ### Propuesta marco conceptual y arquitectura: Sistemas de autoingenieria
 #### Definicion conceptual y formal
+![[Pasted image 20260119171643.png]]
+![[Pasted image 20260119171754.png]]
+
 #### Propuesta arquitectonica
 #### Resumen conceptual
 ## Capitulo 5 - Experimentacion y Analisis de Resultados
