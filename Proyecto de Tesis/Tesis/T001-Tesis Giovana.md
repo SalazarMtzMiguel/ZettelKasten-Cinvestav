@@ -195,6 +195,8 @@ O para los resultados esperados
 ![[Pasted image 20260119175541.png]]
 ![[Pasted image 20260119175822.png]]
 
+![[Captura de pantalla 2026-01-19 175850.png]]
+
 ## Capitulo 5 - Experimentacion y Analisis de Resultados
 ### Experimentacion y analisis de resultados
 #### Analisis del sistema: autoingenieria
