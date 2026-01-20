@@ -188,8 +188,13 @@ O para los resultados esperados
 #### Propuesta arquitectonica
 ![[Pasted image 20260119173149.png]]
 ![[Pasted image 20260119173845.png]]
+![[Pasted image 20260119175039.png]]
 
 #### Resumen conceptual
+![[Pasted image 20260119175215.png]]
+![[Pasted image 20260119175541.png]]
+![[Pasted image 20260119175822.png]]
+
 ## Capitulo 5 - Experimentacion y Analisis de Resultados
 ### Experimentacion y analisis de resultados
 #### Analisis del sistema: autoingenieria
