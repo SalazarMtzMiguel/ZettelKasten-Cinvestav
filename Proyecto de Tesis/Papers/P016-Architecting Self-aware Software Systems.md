@@ -74,3 +74,5 @@ Este paper sería **muy útil para tu tesis** si tu investigación se enfoca en:
 - **Sistemas auto-reflexivos o meta-adaptativos:** El concepto de meta-auto-conciencia es un ejemplo claro de este tipo de sistemas.
 
 El paper complementa el trabajo clásico sobre MAPE-K y ofrece una perspectiva más detallada y orientada al aprendizaje para la construcción de la base de conocimiento en sistemas autoadaptativos.
+![[Pasted image 20260120171413.png]]
+![[Pasted image 20260120171421.png]]
