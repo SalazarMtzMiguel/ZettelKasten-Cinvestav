@@ -17,11 +17,11 @@
 |       | 14  | [[P028-Applications of AI in classical software engineering]]                                                                           |                                                      |
 |       | 15  | [[P029-Autonomic Feature selection using Computational Intelligence]]                                                                   |                                                      |
 |       | 16  | [[P030-An Architecture-Based Approach to Self-Adaptive Software]]                                                                       |                                                      |
-|       | 17  | [[P034-Self-Collaboration Code Generation via ChatGPT]]                                                                                 |                                                      |
+|       | 17  | [[P034-Self-Collaboration Code Generation via ChatGPT]]                                                                                 | NO                                                   |
 |       | 18  | [[P036-Control of UML diagrams in designing automated systems software]]                                                                |                                                      |
 |       | 19  | [[P038-AI Driven Software Reuse Optimization and Comparative Performance Analysis]]                                                     |                                                      |
 |       | 20  | [[P040-An-evaluation-method-for-Self-Adaptive-systems]]                                                                                 |                                                      |
-|       | 21  | [[P041-A-Knowledge-Driven-Approach-for-Dynamic-Reconfiguration-of-Control-Design-in-Internet-of-Things-and-CyberPhysical-Systems]]      |                                                      |
+|       | 21  | [[P041-A-Knowledge-Driven-Approach-for-Dynamic-Reconfiguration-of-Control-Design-in-Internet-of-Things-and-CyberPhysical-Systems]]      | NO creo                                              |
 |       | 22  | [[P045-Artificial-Intelligence-in-System-and-Software-Engineering-for-Auto-Code-Generation]]                                            |                                                      |
 |       | 23  | [[P047-Transforming-Software-Engineering-Processes-Through-Generative-AI-A-Framework-for-Integration-and-Implementation]]               |                                                      |
 |       | 24  | [[P051-Special-section-on-realizing-artificial-intelligence-synergies]]                                                                 |                                                      |
