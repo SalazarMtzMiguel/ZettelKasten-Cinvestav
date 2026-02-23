@@ -8,3 +8,7 @@ AND  ( LIMIT-TO ( SUBJAREA ,  "COMP" )  OR  LIMIT-TO ( SUBJAREA ,  "ENGI" ) )
 ( TITLE-ABS-KEY ( ( "self-architecting" OR "self architectural" OR "auto-architecting" OR "auto architectural" ) AND "system*" ) OR TITLE-ABS-KEY ( ( "self-architectural" OR "auto-architectural" ) AND "design" ) ) 
 AND PUBYEAR > 2014 AND PUBYEAR < 2027 
 AND ( LIMIT-TO ( SUBJAREA, "COMP" ) OR LIMIT-TO ( SUBJAREA, "ENGI" ) )
+
+( TITLE-ABS-KEY ( ( "self-architecting" OR "self architectural" OR "auto-architecting" OR "auto architectural" ) W/3 "system*" ) OR TITLE-ABS-KEY ( ( "self-architectural" OR "auto-architectural" ) W/3 "design" ) ) 
+AND PUBYEAR > 2014 AND PUBYEAR < 2027 
+AND ( LIMIT-TO ( SUBJAREA, "COMP" ) OR LIMIT-TO ( SUBJAREA, "ENGI" ) )
