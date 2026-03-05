@@ -53,7 +53,7 @@ A continuación, presento un análisis estructurado y la tabla resumen ordenada 
 | **Peyman Oreizy**          |       **8**       | Documento clásico/base. Evolución de software en tiempo de ejecución basada en arquitectura.                                         |
 | **Nacha Chondamrongkul**   |       **7**       | Refactorización arquitectónica automatizada guiada por verificación formal de propiedades funcionales.                               |
 | **Iván Alfonso**           |       **7**       | Uso de Model-Driven Engineering (MDE) y DSL para generar arquitecturas IoT auto-adaptativas.                                         |
-| **Aybuke Yalciner**        |       **7**       | Transformación de la SE mediante IA Generativa (recomendación de diseño, síntesis de especificaciones).                              |
+| ==**Aybuke Yalciner**==    |       **7**       | Transformación de la SE mediante IA Generativa (recomendación de diseño, síntesis de especificaciones).                              |
 | **Jayesh Guntupalli**      |       **7**       | Generación automática de Documentos de Diseño (DesDocs) detallados utilizando sistemas RAG y LLMs.                                   |
 | ==**Iftekhar Ahmed**==     |       **7**       | Survey exhaustivo de AI en SE. Fundamental para construir la sección de "Trabajos Relacionados".                                     |
 | **Richard Gil**            |       **7**       | Uso de planificación automatizada (PDDL) para la adaptación y diseño arquitectónico en SaS.                                          |
