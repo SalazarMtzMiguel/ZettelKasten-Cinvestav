@@ -27,3 +27,9 @@ Agent.Based modeling for integrating human behavior into the FEW NEXUS.
 
 
 Vigencia, el tiempo, no se consideran todas las
+
+
+
+```
+\item \textbf{Operation-Time Design Automation:} In \cite{Saidi2022AutonomousSystems}, the authors argue that true self-design requires obscuring the traditional boundary between the laboratory (design phase) and the field (autonomous operation phase). They propose that Design Automation (DA) methods—such as Design Space Exploration (DSE), synthesis, and online verification—must migrate to the operation time to continuously optimize and safeguard the evolving system. This continuous operation-phase exploration is practically instantiated by methodologies like the DuSE framework \cite{AndradeTowardSystematicConveying}. Rather than relying on static predefined rules, DuSE employs multi-objective optimization to systematically navigate architectural design spaces at runtime, enabling the system to autonomously identify and transition toward Pareto-optimal configurations in response to environmental variations.
+```
