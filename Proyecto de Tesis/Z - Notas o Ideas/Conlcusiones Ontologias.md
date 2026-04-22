@@ -1,0 +1,25 @@
+A continuación, se presenta una síntesis rigurosa de las conclusiones, retos, limitaciones y trabajo a futuro sobre los enfoques de ontologías y planeación automática (con o sin el uso de modelos de conocimiento) en el diseño de sistemas de software, extraída exclusivamente de los documentos seleccionados:
+
+### Conclusiones
+
+- **Adaptación dinámica sin recompilación:** La integración de modelos ontológicos permite modificar dinámicamente las características funcionales y las interfaces gráficas del software sin necesidad de recompilar o redesplegar el sistema. Esto se logra separando los requerimientos de los componentes del sistema, lo que evita un alto acoplamiento entre los módulos y el dominio \cite{Fedasyuk.2022a, Fedasyuk.2022b}.
+- **Reducción de costos mediante el enfoque impulsado por conocimiento:** El uso de una arquitectura basada en una "ontología de capacidades" (estandarizando interfaces, comportamientos y flujos de trabajo) reduce significativamente el esfuerzo de configuración manual (hasta un 50%), disminuye el tiempo de desarrollo (hasta un 86%) y reduce las tasas de error (en un 30%) al automatizar la selección de dispositivos y la síntesis de controladores \cite{Banerjee.2024}.
+- **Planeación hacia óptimos globales:** En contraste con la ejecución ávida o inmediata de acciones (_eager execution_) que conduce a óptimos locales, la utilización de herramientas de planeación automatizada (utilizando lenguajes estándar como PDDL) permite generar planes deliberados que guían de manera determinista al sistema desde un estado inicial hacia un estado final óptimo \cite{Gil.2015}.
+
+### Retos
+
+- **Planeación bajo incertidumbre y modelos inexactos:** El principal desafío en la planeación automática es predecir el siguiente estado del sistema tras ejecutar una acción debido a los efectos imprevistos del entorno. Además, depender exclusivamente del conocimiento de expertos para modelar estas acciones genera el riesgo de que dichos modelos sean incompletos, inexactos o estén desactualizados \cite{Gil.2015}.
+- **Complejidad y respuesta en tiempo real:** La gestión de la complejidad en sistemas ciberfísicos (CPS) e industriales exige capacidades de respuesta en tiempo real estricto, lo cual es un reto crítico al operar en entornos con recursos computacionales limitados que demandan baja latencia en la reconfiguración \cite{Banerjee.2024}.
+- **Procesamiento de reglas semánticas:** Las soluciones actuales procesan todas las instancias disponibles de las entidades en el modelo ontológico. Al existir un gran número de conceptos y relaciones, el tiempo de procesamiento para elaborar las reglas semánticas aumenta, lo que dificulta la adaptación rápida \cite{Fedasyuk.2022a}.
+
+### Limitaciones
+
+- **Completitud de la Ontología:** La eficacia del diseño de control automatizado está estrictamente condicionada a la exactitud y completitud de los datos de entrada. Si ciertas capacidades, flujos de trabajo o dispositivos no son capturados previamente, la ontología falla en representarlos, afectando el éxito de la reconfiguración \cite{Banerjee.2024}.
+- **Sobrecarga computacional y de memoria:** Los enfoques basados en ontologías introducen una complejidad computacional adicional (con complejidades de $\mathcal{O}(n \log n)$ en razonadores avanzados) y un mayor uso de memoria para el almacenamiento y razonamiento semántico, lo que puede perjudicar la escalabilidad a medida que aumenta el número de dispositivos \cite{Banerjee.2024}.
+- **Falta de correspondencia en el mapeo de planes:** En las aproximaciones previas de planeación, los planes se generan bajo la suposición abstracta de que las acciones planeadas pueden ser implementadas por los componentes. Esto crea una limitación significativa, ya que se requiere un paso adicional (y a menudo no trivial) para mapear los estados del plan a las configuraciones específicas de los componentes \cite{Gil.2015}.
+
+### Trabajo a Futuro
+
+- **Refinamiento de estrategias en línea:** Desarrollar algoritmos para el ensamblaje de estrategias que recopilen y analicen las funciones de impacto y las probabilidades de transición en tiempo de ejecución. Esto permitirá actualizar iterativamente las estimaciones de los expertos y ajustar los planes frente a la incertidumbre del entorno \cite{Gil.2015}.
+- **Mejora en el procesamiento y abstracción de ontologías:** Es necesario mejorar el método de procesamiento de las reglas semánticas para evitar la evaluación exhaustiva, y perfeccionar los mecanismos para cambiar la funcionalidad con el fin de que la adaptación pueda aplicarse universalmente a distintas plataformas sin degradación de rendimiento \cite{Fedasyuk.2022a}.
+- **Integración con tecnologías de borde y expansión de dominios:** Se proyecta explorar la aplicación de arquitecturas de conocimiento en dominios más complejos (como vehículos autónomos y redes energéticas), así como integrar tecnologías emergentes como 5G y _edge computing_ para procesar los datos localmente y reducir significativamente la latencia del razonamiento semántico \cite{Banerjee.2024}.
