@@ -1,0 +1,29 @@
+A continuación, se presenta una síntesis de las conclusiones, retos, limitaciones y trabajo a futuro sobre el diseño y refactorización de software mediante sistemas multiagente impulsados por Inteligencia Artificial y Modelos de Lenguaje Grande (LLMs), extraída de los documentos seleccionados:
+
+### Conclusiones
+
+- **Transición hacia la Ingeniería de Software 3.0 (SE 3.0):** El desarrollo de software está evolucionando de un entorno donde la IA solo autocompleta código hacia un mundo "agéntico", donde equipos virtuales de IA operan con alta autonomía para ejecutar ciclos de desarrollo de principio a fin (diseño, codificación, pruebas) colaborando con desarrolladores humanos.
+- **Resolución de objetivos en conflicto:** A diferencia de los modelos de un solo agente, los sistemas multiagente distribuyen el proceso de diseño entre especialistas (ej. un agente de rendimiento, uno de seguridad, uno de mantenibilidad) que colaboran para sintetizar soluciones holísticas que equilibran restricciones multidimensionales sin degradar la calidad general.
+- **Simulación de roles humanos:** Marcos conceptuales como MAAD demuestran que es posible asignar agentes autónomos a roles tradicionales (Analista, Modelador, Diseñador y Evaluador) para automatizar el diseño arquitectónico, inyectándoles conocimiento de dominios, patrones de diseño y restricciones extraídas de literatura y expertos.
+- **Auto-diseño dinámico sin supervisión:** En los niveles más avanzados de abstracción, marcos en tiempo de inferencia (como MAS-ZERO) logran que los sistemas multiagente diseñen, critiquen y refinen iterativamente su propia topología y configuración para problemas específicos sin necesidad de conjuntos de datos de validación, superando ampliamente a los enfoques manuales en rendimiento y rentabilidad.
+
+### Retos
+
+- **Traducción de lenguaje natural a restricciones formales:** Convertir especificaciones y requerimientos informales, vagos o incompletos a modelos de diseño estructurados (como UML) y mantener su consistencia mediante reglas formales (como OCL) exige una alta capacidad de razonamiento contextual y simbólico por parte de los agentes.
+- **Gestión de consistencia y colaboración:** Cuando múltiples agentes modifican el mismo diseño, se generan conflictos estructurales y de comportamiento. Reconciliar estas diferencias, propagar los cambios y realizar fusiones (_merges_) unificadas representa un desafío clave de coordinación.
+- **Cuello de botella en la revisión humana:** Los agentes autónomos pueden generar aportes (ej. _pull requests_) a una velocidad y escala sobrehumana (ej. completando tareas en minutos). Esto desborda la capacidad actual de los revisores humanos, suscitando preocupaciones sobre si las revisiones se vuelven superficiales ante el alto volumen de trabajo.
+- **Complejidad frente a velocidad:** En la práctica, el código o diseño originado por agentes tiende a favorecer la alta producción de soluciones de menor complejidad ciclomática en lugar de implementaciones intrincadas o altamente optimizadas, lo que demanda un análisis de cómo gestionar esta compensación (_trade-off_) en el diseño a gran escala.
+
+### Limitaciones
+
+- **Alucinaciones y propagación de errores:** Los LLMs pueden generar diseños o refactorizaciones sintácticamente correctas pero semánticamente defectuosas o inseguras. En un sistema multiagente, este riesgo se amplifica si un agente construye su diseño basándose en la salida defectuosa de otro.
+- **Problemas de gobernanza y trazabilidad:** Gran parte de las herramientas multiagente actuales carecen de un etiquetado claro sobre qué agente hizo cada contribución. Esta falta de atribución impide rastrear la procedencia del código, dificulta la depuración y difumina la rendición de cuentas (_accountability_) ante vulnerabilidades.
+- **Dependencia del modelo base (Verificación):** El desempeño en sistemas como MAS-ZERO o MAAD está estrictamente condicionado por la capacidad intrínseca de los LLM empleados. Modelos débiles fallan sistemáticamente al actuar como gestores ("meta-agentes"), y evaluar autónomamente diseños es muy propenso a errores sin un evaluador ("oráculo") fiable.
+- **Sobrecarga computacional:** Coordinar múltiples agentes intercambiando mensajes o iterando mediante ciclos de retroalimentación consume grandes recursos computacionales y genera una latencia significativa, dificultando su uso eficiente en tiempo real para entornos de nivel industrial.
+
+### Trabajo a Futuro
+
+- **Nuevos _Benchmarks_ dinámicos e integración real:** Existe una necesidad crítica de pasar de evaluaciones sintéticas a pruebas que midan el impacto empírico en flujos de desarrollo vivos, evaluando la calidad a largo plazo del código y el diseño autogenerado (ej. densidad de defectos y mantenibilidad).
+- **Sistemas de _Triage_ y orquestación adaptativa:** Se requiere investigar sistemas de enrutamiento que manejen la carga humana derivando revisiones arquitectónicas menores a "bots", y escalando modificaciones complejas al personal experimentado, gestionando así la integración en flujos CI/CD.
+- **Inyección de conocimiento e interfaces explicables:** Explorar la mejora del nivel de toma de decisiones mediante Generación Aumentada por Recuperación (RAG), entrenamiento continuo con conocimiento experto de dominios y el desarrollo de interfaces interactivas (dashboards) que expliquen claramente el motivo detrás de cada decisión arquitectónica del agente.
+- **Colaboración Humano-IA en la fase de planificación:** Orientar la investigación hacia cómo la definición conjunta de la arquitectura en etapas muy tempranas (interacción y estructuración de planes) puede prevenir la desviación de los objetivos y fomentar una relación de mayor confianza entre desarrolladores humanos y compañeros de IA.
