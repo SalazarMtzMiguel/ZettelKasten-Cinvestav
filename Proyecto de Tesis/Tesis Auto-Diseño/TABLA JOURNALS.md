@@ -1,0 +1,12 @@
+| Journal                                                  | Editorial | OA/Híbrido | Fit con tu paper | Comentario                                                                                  |
+| -------------------------------------------------------- | --------- | ---------- | ---------------- | ------------------------------------------------------------------------------------------- |
+| Journal of Systems and Software                          | Elsevier  | Híbrido    | ⭐⭐⭐⭐⭐            | Probablemente el mejor ajuste. Publica SLR, software architecture, AI-SE, automated design. |
+| Information and Software Technology                      | Elsevier  | Híbrido    | ⭐⭐⭐⭐⭐            | Muy fuerte en systematic reviews y empirical software engineering.                          |
+| Empirical Software Engineering                           | Springer  | Híbrido    | ⭐⭐⭐⭐⭐            | Excelente si enfatizas metodología PRISMA, evidencia y evaluación.                          |
+| ACM Transactions on Software Engineering and Methodology | ACM       | Híbrido    | ⭐⭐⭐⭐             | Más competitivo; necesita una contribución metodológica fuerte.                             |
+| IEEE Transactions on Software Engineering                | IEEE      | Híbrido    | ⭐⭐⭐⭐             | Alto impacto, pero una SLR sola debe tener una síntesis muy novedosa.                       |
+| Software: Practice and Experience                        | Wiley     | Híbrido    | ⭐⭐⭐⭐             | Encaja con arquitecturas y sistemas adaptativos.                                            |
+| Journal of Software: Evolution and Process               | Wiley     | Híbrido    | ⭐⭐⭐⭐             | Buen lugar para evolución, transformación y automatización de software.                     |
+| Software Quality Journal                                 | Springer  | Híbrido    | ⭐⭐⭐              | Si agregas evaluación, métricas y calidad del diseño generado.                              |
+| Applied Soft Computing                                   | Elsevier  | Híbrido    | ⭐⭐⭐              | Más IA/optimización; menos SE puro.                                                         |
+| Artificial Intelligence Review                           | Springer  | Híbrido    | ⭐⭐⭐⭐             | Si haces énfasis en agentes, LLMs y autonomía.                                              |
