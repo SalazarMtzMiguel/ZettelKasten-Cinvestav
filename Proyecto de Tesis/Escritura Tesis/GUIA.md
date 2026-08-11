@@ -1,4 +1,4 @@
-# Manual de Redacción Crítica: Tesis de Maestría en Ciencias
+|# Manual de Redacción Crítica: Tesis de Maestría en Ciencias
 
 **Objetivo del documento:** Destruir los malos hábitos de escritura técnica y establecer el rigor necesario para una tesis de ingeniería de software enfocada en sistemas multiagente y auto-diseño.
 
