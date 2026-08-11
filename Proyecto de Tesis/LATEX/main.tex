@@ -1,0 +1,385 @@
+\documentclass[12pt, letterpaper, oneside]{book}
+
+% --- Paquetes de Idioma y Formato ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish, es-tabla]{babel} 
+\usepackage[left=3cm, right=2.5cm, top=3cm, bottom=3cm]{geometry}
+\usepackage{setspace} \onehalfspacing 
+
+% --- Matemáticas, Gráficos y Tablas ---
+\usepackage{csquotes}
+\usepackage{amsmath, amsfonts, amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs} 
+\usepackage{caption}
+
+% --- Paquete para texto de relleno (Lorem Ipsum) ---
+\usepackage{lipsum} 
+
+% --- Bibliografía (IEEE) ---
+\usepackage[style=ieee, backend=biber]{biblatex}
+\addbibresource{references.bib}
+
+% --- Encabezados y Pies de Página ---
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % Borra configuraciones por defecto
+
+% --- Configuración del ENCABEZADO (Header) ---
+% Centrado, en cursivas y con el título de tu tesis
+\fancyhead[C]{\textit{Auto-diseño de algoritmos en el marco de Sistemas de Auto-Ingenieria (SES)}}
+\renewcommand{\headrulewidth}{0.4pt} % Línea horizontal superior
+
+% --- Configuración del PIE DE PÁGINA (Footer) ---
+\fancyfoot[L]{20}           % Izquierda: Número de página (o \thepage para que sea automático)
+\fancyfoot[C]{\textit{Miguel Angel Salazar Martinez}} % Centro: Nombre en cursivas
+\fancyfoot[R]{\thechapter}        % Derecha: Capítulo (o Ch. \thechapter para automático)
+\renewcommand{\footrulewidth}{0.4pt} % Línea horizontal inferior (como en la imagen)
+
+% --- Ajuste de altura del encabezado ---
+% A veces LaTeX da un error de "headheight is too small", esto lo corrige:
+\setlength{\headheight}{15pt}
+
+% --- Hipervínculos ---
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\begin{document}
+
+% ---------------------------------------------------------
+% SECCIONES PRELIMINARES
+% ---------------------------------------------------------
+\frontmatter
+
+% --- PORTADA ---
+\begin{titlepage}
+    \begin{center}
+        \begin{minipage}[c]{0.25\textwidth}
+            \begin{center}
+                \includegraphics[width=0.80\textwidth]{figures/CINV.png} 
+            \end{center}
+        \end{minipage}
+        \hfill
+        \begin{minipage}[c]{0.74\textwidth}
+            \begin{center}
+                {\large \textbf{Centro de Investigación y de Estudios Avanzados\\ del Instituto Politécnico Nacional \\[0.1cm] Unidad Guadalajara}}
+            \end{center}
+        \end{minipage}
+        
+        \vspace{2cm}
+        
+        {\LARGE \textbf{Auto-diseño de algoritmos en el marco de Sistemas de Auto-Ingenieria (SES)}}\\[2cm]
+        
+        {\large Tesis que presenta:}\\[0.3cm]
+        {\Large \textbf{Miguel Angel Salazar Martinez}}\\[1.2cm]
+        
+        {\large para obtener el grado de:}\\[0.3cm]
+        {\Large \textbf{Maestro en Ciencias}}\\[1.2cm]
+        
+        {\large en la especialidad de:}\\[0.3cm]
+        {\Large \textbf{Ingeniería Eléctrica}}\\[1.2cm]
+        
+        {\large Director de Tesis}\\[0.3cm]
+        {\Large \textbf{Dr. Mario Angel Siller González Pico}}
+    \end{center}
+    \vfill 
+    \noindent 
+    {\large Guadalajara, Jalisco \hfill Agosto de 2026}
+\end{titlepage}
+
+\begin{titlepage}
+    \begin{center}
+        \vspace{2cm}
+        
+        {\Huge \textbf{Auto-diseño de algoritmos en el marco\\ de Sistemas de Auto-Ingenieria (SES)}}\\[2cm]
+        
+        {\LARGE \textbf{Tesis de Mestria en \\Ciencias Ingeniería Eléctrica}}\\[1.2cm]
+        
+        {\large Por:}\\[0.3cm]
+        {\LARGE \textbf{Miguel Angel Salazar Martinez}}\\[0.3cm]
+        {\Large Ingeniero en Sistemas Computaciones}\\
+        {\Large Instituto Tecnologico de Ocotlán 2019-2023}
+        \\[1.2cm]
+        
+        {\large en la especialidad de:}\\[0.3cm]
+        {\Large Becario de SECIHTI, expediente no. xxxxxxx}\\[1.2cm]
+        
+        {\Large Director de Tesis}\\[0.3cm]
+        {\LARGE \textbf{Dr. Mario Angel Siller González Pico}}
+    \end{center}
+    \vfill 
+    \noindent 
+    {Centro de Investigación y de Estudios Avanzados del Instituto Politécnico Nacional}\\
+    \noindent 
+    {Unidad Guadalajara, Agosto de 2026}
+\end{titlepage}
+
+% --- RESUMEN Y AGRADECIMIENTOS ---
+\chapter*{Resumen}
+\addcontentsline{toc}{chapter}{Resumen}
+
+\chapter*{Abstract}
+\addcontentsline{toc}{chapter}{Abstract}
+
+\chapter*{Dedicatoria}
+\addcontentsline{toc}{chapter}{Dedicatoria}
+
+A mi madre por ser mi ejemplo a seguir. Agradezco infinitamente tu amor y apoyo incondicional.
+A mi hermana Saidy y mi hermano Diego, por impulsarme a seguir adelante y ser mi espacio seguro. A mi abuela por enseñarme lo que es ser un buen ser humano. A la vida, por permitirme llegar tan lejos. 
+
+\chapter*{Agradecimientos}
+\addcontentsline{toc}{chapter}{Agradecimientos}
+
+\noindent A todos los que me apoyaron en el camino y me ayudaron en esta travesía del posgrado.\\
+A mi asesor de tesis, el Dr. Mario Siller, por todo el apoyo durante el desarrollo del plan de estudios.\\
+A mi querida familia, a mi madre, a mi padre, a mis hermanos, a mis abuelos, a mis tios y primos que tanto me han apoyado.\\
+Al grupo de redes de CINVESTAV Guadalajara, que más que grupo, es una familia.\\
+A los doctores del área de computación, por compartir su conocimiento, consejos y, sobre todo, por cultivar la tenacidad. Esa que no aparece en la rubrica, pero que resulta indispensable para llegar hasta aquí.\\
+A todos mis amigos (incluyendo los compis y roomies) especialmente a los miembros del laboratorio de computación, por esas largas charlas, orientación, momentos de calidez y de recreación.\\
+A todos mis maestros, quienes me educaron en toda mi vida académica y nunca desistieron al enseñarme.\\
+Entre ellos destaco a la profesora Aurora Berenice Navarro Nuñez, por darme el apoyo que necesite al momento de ingresar a este posgrado.\\
+A todos aquellos que creyeron en mí.\\
+Finalmente, quiero agradecer a la SECIHTI por el apoyo económico brindado, con el cual se logró concluir esta maestría.\\
+Muchas Gracias a todos.
+\vfill 
+    \noindent 
+    {Quiero aclarar que no nombré a todos los involucrados, no por falta de gratitud, sino porque en extensión, los agradecimientos serian inmensos.}\\
+
+% --- ÍNDICES ---
+\tableofcontents
+\listoffigures
+\listoftables
+
+% ---------------------------------------------------------
+% CUERPO DE LA TESIS
+% ---------------------------------------------------------
+\mainmatter
+
+% Si prefieres usar archivos separados, comenta las líneas de abajo y usa:
+% \include{capitulos/01_introduccion}
+% Por ahora, incluyo los capítulos aquí mismo para que sea una plantilla rápida.
+
+\chapter{Introducción}
+El desarrollo de sistemas de software contemporáneos está intrínsecamente ligado a la evolución de la Ingeniería de Software. A lo largo de las últimas décadas, se ha evidenciado que las actividades de mantenimiento, actualización y evolución de artefactos de software representan una etapa con alto coste en términos de capital humano, tiempo de desarrollo y recursos financieros \cite{PerezCarrillo2026}. Para mitigar esta dependencia, el paradigma de los Sistemas de Auto-Ingeniería (\textit{Self-Engineering Systems} - SES) introduce un marco conceptual y una meta-arquitectura que habilitan a los sistemas de software para ejecutar modificaciones autónomas sobre sí mismos, abriendo la posibilidad de realizar procesos de evolución o metamorfosis \cite{perez2024}. El propósito fundamental de un sistema SES es gestionar y ejecutar su propio proceso de ingeniería más allá de su ciclo de vida convencional, prescindiendo de la intervención humana.
+
+Dentro de este ciclo autónomo, una de las actividades fundamentales y de mayor impacto metodológico es la ingeniería de diseño. Esta fase es crítica debido a que es la encargada de traducir los requerimientos abstractos del entorno en especificaciones técnicas detalladas, estructuras de datos, interfaces y asignación de componentes indispensables para la posterior implementación y ejecución del sistema. En el contexto de los sistemas SES, automatizar esta etapa ---es decir, dotar al sistema de capacidades de autodiseño--- implica que la plataforma no solo reaccione a fallos, sino que sea capaz de reconfigurar conceptualmente su propia lógica operacional de manera válida, segura y coherente con las decisiones arquitectónicas previas.
+
+Sin embargo, replicar la totalidad del ciclo de ingeniería de diseño constituye un desafío multidimensional. Por ello, y considerando las delimitaciones temporales propias de una investigación de posgrado, este trabajo se acota estrictamente a trabajar con una caja negra y unicamente explicar la actividad del \textit{auto-diseño de algoritmos}. Bajo este alcance, la resolución de dicha actividad se aborda mediante un enfoque formal de asociación problema-solución. Este mecanismo se operativiza a través de una especificación ontológica que proporciona una taxonomía estructurada de problemas, permitiendo al sistema clasificar un requerimiento dinámico y determinar la solución algorítmica idónea para su posterior implementación autónoma.
+
+\section{Planteamiento del Problema}
+El diseño de software es una etapa crucial en el ciclo de desarrollo que abarca desde las abstracciones de alto nivel ---representadas formalmente en las distintas vistas de la arquitectura de software \cite{Kruchten1995The}--- hasta la especificación granular de sus componentes. Tradicionalmente, esta actividad demanda un consumo elevado de recursos organizacionales y un esfuerzo cognitivo humano significativo. Aunque las metodologías han evolucionado hacia el paradigma de la Ingeniería de Software 3.0 ---donde los sistemas basados en agentes autónomos han ganado terreno \cite{li2025riseaiteammatessoftware}---, los sistemas actuales carecen de mecanismos para modificar de forma autónoma su lógica algorítmica interna sin alterar o comprometer las estructuras arquitectónicas preexistentes.
+
+El problema técnico radica en la ausencia de un mecanismo capaz de acoplar un agente diseñador de algoritmos con las actividades de diseño previas (arquitectura, componentes y estructuras de datos). Al no existir un modelo de abstracción que trate a estas capas previas como una entidad de tipo caja negra, los sistemas adaptativos no pueden actualizar su lógica operacional de manera aislada y segura ante cambios dinámicos en sus requerimientos. Para resolver esta limitación, se requiere un modelo donde la ontología actúe como el puente semántico entre el espacio del problema (los nuevos requerimientos clasificados taxonómicamente) y el espacio de la solución (los algoritmos disponibles), permitiendo que la selección e integración ocurran de forma autónoma y sin romper las interfaces preexistentes.
+
+\section{Motivación}
+La motivación central de esta investigación radica en la necesidad de desarrollar sistemas de software con un alto grado de autonomía, capaces de autodiseñar su propia lógica interna cuando las demandas del entorno lo requieran. Al automatizar la generacion de artefactos de diseño y la selección de algoritmos mediante el uso de ontologías y agentes de diseño, se establece un habilitador crítico para la evolución y metamorfosis de los sistemas SES \cite{perez2024}. Este enfoque no solo reduce la dependencia del factor humano en entornos críticos y dinámicos, sino que optimiza los costos operativos asociados al mantenimiento evolutivo del software, transformando la adaptación heurística en un proceso de inferencia lógica y clasificación formal.
+\section{Objetivos}
+
+\subsection{Objetivo General}
+
+Desarrollar un marco conceptual para el diseño automatizado en sistemas de auto-ingenieria, el cual sea capaz de actualizar o implementar desiciones de diseño ante cambios en los requerimientos, abstrayendo las actividades de diseño previas (arquitectura, interfaces y estructuras de datos) mediante un modelo de interacción de caja negra con un agente diseñador de caja blanca.
+
+
+\subsection{Objetivos Específicos}
+\begin{itemize}
+    
+\item Sintetizar el estado del arte en materia de diseño de software automatizado y selección algorítmica autónoma, mediante la ejecución y análisis de una Revisión Sistemática de la Literatura (RSL), con el fin de identificar las tendencias, limitaciones y brechas de conocimiento existentes.
+
+\item Formalizar y conceptualizar el término ``autodiseño`` (Self-Design) en el contexto de los sistemas de software, clasificando sus tipologías y variantes taxonómicas a partir de las capacidades y la información disponible en el entorno del sistema.
+
+\item Caracterizar los mecanismos de actualización e implementación autónoma de algoritmos, analizando los criterios técnicos y las restricciones operacionales requeridas para su ejecución sin intervención humana.
+
+\item Diseñar una meta-arquitectura que gobierne la gestión, sustitución e integración de cambios algorítmicos, definiendo explícitamente las interfaces de comunicación tipo caja negra entre las estructuras de diseño preexistentes y el agente diseñador propuesto.
+
+\item Validar la viabilidad y efectividad del marco de trabajo desarrollado a través del despliegue de casos de estudio en escenarios experimentales controlados, evaluando su capacidad de adaptación frente a la variabilidad de requerimientos.
+
+\end{itemize}
+
+
+
+\section{Hipótesis}
+
+Es posible dotar a un sistema de un mecanismo que le permita analizar cambios en sus requerimientos y gestionar de manera autónoma el rediseño de sí mismo, ya sea mediante la generación de un nuevo diseño o la adaptación del diseño existente cuando este continúe satisfaciendo los nuevos requerimientos.
+
+
+\section{Estructura del documento de la Tesis}
+
+
+La estructura de este documento se organiza en seis capítulos interconectados que guían el desarrollo de la investigación. 
+
+El \textbf{Capítulo 1} establece la base del estudio mediante la introducción del problema, la motivación, los objetivos, las hipótesis y el contexto general. El \textbf{Capítulo 2} expone los fundamentos teóricos indispensables para la comprensión del trabajo, abordando conceptualizaciones clave sobre Sistemas de Auto-Ingeniería (SES, por sus siglas en inglés), automatización, diseño de software y selección algorítmica. Posteriormente, el \textbf{Capítulo 3} ofrece una revisión y análisis crítico del estado del arte, identificando las tendencias actuales, los enfoques metodológicos existentes, así como sus limitaciones y brechas de conocimiento. En el \textbf{Capítulo 4 }se detalla la propuesta central de esta investigación, especificando su metodología, conceptualización, arquitectura y los mecanismos de selección automática diseñados. La validación experimental de dicha propuesta se describe en el \textbf{Capítulo 5} a través de casos de estudio, la simulación de escenarios y el análisis riguroso de los resultados obtenidos. Finalmente, el \textbf{Capítulo 6} cierra el documento exponiendo las conclusiones generales, las contribuciones principales de la investigación, sus limitaciones intrínsecas y las directrices sugeridas para el trabajo futuro.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Marco Teórico}
+
+
+\section{Sistemas de Auto-Ingenieria}
+%\cite perez
+
+
+\subsection{Marco de Sistemas de Auto-Ingeniería}
+
+
+
+\section{Actividades de diseño}
+%\cite sommerville
+
+
+\subsection{Diseño de Arquitectura}
+
+
+
+\subsection{Diseño de Interfaces}
+
+
+
+\subsection{Diseño de Componentes}
+
+
+
+\subsection{Diseño de Estructuras de datos}
+
+
+
+\subsection{Diseño de Algoritmos}
+
+
+
+\section{Diseño Automatizado de Algoritmos}
+
+
+
+\section{Ontología para selección automática de algoritmos}
+
+
+
+\chapter{Estado del Arte}
+
+
+
+\section{Conceptualizacion del Auto-diseño de algoritmos}
+
+
+
+\section{Automatización del Diseño}
+
+
+
+\subsection{Autodiseño basado en Inteligencia Artificial}
+
+
+
+\subsection{Autodiseño bio-inspirado}
+
+
+
+\subsection{Autodiseño basado en modelado de agentes}
+
+
+
+\subsection{Autodiseño basado en el reuso y busqueda}
+
+
+
+\section{Conceptos emergentes similares al auto-diseño}
+
+
+\section{Comparacion de trabajos}
+
+
+
+\chapter{Propuesta}
+
+\section{Metodologia}
+La metodologia consta de dos  etapas principales, la primera que fue realizar una revision sistematica de literatura sobre tecnicas, marcos de trabajo y demas propuestas que llevaran a cabo el autodiseño, esta misma se llevo a cabo siguiendo la metodologi prisma, los resultados obtenido ayudaron a fundamentar la toma de decision para construir la propuesta.
+La siguiente etapa fue la construccion de un sistema multiagentes, se compararon diferentes metodologias, pero se decanto por prometheus ya que implementa los conceptos BDI de manera natural, la comparacion con metodologias esta dada con (Gaia, Tropos, Mase, O-mase, Adelfe, Pass)
+
+
+\subsection{Revision Sistematica de literatura}
+
+El primer paso para desarrollar y fundamentar mi propuesta fue realizar un revision sistematica de literatura, en la que siguiendo los lineamientos PRISMA \cite{Pagen2020PRISMA}, con este proceso estructurado se realizo la revision de manera exhaustiva, el objetivo principal de esta Systematic Literature Review (SLR), es conocer como se ha automatizado el diseño de sistemas, conocer el estado del arte permite reconocer vacios en el mismo.
+
+\subsection{Definicion y conceptualizacion}
+
+
+
+\subsection{Uso de Prometheus}
+
+
+
+\subsection{Analisis y valicacion}
+
+
+
+\section{Propuesta marco conceptual y arquitectura}
+
+
+
+\subsection{Definicion conceptual y formal}
+
+
+
+\subsection{Propuesta detallada}
+
+
+
+\subsection{Resumen Conceptual}
+
+
+
+\chapter{Experimentación y Análisis de Resultados}
+
+
+
+\section{Análisis de selección automática de algoritmos}
+
+
+
+\subsection{Análisis de la arquitectura: auto-diseño}
+
+
+
+\section{Experimentación}
+
+
+
+\subsection{Caso de estudio: nuevo problema, nueva solución}
+
+
+
+\subsection{Experimento: Identificación del Problema}
+
+
+
+\subsection{Experimento: Identificación del Algoritmo}
+
+
+
+\chapter{Conclusiones y Trabajo Futuro}
+
+
+
+\section{Conclusiones}
+
+
+
+\section{Objetivos logrados}
+
+
+\section{Trabajo a futuro}
+
+
+
+
+
+% ---------------------------------------------------------
+% REFERENCIAS Y APÉNDICES
+% ---------------------------------------------------------
+\printbibliography[title={Referencias Bibliográficas}, heading=bibintoc]
+
+\appendix
+\chapter{Código Fuente Relevante}
+
+
+\end{document}
