@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.8.11)  12 AUG 2026 19:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.8.11)  12 AUG 2026 19:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -928,19 +928,19 @@ Cap\'{\i }tulo 3.
 Cap\'{\i }tulo 4.
 [7
 
-] [8] [9]
+] [8] [9] [10]
 Cap\'{\i }tulo 5.
-[10
+[11
 
 ]
 Cap\'{\i }tulo 6.
-[11
+[12
 
-] [12
+] [13
 
 ]
 Ap\'{e}ndice A.
-[13
+[14
 
 ] (main.aux
 LaTeX Info: Redefining \sptext on input line 12.
@@ -958,8 +958,8 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22333 strings out of 467501
- 394001 string characters out of 5408550
+ 22334 strings out of 467501
+ 394008 string characters out of 5408550
  1335045 words of memory out of 5000000
  51225 multiletter control sequences out of 15000+600000
  642452 words of font info for 72 fonts, out of 8000000 for 9000
@@ -978,9 +978,9 @@ l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\Mikec\AppDat
 a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\Mikec\
 AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk> <C:\Users\
 Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk>
-Output written on main.pdf (24 pages, 278386 bytes).
+Output written on main.pdf (25 pages, 280181 bytes).
 PDF statistics:
- 943 PDF objects out of 1000 (max. 8388607)
- 90 named destinations out of 1000 (max. 500000)
+ 949 PDF objects out of 1000 (max. 8388607)
+ 91 named destinations out of 1000 (max. 500000)
  446 words of extra memory for PDF output out of 10000 (max. 10000000)
 
