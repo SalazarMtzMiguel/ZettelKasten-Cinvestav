@@ -1,16 +1,16 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'main.blg'
-[204] biber-MSWIN64:342> INFO - === 
-[279] Biber.pm:421> INFO - Reading 'main.bcf'
-[484] Biber.pm:1002> INFO - Found 6 citekeys in bib section 0
-[510] Biber.pm:4487> INFO - Processing section 0
-[531] Biber.pm:4678> INFO - Looking for bibtex file 'references.bib' for section 0
-[643] bibtex.pm:1713> INFO - LaTeX decoding ...
-[1067] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
-[1229] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1229] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1229] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'es-ES'
-[1246] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[1263] bbl.pm:779> INFO - Output to main.bbl
-[1264] Biber.pm:132> WARN - legacy month field 'aug' in entry 'perez2024' is not an integer - this will probably not sort properly.
-[1265] Biber.pm:134> INFO - WARNINGS: 1
+[277] biber-MSWIN64:342> INFO - === 
+[373] Biber.pm:421> INFO - Reading 'main.bcf'
+[614] Biber.pm:1002> INFO - Found 6 citekeys in bib section 0
+[645] Biber.pm:4487> INFO - Processing section 0
+[671] Biber.pm:4678> INFO - Looking for bibtex file 'references.bib' for section 0
+[807] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1352] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[1542] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1542] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1542] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'es-ES'
+[1567] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[1589] bbl.pm:779> INFO - Output to main.bbl
+[1591] Biber.pm:132> WARN - legacy month field 'aug' in entry 'perez2024' is not an integer - this will probably not sort properly.
+[1591] Biber.pm:134> INFO - WARNINGS: 1
