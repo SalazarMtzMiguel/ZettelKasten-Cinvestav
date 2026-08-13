@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.8.11)  12 AUG 2026 20:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.8.11)  12 AUG 2026 20:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1018,73 +1018,83 @@ Underfull \hbox (badness 10000) in paragraph at lines 381--381
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 393--393
-[]|\T1/cmr/m/n/12 1. Self-Architecting
+Underfull \hbox (badness 10000) in paragraph at lines 395--395
+[]|\T1/cmr/m/n/12 1. Self-
  []
 
 
-Underfull \hbox (badness 3601) in paragraph at lines 395--395
-[]|\T1/cmr/m/n/12 3. Evo-lu-tio-nary De-
+Underfull \hbox (badness 10000) in paragraph at lines 395--395
+\T1/cmr/m/n/12 Architecting
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 397--397
-[]|\T1/cmr/m/n/12 5. Soft-wa-re De-sign
+[]|\T1/cmr/m/n/12 3. Evo-lu-tio-nary
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--398
-[]|\T1/cmr/m/n/12 ("self-sufficient system*.[]R .[]utonomous self-sufficient
+Underfull \hbox (badness 1466) in paragraph at lines 398--398
+\T1/cmr/m/n/12 sign in Soft-wa-re
+ []
+
+
+Underfull \hbox (badness 1297) in paragraph at lines 398--398
+[]|\T1/cmr/m/n/12 (("generative de-sign" OR "ge-ne-ra-ti-ve soft-wa-re de-sign"
+) AND
+ []
+
+
+Underfull \hbox (badness 3168) in paragraph at lines 399--399
+[]|\T1/cmr/m/n/12 5. Soft-wa-re De-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 400--400
+[]|\T1/cmr/m/n/12 6. Self-Sufficient
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 402--402
 []|\T1/cmr/m/n/12 8. Self/Auto-
  []
 
 
-Underfull \hbox (badness 4096) in paragraph at lines 400--400
-[]|\T1/cmr/m/n/12 ("self-architectural design.[]R .[]uto-architectural design.[
-]R
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 402--402
-[]|\T1/cmr/m/n/12 10. Self/Auto-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 402--402
-[]|\T1/cmr/m/n/12 ("self-component design.[]R .[]uto-component design.[]R
- []
-
-
-Underfull \hbox (badness 2150) in paragraph at lines 402--402
-\T1/cmr/m/n/12 .[]utonomous com-po-nent design.[]R "self-generated com-po-
+\T1/cmr/m/n/12 Architectural
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 403--403
-[]|\T1/cmr/m/n/12 11. Self/Auto-Data
+[]|\T1/cmr/m/n/12 9. Self/Auto-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 404--404
+[]|\T1/cmr/m/n/12 10. Self/Auto-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 404--404
+\T1/cmr/m/n/12 Component
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 405--405
+[]|\T1/cmr/m/n/12 11. Self/Auto-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 405--405
+\T1/cmr/m/n/12 Data Struc-tu-re
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--406
 []|\T1/cmr/m/n/12 12. Self/Auto-
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 404--404
-[]|\T1/cmr/m/n/12 ("self-algorithm design.[]R .[]uto-algorithm design.[]R
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 404--404
-\T1/cmr/m/n/12 .[]utonomous al-go-rithm design.[]R .[]utomated al-go-rithm
- []
-
 [10]
-Overfull \vbox (8.28314pt too high) has occurred while \output is active []
+Overfull \vbox (44.27206pt too high) has occurred while \output is active []
 
 
 [11] [12]
@@ -1117,32 +1127,31 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23090 strings out of 467501
- 407203 string characters out of 5408550
- 1351063 words of memory out of 5000000
- 51958 multiletter control sequences out of 15000+600000
- 643982 words of font info for 74 fonts, out of 8000000 for 9000
+ 23086 strings out of 467501
+ 407153 string characters out of 5408550
+ 1351070 words of memory out of 5000000
+ 51955 multiletter control sequences out of 15000+600000
+ 643216 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,12n,77p,1345b,2396s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm
 0800.pk> <C:\Users\Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\ecrm0600.pk> <C:\Users\Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\ectt1200.pk> <C:\Users\Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
-pen/ec/dpi600\ecti1200.pk> <C:\Users\Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecxc1200.pk> <C:\Users\Mikec\AppData\Local\MiKTeX\fonts/pk/
-ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Mikec\AppData\Local\MiKTeX\fon
-ts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\Mikec\AppData\Local\MiKT
-eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\Mikec\AppData\Loca
-l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\Mikec\AppDat
-a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\Mikec\
-AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\
-Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\
-Users\Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk
-> <C:\Users\Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1
-440.pk>
-Output written on main.pdf (27 pages, 305323 bytes).
+0\ectt1200.pk> <C:\Users\Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\ecti1200.pk> <C:\Users\Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\ecxc1200.pk> <C:\Users\Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour
+/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Mikec\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\Mikec\AppData\Local\MiKTeX\fon
+ts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\Mikec\AppData\Local\MiKT
+eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\Mikec\AppData\Loca
+l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\Mikec\AppDat
+a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\Mikec\
+AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\
+Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk> <C:\
+Users\Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk
+>
+Output written on main.pdf (27 pages, 302765 bytes).
 PDF statistics:
- 1026 PDF objects out of 1200 (max. 8388607)
+ 1017 PDF objects out of 1200 (max. 8388607)
  96 named destinations out of 1000 (max. 500000)
  446 words of extra memory for PDF output out of 10000 (max. 10000000)
 
