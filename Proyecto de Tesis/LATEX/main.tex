@@ -14,6 +14,15 @@
 \usepackage{float}
 \usepackage{booktabs} 
 \usepackage{caption}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{enumitem}
+
+
 
 % --- Paquete para texto de relleno (Lorem Ipsum) ---
 \usepackage{lipsum} 
@@ -352,6 +361,51 @@ Por ultimo, la manera de abordar la tercer pregunta de investigacion (RQ3), se a
 Auto-diseño,  Systemas de Auto-Arquitectura y Sistemas autosuficientes.
 
 Las busquedas de la SLR fue realizada en cuatro bases de datos de alto impacto en el campo de la ingenieria de software: Scopus, Web of Science, IEEE Xplore y ACM Digital Library. 
+Estas plataformas se seleccionaron debido a la disponibilidad de acceso institucional completo y a su amplia cobertura de publicaciones revisadas por pares, incluidos artículos de revistas, actas de conferencias y capítulos de libros relevantes para la inteligencia artificial, la ingeniería de software y los sistemas autónomos y autonómicos.
+ Google Scholar si bien es un buen motor de busqueda, no es una base de datos de manera directa y presenta limitaciones en la replicabilidad de las busquedas, por lo tanto no fue una fuente primaria de busqueda \cite{Gusenbauer2020}, sin embargo en el proceso de bola de nieve (snowballing) si se uso para la busqueda de las citas, tanto de entrada como de salida.
+ 
+ Las estrategias de búsqueda se elaboraron sistemáticamente combinando términos relacionados con el tema mediante operadores booleanos (\texttt{AND}, \texttt{OR}) para estructurar explícitamente sus relaciones lógicas. La búsqueda se restringió al campo \texttt{TITLE-ABS-KEY} con el fin de aumentar la precisión conceptual y reducir el ruido en la recuperación de información. Posteriormente, se aplicaron criterios de inclusión y exclusión predefinidos para refinar y validar el conjunto de estudios resultante. Un ejemplo de una consulta completa esta escrita en la tabla~\ref{tab:example_query}.
+ 
+ \begin{table}[ht]
+ 	\centering
+ 	\caption{Example of Complete Search Query (Scopus)}
+ 	\label{tab:example_query}
+ 	\begin{tabularx}{\textwidth}{|l|X|}
+ 		\hline
+ 		\textbf{Database} & Scopus \\ \hline
+ 		\textbf{Search Field} & TITLE-ABS-KEY \\ \hline
+ 		\textbf{Time Range} & 2015--2026 \\ \hline
+ 		\textbf{Subject Areas} & Computer Science (COMP), Engineering (ENGI) \\ \hline
+ 		\textbf{Complete Query} &
+ 		\texttt{TITLE-ABS-KEY ((("self-architecting"\ OR "self architectural"\ OR\ "\ auto-architecting"\ OR\ "\ auto architectural")\ W/3\ "system*")\ OR\ (("self-architectural"\ OR\ "\ auto-architectural")\ W/3 "design"))\ AND\ PUBYEAR\ >\ 2014\ AND\ PUBYEAR\ <\ 2027\ AND\ (LIMIT-TO\ (SUBJAREA,\ "\ COMP")\ OR\ LIMIT-TO (SUBJAREA,\ "\ ENGI"))} \\ \hline
+ 	\end{tabularx}
+ \end{table}
+ 
+ Las consultas presentadas a continuacion corresponden a un conjunto resumido de expresiones que inicialmente fueron ejecutadas en Scopues, y posteriormente adaptadas a las sintaxis especificas de las diferentes bases de datos, se listan las consultas en la tabla~\ref{tab:queries}.
+ 
+  \begin{table}[H]
+ 	\centering
+ 	\caption{Summary of conceptual Scopus search queries (common temporal and subject filters omitted for brevity).}
+ 	\label{tab:queries}
+ 	\begin{tabular}{|@{} p{0.25\textwidth} | p{0.70\textwidth} @{}|}
+ 		\toprule
+ 		\textbf{Topic/filter name} & \textbf{Summarized Query (Field: TITLE-ABS-KEY)} \\ \midrule
+ 		1. Self-Architecting Systems & ("self-architecting system*" OR "self architectural system*" OR "auto-architecting system*" OR "auto architectural system*" OR "self-architectural design" OR "auto-architectural design") \\ \hline
+ 		2. Self-Design & ("self-design" OR "self design" OR "auto-design" OR "auto design" OR "self software design" OR "auto software design") \\ \hline
+ 		3. Evolutionary Design in Software Systems & (("evolutionary design" OR "evolutionary software design") AND ("software system*" OR "software engineering")) \\ \hline
+ 		4. Generative Design in Software Systems & (("generative design" OR "generative software design") AND ("software system*" OR "software engineering")) \\ \hline
+ 		5. Software Design Automation & ("software design automation" OR "design automation in software engineering" OR "automated software design" OR "AI for software design") \\ \hline
+ 		6. Self-Sufficient Systems & ("self-sufficient system*" OR "autonomous self-sufficient software" OR "self-sufficient software system*") \\ \hline
+ 		7. AI for Software Engineering & (("AI for software engineering" OR "artificial intelligence in software engineering" OR "machine learning in software engineering")) \\ \hline
+ 		8. Self/Auto-Architectural Design & ("self-architectural design" OR "auto-architectural design" OR "self adaptive architecture" OR "self-adaptive design") \\ \hline
+ 		9. Self/Auto-Interface Design & ("self-interface design" OR "auto-interface design" OR "autonomous interface design" OR "adaptive interface design") \\ \hline
+ 		10. Self/Auto-Component Design & ("self-component design" OR "auto-component design" OR "autonomous component design" OR "self-generated component*") \\ \hline
+ 		11. Self/Auto-Data Structure Design & ("self-data structure design" OR "auto-data structure design" OR "autonomous data structure optimization" OR "self-optimizing data structure*") \\ \hline
+ 		12. Self/Auto-Algorithm Design & ("self-algorithm design" OR "auto-algorithm design" OR "autonomous algorithm design" OR "automated algorithm design" OR "generative algorithm design" OR "AI-based algorithm design") \\ \bottomrule
+ 	\end{tabular}
+ \end{table}
+ 
+ 
 
 \subsection{Definicion y conceptualizacion}
 
