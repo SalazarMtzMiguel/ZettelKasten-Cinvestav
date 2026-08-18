@@ -21,6 +21,8 @@
 \usepackage{caption}
 \usepackage{subcaption}
 \usepackage{enumitem}
+\setcounter{tocdepth}{4}
+\setcounter{secnumdepth}{4}
 
 
 
@@ -392,22 +394,75 @@ Estas plataformas se seleccionaron debido a la disponibilidad de acceso instituc
  	\begin{tabular}{|@{} p{0.2\textwidth} | p{0.75\textwidth} @{}|}
  		\toprule
  		\textbf{Topic/filter name} & \textbf{Summarized Query (Field: TITLE-ABS-KEY)} \\ \midrule
- 		1. Self-Architecting Systems & ("self-architecting system*" OR "self architectural system*" OR "auto-architecting system*" OR "auto architectural system*" OR "self-architectural design" OR "auto-architectural design") \\ \hline
+ 		1. Self-Architecting Systems & ("self-architecting system*" OR "auto-architecting system*" OR "self-architectural design" OR "auto-architectural design") \\ \hline
  		2. Self-Design & ("self-design" OR "self design" OR "auto-design" OR "auto design" OR "self software design" OR "auto software design") \\ \hline
  		3. Evolutionary Design in Software Systems & (("evolutionary design" OR "evolutionary software design") AND ("software system*" OR "software engineering")) \\ \hline
- 		4. Generative Design in Software Systems & (("generative design" OR "generative software design") AND ("software system*" OR "software engineering")) \\ \hline
+ 		4. Generative Design SW Systems & (("generative design" OR "generative software design") AND ("software system*" OR "software engineering")) \\ \hline
  		5. Software Design Automation & ("software design automation" OR "design automation in software engineering" OR "automated software design" OR "AI for software design") \\ \hline
  		6. Self-Sufficient Systems & ("self-sufficient system*" OR "autonomous self-sufficient software" OR "self-sufficient software system*") \\ \hline
  		7. AI for Software Engineering & (("AI for software engineering" OR "artificial intelligence in software engineering" OR "machine learning in software engineering")) \\ \hline
  		8. Self/Auto-Architectural Design & ("self-architectural design" OR "auto-architectural design" OR "self adaptive architecture" OR "self-adaptive design") \\ \hline
  		9. Self/Auto-Interface Design & ("self-interface design" OR "auto-interface design" OR "autonomous interface design" OR "adaptive interface design") \\ \hline
  		10. Self/Auto-Component Design & ("self-component design" OR "auto-component design" OR "autonomous component design" OR "self-generated component*") \\ \hline
- 		11. Self/Auto-Data Structure Design & ("self-data structure design" OR "auto-data structure design" OR "autonomous data structure" OR "self-optimizing data structure*") \\ \hline
+ 		11. Self/Auto-Data S. Design & ("self-data structure design" OR "auto-data structure design" OR "autonomous data structure" OR "self-optimizing data structure*") \\ \hline
  		12. Self/Auto-Algorithm Design & ("self-algorithm design" OR "auto-algorithm design" OR "autonomous algorithm" OR "automated algorithm" OR "generative algorithm design" OR "AI-based algorithm") \\ \bottomrule
  	\end{tabular}
  \end{table}
  \shorthandon{"}
  
+Las consultas fueron ejecutadas de manera independiente y posteriormente los resultados fueron unificados (eliminando duplicados). El conjunto final de artículos formaron los \textit{estudios iniciales seleccionados} de esta revision, recordando que fueron filtrados mediante los criterios de invlusion y exclusion descritos a continuacion.
+
+\subsubsection{Criterios de Inclusion y de exclusion}
+
+Para garantizar la calidad y relevancia de los estudios seleccionados, se establecen criterios explicitos de inclusion y exclusion de acuerdo al objetivo de esta revision, la cual se centra en la automatizacion del diseño en el marco de los SES.
+
+Criterios de inclusion
+
+\begin{itemize}
+	\item \textbf{CI1: Periodo Temporal.} publicaciones desde  \textbf{2015 hasta Marzo de 2026}. Un rango inicial (2005 -- 2025) fue considerado, pero se actualizo para buscar tecnicas y avances en el area de la Inteligencia Artificial, evadiendo la literatura del \textit{computo autonomico} para enfocarnos unicamente en los sistemas de autoingenieria.
+	\item \textbf{CI2: Idioma.} Solo artuculos en \textbf{Ingles} fueron incluidos para alinearnos con el lenguajes mas adoptado en la divulgacion cientifica en el mundo.
+	\item \textbf{CI3: Disponibilidad y Claridad.} los estudios deben proveer \textbf{acceso completo} y una \textbf{metodologia claramente definida} para permitir un analisis comprensivo y total de los mismo.
+	\item \textbf{CI4: Dominio especifico.} Unicamente investigaciones en el campo de la \textbf{Ingenieria de software} que aborde de manera explicita o de manera indirecta cubra lo que es el auto-diseño de una manera unificada como proceso total o parcial.
+	\item \textbf{CI5: Relevancia Científica.} Seleccion  de estudios que han demostrado impacto en la comunidad cientifica a traves de las citas, mientras se busca balancear este criterio, evaluando publicaciones reciente que no tienen un acumulado de citas pero si un gran contribucion teorica o tecnica en el tema.
+\end{itemize}
+
+
+Criterios de exclusion
+
+Los siguientes criterios fueron usados para filtrar articulos que no coincidian con los requerimientos de la investigacion:
+
+\begin{itemize}
+	\item \textbf{CE1: Duplicasion.} \textbf{publicaciones duplicadas} o \textbf{multiples versiones} del mismo estudio; en cuyos casos, solo el mas completo o version mas reciente sera considerada.
+	\item \textbf{CE2: Tipo de Documento.} \textbf{Documentos incompletos}, \textbf{resumenes extendidos}, o \textbf{publicaciones de posters} que carecen de suficiente detalle técnico para su evaluación.
+	\item \textbf{EC3: Irrelevancia Disciplinaria.} estudios fuera del dominio de \textbf{Ingenieria de Software} sin un enlace directo al auto-diseño.
+	\item \textbf{CE4: Deficiencias Metodologicas.} estudios que carezcan de \textbf{rigor metodologico}, particularmente lo que no tienen una clara descripcion de las tecnicas propuestas, algoritmos o ceonceptos.
+\end{itemize}
+
+
+Estos filtros (revisar Tabla~\ref{tab:criterios}) permiten la identificacion de estudios representativos y de alta calidad, centrados en avances recientes en el ambito conceptual y practicos en el area de auto-diseño y auto-ingenieria, garantizando así la validez y relevancia de esta revisión sistemática de la literatura (este capitulo en particular).
+
+\vspace{0.5cm}
+
+\begin{table}[H]
+	\centering
+	\caption{Resumen de los criterios de inclusion y exclusion}
+	\label{tab:criterios}
+	\begin{tabular}{p{0.25\textwidth} p{0.65\textwidth}}
+		\toprule
+		\textbf{Tipo} & \textbf{Criterio} \\
+		\midrule
+		\textbf{Inclusion} & \textbf{CI1:} Publicaciones entre 2015 y 2025. \\
+		& \textbf{CI2:} publicaciones en Ingles. \\
+		& \textbf{CI3:} Full-text availability with detailed methodology. \\
+		& \textbf{IC4:} Focus on software engineering, self-engineering, or self-design. \\
+		& \textbf{IC5:} Relevant studies with recent contributions or balanced citation counts. \\[0.2cm]
+		\textbf{Exclusion} & \textbf{EC1:} Duplicate publications or multiple versions of the same study. \\
+		& \textbf{EC2:} Abstracts, poster papers, or incomplete documents. \\
+		& \textbf{EC3:} studies outside the software engineering domain. \\
+		& \textbf{EC4:} Works lacking methodological detail or scientific rigor. \\
+		\bottomrule
+	\end{tabular}
+\end{table}
 
 \subsection{Definicion y conceptualizacion}
 

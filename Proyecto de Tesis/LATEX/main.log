@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.8.11)  12 AUG 2026 20:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.8.11)  17 AUG 2026 13:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -769,26 +769,26 @@ Package babel Info: 'spanish' activates 'spanish' shorthands.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Info: Redefining \. on input line 57.
-LaTeX Info: Redefining \% on input line 57.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Info: Redefining \. on input line 59.
+LaTeX Info: Redefining \% on input line 59.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -873,8 +873,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 57.
-Package biblatex Info: Reference segment=0 on input line 57.
+Package biblatex Info: Reference section=0 on input line 59.
+Package biblatex Info: Reference segment=0 on input line 59.
 
 (C:\Users\Mikec\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
 Package: color 2026-05-17 v1.3f Standard LaTeX Color (DPC)
@@ -885,24 +885,24 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: pdftex.def on input line 149.
 (C:\Users\Mikec\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
 )
-Package hyperref Info: Link coloring ON on input line 57.
+Package hyperref Info: Link coloring ON on input line 59.
  (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
 Package babel Info: Main language set to 'spanish'.
-<figures/CINV.png, id=223, 349.305pt x 344.78813pt>
+<figures/CINV.png, id=235, 349.305pt x 344.78813pt>
 File: figures/CINV.png Graphic file (type png)
 <use figures/CINV.png>
-Package pdftex.def Info: figures/CINV.png  used on input line 69.
+Package pdftex.def Info: figures/CINV.png  used on input line 71.
 (pdftex.def)             Requested size: 91.56131pt x 90.37407pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 71.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 73.
 
 
 (C:\Users\Mikec\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 71.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 73.
 
 
 (C:\Users\Mikec\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
@@ -918,7 +918,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.I}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.125 \end{titlepage}
+l.127 \end{titlepage}
                       [1
 
 ]
@@ -926,7 +926,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.I}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.131 \chapter
+l.133 \chapter
               *{Abstract} [1
 
 ] [2
@@ -934,7 +934,7 @@ l.131 \chapter
 ] [3
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 155--157
+Underfull \hbox (badness 10000) in paragraph at lines 157--159
 
  []
 
@@ -988,128 +988,118 @@ Cap\'{\i }tulo 4.
 [7
 
 ] [8] [9]
-Underfull \hbox (badness 10000) in paragraph at lines 381--381
+Underfull \hbox (badness 10000) in paragraph at lines 383--383
 []|\T1/cmtt/m/n/12 TITLE-ABS-KEY ((("self-architecting" OR "self
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 381--381
+Underfull \hbox (badness 10000) in paragraph at lines 383--383
 \T1/cmtt/m/n/12 architectural" OR " auto-architecting" OR
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 381--381
+Underfull \hbox (badness 10000) in paragraph at lines 383--383
 \T1/cmtt/m/n/12 " auto architectural") W/3 "system*") OR
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 381--381
+Underfull \hbox (badness 10000) in paragraph at lines 383--383
 \T1/cmtt/m/n/12 (("self-architectural" OR " auto-architectural") W/3
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 381--381
+Underfull \hbox (badness 10000) in paragraph at lines 383--383
 \T1/cmtt/m/n/12 "design")) AND PUBYEAR > 2014 AND PUBYEAR < 2027 AND
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 381--381
+Underfull \hbox (badness 10000) in paragraph at lines 383--383
 \T1/cmtt/m/n/12 (LIMIT-TO (SUBJAREA, " COMP") OR LIMIT-TO (SUBJAREA, "
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 395--395
+Underfull \hbox (badness 10000) in paragraph at lines 397--397
 []|\T1/cmr/m/n/12 1. Self-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 395--395
+Underfull \hbox (badness 10000) in paragraph at lines 397--397
 \T1/cmr/m/n/12 Architecting
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 397--397
+Underfull \hbox (badness 10000) in paragraph at lines 399--399
 []|\T1/cmr/m/n/12 3. Evo-lu-tio-nary
  []
 
 
-Underfull \hbox (badness 1466) in paragraph at lines 398--398
-\T1/cmr/m/n/12 sign in Soft-wa-re
- []
-
-
-Underfull \hbox (badness 1297) in paragraph at lines 398--398
+Underfull \hbox (badness 1297) in paragraph at lines 400--400
 []|\T1/cmr/m/n/12 (("generative de-sign" OR "ge-ne-ra-ti-ve soft-wa-re de-sign"
 ) AND
  []
 
 
-Underfull \hbox (badness 3168) in paragraph at lines 399--399
+Underfull \hbox (badness 3168) in paragraph at lines 401--401
 []|\T1/cmr/m/n/12 5. Soft-wa-re De-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--400
+Underfull \hbox (badness 10000) in paragraph at lines 402--402
 []|\T1/cmr/m/n/12 6. Self-Sufficient
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 402--402
+Underfull \hbox (badness 10000) in paragraph at lines 404--404
 []|\T1/cmr/m/n/12 8. Self/Auto-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 402--402
+Underfull \hbox (badness 10000) in paragraph at lines 404--404
 \T1/cmr/m/n/12 Architectural
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 403--403
+Underfull \hbox (badness 10000) in paragraph at lines 405--405
 []|\T1/cmr/m/n/12 9. Self/Auto-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--404
+Underfull \hbox (badness 10000) in paragraph at lines 406--406
 []|\T1/cmr/m/n/12 10. Self/Auto-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--404
+Underfull \hbox (badness 10000) in paragraph at lines 406--406
 \T1/cmr/m/n/12 Component
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 405--405
+Underfull \hbox (badness 10000) in paragraph at lines 407--407
 []|\T1/cmr/m/n/12 11. Self/Auto-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 405--405
-\T1/cmr/m/n/12 Data Struc-tu-re
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 406--406
+Underfull \hbox (badness 10000) in paragraph at lines 408--408
 []|\T1/cmr/m/n/12 12. Self/Auto-
  []
 
 [10]
-Overfull \vbox (44.27206pt too high) has occurred while \output is active []
+Overfull \vbox (8.28314pt too high) has occurred while \output is active []
 
 
-[11] [12]
+[11] [12] [13] [14]
 Cap\'{\i }tulo 5.
-[13
+[15
 
 ]
 Cap\'{\i }tulo 6.
-[14
+[16
 
-] [15
+] [17
 
 ]
 Ap\'{e}ndice A.
-[16
+[18
 
 ] (main.aux
 LaTeX Info: Redefining \sptext on input line 12.
@@ -1121,16 +1111,16 @@ LaTeX2e <2026-06-01>
 L3 programming layer <2026-07-20>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: CC90DC72ABB232ECBF6DC378D13BC8F5;10513.
+(rerunfilecheck)             Checksum: 85E576E9CCC533D088AF51C7F54D51A2;11250.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23086 strings out of 467501
- 407153 string characters out of 5408550
- 1351070 words of memory out of 5000000
- 51955 multiletter control sequences out of 15000+600000
+ 23094 strings out of 467501
+ 407308 string characters out of 5408550
+ 1352150 words of memory out of 5000000
+ 51959 multiletter control sequences out of 15000+600000
  643216 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,12n,77p,1345b,2396s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1149,9 +1139,9 @@ AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\
 Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk> <C:\
 Users\Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk
 >
-Output written on main.pdf (27 pages, 302752 bytes).
+Output written on main.pdf (29 pages, 311936 bytes).
 PDF statistics:
- 1017 PDF objects out of 1200 (max. 8388607)
- 96 named destinations out of 1000 (max. 500000)
- 446 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1046 PDF objects out of 1200 (max. 8388607)
+ 100 named destinations out of 1000 (max. 500000)
+ 470 words of extra memory for PDF output out of 10000 (max. 10000000)
 
