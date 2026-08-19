@@ -452,17 +452,29 @@ Estos filtros (revisar Tabla~\ref{tab:criterios}) permiten la identificacion de 
 		\textbf{Tipo} & \textbf{Criterio} \\
 		\midrule
 		\textbf{Inclusion} & \textbf{CI1:} Publicaciones entre 2015 y 2025. \\
-		& \textbf{CI2:} publicaciones en Ingles. \\
-		& \textbf{CI3:} Full-text availability with detailed methodology. \\
-		& \textbf{IC4:} Focus on software engineering, self-engineering, or self-design. \\
-		& \textbf{IC5:} Relevant studies with recent contributions or balanced citation counts. \\[0.2cm]
-		\textbf{Exclusion} & \textbf{EC1:} Duplicate publications or multiple versions of the same study. \\
-		& \textbf{EC2:} Abstracts, poster papers, or incomplete documents. \\
-		& \textbf{EC3:} studies outside the software engineering domain. \\
-		& \textbf{EC4:} Works lacking methodological detail or scientific rigor. \\
+		& \textbf{CI2:} Publicaciones en Ingles. \\
+		& \textbf{CI3:} Disponibilidad completa con metodologia detallada.\\
+		& \textbf{CI4:} Centrado unicamete en software engineering, self-engineering, or self-design. \\
+		& \textbf{CI5:} Estudios relevantes con contribuciones recientes o numero de citas destacables. \\[0.2cm]
+		\textbf{Exclusion} & \textbf{CE1:} Publicaciones duplicadas o multiples versiones del mismo estudio. \\
+		& \textbf{CE2:} Resumenes, posters o documentos incompletos.\\
+		& \textbf{CE3:} Estudios fuera del dominio de los sistemas de software.\\
+		& \textbf{CE4:} Trabajos con falta de detalles en su metodologia o rigor cientifico.\\
 		\bottomrule
 	\end{tabular}
 \end{table}
+
+\subsubsection{Proceso de seleccion de estudios}
+
+Este bloque describe como fue la seleccion de estudios siguiendo las pautas de PRISMA.
+La Figura~\ref{fig:SearchProcess} ilustra el flujo general de identificación de estudios, cribado (aplicación de criterios de inclusión y exclusión), evaluación de elegibilidad (lectura del resumen y, posteriormente, del documento completo) e inclusión final. Los artículos semilla (conjunto inicial) se seleccionaron a partir de los estudios que cumplían los criterios de inclusión y obtuvieron las puntuaciones más altas en la evaluación de calidad durante la búsqueda inicial en bases de datos. Posteriormente, se identificaron estudios adicionales mediante la técnica de bola de nieve (hacia atrás y hacia adelante), siguiendo las directrices propuestas por \cite{Wohlin2014}. Este proceso iterativo consistió en examinar las listas de referencias de los artículos semilla (bola de nieve hacia atrás) e identificar los artículos que los citaban (bola de nieve hacia adelante), aplicando los mismos criterios de inclusión y exclusión en cada iteración.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{figures/Fig1_Workflow.eps}
+	\caption{Review process flow chart based on PRISMA.}
+	\label{fig:SearchProcess}
+\end{figure}
 
 \subsection{Definicion y conceptualizacion}
 

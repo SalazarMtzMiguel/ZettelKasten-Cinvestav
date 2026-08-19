@@ -414,6 +414,46 @@
       \verb http://dx.doi.org/10.1002/jrsm.1378
       \endverb
     \endentry
+    \entry{Wohlin2014}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{hash=e1ce15e2eeb53e3fc8c6035fd761594b}{%
+           family={Wohlin},
+           familyi={W\bibinitperiod},
+           given={Claes},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{e1ce15e2eeb53e3fc8c6035fd761594b}
+      \strng{fullhash}{e1ce15e2eeb53e3fc8c6035fd761594b}
+      \strng{fullhashraw}{e1ce15e2eeb53e3fc8c6035fd761594b}
+      \strng{bibnamehash}{e1ce15e2eeb53e3fc8c6035fd761594b}
+      \strng{authorbibnamehash}{e1ce15e2eeb53e3fc8c6035fd761594b}
+      \strng{authornamehash}{e1ce15e2eeb53e3fc8c6035fd761594b}
+      \strng{authorfullhash}{e1ce15e2eeb53e3fc8c6035fd761594b}
+      \strng{authorfullhashraw}{e1ce15e2eeb53e3fc8c6035fd761594b}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 18th International Conference on Evaluation and Assessment in Software Engineering}
+      \field{month}{5}
+      \field{series}{EASE ’14}
+      \field{title}{Guidelines for snowballing in systematic literature studies and a replication in software engineering}
+      \field{year}{2014}
+      \field{pages}{1\bibrangedash 10}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1145/2601248.2601268
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1145/2601248.2601268
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1145/2601248.2601268
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
