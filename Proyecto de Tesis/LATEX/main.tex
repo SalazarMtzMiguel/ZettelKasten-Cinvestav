@@ -476,6 +476,27 @@ La Figura~\ref{fig:SearchProcess} ilustra el flujo general de identificación de
 	\label{fig:SearchProcess}
 \end{figure}
 
+Para complementar el flujo de PRISMA, se añade una vista preelimiar a manera de cuantificar los resultados, así detallar los los estudios seleccionados por cada etapa del proceso y especificando el topico en particular. Esta representación permite comprender mejor cómo el conjunto inicial de estudios recuperados se refinó progresivamente hasta llegar a los estudios seleccionados finalmente y analizados en esta revisión. La Figura~\ref{fig:Cribado} resume este proceso mediante la especificacion explicita del umero de articulos por cada etapa de seleccion.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{figures/Fig2_StudySelection.eps}
+	\caption{Proceso de seleccion de articulos con resultados cuantitativos por etapa de cribado.}
+	\label{fig:Cribado}
+\end{figure}
+
+\subsubsection{Extracción de datos}
+
+La extracción de datos se realizó exclusivamente a partir de los estudios que cumplían con los criterios de inclusión definidos y presentados en la Tabla~\ref{tab:criterios}. Este proceso se llevó a cabo de manera sistemática para garantizar la coherencia y la trazabilidad de la información recopilada de cada estudio seleccionado. Dada la heterogeneidad de la literatura analizada, se empleó un análisis narrativo para sintetizar la información. En este contexto, los enfoques analizados se organizaron en categorías temáticas derivadas de los objetivos de la revisión y de las preguntas de investigación formuladas. Esta estrategia permitió identificar patrones recurrentes, tendencias emergentes y áreas poco exploradas dentro de los estudios seleccionados. Asimismo, la estructuración temática facilitó una evaluación comparativa de cómo cada estudio aborda el autodiseño en el contexto de la ingeniería de software, destacando las similitudes y diferencias entre los enfoques propuestos, así como el grado en que sus hallazgos contribuyen a responder a las preguntas de investigación planteadas en esta revisión.
+
+\subsubsection{Resultados}
+
+Los resultados completos están en la publicacion titulada "Automated Software Design Towards Zero Human Intervention: A Systematic Literature Review", pero para este trabajo estan implementados en el Marco Teorico y mayormente en Estado del Arte.
+
+\subsubsection{Discusion}
+
+La revisión revela un punto de inflexión hacia la automatización del diseño de software a través de cuatro paradigmas principales: la refactorización basada en búsqueda (SBR), el autodiseño algorítmico mediante mejora genética (GI), la adaptabilidad formal con ontologías y planificación (PDDL), y la transición hacia la Ingeniería de Software 3.0 (SE 3.0) basada en ecosistemas multiagente. Aunque estos enfoques permiten manipular arquitecturas complejas y redefinen el rol del desarrollador hacia el de un orquestador estratégico, enfrentan importantes desafíos técnicos: la pérdida de semántica en los modelos matemáticos, la inestabilidad durante el reemplazo de código en caliente, la sobrecarga computacional en entornos inciertos y el riesgo de alucinaciones de diseño ante la falta de restricciones verificables y gobernanza en los agentes. Finalmente, se evidencia una brecha crítica entre el potencial teórico y la práctica, ya que la mayoría de los estudios se limitan a entornos controlados o sintéticos; por ello, se concluye que la integración del razonamiento simbólico con modelos de lenguaje es indispensable para lograr arquitecturas autogeneradas transparentes, funcionales y viables en entornos de producción reales.
+
 \subsection{Definicion y conceptualizacion}
 
 
