@@ -172,7 +172,7 @@ Muchas Gracias a todos.
 % Por ahora, incluyo los capítulos aquí mismo para que sea una plantilla rápida.
 
 \chapter{Introducción}
-El desarrollo de sistemas de software contemporáneos está intrínsecamente ligado a la evolución de la Ingeniería de Software. A lo largo de las últimas décadas, se ha evidenciado que las actividades de mantenimiento, actualización y evolución de artefactos de software representan una etapa con alto coste en términos de capital humano, tiempo de desarrollo y recursos financieros \cite{PerezCarrillo2026}. Para mitigar esta dependencia, el paradigma de los Sistemas de Auto-Ingeniería (\textit{Self-Engineering Systems} - SES) introduce un marco conceptual y una meta-arquitectura que habilitan a los sistemas de software para ejecutar modificaciones autónomas sobre sí mismos, abriendo la posibilidad de realizar procesos de evolución o metamorfosis \cite{perez2024}. El propósito fundamental de un sistema SES es gestionar y ejecutar su propio proceso de ingeniería más allá de su ciclo de vida convencional, prescindiendo de la intervención humana.
+El desarrollo de sistemas de software contemporáneos está intrínsecamente ligado a la evolución de la Ingeniería de Software. A lo largo de las últimas décadas, se ha evidenciado que las actividades de mantenimiento, actualización y evolución de artefactos de software representan una etapa con alto coste en términos de capital humano, tiempo de desarrollo y recursos financieros \cite{PerezCarrillo2026}. Para mitigar esta dependencia, el paradigma de los Sistemas de Auto-Ingeniería (\textit{Self-Engineering Systems} - SES) introduce un marco conceptual y una meta-arquitectura que habilitan a los sistemas de software para ejecutar modificaciones autónomas sobre sí mismos, abriendo la posibilidad de realizar procesos de auto-evolución o metamorfosis \cite{perez2024}. El propósito fundamental de un sistema SES es gestionar y ejecutar su propio proceso de ingeniería más allá de su ciclo de vida convencional, prescindiendo de la intervención humana.
 
 Dentro de este ciclo autónomo, una de las actividades fundamentales y de mayor impacto metodológico es la ingeniería de diseño. Esta fase es crítica debido a que es la encargada de traducir los requerimientos abstractos del entorno en especificaciones técnicas detalladas, estructuras de datos, interfaces y asignación de componentes indispensables para la posterior implementación y ejecución del sistema. En el contexto de los sistemas SES, automatizar esta etapa ---es decir, dotar al sistema de capacidades de autodiseño--- implica que la plataforma no solo reaccione a fallos, sino que sea capaz de reconfigurar conceptualmente su propia lógica operacional de manera válida, segura y coherente con las decisiones arquitectónicas previas.
 
@@ -273,9 +273,10 @@ Incluyen definiciones, tecnicas y marcos de trabajo,
 
 
 
-\section{Conceptualizacion del Auto-diseño de algoritmos}
 
+\section{Conceptualizacion del Auto-diseño}
 
+Sin lugar a dudas el trabajo de \cite{Porter2024SelfDesigning} es el trabajo mas cercano al auto-diseño, concibe al Self-Designing Software como al propio software convertido en un miembro activo de su equipo de diseño. La tecnica principal es el "Hot-Swapping", este intercambio en caliente permite intercambiar componentes de software en un sistema vivo de forma segura, con el uso de "building blocks", estos bloques de construccion estan validados y cuentan con interfaces especificas para su acople o desecho.
 
 \section{Automatización del Diseño}
 
