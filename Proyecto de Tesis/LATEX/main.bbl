@@ -227,6 +227,164 @@
       \verb https://doi-org.access.biblioteca.cinvestav.mx/10.1145/3678165
       \endverb
     \endentry
+    \entry{StratosIdreos2019LearningData}{article}{}{}
+      \name{author}{11}{}{%
+        {{hash=a0528fbf86972d447525db3b37c0677e}{%
+           family={Idreos},
+           familyi={I\bibinitperiod},
+           given={Stratos},
+           giveni={S\bibinitperiod}}}%
+        {{hash=0429b1d292a57ee847570f73cbf095cc}{%
+           family={Zoumpatianos},
+           familyi={Z\bibinitperiod},
+           given={Kostas},
+           giveni={K\bibinitperiod}}}%
+        {{hash=79e6b81c6876ad0c5fec19ebcc993255}{%
+           family={Chatterjee},
+           familyi={C\bibinitperiod},
+           given={Subarna},
+           giveni={S\bibinitperiod}}}%
+        {{hash=943aa4d0f7c93c7e8ac477f3b6d5c319}{%
+           family={Qin},
+           familyi={Q\bibinitperiod},
+           given={Wilson},
+           giveni={W\bibinitperiod}}}%
+        {{hash=e2496169823484571a453e1a07cf52f6}{%
+           family={Wasay},
+           familyi={W\bibinitperiod},
+           given={Abdul},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8c2dd8bc1236fb9aa1b21fd748a7fd15}{%
+           family={Hentschel},
+           familyi={H\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod}}}%
+        {{hash=48973bb6b970c1f5bf90ddf73b37efb2}{%
+           family={Kester},
+           familyi={K\bibinitperiod},
+           given={Mike},
+           giveni={M\bibinitperiod}}}%
+        {{hash=164ddac6e339e1e1f941f0ed9e81046c}{%
+           family={Dayan},
+           familyi={D\bibinitperiod},
+           given={Niv},
+           giveni={N\bibinitperiod}}}%
+        {{hash=d88c28182afb70b00173f1941543c0dd}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Demi},
+           giveni={D\bibinitperiod}}}%
+        {{hash=48aa9524283ecf0a279a2c2f6a12373e}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={Minseo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5a43afb8b2967cab16c36ee1210af35a}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Yiyou},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \strng{namehash}{755eff81c277d35321de03be3bd3546d}
+      \strng{fullhash}{d94ee572b9b2b49e8d7138a7a042f6e0}
+      \strng{fullhashraw}{d94ee572b9b2b49e8d7138a7a042f6e0}
+      \strng{bibnamehash}{755eff81c277d35321de03be3bd3546d}
+      \strng{authorbibnamehash}{755eff81c277d35321de03be3bd3546d}
+      \strng{authornamehash}{755eff81c277d35321de03be3bd3546d}
+      \strng{authorfullhash}{d94ee572b9b2b49e8d7138a7a042f6e0}
+      \strng{authorfullhashraw}{d94ee572b9b2b49e8d7138a7a042f6e0}
+      \field{extraname}{1}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{<p>We propose a solution based on first principles and AI to the decades-old problem of data structure design. Instead of working on individual designs that each can only be helpful in a small set of environments, we propose the construction of an engine, a Data Alchemist, which learns how to blend fine-grained data structure design principles to automatically synthesize brand new data structures.</p>}
+      \field{journaltitle}{Bulletin of the IEEE Computer Society Technical Committee on Data Engineering}
+      \field{title}{Learning Data Structure Alchemy}
+      \field{volume}{42}
+      \field{year}{2019}
+      \field{pages}{46\bibrangedash 57}
+      \range{pages}{12}
+    \endentry
+    \entry{idreos2018periodic}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=a0528fbf86972d447525db3b37c0677e}{%
+           family={Idreos},
+           familyi={I\bibinitperiod},
+           given={Stratos},
+           giveni={S\bibinitperiod}}}%
+        {{hash=0429b1d292a57ee847570f73cbf095cc}{%
+           family={Zoumpatianos},
+           familyi={Z\bibinitperiod},
+           given={Kostas},
+           giveni={K\bibinitperiod}}}%
+        {{hash=e210012f06fe0a0fdb605056191f3b0b}{%
+           family={Athanassoulis},
+           familyi={A\bibinitperiod},
+           given={Manos},
+           giveni={M\bibinitperiod}}}%
+        {{hash=164ddac6e339e1e1f941f0ed9e81046c}{%
+           family={Dayan},
+           familyi={D\bibinitperiod},
+           given={Niv},
+           giveni={N\bibinitperiod}}}%
+        {{hash=8c2dd8bc1236fb9aa1b21fd748a7fd15}{%
+           family={Hentschel},
+           familyi={H\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod}}}%
+        {{hash=1be43174bbf594f7c6ce452016e41aec}{%
+           family={Kester},
+           familyi={K\bibinitperiod},
+           given={Michael\bibnamedelima S},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=d88c28182afb70b00173f1941543c0dd}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Demi},
+           giveni={D\bibinitperiod}}}%
+        {{hash=2e066bd533ba2dcde43918afc2d1cbb8}{%
+           family={Maas},
+           familyi={M\bibinitperiod},
+           given={Lukas\bibnamedelima M},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=943aa4d0f7c93c7e8ac477f3b6d5c319}{%
+           family={Qin},
+           familyi={Q\bibinitperiod},
+           given={Wilson},
+           giveni={W\bibinitperiod}}}%
+        {{hash=e2496169823484571a453e1a07cf52f6}{%
+           family={Wasay},
+           familyi={W\bibinitperiod},
+           given={Abdul},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{755eff81c277d35321de03be3bd3546d}
+      \strng{fullhash}{19b0ed7abe877c5b1275fd141248f6ef}
+      \strng{fullhashraw}{19b0ed7abe877c5b1275fd141248f6ef}
+      \strng{bibnamehash}{755eff81c277d35321de03be3bd3546d}
+      \strng{authorbibnamehash}{755eff81c277d35321de03be3bd3546d}
+      \strng{authornamehash}{755eff81c277d35321de03be3bd3546d}
+      \strng{authorfullhash}{19b0ed7abe877c5b1275fd141248f6ef}
+      \strng{authorfullhashraw}{19b0ed7abe877c5b1275fd141248f6ef}
+      \field{extraname}{2}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Data Eng. Bull.}
+      \field{number}{3}
+      \field{title}{The Periodic Table of Data Structures.}
+      \field{volume}{41}
+      \field{year}{2018}
+      \field{pages}{64\bibrangedash 75}
+      \range{pages}{12}
+    \endentry
     \entry{Pagen2020PRISMA}{article}{}{}
       \name{author}{26}{}{%
         {{hash=016b86afb0a98379bf77b3f074f34761}{%
@@ -371,8 +529,8 @@
       \strng{authornamehash}{69c1efa4f6ab0deea3df12876fea0709}
       \strng{authorfullhash}{b37368b8b0982e5c110334919bd2e0e1}
       \strng{authorfullhashraw}{b37368b8b0982e5c110334919bd2e0e1}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{BMJ}
@@ -413,8 +571,8 @@
       \strng{authornamehash}{bfd5bed68d4e3feb5cdc7e00ae82b588}
       \strng{authorfullhash}{bfd5bed68d4e3feb5cdc7e00ae82b588}
       \strng{authorfullhashraw}{bfd5bed68d4e3feb5cdc7e00ae82b588}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{01}
@@ -446,8 +604,8 @@
       \strng{authornamehash}{272a5fbd8c20b0b8526956e8b2c0cd96}
       \strng{authorfullhash}{272a5fbd8c20b0b8526956e8b2c0cd96}
       \strng{authorfullhashraw}{272a5fbd8c20b0b8526956e8b2c0cd96}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1759-2887}
