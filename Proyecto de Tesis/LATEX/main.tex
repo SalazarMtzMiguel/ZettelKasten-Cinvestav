@@ -44,7 +44,7 @@
 \renewcommand{\headrulewidth}{0.4pt} % Línea horizontal superior
 
 % --- Configuración del PIE DE PÁGINA (Footer) ---
-\fancyfoot[L]{20}           % Izquierda: Número de página (o \thepage para que sea automático)
+\fancyfoot[L]{\thepage}           % Izquierda: Número de página (o \thepage para que sea automático)
 \fancyfoot[C]{\textit{Miguel Angel Salazar Martinez}} % Centro: Nombre en cursivas
 \fancyfoot[R]{\thechapter}        % Derecha: Capítulo (o Ch. \thechapter para automático)
 \renewcommand{\footrulewidth}{0.4pt} % Línea horizontal inferior (como en la imagen)
@@ -276,13 +276,15 @@ Incluyen definiciones, tecnicas y marcos de trabajo,
 
 \section{Conceptualizacion del Auto-diseño}
 
+\shorthandoff{"}
 Sin lugar a dudas el trabajo de \cite{Porter2024SelfDesigning} es el trabajo mas cercano al auto-diseño, concibe al Self-Designing Software como al propio software convertido en un miembro activo de su equipo de diseño. La tecnica principal es el "Hot-Swapping", este intercambio en caliente permite intercambiar componentes de software en un sistema vivo de forma segura, con el uso de "building blocks", estos bloques de construccion estan validados y cuentan con interfaces especificas para su acople o desecho.
  
+ Sin embargo no cubre el diseño como un conjunto de actividades que nos entregan artefactos de diseño \cite{sommerville2011software} es asi que en una busqueda mas a profundidad mediante una revision sistematica de literatura, encontramos actividades total o parcialmente automatizadas que buscan satisfacer el diseño automatizado.
  
- El trabajo de \cite{StratosIdreos2019LearningData} describe una metodología para automatizar el diseño de estructuras de datos a través de la síntesis de estructuras (de datos) personalizadas. En lugar de depender de diseños tradicionales fijos, este enfoque construye estructuras a la medida partiendo de un conjunto de primitivas de diseño fundamentales lógicas y físicas clasificadas en su "Tabla Periódica de las Estructuras de Datos" \cite{idreos2018periodic}. El conjunto combinatorio de estas primitivas conforma un vasto "espacio de diseño" en el cual se evalúan rigurosamente las restricciones de rendimiento y utilización de recursos. Tras este análisis, el diseño óptimo es enviado a un generador de código para sintetizar el diseño en código fuente ejecutable para el sistema final.
+ El trabajo de \cite{StratosIdreos2019LearningData} describe una metodología para automatizar el diseño de estructuras de datos a través de la síntesis de estructuras personalizadas. En lugar de depender de diseños tradicionales fijos, este enfoque construye estructuras a la medida partiendo de un conjunto de primitivas de diseño fundamentales lógicas y físicas clasificadas en su "Tabla Periódica de las Estructuras de Datos" \cite{idreos2018periodic}. El conjunto combinatorio de estas primitivas conforma un vasto "espacio de diseño" en el cual se evalúan rigurosamente las restricciones de rendimiento y utilización de recursos. Tras este análisis, el diseño óptimo es enviado a un generador de código para sintetizar el diseño en código fuente ejecutable para el sistema final.
  %Loncaric,Zhao, Wenjie,zhnag, aurora R, Weyns, Affonso, GIl, Ageloupulos
- Ahora en el cambitos de estructuras de datos, la automatizacion de esta actividad es derivada segun loncari, 
-
+ De igual manera (en la etapa de diseño de estructuras de datos) la herramienta COZY\cite{loncaric2016Datastructure} y mejorado en \cite{loncaric2018Generalizeddata}, presentan  
+\shorthandon{"}
 \section{Automatización del Diseño}
 
 
@@ -377,6 +379,7 @@ Estas plataformas se seleccionaron debido a la disponibilidad de acceso instituc
  
  Las estrategias de búsqueda se elaboraron sistemáticamente combinando términos relacionados con el tema mediante operadores booleanos (\texttt{AND}, \texttt{OR}) para estructurar explícitamente sus relaciones lógicas. La búsqueda se restringió al campo \texttt{TITLE-ABS-KEY} con el fin de aumentar la precisión conceptual y reducir el ruido en la recuperación de información. Posteriormente, se aplicaron criterios de inclusión y exclusión predefinidos para refinar y validar el conjunto de estudios resultante. Un ejemplo de una consulta completa esta escrita en la tabla~\ref{tab:example_query}.
  
+ \shorthandoff{"}
  \begin{table}[ht]
  	\centering
  	\caption{Example of Complete Search Query (Scopus)}
@@ -388,14 +391,14 @@ Estas plataformas se seleccionaron debido a la disponibilidad de acceso instituc
  		\textbf{Time Range} & 2015--2026 \\ \hline
  		\textbf{Subject Areas} & Computer Science (COMP), Engineering (ENGI) \\ \hline
  		\textbf{Complete Query} &
- 		\texttt{TITLE-ABS-KEY ((("self-architecting"\ OR "self architectural"\ OR\ "\ auto-architecting"\ OR\ "\ auto architectural")\ W/3\ "system*")\ OR\ (("self-architectural"\ OR\ "\ auto-architectural")\ W/3 "design"))\ AND\ PUBYEAR\ >\ 2014\ AND\ PUBYEAR\ <\ 2027\ AND\ (LIMIT-TO\ (SUBJAREA,\ "\ COMP")\ OR\ LIMIT-TO (SUBJAREA,\ "\ ENGI"))} \\ \hline
+ 		\texttt{TITLE-ABS-KEY ((("self-architecting"\ OR "self architectural"\ OR\ "\ auto-architecting"\ OR\ "auto architectural")\ W/3\ "system*")\ OR\ (("self-architectural"\ OR\ "auto-architectural")\ W/3 "design"))\ AND\ PUBYEAR\ >\ 2014\ AND\ PUBYEAR\ <\ 2027\ AND\ (LIMIT-TO\ (SUBJAREA,\ "COMP")\ OR\ LIMIT-TO (SUBJAREA,\ "ENGI"))} \\ \hline
  	\end{tabularx}
  \end{table}
  
  Las consultas presentadas a continuacion corresponden a un conjunto resumido de expresiones que inicialmente fueron ejecutadas en Scopues, y posteriormente adaptadas a las sintaxis especificas de las diferentes bases de datos, se listan las consultas en la tabla~\ref{tab:queries}.
  
  
- \shorthandoff{"}
+ 
   \begin{table}[H]
  	\centering
  	\caption{Resumen de las consultas en Scopues (Obviando los filtros temporales y de dominio para mantener la brevedad).}

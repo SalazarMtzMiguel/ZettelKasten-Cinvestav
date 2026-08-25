@@ -227,6 +227,37 @@
       \verb https://doi-org.access.biblioteca.cinvestav.mx/10.1145/3678165
       \endverb
     \endentry
+    \entry{sommerville2011software}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=70341b3bfcce7026902f4eb1e4111b58}{%
+           family={Sommerville},
+           familyi={S\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boston}%
+      }
+      \list{publisher}{1}{%
+        {Addison-Wesley}%
+      }
+      \strng{namehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{fullhash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{fullhashraw}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{bibnamehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authorbibnamehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authornamehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authorfullhash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authorfullhashraw}{70341b3bfcce7026902f4eb1e4111b58}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{9}
+      \field{isbn}{978-0-13-703515-1}
+      \field{title}{Software Engineering}
+      \field{year}{2011}
+    \endentry
     \entry{StratosIdreos2019LearningData}{article}{}{}
       \name{author}{11}{}{%
         {{hash=a0528fbf86972d447525db3b37c0677e}{%
@@ -297,8 +328,8 @@
       \strng{authorfullhash}{d94ee572b9b2b49e8d7138a7a042f6e0}
       \strng{authorfullhashraw}{d94ee572b9b2b49e8d7138a7a042f6e0}
       \field{extraname}{1}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{<p>We propose a solution based on first principles and AI to the decades-old problem of data structure design. Instead of working on individual designs that each can only be helpful in a small set of environments, we propose the construction of an engine, a Data Alchemist, which learns how to blend fine-grained data structure design principles to automatically synthesize brand new data structures.</p>}
@@ -373,8 +404,8 @@
       \strng{authorfullhash}{19b0ed7abe877c5b1275fd141248f6ef}
       \strng{authorfullhashraw}{19b0ed7abe877c5b1275fd141248f6ef}
       \field{extraname}{2}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Data Eng. Bull.}
@@ -384,6 +415,104 @@
       \field{year}{2018}
       \field{pages}{64\bibrangedash 75}
       \range{pages}{12}
+    \endentry
+    \entry{loncaric2016Datastructure}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{hash=63efc10e3c0b49e711e574ef77d0dbdd}{%
+           family={Loncaric},
+           familyi={L\bibinitperiod},
+           given={Calvin},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Seattle, WA, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{63efc10e3c0b49e711e574ef77d0dbdd}
+      \strng{fullhash}{63efc10e3c0b49e711e574ef77d0dbdd}
+      \strng{fullhashraw}{63efc10e3c0b49e711e574ef77d0dbdd}
+      \strng{bibnamehash}{63efc10e3c0b49e711e574ef77d0dbdd}
+      \strng{authorbibnamehash}{63efc10e3c0b49e711e574ef77d0dbdd}
+      \strng{authornamehash}{63efc10e3c0b49e711e574ef77d0dbdd}
+      \strng{authorfullhash}{63efc10e3c0b49e711e574ef77d0dbdd}
+      \strng{authorfullhashraw}{63efc10e3c0b49e711e574ef77d0dbdd}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 2016 24th ACM SIGSOFT International Symposium on Foundations of Software Engineering}
+      \field{isbn}{9781450342186}
+      \field{series}{FSE 2016}
+      \field{title}{Data structure synthesis}
+      \field{year}{2016}
+      \field{pages}{1073\bibrangedash 1075}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1145/2950290.2983946
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/2950290.2983946
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/2950290.2983946
+      \endverb
+      \keyw{Automatic Programming,Data Structures,Program Synthesis}
+    \endentry
+    \entry{loncaric2018Generalizeddata}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=63efc10e3c0b49e711e574ef77d0dbdd}{%
+           family={Loncaric},
+           familyi={L\bibinitperiod},
+           given={Calvin},
+           giveni={C\bibinitperiod}}}%
+        {{hash=7cc1cf4fe6d5d2a0088aa8f3f40ffc8f}{%
+           family={Ernst},
+           familyi={E\bibinitperiod},
+           given={Michael\bibnamedelima D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=891b5b8af87210ad697663a0f5e1e379}{%
+           family={Torlak},
+           familyi={T\bibinitperiod},
+           given={Emina},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Gothenburg, Sweden}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{b7c23a6ca22d6e428fea93c1aad37744}
+      \strng{fullhash}{3f8e79d889b99af7950a5f0b9c22270d}
+      \strng{fullhashraw}{3f8e79d889b99af7950a5f0b9c22270d}
+      \strng{bibnamehash}{3f8e79d889b99af7950a5f0b9c22270d}
+      \strng{authorbibnamehash}{3f8e79d889b99af7950a5f0b9c22270d}
+      \strng{authornamehash}{b7c23a6ca22d6e428fea93c1aad37744}
+      \strng{authorfullhash}{3f8e79d889b99af7950a5f0b9c22270d}
+      \strng{authorfullhashraw}{3f8e79d889b99af7950a5f0b9c22270d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 40th International Conference on Software Engineering}
+      \field{isbn}{9781450356381}
+      \field{series}{ICSE '18}
+      \field{title}{Generalized data structure synthesis}
+      \field{year}{2018}
+      \field{pages}{958\bibrangedash 968}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1145/3180155.3180211
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/3180155.3180211
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/3180155.3180211
+      \endverb
+      \keyw{automatic programming,data structures,program synthesis}
     \endentry
     \entry{Pagen2020PRISMA}{article}{}{}
       \name{author}{26}{}{%
@@ -529,8 +658,8 @@
       \strng{authornamehash}{69c1efa4f6ab0deea3df12876fea0709}
       \strng{authorfullhash}{b37368b8b0982e5c110334919bd2e0e1}
       \strng{authorfullhashraw}{b37368b8b0982e5c110334919bd2e0e1}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{BMJ}
