@@ -172,6 +172,37 @@
       \verb https://arxiv.org/abs/2507.15003
       \endverb
     \endentry
+    \entry{sommerville2011software}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=70341b3bfcce7026902f4eb1e4111b58}{%
+           family={Sommerville},
+           familyi={S\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boston}%
+      }
+      \list{publisher}{1}{%
+        {Addison-Wesley}%
+      }
+      \strng{namehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{fullhash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{fullhashraw}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{bibnamehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authorbibnamehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authornamehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authorfullhash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authorfullhashraw}{70341b3bfcce7026902f4eb1e4111b58}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{9}
+      \field{isbn}{978-0-13-703515-1}
+      \field{title}{Software Engineering}
+      \field{year}{2011}
+    \endentry
     \entry{Porter2024SelfDesigning}{article}{}{}
       \name{author}{3}{}{%
         {{hash=e089d5f706cc0a43a27019f5530d69ee}{%
@@ -204,8 +235,8 @@
       \strng{authornamehash}{5aea8c516384ea7ce99e2018b9132c6d}
       \strng{authorfullhash}{47a00ed545445e3b81bdc29245863ac3}
       \strng{authorfullhashraw}{47a00ed545445e3b81bdc29245863ac3}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0001-0782}
@@ -226,37 +257,6 @@
       \verb{url}
       \verb https://doi-org.access.biblioteca.cinvestav.mx/10.1145/3678165
       \endverb
-    \endentry
-    \entry{sommerville2011software}{book}{}{}
-      \name{author}{1}{}{%
-        {{hash=70341b3bfcce7026902f4eb1e4111b58}{%
-           family={Sommerville},
-           familyi={S\bibinitperiod},
-           given={Ian},
-           giveni={I\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Boston}%
-      }
-      \list{publisher}{1}{%
-        {Addison-Wesley}%
-      }
-      \strng{namehash}{70341b3bfcce7026902f4eb1e4111b58}
-      \strng{fullhash}{70341b3bfcce7026902f4eb1e4111b58}
-      \strng{fullhashraw}{70341b3bfcce7026902f4eb1e4111b58}
-      \strng{bibnamehash}{70341b3bfcce7026902f4eb1e4111b58}
-      \strng{authorbibnamehash}{70341b3bfcce7026902f4eb1e4111b58}
-      \strng{authornamehash}{70341b3bfcce7026902f4eb1e4111b58}
-      \strng{authorfullhash}{70341b3bfcce7026902f4eb1e4111b58}
-      \strng{authorfullhashraw}{70341b3bfcce7026902f4eb1e4111b58}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{9}
-      \field{isbn}{978-0-13-703515-1}
-      \field{title}{Software Engineering}
-      \field{year}{2011}
     \endentry
     \entry{StratosIdreos2019LearningData}{article}{}{}
       \name{author}{11}{}{%
@@ -328,8 +328,8 @@
       \strng{authorfullhash}{d94ee572b9b2b49e8d7138a7a042f6e0}
       \strng{authorfullhashraw}{d94ee572b9b2b49e8d7138a7a042f6e0}
       \field{extraname}{1}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{<p>We propose a solution based on first principles and AI to the decades-old problem of data structure design. Instead of working on individual designs that each can only be helpful in a small set of environments, we propose the construction of an engine, a Data Alchemist, which learns how to blend fine-grained data structure design principles to automatically synthesize brand new data structures.</p>}
@@ -404,8 +404,8 @@
       \strng{authorfullhash}{19b0ed7abe877c5b1275fd141248f6ef}
       \strng{authorfullhashraw}{19b0ed7abe877c5b1275fd141248f6ef}
       \field{extraname}{2}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Data Eng. Bull.}
