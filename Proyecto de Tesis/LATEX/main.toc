@@ -14,7 +14,7 @@
 \contentsline {chapter}{\numberline {2}Marco Teórico}{5}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Sistemas de Auto-Ingenieria}{5}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Marco de Sistemas de Auto-Ingeniería}{5}{subsection.2.1.1}%
-\contentsline {section}{\numberline {2.2}Actividades de diseño}{5}{section.2.2}%
+\contentsline {section}{\numberline {2.2}Actividades de diseño}{6}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Diseño de Arquitectura}{6}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Diseño de Interfaces}{6}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3}Diseño de Componentes}{6}{subsection.2.2.3}%
