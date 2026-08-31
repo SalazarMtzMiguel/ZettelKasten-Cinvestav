@@ -21,7 +21,13 @@
 \contentsline {subsection}{\numberline {2.2.4}Diseño de Estructuras de datos}{6}{subsection.2.2.4}%
 \contentsline {subsection}{\numberline {2.2.5}Diseño de Algoritmos}{6}{subsection.2.2.5}%
 \contentsline {section}{\numberline {2.3}Diseño Automatizado de Algoritmos}{6}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Ontología para selección automática de algoritmos}{6}{section.2.4}%
+\contentsline {section}{\numberline {2.4}Sistemas multiagentes MAS}{6}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Fundamentos y arquitecturas de los Sistemas Multiagentes}{6}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Tipología cognitiva de agentes: Modelos de caja negra (puramente estadísticos/reactivos ) vs. Modelos de caja gris (híbridos o neuro-simbólicos)}{6}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Paradigmas de coordinación y comunicación inter-agente.}{6}{subsection.2.4.3}%
+\contentsline {section}{\numberline {2.5}Modelos grande de lenguaje (LLM)}{6}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Arbol de busqueda de Monte-Carlo (MCTS)}{6}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Ontología como representacion de conocimiento}{6}{section.2.7}%
 \contentsline {chapter}{\numberline {3}Estado del Arte}{7}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Conceptualizacion del Auto-diseño}{7}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Automatización del Diseño}{8}{section.3.2}%
