@@ -235,8 +235,8 @@
       \strng{authornamehash}{5aea8c516384ea7ce99e2018b9132c6d}
       \strng{authorfullhash}{47a00ed545445e3b81bdc29245863ac3}
       \strng{authorfullhashraw}{47a00ed545445e3b81bdc29245863ac3}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0001-0782}
@@ -797,6 +797,7 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{ISOIEEE}
 \endrefsection
 \endinput
 
