@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.8.11)  31 AUG 2026 22:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.9.1)  1 SEP 2026 17:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./main.tex
 (main.tex
 LaTeX2e <2026-06-01>
-L3 programming layer <2026-07-20>
+L3 programming layer <2026-08-10>
 (C:\Users\Mikec\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
 Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
 (C:\Users\Mikec\AppData\Local\Programs\MiKTeX\tex/latex/base\bk12.clo
@@ -33,7 +33,7 @@ Package: inputenc 2024/02/08 v1.3d Input encoding file
 Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
 )
 (C:\Users\Mikec\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2026/08/08 v26.10 The multilingual framework for LuaLaTeX, pdfLa
+Package: babel 2026/08/21 v26.11 The multilingual framework for LuaLaTeX, pdfLa
 TeX and XeLaTeX
 \babel@savecnt=\count285
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
@@ -58,7 +58,7 @@ on input line 2138.
 \bbl@dirlevel=\count286
 Package babel Info: Configuration files are deprecated, as
 (babel)             they can break document portability.
-(babel)             Reported on input line 4298.
+(babel)             Reported on input line 4332.
 
 *************************************
 * Local config file bblopts.cfg used
@@ -70,7 +70,7 @@ File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
 (C:\Users\Mikec\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/es\babel
 -spanish.tex)
 Package babel Info: Importing font and identification data for 'spanish'
-(babel)             from babel-es.ini. Reported on input line 4426.
+(babel)             from babel-es.ini. Reported on input line 4460.
 
 (C:\Users\Mikec\AppData\Local\Programs\MiKTeX\tex/latex/babel-spanish\spanish.l
 df
@@ -344,11 +344,11 @@ Package: enumitem 2025/02/06 v3.11 Customized lists
 (C:\Users\Mikec\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3k
 eys2e.sty
 (C:\Users\Mikec\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2026-07-20 L3 programming layer (loader) 
+Package: expl3 2026-08-10 L3 programming layer (loader) 
 
-(C:\Users\Mikec\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
-tex.def
-File: l3backend-pdftex.def 2026-07-20 L3 backend support: PDF output (pdfTeX)
+(C:\Users\Mikec\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\l3backend-pdft
+ex.def
+File: l3backend-pdftex.def 2026-08-10 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count327
 ))
 Package: l3keys2e 2025-10-09 LaTeX2e option processing using LaTeX3 keys
@@ -360,7 +360,7 @@ Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 
 (C:\Users\Mikec\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex))
 (C:\Users\Mikec\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
-Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
+Package: biblatex 2026/08/13 v3.22 programmable bibliographies (PK/MW)
 
 (C:\Users\Mikec\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
 .sty
@@ -458,7 +458,7 @@ Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
 (C:\Users\Mikec\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
-File: blx-dm.def 2025/07/10 v3.21 biblatex datamodel (PK/MW)
+File: blx-dm.def 2026/08/13 v3.22 biblatex datamodel (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'ieee.dbx' not found.
@@ -550,12 +550,12 @@ Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
 (C:\Users\Mikec\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
-File: blx-compat.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+File: blx-compat.def 2026/08/13 v3.22 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (C:\Users\Mikec\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
-File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+File: biblatex.def 2026/08/13 v3.22 biblatex compatibility (PK/MW)
 \c@textcitecount=\count446
 \c@textcitetotal=\count447
 \c@textcitemaxnames=\count448
@@ -580,19 +580,19 @@ Package biblatex Info: ... file 'numeric-comp.bbx' found.
 
 (C:\Users\Mikec\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric-co
 mp.bbx
-File: numeric-comp.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
+File: numeric-comp.bbx 2026/08/13 v3.22 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
 
 (C:\Users\Mikec\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.bb
 x
-File: numeric.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
+File: numeric.bbx 2026/08/13 v3.22 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
 (C:\Users\Mikec\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.b
 bx
-File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
+File: standard.bbx 2026/08/13 v3.22 biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count455
 \c@bbx:relatedtotal=\count456
 ))))
@@ -606,7 +606,7 @@ Package biblatex Info: ... file 'numeric-verb.cbx' found.
 
 (C:\Users\Mikec\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric-ve
 rb.cbx
-File: numeric-verb.cbx 2025/07/10 v3.21 biblatex citation style (PK/MW)
+File: numeric-verb.cbx 2026/08/13 v3.22 biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -627,7 +627,7 @@ File: biblatex.cfg
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Document encoding is UTF8 ....
 Package biblatex Info: ... and expl3
-(biblatex)             2026-07-20 L3 programming layer (loader) 
+(biblatex)             2026-08-10 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
 
@@ -637,7 +637,7 @@ Package biblatex Info: ... and expl3
 e.sty
 Package: xparse 2025-10-09 L3 Experimental document command parser
 )
-Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
+Package: blx-case-expl3 2026/08/13 v3.22 expl3 case changing code for biblatex
 ))
 (C:\Users\Mikec\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
@@ -863,7 +863,7 @@ Package biblatex Info: ... file 'spanish.lbx' found.
 
 (C:\Users\Mikec\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\spanish.lb
 x
-File: spanish.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
+File: spanish.lbx 2026/08/13 v3.22 biblatex localization (PK/MW)
 )
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
@@ -948,7 +948,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 157--159
 [4
 
 ] (main.toc
-LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
  [5
@@ -958,7 +957,6 @@ LaTeX Info: Redefining \% on input line 1.
 \openout5 = `main.toc'.
 
  [7] (main.lof
-LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
@@ -968,7 +966,6 @@ LaTeX Info: Redefining \% on input line 1.
  [8
 
 ] (main.lot
-LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
@@ -1160,13 +1157,12 @@ Ap\'{e}ndice A.
 [28
 
 ] (main.aux
-LaTeX Info: Redefining \sptext on input line 12.
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
 )
  ***********
 LaTeX2e <2026-06-01>
-L3 programming layer <2026-07-20>
+L3 programming layer <2026-08-10>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 44726CDA4697C526641C54A480980EA4;17563.
@@ -1175,10 +1171,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23209 strings out of 467501
- 410602 string characters out of 5408550
- 1352926 words of memory out of 5000000
- 52031 multiletter control sequences out of 15000+600000
+ 23391 strings out of 467441
+ 416932 string characters out of 5407592
+ 1354686 words of memory out of 5000000
+ 52274 multiletter control sequences out of 15000+600000
  643982 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,12n,77p,1345b,2369s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1198,7 +1194,7 @@ Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\
 Users\Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk
 > <C:\Users\Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1
 440.pk>
-Output written on main.pdf (39 pages, 988910 bytes).
+Output written on main.pdf (39 pages, 988913 bytes).
 PDF statistics:
  1345 PDF objects out of 1440 (max. 8388607)
  142 named destinations out of 1000 (max. 500000)
