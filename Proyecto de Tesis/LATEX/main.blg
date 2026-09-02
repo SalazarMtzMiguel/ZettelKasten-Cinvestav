@@ -1,17 +1,17 @@
 [0] Config.pm:329> INFO - This is Biber 2.22
-[0] Config.pm:332> INFO - Logfile is 'main.blg'
-[97] biber-MSWIN64:342> INFO - === 
-[138] Biber.pm:421> INFO - Reading 'main.bcf'
-[230] Biber.pm:1002> INFO - Found 16 citekeys in bib section 0
-[241] Biber.pm:4487> INFO - Processing section 0
-[250] Biber.pm:4680> INFO - Looking for bibtex file 'references.bib' for section 0
-[308] bibtex.pm:1713> INFO - LaTeX decoding ...
-[479] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
-[598] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[598] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[598] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'es-ES'
-[610] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[622] bbl.pm:779> INFO - Output to main.bbl
-[623] Biber.pm:132> WARN - legacy month field 'aug' in entry 'perez2024' is not an integer - this will probably not sort properly.
-[623] Biber.pm:132> WARN - I didn't find a database entry for 'ISOIEEE' (section 0)
-[623] Biber.pm:134> INFO - WARNINGS: 2
+[1] Config.pm:332> INFO - Logfile is 'main.blg'
+[181] biber-MSWIN64:342> INFO - === 
+[250] Biber.pm:421> INFO - Reading 'main.bcf'
+[441] Biber.pm:1002> INFO - Found 16 citekeys in bib section 0
+[466] Biber.pm:4487> INFO - Processing section 0
+[487] Biber.pm:4680> INFO - Looking for bibtex file 'references.bib' for section 0
+[588] bibtex.pm:1713> INFO - LaTeX decoding ...
+[999] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[1271] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1271] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1271] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'es-ES'
+[1298] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[1327] bbl.pm:779> INFO - Output to main.bbl
+[1327] Biber.pm:132> WARN - legacy month field 'aug' in entry 'perez2024' is not an integer - this will probably not sort properly.
+[1327] Biber.pm:132> WARN - I didn't find a database entry for 'ISOIEEE' (section 0)
+[1327] Biber.pm:134> INFO - WARNINGS: 2

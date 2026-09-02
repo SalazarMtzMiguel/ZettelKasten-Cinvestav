@@ -98,6 +98,41 @@
       \field{type}{Tesis de Maestría en Ciencias}
       \field{year}{2024}
     \endentry
+    \entry{swebok2014}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=6b600542ba3d4a21aea8e7d8ee988932}{%
+           family={{IEEE Computer Society}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Los Alamitos, CA}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{6b600542ba3d4a21aea8e7d8ee988932}
+      \strng{fullhash}{6b600542ba3d4a21aea8e7d8ee988932}
+      \strng{fullhashraw}{6b600542ba3d4a21aea8e7d8ee988932}
+      \strng{bibnamehash}{6b600542ba3d4a21aea8e7d8ee988932}
+      \strng{authorbibnamehash}{6b600542ba3d4a21aea8e7d8ee988932}
+      \strng{authornamehash}{6b600542ba3d4a21aea8e7d8ee988932}
+      \strng{authorfullhash}{6b600542ba3d4a21aea8e7d8ee988932}
+      \strng{authorfullhashraw}{6b600542ba3d4a21aea8e7d8ee988932}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{4}
+      \field{isbn}{978-0-7695-5166-1}
+      \field{title}{{Guide to the Software Engineering Body of Knowledge (SWEBOK)}}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.computer.org/education/bodies-of-knowledge/software-engineering
+      \endverb
+      \verb{url}
+      \verb https://www.computer.org/education/bodies-of-knowledge/software-engineering
+      \endverb
+    \endentry
     \entry{Kruchten1995The}{article}{}{}
       \name{author}{1}{}{%
         {{hash=dca64ceea72185cf29648fc367546339}{%
@@ -114,8 +149,8 @@
       \strng{authornamehash}{dca64ceea72185cf29648fc367546339}
       \strng{authorfullhash}{dca64ceea72185cf29648fc367546339}
       \strng{authorfullhashraw}{dca64ceea72185cf29648fc367546339}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Softw.}
@@ -154,8 +189,8 @@
       \strng{authornamehash}{daaeb7670772db8a47b015a37e6672bc}
       \strng{authorfullhash}{21253d0e49e6fb0aca5bd5f0a246452c}
       \strng{authorfullhashraw}{21253d0e49e6fb0aca5bd5f0a246452c}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{cs.SE}
@@ -194,49 +229,14 @@
       \strng{authornamehash}{70341b3bfcce7026902f4eb1e4111b58}
       \strng{authorfullhash}{70341b3bfcce7026902f4eb1e4111b58}
       \strng{authorfullhashraw}{70341b3bfcce7026902f4eb1e4111b58}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{9}
       \field{isbn}{978-0-13-703515-1}
       \field{title}{Software Engineering}
       \field{year}{2011}
-    \endentry
-    \entry{swebok2014}{book}{}{}
-      \name{author}{1}{}{%
-        {{hash=6b600542ba3d4a21aea8e7d8ee988932}{%
-           family={{IEEE Computer Society}},
-           familyi={I\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Los Alamitos, CA}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{6b600542ba3d4a21aea8e7d8ee988932}
-      \strng{fullhash}{6b600542ba3d4a21aea8e7d8ee988932}
-      \strng{fullhashraw}{6b600542ba3d4a21aea8e7d8ee988932}
-      \strng{bibnamehash}{6b600542ba3d4a21aea8e7d8ee988932}
-      \strng{authorbibnamehash}{6b600542ba3d4a21aea8e7d8ee988932}
-      \strng{authornamehash}{6b600542ba3d4a21aea8e7d8ee988932}
-      \strng{authorfullhash}{6b600542ba3d4a21aea8e7d8ee988932}
-      \strng{authorfullhashraw}{6b600542ba3d4a21aea8e7d8ee988932}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{4}
-      \field{isbn}{978-0-7695-5166-1}
-      \field{title}{{Guide to the Software Engineering Body of Knowledge (SWEBOK)}}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://www.computer.org/education/bodies-of-knowledge/software-engineering
-      \endverb
-      \verb{url}
-      \verb https://www.computer.org/education/bodies-of-knowledge/software-engineering
-      \endverb
     \endentry
     \entry{Porter2024SelfDesigning}{article}{}{}
       \name{author}{3}{}{%
@@ -768,8 +768,8 @@
       \strng{authornamehash}{272a5fbd8c20b0b8526956e8b2c0cd96}
       \strng{authorfullhash}{272a5fbd8c20b0b8526956e8b2c0cd96}
       \strng{authorfullhashraw}{272a5fbd8c20b0b8526956e8b2c0cd96}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1759-2887}
