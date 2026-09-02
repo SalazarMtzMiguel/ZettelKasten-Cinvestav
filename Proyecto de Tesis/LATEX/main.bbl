@@ -203,6 +203,41 @@
       \field{title}{Software Engineering}
       \field{year}{2011}
     \endentry
+    \entry{swebok2014}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=6b600542ba3d4a21aea8e7d8ee988932}{%
+           family={{IEEE Computer Society}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Los Alamitos, CA}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{6b600542ba3d4a21aea8e7d8ee988932}
+      \strng{fullhash}{6b600542ba3d4a21aea8e7d8ee988932}
+      \strng{fullhashraw}{6b600542ba3d4a21aea8e7d8ee988932}
+      \strng{bibnamehash}{6b600542ba3d4a21aea8e7d8ee988932}
+      \strng{authorbibnamehash}{6b600542ba3d4a21aea8e7d8ee988932}
+      \strng{authornamehash}{6b600542ba3d4a21aea8e7d8ee988932}
+      \strng{authorfullhash}{6b600542ba3d4a21aea8e7d8ee988932}
+      \strng{authorfullhashraw}{6b600542ba3d4a21aea8e7d8ee988932}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{4}
+      \field{isbn}{978-0-7695-5166-1}
+      \field{title}{{Guide to the Software Engineering Body of Knowledge (SWEBOK)}}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.computer.org/education/bodies-of-knowledge/software-engineering
+      \endverb
+      \verb{url}
+      \verb https://www.computer.org/education/bodies-of-knowledge/software-engineering
+      \endverb
+    \endentry
     \entry{Porter2024SelfDesigning}{article}{}{}
       \name{author}{3}{}{%
         {{hash=e089d5f706cc0a43a27019f5530d69ee}{%
@@ -775,8 +810,8 @@
       \strng{authornamehash}{e1ce15e2eeb53e3fc8c6035fd761594b}
       \strng{authorfullhash}{e1ce15e2eeb53e3fc8c6035fd761594b}
       \strng{authorfullhashraw}{e1ce15e2eeb53e3fc8c6035fd761594b}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the 18th International Conference on Evaluation and Assessment in Software Engineering}
