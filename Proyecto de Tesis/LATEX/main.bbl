@@ -133,6 +133,101 @@
       \verb https://www.computer.org/education/bodies-of-knowledge/software-engineering
       \endverb
     \endentry
+    \entry{Maier2022}{inbook}{}{}
+      \name{author}{3}{}{%
+        {{hash=e030b6997e88bdcad76b3597e803eaf4}{%
+           family={Maier},
+           familyi={M\bibinitperiod},
+           given={Anja},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8cea514795a58a7caac32be7fcf0611f}{%
+           family={Oehmen},
+           familyi={O\bibinitperiod},
+           given={Josef},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f1223efc6476fcb23aee1056ebe59867}{%
+           family={Vermaas},
+           familyi={V\bibinitperiod},
+           given={Pieter\bibnamedelima E.},
+           giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{215a727ef73d16ae67c17e6755dd0fce}
+      \strng{fullhash}{0624e984d271c90fca5df4ed816c49c7}
+      \strng{fullhashraw}{0624e984d271c90fca5df4ed816c49c7}
+      \strng{bibnamehash}{0624e984d271c90fca5df4ed816c49c7}
+      \strng{authorbibnamehash}{0624e984d271c90fca5df4ed816c49c7}
+      \strng{authornamehash}{215a727ef73d16ae67c17e6755dd0fce}
+      \strng{authorfullhash}{0624e984d271c90fca5df4ed816c49c7}
+      \strng{authorfullhashraw}{0624e984d271c90fca5df4ed816c49c7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Handbook of Engineering Systems Design}
+      \field{isbn}{9783030811594}
+      \field{title}{Engineering Systems Design: A Look to the Future}
+      \field{year}{2022}
+      \field{pages}{1035\bibrangedash 1046}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1007/978-3-030-81159-4_31
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/978-3-030-81159-4_31
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/978-3-030-81159-4_31
+      \endverb
+    \endentry
+    \entry{Crowder2016}{book}{}{}
+      \name{author}{3}{}{%
+        {{hash=5c59f04707b3ab7c9ab5c3c9351bc42f}{%
+           family={Crowder},
+           familyi={C\bibinitperiod},
+           given={James\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=94649b0836302050954eb43fb06c6169}{%
+           family={Carbone},
+           familyi={C\bibinitperiod},
+           given={John\bibnamedelima N.},
+           giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=d068205ebb10a4cd3d1d426ce38e961a}{%
+           family={Demijohn},
+           familyi={D\bibinitperiod},
+           given={Russell},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{708cc2de2940d31103a46bf5e9cf9de6}
+      \strng{fullhash}{8a9bb17ed3fad0fdae64f6e65cddcdeb}
+      \strng{fullhashraw}{8a9bb17ed3fad0fdae64f6e65cddcdeb}
+      \strng{bibnamehash}{8a9bb17ed3fad0fdae64f6e65cddcdeb}
+      \strng{authorbibnamehash}{8a9bb17ed3fad0fdae64f6e65cddcdeb}
+      \strng{authornamehash}{708cc2de2940d31103a46bf5e9cf9de6}
+      \strng{authorfullhash}{8a9bb17ed3fad0fdae64f6e65cddcdeb}
+      \strng{authorfullhashraw}{8a9bb17ed3fad0fdae64f6e65cddcdeb}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9783319223988}
+      \field{title}{Multidisciplinary Systems Engineering: Architecting the Design Process}
+      \field{year}{2016}
+      \verb{doi}
+      \verb 10.1007/978-3-319-22398-8
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/978-3-319-22398-8
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/978-3-319-22398-8
+      \endverb
+    \endentry
     \entry{Kruchten1995The}{article}{}{}
       \name{author}{1}{}{%
         {{hash=dca64ceea72185cf29648fc367546339}{%
@@ -149,8 +244,8 @@
       \strng{authornamehash}{dca64ceea72185cf29648fc367546339}
       \strng{authorfullhash}{dca64ceea72185cf29648fc367546339}
       \strng{authorfullhashraw}{dca64ceea72185cf29648fc367546339}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Softw.}
@@ -189,8 +284,8 @@
       \strng{authornamehash}{daaeb7670772db8a47b015a37e6672bc}
       \strng{authorfullhash}{21253d0e49e6fb0aca5bd5f0a246452c}
       \strng{authorfullhashraw}{21253d0e49e6fb0aca5bd5f0a246452c}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{cs.SE}
@@ -229,8 +324,8 @@
       \strng{authornamehash}{70341b3bfcce7026902f4eb1e4111b58}
       \strng{authorfullhash}{70341b3bfcce7026902f4eb1e4111b58}
       \strng{authorfullhashraw}{70341b3bfcce7026902f4eb1e4111b58}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{9}
@@ -693,8 +788,8 @@
       \strng{authornamehash}{69c1efa4f6ab0deea3df12876fea0709}
       \strng{authorfullhash}{b37368b8b0982e5c110334919bd2e0e1}
       \strng{authorfullhashraw}{b37368b8b0982e5c110334919bd2e0e1}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{BMJ}
@@ -735,8 +830,8 @@
       \strng{authornamehash}{bfd5bed68d4e3feb5cdc7e00ae82b588}
       \strng{authorfullhash}{bfd5bed68d4e3feb5cdc7e00ae82b588}
       \strng{authorfullhashraw}{bfd5bed68d4e3feb5cdc7e00ae82b588}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{01}

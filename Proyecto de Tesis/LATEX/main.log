@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.9.1)  2 SEP 2026 13:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.9.1)  2 SEP 2026 18:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -979,26 +979,26 @@ Cap\'{\i }tulo 1.
 [1
 
 
-] [2] [3] [4]
+] [2] [3] [4] [5]
 Cap\'{\i }tulo 2.
 
-LaTeX Warning: Citation 'ISOIEEE' on page 5 undefined on input line 241.
+LaTeX Warning: Citation 'ISOIEEE' on page 6 undefined on input line 241.
 
-[5
+[6
 
-] [6] [7] [8]
+] [7] [8] [9]
 Overfull \vbox (68.8061pt too high) has occurred while \output is active []
 
 
-[9]
+[10]
 Cap\'{\i }tulo 3.
-[10
+[11
 
-] [11]
+] [12]
 Cap\'{\i }tulo 4.
-[12
+[13
 
-] [13] [14]
+] [14] [15]
 Underfull \hbox (badness 10000) in paragraph at lines 428--428
 []|\T1/cmtt/m/n/12 TITLE-ABS-KEY ((("self-architecting" OR
  []
@@ -1094,11 +1094,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 453--453
 []|\T1/cmr/m/n/12 12. Self/Auto-
  []
 
-[15]
+[16]
 Overfull \vbox (8.28314pt too high) has occurred while \output is active []
 
 
-[16] [17] [18]
+[17] [18] [19]
 Package epstopdf Info: Source file: <figures/Fig1_Workflow.eps>
 (epstopdf)                    date: 2026-08-18 20:59:10
 (epstopdf)                    size: 183240 bytes
@@ -1110,13 +1110,13 @@ Package epstopdf Info: Source file: <figures/Fig1_Workflow.eps>
 w-eps-converted-to.pdf figures/Fig1_Workflow.eps>
 (epstopdf)             \includegraphics on input line 519.
 Package epstopdf Info: Output file is already uptodate.
-<figures/Fig1_Workflow-eps-converted-to.pdf, id=584, 604.2575pt x 709.65125pt>
+<figures/Fig1_Workflow-eps-converted-to.pdf, id=592, 604.2575pt x 709.65125pt>
 File: figures/Fig1_Workflow-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/Fig1_Workflow-eps-converted-to.pdf>
 Package pdftex.def Info: figures/Fig1_Workflow-eps-converted-to.pdf  used on in
 put line 519.
 (pdftex.def)             Requested size: 320.46199pt x 376.3516pt.
- [19]
+ [20]
 Package epstopdf Info: Source file: <figures/Fig2_StudySelection.eps>
 (epstopdf)                    date: 2026-08-18 20:59:10
 (epstopdf)                    size: 578496 bytes
@@ -1128,23 +1128,23 @@ to.pdf>
 lection-eps-converted-to.pdf figures/Fig2_StudySelection.eps>
 (epstopdf)             \includegraphics on input line 528.
 Package epstopdf Info: Output file is already uptodate.
-<figures/Fig2_StudySelection-eps-converted-to.pdf, id=591, 717.68124pt x 685.56
+<figures/Fig2_StudySelection-eps-converted-to.pdf, id=600, 717.68124pt x 685.56
 125pt>
 File: figures/Fig2_StudySelection-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/Fig2_StudySelection-eps-converted-to.pdf>
 Package pdftex.def Info: figures/Fig2_StudySelection-eps-converted-to.pdf  used
  on input line 528.
 (pdftex.def)             Requested size: 412.02156pt x 393.58792pt.
- [20 <./figures/Fig1_Workflow-eps-converted-to.pdf>]
-[21 <./figures/Fig2_StudySelection-eps-converted-to.pdf>] [22] [23]
+ [21 <./figures/Fig1_Workflow-eps-converted-to.pdf>]
+[22 <./figures/Fig2_StudySelection-eps-converted-to.pdf>] [23] [24]
 Cap\'{\i }tulo 5.
-[24
+[25
 
 ]
 Cap\'{\i }tulo 6.
-[25
+[26
 
-] [26
+] [27
 
 ]
 Overfull \hbox (7.38779pt too wide) in paragraph at lines 622--622
@@ -1152,9 +1152,9 @@ Overfull \hbox (7.38779pt too wide) in paragraph at lines 622--622
 ry, 2016, págs. 1073[]1075,
  []
 
-[27]
+[28] [29]
 Ap\'{e}ndice A.
-[28
+[30
 
 ] (main.aux
 LaTeX Info: Redefining \. on input line 12.
@@ -1171,10 +1171,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23395 strings out of 467441
- 417084 string characters out of 5407592
- 1354743 words of memory out of 5000000
- 52277 multiletter control sequences out of 15000+600000
+ 23406 strings out of 467441
+ 417419 string characters out of 5407592
+ 1354857 words of memory out of 5000000
+ 52284 multiletter control sequences out of 15000+600000
  643982 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,12n,77p,1345b,2369s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1194,9 +1194,9 @@ Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\
 Users\Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk
 > <C:\Users\Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1
 440.pk>
-Output written on main.pdf (39 pages, 992077 bytes).
+Output written on main.pdf (41 pages, 997181 bytes).
 PDF statistics:
- 1354 PDF objects out of 1440 (max. 8388607)
- 143 named destinations out of 1000 (max. 500000)
+ 1376 PDF objects out of 1440 (max. 8388607)
+ 147 named destinations out of 1000 (max. 500000)
  624 words of extra memory for PDF output out of 10000 (max. 10000000)
 
