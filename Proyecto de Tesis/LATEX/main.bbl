@@ -333,6 +333,63 @@
       \field{title}{Software Engineering}
       \field{year}{2011}
     \endentry
+    \entry{mctswiechowski2022}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=332ed462f69f0196a1ef29aa6004e9eb}{%
+           family={Świechowski},
+           familyi={Ś\bibinitperiod},
+           given={Maciej},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9df5ad96f4eb44a01e07c4d212d64974}{%
+           family={Godlewski},
+           familyi={G\bibinitperiod},
+           given={Konrad},
+           giveni={K\bibinitperiod}}}%
+        {{hash=4185c7ee5350bf591989b6cb7edeea79}{%
+           family={Sawicki},
+           familyi={S\bibinitperiod},
+           given={Bartosz},
+           giveni={B\bibinitperiod}}}%
+        {{hash=d5cdee6ec583c792c2f20ddddc2874ff}{%
+           family={Mańdziuk},
+           familyi={M\bibinitperiod},
+           given={Jacek},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{d3741f44919172ce39a408a089354add}
+      \strng{fullhash}{c0bf6d4ea49b1135b05402348c143a0d}
+      \strng{fullhashraw}{c0bf6d4ea49b1135b05402348c143a0d}
+      \strng{bibnamehash}{c0bf6d4ea49b1135b05402348c143a0d}
+      \strng{authorbibnamehash}{c0bf6d4ea49b1135b05402348c143a0d}
+      \strng{authornamehash}{d3741f44919172ce39a408a089354add}
+      \strng{authorfullhash}{c0bf6d4ea49b1135b05402348c143a0d}
+      \strng{authorfullhashraw}{c0bf6d4ea49b1135b05402348c143a0d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1573-7462}
+      \field{journaltitle}{Artificial Intelligence Review}
+      \field{number}{3}
+      \field{title}{Monte Carlo Tree Search: a review of recent modifications and applications}
+      \field{volume}{56}
+      \field{year}{2022}
+      \field{pages}{2497\bibrangedash 2562}
+      \range{pages}{66}
+      \verb{doi}
+      \verb 10.1007/s10462-022-10228-y
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/s10462-022-10228-y
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/s10462-022-10228-y
+      \endverb
+    \endentry
     \entry{Porter2024SelfDesigning}{article}{}{}
       \name{author}{3}{}{%
         {{hash=e089d5f706cc0a43a27019f5530d69ee}{%
@@ -622,8 +679,8 @@
       \strng{authornamehash}{b7c23a6ca22d6e428fea93c1aad37744}
       \strng{authorfullhash}{3f8e79d889b99af7950a5f0b9c22270d}
       \strng{authorfullhashraw}{3f8e79d889b99af7950a5f0b9c22270d}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the 40th International Conference on Software Engineering}

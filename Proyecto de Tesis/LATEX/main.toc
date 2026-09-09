@@ -28,7 +28,7 @@
 \contentsline {subsection}{\numberline {2.4.1}Principios de inferencia y generación de texto en modelos de lenguaje}{7}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}Capacidades de los LLMs en la comprensión, diseño y generación de código}{8}{subsection.2.4.2}%
 \contentsline {subsection}{\numberline {2.4.3}Limitaciones actuales: Alucinaciones, ventanas de contexto y deficiencias en el razonamiento algorítmico determinista}{8}{subsection.2.4.3}%
-\contentsline {section}{\numberline {2.5}Arbol de busqueda de Monte-Carlo (MCTS)}{9}{section.2.5}%
+\contentsline {section}{\numberline {2.5}Arbol de busqueda de Monte-Carlo (MCTS)}{8}{section.2.5}%
 \contentsline {subsection}{\numberline {2.5.1}Espacios de búsqueda y métodos de toma de decisiones secuenciales}{9}{subsection.2.5.1}%
 \contentsline {subsection}{\numberline {2.5.2}Fases algorítmicas del MCTS}{9}{subsection.2.5.2}%
 \contentsline {section}{\numberline {2.6}Ontología como representacion de conocimiento}{9}{section.2.6}%
