@@ -823,6 +823,53 @@
       \endverb
       \keyw{automatic programming,data structures,program synthesis}
     \endentry
+    \entry{zhangRoleArtificialIntelligence2024}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=8c2a632f3d19dea656552340adc01a18}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Qinbo},
+           giveni={Q\bibinitperiod}}}%
+      }
+      \strng{namehash}{8c2a632f3d19dea656552340adc01a18}
+      \strng{fullhash}{8c2a632f3d19dea656552340adc01a18}
+      \strng{fullhashraw}{8c2a632f3d19dea656552340adc01a18}
+      \strng{bibnamehash}{8c2a632f3d19dea656552340adc01a18}
+      \strng{authorbibnamehash}{8c2a632f3d19dea656552340adc01a18}
+      \strng{authornamehash}{8c2a632f3d19dea656552340adc01a18}
+      \strng{authorfullhash}{8c2a632f3d19dea656552340adc01a18}
+      \strng{authorfullhashraw}{8c2a632f3d19dea656552340adc01a18}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{26}
+      \field{issn}{2755-2721, 2755-273X}
+      \field{journaltitle}{Applied and Computational Engineering}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{1}
+      \field{shortjournal}{ACE}
+      \field{title}{The {{Role}} of {{Artificial Intelligence}} in {{Modern Software Engineering}}}
+      \field{urlday}{18}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{97}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{18\bibrangedash 23}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.54254/2755-2721/97/20241339
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ewadirect.com/proceedings/ace/article/view/17484
+      \endverb
+      \verb{url}
+      \verb https://www.ewadirect.com/proceedings/ace/article/view/17484
+      \endverb
+    \endentry
     \entry{Pagen2020PRISMA}{article}{}{}
       \name{author}{26}{}{%
         {{hash=016b86afb0a98379bf77b3f074f34761}{%
