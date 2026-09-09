@@ -390,6 +390,37 @@
       \verb http://dx.doi.org/10.1007/s10462-022-10228-y
       \endverb
     \endentry
+    \entry{duran2026seleccion}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{hash=b2571093a9f15851cd9f4d13da420046}{%
+           family={Duran\bibnamedelima Polanco},
+           familyi={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Liliana},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Centro de Investigación y de Estudios Avanzados del Instituto Politécnico Nacional, Unidad Guadalajara}%
+      }
+      \list{location}{1}{%
+        {Guadalajara, Jalisco, México}%
+      }
+      \strng{namehash}{b2571093a9f15851cd9f4d13da420046}
+      \strng{fullhash}{b2571093a9f15851cd9f4d13da420046}
+      \strng{fullhashraw}{b2571093a9f15851cd9f4d13da420046}
+      \strng{bibnamehash}{b2571093a9f15851cd9f4d13da420046}
+      \strng{authorbibnamehash}{b2571093a9f15851cd9f4d13da420046}
+      \strng{authornamehash}{b2571093a9f15851cd9f4d13da420046}
+      \strng{authorfullhash}{b2571093a9f15851cd9f4d13da420046}
+      \strng{authorfullhashraw}{b2571093a9f15851cd9f4d13da420046}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{2}
+      \field{title}{Selección de algoritmos para la toma de decisiones en el IoT basada en un modelo semántico}
+      \field{type}{Tesis de Maestría}
+      \field{year}{2026}
+    \endentry
     \entry{Porter2024SelfDesigning}{article}{}{}
       \name{author}{3}{}{%
         {{hash=e089d5f706cc0a43a27019f5530d69ee}{%
@@ -625,8 +656,8 @@
       \strng{authornamehash}{63efc10e3c0b49e711e574ef77d0dbdd}
       \strng{authorfullhash}{63efc10e3c0b49e711e574ef77d0dbdd}
       \strng{authorfullhashraw}{63efc10e3c0b49e711e574ef77d0dbdd}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the 2016 24th ACM SIGSOFT International Symposium on Foundations of Software Engineering}
