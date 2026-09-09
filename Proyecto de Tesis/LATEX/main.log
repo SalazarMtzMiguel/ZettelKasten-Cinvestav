@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.9.1)  9 SEP 2026 11:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.9.1)  9 SEP 2026 11:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -986,119 +986,115 @@ LaTeX Warning: Citation 'ISOIEEE' on page 5 undefined on input line 241.
 
 [5
 
-] [6] [7] [8]
-
-LaTeX Warning: Citation '' on page 9 undefined on input line 321.
-
-[9]
+] [6] [7] [8] [9] [10]
 Cap\'{\i }tulo 3.
-[10
+[11
 
-] [11]
+] [12]
 Cap\'{\i }tulo 4.
-[12
+[13
 
-] [13] [14]
-Underfull \hbox (badness 10000) in paragraph at lines 457--457
+] [14] [15]
+Underfull \hbox (badness 10000) in paragraph at lines 458--458
 []|\T1/cmtt/m/n/12 TITLE-ABS-KEY ((("self-architecting" OR
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 457--457
+Underfull \hbox (badness 10000) in paragraph at lines 458--458
 \T1/cmtt/m/n/12 "self architectural" OR " auto-architecting"
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 457--457
+Underfull \hbox (badness 10000) in paragraph at lines 458--458
 \T1/cmtt/m/n/12 OR "auto architectural") W/3 "system*") OR
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 457--457
+Underfull \hbox (badness 10000) in paragraph at lines 458--458
 \T1/cmtt/m/n/12 (("self-architectural" OR "auto-architectural") W/3
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 457--457
+Underfull \hbox (badness 10000) in paragraph at lines 458--458
 \T1/cmtt/m/n/12 "design")) AND PUBYEAR > 2014 AND PUBYEAR < 2027 AND
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 457--457
+Underfull \hbox (badness 10000) in paragraph at lines 458--458
 \T1/cmtt/m/n/12 (LIMIT-TO (SUBJAREA, "COMP") OR LIMIT-TO (SUBJAREA,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 471--471
+Underfull \hbox (badness 10000) in paragraph at lines 472--472
 []|\T1/cmr/m/n/12 1. Self-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 471--471
+Underfull \hbox (badness 10000) in paragraph at lines 472--472
 \T1/cmr/m/n/12 Architecting
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 473--473
+Underfull \hbox (badness 10000) in paragraph at lines 474--474
 []|\T1/cmr/m/n/12 3. Evo-lu-tio-nary
  []
 
 
-Underfull \hbox (badness 1297) in paragraph at lines 474--474
+Underfull \hbox (badness 1297) in paragraph at lines 475--475
 []|\T1/cmr/m/n/12 (("generative de-sign" OR "ge-ne-ra-ti-ve soft-wa-re de-sign"
 ) AND
  []
 
 
-Underfull \hbox (badness 3168) in paragraph at lines 475--475
+Underfull \hbox (badness 3168) in paragraph at lines 476--476
 []|\T1/cmr/m/n/12 5. Soft-wa-re De-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 476--476
+Underfull \hbox (badness 10000) in paragraph at lines 477--477
 []|\T1/cmr/m/n/12 6. Self-Sufficient
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 478--478
+Underfull \hbox (badness 10000) in paragraph at lines 479--479
 []|\T1/cmr/m/n/12 8. Self/Auto-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 478--478
+Underfull \hbox (badness 10000) in paragraph at lines 479--479
 \T1/cmr/m/n/12 Architectural
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 479--479
+Underfull \hbox (badness 10000) in paragraph at lines 480--480
 []|\T1/cmr/m/n/12 9. Self/Auto-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 480--480
+Underfull \hbox (badness 10000) in paragraph at lines 481--481
 []|\T1/cmr/m/n/12 10. Self/Auto-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 480--480
+Underfull \hbox (badness 10000) in paragraph at lines 481--481
 \T1/cmr/m/n/12 Component
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 481--481
+Underfull \hbox (badness 10000) in paragraph at lines 482--482
 []|\T1/cmr/m/n/12 11. Self/Auto-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 482--482
+Underfull \hbox (badness 10000) in paragraph at lines 483--483
 []|\T1/cmr/m/n/12 12. Self/Auto-
  []
 
-[15]
+[16]
 Overfull \vbox (8.28314pt too high) has occurred while \output is active []
 
 
-[16] [17] [18]
+[17] [18] [19]
 Package epstopdf Info: Source file: <figures/Fig1_Workflow.eps>
 (epstopdf)                    date: 2026-08-18 20:59:10
 (epstopdf)                    size: 183240 bytes
@@ -1108,15 +1104,15 @@ Package epstopdf Info: Source file: <figures/Fig1_Workflow.eps>
 (epstopdf)                    size: 63031 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figures/Fig1_Workflo
 w-eps-converted-to.pdf figures/Fig1_Workflow.eps>
-(epstopdf)             \includegraphics on input line 548.
+(epstopdf)             \includegraphics on input line 549.
 Package epstopdf Info: Output file is already uptodate.
-<figures/Fig1_Workflow-eps-converted-to.pdf, id=588, 604.2575pt x 709.65125pt>
+<figures/Fig1_Workflow-eps-converted-to.pdf, id=596, 604.2575pt x 709.65125pt>
 File: figures/Fig1_Workflow-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/Fig1_Workflow-eps-converted-to.pdf>
 Package pdftex.def Info: figures/Fig1_Workflow-eps-converted-to.pdf  used on in
-put line 548.
+put line 549.
 (pdftex.def)             Requested size: 320.46199pt x 376.3516pt.
- [19]
+ [20]
 Package epstopdf Info: Source file: <figures/Fig2_StudySelection.eps>
 (epstopdf)                    date: 2026-08-18 20:59:10
 (epstopdf)                    size: 578496 bytes
@@ -1126,35 +1122,35 @@ to.pdf>
 (epstopdf)                    size: 560289 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figures/Fig2_StudySe
 lection-eps-converted-to.pdf figures/Fig2_StudySelection.eps>
-(epstopdf)             \includegraphics on input line 557.
+(epstopdf)             \includegraphics on input line 558.
 Package epstopdf Info: Output file is already uptodate.
-<figures/Fig2_StudySelection-eps-converted-to.pdf, id=595, 717.68124pt x 685.56
+<figures/Fig2_StudySelection-eps-converted-to.pdf, id=604, 717.68124pt x 685.56
 125pt>
 File: figures/Fig2_StudySelection-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/Fig2_StudySelection-eps-converted-to.pdf>
 Package pdftex.def Info: figures/Fig2_StudySelection-eps-converted-to.pdf  used
- on input line 557.
+ on input line 558.
 (pdftex.def)             Requested size: 412.02156pt x 393.58792pt.
- [20 <./figures/Fig1_Workflow-eps-converted-to.pdf>]
-[21 <./figures/Fig2_StudySelection-eps-converted-to.pdf>] [22] [23]
+ [21 <./figures/Fig1_Workflow-eps-converted-to.pdf>]
+[22 <./figures/Fig2_StudySelection-eps-converted-to.pdf>] [23] [24]
 Cap\'{\i }tulo 5.
-[24
+[25
 
 ]
 Cap\'{\i }tulo 6.
-[25
+[26
 
-] [26
+] [27
 
 ]
-Overfull \hbox (7.38779pt too wide) in paragraph at lines 651--651
+Overfull \hbox (7.38779pt too wide) in paragraph at lines 652--652
 \T1/cmr/m/n/12 2016, Seattle, WA, USA: As-so-cia-tion for Com-pu-ting Ma-chi-ne
 ry, 2016, págs. 1073[]1075,
  []
 
-[27] [28]
+[28] [29]
 Ap\'{e}ndice A.
-[29
+[30
 
 ] (main.aux
 LaTeX Info: Redefining \. on input line 12.
@@ -1171,10 +1167,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23411 strings out of 467441
- 417756 string characters out of 5407592
- 1355003 words of memory out of 5000000
- 52289 multiletter control sequences out of 15000+600000
+ 23420 strings out of 467441
+ 418151 string characters out of 5407592
+ 1356159 words of memory out of 5000000
+ 52295 multiletter control sequences out of 15000+600000
  643982 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,12n,77p,1345b,2369s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1194,9 +1190,9 @@ Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\
 Users\Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk
 > <C:\Users\Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1
 440.pk>
-Output written on main.pdf (40 pages, 1003485 bytes).
+Output written on main.pdf (41 pages, 1006554 bytes).
 PDF statistics:
- 1380 PDF objects out of 1440 (max. 8388607)
- 147 named destinations out of 1000 (max. 500000)
+ 1392 PDF objects out of 1440 (max. 8388607)
+ 150 named destinations out of 1000 (max. 500000)
  616 words of extra memory for PDF output out of 10000 (max. 10000000)
 

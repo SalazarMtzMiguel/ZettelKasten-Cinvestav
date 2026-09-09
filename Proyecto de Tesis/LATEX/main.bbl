@@ -390,6 +390,55 @@
       \verb http://dx.doi.org/10.1007/s10462-022-10228-y
       \endverb
     \endentry
+    \entry{OntologyGuarino2009}{inbook}{}{}
+      \name{author}{3}{}{%
+        {{hash=daa1e3ed226808545f524143642ecf54}{%
+           family={Guarino},
+           familyi={G\bibinitperiod},
+           given={Nicola},
+           giveni={N\bibinitperiod}}}%
+        {{hash=ad8596d49553270898b40c1560703636}{%
+           family={Oberle},
+           familyi={O\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=3489f3873d85937d1977e3a21e5e76a7}{%
+           family={Staab},
+           familyi={S\bibinitperiod},
+           given={Steffen},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{6c3c7597845804f3adc7cf5bb612d6c3}
+      \strng{fullhash}{991a5696e889a30328c95db9f6b06457}
+      \strng{fullhashraw}{991a5696e889a30328c95db9f6b06457}
+      \strng{bibnamehash}{991a5696e889a30328c95db9f6b06457}
+      \strng{authorbibnamehash}{991a5696e889a30328c95db9f6b06457}
+      \strng{authornamehash}{6c3c7597845804f3adc7cf5bb612d6c3}
+      \strng{authorfullhash}{991a5696e889a30328c95db9f6b06457}
+      \strng{authorfullhashraw}{991a5696e889a30328c95db9f6b06457}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Handbook on Ontologies}
+      \field{isbn}{9783540926733}
+      \field{title}{What Is an Ontology?}
+      \field{year}{2009}
+      \field{pages}{1\bibrangedash 17}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1007/978-3-540-92673-3_0
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/978-3-540-92673-3_0
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/978-3-540-92673-3_0
+      \endverb
+    \endentry
     \entry{duran2026seleccion}{thesis}{}{}
       \name{author}{1}{}{%
         {{hash=b2571093a9f15851cd9f4d13da420046}{%
@@ -420,6 +469,48 @@
       \field{title}{Selección de algoritmos para la toma de decisiones en el IoT basada en un modelo semántico}
       \field{type}{Tesis de Maestría}
       \field{year}{2026}
+    \endentry
+    \entry{DURANPOLANCO2023100904}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=6daeb6811f4bd67b61dc25b33ffe99ca}{%
+           family={Durán-Polanco},
+           familyi={D\bibinithyphendelim P\bibinitperiod},
+           given={Liliana},
+           giveni={L\bibinitperiod}}}%
+        {{hash=09ecdbe11b3bc22c366453cdc7dcffa4}{%
+           family={Siller},
+           familyi={S\bibinitperiod},
+           given={Mario},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{c870bd896795848331f11a87a348dc63}
+      \strng{fullhash}{c870bd896795848331f11a87a348dc63}
+      \strng{fullhashraw}{c870bd896795848331f11a87a348dc63}
+      \strng{bibnamehash}{c870bd896795848331f11a87a348dc63}
+      \strng{authorbibnamehash}{c870bd896795848331f11a87a348dc63}
+      \strng{authornamehash}{c870bd896795848331f11a87a348dc63}
+      \strng{authorfullhash}{c870bd896795848331f11a87a348dc63}
+      \strng{authorfullhashraw}{c870bd896795848331f11a87a348dc63}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2542-6605}
+      \field{journaltitle}{Internet of Things}
+      \field{title}{A taxonomy for decision making in IoT systems}
+      \field{volume}{24}
+      \field{year}{2023}
+      \field{pages}{100904}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.iot.2023.100904
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S2542660523002275
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S2542660523002275
+      \endverb
     \endentry
     \entry{Porter2024SelfDesigning}{article}{}{}
       \name{author}{3}{}{%
@@ -546,8 +637,8 @@
       \strng{authorfullhash}{d94ee572b9b2b49e8d7138a7a042f6e0}
       \strng{authorfullhashraw}{d94ee572b9b2b49e8d7138a7a042f6e0}
       \field{extraname}{1}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{<p>We propose a solution based on first principles and AI to the decades-old problem of data structure design. Instead of working on individual designs that each can only be helpful in a small set of environments, we propose the construction of an engine, a Data Alchemist, which learns how to blend fine-grained data structure design principles to automatically synthesize brand new data structures.</p>}
@@ -622,8 +713,8 @@
       \strng{authorfullhash}{19b0ed7abe877c5b1275fd141248f6ef}
       \strng{authorfullhashraw}{19b0ed7abe877c5b1275fd141248f6ef}
       \field{extraname}{2}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Data Eng. Bull.}
