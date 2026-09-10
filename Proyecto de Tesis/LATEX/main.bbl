@@ -284,6 +284,7 @@
       \strng{authornamehash}{daaeb7670772db8a47b015a37e6672bc}
       \strng{authorfullhash}{21253d0e49e6fb0aca5bd5f0a246452c}
       \strng{authorfullhashraw}{21253d0e49e6fb0aca5bd5f0a246452c}
+      \field{extraname}{1}
       \field{sortinit}{7}
       \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
@@ -823,52 +824,65 @@
       \endverb
       \keyw{automatic programming,data structures,program synthesis}
     \endentry
-    \entry{zhangRoleArtificialIntelligence2024}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=8c2a632f3d19dea656552340adc01a18}{%
+    \entry{Maadli2025}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=ccfe4b6462cc2c41c5eac65db8ee7b55}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Ruiyin},
+           giveni={R\bibinitperiod}}}%
+        {{hash=6c7200e4b0c3035cbd3caf92698aa359}{%
            family={Zhang},
            familyi={Z\bibinitperiod},
-           given={Qinbo},
-           giveni={Q\bibinitperiod}}}%
+           given={Yiran},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=83f23f4b03ba695beb33cc220aa82248}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Xiyu},
+           giveni={X\bibinitperiod}}}%
+        {{hash=41658c7f1126a9a84da600b357c5ceb5}{%
+           family={Liang},
+           familyi={L\bibinitperiod},
+           given={Peng},
+           giveni={P\bibinitperiod}}}%
+        {{hash=7aa93e9d7062492b9ca284653a9e9929}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Weisong},
+           giveni={W\bibinitperiod}}}%
+        {{hash=a6ea168bf59987fdcef79f355405ba98}{%
+           family={Xuan},
+           familyi={X\bibinitperiod},
+           given={Jifeng},
+           giveni={J\bibinitperiod}}}%
+        {{hash=59ead1ce694d996ebe61da34178792ee}{%
+           family={Jin},
+           familyi={J\bibinitperiod},
+           given={Zhi},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=621013bf54d3546375ad71f17f020b5b}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Yang},
+           giveni={Y\bibinitperiod}}}%
       }
-      \strng{namehash}{8c2a632f3d19dea656552340adc01a18}
-      \strng{fullhash}{8c2a632f3d19dea656552340adc01a18}
-      \strng{fullhashraw}{8c2a632f3d19dea656552340adc01a18}
-      \strng{bibnamehash}{8c2a632f3d19dea656552340adc01a18}
-      \strng{authorbibnamehash}{8c2a632f3d19dea656552340adc01a18}
-      \strng{authornamehash}{8c2a632f3d19dea656552340adc01a18}
-      \strng{authorfullhash}{8c2a632f3d19dea656552340adc01a18}
-      \strng{authorfullhashraw}{8c2a632f3d19dea656552340adc01a18}
+      \strng{namehash}{3e534aae46d44d58199d214a7429805f}
+      \strng{fullhash}{2fcaf447e12e050f6704873229942897}
+      \strng{fullhashraw}{2fcaf447e12e050f6704873229942897}
+      \strng{bibnamehash}{3e534aae46d44d58199d214a7429805f}
+      \strng{authorbibnamehash}{3e534aae46d44d58199d214a7429805f}
+      \strng{authornamehash}{3e534aae46d44d58199d214a7429805f}
+      \strng{authorfullhash}{2fcaf447e12e050f6704873229942897}
+      \strng{authorfullhashraw}{2fcaf447e12e050f6704873229942897}
+      \field{extraname}{2}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{26}
-      \field{issn}{2755-2721, 2755-273X}
-      \field{journaltitle}{Applied and Computational Engineering}
-      \field{langid}{english}
-      \field{month}{11}
-      \field{number}{1}
-      \field{shortjournal}{ACE}
-      \field{title}{The {{Role}} of {{Artificial Intelligence}} in {{Modern Software Engineering}}}
-      \field{urlday}{18}
-      \field{urlmonth}{8}
-      \field{urlyear}{2025}
-      \field{volume}{97}
-      \field{year}{2024}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{18\bibrangedash 23}
-      \range{pages}{6}
-      \verb{doi}
-      \verb 10.54254/2755-2721/97/20241339
-      \endverb
-      \verb{urlraw}
-      \verb https://www.ewadirect.com/proceedings/ace/article/view/17484
-      \endverb
-      \verb{url}
-      \verb https://www.ewadirect.com/proceedings/ace/article/view/17484
-      \endverb
+      \field{journaltitle}{arXiv preprint arXiv:2507.21382}
+      \field{title}{Maad: Automate software architecture design through knowledge-driven multi-agent collaboration}
+      \field{year}{2025}
     \endentry
     \entry{Pagen2020PRISMA}{article}{}{}
       \name{author}{26}{}{%
