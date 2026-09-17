@@ -233,13 +233,52 @@ El Marco Teórico constituye el cimiento conceptual sobre el cual se erige esta 
 En \cite{perez2024} se aborda el hecho de que los mismos sistemas no terminen en desecho si no, que sin intervención humana continúen su operación mediante la evolucionando o en su defecto sufran una metamorfosis dando pie a un nuevo sistema, esta perspectiva se conoce como el marco de los sistemas de auto-ingenieria.
 Los SES contemplan un proceso muy similar a la ingenieria de software tradicional, es decir, las actividades como lo son ingenieria de requerimientos, diseño, implementación, pruebas, etc.\cite{sommerville2011software} tienen lugar en este marco de trabajo. Para este trabajo unicamente nos enfocamos en el diseño del software \cite{swebok2014}, esto quiere decir que nos vamos a dedicar a entregar artefactos de diseño, nuestros planos del sistema antes de implementar en código.
 
-La teoria SES introduce conceptos que permiten identificar etapas y situaciones dentro de la vida de estos sistemas:
+La teoría SES introduce conceptos que permiten identificar fases y actividades dentro de la vida de estos sistemas \cite{PerezCarrillo2026}:
+
+\subsubsection{Fases de Operación y Mantenimiento (O \& M) y Evolución}
+A diferencia de la literatura tradicional que debate si el mantenimiento es un subconjunto de la evolución o viceversa, el marco SES establece las fases de Operación y Mantenimiento (O\&M) y Evolución como fases independientes.
 \begin{itemize}
+	\item Fase de O\&M: Se ejecutan mantenimientos correctivos, preventivos, adaptativos, aditivos y de mejora.
 	
+	\item 	Evolución por Mantenimiento: Se genera cuando los mantenimientos adaptativos, aditivos o perfectivos provocan cambios en los requerimientos.
+	\item Evolución por Cambio de Problema: Ocurre cuando cambia el problema que el sistema busca resolver, siempre y cuando la arquitectura actual sea capaz de soportar dichos cambios.
+\end{itemize}
+\subsubsection{Actividades de Self-O \& M y Self-Evolution}
+Son las actividades fundamentales que el sistema ejecuta de manera autónoma tras su despliegue dentro de las fases de O\&M y Evolución, respectivamente.
+\subsubsection{Punto de Ruptura / Breaking Point}
+Basado en la analogía de los puntos de inflexión (tipping points) en sistemas complejos, representa el umbral en el cual la arquitectura original del sistema ya no puede satisfacer los nuevos requerimientos.
+Al alcanzar el \textbf{Breaking Point}, se suspenden las actividades de Self-O\&M y Self-Evolution, desencadenando el inicio de un nuevo proceso e inicio de ciclo de vida de ingeniería.
+\subsubsection{Elasticidad del Sistema / System Elasticity}
+Fundamentada en los conceptos de evolucionabilidad (evolvability) y resiliencia.
+Se define como la capacidad del sistema para asimilar requerimientos nuevos o modificados sin la necesidad de construir un nuevo sistema.
+\subsubsection{Metamorfosis / Metamorphosis}
+
+Es la fase fundamental del paradigma SES, definida como la \textbf{trascendencia del sistema original (Sistema A) hacia un nuevo sistema (Sistema B)} mediante un nuevo proceso de Auto-Ingeniería tras alcanzar un punto de ruptura.
+Involucra la ejecución coordinada de las actividades SES \textit{Self-*: *Self-Requirements, Self-Design, Self-Implementation, Self-Testing* y *Self-Deployment.}
+
+Se desencadena bajo dos condiciones principales:
+\begin{itemize}
+	\item  Cuando se requiere un cambio de arquitectura a nivel conceptual (el problema o dominio de aplicación cambió y la arquitectura actual no puede resolverlo).
+	\item Cuando los cambios de requerimientos impactan la arquitectura lógica y esta es incapaz de acomodarlos.
+\end{itemize}
+A diferencia de la ingeniería tradicional donde un arquitecto humano toma la decisión, en el marco SES el propio sistema toma la decisión de manera autónoma.
+
+\subsubsection{Gestión de Cambios de Requerimientos / Requirements Change Management (RCM)}
+
+
+Estructura de requerimientos funcionales: Se dividen en dos componentes principales: \textbf{Funcionalidad} (las acciones principales expresadas en verbos) y \textbf{Configuración} (parámetros de tiempo, modo o condición). En los requerimientos no funcionales, las métricas y parámetros se tratan como componentes de configuración.
+Impacto según el componente:
+Si el cambio ocurre solo en la configuración, el sistema lo absorbe dentro de sus fases de O\&M y evolución.
+Si el cambio afecta la funcionalidad o genera un impacto en la arquitectura que la actual no soporta, se provoca una metamorfosis.
+Proceso RCM adaptado para SES (basado en \cite{sommerville2011software}):
+\begin{itemize}
+	\item  \textit{Especificación del Cambio}: Recepción y validación de la solicitud de cambio.
+	\item  \textit{Análisis del Cambio}: Evaluación de la elasticidad del sistema para determinar si el cambio produce una nueva versión o si se alcanzó el Breaking Point.
+	\item  \textit{Implementación del Cambio}: Si la arquitectura lo soporta, el sistema evoluciona a una nueva versión; si no lo soporta, se inicia un nuevo proceso de Auto-Ingeniería dando lugar a un nuevo sistema (metamorfosis).
 \end{itemize}
 
 
-\subsection{Marco de Sistemas de Auto-Ingeniería}
+\subsection{Meta-Arquitectura del Marco de Sistemas de Auto-Ingeniería}
 
 Los SES cuentan con el ether, el centro de operacion de estos sistemas, recordando el hecho de la existencia de dos momentos clave, la evolucion y la metamorfosis, Un sistema SES busca gestionar y ejecutar su propio proceso de ingenieria mas alla de su ciclo de vida convencional, prescindiendo de la intervencion humana. el ether se encarga de primeramente el mantenimiento el cual escorregir errores y defectos, 
 

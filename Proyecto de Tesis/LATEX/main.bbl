@@ -545,8 +545,8 @@
       \strng{authornamehash}{5aea8c516384ea7ce99e2018b9132c6d}
       \strng{authorfullhash}{47a00ed545445e3b81bdc29245863ac3}
       \strng{authorfullhashraw}{47a00ed545445e3b81bdc29245863ac3}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0001-0782}
@@ -1145,8 +1145,8 @@
       \strng{authornamehash}{e1ce15e2eeb53e3fc8c6035fd761594b}
       \strng{authorfullhash}{e1ce15e2eeb53e3fc8c6035fd761594b}
       \strng{authorfullhashraw}{e1ce15e2eeb53e3fc8c6035fd761594b}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the 18th International Conference on Evaluation and Assessment in Software Engineering}
