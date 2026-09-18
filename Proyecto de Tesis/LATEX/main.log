@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.9.1)  16 SEP 2026 22:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.9.17)  17 SEP 2026 20:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -33,23 +33,23 @@ Package: inputenc 2024/02/08 v1.3d Input encoding file
 Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
 )
 (C:\Users\Mikec\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2026/08/21 v26.11 The multilingual framework for LuaLaTeX, pdfLa
+Package: babel 2026/09/09 v26.12 The multilingual framework for LuaLaTeX, pdfLa
 TeX and XeLaTeX
 \babel@savecnt=\count285
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
-ne 2105.
+ne 2095.
 LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
-ne 2107.
+ne 2097.
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
-e 2109.
+e 2099.
 LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
-e 2110.
+e 2100.
 LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
-on input line 2111.
+on input line 2101.
 LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
-on input line 2113.
+on input line 2103.
 LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
-on input line 2138.
+on input line 2128.
 \U@D=\dimen151
 \l@unhyphenated=\language79
 
@@ -58,7 +58,7 @@ on input line 2138.
 \bbl@dirlevel=\count286
 Package babel Info: Configuration files are deprecated, as
 (babel)             they can break document portability.
-(babel)             Reported on input line 4332.
+(babel)             Reported on input line 4331.
 
 *************************************
 * Local config file bblopts.cfg used
@@ -70,7 +70,7 @@ File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
 (C:\Users\Mikec\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/es\babel
 -spanish.tex)
 Package babel Info: Importing font and identification data for 'spanish'
-(babel)             from babel-es.ini. Reported on input line 4460.
+(babel)             from babel-es.ini. Reported on input line 4459.
 
 (C:\Users\Mikec\AppData\Local\Programs\MiKTeX\tex/latex/babel-spanish\spanish.l
 df
@@ -1177,10 +1177,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23438 strings out of 467441
- 418581 string characters out of 5407592
+ 23436 strings out of 467441
+ 418547 string characters out of 5407591
  1356216 words of memory out of 5000000
- 52304 multiletter control sequences out of 15000+600000
+ 52302 multiletter control sequences out of 15000+600000
  643982 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,12n,77p,1345b,2367s stack positions out of 10000i,1000n,20000p,200000b,200000s
