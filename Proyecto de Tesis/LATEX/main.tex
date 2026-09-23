@@ -624,11 +624,23 @@ La revisión revela un punto de inflexión hacia la automatización del diseño 
 
 \subsection{Definicion y conceptualizacion}
 
+El auto-diseño se define como el conjunto de tareas que un sistema realiza para dar como resultado artefactos de diseño, especificaciones claras y un documento que cubra íntegramente lo que en el futuro sera el software especificado por los requerimientos, ya sea en caso de elasticidad (operación y mantenimiento o evolución) o de metamorfosis.
 
 
 \subsection{Uso de Prometheus}
 
+Para dar solucion a este problema, se empleo la metodologia de prometheus, para poder diseñar y brindar un sistema multiagente con un flujo de trabajo determinado y una descripcion de caja blanaca del agente de algoritmos, evidentemente  lo ideal es que todos los agentes sean de caja blanca pero esta fuera del alcance de este trabajo.
 
+Prometheus cubre tres fases:
+
+\begin{itemize}
+	\item 1. La fase de especificación del sistema se centra en identificar los objetivos y las funcionalidades básicas del sistema, junto con las entradas (percepciones) y las salidas (acciones).
+	\item 2. La fase de diseño arquitectónico utiliza los resultados de la fase anterior para determinar qué tipos de agentes incluirá el sistema y cómo interactuarán entre sí.
+	\item 3. La fase de diseño detallado analiza el funcionamiento interno de cada agente y cómo llevará a cabo sus tareas dentro del sistema en general.
+\end{itemize}
+\subsubsection{Especificacion del sistema}
+\subsubsection{Diseño Arquitectonico}
+\subsection{Diseño Detallado}
 
 \subsection{Analisis y validacion}
 
@@ -648,7 +660,7 @@ La revisión revela un punto de inflexión hacia la automatización del diseño 
 
 \subsection{Resumen Conceptual}
 
-
+El sistema se estructura como un sistema multiagente orientado al proceso de diseño de software. Los agentes colaboran mediante un flujo de trabajo secuencial, en el cual cada agente posee una responsabilidad de diseño específica y produce información que condiciona las decisiones de los agentes posteriores. La metodología Prometheus se emplea para identificar y modelar los agentes, sus metas, percepciones, acciones, capacidades e interacciones.
 
 \chapter{Experimentación y Análisis de Resultados}
 
