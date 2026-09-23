@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.9.17)  23 SEP 2026 14:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.9.17)  23 SEP 2026 15:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1171,14 +1171,14 @@ LaTeX2e <2026-06-01>
 L3 programming layer <2026-08-10>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 7750D1DEBB670AE3612D505C48CCBBAF;19948.
+(rerunfilecheck)             Checksum: 9C6855DBE2B3C153A53B0457296C2C19;19958.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
  23444 strings out of 467441
- 418682 string characters out of 5407591
+ 418692 string characters out of 5407591
  1356216 words of memory out of 5000000
  52305 multiletter control sequences out of 15000+600000
  643982 words of font info for 74 fonts, out of 8000000 for 9000
@@ -1200,7 +1200,7 @@ Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\
 Users\Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk
 > <C:\Users\Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1
 440.pk>
-Output written on main.pdf (45 pages, 1029364 bytes).
+Output written on main.pdf (45 pages, 1029729 bytes).
 PDF statistics:
  1476 PDF objects out of 1728 (max. 8388607)
  164 named destinations out of 1000 (max. 500000)
