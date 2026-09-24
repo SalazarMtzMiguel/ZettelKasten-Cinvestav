@@ -824,6 +824,45 @@
       \endverb
       \keyw{automatic programming,data structures,program synthesis}
     \endentry
+    \entry{Dam2025TowardsMulti-Agentic}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{hash=72b8a308387b4ac51d6ea6839b6bb994}{%
+           family={Dam},
+           familyi={D\bibinitperiod},
+           given={Hoa\bibnamedelima Khanh},
+           giveni={H\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{72b8a308387b4ac51d6ea6839b6bb994}
+      \strng{fullhash}{72b8a308387b4ac51d6ea6839b6bb994}
+      \strng{fullhashraw}{72b8a308387b4ac51d6ea6839b6bb994}
+      \strng{bibnamehash}{72b8a308387b4ac51d6ea6839b6bb994}
+      \strng{authorbibnamehash}{72b8a308387b4ac51d6ea6839b6bb994}
+      \strng{authornamehash}{72b8a308387b4ac51d6ea6839b6bb994}
+      \strng{authorfullhash}{72b8a308387b4ac51d6ea6839b6bb994}
+      \strng{authorfullhashraw}{72b8a308387b4ac51d6ea6839b6bb994}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2025 40th IEEE/ACM International Conference on Automated Software Engineering Workshops (ASEW)}
+      \field{month}{11}
+      \field{title}{Towards Multi-Agentic AI for automated software design and modelling: challenges and opportunities}
+      \field{year}{2025}
+      \field{pages}{311\bibrangedash 314}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/asew67777.2025.00063
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1109/ASEW67777.2025.00063
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1109/ASEW67777.2025.00063
+      \endverb
+    \endentry
     \entry{Maadli2025}{article}{}{}
       \name{author}{8}{}{%
         {{hash=ccfe4b6462cc2c41c5eac65db8ee7b55}{%
@@ -1103,8 +1142,8 @@
       \strng{authornamehash}{272a5fbd8c20b0b8526956e8b2c0cd96}
       \strng{authorfullhash}{272a5fbd8c20b0b8526956e8b2c0cd96}
       \strng{authorfullhashraw}{272a5fbd8c20b0b8526956e8b2c0cd96}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1759-2887}
