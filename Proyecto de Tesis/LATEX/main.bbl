@@ -1166,6 +1166,40 @@
       \verb http://dx.doi.org/10.1145/2601248.2601268
       \endverb
     \endentry
+    \entry{prometheus_padgham2005}{incollection}{}{}
+      \name{author}{2}{}{%
+        {{hash=5f89fa7d88c6c8f2229b6dfd37425b0c}{%
+           family={Padgham},
+           familyi={P\bibinitperiod},
+           given={Lin},
+           giveni={L\bibinitperiod}}}%
+        {{hash=d5aa8de46458054193c640a4e98cd579}{%
+           family={Winikoff},
+           familyi={W\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IGI Global Scientific Publishing}%
+      }
+      \strng{namehash}{d5830bcdf6f73a053bcb3b866de251a6}
+      \strng{fullhash}{d5830bcdf6f73a053bcb3b866de251a6}
+      \strng{fullhashraw}{d5830bcdf6f73a053bcb3b866de251a6}
+      \strng{bibnamehash}{d5830bcdf6f73a053bcb3b866de251a6}
+      \strng{authorbibnamehash}{d5830bcdf6f73a053bcb3b866de251a6}
+      \strng{authornamehash}{d5830bcdf6f73a053bcb3b866de251a6}
+      \strng{authorfullhash}{d5830bcdf6f73a053bcb3b866de251a6}
+      \strng{authorfullhashraw}{d5830bcdf6f73a053bcb3b866de251a6}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Agent-oriented methodologies}
+      \field{title}{Prometheus: A practical agent-oriented methodology}
+      \field{year}{2005}
+      \field{pages}{107\bibrangedash 135}
+      \range{pages}{29}
+    \endentry
   \enddatalist
   \missing{ISOIEEE}
 \endrefsection
