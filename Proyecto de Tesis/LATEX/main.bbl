@@ -923,6 +923,306 @@
       \field{title}{Maad: Automate software architecture design through knowledge-driven multi-agent collaboration}
       \field{year}{2025}
     \endentry
+    \entry{Rajendran2025AMulti-Agent}{inproceedings}{}{}
+      \name{author}{5}{}{%
+        {{hash=2d96e269c08f78875b87e4d5a3ea15b9}{%
+           family={Rajendran},
+           familyi={R\bibinitperiod},
+           given={Vasanth},
+           giveni={V\bibinitperiod}}}%
+        {{hash=231e1ce3d7ca70e20048851bfbeda9dc}{%
+           family={Besiahgari},
+           familyi={B\bibinitperiod},
+           given={Dinesh},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d2ac0e4673a9a6392e80e670f9908412}{%
+           family={Patil},
+           familyi={P\bibinitperiod},
+           given={Sachin\bibnamedelima C.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=516f4fa6fc6ac4cffe19f5fc1ed735de}{%
+           family={Chandrashekaraiah},
+           familyi={C\bibinitperiod},
+           given={Manjunath},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e39d53ddef232ea99458403e98ab02a3}{%
+           family={Challagulla},
+           familyi={C\bibinitperiod},
+           given={Vishnu},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{66b0213b6555f350ca0272fc062c4816}
+      \strng{fullhash}{d8c6d41c183d77b7183ae57dea16a935}
+      \strng{fullhashraw}{d8c6d41c183d77b7183ae57dea16a935}
+      \strng{bibnamehash}{d8c6d41c183d77b7183ae57dea16a935}
+      \strng{authorbibnamehash}{d8c6d41c183d77b7183ae57dea16a935}
+      \strng{authornamehash}{66b0213b6555f350ca0272fc062c4816}
+      \strng{authorfullhash}{d8c6d41c183d77b7183ae57dea16a935}
+      \strng{authorfullhashraw}{d8c6d41c183d77b7183ae57dea16a935}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{SoutheastCon 2025}
+      \field{month}{3}
+      \field{title}{A Multi-Agent LLM Environment for Software Design and Refactoring: A Conceptual Framework}
+      \field{year}{2025}
+      \field{pages}{488\bibrangedash 493}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/southeastcon56624.2025.10971563
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1109/SOUTHEASTCON56624.2025.10971563
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1109/SOUTHEASTCON56624.2025.10971563
+      \endverb
+    \endentry
+    \entry{Affonso2024AReferenceArchitecture}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=7e20f67ce6d5f2ef4b9fc6c7d4d8bd44}{%
+           family={Affonso},
+           familyi={A\bibinitperiod},
+           given={Frank\bibnamedelima José},
+           giveni={F\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=90e93665122ee724ab3fce329ff4f503}{%
+           family={Nagassaki\bibnamedelima Campos},
+           familyi={N\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Gabriel},
+           giveni={G\bibinitperiod}}}%
+        {{hash=718aebabd84aea96d6885974a23fcf77}{%
+           family={Guiguer\bibnamedelima Menaldo},
+           familyi={G\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Guilherme},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{ac24ecf96fa6cfca6d4ffd1aee27f447}
+      \strng{fullhash}{7c7b0aab28c5dbda6dfcfdd84f642166}
+      \strng{fullhashraw}{7c7b0aab28c5dbda6dfcfdd84f642166}
+      \strng{bibnamehash}{7c7b0aab28c5dbda6dfcfdd84f642166}
+      \strng{authorbibnamehash}{7c7b0aab28c5dbda6dfcfdd84f642166}
+      \strng{authornamehash}{ac24ecf96fa6cfca6d4ffd1aee27f447}
+      \strng{authorfullhash}{7c7b0aab28c5dbda6dfcfdd84f642166}
+      \strng{authorfullhashraw}{7c7b0aab28c5dbda6dfcfdd84f642166}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2169-3536}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{A Reference Architecture Based on Reflection for Self-Adaptive Software: A Second Release}
+      \field{volume}{12}
+      \field{year}{2024}
+      \field{pages}{97476\bibrangedash 97499}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2024.3428368
+      \endverb
+      \keyw{Computer architecture;Reflection;Software systems;Runtime;Adaptation models;Task analysis;Adaptive systems;Reference architecture;self-adaptive software;reflection;runtime;automated processes}
+    \endentry
+    \entry{Houichime2024Optimized}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=2437c7c24515fce59e7f46370a32fb6d}{%
+           family={Houichime},
+           familyi={H\bibinitperiod},
+           given={Tarik},
+           giveni={T\bibinitperiod}}}%
+        {{hash=2418a91768764070bc4f000b80471842}{%
+           family={El\bibnamedelima Amrani},
+           familyi={E\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Younes},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{c6631f904e98465a8d4a8f597678ee9a}
+      \strng{fullhash}{c6631f904e98465a8d4a8f597678ee9a}
+      \strng{fullhashraw}{c6631f904e98465a8d4a8f597678ee9a}
+      \strng{bibnamehash}{c6631f904e98465a8d4a8f597678ee9a}
+      \strng{authorbibnamehash}{c6631f904e98465a8d4a8f597678ee9a}
+      \strng{authornamehash}{c6631f904e98465a8d4a8f597678ee9a}
+      \strng{authorfullhash}{c6631f904e98465a8d4a8f597678ee9a}
+      \strng{authorfullhashraw}{c6631f904e98465a8d4a8f597678ee9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1573-7535}
+      \field{journaltitle}{Automated Software Engineering}
+      \field{month}{6}
+      \field{number}{2}
+      \field{title}{Optimized design refactoring (ODR): a generic framework for automated search-based refactoring to optimize object-oriented software architectures}
+      \field{volume}{31}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.1007/s10515-024-00446-9
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/s10515-024-00446-9
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/s10515-024-00446-9
+      \endverb
+    \endentry
+    \entry{Zhao2025AutomatedMetaheuristic}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=fb2121ec50debb9bbe4e9bc0625fd719}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Qi},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=a31a0cfa232fe007a64675d26dfd5a5a}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Tengfei},
+           giveni={T\bibinitperiod}}}%
+        {{hash=031c1719e430b8c4c210a9f5ad6e7c85}{%
+           family={Yan},
+           familyi={Y\bibinitperiod},
+           given={Bai},
+           giveni={B\bibinitperiod}}}%
+        {{hash=4b6049800541e363eea87fb2bd7f692d}{%
+           family={Duan},
+           familyi={D\bibinitperiod},
+           given={Qiqi},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=5a1cb92dc789e714fb5aaf67809119a6}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Jian},
+           giveni={J\bibinitperiod}}}%
+        {{hash=12d92c08cbd739cb423645113fab45fd}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Yuhui},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Institute of Electrical}%
+        {Electronics Engineers (IEEE)}%
+      }
+      \strng{namehash}{b80847f602c0c1a1e17ffbe0e797c4a5}
+      \strng{fullhash}{7d24af0f36887090aeabd9d8880cb333}
+      \strng{fullhashraw}{7d24af0f36887090aeabd9d8880cb333}
+      \strng{bibnamehash}{7d24af0f36887090aeabd9d8880cb333}
+      \strng{authorbibnamehash}{7d24af0f36887090aeabd9d8880cb333}
+      \strng{authornamehash}{b80847f602c0c1a1e17ffbe0e797c4a5}
+      \strng{authorfullhash}{7d24af0f36887090aeabd9d8880cb333}
+      \strng{authorfullhashraw}{7d24af0f36887090aeabd9d8880cb333}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1941-0026}
+      \field{journaltitle}{IEEE Transactions on Evolutionary Computation}
+      \field{month}{10}
+      \field{number}{5}
+      \field{title}{Automated Metaheuristic Algorithm Design With Autoregressive Learning}
+      \field{volume}{29}
+      \field{year}{2025}
+      \field{pages}{2004\bibrangedash 2018}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1109/tevc.2024.3464677
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1109/TEVC.2024.3464677
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1109/TEVC.2024.3464677
+      \endverb
+    \endentry
+    \entry{AuroraRamirez2015234}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=ab93579f7389cb508ab796ccceebc079}{%
+           family={Ramírez},
+           familyi={R\bibinitperiod},
+           given={Aurora},
+           giveni={A\bibinitperiod}}}%
+        {{hash=225b58d873222ea16c634be2a426fcf1}{%
+           family={Romero},
+           familyi={R\bibinitperiod},
+           given={José\bibnamedelima Raúl},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=e023d2410adba40dc741193f0b109c02}{%
+           family={Ventura},
+           familyi={V\bibinitperiod},
+           given={Sebastián},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{80e7949b2261f334d6647799cc22b912}
+      \strng{fullhash}{5e5d3967096f6cd707aecc76528cd3a4}
+      \strng{fullhashraw}{5e5d3967096f6cd707aecc76528cd3a4}
+      \strng{bibnamehash}{5e5d3967096f6cd707aecc76528cd3a4}
+      \strng{authorbibnamehash}{5e5d3967096f6cd707aecc76528cd3a4}
+      \strng{authornamehash}{80e7949b2261f334d6647799cc22b912}
+      \strng{authorfullhash}{5e5d3967096f6cd707aecc76528cd3a4}
+      \strng{authorfullhashraw}{5e5d3967096f6cd707aecc76528cd3a4}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0020-0255}
+      \field{journaltitle}{Information Sciences}
+      \field{title}{An approach for the evolutionary discovery of software architectures}
+      \field{volume}{305}
+      \field{year}{2015}
+      \field{pages}{234\bibrangedash 255}
+      \range{pages}{22}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.ins.2015.01.017
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0020025515000559
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0020025515000559
+      \endverb
+      \keyw{Search based software engineering,Software architecture discovery,Evolutionary algorithms,Ranking aggregation fitness}
+    \endentry
+    \entry{WeynsDannyFromSelf-Adaptation}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=35e3a091dadcb8fdebaf15b5322878a9}{%
+           family={Weyns},
+           familyi={W\bibinitperiod},
+           given={Danny},
+           giveni={D\bibinitperiod}}}%
+        {{hash=75e1cd7757c6605950b6a35773206ca5}{%
+           family={Andersson},
+           familyi={A\bibinitperiod},
+           given={Jesper},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{1769c43d18962c90f39fce5dde63417f}
+      \strng{fullhash}{1769c43d18962c90f39fce5dde63417f}
+      \strng{fullhashraw}{1769c43d18962c90f39fce5dde63417f}
+      \strng{bibnamehash}{1769c43d18962c90f39fce5dde63417f}
+      \strng{authorbibnamehash}{1769c43d18962c90f39fce5dde63417f}
+      \strng{authornamehash}{1769c43d18962c90f39fce5dde63417f}
+      \strng{authorfullhash}{1769c43d18962c90f39fce5dde63417f}
+      \strng{authorfullhashraw}{1769c43d18962c90f39fce5dde63417f}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2023 IEEE/ACM 18th Symposium on Software Engineering for Adaptive and Self-Managing Systems (SEAMS)}
+      \field{issn}{2157-2321}
+      \field{month}{5}
+      \field{title}{From Self-Adaptation to Self-Evolution Leveraging the Operational Design Domain}
+      \field{year}{2023}
+      \field{pages}{90\bibrangedash 96}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/SEAMS59076.2023.00022
+      \endverb
+      \keyw{Automation;Adaptive systems;Autonomous systems;Ecosystems;Computer architecture;Complexity theory;Software engineering;Self-adaptation;operational design domain;system evolution;self-evolution}
+    \endentry
     \entry{Pagen2020PRISMA}{article}{}{}
       \name{author}{26}{}{%
         {{hash=016b86afb0a98379bf77b3f074f34761}{%
@@ -1067,8 +1367,8 @@
       \strng{authornamehash}{69c1efa4f6ab0deea3df12876fea0709}
       \strng{authorfullhash}{b37368b8b0982e5c110334919bd2e0e1}
       \strng{authorfullhashraw}{b37368b8b0982e5c110334919bd2e0e1}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{BMJ}
@@ -1109,8 +1409,8 @@
       \strng{authornamehash}{bfd5bed68d4e3feb5cdc7e00ae82b588}
       \strng{authorfullhash}{bfd5bed68d4e3feb5cdc7e00ae82b588}
       \strng{authorfullhashraw}{bfd5bed68d4e3feb5cdc7e00ae82b588}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{01}
