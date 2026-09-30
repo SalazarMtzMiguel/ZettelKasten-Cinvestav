@@ -192,7 +192,7 @@ La motivación central de esta investigación radica en la necesidad de desarrol
 
 \subsection{Objetivo General}
 
-Desarrollar un marco de trabajo y su respectivo flujo para el diseño automatizado en sistemas de auto-ingenieria, el cual sea capaz de diseñar soluciones para posteriormente actualizar o implementar artefactos ante cambios en los requerimientos, abstrayendo las actividades de diseño (arquitectura, componentes, interfaces, estructuras de datos...) mediante un modelo de interacción de agentes de tipo caja negra con un agente diseñador de caja blanca.
+Desarrollar una arquitectura y su respectivo flujo para el diseño automatizado en sistemas de auto-ingenieria, el cual sea capaz de diseñar soluciones para posteriormente actualizar o implementar artefactos ante cambios en los requerimientos, abstrayendo las actividades de diseño (arquitectura, componentes, interfaces, estructuras de datos...) mediante un modelo de interacción de agentes de tipo caja negra con un agente diseñador de caja blanca.
 
 
 \subsection{Objetivos Específicos}
@@ -200,9 +200,8 @@ Desarrollar un marco de trabajo y su respectivo flujo para el diseño automatiza
     
 \item Sintetizar el estado del arte en materia de diseño de software automatizado y selección algorítmica autónoma, mediante la ejecución y análisis de una Revisión Sistemática de la Literatura (RSL), con el fin de identificar las tendencias, limitaciones y brechas de conocimiento existentes.
 
-%\item Formalizar y conceptualizar el término ``autodiseño`` (Self-Design) en el contexto de los sistemas de software, clasificando sus tipologías y variantes taxonómicas a partir de las capacidades y la información disponible en el entorno del sistema.
 
-\item Caracterizar los mecanismos de evolución e implementación autónoma de algoritmos, analizando los criterios técnicos y las restricciones operacionales requeridas para su ejecución sin intervención humana.
+$\item Caracterizar los mecanismos de evolución e implementación autónoma de algoritmos, analizando los criterios técnicos y las restricciones operacionales requeridas para su ejecución sin intervención humana.
 
 \item Diseñar una meta-arquitectura que gobierne la gestión, sustitución e integración de cambios algorítmicos, definiendo explícitamente las interfaces de comunicación tipo caja negra entre las estructuras de diseño preexistentes y el agente diseñador propuesto.
 
@@ -432,6 +431,72 @@ El trabajo de \cite{Maadli2025} propone un
 
 
 
+
+
+\chapter{Estado del Arte}
+
+Este capítulo presenta y analiza la literatura científica existente en torno al diseño automatizado de software y al concepto de \textit{auto-diseño} (\textit{self-design}). A lo largo de esta sección se exploran sus definiciones conceptuales, técnicas de soporte, marcos de trabajo contemporáneos y los diferentes niveles de abstracción en los que se operativiza.
+
+\section{Conceptualización del Auto-Diseño}
+
+En la vasta literatura sobre sistemas adaptativos se encuentran diversos enfoques para cubrir, parcial o totalmente, lo que se considera auto-diseño. Sin lugar a dudas, el trabajo de Porter y Rodrigues-Filho \cite{Porter2024SelfDesigning} representa uno de los acercamientos más directos al concepto. Los autores conciben el \textit{Self-Designing Software} como un paradigma en el cual el propio software se convierte en un miembro activo de su equipo de desarrollo. Su técnica principal radica en el \textit{Hot-Swapping} o intercambio en caliente, el cual permite sustituir componentes de software en un sistema en ejecución de manera segura mediante el uso de bloques de construcción (\textit{building blocks}) validados y provistos de interfaces bien definidas.
+
+Sin embargo, desde la perspectiva de la ingeniería de software clásica, este enfoque no satisface completamente el ciclo de diseño, ya que no concibe el diseño como el conjunto de actividades estructuradas que entregan artefactos de diseño formales (como diagramas arquitectónicos, modelos de clases o especificaciones de componentes) \cite{sommerville2011software}. Es por ello que, al profundizar en la literatura mediante revisiones sistemáticas, se identifican esfuerzos orientados a automatizar actividades específicas que alimentan el diseño en diferentes niveles de abstracción.
+
+A nivel de bajo nivel (estructuras de datos), el trabajo de Idreos et al. \cite{StratosIdreos2019LearningData} describe una metodología para automatizar el diseño de estructuras de almacenamiento personalizadas. En lugar de depender de diseños tradicionales e inflexibles, este enfoque construye estructuras a la medida partiendo de un conjunto de primitivas de diseño lógicas y físicas clasificadas en su "Tabla Periódica de las Estructuras de Datos" \cite{idreos2018periodic}. El conjunto combinatorio de estas primitivas conforma un vasto espacio de diseño en el cual se evalúan rigurosamente los compromisos entre rendimiento y utilización de recursos (teorema RUM). Tras este análisis, el candidato óptimo es enviado a un generador de código que sintetiza el diseño en código C++ ejecutable para el sistema final.
+
+De manera complementaria en esta misma capa, la herramienta COZY desarrollada por Loncaric et al. \cite{loncaric2016Datastructure, loncaric2018Generalizeddata} presenta un marco de síntesis lógica de colecciones de datos. La entrada del sistema consiste en una especificación declarativa de alto nivel que describe el estado abstracto (datos lógicos como usuarios, grupos o membresías), las consultas requeridas y las operaciones de actualización. A través de un bucle iterativo de refinamiento, incrementalización y verificación formal apoyado por el resolvedor SMT Z3 (mediante síntesis inductiva guiada por contraejemplos, CEGIS), COZY genera estructuras de datos intrusivas y seguras por diseño, listas para su compilación.
+
+\section{Automatización del Diseño}
+
+La automatización de las tareas de diseño se ha abordado desde múltiples paradigmas de cómputo, respondiendo a la complejidad del dominio y al nivel de abstracción objetivo.
+
+\subsection{Autodiseño basado en Inteligencia Artificial y Aprendizaje}
+
+En la generación de lógica y algoritmos, Zhao et al. \cite{Zhao2025AutomatedMetaheuristic} proponen el marco ALDes (\textit{Autoregressive Learning-based Designer}), el cual formula el diseño de algoritmos metaheurísticos como una tarea de generación de secuencias. A diferencia de los métodos tradicionales con estructuras fijas, ALDes utiliza redes autorregresivas basadas en Transformers para inferir secuencias con estructuras de control arbitrarias (bucles, condicionales) y longitudes variables, permitiendo la síntesis autónoma de algoritmos adaptados a problemas específicos. Por su parte, Yi y Qu \cite{WenjieYi2023Automated} exploran el uso de Aprendizaje por Refuerzo (PPO) sobre un espacio de características dependientes de la instancia y del estado de búsqueda, logrando la combinación dinámica de componentes algorítmicos.
+
+\subsection{Autodiseño bio-inspirado, de reúso y búsqueda}
+
+Dentro de la Ingeniería de Software Basada en Búsqueda (SBSE), Ramírez et al. \cite{AuroraRamirez2015234} presentan un enfoque evolutivo para el descubrimiento e inferencia autónoma de arquitecturas de software a partir de diagramas de clases. La aproximación utiliza algoritmos genéticos guiados por métricas de cohesión y acoplamiento para agrupar clases en componentes y descubrir interfaces arquitectónicas. En el ámbito de la refactorización estructural, Houichime y El Amrani \cite{Houichime2024Optimized} proponen el marco ODR, el cual codifica las propiedades del software mediante números complejos en un espacio vectorial unificado, permitiendo aplicar heurísticas de optimización para refactorizar y mejorar la calidad del diseño de forma directa.
+
+\subsection{Autodiseño basado en modelado de agentes}
+
+La emergencia de los Grandes Modelos de Lenguaje (LLMs) ha impulsado el desarrollo de sistemas multi-agente para la ingeniería de requerimientos y el diseño arquitectónico. Dam et al. \cite{Dam2025TowardsMulti-Agentic} introducen un marco conceptual multi-agente donde agentes autónomos interpretan requerimientos en lenguaje natural, generan modelos UML y colaboran en la resolución de conflictos semánticos y fusión de versiones. 
+
+Asimismo, Zhang et al. \cite{ZhangYiranKnowledge} proponen el marco MAAD (\textit{Multi-Agent Architecture Design}), en el cual agentes especializados (Analista, Modelador, Diseñador y Evaluador) simulan el flujo de trabajo de un equipo humano para traducir especificaciones SRS en planos arquitectónicos verificados sin incurrir en alucinaciones típicas de esquemas \textit{zero-shot}. De igual forma, Rajendran et al. \cite{Rajendran2025AMulti-Agent} diseñan un entorno multi-agente colaborativo y competitivo que emplea protocolos de subasta y consenso para balancear atributos de calidad en conflicto (rendimiento, seguridad y mantenibilidad) durante la refactorización arquitectónica.
+
+\section{Conceptos Emergentes y Mecanismos de Control en Auto-Diseño}
+
+El auto-diseño requiere motores de ejecución capaces de efectuar cambios en tiempo de ejecución de manera segura y controlada. Affonso et al. \cite{Affonso2024AReferenceArchitecture} presentan la arquitectura de referencia RA4SaS, basada en reflexión computacional, la cual permite inspeccionar, desensamblar y reconstruir entidades orientadas a objetos en tiempo de ejecución mediante metadatos y plantillas.
+
+Por otro lado, Weyns y Andersson \cite{WeynsDannyFromSelf-Adaptation} formalizan la frontera entre la auto-adaptación convencional y la auto-evolución basándose en el concepto de Dominio de Diseño Operacional (ODD). Los autores demuestran que cuando un sistema enfrenta requerimientos o entornos no previstos en su $ODD$ inicial ($ODD_{Se} = ODD_{Si} \cup ODD_e$), la simple adaptación de parámetros es insuficiente, obligando al sistema a evolucionar su propia estructura de manera autónoma.
+
+\section{Comparación de Trabajos}
+
+A continuación, la Tabla \ref{tab:comparacion_autodiseno} sintetiza y clasifica las contribuciones clave revisadas en la literatura según su nivel de abstracción, técnica empleada, fase de aplicación y el artefacto generado.
+
+\begin{table}[htbp]
+	\centering
+	\caption{Matriz comparativa de enfoques de automatización y auto-diseño de software.}
+	\label{tab:comparacion_autodiseno}
+	\resizebox{\textwidth}{!}{%
+		\begin{tabular}{|l|l|l|l|l|}
+			\hline
+			\textbf{Enfoque / Autor} & \textbf{Nivel de Abstracción} & \textbf{Técnica Principal} & \textbf{Fase de Aplicación} & \textbf{Artefacto Generado} \\ \hline
+			Porter et al. \cite{Porter2024SelfDesigning} & Componentes / Módulos & Hot-Swapping \& Meta-composers & Tiempo de Ejecución & Ensamblado dinámico \\ \hline
+			Idreos et al. \cite{StratosIdreos2019LearningData} & Estructuras de Datos & Primitivas de Layout \& Cost Models & Diseño / Auto-tuning & Código C++ optimizado \\ \hline
+			Loncaric et al. \cite{loncaric2016Datastructure} & Estructuras de Datos & Síntesis Lógica \& CEGIS (Z3) & Tiempo de Diseño & Estructuras intrusivas C++ \\ \hline
+			Zhao et al. \cite{Zhao2025AutomatedMetaheuristic} & Algoritmos / Heurísticas & Transformers Autorregresivos & Tiempo de Diseño & Algoritmos de búsqueda \\ \hline
+			Ramírez et al. \cite{AuroraRamirez2015234} & Arquitectura de Software & Algoritmos Evolutivos (SBSE) & Tiempo de Diseño & Componentes e Interfaces \\ \hline
+			Zhang et al. \cite{ZhangYiranKnowledge} & Arquitectura de Software & LLMs Multi-Agente \& Consenso & Tiempo de Diseño & Diagramas UML / SRS \\ \hline
+			Rajendran et al. \cite{Rajendran2025AMulti-Agent} & Arquitectura / Refactorización & Agentes Especializados \& Subastas & Tiempo de Diseño / Runtime & Código Refactorizado \\ \hline
+			Affonso et al. \cite{Affonso2024AReferenceArchitecture} & Entidades de Software & Reflexión Computacional & Tiempo de Ejecución & Reconfiguración estructural \\ \hline
+			Weyns et al. \cite{WeynsDannyFromSelf-Adaptation} & Marco de Auto-Evolución & Análisis de ODD & Tiempo de Ejecución & Extensión del Dominio $ODD$ \\ \hline
+		\end{tabular}%
+	}
+\end{table}
+
+
 \chapter{Propuesta}
 
 \section{Metodologia}
@@ -630,88 +695,359 @@ La siguiente es una síntesis de lo que fue la discusión completa.
 
 La revisión revela un punto de inflexión hacia la automatización del diseño de software a través de cuatro paradigmas principales: la refactorización basada en búsqueda (SBR), el autodiseño algorítmico mediante mejora genética (GI), la adaptabilidad formal con ontologías y planificación (PDDL), y la transición hacia la Ingeniería de Software 3.0 (SE 3.0) basada en ecosistemas multiagente. Aunque estos enfoques permiten manipular arquitecturas complejas y redefinen el rol del desarrollador hacia el de un orquestador estratégico, enfrentan importantes desafíos técnicos: la pérdida de semántica en los modelos matemáticos, la inestabilidad durante el reemplazo de código en caliente, la sobrecarga computacional en entornos inciertos y el riesgo de alucinaciones de diseño ante la falta de restricciones verificables y gobernanza en los agentes. Finalmente, se evidencia una brecha crítica entre el potencial teórico y la práctica, ya que la mayoría de los estudios se limitan a entornos controlados o sintéticos; por ello, se concluye que la integración del razonamiento simbólico con modelos de lenguaje es indispensable para lograr arquitecturas autogeneradas transparentes, funcionales y viables en entornos de producción reales.
 
-\subsection{Definicion y conceptualizacion}
+\subsection{Definición y conceptualización de un sistema multiagente}
 
-El auto-diseño se define como el conjunto de tareas que un sistema realiza para dar como resultado artefactos de diseño, especificaciones claras y un documento que cubra íntegramente lo que en el futuro sera el software especificado por los requerimientos, ya sea en caso de elasticidad (operación y mantenimiento o evolución) o de metamorfosis.
+El auto-diseño se define como el conjunto de tareas que un sistema realiza para producir artefactos de diseño, especificaciones y demás elementos necesarios para establecer una representación del software que deberá ser construido a partir de un conjunto de requerimientos. Estas actividades pueden ocurrir tanto durante procesos de evolución y mantenimiento del sistema, asociados con mecanismos de elasticidad, como ante cambios sustanciales que requieran una metamorfosis del sistema hacia una nueva configuración arquitectónica.
 
+Para automatizar estas actividades se propone la utilización de un sistema multiagente (SMA), en el cual diferentes agentes especializados participan en las distintas actividades que conforman el proceso de diseño. Cada agente posee una responsabilidad específica, un conjunto de conocimientos y mecanismos para tomar decisiones sobre los artefactos bajo su responsabilidad.
 
-\subsection{Desarrollo de la metodologia Prometheus}
+La utilización de múltiples agentes permite distribuir el proceso de diseño en diferentes responsabilidades, evitando concentrar todas las decisiones en un único componente. Asimismo, permite establecer mecanismos de comunicación y coordinación mediante los cuales las decisiones tomadas por un agente pueden ser utilizadas como información por los demás agentes.
 
-Para dar solucion a este problema, se empleó la metodologia de prometheus, para poder diseñar y brindar un sistema multiagente con un flujo de trabajo determinado y una descripcion de caja blanaca del agente de algoritmos, evidentemente  lo ideal es que todos los agentes sean de caja blanca pero esta fuera del alcance de este trabajo. \cite{prometheus_padgham2005}
+En este trabajo, el sistema multiagente se organiza alrededor de cuatro responsabilidades principales: diseño arquitectónico, diseño de componentes e interfaces, selección de estructuras de datos y selección de algoritmos. Estas responsabilidades corresponden a diferentes niveles del proceso de diseño y mantienen dependencias entre sí.
 
-Prometheus cubre tres fases:
+El proceso general puede representarse como:
+
+\begin{equation}
+	Requerimientos \rightarrow Arquitectura \rightarrow Componentes/Interfaces \rightarrow Estructuras\ de\ Datos \rightarrow Algoritmos
+\end{equation}
+
+Este flujo representa la secuencia principal de diseño; sin embargo, no implica que las decisiones sean irreversibles. Una modificación realizada en una etapa posterior puede generar restricciones o incompatibilidades que requieran la reconsideración de decisiones previamente adoptadas. Por este motivo, la arquitectura propuesta contempla mecanismos de retroalimentación y coordinación entre agentes.
+
+\subsection{Desarrollo de la metodología Prometheus}
+
+Para especificar el sistema multiagente se empleó la metodología Prometheus, debido a que proporciona un proceso sistemático para identificar los agentes, sus objetivos, percepciones, acciones, capacidades y mecanismos de interacción \cite{prometheus_padgham2005}.
+
+Prometheus permite describir el sistema desde diferentes niveles de abstracción mediante tres fases principales: especificación del sistema, diseño arquitectónico y diseño detallado. Estas fases permiten pasar de la identificación de las necesidades generales del sistema a la definición de la organización de los agentes y, posteriormente, a la especificación de su funcionamiento interno.
+
+En el contexto de este trabajo, Prometheus se utiliza no solamente para representar un flujo de trabajo, sino para establecer las características que permiten considerar a los participantes del proceso de diseño como agentes. En particular, se consideran sus objetivos, percepciones, acciones, conocimientos y mecanismos de decisión.
+
+Aunque idealmente todos los agentes podrían contar con una descripción detallada de su funcionamiento interno, el alcance de este trabajo se concentra en proporcionar una descripción de caja blanca del agente encargado de la selección de algoritmos. Este agente incorpora un mecanismo explícito de búsqueda mediante Monte Carlo Tree Search (MCTS) sobre una ontología de conocimiento. Los demás agentes son descritos principalmente desde su comportamiento externo y sus responsabilidades dentro del proceso de diseño.
+
+\subsubsection{Especificación del sistema}
+
+La fase de especificación del sistema tiene como propósito identificar las funcionalidades principales, los objetivos generales, las percepciones y las acciones que permiten definir el comportamiento esperado del sistema multiagente.
+
+En esta fase se identifica el cambio en los requerimientos como uno de los principales estímulos del sistema. A partir de este cambio, los agentes deben analizar el diseño existente y determinar las modificaciones necesarias para satisfacer el nuevo estado de requerimientos.
+
+Los objetivos generales identificados son:
 
 \begin{itemize}
-	\item 1. La fase de especificación del sistema se centra en identificar los objetivos y las funcionalidades básicas del sistema, junto con las entradas (percepciones) y las salidas (acciones).
-	\item 2. La fase de diseño arquitectónico utiliza los resultados de la fase anterior para determinar qué tipos de agentes incluirá el sistema y cómo interactuarán entre sí.
-	\item 3. La fase de diseño detallado analiza el funcionamiento interno de cada agente y cómo llevará a cabo sus tareas dentro del sistema en general.
+	\item analizar cambios en los requerimientos del software;
+	\item determinar los artefactos de diseño afectados;
+	\item generar o modificar los artefactos de diseño;
+	\item mantener la consistencia entre las diferentes decisiones de diseño;
+	\item seleccionar alternativas de diseño compatibles con los requerimientos;
+	\item coordinar las decisiones realizadas por los diferentes agentes.
 \end{itemize}
-\subsubsection{Especificacion del sistema}
 
-\subsubsection{Diseño Arquitectonico}
-\subsubsection{Diseño Detallado}
+A partir de estos objetivos se identifican cuatro agentes principales:
 
-\subsection{Analisis y validacion}
+\begin{enumerate}
+	\item \textbf{Agente de arquitectura}: responsable de analizar los requerimientos y la arquitectura existente para determinar si debe realizarse una modificación incremental o una metamorfosis del sistema.
+	
+	```
+	\item \textbf{Agente de componentes e interfaces}: responsable de determinar y adaptar los componentes y mecanismos de interacción necesarios para implementar la arquitectura seleccionada.
+	
+	\item \textbf{Agente de estructuras de datos}: responsable de analizar las necesidades de representación y acceso a la información y seleccionar las estructuras de datos correspondientes.
+	
+	\item \textbf{Agente de algoritmos}: responsable de caracterizar los problemas algorítmicos y seleccionar algoritmos que satisfagan las características y restricciones identificadas mediante un mecanismo de búsqueda basado en MCTS.
+	```
+	
+\end{enumerate}
 
+Cada agente recibe información procedente del entorno y de los demás agentes. Esta información constituye sus percepciones y permite actualizar el conocimiento utilizado para tomar decisiones.
 
+\subsubsection{Diseño arquitectónico}
 
-\section{Propuesta marco conceptual y arquitectura}
+La fase de diseño arquitectónico establece la organización de los agentes y las relaciones de comunicación existentes entre ellos.
 
+La arquitectura propuesta se organiza alrededor de un flujo principal de diseño:
 
+\begin{equation}
+	A_{req} \rightarrow A_{arch} \rightarrow A_{comp} \rightarrow A_{ds} \rightarrow A_{alg}
+\end{equation}
 
-\subsection{Definicion conceptual y formal}
+donde $A_{req}$ representa los requerimientos, mientras que $A_{arch}$, $A_{comp}$, $A_{ds}$ y $A_{alg}$ representan los agentes de arquitectura, componentes e interfaces, estructuras de datos y algoritmos, respectivamente.
 
+El flujo anterior representa la dependencia natural entre las decisiones. La arquitectura determina los componentes necesarios; los componentes e interfaces determinan las necesidades de comunicación; las estructuras de datos determinan las formas de representación y acceso a la información; y estas decisiones establecen restricciones que pueden ser utilizadas durante la selección de algoritmos.
 
+Sin embargo, la interacción no se limita a una comunicación unidireccional. Cuando una decisión posterior resulta incompatible con decisiones previamente adoptadas, el agente puede generar una notificación o solicitud de reconsideración dirigida al agente responsable de la decisión afectada.
+
+De esta manera, el sistema combina un flujo principal secuencial con mecanismos de retroalimentación:
+
+\begin{equation}
+	A_i \rightarrow A_{i+1}
+\end{equation}
+
+y
+
+\begin{equation}
+	A_{i+1} \rightarrow A_i
+\end{equation}
+
+cuando una decisión posterior requiere reconsiderar una decisión previa.
+
+Este mecanismo permite representar el proceso de diseño como una actividad iterativa y no únicamente como una cadena rígida de procesamiento.
+
+\subsubsection{Diseño detallado}
+
+La fase de diseño detallado especifica el funcionamiento interno de los agentes. En esta etapa se definen sus metas, creencias, percepciones, acciones, capacidades e intenciones, siguiendo una aproximación basada en el modelo Belief-Desire-Intention (BDI).
+
+Para cada agente se identifican:
+
+\begin{itemize}
+	\item \textbf{Creencias}: información que el agente mantiene acerca del sistema, los requerimientos y los artefactos de diseño.
+	\item \textbf{Metas}: estados que el agente intenta alcanzar.
+	\item \textbf{Intenciones}: decisiones adoptadas por el agente respecto de las acciones que ejecutará para alcanzar sus metas.
+	\item \textbf{Percepciones}: información obtenida del entorno o de otros agentes.
+	\item \textbf{Acciones}: operaciones que el agente puede ejecutar sobre los artefactos de diseño.
+	\item \textbf{Capacidades}: mecanismos mediante los cuales el agente puede realizar sus acciones.
+\end{itemize}
+
+El ciclo de operación de cada agente puede expresarse de manera general como:
+
+\begin{equation}
+	Percepción \rightarrow Actualización\ de\ Creencias \rightarrow Evaluación\ de\ Metas \rightarrow Intención \rightarrow Acción
+\end{equation}
+
+Después de ejecutar una acción, el agente recibe nueva información y actualiza nuevamente sus creencias. Este ciclo permite incorporar comportamiento reactivo y mecanismos de reconsideración de decisiones.
+
+El agente de algoritmos constituye el caso de estudio de caja blanca de esta investigación. Su funcionamiento interno incorpora una caracterización del problema algorítmico, una búsqueda sobre el espacio de soluciones representado mediante una ontología y un mecanismo MCTS para determinar la alternativa que mejor satisface las características del problema.
+
+\subsection{Análisis y validación del modelo de agentes}
+
+Una vez definidos los agentes y sus interacciones, se analiza si cada participante satisface las características necesarias para ser considerado un agente dentro del sistema multiagente.
+
+Para este propósito se consideran las siguientes propiedades:
+
+\begin{itemize}
+	\item autonomía;
+	\item comportamiento reactivo;
+	\item orientación hacia metas;
+	\item capacidad de interacción;
+	\item estado y conocimiento interno;
+	\item capacidad de tomar decisiones;
+	\item capacidad de modificar su comportamiento en función del contexto.
+\end{itemize}
+
+La autonomía se analiza verificando que el agente pueda determinar una acción a partir de sus metas, creencias y percepciones, sin que cada decisión deba ser especificada externamente.
+
+La reactividad se analiza verificando que el agente pueda responder ante cambios en el entorno, modificaciones de requerimientos o información proporcionada por otros agentes.
+
+La orientación hacia metas se verifica mediante la existencia de objetivos explícitos que guían la selección de acciones.
+
+Finalmente, la capacidad de interacción se analiza mediante los mecanismos utilizados para intercambiar información, propuestas, restricciones y solicitudes de reconsideración entre los agentes.
+
+Este análisis permite distinguir entre un componente que únicamente ejecuta una función predeterminada y un agente que mantiene un proceso interno de percepción, deliberación y acción.
+
+\section{Propuesta de marco conceptual y arquitectura}
+
+La propuesta integra los conceptos de auto-diseño, sistemas multiagentes, agentes BDI, coordinación entre agentes y mecanismos especializados de búsqueda.
+
+El marco conceptual establece que el proceso de auto-diseño puede ser descompuesto en actividades de diseño especializadas, cada una de las cuales es responsabilidad de un agente. La especialización permite que cada agente utilice mecanismos de razonamiento apropiados para el tipo de decisión que debe realizar.
+
+La arquitectura resultante se representa mediante cuatro agentes principales:
+
+\begin{equation}
+	MAS = {A_{arch},A_{comp},A_{ds},A_{alg}}
+\end{equation}
+
+donde:
+
+\begin{itemize}
+	\item $A_{arch}$ representa el agente de arquitectura;
+	\item $A_{comp}$ representa el agente de componentes e interfaces;
+	\item $A_{ds}$ representa el agente de estructuras de datos;
+	\item $A_{alg}$ representa el agente de algoritmos.
+\end{itemize}
+
+Los agentes comparten un estado de diseño que permite mantener la trazabilidad entre las decisiones. Este estado contiene los artefactos generados y las restricciones derivadas de decisiones anteriores.
+
+\subsection{Definición conceptual y formal}
+
+Sea $R$ el conjunto de requerimientos del sistema:
+
+\begin{equation}
+	R = {r_1,r_2,\ldots,r_n}
+\end{equation}
+
+y sea:
+
+\begin{equation}
+	D = {D_A,D_C,D_{DS},D_{ALG}}
+\end{equation}
+
+el conjunto de artefactos de diseño correspondientes a arquitectura, componentes e interfaces, estructuras de datos y algoritmos.
+
+Cada agente $A_i$ recibe un estado de diseño $S$ y un conjunto de percepciones $P_i$, actualiza sus creencias $B_i$ y determina una intención $I_i$ orientada a alcanzar una meta $G_i$.
+
+Formalmente:
+
+\begin{equation}
+	A_i:(B_i,P_i,G_i,S)\rightarrow(I_i,D_i)
+\end{equation}
+
+donde $D_i$ representa la decisión o artefacto producido por el agente.
+
+El diseño global puede expresarse como:
+
+\begin{equation}
+	D^{*}=D_A \cup D_C \cup D_{DS} \cup D_{ALG}
+\end{equation}
+
+sujeto a las restricciones establecidas por los requerimientos y por las dependencias existentes entre los diferentes artefactos.
 
 \subsection{Propuesta detallada}
 
+\subsubsection{Agente de arquitectura}
 
+El agente de arquitectura analiza los cambios en los requerimientos y determina el impacto que estos producen sobre la arquitectura existente. A partir de sus creencias acerca del sistema, puede adoptar como intención modificar la arquitectura existente o iniciar una metamorfosis hacia una nueva arquitectura.
 
-\subsection{Resumen Conceptual}
+Sus principales responsabilidades son:
 
-El sistema se estructura como un sistema multiagente orientado al proceso de diseño de software. Los agentes colaboran mediante un flujo de trabajo secuencial, en el cual cada agente posee una responsabilidad de diseño específica y produce información que condiciona las decisiones de los agentes posteriores. La metodología Prometheus se emplea para identificar y modelar los agentes, sus metas, percepciones, acciones, capacidades e interacciones.
+\begin{itemize}
+	\item analizar cambios en los requerimientos;
+	\item evaluar la arquitectura existente;
+	\item identificar elementos arquitectónicos afectados;
+	\item modificar la arquitectura cuando sea suficiente una adaptación;
+	\item generar una nueva arquitectura cuando las modificaciones requeridas superen las capacidades de adaptación.
+\end{itemize}
+
+\subsubsection{Agente de componentes e interfaces}
+
+Este agente analiza la arquitectura y determina los componentes e interfaces necesarios para implementarla. Además, considera las condiciones operativas del sistema para determinar si las configuraciones actuales continúan siendo adecuadas.
+
+Entre sus responsabilidades se encuentran:
+
+\begin{itemize}
+	\item seleccionar componentes;
+	\item configurar relaciones entre componentes;
+	\item adaptar interfaces;
+	\item detectar incompatibilidades;
+	\item modificar mecanismos de comunicación;
+	\item adaptar configuraciones ante cambios del entorno.
+\end{itemize}
+
+Un ejemplo corresponde a la detección de una modificación en las condiciones de carga del sistema. El agente puede determinar que la configuración actual de componentes e interfaces no satisface los requerimientos y adoptar una intención de reconfiguración, por ejemplo mediante la incorporación o modificación de un mecanismo de balanceo de carga.
+
+\subsubsection{Agente de estructuras de datos}
+
+El agente de estructuras de datos analiza los requerimientos de almacenamiento y acceso a información junto con los artefactos generados por los agentes anteriores.
+
+Sus decisiones consideran, entre otros factores:
+
+\begin{itemize}
+	\item operaciones requeridas;
+	\item patrones de acceso;
+	\item volumen de información;
+	\item restricciones de memoria;
+	\item restricciones temporales;
+	\item relaciones con componentes e interfaces.
+\end{itemize}
+
+A partir de esta información, el agente selecciona, modifica o reemplaza estructuras de datos para satisfacer las restricciones establecidas.
+
+\subsubsection{Agente de algoritmos}
+
+El agente de algoritmos recibe los requerimientos algorítmicos y los artefactos generados por los agentes anteriores. Su primera actividad consiste en caracterizar el problema mediante un conjunto de propiedades que permiten identificar el espacio de soluciones relevante.
+
+La caracterización del problema se representa mediante:
+
+\begin{equation}
+	P=(Objective,Interaction,Knowledge,Processing,Layer,Uncertainty)
+\end{equation}
+
+A partir de esta representación, el agente explora una ontología de algoritmos mediante Monte Carlo Tree Search. Las expansiones del árbol corresponden a restricciones o características que permiten reducir el espacio de soluciones hasta identificar alternativas compatibles con el problema.
+
+El mecanismo de búsqueda constituye el comportamiento de caja blanca del agente de algoritmos, permitiendo analizar explícitamente cómo se construye el espacio de búsqueda, cómo se evalúan las alternativas y cómo se actualizan los valores asociados a las ramas exploradas.
+
+\subsection{Mecanismo de coordinación y consenso}
+
+Debido a que las decisiones de diseño presentan dependencias entre sí, los agentes requieren un mecanismo para detectar y resolver inconsistencias.
+
+Se propone un proceso iterativo de coordinación compuesto por cuatro etapas:
+
+\begin{enumerate}
+	\item generación de propuestas;
+	\item evaluación de compatibilidad;
+	\item identificación y negociación de conflictos;
+	\item aceptación o reconsideración de las decisiones.
+\end{enumerate}
+
+Cada propuesta contiene una decisión, las restricciones satisfechas, las dependencias identificadas y una justificación de la decisión.
+
+Cuando dos decisiones son compatibles, ambas pueden incorporarse al estado global del diseño. Cuando existe un conflicto, los agentes involucrados reconsideran sus decisiones utilizando la nueva información disponible.
+
+El proceso puede expresarse como:
+
+\begin{equation}
+	Proponer \rightarrow Evaluar \rightarrow Detectar\ conflicto \rightarrow Reconsiderar \rightarrow Aceptar
+\end{equation}
+
+Este mecanismo permite mantener la autonomía de los agentes sin convertir la coordinación en una decisión centralizada. Cada agente conserva la responsabilidad sobre su dominio de diseño, mientras que el estado compartido permite identificar las dependencias entre las decisiones.
+
+\subsection{Resumen conceptual}
+
+El sistema se estructura como un sistema multiagente orientado al proceso de diseño de software. Los agentes colaboran mediante un flujo de trabajo secuencial, en el cual cada agente posee una responsabilidad de diseño específica y produce información que condiciona las decisiones de los agentes posteriores.
+
+La metodología Prometheus se emplea para identificar y modelar los agentes, sus metas, percepciones, acciones, capacidades e interacciones. El modelo BDI proporciona una estructura para representar el conocimiento, las metas y las intenciones de los agentes, mientras que los mecanismos de coordinación permiten gestionar las dependencias y conflictos entre decisiones.
+
+El flujo principal está constituido por los agentes de arquitectura, componentes e interfaces, estructuras de datos y algoritmos. Este flujo no se considera estrictamente lineal, debido a que una decisión puede provocar la reconsideración de decisiones previamente adoptadas.
+
+Finalmente, el agente de algoritmos incorpora un mecanismo explícito de razonamiento mediante la caracterización del problema y la búsqueda MCTS sobre una ontología. De esta manera, el sistema combina una organización multiagente, comportamiento reactivo, toma de decisiones orientada a metas y mecanismos especializados de búsqueda para automatizar diferentes actividades del proceso de diseño de software.
+
 
 \chapter{Experimentación y Análisis de Resultados}
 
-
+\lipsum[1-3]
 
 \section{Análisis de selección automática de algoritmos}
 
 
+\lipsum[1-3]
 
 \subsection{Análisis de la arquitectura: auto-diseño}
 
 
+\lipsum[1-3]
 
 \section{Experimentación}
 
 
+\lipsum[1-3]
 
 \subsection{Caso de estudio: nuevo problema, nueva solución}
 
 
 
+\lipsum[1]
 \subsection{Experimento: Identificación del Problema}
 
 
+\lipsum[1]
 
 \subsection{Experimento: Identificación del Algoritmo}
 
 
+\lipsum[1]
 
 \chapter{Conclusiones y Trabajo Futuro}
 
 
+\lipsum[1]
 
 \section{Conclusiones}
 
 
+\lipsum[1]
 
 \section{Objetivos logrados}
 
+\lipsum[1]
 
 \section{Trabajo a futuro}
 
+\lipsum[1]
 
 
 

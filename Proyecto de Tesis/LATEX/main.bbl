@@ -1367,8 +1367,8 @@
       \strng{authornamehash}{69c1efa4f6ab0deea3df12876fea0709}
       \strng{authorfullhash}{b37368b8b0982e5c110334919bd2e0e1}
       \strng{authorfullhashraw}{b37368b8b0982e5c110334919bd2e0e1}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{BMJ}
@@ -1409,8 +1409,8 @@
       \strng{authornamehash}{bfd5bed68d4e3feb5cdc7e00ae82b588}
       \strng{authorfullhash}{bfd5bed68d4e3feb5cdc7e00ae82b588}
       \strng{authorfullhashraw}{bfd5bed68d4e3feb5cdc7e00ae82b588}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{01}
@@ -1442,8 +1442,8 @@
       \strng{authornamehash}{272a5fbd8c20b0b8526956e8b2c0cd96}
       \strng{authorfullhash}{272a5fbd8c20b0b8526956e8b2c0cd96}
       \strng{authorfullhashraw}{272a5fbd8c20b0b8526956e8b2c0cd96}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1759-2887}
@@ -1484,8 +1484,8 @@
       \strng{authornamehash}{e1ce15e2eeb53e3fc8c6035fd761594b}
       \strng{authorfullhash}{e1ce15e2eeb53e3fc8c6035fd761594b}
       \strng{authorfullhashraw}{e1ce15e2eeb53e3fc8c6035fd761594b}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the 18th International Conference on Evaluation and Assessment in Software Engineering}
@@ -1529,8 +1529,8 @@
       \strng{authornamehash}{d5830bcdf6f73a053bcb3b866de251a6}
       \strng{authorfullhash}{d5830bcdf6f73a053bcb3b866de251a6}
       \strng{authorfullhashraw}{d5830bcdf6f73a053bcb3b866de251a6}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Agent-oriented methodologies}
@@ -1541,6 +1541,8 @@
     \endentry
   \enddatalist
   \missing{ISOIEEE}
+  \missing{WenjieYi2023Automated}
+  \missing{ZhangYiranKnowledge}
 \endrefsection
 \endinput
 
