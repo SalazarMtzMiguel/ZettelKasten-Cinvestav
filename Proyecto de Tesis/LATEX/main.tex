@@ -7,6 +7,7 @@
 \usepackage[left=3cm, right=2.5cm, top=3cm, bottom=3cm]{geometry}
 \usepackage{setspace} \onehalfspacing 
 
+
 % --- Matemáticas, Gráficos y Tablas ---
 \usepackage{csquotes}
 \usepackage{amsmath, amsfonts, amssymb}
@@ -55,6 +56,7 @@
 
 % --- Hipervínculos ---
 \usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage[spanish]{cleveref}
 
 \begin{document}
 
@@ -127,19 +129,19 @@
 \end{titlepage}
 
 % --- RESUMEN Y AGRADECIMIENTOS ---
-\chapter*{Resumen}
+\chapter*{Resumen}\label{resumen}
 \addcontentsline{toc}{chapter}{Resumen}
 
-\chapter*{Abstract}
+\chapter*{Abstract}\label{abstract}
 \addcontentsline{toc}{chapter}{Abstract}
 
-\chapter*{Dedicatoria}
+\chapter*{Dedicatoria}\label{dedicatoria}
 \addcontentsline{toc}{chapter}{Dedicatoria}
 
 A mi madre por ser mi ejemplo a seguir. Agradezco infinitamente tu amor y apoyo incondicional.
 A mi hermana Saidy y mi hermano Diego, por impulsarme a seguir adelante y ser mi espacio seguro. A mi abuela por enseñarme lo que es ser un buen ser humano. A la vida, por permitirme llegar tan lejos. 
 
-\chapter*{Agradecimientos}
+\chapter*{Agradecimientos}\label{agradecimientos}
 \addcontentsline{toc}{chapter}{Agradecimientos}
 
 \noindent A todos los que me apoyaron en el camino y me ayudaron en esta travesía del posgrado.\\
@@ -171,7 +173,7 @@ Muchas Gracias a todos.
 % \include{capitulos/01_introduccion}
 % Por ahora, incluyo los capítulos aquí mismo para que sea una plantilla rápida.
 
-\chapter{Introducción}
+\chapter{Introducción}\label{introduccion}
 El desarrollo de sistemas de software contemporáneos está intrínsecamente ligado a la evolución de la Ingeniería de Software. A lo largo de las últimas décadas, se ha evidenciado que las actividades de mantenimiento, actualización y evolución de artefactos de software representan una etapa con alto coste en términos de capital humano, tiempo de desarrollo y recursos financieros \cite{PerezCarrillo2026}. Para mitigar esta dependencia, el paradigma de los Sistemas de Auto-Ingeniería (\textit{Self-Engineering Systems} - SES) introduce un marco conceptual y una meta-arquitectura que habilitan a los sistemas de software para ejecutar modificaciones autónomas sobre sí mismos, abriendo la posibilidad de realizar procesos de auto-evolución o metamorfosis \cite{perez2024}. \textbf{El propósito fundamental de un sistema SES es gestionar y ejecutar su propio proceso de ingeniería más allá de su ciclo de vida convencional, prescindiendo de la intervención humana.}
 El ciclo de vida del software comprende el marco integral de evolución del sistema desde su concepción hasta su retiro, estructurado formalmente a través de procesos técnicos que abarcan el análisis de negocio o misión, la definición de necesidades de los interesados y de requisitos del sistema, la definición de la arquitectura y el diseño, el análisis del sistema, la implementación, la integración, la verificación, la transición, la validación, la operación, el mantenimiento y el desecho final del sistema \cite{swebok2014}.
 
@@ -225,7 +227,7 @@ El \textbf{Capítulo 1} establece la base del estudio mediante la introducción 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\chapter{Marco Teórico}
+\chapter{Marco Teórico}\label{marco}
 
 El Marco Teórico constituye el cimiento conceptual sobre el cual se erige esta investigación. Su propósito fundamental es articular las teorías, paradigmas y modelos previos que otorgan validez científica a la problemática planteada, sirviendo como mapa orientador para el desarrollo de la propuesta.
 
@@ -377,71 +379,15 @@ El trabajo de \cite{duran2026seleccion} une estos temas, para lograr la seleccio
 
 
 
-\chapter{Estado del Arte}
+\chapter{Estado del Arte}\label{arte}
 
-Este capitulo presenta y analiza lo que existe en la literatura cientifica acerca del diseño automatizado o auto-diseño.
-Incluyen definiciones, tecnicas y marcos de trabajo, 
-
-
-
-
-\section{Conceptualizacion del Auto-diseño}
-En la basta literatura encontramos numerosos diversos enfoques para cubrir parcialmente o totalmente lo que se considera como auto-diseño.
-
-\shorthandoff{"}
-Sin lugar a dudas el trabajo de \cite{Porter2024SelfDesigning} es el trabajo mas cercano al auto-diseño, concibe al Self-Designing Software como al propio software convertido en un miembro activo de su equipo de diseño. La tecnica principal es el "Hot-Swapping", este intercambio en caliente permite intercambiar componentes de software en un sistema vivo de forma segura, con el uso de "building blocks", estos bloques de construccion estan validados y cuentan con interfaces especificas para su acople o desecho.
- 
- Sin embargo no cubre el diseño como un conjunto de actividades que nos entregan artefactos de diseño \cite{sommerville2011software} es asi que en una busqueda mas a profundidad mediante una revision sistematica de literatura, encontramos actividades total o parcialmente automatizadas que buscan satisfacer el diseño automatizado.
- 
- El trabajo de \cite{StratosIdreos2019LearningData} describe una metodología para automatizar el diseño de estructuras de datos a través de la síntesis de estructuras personalizadas. En lugar de depender de diseños tradicionales fijos, este enfoque construye estructuras a la medida partiendo de un conjunto de primitivas de diseño fundamentales lógicas y físicas clasificadas en su "Tabla Periódica de las Estructuras de Datos" \cite{idreos2018periodic}. El conjunto combinatorio de estas primitivas conforma un vasto "espacio de diseño" en el cual se evalúan rigurosamente las restricciones de rendimiento y utilización de recursos. Tras este análisis, el diseño óptimo es enviado a un generador de código para sintetizar el diseño en código fuente ejecutable para el sistema final.
- %Loncaric,Zhao, Wenjie,zhnag, aurora R, Weyns, Affonso, GIl, Ageloupulos
- De igual manera (en la etapa de diseño de estructuras de datos) la herramienta COZY\cite{loncaric2016Datastructure} y mejorada en \cite{loncaric2018Generalizeddata}, presentan una solucion muy parecida a la mencionada previamente, la entrada de esta herramienta consta de el conjunto de instrucciones que describan que tipo de datos logicos (usuario, grupos, membresias), que se busca en esos datos y que operaciones implican (actualizar, borrar, etc), para asi llegar a la estructura optima. Esto se lleva a cabo a traves de un proceso iterativo, puede llegar a crear estructuras intermedias que no son las mejores, asi que   se evalua la eficiencia y eficacia de las mismas, tiene un mecanismo de verificacion y garantias, mediante inferencia busca contraejemplos (apoyado por el resolvedor SMT Z3) y por ultimo un implementador de codigo.
- 
-\shorthandon{"}
-\section{Automatización del Diseño}
-
-
-
-\subsection{Autodiseño basado en Inteligencia Artificial}
-
-
-
-\subsection{Autodiseño bio-inspirado}
-
-
-
-\subsection{Autodiseño basado en modelado de agentes}
-Bajo un enfoque de agentes de IA \cite{Dam2025TowardsMulti-Agentic}, introduce un marco de trabajo para modelar y diseñar software, consta de 
-El trabajo de \cite{Maadli2025} propone un 
-
-\cite{Rajendran2025AMulti-Agent}
-\cite{Affonso2024AReferenceArchitecture}
-\cite{Houichime2024Optimized}
-\cite{Zhao2025AutomatedMetaheuristic}
-\cite{AuroraRamirez2015234}
-\cite{WeynsDannyFromSelf-Adaptation}
-\subsection{Autodiseño basado en el reuso y busqueda}
-
-
-
-\section{Conceptos emergentes similares al auto-diseño}
-
-
-\section{Comparacion de trabajos}
-
-
-
-
-
-\chapter{Estado del Arte}
-
-Este capítulo presenta y analiza la literatura científica existente en torno al diseño automatizado de software y al concepto de \textit{auto-diseño} (\textit{self-design}). A lo largo de esta sección se exploran sus definiciones conceptuales, técnicas de soporte, marcos de trabajo contemporáneos y los diferentes niveles de abstracción en los que se operativiza.
+Este capítulo presenta y analiza la literatura científica existente en torno al diseño automatizado de software y al concepto de \textit{auto-diseño} (\textit{self-design}). A lo largo de esta sección se exploran sus definiciones conceptuales, técnicas de soporte, marcos de trabajo contemporáneos y los diferentes niveles de abstracción en los que se implementa. Toda la literatura analizada para el estado del arte fue obtenida mediante una rigurosa revision sistematica de literatura desarrollada en el \cref{propuesta}.
 
 \section{Conceptualización del Auto-Diseño}
 
 En la vasta literatura sobre sistemas adaptativos se encuentran diversos enfoques para cubrir, parcial o totalmente, lo que se considera auto-diseño. Sin lugar a dudas, el \cite{Porter2024SelfDesigning} representa uno de los acercamientos más directos al concepto. Los autores conciben el \textit{Self-Designing Software} como un paradigma en el cual el propio software se convierte en un miembro activo de su equipo de desarrollo. Su técnica principal radica en el \textit{Hot-Swapping} o intercambio en caliente, el cual permite sustituir componentes de software en un sistema en ejecución de manera segura mediante el uso de bloques de construcción (\textit{building blocks}) validados y provistos de interfaces bien definidas.
 
-Sin embargo, desde la perspectiva de la ingeniería de software clásica, este enfoque no satisface completamente el ciclo de diseño, ya que no concibe el diseño como el conjunto de actividades estructuradas que entregan artefactos de diseño formales (como diagramas arquitectónicos, modelos de clases o especificaciones de componentes) \cite{sommerville2011software}. Es por ello que, al profundizar en la literatura mediante revisiones sistemáticas, se identifican esfuerzos orientados a automatizar actividades específicas que alimentan el diseño en diferentes niveles de abstracción.
+Sin embargo, desde la perspectiva de la ingeniería de software clásica, este enfoque no satisface completamente el ciclo de diseño, ya que no concibe el diseño como el conjunto de actividades estructuradas que entregan artefactos de diseño formales (como diagramas arquitectónicos, especificaciones de componentes, interfaces, etc.) \cite{sommerville2011software}. 
 
 A nivel de bajo nivel (estructuras de datos), el trabajo  \cite{StratosIdreos2019LearningData} describe una metodología para automatizar el diseño de estructuras de almacenamiento personalizadas. En lugar de depender de diseños tradicionales e inflexibles, este enfoque construye estructuras a la medida partiendo de un conjunto de primitivas de diseño lógicas y físicas clasificadas en su "Tabla Periódica de las Estructuras de Datos" \cite{idreos2018periodic}. El conjunto combinatorio de estas primitivas conforma un vasto espacio de diseño en el cual se evalúan rigurosamente los compromisos entre rendimiento y utilización de recursos (teorema RUM). Tras este análisis, el candidato óptimo es enviado a un generador de código que sintetiza el diseño en código C++ ejecutable para el sistema final.
 
@@ -497,7 +443,7 @@ A continuación, la Tabla \ref{tab:comparacion_autodiseno} sintetiza y clasifica
 \end{table}
 
 
-\chapter{Propuesta}
+\chapter{Propuesta}\label{propuesta}
 
 \section{Metodologia}
 La metodologia consta de dos  etapas principales, la primera que fue realizar una revision sistematica de literatura sobre tecnicas, marcos de trabajo y demas propuestas que llevaran a cabo el autodiseño, esta misma se llevo a cabo siguiendo la metodologi prisma, los resultados obtenido ayudaron a fundamentar la toma de decision para construir la propuesta.
@@ -997,7 +943,7 @@ El flujo principal está constituido por los agentes de arquitectura, componente
 Finalmente, el agente de algoritmos incorpora un mecanismo explícito de razonamiento mediante la caracterización del problema y la búsqueda MCTS sobre una ontología. De esta manera, el sistema combina una organización multiagente, comportamiento reactivo, toma de decisiones orientada a metas y mecanismos especializados de búsqueda para automatizar diferentes actividades del proceso de diseño de software.
 
 
-\chapter{Experimentación y Análisis de Resultados}
+\chapter{Experimentación y Análisis de Resultados}\label{resultados}
 
 \lipsum[1-3]
 
@@ -1031,7 +977,7 @@ Finalmente, el agente de algoritmos incorpora un mecanismo explícito de razonam
 
 \lipsum[1]
 
-\chapter{Conclusiones y Trabajo Futuro}
+\chapter{Conclusiones y Trabajo Futuro}\label{conclusiones}
 
 
 \lipsum[1]
@@ -1058,7 +1004,7 @@ Finalmente, el agente de algoritmos incorpora un mecanismo explícito de razonam
 \printbibliography[title={Referencias Bibliográficas}, heading=bibintoc]
 
 \appendix
-\chapter{Código Fuente Relevante}
+\chapter{Código Fuente Relevante}\label{codigo}
 
 
 \end{document}

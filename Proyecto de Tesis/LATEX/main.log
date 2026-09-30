@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.9.17)  30 SEP 2026 14:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.9.17)  30 SEP 2026 14:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -757,11 +757,26 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip97
 )
+(C:\Users\Mikec\AppData\Local\Programs\MiKTeX\tex/latex/cleveref\cleveref.sty
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2370.
+LaTeX Info: Redefining \cref on input line 2370.
+LaTeX Info: Redefining \Cref on input line 2370.
+LaTeX Info: Redefining \crefrange on input line 2370.
+LaTeX Info: Redefining \Crefrange on input line 2370.
+LaTeX Info: Redefining \cpageref on input line 2370.
+LaTeX Info: Redefining \Cpageref on input line 2370.
+LaTeX Info: Redefining \cpagerefrange on input line 2370.
+LaTeX Info: Redefining \Cpagerefrange on input line 2370.
+LaTeX Info: Redefining \labelcref on input line 2370.
+LaTeX Info: Redefining \labelcpageref on input line 2370.
+)
+==> First Aid for cleveref.sty applied!
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'spanish'.
- (main.aux
+(main.aux
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
 Package babel Info: 'spanish' activates 'spanish' shorthands.
@@ -769,26 +784,26 @@ Package babel Info: 'spanish' activates 'spanish' shorthands.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Info: Redefining \. on input line 59.
-LaTeX Info: Redefining \% on input line 59.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Info: Redefining \. on input line 61.
+LaTeX Info: Redefining \% on input line 61.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -843,8 +858,16 @@ ii
 (C:\Users\Mikec\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+(C:\Users\Mikec\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
 
 (C:\Users\Mikec\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
 fg
@@ -895,8 +918,8 @@ Package biblatex Warning: The following entry could not be found
 (biblatex)                LaTeX afterwards.
 
 )
-Package biblatex Info: Reference section=0 on input line 59.
-Package biblatex Info: Reference segment=0 on input line 59.
+Package biblatex Info: Reference section=0 on input line 61.
+Package biblatex Info: Reference segment=0 on input line 61.
  (C:\Users\Mikec\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
 Package: color 2026-05-17 v1.3f Standard LaTeX Color (DPC)
 
@@ -906,24 +929,24 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: pdftex.def on input line 149.
 (C:\Users\Mikec\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
 )
-Package hyperref Info: Link coloring ON on input line 59.
+Package hyperref Info: Link coloring ON on input line 61.
  (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
 Package babel Info: Main language set to 'spanish'.
-<figures/CINV.png, id=391, 349.305pt x 344.78813pt>
+<figures/CINV.png, id=355, 349.305pt x 344.78813pt>
 File: figures/CINV.png Graphic file (type png)
 <use figures/CINV.png>
-Package pdftex.def Info: figures/CINV.png  used on input line 71.
+Package pdftex.def Info: figures/CINV.png  used on input line 73.
 (pdftex.def)             Requested size: 91.56131pt x 90.37407pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 73.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 75.
 
 
 (C:\Users\Mikec\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 73.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 75.
 
 
 (C:\Users\Mikec\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
@@ -939,7 +962,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.I}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.127 \end{titlepage}
+l.129 \end{titlepage}
                       [1
 
 ]
@@ -947,15 +970,15 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.I}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.133 \chapter
-              *{Abstract} [1
+l.135 \chapter
+              *{Abstract}\label{abstract} [1
 
 ] [2
 
 ] [3
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 157--159
+Underfull \hbox (badness 10000) in paragraph at lines 159--161
 
  []
 
@@ -964,6 +987,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 157--159
 ] (main.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
+Package cleveref Info: loaded `spanish' language definitions on input line 1.
  [5
 
 ] [6] [7])
@@ -973,6 +997,7 @@ LaTeX Info: Redefining \% on input line 1.
  [8] (main.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
+Package cleveref Info: loaded `spanish' language definitions on input line 1.
 )
 \tf@lof=\write6
 \openout6 = `main.lof'.
@@ -982,6 +1007,7 @@ LaTeX Info: Redefining \% on input line 1.
 ] (main.lot
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
+Package cleveref Info: loaded `spanish' language definitions on input line 1.
 )
 \tf@lot=\write7
 \openout7 = `main.lot'.
@@ -997,147 +1023,143 @@ Cap\'{\i }tulo 1.
 Cap\'{\i }tulo 2.
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 239.
+(hyperref)                than one, level fixed on input line 241.
 
 [5
 
 ] [6]
-Overfull \hbox (13.18678pt too wide) in paragraph at lines 282--282
+Overfull \hbox (13.18678pt too wide) in paragraph at lines 284--284
 []\T1/cmr/bx/n/14.4 Meta-Arquitectura del Mar-co de Sis-te-mas de Auto-Ingenier
 ía 
  []
 
 
-LaTeX Warning: Citation 'ISOIEEE' on page 7 undefined on input line 286.
+LaTeX Warning: Citation 'ISOIEEE' on page 7 undefined on input line 288.
 
 [7] [8] [9] [10] [11] [12]
 Cap\'{\i }tulo 3.
 [13
 
-] [14]
-Cap\'{\i }tulo 4.
-[15
-
 ]
 
-LaTeX Warning: Citation 'WenjieYi2023Automated' on page 16 undefined on input l
-ine 456.
+LaTeX Warning: Citation 'WenjieYi2023Automated' on page 14 undefined on input l
+ine 402.
+
+[14]
+
+LaTeX Warning: Citation 'ZhangYiranKnowledge' on page 15 undefined on input lin
+e 412.
+
+[15]
+
+LaTeX Warning: Citation 'ZhangYiranKnowledge' on page 16 undefined on input lin
+e 442.
 
 [16]
+Cap\'{\i }tulo 4.
+[17
 
-LaTeX Warning: Citation 'ZhangYiranKnowledge' on page 17 undefined on input lin
-e 466.
-
-[17]
-
-LaTeX Warning: Citation 'ZhangYiranKnowledge' on page 18 undefined on input lin
-e 496.
-
-[18]
-Cap\'{\i }tulo 5.
-[19
-
-] [20] [21]
-Underfull \hbox (badness 10000) in paragraph at lines 580--580
+] [18] [19]
+Underfull \hbox (badness 10000) in paragraph at lines 526--526
 []|\T1/cmtt/m/n/12 TITLE-ABS-KEY ((("self-architecting" OR
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 580--580
+Underfull \hbox (badness 10000) in paragraph at lines 526--526
 \T1/cmtt/m/n/12 "self architectural" OR " auto-architecting"
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 580--580
+Underfull \hbox (badness 10000) in paragraph at lines 526--526
 \T1/cmtt/m/n/12 OR "auto architectural") W/3 "system*") OR
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 580--580
+Underfull \hbox (badness 10000) in paragraph at lines 526--526
 \T1/cmtt/m/n/12 (("self-architectural" OR "auto-architectural") W/3
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 580--580
+Underfull \hbox (badness 10000) in paragraph at lines 526--526
 \T1/cmtt/m/n/12 "design")) AND PUBYEAR > 2014 AND PUBYEAR < 2027 AND
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 580--580
+Underfull \hbox (badness 10000) in paragraph at lines 526--526
 \T1/cmtt/m/n/12 (LIMIT-TO (SUBJAREA, "COMP") OR LIMIT-TO (SUBJAREA,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 594--594
+Underfull \hbox (badness 10000) in paragraph at lines 540--540
 []|\T1/cmr/m/n/12 1. Self-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 594--594
+Underfull \hbox (badness 10000) in paragraph at lines 540--540
 \T1/cmr/m/n/12 Architecting
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 596--596
+Underfull \hbox (badness 10000) in paragraph at lines 542--542
 []|\T1/cmr/m/n/12 3. Evo-lu-tio-nary
  []
 
 
-Underfull \hbox (badness 1297) in paragraph at lines 597--597
+Underfull \hbox (badness 1297) in paragraph at lines 543--543
 []|\T1/cmr/m/n/12 (("generative de-sign" OR "ge-ne-ra-ti-ve soft-wa-re de-sign"
 ) AND
  []
 
 
-Underfull \hbox (badness 3168) in paragraph at lines 598--598
+Underfull \hbox (badness 3168) in paragraph at lines 544--544
 []|\T1/cmr/m/n/12 5. Soft-wa-re De-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 599--599
+Underfull \hbox (badness 10000) in paragraph at lines 545--545
 []|\T1/cmr/m/n/12 6. Self-Sufficient
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 601--601
+Underfull \hbox (badness 10000) in paragraph at lines 547--547
 []|\T1/cmr/m/n/12 8. Self/Auto-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 601--601
+Underfull \hbox (badness 10000) in paragraph at lines 547--547
 \T1/cmr/m/n/12 Architectural
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 602--602
+Underfull \hbox (badness 10000) in paragraph at lines 548--548
 []|\T1/cmr/m/n/12 9. Self/Auto-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 603--603
+Underfull \hbox (badness 10000) in paragraph at lines 549--549
 []|\T1/cmr/m/n/12 10. Self/Auto-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 603--603
+Underfull \hbox (badness 10000) in paragraph at lines 549--549
 \T1/cmr/m/n/12 Component
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 604--604
+Underfull \hbox (badness 10000) in paragraph at lines 550--550
 []|\T1/cmr/m/n/12 11. Self/Auto-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 605--605
+Underfull \hbox (badness 10000) in paragraph at lines 551--551
 []|\T1/cmr/m/n/12 12. Self/Auto-
  []
 
-[22]
+[20]
 Overfull \vbox (8.28314pt too high) has occurred while \output is active []
 
 
-[23] [24] [25]
+[21] [22] [23]
 Package epstopdf Info: Source file: <figures/Fig1_Workflow.eps>
 (epstopdf)                    date: 2026-08-18 20:59:10
 (epstopdf)                    size: 183240 bytes
@@ -1147,15 +1169,15 @@ Package epstopdf Info: Source file: <figures/Fig1_Workflow.eps>
 (epstopdf)                    size: 63031 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figures/Fig1_Workflo
 w-eps-converted-to.pdf figures/Fig1_Workflow.eps>
-(epstopdf)             \includegraphics on input line 671.
+(epstopdf)             \includegraphics on input line 617.
 Package epstopdf Info: Output file is already uptodate.
-<figures/Fig1_Workflow-eps-converted-to.pdf, id=783, 604.2575pt x 709.65125pt>
+<figures/Fig1_Workflow-eps-converted-to.pdf, id=715, 604.2575pt x 709.65125pt>
 File: figures/Fig1_Workflow-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/Fig1_Workflow-eps-converted-to.pdf>
 Package pdftex.def Info: figures/Fig1_Workflow-eps-converted-to.pdf  used on in
-put line 671.
+put line 617.
 (pdftex.def)             Requested size: 320.46199pt x 376.3516pt.
- [26]
+ [24]
 Package epstopdf Info: Source file: <figures/Fig2_StudySelection.eps>
 (epstopdf)                    date: 2026-08-18 20:59:10
 (epstopdf)                    size: 578496 bytes
@@ -1165,93 +1187,94 @@ to.pdf>
 (epstopdf)                    size: 560289 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figures/Fig2_StudySe
 lection-eps-converted-to.pdf figures/Fig2_StudySelection.eps>
-(epstopdf)             \includegraphics on input line 680.
+(epstopdf)             \includegraphics on input line 626.
 Package epstopdf Info: Output file is already uptodate.
-<figures/Fig2_StudySelection-eps-converted-to.pdf, id=790, 717.68124pt x 685.56
+<figures/Fig2_StudySelection-eps-converted-to.pdf, id=722, 717.68124pt x 685.56
 125pt>
 File: figures/Fig2_StudySelection-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/Fig2_StudySelection-eps-converted-to.pdf>
 Package pdftex.def Info: figures/Fig2_StudySelection-eps-converted-to.pdf  used
- on input line 680.
+ on input line 626.
 (pdftex.def)             Requested size: 412.02156pt x 393.58792pt.
- [27 <./figures/Fig1_Workflow-eps-converted-to.pdf>]
-[28 <./figures/Fig2_StudySelection-eps-converted-to.pdf>] [29]
-Overfull \hbox (77.05528pt too wide) detected at line 712
-[][][]\OML/cmm/m/it/12 Requerimientos \OMS/cmsy/m/n/12 ! \OML/cmm/m/it/12 Arqui
-tectura \OMS/cmsy/m/n/12 ! \OML/cmm/m/it/12 Componentes=Interfaces \OMS/cmsy/m/
-n/12 ! \OML/cmm/m/it/12 Estructuras de Datos \OMS/cmsy/m/n/12 ! \OML/cmm/m/it/1
-2 Algoritmos
+ [25 <./figures/Fig1_Workflow-eps-converted-to.pdf>]
+[26 <./figures/Fig2_StudySelection-eps-converted-to.pdf>] [27]
+Overfull \hbox (77.05528pt too wide) detected at line 658
+[][][][]\OML/cmm/m/it/12 Requerimientos \OMS/cmsy/m/n/12 ! \OML/cmm/m/it/12 Arq
+uitectura \OMS/cmsy/m/n/12 ! \OML/cmm/m/it/12 Componentes=Interfaces \OMS/cmsy/
+m/n/12 ! \OML/cmm/m/it/12 Estructuras de Datos \OMS/cmsy/m/n/12 ! \OML/cmm/m/it
+/12 Algoritmos
  []
 
-[30] [31] [32]
+[28] [29] [30]
 
-LaTeX Warning: Command \' invalid in math mode on input line 810.
-
-
-LaTeX Warning: Command \' invalid in math mode on input line 810.
+LaTeX Warning: Command \' invalid in math mode on input line 756.
 
 
-LaTeX Warning: Command \' invalid in math mode on input line 810.
+LaTeX Warning: Command \' invalid in math mode on input line 756.
 
 
-LaTeX Warning: Command \' invalid in math mode on input line 810.
+LaTeX Warning: Command \' invalid in math mode on input line 756.
 
 
-LaTeX Warning: Command \' invalid in math mode on input line 810.
+LaTeX Warning: Command \' invalid in math mode on input line 756.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 756.
 
 Missing character: There is no ó in font cmr12!
 Missing character: There is no ó in font cmr12!
 Missing character: There is no ó in font cmr12!
 Missing character: There is no ó in font cmr12!
 Missing character: There is no ó in font cmr12!
-[33] [34] [35] [36] [37] [38] [39] [40]
+[31] [32] [33] [34] [35] [36] [37] [38]
+Cap\'{\i }tulo 5.
+[39
+
+] [40] [41] [42] [43]
 Cap\'{\i }tulo 6.
-[41
+[44
 
-] [42] [43] [44] [45]
-Cap\'{\i }tulo 7.
-[46
-
-] [47] [48
+] [45] [46
 
 ]
-Overfull \hbox (7.38779pt too wide) in paragraph at lines 1058--1058
+Overfull \hbox (7.38779pt too wide) in paragraph at lines 1004--1004
 \T1/cmr/m/n/12 2016, Seattle, WA, USA: As-so-cia-tion for Com-pu-ting Ma-chi-ne
 ry, 2016, págs. 1073[]1075,
  []
 
-[49] [50]
-Overfull \hbox (6.58615pt too wide) in paragraph at lines 1058--1058
+[47] [48]
+Overfull \hbox (6.58615pt too wide) in paragraph at lines 1004--1004
 \T1/cmr/m/n/12 en \T1/cmr/m/it/12 Agent-oriented metho-do-lo-gies\T1/cmr/m/n/12
  , IGI Glo-bal Scien-ti-fic Pu-blishing, 2005, págs. 107[]135. 
  []
 
-[51]
+[49]
 Ap\'{e}ndice A.
-[52
+[50
 
 ] (main.aux
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
+Package cleveref Info: loaded `spanish' language definitions on input line 12.
 )
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-08-10>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D496F26061B7692E5C151DC6281B34A8;23557.
+(rerunfilecheck)             Checksum: 35E52669A7482AF7AB6F67CE87A8F6A8;21492.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23558 strings out of 467441
- 421944 string characters out of 5407591
- 1357121 words of memory out of 5000000
- 52358 multiletter control sequences out of 15000+600000
+ 25209 strings out of 467441
+ 460725 string characters out of 5407591
+ 1405053 words of memory out of 5000000
+ 54013 multiletter control sequences out of 15000+600000
  643982 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,12n,77p,1345b,2367s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 73i,12n,77p,1345b,2686s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm
 0600.pk> <C:\Users\Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\ectt1200.pk> <C:\Users\Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
@@ -1274,9 +1297,9 @@ e1/public/amsfonts/cm/cmr12.pfb><C:/Users/Mikec/AppData/Local/Programs/MiKTeX/f
 onts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Mikec/AppData/Local/Programs/M
 iKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Mikec/AppData/Local/P
 rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (64 pages, 1175598 bytes).
+Output written on main.pdf (62 pages, 1159028 bytes).
 PDF statistics:
- 1754 PDF objects out of 2073 (max. 8388607)
- 225 named destinations out of 1000 (max. 500000)
- 792 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1677 PDF objects out of 1728 (max. 8388607)
+ 213 named destinations out of 1000 (max. 500000)
+ 720 words of extra memory for PDF output out of 10000 (max. 10000000)
 

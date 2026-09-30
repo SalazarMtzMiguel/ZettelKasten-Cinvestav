@@ -2398,44 +2398,30 @@
     <bcf:citekey order="22" intorder="1">StratosIdreos2019LearningData</bcf:citekey>
     <bcf:citekey order="23" intorder="1">idreos2018periodic</bcf:citekey>
     <bcf:citekey order="24" intorder="1">loncaric2016Datastructure</bcf:citekey>
-    <bcf:citekey order="25" intorder="1">loncaric2018Generalizeddata</bcf:citekey>
-    <bcf:citekey order="26" intorder="1">Dam2025TowardsMulti-Agentic</bcf:citekey>
-    <bcf:citekey order="27" intorder="1">Maadli2025</bcf:citekey>
-    <bcf:citekey order="28" intorder="1">Rajendran2025AMulti-Agent</bcf:citekey>
-    <bcf:citekey order="29" intorder="1">Affonso2024AReferenceArchitecture</bcf:citekey>
-    <bcf:citekey order="30" intorder="1">Houichime2024Optimized</bcf:citekey>
-    <bcf:citekey order="31" intorder="1">Zhao2025AutomatedMetaheuristic</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">AuroraRamirez2015234</bcf:citekey>
+    <bcf:citekey order="24" intorder="2">loncaric2018Generalizeddata</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">Zhao2025AutomatedMetaheuristic</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">WenjieYi2023Automated</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">AuroraRamirez2015234</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">Houichime2024Optimized</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">Dam2025TowardsMulti-Agentic</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">ZhangYiranKnowledge</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">Rajendran2025AMulti-Agent</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">Affonso2024AReferenceArchitecture</bcf:citekey>
     <bcf:citekey order="33" intorder="1">WeynsDannyFromSelf-Adaptation</bcf:citekey>
     <bcf:citekey order="34" intorder="1">Porter2024SelfDesigning</bcf:citekey>
-    <bcf:citekey order="35" intorder="1">sommerville2011software</bcf:citekey>
-    <bcf:citekey order="36" intorder="1">StratosIdreos2019LearningData</bcf:citekey>
-    <bcf:citekey order="37" intorder="1">idreos2018periodic</bcf:citekey>
-    <bcf:citekey order="38" intorder="1">loncaric2016Datastructure</bcf:citekey>
-    <bcf:citekey order="38" intorder="2">loncaric2018Generalizeddata</bcf:citekey>
-    <bcf:citekey order="39" intorder="1">Zhao2025AutomatedMetaheuristic</bcf:citekey>
-    <bcf:citekey order="40" intorder="1">WenjieYi2023Automated</bcf:citekey>
-    <bcf:citekey order="41" intorder="1">AuroraRamirez2015234</bcf:citekey>
-    <bcf:citekey order="42" intorder="1">Houichime2024Optimized</bcf:citekey>
-    <bcf:citekey order="43" intorder="1">Dam2025TowardsMulti-Agentic</bcf:citekey>
-    <bcf:citekey order="44" intorder="1">ZhangYiranKnowledge</bcf:citekey>
-    <bcf:citekey order="45" intorder="1">Rajendran2025AMulti-Agent</bcf:citekey>
-    <bcf:citekey order="46" intorder="1">Affonso2024AReferenceArchitecture</bcf:citekey>
-    <bcf:citekey order="47" intorder="1">WeynsDannyFromSelf-Adaptation</bcf:citekey>
-    <bcf:citekey order="48" intorder="1">Porter2024SelfDesigning</bcf:citekey>
-    <bcf:citekey order="49" intorder="1">StratosIdreos2019LearningData</bcf:citekey>
-    <bcf:citekey order="50" intorder="1">loncaric2016Datastructure</bcf:citekey>
-    <bcf:citekey order="51" intorder="1">Zhao2025AutomatedMetaheuristic</bcf:citekey>
-    <bcf:citekey order="52" intorder="1">AuroraRamirez2015234</bcf:citekey>
-    <bcf:citekey order="53" intorder="1">ZhangYiranKnowledge</bcf:citekey>
-    <bcf:citekey order="54" intorder="1">Rajendran2025AMulti-Agent</bcf:citekey>
-    <bcf:citekey order="55" intorder="1">Affonso2024AReferenceArchitecture</bcf:citekey>
-    <bcf:citekey order="56" intorder="1">WeynsDannyFromSelf-Adaptation</bcf:citekey>
-    <bcf:citekey order="57" intorder="1">Pagen2020PRISMA</bcf:citekey>
-    <bcf:citekey order="58" intorder="1">barbaraGuidelines</bcf:citekey>
-    <bcf:citekey order="59" intorder="1">Gusenbauer2020</bcf:citekey>
-    <bcf:citekey order="60" intorder="1">Wohlin2014</bcf:citekey>
-    <bcf:citekey order="61" intorder="1">prometheus_padgham2005</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">StratosIdreos2019LearningData</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">loncaric2016Datastructure</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">Zhao2025AutomatedMetaheuristic</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">AuroraRamirez2015234</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">ZhangYiranKnowledge</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">Rajendran2025AMulti-Agent</bcf:citekey>
+    <bcf:citekey order="41" intorder="1">Affonso2024AReferenceArchitecture</bcf:citekey>
+    <bcf:citekey order="42" intorder="1">WeynsDannyFromSelf-Adaptation</bcf:citekey>
+    <bcf:citekey order="43" intorder="1">Pagen2020PRISMA</bcf:citekey>
+    <bcf:citekey order="44" intorder="1">barbaraGuidelines</bcf:citekey>
+    <bcf:citekey order="45" intorder="1">Gusenbauer2020</bcf:citekey>
+    <bcf:citekey order="46" intorder="1">Wohlin2014</bcf:citekey>
+    <bcf:citekey order="47" intorder="1">prometheus_padgham2005</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
