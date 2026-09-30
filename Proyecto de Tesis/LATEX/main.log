@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.9.17)  30 SEP 2026 16:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.9.17)  30 SEP 2026 17:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -906,13 +906,6 @@ Package biblatex Warning: The following entry could not be found
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                WenjieYi2023Automated
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
 (biblatex)                ZhangYiranKnowledge
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
@@ -1040,12 +1033,7 @@ LaTeX Warning: Citation 'ISOIEEE' on page 7 undefined on input line 288.
 Cap\'{\i }tulo 3.
 [13
 
-]
-
-LaTeX Warning: Citation 'WenjieYi2023Automated' on page 14 undefined on input l
-ine 402.
-
-[14]
+] [14]
 
 LaTeX Warning: Citation 'ZhangYiranKnowledge' on page 15 undefined on input lin
 e 412.
@@ -1171,7 +1159,7 @@ Package epstopdf Info: Source file: <figures/Fig1_Workflow.eps>
 w-eps-converted-to.pdf figures/Fig1_Workflow.eps>
 (epstopdf)             \includegraphics on input line 617.
 Package epstopdf Info: Output file is already uptodate.
-<figures/Fig1_Workflow-eps-converted-to.pdf, id=715, 604.2575pt x 709.65125pt>
+<figures/Fig1_Workflow-eps-converted-to.pdf, id=717, 604.2575pt x 709.65125pt>
 File: figures/Fig1_Workflow-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/Fig1_Workflow-eps-converted-to.pdf>
 Package pdftex.def Info: figures/Fig1_Workflow-eps-converted-to.pdf  used on in
@@ -1189,7 +1177,7 @@ to.pdf>
 lection-eps-converted-to.pdf figures/Fig2_StudySelection.eps>
 (epstopdf)             \includegraphics on input line 626.
 Package epstopdf Info: Output file is already uptodate.
-<figures/Fig2_StudySelection-eps-converted-to.pdf, id=722, 717.68124pt x 685.56
+<figures/Fig2_StudySelection-eps-converted-to.pdf, id=724, 717.68124pt x 685.56
 125pt>
 File: figures/Fig2_StudySelection-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/Fig2_StudySelection-eps-converted-to.pdf>
@@ -1268,10 +1256,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25209 strings out of 467441
- 460725 string characters out of 5407591
- 1405053 words of memory out of 5000000
- 54013 multiletter control sequences out of 15000+600000
+ 25213 strings out of 467441
+ 460933 string characters out of 5407591
+ 1406094 words of memory out of 5000000
+ 54016 multiletter control sequences out of 15000+600000
  643982 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,12n,77p,1345b,2686s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1297,9 +1285,9 @@ e1/public/amsfonts/cm/cmr12.pfb><C:/Users/Mikec/AppData/Local/Programs/MiKTeX/f
 onts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Mikec/AppData/Local/Programs/M
 iKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Mikec/AppData/Local/P
 rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (62 pages, 1159017 bytes).
+Output written on main.pdf (62 pages, 1159868 bytes).
 PDF statistics:
- 1677 PDF objects out of 1728 (max. 8388607)
- 213 named destinations out of 1000 (max. 500000)
+ 1681 PDF objects out of 1728 (max. 8388607)
+ 214 named destinations out of 1000 (max. 500000)
  720 words of extra memory for PDF output out of 10000 (max. 10000000)
 

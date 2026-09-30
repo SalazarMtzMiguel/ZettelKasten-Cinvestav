@@ -891,6 +891,57 @@
       \verb http://dx.doi.org/10.1109/TEVC.2024.3464677
       \endverb
     \endentry
+    \entry{Yi2023Automatedalgorithm}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=56c890383113fef0fe5395b1ab45b755}{%
+           family={Yi},
+           familyi={Y\bibinitperiod},
+           given={Wenjie},
+           giveni={W\bibinitperiod}}}%
+        {{hash=dae9f4a7f61571c2baa1bf04fdd1fcc8}{%
+           family={Qu},
+           familyi={Q\bibinitperiod},
+           given={Rong},
+           giveni={R\bibinitperiod}}}%
+        {{hash=a30db259f27bb5f90cfea9602f78d129}{%
+           family={Jiao},
+           familyi={J\bibinitperiod},
+           given={Licheng},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \strng{namehash}{2fc388841aecec9b0ea2c1654ecfbc57}
+      \strng{fullhash}{6f20c88c2a5c8c435fa2889ea8efdcc9}
+      \strng{fullhashraw}{6f20c88c2a5c8c435fa2889ea8efdcc9}
+      \strng{bibnamehash}{6f20c88c2a5c8c435fa2889ea8efdcc9}
+      \strng{authorbibnamehash}{6f20c88c2a5c8c435fa2889ea8efdcc9}
+      \strng{authornamehash}{2fc388841aecec9b0ea2c1654ecfbc57}
+      \strng{authorfullhash}{6f20c88c2a5c8c435fa2889ea8efdcc9}
+      \strng{authorfullhashraw}{6f20c88c2a5c8c435fa2889ea8efdcc9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0957-4174}
+      \field{journaltitle}{Expert Systems with Applications}
+      \field{month}{4}
+      \field{title}{Automated algorithm design using proximal policy optimisation with identified features}
+      \field{volume}{216}
+      \field{year}{2023}
+      \field{pages}{119461}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.eswa.2022.119461
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/j.eswa.2022.119461
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.eswa.2022.119461
+      \endverb
+    \endentry
     \entry{AuroraRamirez2015234}{article}{}{}
       \name{author}{3}{}{%
         {{hash=ab93579f7389cb508ab796ccceebc079}{%
@@ -1480,7 +1531,6 @@
     \endentry
   \enddatalist
   \missing{ISOIEEE}
-  \missing{WenjieYi2023Automated}
   \missing{ZhangYiranKnowledge}
 \endrefsection
 \endinput
