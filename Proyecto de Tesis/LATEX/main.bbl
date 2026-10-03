@@ -1,0 +1,1537 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{PerezCarrillo2026}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=a27853a76e4fb1218d35e41ce33aa4d7}{%
+           family={Pérez-Carrillo},
+           familyi={P\bibinithyphendelim C\bibinitperiod},
+           given={Giovana},
+           giveni={G\bibinitperiod}}}%
+        {{hash=09ecdbe11b3bc22c366453cdc7dcffa4}{%
+           family={Siller},
+           familyi={S\bibinitperiod},
+           given={Mario},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e45ae1b9399615d08411b9d56b079747}{%
+           family={Alonso},
+           familyi={A\bibinitperiod},
+           given={Luis},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{960f38df80a37a2254c836211b105f6f}
+      \strng{fullhash}{1ed3a3b45f1b9a65350f95b167c384ac}
+      \strng{fullhashraw}{1ed3a3b45f1b9a65350f95b167c384ac}
+      \strng{bibnamehash}{1ed3a3b45f1b9a65350f95b167c384ac}
+      \strng{authorbibnamehash}{1ed3a3b45f1b9a65350f95b167c384ac}
+      \strng{authornamehash}{960f38df80a37a2254c836211b105f6f}
+      \strng{authorfullhash}{1ed3a3b45f1b9a65350f95b167c384ac}
+      \strng{authorfullhashraw}{1ed3a3b45f1b9a65350f95b167c384ac}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Automated Software Engineering}
+      \field{month}{5}
+      \field{title}{Self-Engineering Systems: A New Conceptual Framework and a Reference Meta-Architecture for its Life Cycle Management}
+      \field{year}{2026}
+      \verb{doi}
+      \verb 10.21203/rs.3.rs-9577141/v1
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.21203/rs.3.rs-9577141/v1
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.21203/rs.3.rs-9577141/v1
+      \endverb
+    \endentry
+    \entry{perez2024}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{hash=67eb3fae0a519f2fc153a0b75a1ae068}{%
+           family={Pérez\bibnamedelima Carrillo},
+           familyi={P\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Giovana\bibnamedelima Patricia},
+           giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Centro de Investigación y de Estudios Avanzados del Instituto Politécnico Nacional Unidad Guadalajara}%
+      }
+      \list{location}{1}{%
+        {Guadalajara, México}%
+      }
+      \strng{namehash}{67eb3fae0a519f2fc153a0b75a1ae068}
+      \strng{fullhash}{67eb3fae0a519f2fc153a0b75a1ae068}
+      \strng{fullhashraw}{67eb3fae0a519f2fc153a0b75a1ae068}
+      \strng{bibnamehash}{67eb3fae0a519f2fc153a0b75a1ae068}
+      \strng{authorbibnamehash}{67eb3fae0a519f2fc153a0b75a1ae068}
+      \strng{authornamehash}{67eb3fae0a519f2fc153a0b75a1ae068}
+      \strng{authorfullhash}{67eb3fae0a519f2fc153a0b75a1ae068}
+      \strng{authorfullhashraw}{67eb3fae0a519f2fc153a0b75a1ae068}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{8}
+      \field{title}{Nuevo Marco Conceptual de Sistemas de Autoingeniería y una Arquitectura para la Gestión de su Ciclo de Vida}
+      \field{type}{Tesis de Maestría en Ciencias}
+      \field{year}{2024}
+    \endentry
+    \entry{swebok2014}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=6b600542ba3d4a21aea8e7d8ee988932}{%
+           family={{IEEE Computer Society}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Los Alamitos, CA}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{6b600542ba3d4a21aea8e7d8ee988932}
+      \strng{fullhash}{6b600542ba3d4a21aea8e7d8ee988932}
+      \strng{fullhashraw}{6b600542ba3d4a21aea8e7d8ee988932}
+      \strng{bibnamehash}{6b600542ba3d4a21aea8e7d8ee988932}
+      \strng{authorbibnamehash}{6b600542ba3d4a21aea8e7d8ee988932}
+      \strng{authornamehash}{6b600542ba3d4a21aea8e7d8ee988932}
+      \strng{authorfullhash}{6b600542ba3d4a21aea8e7d8ee988932}
+      \strng{authorfullhashraw}{6b600542ba3d4a21aea8e7d8ee988932}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{4}
+      \field{isbn}{978-0-7695-5166-1}
+      \field{title}{{Guide to the Software Engineering Body of Knowledge (SWEBOK)}}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.computer.org/education/bodies-of-knowledge/software-engineering
+      \endverb
+      \verb{url}
+      \verb https://www.computer.org/education/bodies-of-knowledge/software-engineering
+      \endverb
+    \endentry
+    \entry{Maier2022}{inbook}{}{}
+      \name{author}{3}{}{%
+        {{hash=e030b6997e88bdcad76b3597e803eaf4}{%
+           family={Maier},
+           familyi={M\bibinitperiod},
+           given={Anja},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8cea514795a58a7caac32be7fcf0611f}{%
+           family={Oehmen},
+           familyi={O\bibinitperiod},
+           given={Josef},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f1223efc6476fcb23aee1056ebe59867}{%
+           family={Vermaas},
+           familyi={V\bibinitperiod},
+           given={Pieter\bibnamedelima E.},
+           giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{215a727ef73d16ae67c17e6755dd0fce}
+      \strng{fullhash}{0624e984d271c90fca5df4ed816c49c7}
+      \strng{fullhashraw}{0624e984d271c90fca5df4ed816c49c7}
+      \strng{bibnamehash}{0624e984d271c90fca5df4ed816c49c7}
+      \strng{authorbibnamehash}{0624e984d271c90fca5df4ed816c49c7}
+      \strng{authornamehash}{215a727ef73d16ae67c17e6755dd0fce}
+      \strng{authorfullhash}{0624e984d271c90fca5df4ed816c49c7}
+      \strng{authorfullhashraw}{0624e984d271c90fca5df4ed816c49c7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Handbook of Engineering Systems Design}
+      \field{isbn}{9783030811594}
+      \field{title}{Engineering Systems Design: A Look to the Future}
+      \field{year}{2022}
+      \field{pages}{1035\bibrangedash 1046}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1007/978-3-030-81159-4_31
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/978-3-030-81159-4_31
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/978-3-030-81159-4_31
+      \endverb
+    \endentry
+    \entry{Crowder2016}{book}{}{}
+      \name{author}{3}{}{%
+        {{hash=5c59f04707b3ab7c9ab5c3c9351bc42f}{%
+           family={Crowder},
+           familyi={C\bibinitperiod},
+           given={James\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=94649b0836302050954eb43fb06c6169}{%
+           family={Carbone},
+           familyi={C\bibinitperiod},
+           given={John\bibnamedelima N.},
+           giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=d068205ebb10a4cd3d1d426ce38e961a}{%
+           family={Demijohn},
+           familyi={D\bibinitperiod},
+           given={Russell},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{708cc2de2940d31103a46bf5e9cf9de6}
+      \strng{fullhash}{8a9bb17ed3fad0fdae64f6e65cddcdeb}
+      \strng{fullhashraw}{8a9bb17ed3fad0fdae64f6e65cddcdeb}
+      \strng{bibnamehash}{8a9bb17ed3fad0fdae64f6e65cddcdeb}
+      \strng{authorbibnamehash}{8a9bb17ed3fad0fdae64f6e65cddcdeb}
+      \strng{authornamehash}{708cc2de2940d31103a46bf5e9cf9de6}
+      \strng{authorfullhash}{8a9bb17ed3fad0fdae64f6e65cddcdeb}
+      \strng{authorfullhashraw}{8a9bb17ed3fad0fdae64f6e65cddcdeb}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9783319223988}
+      \field{title}{Multidisciplinary Systems Engineering: Architecting the Design Process}
+      \field{year}{2016}
+      \verb{doi}
+      \verb 10.1007/978-3-319-22398-8
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/978-3-319-22398-8
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/978-3-319-22398-8
+      \endverb
+    \endentry
+    \entry{Kruchten1995The}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=dca64ceea72185cf29648fc367546339}{%
+           family={Kruchten},
+           familyi={K\bibinitperiod},
+           given={Philippe\bibnamedelima B},
+           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{dca64ceea72185cf29648fc367546339}
+      \strng{fullhash}{dca64ceea72185cf29648fc367546339}
+      \strng{fullhashraw}{dca64ceea72185cf29648fc367546339}
+      \strng{bibnamehash}{dca64ceea72185cf29648fc367546339}
+      \strng{authorbibnamehash}{dca64ceea72185cf29648fc367546339}
+      \strng{authornamehash}{dca64ceea72185cf29648fc367546339}
+      \strng{authorfullhash}{dca64ceea72185cf29648fc367546339}
+      \strng{authorfullhashraw}{dca64ceea72185cf29648fc367546339}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Softw.}
+      \field{title}{The 4+1 View Model of Architecture}
+      \field{volume}{12}
+      \field{year}{1995}
+      \field{pages}{42\bibrangedash 50}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/52.469759
+      \endverb
+    \endentry
+    \entry{li2025riseaiteammatessoftware}{misc}{}{}
+      \name{author}{3}{}{%
+        {{hash=2620b9afd37cca5b9b7354f67c036d4d}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Hao},
+           giveni={H\bibinitperiod}}}%
+        {{hash=4f3335a012f1025af007b1682409473d}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Haoxiang},
+           giveni={H\bibinitperiod}}}%
+        {{hash=37a79f9b3d67c262a89ed8c5521d654f}{%
+           family={Hassan},
+           familyi={H\bibinitperiod},
+           given={Ahmed\bibnamedelima E.},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{daaeb7670772db8a47b015a37e6672bc}
+      \strng{fullhash}{21253d0e49e6fb0aca5bd5f0a246452c}
+      \strng{fullhashraw}{21253d0e49e6fb0aca5bd5f0a246452c}
+      \strng{bibnamehash}{21253d0e49e6fb0aca5bd5f0a246452c}
+      \strng{authorbibnamehash}{21253d0e49e6fb0aca5bd5f0a246452c}
+      \strng{authornamehash}{daaeb7670772db8a47b015a37e6672bc}
+      \strng{authorfullhash}{21253d0e49e6fb0aca5bd5f0a246452c}
+      \strng{authorfullhashraw}{21253d0e49e6fb0aca5bd5f0a246452c}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.SE}
+      \field{eprinttype}{arXiv}
+      \field{title}{The Rise of AI Teammates in Software Engineering (SE) 3.0: How Autonomous Coding Agents Are Reshaping Software Engineering}
+      \field{year}{2025}
+      \verb{eprint}
+      \verb 2507.15003
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2507.15003
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2507.15003
+      \endverb
+    \endentry
+    \entry{sommerville2011software}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=70341b3bfcce7026902f4eb1e4111b58}{%
+           family={Sommerville},
+           familyi={S\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boston}%
+      }
+      \list{publisher}{1}{%
+        {Addison-Wesley}%
+      }
+      \strng{namehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{fullhash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{fullhashraw}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{bibnamehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authorbibnamehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authornamehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authorfullhash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authorfullhashraw}{70341b3bfcce7026902f4eb1e4111b58}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{9}
+      \field{isbn}{978-0-13-703515-1}
+      \field{title}{Software Engineering}
+      \field{year}{2011}
+    \endentry
+    \entry{mctswiechowski2022}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=332ed462f69f0196a1ef29aa6004e9eb}{%
+           family={Świechowski},
+           familyi={Ś\bibinitperiod},
+           given={Maciej},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9df5ad96f4eb44a01e07c4d212d64974}{%
+           family={Godlewski},
+           familyi={G\bibinitperiod},
+           given={Konrad},
+           giveni={K\bibinitperiod}}}%
+        {{hash=4185c7ee5350bf591989b6cb7edeea79}{%
+           family={Sawicki},
+           familyi={S\bibinitperiod},
+           given={Bartosz},
+           giveni={B\bibinitperiod}}}%
+        {{hash=d5cdee6ec583c792c2f20ddddc2874ff}{%
+           family={Mańdziuk},
+           familyi={M\bibinitperiod},
+           given={Jacek},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{d3741f44919172ce39a408a089354add}
+      \strng{fullhash}{c0bf6d4ea49b1135b05402348c143a0d}
+      \strng{fullhashraw}{c0bf6d4ea49b1135b05402348c143a0d}
+      \strng{bibnamehash}{c0bf6d4ea49b1135b05402348c143a0d}
+      \strng{authorbibnamehash}{c0bf6d4ea49b1135b05402348c143a0d}
+      \strng{authornamehash}{d3741f44919172ce39a408a089354add}
+      \strng{authorfullhash}{c0bf6d4ea49b1135b05402348c143a0d}
+      \strng{authorfullhashraw}{c0bf6d4ea49b1135b05402348c143a0d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1573-7462}
+      \field{journaltitle}{Artificial Intelligence Review}
+      \field{number}{3}
+      \field{title}{Monte Carlo Tree Search: a review of recent modifications and applications}
+      \field{volume}{56}
+      \field{year}{2022}
+      \field{pages}{2497\bibrangedash 2562}
+      \range{pages}{66}
+      \verb{doi}
+      \verb 10.1007/s10462-022-10228-y
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/s10462-022-10228-y
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/s10462-022-10228-y
+      \endverb
+    \endentry
+    \entry{OntologyGuarino2009}{inbook}{}{}
+      \name{author}{3}{}{%
+        {{hash=daa1e3ed226808545f524143642ecf54}{%
+           family={Guarino},
+           familyi={G\bibinitperiod},
+           given={Nicola},
+           giveni={N\bibinitperiod}}}%
+        {{hash=ad8596d49553270898b40c1560703636}{%
+           family={Oberle},
+           familyi={O\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=3489f3873d85937d1977e3a21e5e76a7}{%
+           family={Staab},
+           familyi={S\bibinitperiod},
+           given={Steffen},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{6c3c7597845804f3adc7cf5bb612d6c3}
+      \strng{fullhash}{991a5696e889a30328c95db9f6b06457}
+      \strng{fullhashraw}{991a5696e889a30328c95db9f6b06457}
+      \strng{bibnamehash}{991a5696e889a30328c95db9f6b06457}
+      \strng{authorbibnamehash}{991a5696e889a30328c95db9f6b06457}
+      \strng{authornamehash}{6c3c7597845804f3adc7cf5bb612d6c3}
+      \strng{authorfullhash}{991a5696e889a30328c95db9f6b06457}
+      \strng{authorfullhashraw}{991a5696e889a30328c95db9f6b06457}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Handbook on Ontologies}
+      \field{isbn}{9783540926733}
+      \field{title}{What Is an Ontology?}
+      \field{year}{2009}
+      \field{pages}{1\bibrangedash 17}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1007/978-3-540-92673-3_0
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/978-3-540-92673-3_0
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/978-3-540-92673-3_0
+      \endverb
+    \endentry
+    \entry{duran2026seleccion}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{hash=b2571093a9f15851cd9f4d13da420046}{%
+           family={Duran\bibnamedelima Polanco},
+           familyi={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Liliana},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Centro de Investigación y de Estudios Avanzados del Instituto Politécnico Nacional, Unidad Guadalajara}%
+      }
+      \list{location}{1}{%
+        {Guadalajara, Jalisco, México}%
+      }
+      \strng{namehash}{b2571093a9f15851cd9f4d13da420046}
+      \strng{fullhash}{b2571093a9f15851cd9f4d13da420046}
+      \strng{fullhashraw}{b2571093a9f15851cd9f4d13da420046}
+      \strng{bibnamehash}{b2571093a9f15851cd9f4d13da420046}
+      \strng{authorbibnamehash}{b2571093a9f15851cd9f4d13da420046}
+      \strng{authornamehash}{b2571093a9f15851cd9f4d13da420046}
+      \strng{authorfullhash}{b2571093a9f15851cd9f4d13da420046}
+      \strng{authorfullhashraw}{b2571093a9f15851cd9f4d13da420046}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{2}
+      \field{title}{Selección de algoritmos para la toma de decisiones en el IoT basada en un modelo semántico}
+      \field{type}{Tesis de Maestría}
+      \field{year}{2026}
+    \endentry
+    \entry{DURANPOLANCO2023100904}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=6daeb6811f4bd67b61dc25b33ffe99ca}{%
+           family={Durán-Polanco},
+           familyi={D\bibinithyphendelim P\bibinitperiod},
+           given={Liliana},
+           giveni={L\bibinitperiod}}}%
+        {{hash=09ecdbe11b3bc22c366453cdc7dcffa4}{%
+           family={Siller},
+           familyi={S\bibinitperiod},
+           given={Mario},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{c870bd896795848331f11a87a348dc63}
+      \strng{fullhash}{c870bd896795848331f11a87a348dc63}
+      \strng{fullhashraw}{c870bd896795848331f11a87a348dc63}
+      \strng{bibnamehash}{c870bd896795848331f11a87a348dc63}
+      \strng{authorbibnamehash}{c870bd896795848331f11a87a348dc63}
+      \strng{authornamehash}{c870bd896795848331f11a87a348dc63}
+      \strng{authorfullhash}{c870bd896795848331f11a87a348dc63}
+      \strng{authorfullhashraw}{c870bd896795848331f11a87a348dc63}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2542-6605}
+      \field{journaltitle}{Internet of Things}
+      \field{title}{A taxonomy for decision making in IoT systems}
+      \field{volume}{24}
+      \field{year}{2023}
+      \field{pages}{100904}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.iot.2023.100904
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S2542660523002275
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S2542660523002275
+      \endverb
+    \endentry
+    \entry{Porter2024SelfDesigning}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=e089d5f706cc0a43a27019f5530d69ee}{%
+           family={Porter},
+           familyi={P\bibinitperiod},
+           given={Barry},
+           giveni={B\bibinitperiod}}}%
+        {{hash=3a603919a13b472d769acc736d5f845b}{%
+           family={Faulkner\bibnamedelima Rainford},
+           familyi={F\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Penn},
+           giveni={P\bibinitperiod}}}%
+        {{hash=6fde00aa68b2aad807926f58a9d2e0e4}{%
+           family={Rodrigues-Filho},
+           familyi={R\bibinithyphendelim F\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{5aea8c516384ea7ce99e2018b9132c6d}
+      \strng{fullhash}{47a00ed545445e3b81bdc29245863ac3}
+      \strng{fullhashraw}{47a00ed545445e3b81bdc29245863ac3}
+      \strng{bibnamehash}{47a00ed545445e3b81bdc29245863ac3}
+      \strng{authorbibnamehash}{47a00ed545445e3b81bdc29245863ac3}
+      \strng{authornamehash}{5aea8c516384ea7ce99e2018b9132c6d}
+      \strng{authorfullhash}{47a00ed545445e3b81bdc29245863ac3}
+      \strng{authorfullhashraw}{47a00ed545445e3b81bdc29245863ac3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0001-0782}
+      \field{journaltitle}{Commun. ACM}
+      \field{month}{12}
+      \field{number}{1}
+      \field{title}{Self-Designing Software}
+      \field{volume}{68}
+      \field{year}{2024}
+      \field{pages}{50\bibrangedash 59}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1145/3678165
+      \endverb
+      \verb{urlraw}
+      \verb https://doi-org.access.biblioteca.cinvestav.mx/10.1145/3678165
+      \endverb
+      \verb{url}
+      \verb https://doi-org.access.biblioteca.cinvestav.mx/10.1145/3678165
+      \endverb
+    \endentry
+    \entry{StratosIdreos2019LearningData}{article}{}{}
+      \name{author}{11}{}{%
+        {{hash=a0528fbf86972d447525db3b37c0677e}{%
+           family={Idreos},
+           familyi={I\bibinitperiod},
+           given={Stratos},
+           giveni={S\bibinitperiod}}}%
+        {{hash=0429b1d292a57ee847570f73cbf095cc}{%
+           family={Zoumpatianos},
+           familyi={Z\bibinitperiod},
+           given={Kostas},
+           giveni={K\bibinitperiod}}}%
+        {{hash=79e6b81c6876ad0c5fec19ebcc993255}{%
+           family={Chatterjee},
+           familyi={C\bibinitperiod},
+           given={Subarna},
+           giveni={S\bibinitperiod}}}%
+        {{hash=943aa4d0f7c93c7e8ac477f3b6d5c319}{%
+           family={Qin},
+           familyi={Q\bibinitperiod},
+           given={Wilson},
+           giveni={W\bibinitperiod}}}%
+        {{hash=e2496169823484571a453e1a07cf52f6}{%
+           family={Wasay},
+           familyi={W\bibinitperiod},
+           given={Abdul},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8c2dd8bc1236fb9aa1b21fd748a7fd15}{%
+           family={Hentschel},
+           familyi={H\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod}}}%
+        {{hash=48973bb6b970c1f5bf90ddf73b37efb2}{%
+           family={Kester},
+           familyi={K\bibinitperiod},
+           given={Mike},
+           giveni={M\bibinitperiod}}}%
+        {{hash=164ddac6e339e1e1f941f0ed9e81046c}{%
+           family={Dayan},
+           familyi={D\bibinitperiod},
+           given={Niv},
+           giveni={N\bibinitperiod}}}%
+        {{hash=d88c28182afb70b00173f1941543c0dd}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Demi},
+           giveni={D\bibinitperiod}}}%
+        {{hash=48aa9524283ecf0a279a2c2f6a12373e}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={Minseo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5a43afb8b2967cab16c36ee1210af35a}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Yiyou},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \strng{namehash}{755eff81c277d35321de03be3bd3546d}
+      \strng{fullhash}{d94ee572b9b2b49e8d7138a7a042f6e0}
+      \strng{fullhashraw}{d94ee572b9b2b49e8d7138a7a042f6e0}
+      \strng{bibnamehash}{755eff81c277d35321de03be3bd3546d}
+      \strng{authorbibnamehash}{755eff81c277d35321de03be3bd3546d}
+      \strng{authornamehash}{755eff81c277d35321de03be3bd3546d}
+      \strng{authorfullhash}{d94ee572b9b2b49e8d7138a7a042f6e0}
+      \strng{authorfullhashraw}{d94ee572b9b2b49e8d7138a7a042f6e0}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{<p>We propose a solution based on first principles and AI to the decades-old problem of data structure design. Instead of working on individual designs that each can only be helpful in a small set of environments, we propose the construction of an engine, a Data Alchemist, which learns how to blend fine-grained data structure design principles to automatically synthesize brand new data structures.</p>}
+      \field{journaltitle}{Bulletin of the IEEE Computer Society Technical Committee on Data Engineering}
+      \field{title}{Learning Data Structure Alchemy}
+      \field{volume}{42}
+      \field{year}{2019}
+      \field{pages}{46\bibrangedash 57}
+      \range{pages}{12}
+    \endentry
+    \entry{idreos2018periodic}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=a0528fbf86972d447525db3b37c0677e}{%
+           family={Idreos},
+           familyi={I\bibinitperiod},
+           given={Stratos},
+           giveni={S\bibinitperiod}}}%
+        {{hash=0429b1d292a57ee847570f73cbf095cc}{%
+           family={Zoumpatianos},
+           familyi={Z\bibinitperiod},
+           given={Kostas},
+           giveni={K\bibinitperiod}}}%
+        {{hash=e210012f06fe0a0fdb605056191f3b0b}{%
+           family={Athanassoulis},
+           familyi={A\bibinitperiod},
+           given={Manos},
+           giveni={M\bibinitperiod}}}%
+        {{hash=164ddac6e339e1e1f941f0ed9e81046c}{%
+           family={Dayan},
+           familyi={D\bibinitperiod},
+           given={Niv},
+           giveni={N\bibinitperiod}}}%
+        {{hash=8c2dd8bc1236fb9aa1b21fd748a7fd15}{%
+           family={Hentschel},
+           familyi={H\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod}}}%
+        {{hash=1be43174bbf594f7c6ce452016e41aec}{%
+           family={Kester},
+           familyi={K\bibinitperiod},
+           given={Michael\bibnamedelima S},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=d88c28182afb70b00173f1941543c0dd}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Demi},
+           giveni={D\bibinitperiod}}}%
+        {{hash=2e066bd533ba2dcde43918afc2d1cbb8}{%
+           family={Maas},
+           familyi={M\bibinitperiod},
+           given={Lukas\bibnamedelima M},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=943aa4d0f7c93c7e8ac477f3b6d5c319}{%
+           family={Qin},
+           familyi={Q\bibinitperiod},
+           given={Wilson},
+           giveni={W\bibinitperiod}}}%
+        {{hash=e2496169823484571a453e1a07cf52f6}{%
+           family={Wasay},
+           familyi={W\bibinitperiod},
+           given={Abdul},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{755eff81c277d35321de03be3bd3546d}
+      \strng{fullhash}{19b0ed7abe877c5b1275fd141248f6ef}
+      \strng{fullhashraw}{19b0ed7abe877c5b1275fd141248f6ef}
+      \strng{bibnamehash}{755eff81c277d35321de03be3bd3546d}
+      \strng{authorbibnamehash}{755eff81c277d35321de03be3bd3546d}
+      \strng{authornamehash}{755eff81c277d35321de03be3bd3546d}
+      \strng{authorfullhash}{19b0ed7abe877c5b1275fd141248f6ef}
+      \strng{authorfullhashraw}{19b0ed7abe877c5b1275fd141248f6ef}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Data Eng. Bull.}
+      \field{number}{3}
+      \field{title}{The Periodic Table of Data Structures.}
+      \field{volume}{41}
+      \field{year}{2018}
+      \field{pages}{64\bibrangedash 75}
+      \range{pages}{12}
+    \endentry
+    \entry{loncaric2016Datastructure}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{hash=63efc10e3c0b49e711e574ef77d0dbdd}{%
+           family={Loncaric},
+           familyi={L\bibinitperiod},
+           given={Calvin},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Seattle, WA, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{63efc10e3c0b49e711e574ef77d0dbdd}
+      \strng{fullhash}{63efc10e3c0b49e711e574ef77d0dbdd}
+      \strng{fullhashraw}{63efc10e3c0b49e711e574ef77d0dbdd}
+      \strng{bibnamehash}{63efc10e3c0b49e711e574ef77d0dbdd}
+      \strng{authorbibnamehash}{63efc10e3c0b49e711e574ef77d0dbdd}
+      \strng{authornamehash}{63efc10e3c0b49e711e574ef77d0dbdd}
+      \strng{authorfullhash}{63efc10e3c0b49e711e574ef77d0dbdd}
+      \strng{authorfullhashraw}{63efc10e3c0b49e711e574ef77d0dbdd}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 2016 24th ACM SIGSOFT International Symposium on Foundations of Software Engineering}
+      \field{isbn}{9781450342186}
+      \field{series}{FSE 2016}
+      \field{title}{Data structure synthesis}
+      \field{year}{2016}
+      \field{pages}{1073\bibrangedash 1075}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1145/2950290.2983946
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/2950290.2983946
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/2950290.2983946
+      \endverb
+      \keyw{Automatic Programming,Data Structures,Program Synthesis}
+    \endentry
+    \entry{loncaric2018Generalizeddata}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=63efc10e3c0b49e711e574ef77d0dbdd}{%
+           family={Loncaric},
+           familyi={L\bibinitperiod},
+           given={Calvin},
+           giveni={C\bibinitperiod}}}%
+        {{hash=7cc1cf4fe6d5d2a0088aa8f3f40ffc8f}{%
+           family={Ernst},
+           familyi={E\bibinitperiod},
+           given={Michael\bibnamedelima D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=891b5b8af87210ad697663a0f5e1e379}{%
+           family={Torlak},
+           familyi={T\bibinitperiod},
+           given={Emina},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Gothenburg, Sweden}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{b7c23a6ca22d6e428fea93c1aad37744}
+      \strng{fullhash}{3f8e79d889b99af7950a5f0b9c22270d}
+      \strng{fullhashraw}{3f8e79d889b99af7950a5f0b9c22270d}
+      \strng{bibnamehash}{3f8e79d889b99af7950a5f0b9c22270d}
+      \strng{authorbibnamehash}{3f8e79d889b99af7950a5f0b9c22270d}
+      \strng{authornamehash}{b7c23a6ca22d6e428fea93c1aad37744}
+      \strng{authorfullhash}{3f8e79d889b99af7950a5f0b9c22270d}
+      \strng{authorfullhashraw}{3f8e79d889b99af7950a5f0b9c22270d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 40th International Conference on Software Engineering}
+      \field{isbn}{9781450356381}
+      \field{series}{ICSE '18}
+      \field{title}{Generalized data structure synthesis}
+      \field{year}{2018}
+      \field{pages}{958\bibrangedash 968}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1145/3180155.3180211
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/3180155.3180211
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/3180155.3180211
+      \endverb
+      \keyw{automatic programming,data structures,program synthesis}
+    \endentry
+    \entry{Zhao2025AutomatedMetaheuristic}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=fb2121ec50debb9bbe4e9bc0625fd719}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Qi},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=a31a0cfa232fe007a64675d26dfd5a5a}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Tengfei},
+           giveni={T\bibinitperiod}}}%
+        {{hash=031c1719e430b8c4c210a9f5ad6e7c85}{%
+           family={Yan},
+           familyi={Y\bibinitperiod},
+           given={Bai},
+           giveni={B\bibinitperiod}}}%
+        {{hash=4b6049800541e363eea87fb2bd7f692d}{%
+           family={Duan},
+           familyi={D\bibinitperiod},
+           given={Qiqi},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=5a1cb92dc789e714fb5aaf67809119a6}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Jian},
+           giveni={J\bibinitperiod}}}%
+        {{hash=12d92c08cbd739cb423645113fab45fd}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Yuhui},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Institute of Electrical}%
+        {Electronics Engineers (IEEE)}%
+      }
+      \strng{namehash}{b80847f602c0c1a1e17ffbe0e797c4a5}
+      \strng{fullhash}{7d24af0f36887090aeabd9d8880cb333}
+      \strng{fullhashraw}{7d24af0f36887090aeabd9d8880cb333}
+      \strng{bibnamehash}{7d24af0f36887090aeabd9d8880cb333}
+      \strng{authorbibnamehash}{7d24af0f36887090aeabd9d8880cb333}
+      \strng{authornamehash}{b80847f602c0c1a1e17ffbe0e797c4a5}
+      \strng{authorfullhash}{7d24af0f36887090aeabd9d8880cb333}
+      \strng{authorfullhashraw}{7d24af0f36887090aeabd9d8880cb333}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1941-0026}
+      \field{journaltitle}{IEEE Transactions on Evolutionary Computation}
+      \field{month}{10}
+      \field{number}{5}
+      \field{title}{Automated Metaheuristic Algorithm Design With Autoregressive Learning}
+      \field{volume}{29}
+      \field{year}{2025}
+      \field{pages}{2004\bibrangedash 2018}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1109/tevc.2024.3464677
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1109/TEVC.2024.3464677
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1109/TEVC.2024.3464677
+      \endverb
+    \endentry
+    \entry{Yi2023Automatedalgorithm}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=56c890383113fef0fe5395b1ab45b755}{%
+           family={Yi},
+           familyi={Y\bibinitperiod},
+           given={Wenjie},
+           giveni={W\bibinitperiod}}}%
+        {{hash=dae9f4a7f61571c2baa1bf04fdd1fcc8}{%
+           family={Qu},
+           familyi={Q\bibinitperiod},
+           given={Rong},
+           giveni={R\bibinitperiod}}}%
+        {{hash=a30db259f27bb5f90cfea9602f78d129}{%
+           family={Jiao},
+           familyi={J\bibinitperiod},
+           given={Licheng},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \strng{namehash}{2fc388841aecec9b0ea2c1654ecfbc57}
+      \strng{fullhash}{6f20c88c2a5c8c435fa2889ea8efdcc9}
+      \strng{fullhashraw}{6f20c88c2a5c8c435fa2889ea8efdcc9}
+      \strng{bibnamehash}{6f20c88c2a5c8c435fa2889ea8efdcc9}
+      \strng{authorbibnamehash}{6f20c88c2a5c8c435fa2889ea8efdcc9}
+      \strng{authornamehash}{2fc388841aecec9b0ea2c1654ecfbc57}
+      \strng{authorfullhash}{6f20c88c2a5c8c435fa2889ea8efdcc9}
+      \strng{authorfullhashraw}{6f20c88c2a5c8c435fa2889ea8efdcc9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0957-4174}
+      \field{journaltitle}{Expert Systems with Applications}
+      \field{month}{4}
+      \field{title}{Automated algorithm design using proximal policy optimisation with identified features}
+      \field{volume}{216}
+      \field{year}{2023}
+      \field{pages}{119461}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.eswa.2022.119461
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/j.eswa.2022.119461
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.eswa.2022.119461
+      \endverb
+    \endentry
+    \entry{AuroraRamirez2015234}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=ab93579f7389cb508ab796ccceebc079}{%
+           family={Ramírez},
+           familyi={R\bibinitperiod},
+           given={Aurora},
+           giveni={A\bibinitperiod}}}%
+        {{hash=225b58d873222ea16c634be2a426fcf1}{%
+           family={Romero},
+           familyi={R\bibinitperiod},
+           given={José\bibnamedelima Raúl},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=e023d2410adba40dc741193f0b109c02}{%
+           family={Ventura},
+           familyi={V\bibinitperiod},
+           given={Sebastián},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{80e7949b2261f334d6647799cc22b912}
+      \strng{fullhash}{5e5d3967096f6cd707aecc76528cd3a4}
+      \strng{fullhashraw}{5e5d3967096f6cd707aecc76528cd3a4}
+      \strng{bibnamehash}{5e5d3967096f6cd707aecc76528cd3a4}
+      \strng{authorbibnamehash}{5e5d3967096f6cd707aecc76528cd3a4}
+      \strng{authornamehash}{80e7949b2261f334d6647799cc22b912}
+      \strng{authorfullhash}{5e5d3967096f6cd707aecc76528cd3a4}
+      \strng{authorfullhashraw}{5e5d3967096f6cd707aecc76528cd3a4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0020-0255}
+      \field{journaltitle}{Information Sciences}
+      \field{title}{An approach for the evolutionary discovery of software architectures}
+      \field{volume}{305}
+      \field{year}{2015}
+      \field{pages}{234\bibrangedash 255}
+      \range{pages}{22}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.ins.2015.01.017
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0020025515000559
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0020025515000559
+      \endverb
+      \keyw{Search based software engineering,Software architecture discovery,Evolutionary algorithms,Ranking aggregation fitness}
+    \endentry
+    \entry{Houichime2024Optimized}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=2437c7c24515fce59e7f46370a32fb6d}{%
+           family={Houichime},
+           familyi={H\bibinitperiod},
+           given={Tarik},
+           giveni={T\bibinitperiod}}}%
+        {{hash=2418a91768764070bc4f000b80471842}{%
+           family={El\bibnamedelima Amrani},
+           familyi={E\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Younes},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{c6631f904e98465a8d4a8f597678ee9a}
+      \strng{fullhash}{c6631f904e98465a8d4a8f597678ee9a}
+      \strng{fullhashraw}{c6631f904e98465a8d4a8f597678ee9a}
+      \strng{bibnamehash}{c6631f904e98465a8d4a8f597678ee9a}
+      \strng{authorbibnamehash}{c6631f904e98465a8d4a8f597678ee9a}
+      \strng{authornamehash}{c6631f904e98465a8d4a8f597678ee9a}
+      \strng{authorfullhash}{c6631f904e98465a8d4a8f597678ee9a}
+      \strng{authorfullhashraw}{c6631f904e98465a8d4a8f597678ee9a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1573-7535}
+      \field{journaltitle}{Automated Software Engineering}
+      \field{month}{6}
+      \field{number}{2}
+      \field{title}{Optimized design refactoring (ODR): a generic framework for automated search-based refactoring to optimize object-oriented software architectures}
+      \field{volume}{31}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.1007/s10515-024-00446-9
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/s10515-024-00446-9
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/s10515-024-00446-9
+      \endverb
+    \endentry
+    \entry{Dam2025TowardsMulti-Agentic}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{hash=72b8a308387b4ac51d6ea6839b6bb994}{%
+           family={Dam},
+           familyi={D\bibinitperiod},
+           given={Hoa\bibnamedelima Khanh},
+           giveni={H\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{72b8a308387b4ac51d6ea6839b6bb994}
+      \strng{fullhash}{72b8a308387b4ac51d6ea6839b6bb994}
+      \strng{fullhashraw}{72b8a308387b4ac51d6ea6839b6bb994}
+      \strng{bibnamehash}{72b8a308387b4ac51d6ea6839b6bb994}
+      \strng{authorbibnamehash}{72b8a308387b4ac51d6ea6839b6bb994}
+      \strng{authornamehash}{72b8a308387b4ac51d6ea6839b6bb994}
+      \strng{authorfullhash}{72b8a308387b4ac51d6ea6839b6bb994}
+      \strng{authorfullhashraw}{72b8a308387b4ac51d6ea6839b6bb994}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2025 40th IEEE/ACM International Conference on Automated Software Engineering Workshops (ASEW)}
+      \field{month}{11}
+      \field{title}{Towards Multi-Agentic AI for automated software design and modelling: challenges and opportunities}
+      \field{year}{2025}
+      \field{pages}{311\bibrangedash 314}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/asew67777.2025.00063
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1109/ASEW67777.2025.00063
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1109/ASEW67777.2025.00063
+      \endverb
+    \endentry
+    \entry{Rajendran2025AMulti-Agent}{inproceedings}{}{}
+      \name{author}{5}{}{%
+        {{hash=2d96e269c08f78875b87e4d5a3ea15b9}{%
+           family={Rajendran},
+           familyi={R\bibinitperiod},
+           given={Vasanth},
+           giveni={V\bibinitperiod}}}%
+        {{hash=231e1ce3d7ca70e20048851bfbeda9dc}{%
+           family={Besiahgari},
+           familyi={B\bibinitperiod},
+           given={Dinesh},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d2ac0e4673a9a6392e80e670f9908412}{%
+           family={Patil},
+           familyi={P\bibinitperiod},
+           given={Sachin\bibnamedelima C.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=516f4fa6fc6ac4cffe19f5fc1ed735de}{%
+           family={Chandrashekaraiah},
+           familyi={C\bibinitperiod},
+           given={Manjunath},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e39d53ddef232ea99458403e98ab02a3}{%
+           family={Challagulla},
+           familyi={C\bibinitperiod},
+           given={Vishnu},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{66b0213b6555f350ca0272fc062c4816}
+      \strng{fullhash}{d8c6d41c183d77b7183ae57dea16a935}
+      \strng{fullhashraw}{d8c6d41c183d77b7183ae57dea16a935}
+      \strng{bibnamehash}{d8c6d41c183d77b7183ae57dea16a935}
+      \strng{authorbibnamehash}{d8c6d41c183d77b7183ae57dea16a935}
+      \strng{authornamehash}{66b0213b6555f350ca0272fc062c4816}
+      \strng{authorfullhash}{d8c6d41c183d77b7183ae57dea16a935}
+      \strng{authorfullhashraw}{d8c6d41c183d77b7183ae57dea16a935}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{SoutheastCon 2025}
+      \field{month}{3}
+      \field{title}{A Multi-Agent LLM Environment for Software Design and Refactoring: A Conceptual Framework}
+      \field{year}{2025}
+      \field{pages}{488\bibrangedash 493}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/southeastcon56624.2025.10971563
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1109/SOUTHEASTCON56624.2025.10971563
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1109/SOUTHEASTCON56624.2025.10971563
+      \endverb
+    \endentry
+    \entry{Affonso2024AReferenceArchitecture}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=7e20f67ce6d5f2ef4b9fc6c7d4d8bd44}{%
+           family={Affonso},
+           familyi={A\bibinitperiod},
+           given={Frank\bibnamedelima José},
+           giveni={F\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=90e93665122ee724ab3fce329ff4f503}{%
+           family={Nagassaki\bibnamedelima Campos},
+           familyi={N\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Gabriel},
+           giveni={G\bibinitperiod}}}%
+        {{hash=718aebabd84aea96d6885974a23fcf77}{%
+           family={Guiguer\bibnamedelima Menaldo},
+           familyi={G\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Guilherme},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{ac24ecf96fa6cfca6d4ffd1aee27f447}
+      \strng{fullhash}{7c7b0aab28c5dbda6dfcfdd84f642166}
+      \strng{fullhashraw}{7c7b0aab28c5dbda6dfcfdd84f642166}
+      \strng{bibnamehash}{7c7b0aab28c5dbda6dfcfdd84f642166}
+      \strng{authorbibnamehash}{7c7b0aab28c5dbda6dfcfdd84f642166}
+      \strng{authornamehash}{ac24ecf96fa6cfca6d4ffd1aee27f447}
+      \strng{authorfullhash}{7c7b0aab28c5dbda6dfcfdd84f642166}
+      \strng{authorfullhashraw}{7c7b0aab28c5dbda6dfcfdd84f642166}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2169-3536}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{A Reference Architecture Based on Reflection for Self-Adaptive Software: A Second Release}
+      \field{volume}{12}
+      \field{year}{2024}
+      \field{pages}{97476\bibrangedash 97499}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2024.3428368
+      \endverb
+      \keyw{Computer architecture;Reflection;Software systems;Runtime;Adaptation models;Task analysis;Adaptive systems;Reference architecture;self-adaptive software;reflection;runtime;automated processes}
+    \endentry
+    \entry{WeynsDannyFromSelf-Adaptation}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=35e3a091dadcb8fdebaf15b5322878a9}{%
+           family={Weyns},
+           familyi={W\bibinitperiod},
+           given={Danny},
+           giveni={D\bibinitperiod}}}%
+        {{hash=75e1cd7757c6605950b6a35773206ca5}{%
+           family={Andersson},
+           familyi={A\bibinitperiod},
+           given={Jesper},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{1769c43d18962c90f39fce5dde63417f}
+      \strng{fullhash}{1769c43d18962c90f39fce5dde63417f}
+      \strng{fullhashraw}{1769c43d18962c90f39fce5dde63417f}
+      \strng{bibnamehash}{1769c43d18962c90f39fce5dde63417f}
+      \strng{authorbibnamehash}{1769c43d18962c90f39fce5dde63417f}
+      \strng{authornamehash}{1769c43d18962c90f39fce5dde63417f}
+      \strng{authorfullhash}{1769c43d18962c90f39fce5dde63417f}
+      \strng{authorfullhashraw}{1769c43d18962c90f39fce5dde63417f}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2023 IEEE/ACM 18th Symposium on Software Engineering for Adaptive and Self-Managing Systems (SEAMS)}
+      \field{issn}{2157-2321}
+      \field{month}{5}
+      \field{title}{From Self-Adaptation to Self-Evolution Leveraging the Operational Design Domain}
+      \field{year}{2023}
+      \field{pages}{90\bibrangedash 96}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/SEAMS59076.2023.00022
+      \endverb
+      \keyw{Automation;Adaptive systems;Autonomous systems;Ecosystems;Computer architecture;Complexity theory;Software engineering;Self-adaptation;operational design domain;system evolution;self-evolution}
+    \endentry
+    \entry{Pagen2020PRISMA}{article}{}{}
+      \name{author}{26}{}{%
+        {{hash=016b86afb0a98379bf77b3f074f34761}{%
+           family={Page},
+           familyi={P\bibinitperiod},
+           given={Matthew\bibnamedelima J},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=8c647eae0c93ec008ebe092eb144eeee}{%
+           family={McKenzie},
+           familyi={M\bibinitperiod},
+           given={Joanne\bibnamedelima E},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=c342b2f9e98d8bcaabcbd5ec10522ad4}{%
+           family={Bossuyt},
+           familyi={B\bibinitperiod},
+           given={Patrick\bibnamedelima M},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=fa885033d820893c45692b99c8b4bbc6}{%
+           family={Boutron},
+           familyi={B\bibinitperiod},
+           given={Isabelle},
+           giveni={I\bibinitperiod}}}%
+        {{hash=8fd2430e75c6bb84661c811e408f6377}{%
+           family={Hoffmann},
+           familyi={H\bibinitperiod},
+           given={Tammy\bibnamedelima C},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=9da5818ae381747539d8a98ecf2d13b1}{%
+           family={Mulrow},
+           familyi={M\bibinitperiod},
+           given={Cynthia\bibnamedelima D},
+           giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=d1c6b0b224969ed1ccfe648b31dc7de4}{%
+           family={Shamseer},
+           familyi={S\bibinitperiod},
+           given={Larissa},
+           giveni={L\bibinitperiod}}}%
+        {{hash=640f8392f6a7388c779d2b60fdd93350}{%
+           family={Tetzlaff},
+           familyi={T\bibinitperiod},
+           given={Jennifer\bibnamedelima M},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=4ca61686dc125837a0d9741be62f3427}{%
+           family={Akl},
+           familyi={A\bibinitperiod},
+           given={Elie\bibnamedelima A},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=e822c8724e88eb518ec5eb8015bbaab0}{%
+           family={Brennan},
+           familyi={B\bibinitperiod},
+           given={Sue\bibnamedelima E},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=01e789422f68da54234ac2f1e791eac4}{%
+           family={Chou},
+           familyi={C\bibinitperiod},
+           given={Roger},
+           giveni={R\bibinitperiod}}}%
+        {{hash=19c8626c5dbf0aaa5ca05c6fa19ad49f}{%
+           family={Glanville},
+           familyi={G\bibinitperiod},
+           given={Julie},
+           giveni={J\bibinitperiod}}}%
+        {{hash=18acccd95580a48bd6c5f4010bb058a7}{%
+           family={Grimshaw},
+           familyi={G\bibinitperiod},
+           given={Jeremy\bibnamedelima M},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=aa6b6295cc5b496c1858297b2a62fa5f}{%
+           family={Hróbjartsson},
+           familyi={H\bibinitperiod},
+           given={Asbj{ø}rn},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0a2541509ccb6793b91fce2cf0f72dcc}{%
+           family={Lalu},
+           familyi={L\bibinitperiod},
+           given={Manoj\bibnamedelima M},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=0100456cf4ced53a2aab31f2c3055f6a}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Tianjing},
+           giveni={T\bibinitperiod}}}%
+        {{hash=6e270d436c864242b119a3605283c8bf}{%
+           family={Loder},
+           familyi={L\bibinitperiod},
+           given={Elizabeth\bibnamedelima W},
+           giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=d149e7026acd95db856d30314dba9a9e}{%
+           family={Mayo-Wilson},
+           familyi={M\bibinithyphendelim W\bibinitperiod},
+           given={Evan},
+           giveni={E\bibinitperiod}}}%
+        {{hash=4ed61e5ea9f906c20e5e737e3d84c854}{%
+           family={McDonald},
+           familyi={M\bibinitperiod},
+           given={Steve},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b7314b4cde4c01764b4b3580e015b768}{%
+           family={McGuinness},
+           familyi={M\bibinitperiod},
+           given={Luke\bibnamedelima A},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=d600e9a8a01053464e53fc2aadeb009b}{%
+           family={Stewart},
+           familyi={S\bibinitperiod},
+           given={Lesley\bibnamedelima A},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=1ad8d835a95f8df394e6faf5d8e0548f}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0b396572e13e5a8b08e1ee1d493aaa2a}{%
+           family={Tricco},
+           familyi={T\bibinitperiod},
+           given={Andrea\bibnamedelima C},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=75fdbaed8e43fddb210da313631d8639}{%
+           family={Welch},
+           familyi={W\bibinitperiod},
+           given={Vivian\bibnamedelima A},
+           giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=792d7051a4c2169e6aac0073ce62ba8e}{%
+           family={Whiting},
+           familyi={W\bibinitperiod},
+           given={Penny},
+           giveni={P\bibinitperiod}}}%
+        {{hash=af56ff14657d1110bff4b784198b0505}{%
+           family={Moher},
+           familyi={M\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {BMJ Publishing Group Ltd}%
+      }
+      \strng{namehash}{69c1efa4f6ab0deea3df12876fea0709}
+      \strng{fullhash}{b37368b8b0982e5c110334919bd2e0e1}
+      \strng{fullhashraw}{b37368b8b0982e5c110334919bd2e0e1}
+      \strng{bibnamehash}{69c1efa4f6ab0deea3df12876fea0709}
+      \strng{authorbibnamehash}{69c1efa4f6ab0deea3df12876fea0709}
+      \strng{authornamehash}{69c1efa4f6ab0deea3df12876fea0709}
+      \strng{authorfullhash}{b37368b8b0982e5c110334919bd2e0e1}
+      \strng{authorfullhashraw}{b37368b8b0982e5c110334919bd2e0e1}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{BMJ}
+      \field{title}{The PRISMA 2020 statement: an updated guideline for reporting systematic reviews}
+      \field{volume}{372}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.1136/bmj.n71
+      \endverb
+      \verb{eprint}
+      \verb https://www.bmj.com/content/372/bmj.n71.full.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.bmj.com/content/372/bmj.n71
+      \endverb
+      \verb{url}
+      \verb https://www.bmj.com/content/372/bmj.n71
+      \endverb
+    \endentry
+    \entry{barbaraGuidelines}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=19919e365e4f12f6028593c952a9bacf}{%
+           family={Kitchenham},
+           familyi={K\bibinitperiod},
+           given={Barbara},
+           giveni={B\bibinitperiod}}}%
+        {{hash=e3aec3b248f01d4d14bbd3f116591257}{%
+           family={Charters},
+           familyi={C\bibinitperiod},
+           given={Stuart},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{bfd5bed68d4e3feb5cdc7e00ae82b588}
+      \strng{fullhash}{bfd5bed68d4e3feb5cdc7e00ae82b588}
+      \strng{fullhashraw}{bfd5bed68d4e3feb5cdc7e00ae82b588}
+      \strng{bibnamehash}{bfd5bed68d4e3feb5cdc7e00ae82b588}
+      \strng{authorbibnamehash}{bfd5bed68d4e3feb5cdc7e00ae82b588}
+      \strng{authornamehash}{bfd5bed68d4e3feb5cdc7e00ae82b588}
+      \strng{authorfullhash}{bfd5bed68d4e3feb5cdc7e00ae82b588}
+      \strng{authorfullhashraw}{bfd5bed68d4e3feb5cdc7e00ae82b588}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{01}
+      \field{title}{Guidelines for performing Systematic Literature Reviews in Software Engineering}
+      \field{volume}{2}
+      \field{year}{2007}
+    \endentry
+    \entry{Gusenbauer2020}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=3ce9e5d29bb74ef30e92ad7aad854505}{%
+           family={Gusenbauer},
+           familyi={G\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2d1ada6d2c48c912cb12f21cbcb80095}{%
+           family={Haddaway},
+           familyi={H\bibinitperiod},
+           given={Neal\bibnamedelima R.},
+           giveni={N\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{272a5fbd8c20b0b8526956e8b2c0cd96}
+      \strng{fullhash}{272a5fbd8c20b0b8526956e8b2c0cd96}
+      \strng{fullhashraw}{272a5fbd8c20b0b8526956e8b2c0cd96}
+      \strng{bibnamehash}{272a5fbd8c20b0b8526956e8b2c0cd96}
+      \strng{authorbibnamehash}{272a5fbd8c20b0b8526956e8b2c0cd96}
+      \strng{authornamehash}{272a5fbd8c20b0b8526956e8b2c0cd96}
+      \strng{authorfullhash}{272a5fbd8c20b0b8526956e8b2c0cd96}
+      \strng{authorfullhashraw}{272a5fbd8c20b0b8526956e8b2c0cd96}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1759-2887}
+      \field{journaltitle}{Research Synthesis Methods}
+      \field{month}{1}
+      \field{number}{2}
+      \field{title}{Which academic search systems are suitable for systematic reviews or meta‐analyses? Evaluating retrieval qualities of Google Scholar, PubMed, and 26 other resources}
+      \field{volume}{11}
+      \field{year}{2020}
+      \field{pages}{181\bibrangedash 217}
+      \range{pages}{37}
+      \verb{doi}
+      \verb 10.1002/jrsm.1378
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1002/jrsm.1378
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1002/jrsm.1378
+      \endverb
+    \endentry
+    \entry{Wohlin2014}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{hash=e1ce15e2eeb53e3fc8c6035fd761594b}{%
+           family={Wohlin},
+           familyi={W\bibinitperiod},
+           given={Claes},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{e1ce15e2eeb53e3fc8c6035fd761594b}
+      \strng{fullhash}{e1ce15e2eeb53e3fc8c6035fd761594b}
+      \strng{fullhashraw}{e1ce15e2eeb53e3fc8c6035fd761594b}
+      \strng{bibnamehash}{e1ce15e2eeb53e3fc8c6035fd761594b}
+      \strng{authorbibnamehash}{e1ce15e2eeb53e3fc8c6035fd761594b}
+      \strng{authornamehash}{e1ce15e2eeb53e3fc8c6035fd761594b}
+      \strng{authorfullhash}{e1ce15e2eeb53e3fc8c6035fd761594b}
+      \strng{authorfullhashraw}{e1ce15e2eeb53e3fc8c6035fd761594b}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 18th International Conference on Evaluation and Assessment in Software Engineering}
+      \field{month}{5}
+      \field{series}{EASE ’14}
+      \field{title}{Guidelines for snowballing in systematic literature studies and a replication in software engineering}
+      \field{year}{2014}
+      \field{pages}{1\bibrangedash 10}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1145/2601248.2601268
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1145/2601248.2601268
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1145/2601248.2601268
+      \endverb
+    \endentry
+    \entry{prometheus_padgham2005}{incollection}{}{}
+      \name{author}{2}{}{%
+        {{hash=5f89fa7d88c6c8f2229b6dfd37425b0c}{%
+           family={Padgham},
+           familyi={P\bibinitperiod},
+           given={Lin},
+           giveni={L\bibinitperiod}}}%
+        {{hash=d5aa8de46458054193c640a4e98cd579}{%
+           family={Winikoff},
+           familyi={W\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IGI Global Scientific Publishing}%
+      }
+      \strng{namehash}{d5830bcdf6f73a053bcb3b866de251a6}
+      \strng{fullhash}{d5830bcdf6f73a053bcb3b866de251a6}
+      \strng{fullhashraw}{d5830bcdf6f73a053bcb3b866de251a6}
+      \strng{bibnamehash}{d5830bcdf6f73a053bcb3b866de251a6}
+      \strng{authorbibnamehash}{d5830bcdf6f73a053bcb3b866de251a6}
+      \strng{authornamehash}{d5830bcdf6f73a053bcb3b866de251a6}
+      \strng{authorfullhash}{d5830bcdf6f73a053bcb3b866de251a6}
+      \strng{authorfullhashraw}{d5830bcdf6f73a053bcb3b866de251a6}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Agent-oriented methodologies}
+      \field{title}{Prometheus: A practical agent-oriented methodology}
+      \field{year}{2005}
+      \field{pages}{107\bibrangedash 135}
+      \range{pages}{29}
+    \endentry
+  \enddatalist
+  \missing{ISOIEEE}
+  \missing{ZhangYiranKnowledge}
+\endrefsection
+\endinput
+

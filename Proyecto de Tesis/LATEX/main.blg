@@ -1,48 +1,21 @@
-This is BibTeX, Version 0.99e
-Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: main.aux
-I found no \citation commands---while reading file main.aux
-I found no \bibdata command---while reading file main.aux
-I found no \bibstyle command---while reading file main.aux
-You've used 0 entries,
-            0 wiz_defined-function locations,
-            83 strings with 482 characters,
-and the built_in function-call counts, 0 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 0
-:= -- 0
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
-chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 0
-format.name$ -- 0
-if$ -- 0
-int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 0
-num.names$ -- 0
-pop$ -- 0
-preamble$ -- 0
-purify$ -- 0
-quote$ -- 0
-skip$ -- 0
-stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 0
-warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 0
-(There were 3 error messages)
+[0] Config.pm:329> INFO - This is Biber 2.22
+[0] Config.pm:332> INFO - Logfile is 'main.blg'
+[259] biber-MSWIN64:342> INFO - === 
+[347] Biber.pm:421> INFO - Reading 'main.bcf'
+[689] Biber.pm:1002> INFO - Found 32 citekeys in bib section 0
+[734] Biber.pm:4487> INFO - Processing section 0
+[767] Biber.pm:4680> INFO - Looking for bibtex file 'references.bib' for section 0
+[892] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1418] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[1810] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1810] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1810] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'es-ES'
+[1859] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[1915] bbl.pm:779> INFO - Output to main.bbl
+[1916] Biber.pm:132> WARN - legacy month field 'aug' in entry 'perez2024' is not an integer - this will probably not sort properly.
+[1916] Biber.pm:132> WARN - legacy month field 'May' in entry 'WeynsDannyFromSelf-Adaptation' is not an integer - this will probably not sort properly.
+[1916] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\Mikec\AppData\Local\Temp\biber_tmp_YNhS\33e59b5ca9ec342068223d604c3f8d55_22460.utf8, line 2215, warning: undefined macro "July"
+[1916] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\Mikec\AppData\Local\Temp\biber_tmp_YNhS\33e59b5ca9ec342068223d604c3f8d55_22460.utf8, line 2271, warning: undefined macro "Sept"
+[1917] Biber.pm:132> WARN - I didn't find a database entry for 'ISOIEEE' (section 0)
+[1917] Biber.pm:132> WARN - I didn't find a database entry for 'ZhangYiranKnowledge' (section 0)
+[1917] Biber.pm:134> INFO - WARNINGS: 6

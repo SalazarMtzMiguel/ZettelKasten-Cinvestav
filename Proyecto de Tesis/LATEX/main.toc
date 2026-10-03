@@ -85,4 +85,5 @@
 \contentsline {section}{\numberline {6.1}Conclusiones}{44}{section.6.1}%
 \contentsline {section}{\numberline {6.2}Objetivos logrados}{45}{section.6.2}%
 \contentsline {section}{\numberline {6.3}Trabajo a futuro}{45}{section.6.3}%
-\contentsline {chapter}{\numberline {A}Código Fuente Relevante}{46}{appendix.A}%
+\contentsline {chapter}{Referencias Bibliográficas}{46}{chapter*.15}%
+\contentsline {chapter}{\numberline {A}Código Fuente Relevante}{50}{appendix.A}%
