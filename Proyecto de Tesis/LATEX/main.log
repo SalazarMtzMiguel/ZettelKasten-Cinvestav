@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.9.17)  2 OCT 2026 19:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.9.17)  2 OCT 2026 20:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1159,7 +1159,7 @@ Package epstopdf Info: Source file: <figures/Fig1_Workflow.eps>
 w-eps-converted-to.pdf figures/Fig1_Workflow.eps>
 (epstopdf)             \includegraphics on input line 617.
 Package epstopdf Info: Output file is already uptodate.
-<figures/Fig1_Workflow-eps-converted-to.pdf, id=717, 604.2575pt x 709.65125pt>
+<figures/Fig1_Workflow-eps-converted-to.pdf, id=718, 604.2575pt x 709.65125pt>
 File: figures/Fig1_Workflow-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/Fig1_Workflow-eps-converted-to.pdf>
 Package pdftex.def Info: figures/Fig1_Workflow-eps-converted-to.pdf  used on in
@@ -1177,7 +1177,7 @@ to.pdf>
 lection-eps-converted-to.pdf figures/Fig2_StudySelection.eps>
 (epstopdf)             \includegraphics on input line 626.
 Package epstopdf Info: Output file is already uptodate.
-<figures/Fig2_StudySelection-eps-converted-to.pdf, id=724, 717.68124pt x 685.56
+<figures/Fig2_StudySelection-eps-converted-to.pdf, id=725, 717.68124pt x 685.56
 125pt>
 File: figures/Fig2_StudySelection-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/Fig2_StudySelection-eps-converted-to.pdf>
@@ -1250,7 +1250,7 @@ LaTeX2e <2026-06-01>
 L3 programming layer <2026-08-10>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E81783C05610CD6F9A9C4AE7B8722497;21388.
+(rerunfilecheck)             Checksum: 93DB717D3D2B414C0774C1325F213684;21594.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
@@ -1284,9 +1284,9 @@ lic/amsfonts/cm/cmr12.pfb><C:/Users/Mikec/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmr8.pfb><C:/Users/Mikec/AppData/Local/Programs/MiKTeX/
 fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Mikec/AppData/Local/Program
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (62 pages, 1159214 bytes).
+Output written on main.pdf (62 pages, 1159681 bytes).
 PDF statistics:
- 1677 PDF objects out of 1728 (max. 8388607)
+ 1678 PDF objects out of 1728 (max. 8388607)
  214 named destinations out of 1000 (max. 500000)
  720 words of extra memory for PDF output out of 10000 (max. 10000000)
 
