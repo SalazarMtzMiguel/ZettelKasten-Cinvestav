@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.9.17)  30 SEP 2026 17:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.9.17)  2 OCT 2026 18:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -895,25 +895,11 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (main.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                ISOIEEE
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                ZhangYiranKnowledge
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+ (main.bbl)
 Package biblatex Info: Reference section=0 on input line 61.
 Package biblatex Info: Reference segment=0 on input line 61.
- (C:\Users\Mikec\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
+
+(C:\Users\Mikec\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
 Package: color 2026-05-17 v1.3f Standard LaTeX Color (DPC)
 
 (C:\Users\Mikec\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
@@ -928,7 +914,7 @@ Package hyperref Info: Link coloring ON on input line 61.
 \openout4 = `main.out'.
 
 Package babel Info: Main language set to 'spanish'.
-<figures/CINV.png, id=355, 349.305pt x 344.78813pt>
+<figures/CINV.png, id=351, 349.305pt x 344.78813pt>
 File: figures/CINV.png Graphic file (type png)
 <use figures/CINV.png>
 Package pdftex.def Info: figures/CINV.png  used on input line 73.
@@ -1009,11 +995,54 @@ Package cleveref Info: loaded `spanish' language definitions on input line 1.
 
 ]
 Cap\'{\i }tulo 1.
+
+LaTeX Warning: Citation 'PerezCarrillo2026' on page 1 undefined on input line 1
+77.
+
+
+LaTeX Warning: Citation 'perez2024' on page 1 undefined on input line 177.
+
+
+LaTeX Warning: Citation 'swebok2014' on page 1 undefined on input line 178.
+
 [1
 
 
-] [2] [3] [4]
+]
+
+LaTeX Warning: Citation 'Maier2022' on page 2 undefined on input line 182.
+
+
+LaTeX Warning: Citation 'Crowder2016' on page 2 undefined on input line 182.
+
+
+LaTeX Warning: Citation 'Kruchten1995The' on page 2 undefined on input line 185
+.
+
+
+LaTeX Warning: Citation 'li2025riseaiteammatessoftware' on page 2 undefined on 
+input line 185.
+
+[2]
+
+LaTeX Warning: Citation 'perez2024' on page 3 undefined on input line 192.
+
+[3] [4]
 Cap\'{\i }tulo 2.
+
+LaTeX Warning: Citation 'perez2024' on page 5 undefined on input line 236.
+
+
+LaTeX Warning: Citation 'sommerville2011software' on page 5 undefined on input 
+line 237.
+
+
+LaTeX Warning: Citation 'swebok2014' on page 5 undefined on input line 237.
+
+
+LaTeX Warning: Citation 'PerezCarrillo2026' on page 5 undefined on input line 2
+39.
+
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 241.
@@ -1021,6 +1050,11 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 [5
 
 ] [6]
+
+LaTeX Warning: Citation 'sommerville2011software' on page 7 undefined on input 
+line 276.
+
+
 Overfull \hbox (13.18678pt too wide) in paragraph at lines 284--284
 []\T1/cmr/bx/n/14.4 Meta-Arquitectura del Mar-co de Sis-te-mas de Auto-Ingenier
 ía 
@@ -1029,25 +1063,181 @@ Overfull \hbox (13.18678pt too wide) in paragraph at lines 284--284
 
 LaTeX Warning: Citation 'ISOIEEE' on page 7 undefined on input line 288.
 
-[7] [8] [9] [10] [11] [12]
+[7]
+
+LaTeX Warning: Citation 'sommerville2011software' on page 8 undefined on input 
+line 306.
+
+[8] [9]
+
+LaTeX Warning: Citation 'mctswiechowski2022' on page 10 undefined on input line
+ 345.
+
+[10]
+
+LaTeX Warning: Citation 'OntologyGuarino2009' on page 11 undefined on input lin
+e 368.
+
+[11]
+
+LaTeX Warning: Citation 'duran2026seleccion' on page 12 undefined on input line
+ 378.
+
+
+LaTeX Warning: Citation 'DURANPOLANCO2023100904' on page 12 undefined on input 
+line 378.
+
+[12]
 Cap\'{\i }tulo 3.
+
+LaTeX Warning: Citation 'Porter2024SelfDesigning' on page 13 undefined on input
+ line 388.
+
+
+LaTeX Warning: Citation 'sommerville2011software' on page 13 undefined on input
+ line 390.
+
+
+Overfull \hbox (12.01276pt too wide) in paragraph at lines 390--391
+\T1/cmr/m/n/12 qui-tec-tó-ni-cos, es-pe-ci-fi-ca-cio-nes de com-po-nen-tes, in-
+ter-fa-ces, etc.) []. 
+ []
+
+
+LaTeX Warning: Citation 'StratosIdreos2019LearningData' on page 13 undefined on
+ input line 392.
+
+
+LaTeX Warning: Citation 'idreos2018periodic' on page 13 undefined on input line
+ 392.
+
+
+Overfull \hbox (17.77895pt too wide) in paragraph at lines 392--393
+[]\T1/cmr/m/n/12 A ni-vel de ba-jo ni-vel (es-truc-tu-ras de da-tos), el tra-ba
+-jo []
+ []
+
+
+Overfull \hbox (15.76678pt too wide) in paragraph at lines 392--393
+\T1/cmr/m/n/12 y fí-si-cas cla-si-fi-ca-das en su "Ta-bla Pe-rió-di-ca de las E
+s-truc-tu-ras de Datos"[].
+ []
+
 [13
 
-] [14]
+]
+
+LaTeX Warning: Citation 'loncaric2016Datastructure' on page 14 undefined on inp
+ut line 394.
+
+
+LaTeX Warning: Citation 'loncaric2018Generalizeddata' on page 14 undefined on i
+nput line 394.
+
+
+LaTeX Warning: Citation 'Zhao2025AutomatedMetaheuristic' on page 14 undefined o
+n input line 402.
+
+
+LaTeX Warning: Citation 'Yi2023Automatedalgorithm' on page 14 undefined on inpu
+t line 402.
+
+
+LaTeX Warning: Citation 'AuroraRamirez2015234' on page 14 undefined on input li
+ne 406.
+
+
+LaTeX Warning: Citation 'Houichime2024Optimized' on page 14 undefined on input 
+line 406.
+
+[14]
+
+LaTeX Warning: Citation 'Dam2025TowardsMulti-Agentic' on page 15 undefined on i
+nput line 410.
+
 
 LaTeX Warning: Citation 'ZhangYiranKnowledge' on page 15 undefined on input lin
 e 412.
 
+
+LaTeX Warning: Citation 'Rajendran2025AMulti-Agent' on page 15 undefined on inp
+ut line 412.
+
+
+LaTeX Warning: Citation 'Affonso2024AReferenceArchitecture' on page 15 undefine
+d on input line 416.
+
+
+Overfull \hbox (32.52148pt too wide) in paragraph at lines 416--417
+\T1/cmr/m/n/12 eje-cu-ción de ma-ne-ra se-gu-ra y con-tro-la-da. Af-fon-so et a
+l. []
+ []
+
 [15]
+
+LaTeX Warning: Citation 'WeynsDannyFromSelf-Adaptation' on page 16 undefined on
+ input line 418.
+
+
+LaTeX Warning: Citation 'Porter2024SelfDesigning' on page 16 undefined on input
+ line 442.
+
+
+LaTeX Warning: Citation 'StratosIdreos2019LearningData' on page 16 undefined on
+ input line 442.
+
+
+LaTeX Warning: Citation 'loncaric2016Datastructure' on page 16 undefined on inp
+ut line 442.
+
+
+LaTeX Warning: Citation 'Zhao2025AutomatedMetaheuristic' on page 16 undefined o
+n input line 442.
+
+
+LaTeX Warning: Citation 'AuroraRamirez2015234' on page 16 undefined on input li
+ne 442.
+
 
 LaTeX Warning: Citation 'ZhangYiranKnowledge' on page 16 undefined on input lin
 e 442.
 
+
+LaTeX Warning: Citation 'Rajendran2025AMulti-Agent' on page 16 undefined on inp
+ut line 442.
+
+
+LaTeX Warning: Citation 'Affonso2024AReferenceArchitecture' on page 16 undefine
+d on input line 442.
+
+
+LaTeX Warning: Citation 'WeynsDannyFromSelf-Adaptation' on page 16 undefined on
+ input line 442.
+
 [16]
 Cap\'{\i }tulo 4.
+
+LaTeX Warning: Citation 'Pagen2020PRISMA' on page 17 undefined on input line 45
+5.
+
+
+Overfull \hbox (7.82999pt too wide) in paragraph at lines 455--456
+\T1/cmr/m/n/12 te-ma-ti-ca de li-te-ra-tu-ra, en la que si-guien-do los li-nea-
+mien-tos PRIS-MA [],
+ []
+
+
+LaTeX Warning: Citation 'barbaraGuidelines' on page 17 undefined on input line 
+458.
+
 [17
 
-] [18] [19]
+] [18]
+
+LaTeX Warning: Citation 'Gusenbauer2020' on page 19 undefined on input line 509
+.
+
+[19]
 Underfull \hbox (badness 10000) in paragraph at lines 526--526
 []|\T1/cmtt/m/n/12 TITLE-ABS-KEY ((("self-architecting" OR
  []
@@ -1147,7 +1337,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 551--551
 Overfull \vbox (8.28314pt too high) has occurred while \output is active []
 
 
-[21] [22] [23]
+[21] [22]
+
+LaTeX Warning: Citation 'Wohlin2014' on page 23 undefined on input line 613.
+
+[23]
 Package epstopdf Info: Source file: <figures/Fig1_Workflow.eps>
 (epstopdf)                    date: 2026-08-18 20:59:10
 (epstopdf)                    size: 183240 bytes
@@ -1159,7 +1353,7 @@ Package epstopdf Info: Source file: <figures/Fig1_Workflow.eps>
 w-eps-converted-to.pdf figures/Fig1_Workflow.eps>
 (epstopdf)             \includegraphics on input line 617.
 Package epstopdf Info: Output file is already uptodate.
-<figures/Fig1_Workflow-eps-converted-to.pdf, id=717, 604.2575pt x 709.65125pt>
+<figures/Fig1_Workflow-eps-converted-to.pdf, id=640, 604.2575pt x 709.65125pt>
 File: figures/Fig1_Workflow-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/Fig1_Workflow-eps-converted-to.pdf>
 Package pdftex.def Info: figures/Fig1_Workflow-eps-converted-to.pdf  used on in
@@ -1177,37 +1371,41 @@ to.pdf>
 lection-eps-converted-to.pdf figures/Fig2_StudySelection.eps>
 (epstopdf)             \includegraphics on input line 626.
 Package epstopdf Info: Output file is already uptodate.
-<figures/Fig2_StudySelection-eps-converted-to.pdf, id=724, 717.68124pt x 685.56
+<figures/Fig2_StudySelection-eps-converted-to.pdf, id=646, 717.68124pt x 685.56
 125pt>
 File: figures/Fig2_StudySelection-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/Fig2_StudySelection-eps-converted-to.pdf>
 Package pdftex.def Info: figures/Fig2_StudySelection-eps-converted-to.pdf  used
  on input line 626.
 (pdftex.def)             Requested size: 412.02156pt x 393.58792pt.
- [25 <./figures/Fig1_Workflow-eps-converted-to.pdf>]
-[26 <./figures/Fig2_StudySelection-eps-converted-to.pdf>] [27]
-Overfull \hbox (77.05528pt too wide) detected at line 658
+ [25 <./figures/Fig1_Workflow-eps-converted-to.pdf>] [26 <./figures/Fig2_StudyS
+election-eps-converted-to.pdf>] [27]
+Overfull \hbox (77.05528pt too wide) detected at line 660
 [][][][]\OML/cmm/m/it/12 Requerimientos \OMS/cmsy/m/n/12 ! \OML/cmm/m/it/12 Arq
 uitectura \OMS/cmsy/m/n/12 ! \OML/cmm/m/it/12 Componentes=Interfaces \OMS/cmsy/
 m/n/12 ! \OML/cmm/m/it/12 Estructuras de Datos \OMS/cmsy/m/n/12 ! \OML/cmm/m/it
 /12 Algoritmos
  []
 
+
+LaTeX Warning: Citation 'prometheus_padgham2005' on page 28 undefined on input 
+line 666.
+
 [28] [29] [30]
 
-LaTeX Warning: Command \' invalid in math mode on input line 756.
+LaTeX Warning: Command \' invalid in math mode on input line 758.
 
 
-LaTeX Warning: Command \' invalid in math mode on input line 756.
+LaTeX Warning: Command \' invalid in math mode on input line 758.
 
 
-LaTeX Warning: Command \' invalid in math mode on input line 756.
+LaTeX Warning: Command \' invalid in math mode on input line 758.
 
 
-LaTeX Warning: Command \' invalid in math mode on input line 756.
+LaTeX Warning: Command \' invalid in math mode on input line 758.
 
 
-LaTeX Warning: Command \' invalid in math mode on input line 756.
+LaTeX Warning: Command \' invalid in math mode on input line 758.
 
 Missing character: There is no ó in font cmr12!
 Missing character: There is no ó in font cmr12!
@@ -1222,23 +1420,13 @@ Cap\'{\i }tulo 5.
 Cap\'{\i }tulo 6.
 [44
 
-] [45] [46
-
 ]
-Overfull \hbox (7.38779pt too wide) in paragraph at lines 1004--1004
-\T1/cmr/m/n/12 2016, Seattle, WA, USA: As-so-cia-tion for Com-pu-ting Ma-chi-ne
-ry, 2016, págs. 1073[]1075,
- []
 
-[47] [48]
-Overfull \hbox (6.58615pt too wide) in paragraph at lines 1004--1004
-\T1/cmr/m/n/12 en \T1/cmr/m/it/12 Agent-oriented metho-do-lo-gies\T1/cmr/m/n/12
- , IGI Glo-bal Scien-ti-fic Pu-blishing, 2005, págs. 107[]135. 
- []
+LaTeX Warning: Empty bibliography on input line 1006.
 
-[49]
+[45]
 Ap\'{e}ndice A.
-[50
+[46
 
 ] (main.aux
 LaTeX Info: Redefining \. on input line 12.
@@ -1249,45 +1437,53 @@ Package cleveref Info: loaded `spanish' language definitions on input line 12.
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-08-10>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 35E52669A7482AF7AB6F67CE87A8F6A8;21492.
+(rerunfilecheck)             Checksum: A9C2ED14BA4EE4311962CF94BA6A529C;21310.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25213 strings out of 467441
- 460933 string characters out of 5407591
- 1406094 words of memory out of 5000000
- 54016 multiletter control sequences out of 15000+600000
- 643982 words of font info for 74 fonts, out of 8000000 for 9000
+ 25033 strings out of 467441
+ 453497 string characters out of 5407591
+ 1403044 words of memory out of 5000000
+ 53872 multiletter control sequences out of 15000+600000
+ 643216 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,12n,77p,1345b,2686s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm
-0600.pk> <C:\Users\Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\ectt1200.pk> <C:\Users\Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\ecrm0800.pk> <C:\Users\Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
-pen/ec/dpi600\ecti1200.pk> <C:\Users\Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecxc1200.pk> <C:\Users\Mikec\AppData\Local\MiKTeX\fonts/pk/
-ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Mikec\AppData\Local\MiKTeX\fon
-ts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\Mikec\AppData\Local\MiKT
-eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\Mikec\AppData\Loca
-l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\Mikec\AppDat
-a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\Mikec\
-AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\
-Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\
-Users\Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk
-> <C:\Users\Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1
-440.pk><C:/Users/Mikec/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmmi12.pfb><C:/Users/Mikec/AppData/Local/Programs/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmmi8.pfb><C:/Users/Mikec/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmr12.pfb><C:/Users/Mikec/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Mikec/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Mikec/AppData/Local/P
-rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (62 pages, 1159868 bytes).
+ <C:\Users\Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt
+1200.pk> <C:\Users\Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\ecrm0800.pk> <C:\Users\Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\ecti1200.pk> <C:\Users\Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\ecxc1200.pk> <C:\Users\Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour
+/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Mikec\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\Mikec\AppData\Local\MiKTeX\fon
+ts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\Mikec\AppData\Local\MiKT
+eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\Mikec\AppData\Loca
+l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\Mikec\AppDat
+a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\Mikec\
+AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\
+Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk> <C:\
+Users\Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk
+><C:/Users/Mikec/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mmi12.pfb><C:/Users/Mikec/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmmi8.pfb><C:/Users/Mikec/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmr12.pfb><C:/Users/Mikec/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmr8.pfb><C:/Users/Mikec/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Mikec/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on main.pdf (58 pages, 1103820 bytes).
 PDF statistics:
- 1681 PDF objects out of 1728 (max. 8388607)
- 214 named destinations out of 1000 (max. 500000)
- 720 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1463 PDF objects out of 1728 (max. 8388607)
+ 179 named destinations out of 1000 (max. 500000)
+ 712 words of extra memory for PDF output out of 10000 (max. 10000000)
 
