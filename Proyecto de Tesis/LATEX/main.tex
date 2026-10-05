@@ -678,12 +678,12 @@ En esta fase se identifica el cambio en los requerimientos como uno de los princ
 Los objetivos generales identificados son:
 
 \begin{itemize}
-	\item analizar cambios en los requerimientos del software;
-	\item determinar los artefactos de diseño afectados;
-	\item generar o modificar los artefactos de diseño;
-	\item mantener la consistencia entre las diferentes decisiones de diseño;
-	\item seleccionar alternativas de diseño compatibles con los requerimientos;
-	\item coordinar las decisiones realizadas por los diferentes agentes.
+	\item Analizar a que nivel los nuevos requerimientos modifican el diseño actual;
+	\item Determinar los artefactos de diseño afectados;
+	\item Generar o modificar los artefactos de diseño;
+	\item Mantener la consistencia entre las diferentes decisiones de diseño;
+	\item Seleccionar alternativas de diseño compatibles con los requerimientos;
+	\item Coordinar las decisiones realizadas por los diferentes agentes.
 \end{itemize}
 
 A partir de estos objetivos se identifican cuatro agentes principales:
@@ -691,13 +691,11 @@ A partir de estos objetivos se identifican cuatro agentes principales:
 \begin{enumerate}
 	\item \textbf{Agente de arquitectura}: responsable de analizar los requerimientos y la arquitectura existente para determinar si debe realizarse una modificación incremental o una metamorfosis del sistema.
 	
-	```
 	\item \textbf{Agente de componentes e interfaces}: responsable de determinar y adaptar los componentes y mecanismos de interacción necesarios para implementar la arquitectura seleccionada.
 	
 	\item \textbf{Agente de estructuras de datos}: responsable de analizar las necesidades de representación y acceso a la información y seleccionar las estructuras de datos correspondientes.
 	
 	\item \textbf{Agente de algoritmos}: responsable de caracterizar los problemas algorítmicos y seleccionar algoritmos que satisfagan las características y restricciones identificadas mediante un mecanismo de búsqueda basado en MCTS.
-	```
 	
 \end{enumerate}
 
@@ -709,9 +707,7 @@ La fase de diseño arquitectónico establece la organización de los agentes y l
 
 La arquitectura propuesta se organiza alrededor de un flujo principal de diseño:
 
-\begin{equation}
-	A_{req} \rightarrow A_{arch} \rightarrow A_{comp} \rightarrow A_{ds} \rightarrow A_{alg}
-\end{equation}
+\begin{center} $IN_{\text{requerimientos}} \rightarrow Agent_{\text{arch}} \rightarrow Agent_{\text{comp}} \rightarrow Agent_{\text{ds}} \rightarrow Agent_{\text{alg}} \rightarrow OUT_{SDD}$ \end{center}
 
 donde $A_{req}$ representa los requerimientos, mientras que $A_{arch}$, $A_{comp}$, $A_{ds}$ y $A_{alg}$ representan los agentes de arquitectura, componentes e interfaces, estructuras de datos y algoritmos, respectivamente.
 
