@@ -709,7 +709,8 @@ La arquitectura propuesta se organiza alrededor de un flujo principal de diseño
 
 \begin{center} $IN_{\text{requerimientos}} \rightarrow Agent_{\text{arq}} \rightarrow Agent_{\text{comp/int}} \rightarrow Agent_{\text{est.datos}} \rightarrow Agent_{\text{alg}} \rightarrow OUT_{SDD}$ \end{center}
 
-donde $IN_{\text{requerimientos}}$ representa la entrada de requerimientos, mientras que $A_{arch}$, $A_{comp}$, $A_{ds}$ y $A_{alg}$ representan los agentes de arquitectura, componentes e interfaces, estructuras de datos y algoritmos, respectivamente.
+donde $IN_{\text{requerimientos}}$ representa la entrada de requerimientos, mientras que $Agent_{\text{arq}}$, $Agent_{\text{comp/int}}$, $Agent_{\text{est.datos}}$, $Agent_{\text{alg}}$ representan los agentes de arquitectura, componentes e interfaces, estructuras de datos y algoritmos, respectivamente.
+Por ultimo $OUT_{SDD}$ representa la salida como si fuera un SDD (software design document) con las especificaciones desarrolladas.
 
 El flujo anterior representa la dependencia natural entre las decisiones. La arquitectura determina los componentes necesarios; los componentes e interfaces determinan las necesidades de comunicación; las estructuras de datos determinan las formas de representación y acceso a la información; y estas decisiones establecen restricciones que pueden ser utilizadas durante la selección de algoritmos.
 

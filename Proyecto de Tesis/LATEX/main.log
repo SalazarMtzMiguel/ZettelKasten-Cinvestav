@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.9.17)  6 OCT 2026 14:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.9.17)  6 OCT 2026 17:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1188,19 +1188,19 @@ Package pdftex.def Info: figures/Fig2_StudySelection-eps-converted-to.pdf  used
 [26 <./figures/Fig2_StudySelection-eps-converted-to.pdf>] [27] [28] [29]
 [30]
 
-LaTeX Warning: Command \' invalid in math mode on input line 752.
+LaTeX Warning: Command \' invalid in math mode on input line 753.
 
 
-LaTeX Warning: Command \' invalid in math mode on input line 752.
+LaTeX Warning: Command \' invalid in math mode on input line 753.
 
 
-LaTeX Warning: Command \' invalid in math mode on input line 752.
+LaTeX Warning: Command \' invalid in math mode on input line 753.
 
 
-LaTeX Warning: Command \' invalid in math mode on input line 752.
+LaTeX Warning: Command \' invalid in math mode on input line 753.
 
 
-LaTeX Warning: Command \' invalid in math mode on input line 752.
+LaTeX Warning: Command \' invalid in math mode on input line 753.
 
 Missing character: There is no ó in font cmr12!
 Missing character: There is no ó in font cmr12!
@@ -1218,13 +1218,13 @@ Cap\'{\i }tulo 6.
 ] [45] [46
 
 ]
-Overfull \hbox (7.38779pt too wide) in paragraph at lines 1000--1000
+Overfull \hbox (7.38779pt too wide) in paragraph at lines 1001--1001
 \T1/cmr/m/n/12 2016, Seattle, WA, USA: As-so-cia-tion for Com-pu-ting Ma-chi-ne
 ry, 2016, págs. 1073[]1075,
  []
 
 [47] [48]
-Overfull \hbox (6.58615pt too wide) in paragraph at lines 1000--1000
+Overfull \hbox (6.58615pt too wide) in paragraph at lines 1001--1001
 \T1/cmr/m/n/12 en \T1/cmr/m/it/12 Agent-oriented metho-do-lo-gies\T1/cmr/m/n/12
  , IGI Glo-bal Scien-ti-fic Pu-blishing, 2005, págs. 107[]135. 
  []
@@ -1277,9 +1277,9 @@ lic/amsfonts/cm/cmr12.pfb><C:/Users/Mikec/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmr8.pfb><C:/Users/Mikec/AppData/Local/Programs/MiKTeX/
 fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Mikec/AppData/Local/Program
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (62 pages, 1163894 bytes).
+Output written on main.pdf (62 pages, 1163582 bytes).
 PDF statistics:
- 1692 PDF objects out of 1728 (max. 8388607)
+ 1691 PDF objects out of 1728 (max. 8388607)
  212 named destinations out of 1000 (max. 500000)
  720 words of extra memory for PDF output out of 10000 (max. 10000000)
 
