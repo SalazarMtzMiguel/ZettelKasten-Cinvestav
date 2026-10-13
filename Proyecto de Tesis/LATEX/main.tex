@@ -41,7 +41,7 @@
 
 % --- Configuración del ENCABEZADO (Header) ---
 % Centrado, en cursivas y con el título de tu tesis
-\fancyhead[C]{\textit{Auto-diseño de algoritmos en el marco de Sistemas de Auto-Ingenieria (SES)}}
+\fancyhead[C]{\textit{Auto-diseño de algoritmos en el marco de Sistemas de Auto-Ingeniería (SES)}}
 \renewcommand{\headrulewidth}{0.4pt} % Línea horizontal superior
 
 % --- Configuración del PIE DE PÁGINA (Footer) ---
@@ -82,7 +82,7 @@
         
         \vspace{2cm}
         
-        {\LARGE \textbf{Auto-diseño de algoritmos en el marco de Sistemas de Auto-Ingenieria (SES)}}\\[2cm]
+        {\LARGE \textbf{Auto-diseño de algoritmos en el marco de Sistemas de Auto-Ingeniería (SES)}}\\[2cm]
         
         {\large Tesis que presenta:}\\[0.3cm]
         {\Large \textbf{Miguel Angel Salazar Martinez}}\\[1.2cm]
@@ -105,18 +105,18 @@
     \begin{center}
         \vspace{2cm}
         
-        {\Huge \textbf{Auto-diseño de algoritmos en el marco\\ de Sistemas de Auto-Ingenieria (SES)}}\\[2cm]
+        {\Huge \textbf{Auto-diseño de algoritmos en el marco\\ de Sistemas de Auto-Ingeniería (SES)}}\\[2cm]
         
-        {\LARGE \textbf{Tesis de Mestria en \\Ciencias Ingeniería Eléctrica}}\\[1.2cm]
+        {\LARGE \textbf{Tesis de Maestría en \\Ciencias Ingeniería Eléctrica}}\\[1.2cm]
         
         {\large Por:}\\[0.3cm]
         {\LARGE \textbf{Miguel Angel Salazar Martinez}}\\[0.3cm]
         {\Large Ingeniero en Sistemas Computaciones}\\
-        {\Large Instituto Tecnologico de Ocotlán 2019-2023}
+        {\Large Instituto Tecnológico de Ocotlán 2019-2023}
         \\[1.2cm]
         
         
-        {\Large Becario de SECIHTI, expediente no. xxxxxxx}\\[1.2cm]
+        {\Large Becario de SECIHTI, expediente no. 245700008}\\[1.2cm]
         
         {\Large Director de Tesis}\\[0.3cm]
         {\LARGE \textbf{Dr. Mario Angel Siller González Pico}}
@@ -146,12 +146,12 @@ A mi hermana Saidy y mi hermano Diego, por impulsarme a seguir adelante y ser mi
 
 \noindent A todos los que me apoyaron en el camino y me ayudaron en esta travesía del posgrado.\\
 A mi asesor de tesis, el Dr. Mario Siller, por todo el apoyo durante el desarrollo del plan de estudios.\\
-A mi querida familia, a mi madre, a mi padre, a mis hermanos, a mis abuelos, a mis tios y primos que tanto me han apoyado.\\
+A mi querida familia, a mi madre, a mi padre, a mis hermanos, a mis abuelos, a mis tíos y primos que tanto me han apoyado.\\
 Al grupo de redes de CINVESTAV Guadalajara, que más que grupo, es una familia.\\
 A los doctores del área de computación, por compartir su conocimiento, consejos y, sobre todo, por cultivar la tenacidad. Esa que no aparece en la rubrica, pero que resulta indispensable para llegar hasta aquí.\\
 A todos mis amigos (incluyendo los compis y roomies) especialmente a los miembros del laboratorio de computación, por esas largas charlas, orientación, momentos de calidez y de recreación.\\
 A todos mis maestros, quienes me educaron en toda mi vida académica y nunca desistieron al enseñarme.\\
-Entre ellos destaco a la profesora Aurora Berenice Navarro Nuñez, por darme el apoyo que necesite al momento de ingresar a este posgrado.\\
+Entre ellos destaco a la profesora Aurora Berenice Navarro Núñez, por darme el apoyo que necesite al momento de ingresar a este posgrado.\\
 A todos aquellos que creyeron en mí.\\
 Finalmente, quiero agradecer a la SECIHTI por el apoyo económico brindado, con el cual se logró concluir esta maestría.\\
 Muchas Gracias a todos.
@@ -189,12 +189,12 @@ Los sistemas no poseen mecanismos de diseño que contemplen un proceso articulad
 El problema técnico radica en la ausencia de un mecanismo capaz de acoplar un agente diseñador de algoritmos con las actividades de diseño previas (arquitectura, componentes y estructuras de datos). Al no existir un modelo de abstracción que trate a estas capas previas como una entidad de tipo caja negra, los sistemas adaptativos no pueden actualizar su lógica operacional de manera aislada y segura ante cambios dinámicos en sus requerimientos. Para resolver esta limitación, se requiere un modelo donde la ontología actúe como el puente semántico entre el espacio del problema (los nuevos requerimientos clasificados taxonómicamente) y el espacio de la solución (los algoritmos disponibles), permitiendo que la selección e integración ocurran de forma autónoma y sin romper las interfaces preexistentes.
 
 \section{Motivación}
-La motivación central de esta investigación radica en la necesidad de desarrollar sistemas de software con un alto grado de autonomía, capaces de autodiseñar su propia lógica interna cuando las demandas del entorno lo requieran. Al automatizar la generacion de artefactos de diseño y la selección de algoritmos mediante el uso de ontologías y agentes de diseño, se establece un habilitador crítico para la evolución y metamorfosis de los sistemas SES \cite{perez2024}. Este enfoque no solo reduce la dependencia del factor humano en entornos críticos y dinámicos, sino que optimiza los costos operativos asociados al mantenimiento evolutivo del software, transformando la adaptación heurística en un proceso de inferencia lógica y clasificación formal.
+La motivación central de esta investigación radica en la necesidad de desarrollar sistemas de software con un alto grado de autonomía, capaces de autodiseñar su propia lógica interna cuando las demandas del entorno lo requieran. Al automatizar la generación de artefactos de diseño y la selección de algoritmos mediante el uso de ontologías y agentes de diseño, se establece un habilitador crítico para la evolución y metamorfosis de los sistemas SES \cite{perez2024}. Este enfoque no solo reduce la dependencia del factor humano en entornos críticos y dinámicos, sino que optimiza los costos operativos asociados al mantenimiento evolutivo del software, transformando la adaptación heurística en un proceso de inferencia lógica y clasificación formal.
 \section{Objetivos}
 
 \subsection{Objetivo General}
 
-Desarrollar una arquitectura y su respectivo flujo de trabajo para el diseño automatizado en sistemas de auto-ingenieria, con el fin de que sea capaz de diseñar soluciones para posteriormente actualizar o implementar artefactos ante cambios en los requerimientos, abstrayendo las actividades de diseño (arquitectura, componentes, interfaces, estructuras de datos...) mediante un modelo de interacción de agentes de tipo caja negra con un agente diseñador de caja blanca.
+Desarrollar una arquitectura y su respectivo flujo de trabajo para el diseño automatizado en sistemas de auto-ingeniería, con el fin de que sea capaz de diseñar soluciones para posteriormente actualizar o implementar artefactos ante cambios en los requerimientos, abstrayendo las actividades de diseño (arquitectura, componentes, interfaces, estructuras de datos...) mediante un modelo de interacción de agentes de tipo caja negra con un agente diseñador de caja blanca.
 
 
 \subsection{Objetivos Específicos}
@@ -231,10 +231,10 @@ El \textbf{Capítulo 1} establece la base del estudio mediante la introducción 
 
 El Marco Teórico constituye el cimiento conceptual sobre el cual se erige esta investigación. Su propósito fundamental es articular las teorías, paradigmas y modelos previos que otorgan validez científica a la problemática planteada, sirviendo como mapa orientador para el desarrollo de la propuesta.
 
-\section{Sistemas de Auto-Ingenieria}
+\section{Sistemas de Auto-Ingeniería}
 %\cite perez
-En \cite{perez2024} se aborda el hecho de que los mismos sistemas no terminen en desecho si no, que sin intervención humana continúen su operación mediante la evolucionando o en su defecto sufran una metamorfosis dando pie a un nuevo sistema, esta perspectiva se conoce como el marco de los sistemas de auto-ingenieria.
-Los SES contemplan un proceso muy similar a la ingenieria de software tradicional, es decir, las actividades como lo son ingenieria de requerimientos, diseño, implementación, pruebas, etc.\cite{sommerville2011software} tienen lugar en este marco de trabajo. Para este trabajo unicamente nos enfocamos en el diseño del software \cite{swebok2014}, esto quiere decir que nos vamos a dedicar a entregar artefactos de diseño, nuestros planos del sistema antes de implementar en código.
+En \cite{perez2024} se aborda el hecho de que los mismos sistemas no terminen en desecho si no, que sin intervención humana continúen su operación mediante la evolucionando o en su defecto sufran una metamorfosis dando pie a un nuevo sistema, esta perspectiva se conoce como el marco de los sistemas de auto-ingeniería.
+Los SES contemplan un proceso muy similar a la ingeniería de software tradicional, es decir, las actividades como lo son ingeniería de requerimientos, diseño, implementación, pruebas, etc.\cite{sommerville2011software} tienen lugar en este marco de trabajo. Para este trabajo unicamente nos enfocamos en el diseño del software \cite{swebok2014}, esto quiere decir que nos vamos a dedicar a entregar artefactos de diseño, nuestros planos del sistema antes de implementar en código.
 
 La teoría SES introduce conceptos que permiten identificar fases y actividades dentro de la vida de estos sistemas \cite{PerezCarrillo2026}:
 
@@ -248,8 +248,8 @@ A diferencia de la literatura tradicional que debate si el mantenimiento es un s
 \end{itemize}
 \subsubsection{Actividades de Self-O \& M y Self-Evolution}
 Son las actividades fundamentales que el sistema ejecuta de manera autónoma tras su despliegue dentro de las fases de O\&M y Evolución, respectivamente.
-\subsubsection{Punto de Ruptura / Breaking Point}
-Basado en la analogía de los puntos de inflexión (tipping points) en sistemas complejos, representa el umbral en el cual la arquitectura original del sistema ya no puede satisfacer los nuevos requerimientos.
+\subsubsection{Punto de Quiebre / Breaking Point}
+Representa el umbral en el cual la arquitectura original del sistema ya no puede satisfacer los nuevos requerimientos.
 Al alcanzar el \textbf{Breaking Point}, se suspenden las actividades de Self-O\&M y Self-Evolution, desencadenando el inicio de un nuevo proceso e inicio de ciclo de vida de ingeniería.
 \subsubsection{Elasticidad del Sistema / System Elasticity}
 Fundamentada en los conceptos de evolucionabilidad (evolvability) y resiliencia.
@@ -283,14 +283,14 @@ Proceso RCM adaptado para SES (basado en \cite{sommerville2011software}):
 
 \subsection{Meta-Arquitectura del Marco de Sistemas de Auto-Ingeniería}
 
-Los SES cuentan con el ether, el centro de operacion de estos sistemas, recordando el hecho de la existencia de dos momentos clave, la evolucion y la metamorfosis, Un sistema SES busca gestionar y ejecutar su propio proceso de ingenieria mas alla de su ciclo de vida convencional, prescindiendo de la intervencion humana. el ether se encarga de primeramente el mantenimiento el cual escorregir errores y defectos, 
+Los SES cuentan con el ether, el centro de operación de estos sistemas, recordando el hecho de la existencia de dos momentos clave, la evolución y la metamorfosis, Un sistema SES busca gestionar y ejecutar su propio proceso de ingeniería mas allá de su ciclo de vida convencional, prescindiendo de la intervención humana. el ether se encarga de primeramente el mantenimiento el cual es corregir errores y defectos, 
 
-Los SES manejan la evolucion como una fase independiente a la de operacion y mantenimiento en el ciclo de vida del software, los mantenimientos correctivos, preventivos, adaptativos, aditivos y de mejora \cite{ISOIEEE} pueden dar lugar a la fase de evolucion.
+Los SES manejan la evolución como una fase independiente a la de operación y mantenimiento en el ciclo de vida del software, los mantenimientos correctivos, preventivos, adaptativos, aditivos y de mejora \cite{ISOIEEE} pueden dar lugar a la fase de evolución.
 
 
 \section{Actividades de diseño}
 %\cite sommerville
-Las actividades principales de la ingenieria de diseño son:
+Las actividades principales de la ingeniería de diseño son:
 \begin{enumerate}
 	\item Diseño de Arquitectura
 	\item Diseño de Interfaces
@@ -303,48 +303,48 @@ Las actividades principales de la ingenieria de diseño son:
 
 \subsection{Diseño de Arquitectura}
 
-Esta especificacion segun \cite{sommerville2011software} es la parte en la cual se hace una vision general del sistema y como de be operar.
+Esta especificación según \cite{sommerville2011software} es la parte en la cual se hace una visión general del sistema y como de be operar.
 
 \subsection{Diseño de Interfaces}
-Esta actividad especifica como es que las interfaces van a aoperar antes de incluso diseñar componentes, una vez declarado esto los componentes solo adaptas estas maneras de comunicacion para garantizar cohesion y acoplamiento requerido.
+Esta actividad especifica como es que las interfaces van a a operar antes de incluso diseñar componentes, una vez declarado esto los componentes solo adaptas estas maneras de comunicación para garantizar cohesión y acoplamiento requerido.
 
 
 
 \subsection{Diseño de Componentes}
 
-Aqui la actividad especifica como cada componente opera, cumpliendo funciones y objetivos especificos.
+Aquí la actividad especifica como cada componente opera, cumpliendo funciones y objetivos específicos.
 
 \subsection{Diseño de Estructuras de datos}
 Esta parte funciona para modelar todas la estructuras de datos que se usaran en los algoritmos, ademas de proporcionar diferentes esquemas para las bases de datos y viceversa, es decir se pueden moldear tablas a partir de estructura de datos necesarias o diseñar estructuras de datos a partir de los requerimientos de información en las bases de datos.
 
 
 \subsection{Diseño de Algoritmos}
-Esta es la actividad en la que indagaremos, se encarga del diseño de algortimos, segun la necesidad, eficiencia y eficacia de lo que necesitemos resolver.
+Esta es la actividad en la que indagaremos, se encarga del diseño de algoritmos, según la necesidad, eficiencia y eficacia de lo que necesitemos resolver.
 
 
 %\section{Diseño Automatizado de Algoritmos}
 
 \section{Sistemas multiagentes MAS}
-Los sistemas multiagentes abordan un paradigma donde cada agente puede ser de distinto tipom, reactivos, BDI, basados en logica, basados en planeacion, basados en utilidad, basados en aprendizajes, de pizarra negra, basados en mercado, o hibridos mezclando caracteristicas entre los mismos.
+Los sistemas multiagentes abordan un paradigma donde cada agente puede ser de distinto tipo, reactivos, BDI, basados en lógica, basados en planeación, basados en utilidad, basados en aprendizajes, de pizarra negra, basados en mercado, o híbridos mezclando características entre los mismos.
 \subsection{Fundamentos y arquitecturas de los Sistemas Multiagentes}
-Un agente se puede caracterizar por cualquier elemento que tenga una funcion.
+Un agente se puede caracterizar por cualquier elemento que tenga una función.
 \subsection{Tipología cognitiva de agentes: Modelos de caja negra (puramente estadísticos/reactivos	) vs. Modelos de caja gris (híbridos o neuro-simbólicos)}
 
-\subsection{Paradigmas de coordinación y comunicación inter-agente}
+\subsection{Paradigmas de coordinación y comunicación ínter-agente}
 
 \section{Modelos grande de lenguaje (LLM)}
-Los LLM son tecnologias que procesan el lenguaje natural, derivado de un entrenamiento previo del modelo, estas son grander herramientas que por si solas ayudan mucho a tareas de escritura y de analisis derivado de los patrones que ya reconocen.
+Los LLM son tecnologías que procesan el lenguaje natural, derivado de un entrenamiento previo del modelo, estas son grandes herramientas que por si solas ayudan mucho a tareas de escritura y de análisis derivado de los patrones que ya reconocen.
 \subsection{Principios de inferencia y generación de texto en modelos de lenguaje}
-Los Modelos son capaces de inferir cierta informacion basado en el contexto dado en los prompts, y su entrenamiento, por eso, puede responder segun reglas de escritura a lo que se ponga de entrada, dado esto, funcionan como una caja negra, tenemos una entrada un prompt y la salida de dicho prompt, la respuesta varia de modelo a modelo, por el entrenamiento, la ventana de contexto y la calidad de la informacion.
+Los Modelos son capaces de inferir cierta información basado en el contexto dado en los prompts, y su entrenamiento, por eso, puede responder según reglas de escritura a lo que se ponga de entrada, dado esto, funcionan como una caja negra, tenemos una entrada un prompt y la salida de dicho prompt, la respuesta varia de modelo a modelo, por el entrenamiento, la ventana de contexto y la calidad de la información.
 \subsection{Capacidades de los LLMs en la comprensión, diseño y generación de código}
-Como tal el contexto dado al LLM rige que puede dar como salida, en el caso de la ingenieria de software, el modelo debe de estar entranado con mucha informacion formal y de campo del area de dominio, para de esa manera reconocer patrones y replicarlos dado el input de la funcion, en el caso de la ingenieria de diseño, dar la especificacion de los patrones de diseño, y poder compara con su propio entrenamiento que plantillas se ajustan mas a lo requerido, es decir, si nos piden una web sencilla con interacciones, quiza lo mejor sea un comprtamiento monolitico, pero bajo el entrenamiento del LLM nos recomiende mejor un enfoque de MVC (Modelo, Vista, Controlador).
+Como tal el contexto dado al LLM rige que puede dar como salida, en el caso de la ingeniería de software, el modelo debe de estar entrenado con mucha información formal y de campo del área de dominio, para de esa manera reconocer patrones y replicarlos dado el input de la función, en el caso de la ingeniería de diseño, dar la especificación de los patrones de diseño, y poder compara con su propio entrenamiento que plantillas se ajustan mas a lo requerido, es decir, si nos piden una web sencilla con interacciones, quizá lo mejor sea un comportamiento monolítico, pero bajo el entrenamiento del LLM nos recomiende mejor un enfoque de MVC (Modelo, Vista, Controlador).
 \subsection{Limitaciones actuales: Alucinaciones, ventanas de contexto y deficiencias en el razonamiento algorítmico determinista}
-Existen varios contras de los LLM, el primero con las alucinaciones, el segundo es la falta de contexto,  esto puedo derivar en malas respuestas, conocidas como alucinaciones, supongamos que si o si los LLM generan una respuesta entonces retornan lo mas "cercano" a la respuesta correcta segun su entrenamiento y el contexto dado, por eso aveces aunque no sea una respuesta correcta, contestan algo aproximado y aveces si es que su modelo no tiene informacion relevante, si divaga y contesta algo que no tiene nada en comun, eso es una alucinacion, ahora bien en ventanas de contexto, tenemos 2 tipos, de entrenamiento y de tokens, los tokens son los valores dados a ciertas cadenas de texto, estas nos permiten dar importancia a lo escrito, por ejemplo la mujer tiene el pelo verde, con tres palabras relevantes podemos sacar lo mas valioso del la frase, mujer, pelo y verde, con eso sabemos que es lo que queremos comunicar.
+Existen varios contras de los LLM, el primero con las alucinaciones, el segundo es la falta de contexto,  esto puedo derivar en malas respuestas, conocidas como alucinaciones, supongamos que si o si los LLM generan una respuesta entonces retornan lo mas "cercano" a la respuesta correcta según su entrenamiento y el contexto dado, por eso aveces aunque no sea una respuesta correcta, contestan algo aproximado y aveces si es que su modelo no tiene información relevante, si divaga y contesta algo que no tiene nada en común, eso es una alucinación, ahora bien en ventanas de contexto, tenemos 2 tipos, de entrenamiento y de tokens, los tokens son los valores dados a ciertas cadenas de texto, estas nos permiten dar importancia a lo escrito, por ejemplo la mujer tiene el pelo verde, con tres palabras relevantes podemos sacar lo mas valioso del la frase, mujer, pelo y verde, con eso sabemos que es lo que queremos comunicar.
 
-\section{Arbol de busqueda de Monte-Carlo (MCTS)}
+\section{Árbol de búsqueda de Monte-Carlo (MCTS)}
 Un Monte Carlo Tree Search, (MCTS) es un algoritmo de búsqueda y toma de decisiones que construye un árbol de forma incremental usando simulaciones aleatorias para evaluar opciones y elegir la acción más prometedora, cada nodo es un estado o configuraciones de un problema y las aristas son transiciones (acciones) de nodo a nodo \cite{mctswiechowski2022}.
 
-Suele repetirse en cuatro fases: selección, expansión, simulación y propagacion hacia atras (retropropagacion). 
+Suele repetirse en cuatro fases: selección, expansión, simulación y propagación hacia atrás (retropropagacion). 
 
 \begin{itemize}
 
@@ -361,9 +361,9 @@ Suele repetirse en cuatro fases: selección, expansión, simulación y propagaci
 \subsection{Espacios de búsqueda y métodos de toma de decisiones secuenciales}
 
 \subsection{Fases algorítmicas del MCTS}
-El arbol de busqueda de montecarlo nos permite identificar patrones en un conjunto de soluciones, nos permite converger en una entre mas iteraciones tengamos.
+El árbol de búsqueda de montecarlo nos permite identificar patrones en un conjunto de soluciones, nos permite converger en una entre mas iteraciones tengamos.
 
-\section{Ontología como representacion de conocimiento}
+\section{Ontología como representación de conocimiento}
 
 Una ontología es una especificación formal y explícita de un dominio: define conceptos, relaciones, individuos, axiomas y restricciones para que el conocimiento pueda ser compartido, reutilizado y procesado por máquinas \cite{OntologyGuarino2009}.
 Se caracterizan por representaciones semánticas porque no solo organiza datos, sino que hace explícito el significado de esos datos y las relaciones entre entidades, lo que permite inferencia, interoperabilidad y comprensión automática por software.
@@ -372,16 +372,16 @@ Se caracterizan por representaciones semánticas porque no solo organiza datos, 
 
 
 \subsection{Lenguajes de modelado ontológico}
-Aqui va OWL
+Aquí va OWL
 
 \subsection{Modelado semántico para la taxonomía y clasificación de problemas algorítmicos}
-El trabajo de \cite{duran2026seleccion} une estos temas, para lograr la seleccion automatica de algoritmos, esto en sistemas del internet de las cosas (IoT), la ontologia deriva del trabajo \cite{DURANPOLANCO2023100904} donde se propone una taxonomia para la toma de decisiones bajo incertidumbre, considera caracteristicas como el Objetivo, Tipo de Procesamineto, Capa de procesamiento, Interaccion, incertidumbre, representacion de conocimiento y un enfoque algoritmico.
+El trabajo de \cite{duran2026seleccion} une estos temas, para lograr la selección automática de algoritmos, esto en sistemas del internet de las cosas (IoT), la ontología deriva del trabajo \cite{DURANPOLANCO2023100904} donde se propone una taxonomía para la toma de decisiones bajo incertidumbre, considera características como el Objetivo, Tipo de Procesamiento, Capa de procesamiento, Interacción, incertidumbre, representación de conocimiento y un enfoque algorítmico.
 
 
 
 \chapter{Estado del Arte}\label{arte}
 
-Este capítulo presenta y analiza la literatura científica existente en torno al diseño automatizado de software y al concepto de \textit{auto-diseño} (\textit{self-design}). A lo largo de esta sección se exploran sus definiciones conceptuales, técnicas de soporte, marcos de trabajo contemporáneos y los diferentes niveles de abstracción en los que se implementa. Toda la literatura analizada para el estado del arte fue obtenida mediante una rigurosa revision sistematica de literatura desarrollada en el \cref{propuesta}.
+Este capítulo presenta y analiza la literatura científica existente en torno al diseño automatizado de software y al concepto de \textit{auto-diseño} (\textit{Self-Design}). A lo largo de esta sección se exploran sus definiciones conceptuales, técnicas de soporte, marcos de trabajo contemporáneos y los diferentes niveles de abstracción en los que se implementa. Toda la literatura analizada para el estado del arte fue obtenida mediante una rigurosa revisión sistemática de literatura desarrollada en el \cref{propuesta}.
 
 \section{Conceptualización del Auto-Diseño}
 
@@ -391,13 +391,13 @@ Sin embargo, desde la perspectiva de la ingeniería de software clásica, este e
 
 A nivel de bajo nivel (estructuras de datos), el trabajo  \cite{StratosIdreos2019LearningData} describe una metodología para automatizar el diseño de estructuras de almacenamiento personalizadas. En lugar de depender de diseños tradicionales e inflexibles, este enfoque construye estructuras a la medida partiendo de un conjunto de primitivas de diseño lógicas y físicas clasificadas en su "Tabla Periódica de las Estructuras de Datos" \cite{idreos2018periodic}. El conjunto combinatorio de estas primitivas conforma un vasto espacio de diseño en el cual se evalúan rigurosamente los compromisos entre rendimiento y utilización de recursos. Tras este análisis, el candidato óptimo es enviado a un generador de código que sintetiza el diseño en código C++ ejecutable para el sistema final.
 
-De manera complementaria en esta misma capa, la herramienta COZY desarrollada por Loncaric et al. \cite{loncaric2016Datastructure, loncaric2018Generalizeddata} presenta un marco de síntesis lógica de colecciones de datos. La entrada del sistema consiste en una especificación declarativa de alto nivel que describe el estado abstracto (datos lógicos como usuarios, grupos o membresías), las consultas requeridas y las operaciones de actualización. A través de un bucle iterativo de refinamiento, incrementalización y verificación formal apoyado por el resolvedor SMT Z3 (mediante síntesis inductiva guiada por contraejemplos, CEGIS), COZY genera estructuras de datos intrusivas y seguras por diseño, listas para su compilación.
+De manera complementaria en esta misma capa, la herramienta COZY desarrollada por Loncaric et al. \cite{loncaric2016Datastructure, loncaric2018Generalizeddata} presenta un marco de síntesis lógica de colecciones de datos. La entrada del sistema consiste en una especificación declarativa de alto nivel que describe el estado abstracto (datos lógicos como usuarios, grupos o membresías), las consultas requeridas y las operaciones de actualización. A través de un bucle iterativo de refinamiento, incrementalización y verificación formal apoyado por el resolvedor SMT Z3 (mediante síntesis inductiva guiada por contra ejemplos, CEGIS), COZY genera estructuras de datos intrusivas y seguras por diseño, listas para su compilación.
 
 \section{Automatización del Diseño}
 
 La automatización de las tareas de diseño se ha abordado desde múltiples paradigmas de cómputo, respondiendo a la complejidad del dominio y al nivel de abstracción objetivo.
 
-\subsection{Autodiseño basado en Inteligencia Artificial y Aprendizaje}
+\subsection{Auto-diseño basado en Inteligencia Artificial y Aprendizaje}
 
 En la generación de lógica y algoritmos, \cite{Zhao2025AutomatedMetaheuristic} proponen el marco ALDes (\textit{Autoregressive Learning-based Designer}), el cual formula el diseño de algoritmos metaheurísticos como una tarea de generación de secuencias. A diferencia de los métodos tradicionales con estructuras fijas, ALDes utiliza redes autorregresivas basadas en Transformers para inferir secuencias con estructuras de control arbitrarias (bucles, condicionales) y longitudes variables, permitiendo la síntesis autónoma de algoritmos adaptados a problemas específicos. Por su parte, Yi y Qu \cite{Yi2023Automatedalgorithm} exploran el uso de Aprendizaje por Refuerzo (Proximal Polici Optimisation - PPO) sobre un espacio de características dependientes de la instancia y del estado de búsqueda, logrando la combinación dinámica de componentes algorítmicos.
 
@@ -411,7 +411,7 @@ La emergencia de los Grandes Modelos de Lenguaje (LLMs) ha impulsado el desarrol
 
 Asimismo, Zhang et al. \cite{ZhangYiranKnowledge} proponen el marco MAAD (\textit{Multi-Agent Architecture Design}), en el cual agentes especializados (Analista, Modelador, Diseñador y Evaluador) simulan el flujo de trabajo de un equipo humano para traducir especificaciones SRS en planos arquitectónicos verificados sin incurrir en alucinaciones típicas de esquemas \textit{zero-shot}. De igual forma, Rajendran et al. \cite{Rajendran2025AMulti-Agent} diseñan un entorno multi-agente colaborativo y competitivo que emplea protocolos de subasta y consenso para balancear atributos de calidad en conflicto (rendimiento, seguridad y mantenibilidad) durante la refactorización arquitectónica.
 
-\section{Conceptos Emergentes y Mecanismos de Control en Auto-Diseño}
+\section{Conceptos Emergentes y Mecanismos de Control en Autodiseño}
 
 El auto-diseño requiere motores de ejecución capaces de efectuar cambios en tiempo de ejecución de manera segura y controlada. Affonso et al. \cite{Affonso2024AReferenceArchitecture} presentan la arquitectura de referencia RA4SaS, basada en reflexión computacional, la cual permite inspeccionar, desensamblar y reconstruir entidades orientadas a objetos en tiempo de ejecución mediante metadatos y plantillas.
 
@@ -445,28 +445,28 @@ A continuación, la Tabla \ref{tab:comparacion_autodiseno} sintetiza y clasifica
 
 \chapter{Propuesta}\label{propuesta}
 
-\section{Metodologia}
-La metodologia consta de dos  etapas principales, la primera que fue realizar una revision sistematica de literatura sobre tecnicas, marcos de trabajo y demas propuestas que llevaran a cabo el autodiseño, esta misma se llevo a cabo siguiendo la metodologi prisma, los resultados obtenido ayudaron a fundamentar la toma de decision para construir la propuesta.
-La siguiente etapa fue la construccion de un sistema multiagentes, se compararon diferentes metodologias, pero se decanto por prometheus ya que implementa los conceptos BDI de manera natural, la comparacion con metodologias esta dada con (Gaia, Tropos, Mase, O-mase, Adelfe, Pass)
+\section{Metodología}
+La metodología consta de dos  etapas principales, la primera que fue realizar una revisión sistemática de literatura sobre técnicas, marcos de trabajo y demás propuestas que llevaran a cabo el autodiseño, esta misma se llevo a cabo siguiendo la metodología prisma, los resultados obtenido ayudaron a fundamentar la toma de decision para construir la propuesta.
+La siguiente etapa fue la construcción de un sistema multiagentes, se compararon diferentes metodologías, pero se decanto por Prometheus ya que implementa los conceptos BDI de manera natural, la comparación con metodologías esta dada con (Gaia, Tropos, Mase, O-mase, Adelfe, Pass)
 
 
-\subsection{Revision Sistematica de literatura}
+\subsection{Revisión Sistemática de literatura}
 
-El primer paso para desarrollar y fundamentar mi propuesta fue realizar un revision sistematica de literatura, en la que siguiendo los lineamientos PRISMA \cite{Pagen2020PRISMA}, con este proceso estructurado se realizo la revision de manera exhaustiva, el objetivo principal de esta Systematic Literature Review (SLR), es conocer como se ha automatizado el diseño de sistemas, conocer el estado del arte permite reconocer vacios en el mismo.
+El primer paso para desarrollar y fundamentar mi propuesta fue realizar un revisión sistemática de literatura, en la que siguiendo los lineamientos PRISMA \cite{Pagen2020PRISMA}, con este proceso estructurado se realizo la revisión de manera exhaustiva, el objetivo principal de esta Systematic Literature Review (SLR), es conocer como se ha automatizado el diseño de sistemas, conocer el estado del arte permite reconocer vacios en el mismo.
 \subsubsection{Formulación preguntas de investigación}
 
-La formulacion de una pregunta o preguntas de investigación en cualquier investigación es la piedra angular de la misma, en una SLR no es la excepción, para esto se utilizo el marco de trabajo PICO \cite{barbaraGuidelines}, La Poblacion (P), habarca los procesos de diseño de software, desde las tareas tradicionales automatizadas, hasta el auto-diseño bajo el marco de los sistemas de autoingenieria (SES) o que tengan relacion directa con ellos. La intervencion (I) se refiere a todos los enfoques automatizados, autonomos o impulsados por IA dentro de la basta literatura, para apoyar a dichas actividades. Estos enfoques comprenden modelos, tecnicas y mecanismos destinados a permitir que los sistemas generen, evaluen, o evoluciones artefactos de diseño de manera autonoma. La Comparacion (C), implica un analisis comparartivo entre las metodologias o tecnicas convencionales, contra enfoque progresivamente automatizados. Finalmente, el resultado previsto, denominado Resultado (Outcome en ingles), destaca en una sintesis sistematica del conocimiento existente para mapear estae volucion tecnologiaca, evaluar las teorias e identificar las brechas de investigacion pendientes que obstaculizan la realizacion de un verdadero auto-diseño.
+La formulación de una pregunta o preguntas de investigación en cualquier investigación es la piedra angular de la misma, en una SLR no es la excepción, para esto se utilizo el marco de trabajo PICO \cite{barbaraGuidelines}, La Población (P), abarca los procesos de diseño de software, desde las tareas tradicionales automatizadas, hasta el auto-diseño bajo el marco de los sistemas de autoingenieria (SES) o que tengan relacion directa con ellos. La intervencion (I) se refiere a todos los enfoques automatizados, autonomos o impulsados por IA dentro de la basta literatura, para apoyar a dichas actividades. Estos enfoques comprenden modelos, tecnicas y mecanismos destinados a permitir que los sistemas generen, evaluen, o evoluciones artefactos de diseño de manera autonoma. La Comparacion (C), implica un analisis comparartivo entre las metodologias o tecnicas convencionales, contra enfoque progresivamente automatizados. Finalmente, el resultado previsto, denominado Resultado (Outcome en ingles), destaca en una sintesis sistematica del conocimiento existente para mapear estae volucion tecnologiaca, evaluar las teorias e identificar las brechas de investigacion pendientes que obstaculizan la realizacion de un verdadero auto-diseño.
 
-Con base a esta formulacion las siguientes preguntas son propuestas:
+Con base a esta formulación las siguientes preguntas son propuestas:
 
 \begin{itemize}
-	\item \textbf{RQ1:} ¿De que maneras se han automatizado o hecho autónomos los procesos tradicionales de ingenieria de diseño de software?
-	\item \textbf{RQ2:} ¿Que terminos o conceptos emergentes son equivalentes o cercanos a una actividad de diseño totalmente autonoma?
-	\item \textbf{RQ3:} ¿Como se ha abordado el  \textbf{autodiseño} de sistemas en el contexto de los SES?
+	\item \textbf{RQ1:} ¿De que maneras se han automatizado o hecho autónomos los procesos tradicionales de ingeniería de diseño de software?
+	\item \textbf{RQ2:} ¿Que términos o conceptos emergentes son equivalentes o cercanos a una actividad de diseño totalmente autónoma?
+	\item \textbf{RQ3:} ¿Como se ha abordado el  \textbf{Autodiseño} de sistemas en el contexto de los SES?
 \end{itemize}
 
-\subsubsection{Estrategia de busqueda}
-Para contestar a la primer pregunta de investigacion (RQ1), el analisis fue estructurado alrededor de las actividades en el diseño de software, considerando su correspondencia con enfoques automaticos o autonomico, las etapas se muestran en la tabla ~\ref{tab:etapas_diseno}.
+\subsubsection{Estrategia de búsqueda}
+Para contestar a la primer pregunta de investigación (RQ1), el análisis fue estructurado alrededor de las actividades en el diseño de software, considerando su correspondencia con enfoques automáticos o autonómico, las etapas se muestran en la tabla ~\ref{tab:etapas_diseno}.
 
 \begin{table}[H]
 	\centering
@@ -476,15 +476,15 @@ Para contestar a la primer pregunta de investigacion (RQ1), el analisis fue estr
 		\toprule
 		\textbf{Actividades de diseño} & \textbf{Artefactos de diseño} \\ \midrule
 		Diseño de Arquitectura & Arquitectura del sistema\\
-		Diseño de interfaz & Especificacion de interfaces \\
-		Diseño de componentes & Especificacion de componentes\\
-		Diseño de estructuras de datos & Especificacion de estructuras de datos \\
-		Diseño de algoritmos & Especificacion de algoritmos \\
+		Diseño de interfaz & Especificación de interfaces \\
+		Diseño de componentes & Especificación de componentes\\
+		Diseño de estructuras de datos & Especificación de estructuras de datos \\
+		Diseño de algoritmos & Especificación de algoritmos \\
 		\bottomrule
 	\end{tabular}
 \end{table}
 
-Esta descomposicion facilita eavaluar en que medida cada fase del diseño ha sido reinterpretada, respaldada o automatizada bajo los principios de automatizacion de autogestion. Esto ofrece una vision amplia del diseño en nuestra busqueda. De tal manera que una busqueda granular se consigue con sub-preguntas de investigacion, al final se contesta la RQ1.
+Esta descomposición facilita evaluar en que medida cada fase del diseño ha sido reinterpretada, respaldada o automatizada bajo los principios de automatización de autogestion. Esto ofrece una vision amplia del diseño en nuestra busqueda. De tal manera que una busqueda granular se consigue con sub-preguntas de investigacion, al final se contesta la RQ1.
 
 \begin{itemize}
 	
@@ -500,20 +500,20 @@ Esta descomposicion facilita eavaluar en que medida cada fase del diseño ha sid
 	
 \end{itemize}
 
-Para proveer de una respuesta mas comprensiva a la segunda pregunta de investigacion (RQ2), se realizo una busqueda exploratoria de manera exploratoria, usando terminologia reciente y emergente. Este paso apunta a identificar conceptos e investigaciones que de una manera no explicita busca el auto-diseño. como resultado tenemos topicos como diseño evolucionario de systemas de software, diseño generativo en software, automatizacion del diseño de software e inteligencia artificial para ingenieria de software (AI4SE), estos topicos se añadieron a la estrategia de busqueda.
-Por ultimo, la manera de abordar la tercer pregunta de investigacion (RQ3), se adopto una estrategia dirigida por el concepto clave de auto-diseño, algo que de manera explicita nos dirigiera a esto. asi que se suman los siguiente terminos:
-Auto-diseño,  Systemas de Auto-Arquitectura y Sistemas autosuficientes.
+Para proveer de una respuesta mas comprensiva a la segunda pregunta de investigación (RQ2), se realizo una búsqueda exploratoria de manera exploratoria, usando terminología reciente y emergente. Este paso apunta a identificar conceptos e investigaciones que de una manera no explicita busca el auto-diseño. como resultado tenemos tópicos como diseño evolucionario de sistemas de software, diseño generativo en software, automatización del diseño de software e inteligencia artificial para ingeniería de software (AI4SE), estos topicos se añadieron a la estrategia de busqueda.
+Por ultimo, la manera de abordar la tercer pregunta de investigación (RQ3), se adopto una estrategia dirigida por el concepto clave de auto-diseño, algo que de manera explicita nos dirigiera a esto. así que se suman los siguiente términos:
+Auto-diseño,  Sistemas de Auto-Arquitectura y Sistemas autosuficientes.
 
-Las busquedas de la SLR fue realizada en cuatro bases de datos de alto impacto en el campo de la ingenieria de software: Scopus, Web of Science, IEEE Xplore y ACM Digital Library. 
+Las búsquedas de la SLR fue realizada en cuatro bases de datos de alto impacto en el campo de la ingeniería de software: Scopus, Web of Science, IEEE Xplore y ACM Digital Library. 
 Estas plataformas se seleccionaron debido a la disponibilidad de acceso institucional completo y a su amplia cobertura de publicaciones revisadas por pares, incluidos artículos de revistas, actas de conferencias y capítulos de libros relevantes para la inteligencia artificial, la ingeniería de software y los sistemas autónomos y autonómicos.
- Google Scholar si bien es un buen motor de busqueda, no es una base de datos de manera directa y presenta limitaciones en la replicabilidad de las busquedas, por lo tanto no fue una fuente primaria de busqueda \cite{Gusenbauer2020}, sin embargo en el proceso de bola de nieve (snowballing) si se uso para la busqueda de las citas, tanto de entrada como de salida.
+ Google Scholar si bien es un buen motor de búsqueda, no es una base de datos de manera directa y presenta limitaciones en la replicabilidad de las búsquedas, por lo tanto no fue una fuente primaria de búsqueda \cite{Gusenbauer2020}, sin embargo en el proceso de bola de nieve (snowballing) si se uso para la búsqueda de las citas, tanto de entrada como de salida.
  
  Las estrategias de búsqueda se elaboraron sistemáticamente combinando términos relacionados con el tema mediante operadores booleanos (\texttt{AND}, \texttt{OR}) para estructurar explícitamente sus relaciones lógicas. La búsqueda se restringió al campo \texttt{TITLE-ABS-KEY} con el fin de aumentar la precisión conceptual y reducir el ruido en la recuperación de información. Posteriormente, se aplicaron criterios de inclusión y exclusión predefinidos para refinar y validar el conjunto de estudios resultante. Un ejemplo de una consulta completa esta escrita en la tabla~\ref{tab:example_query}.
  
  \shorthandoff{"}
  \begin{table}[ht]
  	\centering
- 	\caption{Example of Complete Search Query (Scopus)}
+ 	\caption{Ejemplo de una consulta de búsqueda completa (Scopus)}
  	\label{tab:example_query}
  	\begin{tabularx}{\textwidth}{|l|X|}
  		\hline
@@ -526,13 +526,13 @@ Estas plataformas se seleccionaron debido a la disponibilidad de acceso instituc
  	\end{tabularx}
  \end{table}
  
- Las consultas presentadas a continuacion corresponden a un conjunto resumido de expresiones que inicialmente fueron ejecutadas en Scopues, y posteriormente adaptadas a las sintaxis especificas de las diferentes bases de datos, se listan las consultas en la tabla~\ref{tab:queries}.
+ Las consultas presentadas a continuación corresponden a un conjunto resumido de expresiones que inicialmente fueron ejecutadas en Scopus, y posteriormente adaptadas a las sintaxis especificas de las diferentes bases de datos, se listan las consultas en la tabla~\ref{tab:queries}.
  
  
  
   \begin{table}[H]
  	\centering
- 	\caption{Resumen de las consultas en Scopues (Obviando los filtros temporales y de dominio para mantener la brevedad).}
+ 	\caption{Resumen de las consultas en Scopus (Obviando los filtros temporales y de dominio para mantener la brevedad).}
  	\label{tab:queries}
  	\begin{tabular}{|@{} p{0.2\textwidth} | p{0.75\textwidth} @{}|}
  		\toprule
@@ -553,78 +553,78 @@ Estas plataformas se seleccionaron debido a la disponibilidad de acceso instituc
  \end{table}
  \shorthandon{"}
  
-Las consultas fueron ejecutadas de manera independiente y posteriormente los resultados fueron unificados (eliminando duplicados). El conjunto final de artículos formaron los \textit{estudios iniciales seleccionados} de esta revision, recordando que fueron filtrados mediante los criterios de invlusion y exclusion descritos a continuacion.
+Las consultas fueron ejecutadas de manera independiente y posteriormente los resultados fueron unificados (eliminando duplicados). El conjunto final de artículos formaron los \textit{estudios iniciales seleccionados} de esta revisión, recordando que fueron filtrados mediante los criterios de inclusión y exclusión descritos a continuación.
 
-\subsubsection{Criterios de Inclusion y de exclusion}
+\subsubsection{Criterios de Inclusión y de exclusión}
 
-Para garantizar la calidad y relevancia de los estudios seleccionados, se establecen criterios explicitos de inclusion y exclusion de acuerdo al objetivo de esta revision, la cual se centra en la automatizacion del diseño en el marco de los SES.
+Para garantizar la calidad y relevancia de los estudios seleccionados, se establecen criterios explícitos de inclusión y exclusión de acuerdo al objetivo de esta revision, la cual se centra en la automatizacion del diseño en el marco de los SES.
 
-Criterios de inclusion
+Criterios de inclusión
 
 \begin{itemize}
-	\item \textbf{CI1: Periodo Temporal.} publicaciones desde  \textbf{2015 hasta Marzo de 2026}. Un rango inicial (2005 -- 2025) fue considerado, pero se actualizo para buscar tecnicas y avances en el area de la Inteligencia Artificial, evadiendo la literatura del \textit{computo autonomico} para enfocarnos unicamente en los sistemas de autoingenieria.
-	\item \textbf{CI2: Idioma.} Solo artuculos en \textbf{Ingles} fueron incluidos para alinearnos con el lenguajes mas adoptado en la divulgacion cientifica en el mundo.
-	\item \textbf{CI3: Disponibilidad y Claridad.} los estudios deben proveer \textbf{acceso completo} y una \textbf{metodologia claramente definida} para permitir un analisis comprensivo y total de los mismo.
-	\item \textbf{CI4: Dominio especifico.} Unicamente investigaciones en el campo de la \textbf{Ingenieria de software} que aborde de manera explicita o de manera indirecta cubra lo que es el auto-diseño de una manera unificada como proceso total o parcial.
-	\item \textbf{CI5: Relevancia Científica.} Seleccion  de estudios que han demostrado impacto en la comunidad cientifica a traves de las citas, mientras se busca balancear este criterio, evaluando publicaciones reciente que no tienen un acumulado de citas pero si un gran contribucion teorica o tecnica en el tema.
+	\item \textbf{CI1: Periodo Temporal.} publicaciones desde  \textbf{2015 hasta Marzo de 2026}. Un rango inicial (2005 -- 2025) fue considerado, pero se actualizo para buscar técnicas y avances en el área de la Inteligencia Artificial, evadiendo la literatura del \textit{computo autonómico} para enfocarnos unicamente en los sistemas de autoingenieria.
+	\item \textbf{CI2: Idioma.} Solo artículos en \textbf{Ingles} fueron incluidos para alinearnos con el lenguajes mas adoptado en la divulgación científica en el mundo.
+	\item \textbf{CI3: Disponibilidad y Claridad.} los estudios deben proveer \textbf{acceso completo} y una \textbf{metodología claramente definida} para permitir un análisis comprensivo y total de los mismo.
+	\item \textbf{CI4: Dominio especifico.} Unicamente investigaciones en el campo de la \textbf{Ingeniería de software} que aborde de manera explicita o de manera indirecta cubra lo que es el auto-diseño de una manera unificada como proceso total o parcial.
+	\item \textbf{CI5: Relevancia Científica.} Selección  de estudios que han demostrado impacto en la comunidad científica a través de las citas, mientras se busca balancear este criterio, evaluando publicaciones reciente que no tienen un acumulado de citas pero si un gran contribucion teorica o tecnica en el tema.
 \end{itemize}
 
 
-Criterios de exclusion
+Criterios de exclusión
 
-Los siguientes criterios fueron usados para filtrar articulos que no coincidian con los requerimientos de la investigacion:
+Los siguientes criterios fueron usados para filtrar artículos que no coincidan con los requerimientos de la investigación:
 
 \begin{itemize}
-	\item \textbf{CE1: Duplicasion.} \textbf{publicaciones duplicadas} o \textbf{multiples versiones} del mismo estudio; en cuyos casos, solo el mas completo o version mas reciente sera considerada.
-	\item \textbf{CE2: Tipo de Documento.} \textbf{Documentos incompletos}, \textbf{resumenes extendidos}, o \textbf{publicaciones de posters} que carecen de suficiente detalle técnico para su evaluación.
-	\item \textbf{EC3: Irrelevancia Disciplinaria.} estudios fuera del dominio de \textbf{Ingenieria de Software} sin un enlace directo al auto-diseño.
-	\item \textbf{CE4: Deficiencias Metodologicas.} estudios que carezcan de \textbf{rigor metodologico}, particularmente lo que no tienen una clara descripcion de las tecnicas propuestas, algoritmos o ceonceptos.
+	\item \textbf{CE1: Duplicación.} \textbf{publicaciones duplicadas} o \textbf{múltiples versiones} del mismo estudio; en cuyos casos, solo el mas completo o versión mas reciente sera considerada.
+	\item \textbf{CE2: Tipo de Documento.} \textbf{Documentos incompletos}, \textbf{resúmenes extendidos}, o \textbf{publicaciones de posters} que carecen de suficiente detalle técnico para su evaluación.
+	\item \textbf{EC3: Irrelevancia Disciplinaria.} estudios fuera del dominio de \textbf{Ingeniería de Software} sin un enlace directo al auto-diseño.
+	\item \textbf{CE4: Deficiencias Metodológicas.} estudios que carezcan de \textbf{rigor metodológico}, particularmente lo que no tienen una clara descripción de las tecnicas propuestas, algoritmos o ceonceptos.
 \end{itemize}
 
 
-Estos filtros (revisar Tabla~\ref{tab:criterios}) permiten la identificacion de estudios representativos y de alta calidad, centrados en avances recientes en el ambito conceptual y practicos en el area de auto-diseño y auto-ingenieria, garantizando así la validez y relevancia de esta revisión sistemática de la literatura (este capitulo en particular).
+Estos filtros (revisar Tabla~\ref{tab:criterios}) permiten la identificación de estudios representativos y de alta calidad, centrados en avances recientes en el ámbito conceptual y prácticos en el area de auto-diseño y auto-ingenieria, garantizando así la validez y relevancia de esta revisión sistemática de la literatura (este capitulo en particular).
 
 \vspace{0.5cm}
 
 \begin{table}[H]
 	\centering
-	\caption{Resumen de los criterios de inclusion y exclusion}
+	\caption{Resumen de los criterios de inclusión y exclusión}
 	\label{tab:criterios}
 	\begin{tabular}{p{0.25\textwidth} p{0.65\textwidth}}
 		\toprule
 		\textbf{Tipo} & \textbf{Criterio} \\
 		\midrule
-		\textbf{Inclusion} & \textbf{CI1:} Publicaciones entre 2015 y 2025. \\
+		\textbf{Inclusión} & \textbf{CI1:} Publicaciones entre 2015 y 2025. \\
 		& \textbf{CI2:} Publicaciones en Ingles. \\
-		& \textbf{CI3:} Disponibilidad completa con metodologia detallada.\\
-		& \textbf{CI4:} Centrado unicamete en software engineering, self-engineering, or self-design. \\
+		& \textbf{CI3:} Disponibilidad completa con metodología detallada.\\
+		& \textbf{CI4:} Centrado unicamente en software engineering, self-engineering, or self-design. \\
 		& \textbf{CI5:} Estudios relevantes con contribuciones recientes o numero de citas destacables. \\[0.2cm]
-		\textbf{Exclusion} & \textbf{CE1:} Publicaciones duplicadas o multiples versiones del mismo estudio. \\
-		& \textbf{CE2:} Resumenes, posters o documentos incompletos.\\
+		\textbf{Exclusión} & \textbf{CE1:} Publicaciones duplicadas o múltiples versiones del mismo estudio. \\
+		& \textbf{CE2:} Resúmenes, posters o documentos incompletos.\\
 		& \textbf{CE3:} Estudios fuera del dominio de los sistemas de software.\\
-		& \textbf{CE4:} Trabajos con falta de detalles en su metodologia o rigor cientifico.\\
+		& \textbf{CE4:} Trabajos con falta de detalles en su metodología o rigor científico.\\
 		\bottomrule
 	\end{tabular}
 \end{table}
 
-\subsubsection{Proceso de seleccion de estudios}
+\subsubsection{Proceso de selección de estudios}
 
-Este bloque describe como fue la seleccion de estudios siguiendo las pautas de PRISMA.
+Este bloque describe como fue la selección de estudios siguiendo las pautas de PRISMA.
 La Figura~\ref{fig:SearchProcess} ilustra el flujo general de identificación de estudios, cribado (aplicación de criterios de inclusión y exclusión), evaluación de elegibilidad (lectura del resumen y, posteriormente, del documento completo) e inclusión final. Los artículos semilla (conjunto inicial) se seleccionaron a partir de los estudios que cumplían los criterios de inclusión y obtuvieron las puntuaciones más altas en la evaluación de calidad durante la búsqueda inicial en bases de datos. Posteriormente, se identificaron estudios adicionales mediante la técnica de bola de nieve (hacia atrás y hacia adelante), siguiendo las directrices propuestas por \cite{Wohlin2014}. Este proceso iterativo consistió en examinar las listas de referencias de los artículos semilla (bola de nieve hacia atrás) e identificar los artículos que los citaban (bola de nieve hacia adelante), aplicando los mismos criterios de inclusión y exclusión en cada iteración.
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\textwidth]{figures/Fig1_Workflow.eps}
-	\caption{Review process flow chart based on PRISMA.}
+	\caption{Revisión del flujo de trabajo basado en PRISMA.}
 	\label{fig:SearchProcess}
 \end{figure}
 
-Para complementar el flujo de PRISMA, se añade una vista preelimiar a manera de cuantificar los resultados, así detallar los los estudios seleccionados por cada etapa del proceso y especificando el topico en particular. Esta representación permite comprender mejor cómo el conjunto inicial de estudios recuperados se refinó progresivamente hasta llegar a los estudios seleccionados finalmente y analizados en esta revisión. La Figura~\ref{fig:Cribado} resume este proceso mediante la especificacion explicita del umero de articulos por cada etapa de seleccion.
+Para complementar el flujo de PRISMA, se añade una vista preliminar a manera de cuantificar los resultados, así detallar los los estudios seleccionados por cada etapa del proceso y especificando el tópico en particular. Esta representación permite comprender mejor cómo el conjunto inicial de estudios recuperados se refinó progresivamente hasta llegar a los estudios seleccionados finalmente y analizados en esta revisión. La Figura~\ref{fig:Cribado} resume este proceso mediante la especificación explicita del umero de articulos por cada etapa de seleccion.
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.9\textwidth]{figures/Fig2_StudySelection.eps}
-	\caption{Proceso de seleccion de articulos con resultados cuantitativos por etapa de cribado.}
+	\caption{Proceso de selección de artículos con resultados cuantitativos por etapa de cribado.}
 	\label{fig:Cribado}
 \end{figure}
 
@@ -635,7 +635,7 @@ La extracción de datos se realizó exclusivamente a partir de los estudios que 
 \subsubsection{Resultados}
 
 \shorthandoff{"}
-Los resultados completos están en el articulo titulado "Automated Software Design Towards Zero Human Intervention: A Systematic Literature Review" que actualmente esta sometido (en proceso de validacion), pero para este trabajo se extrajeron los resultados mas importantes en el \cref{arte}. La siguiente es una síntesis de lo que fue la discusión.
+Los resultados completos están en el articulo titulado "Automated Software Design Towards Zero Human Intervention: A Systematic Literature Review" que actualmente esta sometido (en proceso de validación), pero para este trabajo se extrajeron los resultados mas importantes en el \cref{arte}. La siguiente es una síntesis de lo que fue la discusión.
 \shorthandon{"}
 
 \subsubsection{Discusión}
