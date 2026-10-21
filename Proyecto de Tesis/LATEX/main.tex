@@ -229,7 +229,7 @@ El \textbf{Capítulo 1} establece la base del estudio mediante la introducción 
 
 \chapter{Marco Teórico}\label{marco}
 
-%El Marco Teórico constituye el cimiento conceptual sobre el cual se erige esta investigación. Su propósito fundamental es articular las teorías, paradigmas y modelos previos que otorgan validez científica a la problemática planteada, sirviendo como mapa orientador para el desarrollo de la propuesta.
+El Marco Teórico constituye el cimiento conceptual sobre el cual se erige esta investigación. Su propósito fundamental es articular las teorías, paradigmas y modelos previos que otorgan validez científica a la problemática planteada, sirviendo como mapa orientador para el desarrollo de la propuesta.
 
 \section{Sistemas de Auto-Ingeniería}
 %\cite perez
@@ -269,23 +269,34 @@ A diferencia de la ingeniería tradicional donde un arquitecto humano toma la de
 \subsection{Gestión de Cambios de Requerimientos / Requirements Change Management (RCM)}
 
 
-Estructura de requerimientos funcionales: Se dividen en dos componentes principales: \textbf{Funcionalidad} (las acciones principales expresadas en verbos) y \textbf{Configuración} (parámetros de tiempo, modo o condición). En los requerimientos no funcionales, las métricas y parámetros se tratan como componentes de configuración.
-Impacto según el componente:
-Si el cambio ocurre solo en la configuración, el sistema lo absorbe dentro de sus fases de O\&M y evolución.
-Si el cambio afecta la funcionalidad o genera un impacto en la arquitectura que la actual no soporta, se provoca una metamorfosis.
-Proceso RCM adaptado para SES (basado en \cite{sommerville2011software}):
+%Estructura de requerimientos funcionales: Se dividen en dos componentes principales: \textbf{Funcionalidad} (las acciones principales expresadas en verbos) y \textbf{Configuración} (parámetros de tiempo, modo o condición). En los requerimientos no funcionales, las métricas y parámetros se tratan como componentes de configuración.
+%Impacto según el componente:
+%Si el cambio ocurre solo en la configuración, el sistema lo absorbe dentro de sus fases de O\&M y evolución.
+%Si el cambio afecta la funcionalidad o genera un impacto en la arquitectura que la actual no soporta, se provoca una metamorfosis.
+%Proceso RCM adaptado para SES (basado en \cite{sommerville2011software}):
+
+
+La estructura de requerimientos funcionales se divide en dos componentes principales, como se menciona a continuación. Se ha determinado que la funcionalidad se manifiesta a través de las acciones principales, expresadas en verbos, y la configuración. (parámetros de tiempo, modo o condición). En lo que respecta a los requerimientos no funcionales, las métricas y los parámetros se tratan como componentes de configuración.
+El impacto se distribuye en función del componente.
+En el caso de que el cambio se produzca únicamente en la configuración, el sistema lo asimila dentro de sus fases de O\&M (Mantenimiento y Operación) y evolución.
+En el caso de que el cambio suponga una afectación a la funcionalidad o bien genere un impacto en la arquitectura que la actual no soporte, se provoca una metamorfosis.
+El procedimiento RCM, adaptado para SES (basado en \cite{sommerville2011software}), se presenta de la siguiente manera:
+
 \begin{itemize}
 	\item  \textit{Especificación del Cambio}: Recepción y validación de la solicitud de cambio.
 	\item  \textit{Análisis del Cambio}: Evaluación de la elasticidad del sistema para determinar si el cambio produce una nueva versión o si se alcanzó el Breaking Point.
 	\item  \textit{Implementación del Cambio}: Si la arquitectura lo soporta, el sistema evoluciona a una nueva versión; si no lo soporta, se inicia un nuevo proceso de Auto-Ingeniería dando lugar a un nuevo sistema (metamorfosis).
 \end{itemize}
 
+En el presente estudio se aborda la especificación del cambio, un aspecto de vital importancia en el ámbito de la gestión de procesos administrativos. En este sentido, se ha observado que la recepción y validación de la solicitud de cambio constituye un elemento fundamental en el proceso de implementación de modificaciones en los sistemas organizativos.
+Así mismo el análisis del cambio, para lo cual se ha llevado a cabo una evaluación de la elasticidad del sistema. Dicha evaluación tiene por objetivo determinar si el cambio produce una nueva versión o si se ha alcanzado el punto de inflexión.
+En el ámbito de la tecnología y la innovación, la implementación del cambio se erige como un factor determinante en la evolución de los sistemas de software. En este sentido, si la arquitectura del sistema es capaz de soportar las modificaciones, entonces se procede a la actualización a una nueva versión. Por el contrario, si la arquitectura no es capaz de soportar las modificaciones, se inicia un nuevo proceso de ingeniería automática que da lugar a la creación de un nuevo sistema, lo que se conoce como metamorfosis.
+
+
 
 \subsection{Meta-Arquitectura del Marco de Sistemas de Auto-Ingeniería}
 
-Los SES cuentan con el ether, el centro de operación de estos sistemas, recordando el hecho de la existencia de dos momentos clave, la evolución y la metamorfosis, Un sistema SES busca gestionar y ejecutar su propio proceso de ingeniería mas allá de su ciclo de vida convencional, prescindiendo de la intervención humana. el ether se encarga de primeramente el mantenimiento el cual es corregir errores y defectos, 
-
-Los SES manejan la evolución como una fase independiente a la de operación y mantenimiento en el ciclo de vida del software, los mantenimientos correctivos, preventivos, adaptativos, aditivos y de mejora \cite{ISOIEEE} pueden dar lugar a la fase de evolución.
+Un Sistema de Auto-Ingeniería (\textit{SES}) se define por su capacidad para gestionar y llevar a cabo de manera autónoma su propio proceso de ingeniería a lo largo de su ciclo de vida y durante la trascendencia del mismo \cite{PerezCarrillo2026}. El núcleo operacional de este paradigma se fundamenta en la Meta-Arquitectura de Referencia, denominada \textit{Ether}, una abstracción estructural que permanece persistente por encima de la arquitectura central del sistema y se conserva a lo largo de las transiciones entre sucesivas versiones del mismo (incluyendo nuevos sistemas) \cite{PerezCarrillo2026}. Cabe señalar que las capacidades de gestión, evolución y metamorfosis abordadas en las secciones previas son orquestadas operacionalmente por el propio \textit{Ether}.
 
 
 \section{Actividades de diseño}
@@ -319,12 +330,13 @@ Esta parte funciona para modelar todas la estructuras de datos que se usaran en 
 
 
 \subsection{Diseño de Algoritmos}
+MEJORAR
 Esta es la actividad en la que indagaremos, se encarga del diseño de algoritmos, según la necesidad, eficiencia y eficacia de lo que necesitemos resolver.
 
 
 %\section{Diseño Automatizado de Algoritmos}
 
-\section{Sistemas multiagentes MAS}
+\section{Sistemas multiagentes (MAS)}
 Los sistemas multiagentes abordan un paradigma donde cada agente puede ser de distinto tipo, reactivos, BDI, basados en lógica, basados en planeación, basados en utilidad, basados en aprendizajes, de pizarra negra, basados en mercado, o híbridos mezclando características entre los mismos.
 \subsection{Fundamentos y arquitecturas de los Sistemas Multiagentes}
 Un agente se puede caracterizar por cualquier elemento que tenga una función.
@@ -342,19 +354,19 @@ Como tal el contexto dado al LLM rige que puede dar como salida, en el caso de l
 Existen varios contras de los LLM, el primero con las alucinaciones, el segundo es la falta de contexto,  esto puedo derivar en malas respuestas, conocidas como alucinaciones, supongamos que si o si los LLM generan una respuesta entonces retornan lo mas "cercano" a la respuesta correcta según su entrenamiento y el contexto dado, por eso aveces aunque no sea una respuesta correcta, contestan algo aproximado y aveces si es que su modelo no tiene información relevante, si divaga y contesta algo que no tiene nada en común, eso es una alucinación, ahora bien en ventanas de contexto, tenemos 2 tipos, de entrenamiento y de tokens, los tokens son los valores dados a ciertas cadenas de texto, estas nos permiten dar importancia a lo escrito, por ejemplo la mujer tiene el pelo verde, con tres palabras relevantes podemos sacar lo mas valioso del la frase, mujer, pelo y verde, con eso sabemos que es lo que queremos comunicar.
 
 \section{Árbol de búsqueda de Monte-Carlo (MCTS)}
-Un Monte Carlo Tree Search, (MCTS) es un algoritmo de búsqueda y toma de decisiones que construye un árbol de forma incremental usando simulaciones aleatorias para evaluar opciones y elegir la acción más prometedora, cada nodo es un estado o configuraciones de un problema y las aristas son transiciones (acciones) de nodo a nodo \cite{mctswiechowski2022}.
+Un Monte Carlo Tree Search, (MCTS) es un algoritmo de búsqueda y toma de decisiones que construye un árbol de forma incremental mediante simulaciones estocásticas para evaluar opciones y elegir la acción más prometedora, cada nodo es un estado o configuraciones de un problema y las aristas son transiciones (acciones) de nodo a nodo \cite{mctswiechowski2022}.
 
-Suele repetirse en cuatro fases: selección, expansión, simulación y propagación hacia atrás (retropropagacion). 
+El ciclo iterativo consta de cuatro fases: selección, expansión, simulación y propagación hacia atrás (retropropagacion). 
 
 \begin{itemize}
 
-\item \textbf{Selección}: se baja por el árbol eligiendo nodos “buenos” según una regla como UCB/UCT, que equilibra exploración y explotación. 
+\item \textbf{Selección}: Se navega por el árbol desde la raíz hasta un nodo hoja, eligiendo nodos “buenos”, estos nodos se etiquetan así al equilibrar dinámicamente dos objetivos: la \textit{explotación} (favorecer estados con un historial de alto rendimiento o recompensa acumulada) y la \textit{exploración} (visitar estados poco explorados para reducir la incertidumbre y evitar mínimos locales).
 
-\item \textbf{Expansión}: se añade uno o más nodos hijos para representar nuevas acciones posibles. 
+\item \textbf{Expansión}: A partir del nodo hoja seleccionado, se añade uno o más nodos hijos para incorporar nuevas acciones  (permitidas y viables) del espacio de búsqueda que aún no han sido exploradas en el árbol.
 
-\item \textbf{Simulación}: se hacen jugadas o recorridos aleatorios (o guiados) desde ese nodo para estimar su valor. 
+\item \textbf{Simulación}: Se realiza un recorrido (frecuentemente aleatorio o guiado por heurísticas) desde el nodo recién expandido hasta alcanzar un estado terminal, lo que permite obtener una estimación empírica del valor del estado. 
 
-\item \textbf{Retropropagacion}: el resultado de la simulación se propaga hacia arriba para actualizar visitas y valores de los nodos anteriores.
+\item \textbf{Retropropagacion}: El resultado de la simulación se propaga de forma ascendente desde el nodo evaluado hasta la raíz, actualizando las estadísticas de todos los nodos visitados en esa iteración (incrementando su contador de visitas y ajustando su valor acumulado o promedio).
 
 \end{itemize}
 

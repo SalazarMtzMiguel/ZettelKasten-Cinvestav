@@ -491,8 +491,8 @@
       \strng{authornamehash}{c870bd896795848331f11a87a348dc63}
       \strng{authorfullhash}{c870bd896795848331f11a87a348dc63}
       \strng{authorfullhashraw}{c870bd896795848331f11a87a348dc63}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2542-6605}
@@ -1055,8 +1055,8 @@
       \strng{authornamehash}{72b8a308387b4ac51d6ea6839b6bb994}
       \strng{authorfullhash}{72b8a308387b4ac51d6ea6839b6bb994}
       \strng{authorfullhashraw}{72b8a308387b4ac51d6ea6839b6bb994}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2025 40th IEEE/ACM International Conference on Automated Software Engineering Workshops (ASEW)}
@@ -1530,7 +1530,6 @@
       \range{pages}{29}
     \endentry
   \enddatalist
-  \missing{ISOIEEE}
   \missing{ZhangYiranKnowledge}
 \endrefsection
 \endinput
