@@ -29,33 +29,33 @@
 \contentsline {section}{\numberline {2.3}Sistemas multiagentes MAS}{9}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Fundamentos y arquitecturas de los Sistemas Multiagentes}{9}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}Tipología cognitiva de agentes: Modelos de caja negra (puramente estadísticos/reactivos ) vs. Modelos de caja gris (híbridos o neuro-simbólicos)}{9}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Paradigmas de coordinación y comunicación inter-agente}{9}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.3}Paradigmas de coordinación y comunicación ínter-agente}{9}{subsection.2.3.3}%
 \contentsline {section}{\numberline {2.4}Modelos grande de lenguaje (LLM)}{9}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}Principios de inferencia y generación de texto en modelos de lenguaje}{9}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}Capacidades de los LLMs en la comprensión, diseño y generación de código}{10}{subsection.2.4.2}%
 \contentsline {subsection}{\numberline {2.4.3}Limitaciones actuales: Alucinaciones, ventanas de contexto y deficiencias en el razonamiento algorítmico determinista}{10}{subsection.2.4.3}%
-\contentsline {section}{\numberline {2.5}Arbol de busqueda de Monte-Carlo (MCTS)}{10}{section.2.5}%
+\contentsline {section}{\numberline {2.5}Árbol de búsqueda de Monte-Carlo (MCTS)}{10}{section.2.5}%
 \contentsline {subsection}{\numberline {2.5.1}Espacios de búsqueda y métodos de toma de decisiones secuenciales}{11}{subsection.2.5.1}%
 \contentsline {subsection}{\numberline {2.5.2}Fases algorítmicas del MCTS}{11}{subsection.2.5.2}%
-\contentsline {section}{\numberline {2.6}Ontología como representacion de conocimiento}{11}{section.2.6}%
+\contentsline {section}{\numberline {2.6}Ontología como representación de conocimiento}{11}{section.2.6}%
 \contentsline {subsection}{\numberline {2.6.1}Definición y estructura de las ontologías computacionales (clases, atributos, relaciones)}{11}{subsection.2.6.1}%
 \contentsline {subsection}{\numberline {2.6.2}Lenguajes de modelado ontológico}{11}{subsection.2.6.2}%
 \contentsline {subsection}{\numberline {2.6.3}Modelado semántico para la taxonomía y clasificación de problemas algorítmicos}{12}{subsection.2.6.3}%
 \contentsline {chapter}{\numberline {3}Estado del Arte}{13}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Conceptualización del Auto-Diseño}{13}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Automatización del Diseño}{14}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Autodiseño basado en Inteligencia Artificial y Aprendizaje}{14}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.1}Auto-diseño basado en Inteligencia Artificial y Aprendizaje}{14}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Autodiseño bio-inspirado, de reúso y búsqueda}{15}{subsection.3.2.2}%
 \contentsline {subsection}{\numberline {3.2.3}Autodiseño basado en modelado de agentes}{15}{subsection.3.2.3}%
-\contentsline {section}{\numberline {3.3}Conceptos Emergentes y Mecanismos de Control en Auto-Diseño}{15}{section.3.3}%
+\contentsline {section}{\numberline {3.3}Conceptos Emergentes y Mecanismos de Control en Autodiseño}{15}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Comparación de Trabajos}{16}{section.3.4}%
 \contentsline {chapter}{\numberline {4}Propuesta}{17}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Metodologia}{17}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Revision Sistematica de literatura}{17}{subsection.4.1.1}%
+\contentsline {section}{\numberline {4.1}Metodología}{17}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Revisión Sistemática de literatura}{17}{subsection.4.1.1}%
 \contentsline {subsubsection}{\numberline {4.1.1.1}Formulación preguntas de investigación}{17}{subsubsection.4.1.1.1}%
-\contentsline {subsubsection}{\numberline {4.1.1.2}Estrategia de busqueda}{18}{subsubsection.4.1.1.2}%
-\contentsline {subsubsection}{\numberline {4.1.1.3}Criterios de Inclusion y de exclusion}{22}{subsubsection.4.1.1.3}%
-\contentsline {subsubsection}{\numberline {4.1.1.4}Proceso de seleccion de estudios}{24}{subsubsection.4.1.1.4}%
+\contentsline {subsubsection}{\numberline {4.1.1.2}Estrategia de búsqueda}{18}{subsubsection.4.1.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.1.3}Criterios de Inclusión y de exclusión}{22}{subsubsection.4.1.1.3}%
+\contentsline {subsubsection}{\numberline {4.1.1.4}Proceso de selección de estudios}{24}{subsubsection.4.1.1.4}%
 \contentsline {subsubsection}{\numberline {4.1.1.5}Extracción de datos}{26}{subsubsection.4.1.1.5}%
 \contentsline {subsubsection}{\numberline {4.1.1.6}Resultados}{27}{subsubsection.4.1.1.6}%
 \contentsline {subsubsection}{\numberline {4.1.1.7}Discusión}{27}{subsubsection.4.1.1.7}%
