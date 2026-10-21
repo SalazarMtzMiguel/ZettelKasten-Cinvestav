@@ -234,11 +234,11 @@ El \textbf{Capítulo 1} establece la base del estudio mediante la introducción 
 \section{Sistemas de Auto-Ingeniería}
 %\cite perez
 En \cite{perez2024} se aborda el hecho de que los mismos sistemas no terminen en desecho si no, que sin intervención humana continúen su operación mediante la evolucionando o en su defecto sufran una metamorfosis dando pie a un nuevo sistema, esta perspectiva se conoce como el marco de los sistemas de auto-ingeniería.
-Los SES contemplan un proceso muy similar a la ingeniería de software tradicional, es decir, las actividades como lo son ingeniería de requerimientos, diseño, implementación, pruebas, etc.\cite{sommerville2011software} tienen lugar en este marco de trabajo. Para este trabajo unicamente nos enfocamos en el diseño del software \cite{swebok2014}, esto quiere decir que nos vamos a dedicar a entregar artefactos de diseño, nuestros planos del sistema antes de implementar en código.
+Los SES contemplan un proceso muy similar a la ingeniería de software tradicional, es decir, las actividades como lo son ingeniería de requerimientos, diseño, implementación, pruebas, etc.\cite{sommerville2011software} tienen lugar en este marco de trabajo. Este trabajo unicamente esta enfocado en el diseño del software automatizado, basado en lineamientos presentes en \cite{swebok2014}. Por lo tanto el foco de este manuscrito esta puesto en la producción de artefactos de diseño, que fungen como planos del sistema antes de implementación en código.
 
 La teoría SES introduce conceptos que permiten identificar fases y actividades dentro de la vida de estos sistemas \cite{PerezCarrillo2026}:
 
-\subsubsection{Fases de Operación y Mantenimiento (O \& M) y Evolución}
+\subsection{Fases de Operación y Mantenimiento (O \& M) y Evolución}
 A diferencia de la literatura tradicional que debate si el mantenimiento es un subconjunto de la evolución o viceversa, el marco SES establece las fases de Operación y Mantenimiento (O\&M) y Evolución como fases independientes.
 \begin{itemize}
 	\item Fase de O\&M: Se ejecutan mantenimientos correctivos, preventivos, adaptativos, aditivos y de mejora.
@@ -246,18 +246,18 @@ A diferencia de la literatura tradicional que debate si el mantenimiento es un s
 	\item 	Evolución por Mantenimiento: Se genera cuando los mantenimientos adaptativos, aditivos o perfectivos provocan cambios en los requerimientos.
 	\item Evolución por Cambio de Problema: Ocurre cuando cambia el problema que el sistema busca resolver, siempre y cuando la arquitectura actual sea capaz de soportar dichos cambios.
 \end{itemize}
-\subsubsection{Actividades de Self-O \& M y Self-Evolution}
+\subsection{Actividades de Self-O \& M y Self-Evolution}
 Son las actividades fundamentales que el sistema ejecuta de manera autónoma tras su despliegue dentro de las fases de O\&M y Evolución, respectivamente.
-\subsubsection{Punto de Quiebre / Breaking Point}
+\subsection{Punto de Quiebre / Breaking Point}
 Representa el umbral en el cual la arquitectura original del sistema ya no puede satisfacer los nuevos requerimientos.
 Al alcanzar el \textbf{Breaking Point}, se suspenden las actividades de Self-O\&M y Self-Evolution, desencadenando el inicio de un nuevo proceso e inicio de ciclo de vida de ingeniería.
-\subsubsection{Elasticidad del Sistema / System Elasticity}
+\subsection{Elasticidad del Sistema / System Elasticity}
 Fundamentada en los conceptos de evolucionabilidad (evolvability) y resiliencia.
 Se define como la capacidad del sistema para asimilar requerimientos nuevos o modificados sin la necesidad de construir un nuevo sistema.
-\subsubsection{Metamorfosis / Metamorphosis}
+\subsection{Metamorfosis / Metamorphosis}
 
 Es la fase fundamental del paradigma SES, definida como la \textbf{trascendencia del sistema original (Sistema A) hacia un nuevo sistema (Sistema B)} mediante un nuevo proceso de Auto-Ingeniería tras alcanzar un punto de ruptura.
-Involucra la ejecución coordinada de las actividades SES \textit{Self-*: *Self-Requirements, Self-Design, Self-Implementation, Self-Testing* y *Self-Deployment.}
+Involucra la ejecución coordinada de las actividades SES \textit{Self-*: Self-Requirements, Self-Design, Self-Implementation, Self-Testing* y Self-Deployment.}
 
 Se desencadena bajo dos condiciones principales:
 \begin{itemize}
@@ -266,7 +266,7 @@ Se desencadena bajo dos condiciones principales:
 \end{itemize}
 A diferencia de la ingeniería tradicional donde un arquitecto humano toma la decisión, en el marco SES el propio sistema toma la decisión de manera autónoma.
 
-\subsubsection{Gestión de Cambios de Requerimientos / Requirements Change Management (RCM)}
+\subsection{Gestión de Cambios de Requerimientos / Requirements Change Management (RCM)}
 
 
 Estructura de requerimientos funcionales: Se dividen en dos componentes principales: \textbf{Funcionalidad} (las acciones principales expresadas en verbos) y \textbf{Configuración} (parámetros de tiempo, modo o condición). En los requerimientos no funcionales, las métricas y parámetros se tratan como componentes de configuración.

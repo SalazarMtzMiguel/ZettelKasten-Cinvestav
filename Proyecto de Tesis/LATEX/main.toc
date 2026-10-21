@@ -13,13 +13,13 @@
 \contentsline {section}{\numberline {1.5}Estructura del documento de la Tesis}{4}{section.1.5}%
 \contentsline {chapter}{\numberline {2}Marco Teórico}{5}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Sistemas de Auto-Ingeniería}{5}{section.2.1}%
-\contentsline {subsubsection}{\numberline {2.1.0.1}Fases de Operación y Mantenimiento (O \& M) y Evolución}{5}{subsubsection.2.1.0.1}%
-\contentsline {subsubsection}{\numberline {2.1.0.2}Actividades de Self-O \& M y Self-Evolution}{6}{subsubsection.2.1.0.2}%
-\contentsline {subsubsection}{\numberline {2.1.0.3}Punto de Quiebre / Breaking Point}{6}{subsubsection.2.1.0.3}%
-\contentsline {subsubsection}{\numberline {2.1.0.4}Elasticidad del Sistema / System Elasticity}{6}{subsubsection.2.1.0.4}%
-\contentsline {subsubsection}{\numberline {2.1.0.5}Metamorfosis / Metamorphosis}{6}{subsubsection.2.1.0.5}%
-\contentsline {subsubsection}{\numberline {2.1.0.6}Gestión de Cambios de Requerimientos / Requirements Change Management (RCM)}{7}{subsubsection.2.1.0.6}%
-\contentsline {subsection}{\numberline {2.1.1}Meta-Arquitectura del Marco de Sistemas de Auto-Ingeniería}{7}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.1}Fases de Operación y Mantenimiento (O \& M) y Evolución}{5}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Actividades de Self-O \& M y Self-Evolution}{6}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Punto de Quiebre / Breaking Point}{6}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Elasticidad del Sistema / System Elasticity}{6}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.5}Metamorfosis / Metamorphosis}{6}{subsection.2.1.5}%
+\contentsline {subsection}{\numberline {2.1.6}Gestión de Cambios de Requerimientos / Requirements Change Management (RCM)}{7}{subsection.2.1.6}%
+\contentsline {subsection}{\numberline {2.1.7}Meta-Arquitectura del Marco de Sistemas de Auto-Ingeniería}{7}{subsection.2.1.7}%
 \contentsline {section}{\numberline {2.2}Actividades de diseño}{8}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Diseño de Arquitectura}{8}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Diseño de Interfaces}{8}{subsection.2.2.2}%
