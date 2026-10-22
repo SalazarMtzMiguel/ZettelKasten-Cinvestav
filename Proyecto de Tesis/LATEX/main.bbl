@@ -72,6 +72,70 @@
       \endverb
       \keyw{Technical debt,Financial debt,Financial terms,Systematic literature review}
     \endentry
+    \entry{contemporanysoftware2025wesley}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=5d5b30714e1b81710cdef0de36cb2294}{%
+           family={Assunção},
+           familyi={A\bibinitperiod},
+           given={Wesley\bibnamedelimb K.\bibnamedelimi G.},
+           giveni={W\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=17a9cab418d3abdde6fe1c10823a6e38}{%
+           family={Marchezan},
+           familyi={M\bibinitperiod},
+           given={Luciano},
+           giveni={L\bibinitperiod}}}%
+        {{hash=317b3a4d107afa446a076da64c813996}{%
+           family={Arkoh},
+           familyi={A\bibinitperiod},
+           given={Lawrence},
+           giveni={L\bibinitperiod}}}%
+        {{hash=e159f67af158c58452c236c3a75df00b}{%
+           family={Egyed},
+           familyi={E\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7c3eb1f950e5cb675b406043ff30cb77}{%
+           family={Ramler},
+           familyi={R\bibinitperiod},
+           given={Rudolf},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{559eea0e6a11001bfc1643657ad3fa58}
+      \strng{fullhash}{2b292918f42448dafd3be930f3cfbfd4}
+      \strng{fullhashraw}{2b292918f42448dafd3be930f3cfbfd4}
+      \strng{bibnamehash}{2b292918f42448dafd3be930f3cfbfd4}
+      \strng{authorbibnamehash}{2b292918f42448dafd3be930f3cfbfd4}
+      \strng{authornamehash}{559eea0e6a11001bfc1643657ad3fa58}
+      \strng{authorfullhash}{2b292918f42448dafd3be930f3cfbfd4}
+      \strng{authorfullhashraw}{2b292918f42448dafd3be930f3cfbfd4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1049-331X}
+      \field{journaltitle}{ACM Trans. Softw. Eng. Methodol.}
+      \field{month}{5}
+      \field{number}{5}
+      \field{title}{Contemporary Software Modernization: Strategies, Driving Forces, and Research Opportunities}
+      \field{volume}{34}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.1145/3708527
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/3708527
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/3708527
+      \endverb
+      \keyw{Software Evolution,Software Migration,Re-designing,Re-engineering}
+    \endentry
     \entry{perez2024}{thesis}{}{}
       \name{author}{1}{}{%
         {{hash=67eb3fae0a519f2fc153a0b75a1ae068}{%
@@ -94,14 +158,62 @@
       \strng{authornamehash}{67eb3fae0a519f2fc153a0b75a1ae068}
       \strng{authorfullhash}{67eb3fae0a519f2fc153a0b75a1ae068}
       \strng{authorfullhashraw}{67eb3fae0a519f2fc153a0b75a1ae068}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{8}
       \field{title}{Nuevo Marco Conceptual de Sistemas de Autoingeniería y una Arquitectura para la Gestión de su Ciclo de Vida}
       \field{type}{Tesis de Maestría en Ciencias}
       \field{year}{2024}
+    \endentry
+    \entry{PerezCarrillo2026}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=a27853a76e4fb1218d35e41ce33aa4d7}{%
+           family={Pérez-Carrillo},
+           familyi={P\bibinithyphendelim C\bibinitperiod},
+           given={Giovana},
+           giveni={G\bibinitperiod}}}%
+        {{hash=09ecdbe11b3bc22c366453cdc7dcffa4}{%
+           family={Siller},
+           familyi={S\bibinitperiod},
+           given={Mario},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e45ae1b9399615d08411b9d56b079747}{%
+           family={Alonso},
+           familyi={A\bibinitperiod},
+           given={Luis},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{960f38df80a37a2254c836211b105f6f}
+      \strng{fullhash}{1ed3a3b45f1b9a65350f95b167c384ac}
+      \strng{fullhashraw}{1ed3a3b45f1b9a65350f95b167c384ac}
+      \strng{bibnamehash}{1ed3a3b45f1b9a65350f95b167c384ac}
+      \strng{authorbibnamehash}{1ed3a3b45f1b9a65350f95b167c384ac}
+      \strng{authornamehash}{960f38df80a37a2254c836211b105f6f}
+      \strng{authorfullhash}{1ed3a3b45f1b9a65350f95b167c384ac}
+      \strng{authorfullhashraw}{1ed3a3b45f1b9a65350f95b167c384ac}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Automated Software Engineering}
+      \field{month}{5}
+      \field{title}{Self-Engineering Systems: A New Conceptual Framework and a Reference Meta-Architecture for its Life Cycle Management}
+      \field{year}{2026}
+      \verb{doi}
+      \verb 10.21203/rs.3.rs-9577141/v1
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.21203/rs.3.rs-9577141/v1
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.21203/rs.3.rs-9577141/v1
+      \endverb
     \endentry
     \entry{swebok2014}{book}{}{}
       \name{author}{1}{}{%
@@ -123,8 +235,8 @@
       \strng{authornamehash}{6b600542ba3d4a21aea8e7d8ee988932}
       \strng{authorfullhash}{6b600542ba3d4a21aea8e7d8ee988932}
       \strng{authorfullhashraw}{6b600542ba3d4a21aea8e7d8ee988932}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{4}
@@ -167,8 +279,8 @@
       \strng{authornamehash}{215a727ef73d16ae67c17e6755dd0fce}
       \strng{authorfullhash}{0624e984d271c90fca5df4ed816c49c7}
       \strng{authorfullhashraw}{0624e984d271c90fca5df4ed816c49c7}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Handbook of Engineering Systems Design}
@@ -216,8 +328,8 @@
       \strng{authornamehash}{708cc2de2940d31103a46bf5e9cf9de6}
       \strng{authorfullhash}{8a9bb17ed3fad0fdae64f6e65cddcdeb}
       \strng{authorfullhashraw}{8a9bb17ed3fad0fdae64f6e65cddcdeb}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{9783319223988}
@@ -249,8 +361,8 @@
       \strng{authornamehash}{dca64ceea72185cf29648fc367546339}
       \strng{authorfullhash}{dca64ceea72185cf29648fc367546339}
       \strng{authorfullhashraw}{dca64ceea72185cf29648fc367546339}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Softw.}
@@ -289,8 +401,8 @@
       \strng{authornamehash}{daaeb7670772db8a47b015a37e6672bc}
       \strng{authorfullhash}{21253d0e49e6fb0aca5bd5f0a246452c}
       \strng{authorfullhashraw}{21253d0e49e6fb0aca5bd5f0a246452c}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{cs.SE}
@@ -337,54 +449,6 @@
       \field{isbn}{978-0-13-703515-1}
       \field{title}{Software Engineering}
       \field{year}{2011}
-    \endentry
-    \entry{PerezCarrillo2026}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=a27853a76e4fb1218d35e41ce33aa4d7}{%
-           family={Pérez-Carrillo},
-           familyi={P\bibinithyphendelim C\bibinitperiod},
-           given={Giovana},
-           giveni={G\bibinitperiod}}}%
-        {{hash=09ecdbe11b3bc22c366453cdc7dcffa4}{%
-           family={Siller},
-           familyi={S\bibinitperiod},
-           given={Mario},
-           giveni={M\bibinitperiod}}}%
-        {{hash=e45ae1b9399615d08411b9d56b079747}{%
-           family={Alonso},
-           familyi={A\bibinitperiod},
-           given={Luis},
-           giveni={L\bibinitperiod}}}%
-      }
-      \list{publisher}{2}{%
-        {Springer Science}%
-        {Business Media LLC}%
-      }
-      \strng{namehash}{960f38df80a37a2254c836211b105f6f}
-      \strng{fullhash}{1ed3a3b45f1b9a65350f95b167c384ac}
-      \strng{fullhashraw}{1ed3a3b45f1b9a65350f95b167c384ac}
-      \strng{bibnamehash}{1ed3a3b45f1b9a65350f95b167c384ac}
-      \strng{authorbibnamehash}{1ed3a3b45f1b9a65350f95b167c384ac}
-      \strng{authornamehash}{960f38df80a37a2254c836211b105f6f}
-      \strng{authorfullhash}{1ed3a3b45f1b9a65350f95b167c384ac}
-      \strng{authorfullhashraw}{1ed3a3b45f1b9a65350f95b167c384ac}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Automated Software Engineering}
-      \field{month}{5}
-      \field{title}{Self-Engineering Systems: A New Conceptual Framework and a Reference Meta-Architecture for its Life Cycle Management}
-      \field{year}{2026}
-      \verb{doi}
-      \verb 10.21203/rs.3.rs-9577141/v1
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.21203/rs.3.rs-9577141/v1
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.21203/rs.3.rs-9577141/v1
-      \endverb
     \endentry
     \entry{mctswiechowski2022}{article}{}{}
       \name{author}{4}{}{%
@@ -472,8 +536,8 @@
       \strng{authornamehash}{6c3c7597845804f3adc7cf5bb612d6c3}
       \strng{authorfullhash}{991a5696e889a30328c95db9f6b06457}
       \strng{authorfullhashraw}{991a5696e889a30328c95db9f6b06457}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Handbook on Ontologies}
@@ -514,8 +578,8 @@
       \strng{authornamehash}{b2571093a9f15851cd9f4d13da420046}
       \strng{authorfullhash}{b2571093a9f15851cd9f4d13da420046}
       \strng{authorfullhashraw}{b2571093a9f15851cd9f4d13da420046}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{2}
@@ -1021,8 +1085,8 @@
       \strng{authornamehash}{80e7949b2261f334d6647799cc22b912}
       \strng{authorfullhash}{5e5d3967096f6cd707aecc76528cd3a4}
       \strng{authorfullhashraw}{5e5d3967096f6cd707aecc76528cd3a4}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0020-0255}
@@ -1068,8 +1132,8 @@
       \strng{authornamehash}{c6631f904e98465a8d4a8f597678ee9a}
       \strng{authorfullhash}{c6631f904e98465a8d4a8f597678ee9a}
       \strng{authorfullhashraw}{c6631f904e98465a8d4a8f597678ee9a}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1573-7535}
@@ -1572,8 +1636,8 @@
       \strng{authornamehash}{d5830bcdf6f73a053bcb3b866de251a6}
       \strng{authorfullhash}{d5830bcdf6f73a053bcb3b866de251a6}
       \strng{authorfullhashraw}{d5830bcdf6f73a053bcb3b866de251a6}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Agent-oriented methodologies}
