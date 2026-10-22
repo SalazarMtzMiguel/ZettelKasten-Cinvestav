@@ -21,13 +21,13 @@
 \contentsline {subsection}{\numberline {2.1.6}Gestión de Cambios de Requerimientos / Requirements Change Management (RCM)}{7}{subsection.2.1.6}%
 \contentsline {subsection}{\numberline {2.1.7}Meta-Arquitectura del Marco de Sistemas de Auto-Ingeniería}{8}{subsection.2.1.7}%
 \contentsline {section}{\numberline {2.2}Actividades de diseño}{8}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Diseño de Arquitectura}{8}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.1}Diseño de Arquitectura}{9}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Diseño de Interfaces}{9}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3}Diseño de Componentes}{9}{subsection.2.2.3}%
 \contentsline {subsection}{\numberline {2.2.4}Diseño de Estructuras de datos}{9}{subsection.2.2.4}%
 \contentsline {subsection}{\numberline {2.2.5}Diseño de Algoritmos}{9}{subsection.2.2.5}%
 \contentsline {section}{\numberline {2.3}Sistemas multiagentes (MAS)}{9}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Fundamentos y arquitecturas de los Sistemas Multiagentes}{9}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.1}Fundamentos y arquitecturas de los Sistemas Multiagentes}{10}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}Tipología cognitiva de agentes: Modelos de caja negra (puramente estadísticos/reactivos ) vs. Modelos de caja gris (híbridos o neuro-simbólicos)}{10}{subsection.2.3.2}%
 \contentsline {subsection}{\numberline {2.3.3}Paradigmas de coordinación y comunicación ínter-agente}{10}{subsection.2.3.3}%
 \contentsline {section}{\numberline {2.4}Modelos grande de lenguaje (LLM)}{10}{section.2.4}%
@@ -85,5 +85,4 @@
 \contentsline {section}{\numberline {6.1}Conclusiones}{45}{section.6.1}%
 \contentsline {section}{\numberline {6.2}Objetivos logrados}{46}{section.6.2}%
 \contentsline {section}{\numberline {6.3}Trabajo a futuro}{46}{section.6.3}%
-\contentsline {chapter}{Referencias Bibliográficas}{47}{chapter*.15}%
-\contentsline {chapter}{\numberline {A}Código Fuente Relevante}{51}{appendix.A}%
+\contentsline {chapter}{\numberline {A}Código Fuente Relevante}{47}{appendix.A}%
