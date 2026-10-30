@@ -174,40 +174,68 @@ Muchas Gracias a todos.
 % Por ahora, incluyo los capítulos aquí mismo para que sea una plantilla rápida.
 
 \chapter{Introducción}\label{introduccion}
-El desarrollo de sistemas de software contemporáneos está intrínsecamente ligado a la evolución de la Ingeniería de Software. A lo largo de las últimas décadas, se ha evidenciado que las actividades de mantenimiento, actualización y evolución de artefactos de software representan una etapa con alto coste en términos de capital humano, tiempo de desarrollo y recursos financieros \cite{thefinancial2015Areti}\cite{contemporanysoftware2025wesley}. Para mitigar esta dependencia, la teoría de los Sistemas de Auto-Ingeniería (\textit{Self-Engineering Systems} - SES) introduce un marco conceptual y una meta-arquitectura que habilitan a los sistemas de software para ejecutar modificaciones autónomas sobre sí mismos, abriendo la posibilidad de realizar procesos de auto-evolución o metamorfosis \cite{perez2024}. \textbf{El propósito fundamental de un sistema SES es gestionar y ejecutar su propio proceso de ingeniería más allá de su ciclo de vida convencional, prescindiendo de la intervención humana.}\cite{PerezCarrillo2026}
-El ciclo de vida del software comprende el marco integral de evolución del sistema desde su concepción hasta su retiro, estructurado formalmente a través de procesos técnicos que abarcan el análisis de negocio o misión, la definición de necesidades de los interesados y de requisitos del sistema, la definición de la arquitectura y el diseño, el análisis del sistema, la implementación, la integración, la verificación, la transición, la validación, la operación, el mantenimiento y el desecho final del sistema \cite{swebok2014}.
+%contexto general
+%los ses
+%acotar problema de diseño
+%presentar el problema
+%brecha del e. del arte
+%objetivo de la tesis
+%propuesta
+%delimitacion
+%ontribuciones
+El desarrollo de sistemas de software modernos requiere la ejecución coordinada de múltiples actividades de ingeniería de software, desde el análisis de requerimientos, diseño, implementación, pruebas, operación y mantenimiento hasta el desecho final de los sistemas \cite{swebok2014}.
 
-Dentro de este ciclo autónomo, una de las actividades fundamentales y de mayor impacto es la ingeniería de diseño. Esta fase es crítica debido a que es la encargada de traducir los requerimientos abstractos del entorno en especificaciones técnicas detalladas, estructuras de datos, interfaces y asignación de componentes indispensables para la posterior implementación y ejecución del sistema. En el contexto de los sistemas SES, automatizar esta etapa, es decir, \textbf{dotar al sistema de capacidades de auto-diseño} implica que la plataforma no solo reaccione a fallos, sino que sea capaz de reconfigurar conceptualmente su propia lógica operacional de manera válida, segura y coherente con las decisiones arquitectónicas previas.
+A lo largo de las últimas décadas, se ha evidenciado que las actividades de mantenimiento, actualización y evolución de artefactos de software representan una etapa con alto coste en términos de capital humano, tiempo de desarrollo y recursos financieros \cite{thefinancial2015Areti}\cite{contemporanysoftware2025wesley}. Con el objetivo de eliminar la dependencia de la intervención humana y reducir el tiempo de desarrollo se origina la teoría de los Sistemas de Auto-Ingeniería (\textit{Self-Engineering Systems} - SES), la cual introduce un marco conceptual y una meta-arquitectura que habilitan a los sistemas ejecutar modificaciones autónomas sobre sí mismos, abriendo la posibilidad de realizar procesos de auto-evolución o metamorfosis \cite{perez2024}. \textbf{El propósito fundamental de un sistema SES es gestionar y ejecutar su propio proceso de ingeniería más allá de su ciclo de vida convencional, prescindiendo de la intervención humana.}\cite{PerezCarrillo2026}
 
-Sin embargo, replicar la totalidad del ciclo de ingeniería de diseño constituye un desafío multidimensional, con esto referimos al hecho de balancear costos, sostenibilidad, seguridad, resiliencia, etc. \cite{Maier2022} \cite{Crowder2016}. Por ello, y considerando las delimitaciones temporales propias de una investigación de posgrado, este trabajo se acota estrictamente a trabajar con cajas negras y unicamente explicar la actividad del \textit{auto-diseño de algoritmos}. Bajo este alcance, la resolución de dicha actividad se aborda mediante un enfoque formal de asociación problema-solución. Este mecanismo se operativiza a través de una especificación ontológica que proporciona una taxonomía estructurada de problemas, permitiendo al sistema clasificar un requerimiento dinámico y determinar la solución algorítmica idónea para su posterior implementación autónoma.
+Una de las actividades fundamentales y de mayor impacto en la ingeniería de software es la actividad de diseño \cite{sommerville2011software}. Esta actividad es crítica debido a que es la encargada de traducir los requerimientos funcionales y no funcionales en especificaciones técnicas detalladas para la posterior implementación y ejecución del sistema. Para auto-diseñar en el contexto de los sistemas SES\cite{PerezCarrillo2026}, se persigue la automatización de las actividades que conforman el proceso tradicional de diseño, es decir, \textbf{dotar al sistema de capacidades de auto-diseño} implica que la plataforma no solo reaccione a fallos, sino que sea capaz de reconfigurar conceptualmente su propia lógica interna de manera válida, segura y coherente con las decisiones arquitectónicas previas.
+
+Diversos trabajos han explorado la automatización de actividades específicas del diseño de software; sin embargo, la evidencia reportada en la literatura sugiere que estas iniciativas suelen enfocarse en etapas particulares del proceso de diseño y rara vez abordan su integración de manera integral, o permanecen como demostraciones conceptuales que no cubren de manera integral todas las actividades del diseño. Esto se analiza a profundidad en el \cref{arte}.
+
+En respuesta a esta problemática, esta investigación propone una meta-arquitectura basada en sistemas multiagente para la generación autónoma de artefactos de diseño. Una meta-arquitectura establece el marco de referencia y las reglas de composición que permiten abstraer, generalizar y coordinar múltiples configuraciones de orden inferior bajo un modelo unificado\cite{metaarch2005Smeda}. La propuesta se compone de cuatro agentes especializados responsables de las actividades de diseño arquitectónico, diseño de componentes e interfaces, diseño de estructuras de datos y diseño algorítmico. En conjunto, dichos agentes colaboran para construir una especificación progresivamente refinada a partir de los requerimientos del sistema.
+
+Sin embargo, replicar la totalidad del proceso de diseño de sistemas (de software) constituye un desafío multidimensional, lo cual implica considerar simultáneamente restricciones de costo, sostenibilidad, seguridad, resiliencia y desempeño \cite{Maier2022} \cite{Crowder2016}. 
+
+La presente investigación define una meta-arquitectura que contempla las actividades de diseño descritas por Sommerville Et. Al. \cite{sommerville2011software}. No obstante, como prueba de concepto y mecanismo de validación, el desarrollo e implementación se concentran en el agente responsable del diseño algorítmico.
+
+Las principales contribuciones de esta investigación son las siguientes: 
+\begin{enumerate} 
+	\item Una caracterización del estado del arte sobre diseño automatizado de software mediante una revisión sistemática de literatura. 
+	\item Una meta-arquitectura basada en sistemas multiagente para la generación autónoma y coordinada de artefactos de diseño de software. 
+	\item Un modelo de agente de diseño algorítmico fundamentado en representación ontológica del conocimiento y asociación problema-solución para la selección automática de algorítmicas.
+\end{enumerate}
 
 \section{Planteamiento del Problema}
-El diseño de software es una etapa crucial en el ciclo de desarrollo que abarca desde las abstracciones de alto nivel representadas formalmente en las distintas vistas de la arquitectura de software \cite{Kruchten1995The} hasta la especificación granular de sus componentes. Tradicionalmente, esta actividad demanda un consumo elevado de recursos organizacionales y un esfuerzo humano significativo. Aunque las metodologías han evolucionado hacia el paradigma de la Ingeniería de Software 3.0 donde los sistemas basados en agentes autónomos han ganado terreno \cite{li2025riseaiteammatessoftware}, los sistemas actuales carecen de mecanismos para modificar de forma autónoma su lógica algorítmica interna sin alterar o comprometer las estructuras arquitectónicas preexistentes.
+%El diseño de software constituye una etapa fundamental del ciclo de desarrollo, ya que comprende desde las abstracciones de alto nivel formalizadas mediante las distintas vistas arquitectónicas del sistema \cite{Kruchten1995The} hasta la especificación detallada de sus componentes y algoritmos. Históricamente, estos artefactos han servido como mecanismos para documentar, comunicar y validar decisiones de diseño, además de preservar la trazabilidad entre los requisitos, la arquitectura y la implementación. Sin embargo, la transición hacia el paradigma de la Ingeniería de Software 3.0, impulsada por agentes autónomos y modelos de lenguaje de gran escala, ha promovido enfoques centrados en la generación directa de código \cite{li2025riseaiteammatessoftware}. Como consecuencia, los artefactos formales de diseño suelen ser omitidos o tratados como productos secundarios, reduciendo las oportunidades de validación entre pares y dificultando la justificación explícita de las decisiones arquitectónicas y algorítmicas.
 
-Los sistemas no poseen mecanismos de diseño que contemplen un proceso articulado para cada actividad del diseño, sobre todo  descripciones de caja blanca.
+%Esta tendencia genera una desconexión entre las capacidades de síntesis de software ofrecidas por los sistemas inteligentes y los principios tradicionales de la ingeniería de software orientados a la trazabilidad, mantenibilidad y evolución controlada de los sistemas. En particular, los enfoques actuales carecen de mecanismos que articulen de manera consistente los distintos niveles de diseño, desde la arquitectura hasta los algoritmos, mediante representaciones formales que permitan preservar las relaciones de dependencia entre dichos niveles.
 
-El problema técnico radica en la ausencia de un mecanismo capaz de acoplar un agente diseñador de algoritmos con las actividades de diseño previas (arquitectura, componentes y estructuras de datos). Al no existir un modelo de abstracción que trate a estas capas previas como una entidad de tipo caja negra, los sistemas adaptativos no pueden actualizar su lógica operacional de manera aislada y segura ante cambios dinámicos en sus requerimientos. Para resolver esta limitación, se requiere un modelo donde la ontología actúe como el puente semántico entre el espacio del problema (los nuevos requerimientos clasificados taxonómicamente) y el espacio de la solución (los algoritmos disponibles), permitiendo que la selección e integración ocurran de forma autónoma y sin romper las interfaces preexistentes.
+%Durante la revisión de la literatura de esta investigación se encontraron mecanismos para describir actividades de forma transparente y articulada, por lo que es posible hacer un proceso híbrido con enfoques de caja negras y blancas.
+%El problema técnico se manifiesta en la ausencia de un mecanismo capaz de integrar un agente diseñador de algoritmos con las actividades de diseño previas, tales como la definición arquitectónica, el diseño de componentes y la selección de estructuras de datos. Sin una abstracción que permita tratar estas capas como entidades de caja negra con contratos explícitos y estables, los sistemas adaptativos no pueden modificar su lógica operacional de forma aislada ante cambios dinámicos en los requerimientos sin comprometer la coherencia global del diseño. En consecuencia, la adaptación de los algoritmos tiende a propagarse hacia otros niveles del sistema, afectando su trazabilidad, mantenibilidad y capacidad de evolución.
+
+%Para abordar esta limitación, se requiere un modelo de abstracción que preserve la separación entre los distintos niveles de diseño y que permita a los agentes razonar sobre ellos de manera autónoma. En este contexto, una ontología puede actuar como puente semántico entre el espacio del problema, representado por los requerimientos y sus relaciones conceptuales, y el espacio de la solución, representado por los algoritmos y mecanismos de resolución disponibles. De esta manera, la selección, sustitución e integración de algoritmos podría realizarse de forma autónoma, manteniendo la compatibilidad con los artefactos de diseño previamente definidos y preservando las interfaces establecidas.
+El diseño de software constituye una etapa fundamental del ciclo de desarrollo, ya que comprende un conjunto de actividades orientadas a transformar los requerimientos en soluciones técnicamente viables mediante distintos niveles de abstracción. Estas actividades abarcan desde la definición de la arquitectura del sistema y la especificación de sus componentes hasta la selección de estructuras de datos y el diseño de algoritmos \cite{Kruchten1995The,sommerville2011software}. Los artefactos resultantes permiten documentar y comunicar decisiones de diseño, facilitar su validación y mantener la trazabilidad entre los requerimientos, la arquitectura, los componentes y la implementación. Sin embargo, la transición hacia la Ingeniería de Software 3.0, impulsada por modelos de lenguaje de gran escala y agentes autónomos capaces de sintetizar software, ha promovido enfoques centrados principalmente en la generación automática de código \cite{li2025riseaiteammatessoftware}. Aunque estas tecnologías han demostrado capacidades crecientes para producir implementaciones funcionales, los artefactos formales de diseño suelen ser omitidos o considerados productos secundarios del proceso de desarrollo. Como consecuencia, gran parte de las decisiones arquitectónicas, estructurales y algorítmicas quedan implícitas dentro del código generado, dificultando su análisis, validación, evolución y reutilización. Esta situación evidencia una limitación más profunda dentro de los enfoques actuales de automatización del desarrollo de software. La mayoría de las propuestas se enfocan en resolver tareas específicas de manera aislada, tales como la generación de código, la producción de documentación o la automatización de actividades particulares del ciclo de vida. No obstante, el diseño de software es un proceso compuesto por múltiples actividades interdependientes cuyas decisiones influyen mutuamente. La arquitectura condiciona el diseño de componentes; los componentes imponen restricciones sobre las estructuras de datos y los algoritmos; y estos, a su vez, deben satisfacer los objetivos funcionales y de calidad definidos desde etapas previas. A pesar de estas dependencias, los enfoques actuales carecen de mecanismos que permitan representar, coordinar y preservar dichas relaciones de manera explícita. Como resultado, las distintas actividades de diseño suelen ser tratadas como procesos independientes, lo que dificulta mantener la coherencia entre los niveles de abstracción involucrados. En particular, cuando los sistemas deben adaptarse a cambios en sus requerimientos o condiciones operativas, las modificaciones realizadas en un nivel del diseño pueden propagarse hacia otros niveles debido a la ausencia de mecanismos que definan claramente sus límites, dependencias y contratos de interacción. Esta situación reduce la trazabilidad de las decisiones tomadas, incrementa los costos de mantenimiento y limita la capacidad de evolución autónoma de los sistemas. La revisión de la literatura realizada en esta investigación identificó avances significativos en áreas como los sistemas multiagente, la ingeniería del conocimiento, las ontologías y el diseño automatizado asistido por inteligencia artificial. Asimismo, se encontraron mecanismos que permiten describir capacidades, actividades y relaciones de manera explícita, favoreciendo la integración de enfoques de caja negra, basados en modelos generativos, con enfoques de caja blanca fundamentados en representaciones semánticas. Sin embargo, no se encontró evidencia de una meta-arquitectura que articule de forma sistemática las distintas actividades de diseño de software descritas por la ingeniería de software tradicional mediante agentes especializados capaces de colaborar y preservar la coherencia global del diseño. En consecuencia, persiste la necesidad de un marco conceptual y arquitectónico que permita modelar las actividades de diseño de software como entidades coordinadas dentro de un sistema multiagente, preservando las relaciones existentes entre sus artefactos y facilitando el razonamiento autónomo sobre las decisiones de diseño. Dicho marco debe proporcionar mecanismos que permitan a agentes especializados operar sobre distintos niveles de abstracción sin comprometer la consistencia de los artefactos generados ni las dependencias establecidas entre ellos. Bajo esta perspectiva, el diseño algorítmico representa un caso de estudio particularmente relevante debido a su estrecha relación con los requerimientos funcionales, las estructuras de datos y los componentes que conforman el sistema. No obstante, los enfoques actuales carecen de mecanismos que permitan a un agente de diseño algorítmico seleccionar, justificar y adaptar alternativas de solución considerando explícitamente el contexto de diseño previamente definido. Esta limitación dificulta que los algoritmos puedan evolucionar de forma autónoma y consistente frente a cambios en el problema que buscan resolver. Por lo tanto, resulta necesario desarrollar mecanismos que permitan asociar formalmente los problemas de diseño con alternativas de solución representadas mediante conocimiento explícito. En este contexto, las ontologías pueden proporcionar una representación semántica capaz de vincular conceptos del dominio, requerimientos, propiedades del problema y características de los algoritmos disponibles. De esta manera, la selección, adaptación e integración de soluciones algorítmicas podría realizarse de forma autónoma y justificable, manteniendo la compatibilidad con los artefactos de diseño previamente establecidos y contribuyendo a la construcción de sistemas de diseño de software más coherentes, trazables y evolutivos.
 
 \section{Motivación}
-La motivación central de esta investigación nace en la necesidad de desarrollar sistemas de software con un alto grado de autonomía, capaces de autodiseñar su propia lógica interna cuando las demandas del entorno lo requieran. Al automatizar la generación de artefactos de diseño y la selección de algoritmos mediante el uso de ontologías y agentes de diseño, se establece un habilitador crítico para la evolución y metamorfosis de los sistemas SES \cite{perez2024}. Este enfoque no solo reduce la dependencia del factor humano en entornos críticos y dinámicos, sino que optimiza los costos operativos asociados al mantenimiento evolutivo del software, transformando la adaptación heurística en un proceso de inferencia lógica y clasificación formal.
+
+La presente investigación surge de la necesidad de avanzar hacia sistemas de software capaces de participar activamente en su propia evolución mediante la generación y adaptación de artefactos de diseño. En entornos dinámicos y sujetos a cambios constantes, la dependencia de la intervención humana para rediseñar soluciones limita la capacidad de respuesta y adaptación de los sistemas. En este contexto, la automatización de las actividades de diseño de software representa un paso fundamental para habilitar mecanismos de razonamiento y toma de decisiones sobre la estructura y comportamiento de los sistemas. La integración de agentes especializados y mecanismos de representación explícita del conocimiento permite establecer las bases para que futuras generaciones de software puedan modificar y justificar sus decisiones de diseño de manera consistente. Finalmente, esta investigación busca contribuir al desarrollo de capacidades de autodiseño que funcionen como habilitador para la evolución y metamorfosis de sistemas SES \cite{perez2024}, buscando erradicar la dependencia del mantenimiento manual..
+
 \section{Objetivos}
 
 \subsection{Objetivo General}
 
-Desarrollar una arquitectura y su respectivo flujo de trabajo para el diseño automatizado en sistemas de auto-ingeniería, con el fin de que sea capaz de diseñar soluciones para posteriormente actualizar o implementar artefactos ante cambios en los requerimientos, abstrayendo las actividades de diseño (arquitectura, componentes, interfaces, estructuras de datos...) mediante un modelo de interacción de agentes de tipo caja negra con un agente diseñador de caja blanca.
+Desarrollar una meta-arquitectura basada en agentes para el diseño automatizado de software, capaz de abstraer y coordinar las distintas actividades de diseño con el fin de facilitar la evolución autónoma de artefactos de software ante cambios en los requerimientos.
 
 
 \subsection{Objetivos Específicos}
 \begin{itemize}
     
-\item Sintetizar el estado del arte en materia de diseño de software automatizado y selección algorítmica autónoma, mediante la ejecución y análisis de una Revisión Sistemática de la Literatura (RSL), con el fin de identificar las tendencias, limitaciones y brechas de conocimiento existentes.
+\item Sintetizar el estado del arte del diseño automatizado de software y la selección algorítmica autónoma mediante una Revisión Sistemática de la Literatura (RSL o SLR del ingles Sistematic Literature Review), con el fin de identificar tendencias, limitaciones y oportunidades de investigación.
 
+\item Diseñar una meta-arquitectura basada en sistemas multiagente que modele y coordine las actividades de diseño de software, definiendo mecanismos de interacción entre los distintos niveles de diseño y preservando la coherencia entre los artefactos generados.
 
-%\item Caracterizar los mecanismos de evolución e implementación autónoma de algoritmos, analizando los criterios técnicos y las restricciones operacionales requeridas para su ejecución sin intervención humana.
+\item Desarrollar un agente de diseño algorítmico fundamentado en representación ontológica del conocimiento, capaz de establecer asociaciones problema-solución para la selección autónoma de alternativas algorítmicas.
 
-\item Diseñar una meta-arquitectura que gobierne la gestión, sustitución e integración de cambios algorítmicos, definiendo explícitamente las interfaces de comunicación tipo caja negra entre las estructuras de diseño preexistentes y el agente diseñador propuesto dando como resultado artefactos de diseño.
-
-\item Validar la viabilidad y efectividad del marco de trabajo desarrollado a través del despliegue de casos de estudio en escenarios experimentales controlados, evaluando su capacidad de adaptación frente a la variabilidad de requerimientos.
+\item Validar la viabilidad de la meta-arquitectura propuesta mediante la implementación y evaluación del agente de diseño algorítmico en escenarios experimentales controlados, analizando su capacidad para adaptarse a cambios en los requerimientos y mantener la consistencia de los artefactos de diseño generados.
 
 \end{itemize}
 
@@ -215,7 +243,8 @@ Desarrollar una arquitectura y su respectivo flujo de trabajo para el diseño au
 
 \section{Hipótesis}
 
-Es posible dotar a un sistema de un mecanismo que le permita analizar cambios en sus requerimientos y gestionar de manera autónoma el rediseño de sí mismo, ya sea mediante la generación de un nuevo diseño o la adaptación del diseño existente cuando este continúe satisfaciendo los nuevos requerimientos.
+%Es posible dotar a un sistema de un mecanismo que le permita analizar cambios en sus requerimientos y gestionar de manera autónoma el rediseño de sí mismo, ya sea mediante la generación de un nuevo diseño o la adaptación del diseño existente cuando este continúe satisfaciendo los nuevos requerimientos.
+Es posible gestionar de manera autónoma la generación y adaptación de artefactos de diseño de software ante cambios en los requerimientos mediante una meta-arquitectura basada en agentes especializados, capaz de coordinar distintas actividades de diseño y seleccionar alternativas de solución consistentes con las restricciones y decisiones previamente establecidas.
 
 
 \section{Estructura del documento de la Tesis}
@@ -231,15 +260,19 @@ El \textbf{Capítulo 1} establece la base del estudio mediante la introducción 
 
 El Marco Teórico constituye el cimiento conceptual sobre el cual se erige esta investigación. Su propósito fundamental es articular las teorías, paradigmas y modelos previos que otorgan validez científica a la problemática planteada, sirviendo como mapa orientador para el desarrollo de la propuesta.
 
+\section{Ingeniería de Software y el ciclo de vida de los sistemas}
+
+\cite{12207IEEE}
+
 \section{Sistemas de Auto-Ingeniería}
 %\cite perez
-En \cite{perez2024} se aborda el hecho de que los mismos sistemas no terminen en desecho si no, que sin intervención humana continúen su operación mediante la evolucionando o en su defecto sufran una metamorfosis dando pie a un nuevo sistema, esta perspectiva se conoce como el marco de los sistemas de auto-ingeniería.
+En el trabajo de Perez-Carrillo Et. Al. \cite{perez2024} se busca que los mismos sistemas no terminen el ciclo de su vida en desecho, si no, que sin intervención humana continúen su operación bajo el concepto de elasticidad del sistema o que sufran una metamorfosis dando pie a un nuevo sistema, esta perspectiva se conoce como el marco de los sistemas de auto-ingeniería.
 Los SES contemplan un proceso muy similar a la ingeniería de software tradicional, es decir, las actividades como lo son ingeniería de requerimientos, diseño, implementación, pruebas, etc.\cite{sommerville2011software} tienen lugar en este marco de trabajo. Este trabajo unicamente esta enfocado en el diseño del software automatizado, basado en lineamientos presentes en \cite{swebok2014}. Por lo tanto el foco de este manuscrito esta puesto en la producción de artefactos de diseño, que fungen como planos del sistema antes de implementación en código.
 
 La teoría SES introduce conceptos que permiten identificar fases y actividades dentro de la vida de estos sistemas \cite{PerezCarrillo2026}:
 
 \subsection{Fases de Operación y Mantenimiento (O \& M) y Evolución}
-A diferencia de la literatura tradicional que debate si el mantenimiento es un subconjunto de la evolución o viceversa, el marco SES establece las fases de Operación y Mantenimiento (O\&M) y Evolución como fases independientes.
+A diferencia de la literatura tradicional que debate si el mantenimiento es un subconjunto de la evolución o viceversa, el marco SES \cite{PerezCarrillo2026} establece las fases de Operación y Mantenimiento (O\&M) y Evolución como fases independientes.
 \begin{itemize}
 	\item Fase de O\&M: Se ejecutan mantenimientos correctivos, preventivos, adaptativos, aditivos y de mejora.
 	
@@ -247,10 +280,10 @@ A diferencia de la literatura tradicional que debate si el mantenimiento es un s
 	\item Evolución por Cambio de Problema: Ocurre cuando cambia el problema que el sistema busca resolver, siempre y cuando la arquitectura actual sea capaz de soportar dichos cambios.
 \end{itemize}
 \subsection{Actividades de Self-O \& M y Self-Evolution}
-Son las actividades fundamentales que el sistema ejecuta de manera autónoma tras su despliegue dentro de las fases de O\&M y Evolución, respectivamente.
+Son las actividades fundamentales que el sistema ejecuta de manera autónoma tras su despliegue dentro de las fases de O\&M y Evolución, respectivamente, de allí el nombre de self, es decir desarrollado por si mismo.
 \subsection{Punto de Quiebre / Breaking Point}
 Representa el umbral en el cual la arquitectura original del sistema ya no puede satisfacer los nuevos requerimientos.
-Al alcanzar el \textbf{Breaking Point}, se suspenden las actividades de Self-O\&M y Self-Evolution, desencadenando el inicio de un nuevo proceso e inicio de ciclo de vida de ingeniería.
+Al alcanzar el \textbf{Breaking Point}, se suspenden las actividades de Self-O\&M y Self-Evolution, desencadenando el inicio de un nuevo proceso e inicio de ciclo de vida de ingeniería presentado como \textbf{metamorfosis} \cite{PerezCarrillo2026}.
 \subsection{Elasticidad del Sistema / System Elasticity}
 Fundamentada en los conceptos de evolucionabilidad (evolvability) y resiliencia.
 Se define como la capacidad del sistema para asimilar requerimientos nuevos o modificados sin la necesidad de construir un nuevo sistema.
@@ -393,17 +426,17 @@ El trabajo de \cite{duran2026seleccion} une estos temas, para lograr la selecci�
 
 \chapter{Estado del Arte}\label{arte}
 
-Este capítulo presenta y analiza la literatura científica existente en torno al diseño automatizado de software y al concepto de \textit{auto-diseño} (\textit{Self-Design}). A lo largo de esta sección se exploran sus definiciones conceptuales, técnicas de soporte, marcos de trabajo contemporáneos y los diferentes niveles de abstracción en los que se implementa. Toda la literatura analizada para el estado del arte fue obtenida mediante una rigurosa revisión sistemática de literatura desarrollada en el \cref{propuesta}.
+Este capítulo examina el estado del arte relacionado con el diseño automatizado de software y el concepto de \textit{Self-Design} (diseño automatizado). Dado el carácter emergente de esta línea de investigación, la literatura disponible es aún limitada y se encuentra distribuida en áreas afines con diversos enfoques. Por ello, este capítulo adopta presentar resultados relevante obtenidos mediante una Revisión Sistemática de la Literatura descrita en el Capítulo~\ref{propuesta}. Se realizo con un enfoque exploratorio orientado a identificar conceptos, tendencias, enfoques y mecanismos relevantes que permitan evaluar trabajos relacionados con el problema y área de dominio de esta misma investigación.
 
 \section{Conceptualización del Auto-Diseño}
 
-En la vasta literatura sobre sistemas adaptativos se encuentran diversos enfoques para cubrir, parcial o totalmente, lo que se considera auto-diseño. Sin lugar a dudas, el \cite{Porter2024SelfDesigning} representa uno de los acercamientos más directos al concepto. Los autores conciben el \textit{Self-Designing Software} como un paradigma en el cual el propio software se convierte en un miembro activo de su equipo de desarrollo. Su técnica principal radica en el \textit{Hot-Swapping} o intercambio en caliente, el cual permite sustituir componentes de software en un sistema en ejecución de manera segura mediante el uso de bloques de construcción (\textit{building blocks}) validados y provistos de interfaces bien definidas.
+En la vasta literatura sobre sistemas auto-adaptativos y auto-gestionados con origen en  \cite{ibm2001autonomic,kephart2003vision,ibm2006autonomic} se encuentran diversos enfoques para cubrir parcialmente la necesidad de intervención humana. Lo que se considera auto-diseño busca la completa independencia del sistema en ese sentido. Sin lugar a dudas, el trabajo de Porter Et. Al. \cite{Porter2024SelfDesigning} representa uno de los acercamientos más directos al concepto. Los autores conciben el \textit{Self-Designing Software} como un paradigma en el cual el propio software se convierte en un miembro activo de su equipo de desarrollo. Su técnica principal radica en el \textit{Hot-Swapping} o intercambio en caliente, el cual permite sustituir componentes de software en un sistema en ejecución de manera segura mediante el uso de bloques de construcción (\textit{building blocks}) validados y provistos de interfaces bien definidas.
 
-Sin embargo, desde la perspectiva de la ingeniería de software clásica, este enfoque no satisface completamente el ciclo de diseño, ya que no concibe el diseño como el conjunto de actividades estructuradas que entregan artefactos de diseño formales (como diagramas arquitectónicos, especificaciones de componentes, interfaces, etc.) \cite{sommerville2011software}. 
+Sin embargo, desde la perspectiva de la ingeniería de software clásica, este enfoque no satisface completamente el ciclo de diseño, ya que no concibe el diseño como el conjunto de actividades estructuradas que entregan artefactos de diseño formales (como diagramas arquitectónicos, especificaciones de componentes, interfaces, etc.) \cite{sommerville2011software}, si no un reemplazo de componentes establecidos dependiendo de la funcionalidad.
 
-A nivel de bajo nivel (estructuras de datos), el trabajo  \cite{StratosIdreos2019LearningData} describe una metodología para automatizar el diseño de estructuras de almacenamiento personalizadas. En lugar de depender de diseños tradicionales e inflexibles, este enfoque construye estructuras a la medida partiendo de un conjunto de primitivas de diseño lógicas y físicas clasificadas en su "Tabla Periódica de las Estructuras de Datos" \cite{idreos2018periodic}. El conjunto combinatorio de estas primitivas conforma un vasto espacio de diseño en el cual se evalúan rigurosamente los compromisos entre rendimiento y utilización de recursos. Tras este análisis, el candidato óptimo es enviado a un generador de código que sintetiza el diseño en código C++ ejecutable para el sistema final.
+Con una especificación mas concreta centrada en estructuras de datos, el trabajo  \cite{StratosIdreos2019LearningData} describe una metodología para automatizar el diseño de estructuras de almacenamiento personalizadas. En lugar de depender de diseños tradicionales e inflexibles, este enfoque construye estructuras a la medida partiendo de un conjunto de primitivas de diseño lógicas y físicas clasificadas en su "Tabla Periódica de las Estructuras de Datos" \cite{idreos2018periodic}. El conjunto combinatorio de estas primitivas conforma un vasto espacio de diseño en el cual se evalúan rigurosamente los compromisos entre rendimiento y utilización de recursos. Tras este análisis, el candidato óptimo es enviado a un generador de código que sintetiza el diseño en código C++ ejecutable para el sistema final.
 
-De manera complementaria en esta misma capa, la herramienta COZY desarrollada por Loncaric et al. \cite{loncaric2016Datastructure, loncaric2018Generalizeddata} presenta un marco de síntesis lógica de colecciones de datos. La entrada del sistema consiste en una especificación declarativa de alto nivel que describe el estado abstracto (datos lógicos como usuarios, grupos o membresías), las consultas requeridas y las operaciones de actualización. A través de un bucle iterativo de refinamiento, incrementalización y verificación formal apoyado por el resolvedor SMT Z3 (mediante síntesis inductiva guiada por contra ejemplos, CEGIS), COZY genera estructuras de datos intrusivas y seguras por diseño, listas para su compilación.
+De manera complementaria en esta especificación, la herramienta COZY desarrollada por Loncaric et al. \cite{loncaric2016Datastructure, loncaric2018Generalizeddata} presenta un marco de síntesis lógica de colecciones de datos. La entrada del sistema consiste en una especificación declarativa de alto nivel que describe el estado abstracto (datos lógicos como usuarios, grupos o membresías), las consultas requeridas y las operaciones de actualización. A través de un bucle iterativo de refinamiento, incrementalización y verificación formal apoyado por el resolvedor SMT Z3 (mediante síntesis inductiva guiada por contra ejemplos, CEGIS), COZY genera estructuras de datos intrusivas y seguras por diseño, listas para su compilación.
 
 \section{Automatización del Diseño}
 
@@ -954,55 +987,43 @@ Finalmente, el agente de algoritmos incorpora un mecanismo explícito de razonam
 
 \chapter{Experimentación y Análisis de Resultados}\label{resultados}
 
-\lipsum[1-3]
 
 \section{Análisis de selección automática de algoritmos}
 
 
-\lipsum[1-3]
 
 \subsection{Análisis de la arquitectura: auto-diseño}
 
 
-\lipsum[1-3]
 
 \section{Experimentación}
 
 
-\lipsum[1-3]
 
 \subsection{Caso de estudio: nuevo problema, nueva solución}
 
 
 
-\lipsum[1]
 \subsection{Experimento: Identificación del Problema}
 
 
-\lipsum[1]
 
 \subsection{Experimento: Identificación del Algoritmo}
 
 
-\lipsum[1]
-
 \chapter{Conclusiones y Trabajo Futuro}\label{conclusiones}
 
 
-\lipsum[1]
 
 \section{Conclusiones}
 
 
-\lipsum[1]
 
 \section{Objetivos logrados}
 
-\lipsum[1]
 
 \section{Trabajo a futuro}
 
-\lipsum[1]
 
 
 
