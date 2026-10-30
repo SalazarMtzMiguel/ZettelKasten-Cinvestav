@@ -321,101 +321,6 @@
       \endverb
       \keyw{Architecture description languages;Computer architecture;Object oriented modeling;Software architecture;Metamodeling;Connectors;Application software;Formal specifications;Knowledge representation;Context modeling;component-based software architecture;meta-modeling;architecture description languages;component;connectors;architectures.}
     \endentry
-    \entry{Maier2022}{inbook}{}{}
-      \name{author}{3}{}{%
-        {{hash=e030b6997e88bdcad76b3597e803eaf4}{%
-           family={Maier},
-           familyi={M\bibinitperiod},
-           given={Anja},
-           giveni={A\bibinitperiod}}}%
-        {{hash=8cea514795a58a7caac32be7fcf0611f}{%
-           family={Oehmen},
-           familyi={O\bibinitperiod},
-           given={Josef},
-           giveni={J\bibinitperiod}}}%
-        {{hash=f1223efc6476fcb23aee1056ebe59867}{%
-           family={Vermaas},
-           familyi={V\bibinitperiod},
-           given={Pieter\bibnamedelima E.},
-           giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Springer International Publishing}%
-      }
-      \strng{namehash}{215a727ef73d16ae67c17e6755dd0fce}
-      \strng{fullhash}{0624e984d271c90fca5df4ed816c49c7}
-      \strng{fullhashraw}{0624e984d271c90fca5df4ed816c49c7}
-      \strng{bibnamehash}{0624e984d271c90fca5df4ed816c49c7}
-      \strng{authorbibnamehash}{0624e984d271c90fca5df4ed816c49c7}
-      \strng{authornamehash}{215a727ef73d16ae67c17e6755dd0fce}
-      \strng{authorfullhash}{0624e984d271c90fca5df4ed816c49c7}
-      \strng{authorfullhashraw}{0624e984d271c90fca5df4ed816c49c7}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Handbook of Engineering Systems Design}
-      \field{isbn}{9783030811594}
-      \field{title}{Engineering Systems Design: A Look to the Future}
-      \field{year}{2022}
-      \field{pages}{1035\bibrangedash 1046}
-      \range{pages}{12}
-      \verb{doi}
-      \verb 10.1007/978-3-030-81159-4_31
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1007/978-3-030-81159-4_31
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1007/978-3-030-81159-4_31
-      \endverb
-    \endentry
-    \entry{Crowder2016}{book}{}{}
-      \name{author}{3}{}{%
-        {{hash=5c59f04707b3ab7c9ab5c3c9351bc42f}{%
-           family={Crowder},
-           familyi={C\bibinitperiod},
-           given={James\bibnamedelima A.},
-           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=94649b0836302050954eb43fb06c6169}{%
-           family={Carbone},
-           familyi={C\bibinitperiod},
-           given={John\bibnamedelima N.},
-           giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
-        {{hash=d068205ebb10a4cd3d1d426ce38e961a}{%
-           family={Demijohn},
-           familyi={D\bibinitperiod},
-           given={Russell},
-           giveni={R\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Springer International Publishing}%
-      }
-      \strng{namehash}{708cc2de2940d31103a46bf5e9cf9de6}
-      \strng{fullhash}{8a9bb17ed3fad0fdae64f6e65cddcdeb}
-      \strng{fullhashraw}{8a9bb17ed3fad0fdae64f6e65cddcdeb}
-      \strng{bibnamehash}{8a9bb17ed3fad0fdae64f6e65cddcdeb}
-      \strng{authorbibnamehash}{8a9bb17ed3fad0fdae64f6e65cddcdeb}
-      \strng{authornamehash}{708cc2de2940d31103a46bf5e9cf9de6}
-      \strng{authorfullhash}{8a9bb17ed3fad0fdae64f6e65cddcdeb}
-      \strng{authorfullhashraw}{8a9bb17ed3fad0fdae64f6e65cddcdeb}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{9783319223988}
-      \field{title}{Multidisciplinary Systems Engineering: Architecting the Design Process}
-      \field{year}{2016}
-      \verb{doi}
-      \verb 10.1007/978-3-319-22398-8
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1007/978-3-319-22398-8
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1007/978-3-319-22398-8
-      \endverb
-    \endentry
     \entry{Kruchten1995The}{article}{}{}
       \name{author}{1}{}{%
         {{hash=dca64ceea72185cf29648fc367546339}{%
@@ -444,50 +349,6 @@
       \range{pages}{9}
       \verb{doi}
       \verb 10.1109/52.469759
-      \endverb
-    \endentry
-    \entry{li2025riseaiteammatessoftware}{misc}{}{}
-      \name{author}{3}{}{%
-        {{hash=2620b9afd37cca5b9b7354f67c036d4d}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={Hao},
-           giveni={H\bibinitperiod}}}%
-        {{hash=4f3335a012f1025af007b1682409473d}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Haoxiang},
-           giveni={H\bibinitperiod}}}%
-        {{hash=37a79f9b3d67c262a89ed8c5521d654f}{%
-           family={Hassan},
-           familyi={H\bibinitperiod},
-           given={Ahmed\bibnamedelima E.},
-           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-      }
-      \strng{namehash}{daaeb7670772db8a47b015a37e6672bc}
-      \strng{fullhash}{21253d0e49e6fb0aca5bd5f0a246452c}
-      \strng{fullhashraw}{21253d0e49e6fb0aca5bd5f0a246452c}
-      \strng{bibnamehash}{21253d0e49e6fb0aca5bd5f0a246452c}
-      \strng{authorbibnamehash}{21253d0e49e6fb0aca5bd5f0a246452c}
-      \strng{authornamehash}{daaeb7670772db8a47b015a37e6672bc}
-      \strng{authorfullhash}{21253d0e49e6fb0aca5bd5f0a246452c}
-      \strng{authorfullhashraw}{21253d0e49e6fb0aca5bd5f0a246452c}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{eprintclass}{cs.SE}
-      \field{eprinttype}{arXiv}
-      \field{title}{The Rise of AI Teammates in Software Engineering (SE) 3.0: How Autonomous Coding Agents Are Reshaping Software Engineering}
-      \field{year}{2025}
-      \verb{eprint}
-      \verb 2507.15003
-      \endverb
-      \verb{urlraw}
-      \verb https://arxiv.org/abs/2507.15003
-      \endverb
-      \verb{url}
-      \verb https://arxiv.org/abs/2507.15003
       \endverb
     \endentry
     \entry{12207IEEE}{article}{}{}
@@ -703,8 +564,8 @@
       \strng{authornamehash}{cbf44511d041dc6d1dd73cc0c033122c}
       \strng{authorfullhash}{cbf44511d041dc6d1dd73cc0c033122c}
       \strng{authorfullhashraw}{cbf44511d041dc6d1dd73cc0c033122c}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{White Paper}
@@ -741,8 +602,8 @@
       \strng{authornamehash}{e3ca3cb9bfd6cef4666aa8fea7700438}
       \strng{authorfullhash}{e3ca3cb9bfd6cef4666aa8fea7700438}
       \strng{authorfullhashraw}{e3ca3cb9bfd6cef4666aa8fea7700438}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Computer}
@@ -770,8 +631,8 @@
       \strng{authornamehash}{7bb018b160d19c13ef9838e91e53cccf}
       \strng{authorfullhash}{7bb018b160d19c13ef9838e91e53cccf}
       \strng{authorfullhashraw}{7bb018b160d19c13ef9838e91e53cccf}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{4}
@@ -1323,8 +1184,8 @@
       \strng{authornamehash}{72b8a308387b4ac51d6ea6839b6bb994}
       \strng{authorfullhash}{72b8a308387b4ac51d6ea6839b6bb994}
       \strng{authorfullhashraw}{72b8a308387b4ac51d6ea6839b6bb994}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2025 40th IEEE/ACM International Conference on Automated Software Engineering Workshops (ASEW)}
