@@ -1,21 +1,21 @@
 [0] Config.pm:329> INFO - This is Biber 2.22
 [0] Config.pm:332> INFO - Logfile is 'main.blg'
-[87] biber-MSWIN64:342> INFO - === 
-[122] Biber.pm:421> INFO - Reading 'main.bcf'
-[212] Biber.pm:1002> INFO - Found 35 citekeys in bib section 0
-[222] Biber.pm:4487> INFO - Processing section 0
-[230] Biber.pm:4680> INFO - Looking for bibtex file 'references.bib' for section 0
-[292] bibtex.pm:1713> INFO - LaTeX decoding ...
-[478] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
-[647] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[647] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[647] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'es-ES'
-[665] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[685] bbl.pm:779> INFO - Output to main.bbl
-[686] Biber.pm:132> WARN - legacy month field 'aug' in entry 'perez2024' is not an integer - this will probably not sort properly.
-[686] Biber.pm:132> WARN - legacy month field 'jun' in entry 'ibm2006autonomic' is not an integer - this will probably not sort properly.
-[686] Biber.pm:132> WARN - legacy month field 'May' in entry 'WeynsDannyFromSelf-Adaptation' is not an integer - this will probably not sort properly.
-[686] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\Mikec\AppData\Local\Temp\biber_tmp_o9mP\33e59b5ca9ec342068223d604c3f8d55_33844.utf8, line 2215, warning: undefined macro "July"
-[686] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\Mikec\AppData\Local\Temp\biber_tmp_o9mP\33e59b5ca9ec342068223d604c3f8d55_33844.utf8, line 2271, warning: undefined macro "Sept"
-[686] Biber.pm:132> WARN - I didn't find a database entry for 'ZhangYiranKnowledge' (section 0)
-[686] Biber.pm:134> INFO - WARNINGS: 6
+[231] biber-MSWIN64:342> INFO - === 
+[383] Biber.pm:421> INFO - Reading 'main.bcf'
+[601] Biber.pm:1002> INFO - Found 35 citekeys in bib section 0
+[662] Biber.pm:4487> INFO - Processing section 0
+[698] Biber.pm:4680> INFO - Looking for bibtex file 'references.bib' for section 0
+[799] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1304] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[2005] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2006] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2006] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'es-ES'
+[2105] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[2143] bbl.pm:779> INFO - Output to main.bbl
+[2144] Biber.pm:132> WARN - legacy month field 'aug' in entry 'perez2024' is not an integer - this will probably not sort properly.
+[2144] Biber.pm:132> WARN - legacy month field 'jun' in entry 'ibm2006autonomic' is not an integer - this will probably not sort properly.
+[2144] Biber.pm:132> WARN - legacy month field 'May' in entry 'WeynsDannyFromSelf-Adaptation' is not an integer - this will probably not sort properly.
+[2144] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\Mikec\AppData\Local\Temp\biber_tmp_5VuD\33e59b5ca9ec342068223d604c3f8d55_57156.utf8, line 2215, warning: undefined macro "July"
+[2144] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\Mikec\AppData\Local\Temp\biber_tmp_5VuD\33e59b5ca9ec342068223d604c3f8d55_57156.utf8, line 2271, warning: undefined macro "Sept"
+[2144] Biber.pm:132> WARN - I didn't find a database entry for 'ZhangYiranKnowledge' (section 0)
+[2145] Biber.pm:134> INFO - WARNINGS: 6

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.10.22)  29 OCT 2026 21:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.10.22)  29 OCT 2026 23:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1014,133 +1014,149 @@ Overfull \hbox (17.83434pt too wide) in paragraph at lines 194--195
 
 [2] [3] [4] [5]
 Cap\'{\i }tulo 2.
+
+LaTeX Warning: Citation '' on page 6 undefined on input line 275.
+
+
+LaTeX Warning: Citation '' on page 6 undefined on input line 275.
+
+
+LaTeX Warning: Citation '' on page 6 undefined on input line 277.
+
+
+LaTeX Warning: Citation '' on page 6 undefined on input line 281.
+
 [6
 
-] [7] [8]
-Overfull \hbox (13.18678pt too wide) in paragraph at lines 341--341
+]
+
+LaTeX Warning: Citation '' on page 7 undefined on input line 293.
+
+[7] [8] [9]
+Overfull \hbox (13.18678pt too wide) in paragraph at lines 360--360
 []\T1/cmr/bx/n/14.4 Meta-Arquitectura del Mar-co de Sis-te-mas de Auto-Ingenier
 ía 
  []
 
-[9] [10] [11] [12] [13] [14]
+[10] [11] [12] [13] [14] [15]
 Cap\'{\i }tulo 3.
-[15
+[16
 
-] [16]
-
-LaTeX Warning: Citation 'ZhangYiranKnowledge' on page 17 undefined on input lin
-e 468.
-
-[17]
+] [17]
 
 LaTeX Warning: Citation 'ZhangYiranKnowledge' on page 18 undefined on input lin
-e 498.
+e 487.
 
 [18]
-Cap\'{\i }tulo 4.
-[19
 
-] [20] [21]
-Underfull \hbox (badness 10000) in paragraph at lines 582--582
+LaTeX Warning: Citation 'ZhangYiranKnowledge' on page 19 undefined on input lin
+e 517.
+
+[19]
+Cap\'{\i }tulo 4.
+[20
+
+] [21] [22]
+Underfull \hbox (badness 10000) in paragraph at lines 601--601
 []|\T1/cmtt/m/n/12 TITLE-ABS-KEY ((("self-architecting" OR
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 582--582
+Underfull \hbox (badness 10000) in paragraph at lines 601--601
 \T1/cmtt/m/n/12 "self architectural" OR " auto-architecting"
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 582--582
+Underfull \hbox (badness 10000) in paragraph at lines 601--601
 \T1/cmtt/m/n/12 OR "auto architectural") W/3 "system*") OR
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 582--582
+Underfull \hbox (badness 10000) in paragraph at lines 601--601
 \T1/cmtt/m/n/12 (("self-architectural" OR "auto-architectural") W/3
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 582--582
+Underfull \hbox (badness 10000) in paragraph at lines 601--601
 \T1/cmtt/m/n/12 "design")) AND PUBYEAR > 2014 AND PUBYEAR < 2027 AND
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 582--582
+Underfull \hbox (badness 10000) in paragraph at lines 601--601
 \T1/cmtt/m/n/12 (LIMIT-TO (SUBJAREA, "COMP") OR LIMIT-TO (SUBJAREA,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 596--596
+Underfull \hbox (badness 10000) in paragraph at lines 615--615
 []|\T1/cmr/m/n/12 1. Self-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 596--596
+Underfull \hbox (badness 10000) in paragraph at lines 615--615
 \T1/cmr/m/n/12 Architecting
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 617--617
 []|\T1/cmr/m/n/12 3. Evo-lu-tio-nary
  []
 
 
-Underfull \hbox (badness 1297) in paragraph at lines 599--599
+Underfull \hbox (badness 1297) in paragraph at lines 618--618
 []|\T1/cmr/m/n/12 (("generative de-sign" OR "ge-ne-ra-ti-ve soft-wa-re de-sign"
 ) AND
  []
 
 
-Underfull \hbox (badness 3168) in paragraph at lines 600--600
+Underfull \hbox (badness 3168) in paragraph at lines 619--619
 []|\T1/cmr/m/n/12 5. Soft-wa-re De-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 601--601
+Underfull \hbox (badness 10000) in paragraph at lines 620--620
 []|\T1/cmr/m/n/12 6. Self-Sufficient
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 603--603
+Underfull \hbox (badness 10000) in paragraph at lines 622--622
 []|\T1/cmr/m/n/12 8. Self/Auto-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 603--603
+Underfull \hbox (badness 10000) in paragraph at lines 622--622
 \T1/cmr/m/n/12 Architectural
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 604--604
+Underfull \hbox (badness 10000) in paragraph at lines 623--623
 []|\T1/cmr/m/n/12 9. Self/Auto-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 605--605
+Underfull \hbox (badness 10000) in paragraph at lines 624--624
 []|\T1/cmr/m/n/12 10. Self/Auto-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 605--605
+Underfull \hbox (badness 10000) in paragraph at lines 624--624
 \T1/cmr/m/n/12 Component
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 606--606
+Underfull \hbox (badness 10000) in paragraph at lines 625--625
 []|\T1/cmr/m/n/12 11. Self/Auto-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 607--607
+Underfull \hbox (badness 10000) in paragraph at lines 626--626
 []|\T1/cmr/m/n/12 12. Self/Auto-
  []
 
-[22]
+[23]
 Overfull \vbox (8.28314pt too high) has occurred while \output is active []
 
 
-[23] [24] [25]
+[24] [25] [26]
 Package epstopdf Info: Source file: <figures/Fig1_Workflow.eps>
 (epstopdf)                    date: 2026-08-18 20:59:10
 (epstopdf)                    size: 183240 bytes
@@ -1150,15 +1166,15 @@ Package epstopdf Info: Source file: <figures/Fig1_Workflow.eps>
 (epstopdf)                    size: 63031 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figures/Fig1_Workflo
 w-eps-converted-to.pdf figures/Fig1_Workflow.eps>
-(epstopdf)             \includegraphics on input line 673.
+(epstopdf)             \includegraphics on input line 692.
 Package epstopdf Info: Output file is already uptodate.
-<figures/Fig1_Workflow-eps-converted-to.pdf, id=756, 604.2575pt x 709.65125pt>
+<figures/Fig1_Workflow-eps-converted-to.pdf, id=760, 604.2575pt x 709.65125pt>
 File: figures/Fig1_Workflow-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/Fig1_Workflow-eps-converted-to.pdf>
 Package pdftex.def Info: figures/Fig1_Workflow-eps-converted-to.pdf  used on in
-put line 673.
+put line 692.
 (pdftex.def)             Requested size: 320.46199pt x 376.3516pt.
- [26]
+ [27]
 Package epstopdf Info: Source file: <figures/Fig2_StudySelection.eps>
 (epstopdf)                    date: 2026-08-18 20:59:10
 (epstopdf)                    size: 578496 bytes
@@ -1168,42 +1184,42 @@ to.pdf>
 (epstopdf)                    size: 560289 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figures/Fig2_StudySe
 lection-eps-converted-to.pdf figures/Fig2_StudySelection.eps>
-(epstopdf)             \includegraphics on input line 682.
+(epstopdf)             \includegraphics on input line 701.
 Package epstopdf Info: Output file is already uptodate.
-<figures/Fig2_StudySelection-eps-converted-to.pdf, id=763, 717.68124pt x 685.56
+<figures/Fig2_StudySelection-eps-converted-to.pdf, id=767, 717.68124pt x 685.56
 125pt>
 File: figures/Fig2_StudySelection-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/Fig2_StudySelection-eps-converted-to.pdf>
 Package pdftex.def Info: figures/Fig2_StudySelection-eps-converted-to.pdf  used
- on input line 682.
+ on input line 701.
 (pdftex.def)             Requested size: 412.02156pt x 393.58792pt.
- [27 <./figures/Fig1_Workflow-eps-converted-to.pdf>]
-[28 <./figures/Fig2_StudySelection-eps-converted-to.pdf>] [29] [30] [31]
-[32] [33] [34] [35] [36] [37] [38] [39] [40]
+ [28 <./figures/Fig1_Workflow-eps-converted-to.pdf>]
+[29 <./figures/Fig2_StudySelection-eps-converted-to.pdf>] [30] [31] [32]
+[33] [34] [35] [36] [37] [38] [39] [40] [41]
 Cap\'{\i }tulo 5.
-[41
+[42
 
 ]
 Cap\'{\i }tulo 6.
-[42
+[43
 
-] [43
+] [44
 
-] [44]
-Overfull \hbox (7.38779pt too wide) in paragraph at lines 1045--1045
+] [45]
+Overfull \hbox (7.38779pt too wide) in paragraph at lines 1064--1064
 \T1/cmr/m/n/12 2016, Seattle, WA, USA: As-so-cia-tion for Com-pu-ting Ma-chi-ne
 ry, 2016, págs. 1073[]1075,
  []
 
-[45] [46]
-Overfull \hbox (6.58615pt too wide) in paragraph at lines 1045--1045
+[46] [47]
+Overfull \hbox (6.58615pt too wide) in paragraph at lines 1064--1064
 \T1/cmr/m/n/12 en \T1/cmr/m/it/12 Agent-oriented metho-do-lo-gies\T1/cmr/m/n/12
  , IGI Glo-bal Scien-ti-fic Pu-blishing, 2005, págs. 107[]135. 
  []
 
-[47]
+[48]
 Ap\'{e}ndice A.
-[48
+[49
 
 ] (main.aux
 LaTeX Info: Redefining \. on input line 12.
@@ -1221,8 +1237,8 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25248 strings out of 467392
- 462528 string characters out of 5405638
+ 25249 strings out of 467392
+ 462535 string characters out of 5405638
  1406867 words of memory out of 5000000
  54094 multiletter control sequences out of 15000+600000
  644750 words of font info for 74 fonts, out of 8000000 for 9000
@@ -1249,9 +1265,9 @@ lic/amsfonts/cm/cmr12.pfb><C:/Users/Mikec/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmr8.pfb><C:/Users/Mikec/AppData/Local/Programs/MiKTeX/
 fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Mikec/AppData/Local/Program
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (60 pages, 1170818 bytes).
+Output written on main.pdf (61 pages, 1173835 bytes).
 PDF statistics:
- 1734 PDF objects out of 2073 (max. 8388607)
- 220 named destinations out of 1000 (max. 500000)
+ 1740 PDF objects out of 2073 (max. 8388607)
+ 221 named destinations out of 1000 (max. 500000)
  728 words of extra memory for PDF output out of 10000 (max. 10000000)
 
