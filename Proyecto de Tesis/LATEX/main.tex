@@ -191,7 +191,7 @@ Una de las actividades fundamentales y de mayor impacto en la ingeniería de sof
 
 Diversos trabajos han explorado la automatización de actividades específicas del diseño de software; sin embargo, la evidencia reportada en la literatura sugiere que estas iniciativas suelen enfocarse en etapas particulares del proceso de diseño y rara vez abordan su integración de manera integral, o permanecen como demostraciones conceptuales que no cubren de manera integral todas las actividades del diseño. Esto se analiza a profundidad en el \cref{arte}.
 
-En respuesta a esta problemática, \textbf{esta investigación propone una meta-arquitectura basada en un sistema multiagente para la generación autónoma de artefactos de diseño}. Una meta-arquitectura establece el marco de referencia y las reglas de composición que permiten abstraer, generalizar y coordinar múltiples configuraciones de orden inferior bajo un modelo unificado\cite{metaarch2005Smeda}. La propuesta se compone de cuatro agentes especializados responsables de las actividades de diseño arquitectónico, diseño de componentes e interfaces, diseño de estructuras de datos y diseño algorítmico. En conjunto, dichos agentes colaboran para construir una especificación progresivamente refinada a partir de los requerimientos del sistema.
+En respuesta a esta problemática, \textbf{esta investigación propone una meta-arquitectura basada en un sistema multiagente para la generación autónoma de artefactos de diseño}. Una meta-arquitectura establece el marco de referencia y las reglas de composición que permiten abstraer, generalizar y coordinar múltiples configuraciones de orden inferior bajo un modelo unificado \cite{metaarch2005Smeda}. La propuesta se compone de cuatro agentes especializados responsables de las actividades de diseño arquitectónico, diseño de componentes e interfaces, diseño de estructuras de datos y diseño algorítmico. En conjunto, dichos agentes colaboran para construir una especificación progresivamente refinada a partir de los requerimientos del sistema.
 
 %Sin embargo, replicar la totalidad del proceso de diseño de sistemas (de software) constituye un desafío multidimensional, lo cual implica considerar simultáneamente restricciones de costo, sostenibilidad, seguridad, resiliencia y desempeño \cite{Maier2022} \cite{Crowder2016}. 
 
@@ -272,13 +272,13 @@ El \textbf{Capítulo 1} establece la base del estudio mediante la introducción 
 El Marco Teórico constituye el cimiento conceptual sobre el cual se erige esta investigación. Su propósito fundamental es articular las teorías, paradigmas y modelos previos que otorgan validez científica a la problemática planteada, sirviendo como mapa orientador para el desarrollo de la propuesta.
 
 \section{Ingeniería de Software y el ciclo de vida de los sistemas}
-La Ingeniería de Software se establece como una disciplina fundamental dentro de las ciencias computacionales, cuyo propósito principal es la aplicación de principios, métodos y herramientas sistemáticas para el desarrollo, operación y mantenimiento de software de alta calidad. De acuerdo con \cite{}, esta disciplina abarca no solo los aspectos técnicos de la construcción de programas, sino también la gestión de proyectos, el análisis de requerimientos y la garantía de calidad. Por su parte, \cite{} la define como un enfoque ingenieril que busca resolver problemas complejos de desarrollo mediante la aplicación de procesos estructurados y estandarizados.
+La Ingeniería de Software se establece como una disciplina fundamental dentro de las ciencias computacionales, cuyo propósito principal es la aplicación de principios, métodos y herramientas sistemáticas para el desarrollo, operación y mantenimiento de software de alta calidad. No existe una unica definición ni caracterizacion de este proceso de ingenieria, pero entre los trabajos que mejor la explican se encuentran \cite{Sommerville2015-px,swebok2014}, esta disciplina abarca no solo los aspectos técnicos de la construcción de programas, sino también la gestión de proyectos, el análisis de requerimientos y la garantía de calidad. Por su parte, la define como un enfoque ingenieril que busca resolver problemas complejos de desarrollo mediante la aplicación de procesos estructurados y estandarizados.
 
-En el corazón de la Ingeniería de Software se encuentra el Ciclo de Vida del Desarrollo de Sistemas (SDLC, por sus siglas en inglés Systems Development Life Cycle). Este modelo conceptual describe las fases necesarias para llevar un sistema informático desde su concepción inicial, pasando por su diseño y construcción, hasta su implementación, operación y eventual retirada \cite{}.
+En el corazón de la Ingeniería de Software se encuentra el Ciclo de Vida del Desarrollo de Sistemas (SDLC, por sus siglas en inglés Systems Development Life Cycle). Este modelo conceptual describe las fases necesarias para llevar un sistema informático desde su concepción inicial, pasando por su diseño y construcción, hasta su implementación, operación y eventual retirada \cite{12207IEEE}.
 
 Tradicionalmente, el ciclo de vida se estructura en etapas secuenciales bien definidas:
 
-1. Análisis de Requisitos: Identificación y documentación de las necesidades del usuario y las restricciones del sistema \cite{}.
+1. Análisis de Requisitos: Identificación y documentación de las necesidades del usuario y las restricciones del sistema.
 
 2. Diseño del Sistema: Traducción de los requisitos en una arquitectura de software y especificaciones detalladas de componentes, bases de datos e interfaces.
 
@@ -290,6 +290,7 @@ Tradicionalmente, el ciclo de vida se estructura en etapas secuenciales bien def
 
 6. Mantenimiento: Evolución continua del software para corregir fallos, mejorar el rendimiento o adaptarlo a nuevos entornos tecnológicos.
 
+7. Desecho: Como se dispone del sistema y sus respectivas gestiones, este ultimo si esta considerado en el SWEBOK  \cite{swebok2014}.
 Dependiendo de la naturaleza del proyecto de investigación, estas fases pueden adoptarse mediante enfoques predictivos tradicionales (como el modelo en cascada) o metodologías ágiles e iterativas, las cuales permiten una mayor flexibilidad ante los cambios constantes en los requerimientos del entorno \cite{}.
 
 \cite{12207IEEE}

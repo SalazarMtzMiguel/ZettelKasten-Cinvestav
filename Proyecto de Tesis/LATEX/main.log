@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.10.22)  29 OCT 2026 23:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.10.22)  29 OCT 2026 23:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1018,9 +1018,6 @@ Cap\'{\i }tulo 2.
 LaTeX Warning: Citation '' on page 6 undefined on input line 275.
 
 
-LaTeX Warning: Citation '' on page 6 undefined on input line 275.
-
-
 LaTeX Warning: Citation '' on page 6 undefined on input line 277.
 
 
@@ -1168,7 +1165,7 @@ Package epstopdf Info: Source file: <figures/Fig1_Workflow.eps>
 w-eps-converted-to.pdf figures/Fig1_Workflow.eps>
 (epstopdf)             \includegraphics on input line 692.
 Package epstopdf Info: Output file is already uptodate.
-<figures/Fig1_Workflow-eps-converted-to.pdf, id=760, 604.2575pt x 709.65125pt>
+<figures/Fig1_Workflow-eps-converted-to.pdf, id=762, 604.2575pt x 709.65125pt>
 File: figures/Fig1_Workflow-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/Fig1_Workflow-eps-converted-to.pdf>
 Package pdftex.def Info: figures/Fig1_Workflow-eps-converted-to.pdf  used on in
@@ -1186,7 +1183,7 @@ to.pdf>
 lection-eps-converted-to.pdf figures/Fig2_StudySelection.eps>
 (epstopdf)             \includegraphics on input line 701.
 Package epstopdf Info: Output file is already uptodate.
-<figures/Fig2_StudySelection-eps-converted-to.pdf, id=767, 717.68124pt x 685.56
+<figures/Fig2_StudySelection-eps-converted-to.pdf, id=769, 717.68124pt x 685.56
 125pt>
 File: figures/Fig2_StudySelection-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/Fig2_StudySelection-eps-converted-to.pdf>
@@ -1237,10 +1234,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25249 strings out of 467392
- 462535 string characters out of 5405638
- 1406867 words of memory out of 5000000
- 54094 multiletter control sequences out of 15000+600000
+ 25253 strings out of 467392
+ 462719 string characters out of 5405638
+ 1407940 words of memory out of 5000000
+ 54097 multiletter control sequences out of 15000+600000
  644750 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,12n,77p,5814b,2657s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1265,9 +1262,9 @@ lic/amsfonts/cm/cmr12.pfb><C:/Users/Mikec/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmr8.pfb><C:/Users/Mikec/AppData/Local/Programs/MiKTeX/
 fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Mikec/AppData/Local/Program
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (61 pages, 1173835 bytes).
+Output written on main.pdf (61 pages, 1174284 bytes).
 PDF statistics:
- 1740 PDF objects out of 2073 (max. 8388607)
- 221 named destinations out of 1000 (max. 500000)
+ 1742 PDF objects out of 2073 (max. 8388607)
+ 222 named destinations out of 1000 (max. 500000)
  728 words of extra memory for PDF output out of 10000 (max. 10000000)
 
