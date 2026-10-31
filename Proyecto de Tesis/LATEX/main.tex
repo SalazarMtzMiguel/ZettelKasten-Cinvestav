@@ -395,14 +395,15 @@ Esta actividad define de manera precisa e inequívoca las interfaces entre los c
 %Aquí la actividad especifica como cada componente opera, cumpliendo funciones y objetivos específicos.
 En esta etapa se especifica con mayor precisión cómo operará cada uno de los componentes identificados durante el diseño arquitectónico. El diseño de componentes puede adoptar diferentes niveles de detalle según las necesidades del proyecto: desde una descripción funcional sencilla que indique qué debe hacer el componente, hasta la adaptación de un componente reutilizable ya existente, o bien la elaboración de un modelo de diseño detallado que defina su estructura interna, comportamiento y relaciones \cite{Sommerville2015-px}. El SWEBOK sitúa esta actividad dentro del detailed design (diseño detallado), cuyo propósito fundamental es describir cada componente con el nivel de detalle suficiente para que pueda ser construido de manera inequívoca por los desarrolladores. Esto implica definir no solo las responsabilidades del componente, sino también sus interfaces internas, las estructuras de datos que manipula, los algoritmos principales que ejecuta y las restricciones de rendimiento o de calidad que debe satisfacer \cite{swebok2024}.
 
-\subsection{Diseño de Estructuras de datos}
+\subsection{Diseño de Base de datos}
 %Esta parte funciona para modelar todas la estructuras de datos que se usaran en los algoritmos, ademas de proporcionar diferentes esquemas para las bases de datos y viceversa, es decir se pueden moldear tablas a partir de estructura de datos necesarias o diseñar estructuras de datos a partir de los requerimientos de información en las bases de datos.
-
+El diseño de bases de datos consiste en definir las estructuras de datos del sistema y la forma en que éstas se representarán en una base de datos. Esta actividad abarca tanto el modelado lógico y físico de la base de datos (tablas, relaciones, índices, restricciones de integridad, etc.) como el diseño de las estructuras de datos en memoria que utilizarán los componentes y algoritmos del software (listas, árboles, tablas hash, grafos, colas, etc.)\cite{Sommerville2015-px}. Existe una relación estrecha y bidireccional entre ambos aspectos: las necesidades de información y los patrones de acceso definidos en la base de datos influyen directamente en las estructuras de datos que se emplean en la aplicación, y a su vez, los requisitos de rendimiento y manipulación de datos de los algoritmos condicionan el diseño del esquema de la base de datos.
+El SDD \cite{1016_2009} refuerza esta visión a través del Punto de vista de informacion (Information Viewpoint), donde se especifican los elementos de diseño relacionados con la información: las entidades de diseño (data items, data types and classes, data stores y access mechanisms), las relaciones de diseño (asociacion, usos, implementaciones), los atributos de datos junto con sus restricciones y relaciones estáticas, así como los atributos de diseño de persistencia y propiedades de calidad.
 
 \subsection{Diseño de Algoritmos}
 %MEJORAR
 %Esta es la actividad en la que indagaremos, se encarga del diseño de algoritmos, según la necesidad, eficiencia y eficacia de lo que necesitemos resolver.
-
+Esta actividad forma parte del diseño detallado de componentes y se enfoca en la definición de los algoritmos que implementarán la lógica de procesamiento de cada componente. Su objetivo es seleccionar o diseñar soluciones algorítmicas que sean correctas, eficientes y adecuadas a los requisitos de rendimiento, tiempo de respuesta y uso de recursos del sistema. Aunque Sommerville \cite{Sommerville2015-px} la integra dentro del diseño de componentes, estándares como el IEEE 1016 \cite{1016_2009} (a través del Algorithm Viewpoint) y el SWEBOK \cite{swebok2024}reconocen la importancia de especificar explícitamente los algoritmos cuando su complejidad o criticidad lo justifica. En este trabajo se trata como una actividad diferenciada para permitir un análisis riguroso de corrección, complejidad computacional y optimización.
 
 %\section{Diseño Automatizado de Algoritmos}
 
@@ -410,8 +411,6 @@ En esta etapa se especifica con mayor precisión cómo operará cada uno de los 
 Los sistemas multiagentes abordan un paradigma donde cada agente puede ser de distinto tipo, reactivos, BDI, basados en lógica, basados en planeación, basados en utilidad, basados en aprendizajes, de pizarra negra, basados en mercado, o híbridos mezclando características entre los mismos.
 \subsection{Fundamentos y arquitecturas de los Sistemas Multiagentes}
 Un agente se puede caracterizar por cualquier elemento que tenga una función.
-\subsection{Tipología cognitiva de agentes: Modelos de caja negra (puramente estadísticos/reactivos	) vs. Modelos de caja gris (híbridos o neuro-simbólicos)}
-
 \subsection{Paradigmas de coordinación y comunicación ínter-agente}
 
 \section{Modelos grande de lenguaje (LLM)}
