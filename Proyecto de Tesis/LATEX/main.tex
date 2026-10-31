@@ -364,37 +364,44 @@ Un Sistema de Auto-Ingeniería (\textit{SES}) se define por su capacidad para ge
 
 \section{Actividades de diseño}
 %\cite sommerville
-Siguiendo el modelo general de diseño propuesto por Sommerville en las dos ultimas ediciones de "Software Engineering" \cite{sommerville2011software,Sommerville2015-px}, se contemplan las actividades de Diseño Arquitectónico, Diseño de Interfaces, Diseño de Componentes y Diseño de Bases de Datos.
+Siguiendo el modelo general de diseño propuesto por Sommerville en las dos ultimas ediciones de "Software Engineering"  \cite{sommerville2011software,Sommerville2015-px}, se contemplan las actividades de Diseño Arquitectónico, Diseño de Interfaces, Diseño de Componentes y Diseño de Bases de Datos.
 
-
-
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{figures/Fig3_DesignProcess.eps}
+	\caption{Diagrama del proceso de diseño inspirado en el diagrama 2.5 de Ingenieria de software de Sommerville.(Diagrama elaborado en Draw.io)}
+	\label{fig:DesignProcess}
+\end{figure}
+\shorthandoff{"}
 Adicionalmente, se incluye de forma explícita la actividad de Diseño de Algoritmos como parte del diseño detallado de componentes. Esta decisión se fundamenta en:
 La necesidad de especificar con precisión la lógica de procesamiento cuando los algoritmos presentan alta complejidad computacional o requisitos no funcionales críticos (rendimiento, tiempo real, etc.).
-La recomendación de estándares y guías de referencia como lo son el "Software Design Descriptions" y la "Guide to the Software Engineering Body of Knowledge"  \cite{1016_2009, swebok2024} que reconocen el diseño de algoritmos como una actividad diferenciada dentro del diseño detallado.
+La recomendación de estándares y guías de referencia como lo son el "Software Design Descriptions" (SDD) y la "Guide to the Software Engineering Body of Knowledge"  \cite{1016_2009, swebok2024} que reconocen el diseño de algoritmos como una actividad diferenciada dentro del diseño detallado.
 La separación de preocupaciones (separation of concerns), que facilita la verificación, el análisis de complejidad y la posterior implementación.
-
+\shorthandon{"}
 
 
 \subsection{Diseño de Arquitectura}
 
-Esta especificación según \cite{sommerville2011software} es la parte en la cual se hace una visión general del sistema y como de be operar.
+%Esta especificación según \cite{sommerville2011software} es la parte en la cual se hace una visión general del sistema y como de be operar.
+Según Sommerville \cite{sommerville2011software}, el diseño arquitectónico consiste en identificar la estructura general del sistema, los componentes principales (también denominados sub-sistemas o módulos), sus relaciones y la forma en que se distribuyen. Esta actividad produce una visión de alto nivel que define cómo debe organizarse el sistema para satisfacer los requisitos funcionales y no funcionales. El SWEBOK \cite{swebok2024} y el estándar IEEE 1016 \cite{1016} refuerzan esta idea al considerar la arquitectura como la organización fundamental de los elementos de software y sus relaciones.
 
 \subsection{Diseño de Interfaces}
-Esta actividad especifica como es que las interfaces van a a operar antes de incluso diseñar componentes, una vez declarado esto los componentes solo adaptas estas maneras de comunicación para garantizar cohesión y acoplamiento requerido.
-
+%Esta actividad especifica como es que las interfaces van a a operar antes de incluso diseñar componentes, una vez declarado esto los componentes solo adaptas estas maneras de comunicación para garantizar cohesión y acoplamiento requerido.
+Esta actividad define de manera precisa e inequívoca las interfaces entre los componentes del sistema. Sommerville Et. Al. \cite{Sommerville2015-px} destaca que una vez especificadas las interfaces, los componentes pueden diseñarse y desarrollarse de forma concurrente, ya que cada uno solo necesita conocer el contrato de comunicación (operaciones, parámetros y comportamientos esperados). Esto favorece un bajo acoplamiento y una alta cohesión. El estandar IEEE 1016  \cite{1016_2009} incluye el punto de vista de la interfaz (Interface Viewpoint) como una de las vistas recomendadas para documentar estos contratos.
 
 
 \subsection{Diseño de Componentes}
 
-Aquí la actividad especifica como cada componente opera, cumpliendo funciones y objetivos específicos.
+%Aquí la actividad especifica como cada componente opera, cumpliendo funciones y objetivos específicos.
+En esta etapa se especifica con mayor precisión cómo operará cada uno de los componentes identificados durante el diseño arquitectónico. El diseño de componentes puede adoptar diferentes niveles de detalle según las necesidades del proyecto: desde una descripción funcional sencilla que indique qué debe hacer el componente, hasta la adaptación de un componente reutilizable ya existente, o bien la elaboración de un modelo de diseño detallado que defina su estructura interna, comportamiento y relaciones \cite{Sommerville2015-px}. El SWEBOK sitúa esta actividad dentro del detailed design (diseño detallado), cuyo propósito fundamental es describir cada componente con el nivel de detalle suficiente para que pueda ser construido de manera inequívoca por los desarrolladores. Esto implica definir no solo las responsabilidades del componente, sino también sus interfaces internas, las estructuras de datos que manipula, los algoritmos principales que ejecuta y las restricciones de rendimiento o de calidad que debe satisfacer \cite{swebok2024}.
 
 \subsection{Diseño de Estructuras de datos}
-Esta parte funciona para modelar todas la estructuras de datos que se usaran en los algoritmos, ademas de proporcionar diferentes esquemas para las bases de datos y viceversa, es decir se pueden moldear tablas a partir de estructura de datos necesarias o diseñar estructuras de datos a partir de los requerimientos de información en las bases de datos.
+%Esta parte funciona para modelar todas la estructuras de datos que se usaran en los algoritmos, ademas de proporcionar diferentes esquemas para las bases de datos y viceversa, es decir se pueden moldear tablas a partir de estructura de datos necesarias o diseñar estructuras de datos a partir de los requerimientos de información en las bases de datos.
 
 
 \subsection{Diseño de Algoritmos}
-MEJORAR
-Esta es la actividad en la que indagaremos, se encarga del diseño de algoritmos, según la necesidad, eficiencia y eficacia de lo que necesitemos resolver.
+%MEJORAR
+%Esta es la actividad en la que indagaremos, se encarga del diseño de algoritmos, según la necesidad, eficiencia y eficacia de lo que necesitemos resolver.
 
 
 %\section{Diseño Automatizado de Algoritmos}
@@ -690,7 +697,7 @@ La Figura~\ref{fig:SearchProcess} ilustra el flujo general de identificación de
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\textwidth]{figures/Fig1_Workflow.eps}
-	\caption{Revisión del flujo de trabajo basado en PRISMA.}
+	\caption{Revisión del flujo de trabajo basado en PRISMA.(Diagrama elaborado en Draw.io)}
 	\label{fig:SearchProcess}
 \end{figure}
 
@@ -699,7 +706,7 @@ Para complementar el flujo de PRISMA, se añade una vista preliminar a manera de
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.9\textwidth]{figures/Fig2_StudySelection.eps}
-	\caption{Proceso de selección de artículos con resultados cuantitativos por etapa de cribado.}
+	\caption{Proceso de selección de artículos con resultados cuantitativos por etapa de cribado. (Diagrama elaborado en Draw.io)}
 	\label{fig:Cribado}
 \end{figure}
 

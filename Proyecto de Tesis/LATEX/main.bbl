@@ -614,8 +614,8 @@
       \strng{authornamehash}{cbf44511d041dc6d1dd73cc0c033122c}
       \strng{authorfullhash}{cbf44511d041dc6d1dd73cc0c033122c}
       \strng{authorfullhashraw}{cbf44511d041dc6d1dd73cc0c033122c}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{White Paper}
@@ -652,8 +652,8 @@
       \strng{authornamehash}{e3ca3cb9bfd6cef4666aa8fea7700438}
       \strng{authorfullhash}{e3ca3cb9bfd6cef4666aa8fea7700438}
       \strng{authorfullhashraw}{e3ca3cb9bfd6cef4666aa8fea7700438}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Computer}
@@ -681,8 +681,8 @@
       \strng{authornamehash}{7bb018b160d19c13ef9838e91e53cccf}
       \strng{authorfullhash}{7bb018b160d19c13ef9838e91e53cccf}
       \strng{authorfullhashraw}{7bb018b160d19c13ef9838e91e53cccf}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{4}
@@ -723,8 +723,8 @@
       \strng{authornamehash}{5aea8c516384ea7ce99e2018b9132c6d}
       \strng{authorfullhash}{47a00ed545445e3b81bdc29245863ac3}
       \strng{authorfullhashraw}{47a00ed545445e3b81bdc29245863ac3}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0001-0782}
@@ -816,8 +816,8 @@
       \strng{authorfullhash}{d94ee572b9b2b49e8d7138a7a042f6e0}
       \strng{authorfullhashraw}{d94ee572b9b2b49e8d7138a7a042f6e0}
       \field{extraname}{1}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{<p>We propose a solution based on first principles and AI to the decades-old problem of data structure design. Instead of working on individual designs that each can only be helpful in a small set of environments, we propose the construction of an engine, a Data Alchemist, which learns how to blend fine-grained data structure design principles to automatically synthesize brand new data structures.</p>}
@@ -892,8 +892,8 @@
       \strng{authorfullhash}{19b0ed7abe877c5b1275fd141248f6ef}
       \strng{authorfullhashraw}{19b0ed7abe877c5b1275fd141248f6ef}
       \field{extraname}{2}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Data Eng. Bull.}
@@ -926,8 +926,8 @@
       \strng{authornamehash}{63efc10e3c0b49e711e574ef77d0dbdd}
       \strng{authorfullhash}{63efc10e3c0b49e711e574ef77d0dbdd}
       \strng{authorfullhashraw}{63efc10e3c0b49e711e574ef77d0dbdd}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the 2016 24th ACM SIGSOFT International Symposium on Foundations of Software Engineering}
@@ -980,8 +980,8 @@
       \strng{authornamehash}{b7c23a6ca22d6e428fea93c1aad37744}
       \strng{authorfullhash}{3f8e79d889b99af7950a5f0b9c22270d}
       \strng{authorfullhashraw}{3f8e79d889b99af7950a5f0b9c22270d}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the 40th International Conference on Software Engineering}
@@ -1234,8 +1234,8 @@
       \strng{authornamehash}{72b8a308387b4ac51d6ea6839b6bb994}
       \strng{authorfullhash}{72b8a308387b4ac51d6ea6839b6bb994}
       \strng{authorfullhashraw}{72b8a308387b4ac51d6ea6839b6bb994}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2025 40th IEEE/ACM International Conference on Automated Software Engineering Workshops (ASEW)}
@@ -1293,8 +1293,8 @@
       \strng{authornamehash}{66b0213b6555f350ca0272fc062c4816}
       \strng{authorfullhash}{d8c6d41c183d77b7183ae57dea16a935}
       \strng{authorfullhashraw}{d8c6d41c183d77b7183ae57dea16a935}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{SoutheastCon 2025}
@@ -1339,8 +1339,8 @@
       \strng{authornamehash}{ac24ecf96fa6cfca6d4ffd1aee27f447}
       \strng{authorfullhash}{7c7b0aab28c5dbda6dfcfdd84f642166}
       \strng{authorfullhashraw}{7c7b0aab28c5dbda6dfcfdd84f642166}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2169-3536}
@@ -1376,8 +1376,8 @@
       \strng{authornamehash}{1769c43d18962c90f39fce5dde63417f}
       \strng{authorfullhash}{1769c43d18962c90f39fce5dde63417f}
       \strng{authorfullhashraw}{1769c43d18962c90f39fce5dde63417f}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2023 IEEE/ACM 18th Symposium on Software Engineering for Adaptive and Self-Managing Systems (SEAMS)}
@@ -1536,8 +1536,8 @@
       \strng{authornamehash}{69c1efa4f6ab0deea3df12876fea0709}
       \strng{authorfullhash}{b37368b8b0982e5c110334919bd2e0e1}
       \strng{authorfullhashraw}{b37368b8b0982e5c110334919bd2e0e1}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{BMJ}
@@ -1578,8 +1578,8 @@
       \strng{authornamehash}{bfd5bed68d4e3feb5cdc7e00ae82b588}
       \strng{authorfullhash}{bfd5bed68d4e3feb5cdc7e00ae82b588}
       \strng{authorfullhashraw}{bfd5bed68d4e3feb5cdc7e00ae82b588}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{01}
@@ -1709,6 +1709,7 @@
       \range{pages}{29}
     \endentry
   \enddatalist
+  \missing{1016}
   \missing{ZhangYiranKnowledge}
 \endrefsection
 \endinput
