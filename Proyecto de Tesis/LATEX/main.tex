@@ -183,7 +183,7 @@ Muchas Gracias a todos.
 %propuesta
 %delimitacion
 %ontribuciones
-El desarrollo de sistemas de software modernos requiere la ejecución coordinada de múltiples actividades de ingeniería de software, desde el análisis de requerimientos, diseño, implementación, pruebas, operación y mantenimiento hasta el desecho final de los sistemas \cite{swebok2014}.
+El desarrollo de sistemas de software modernos requiere la ejecución coordinada de múltiples actividades de ingeniería de software, desde el análisis de requerimientos, diseño, implementación, pruebas, operación y mantenimiento hasta el desecho final de los sistemas \cite{swebok2024}.
 
 A lo largo de las últimas décadas, se ha evidenciado que las actividades de mantenimiento, actualización y evolución de artefactos de software representan una etapa con alto coste en términos de capital humano, tiempo de desarrollo y recursos financieros \cite{thefinancial2015Areti}\cite{contemporanysoftware2025wesley}. Con el objetivo de eliminar la dependencia de la intervención humana y reducir el tiempo de desarrollo se origina la teoría de los Sistemas de Auto-Ingeniería (\textit{Self-Engineering Systems} - SES), la cual introduce un marco conceptual y una meta-arquitectura que habilitan a los sistemas ejecutar modificaciones autónomas sobre sí mismos, abriendo la posibilidad de realizar procesos de auto-evolución o metamorfosis \cite{perez2024}. \textbf{El propósito fundamental de un sistema SES es gestionar y ejecutar su propio proceso de ingeniería más allá de su ciclo de vida convencional, prescindiendo de la intervención humana.}\cite{PerezCarrillo2026}
 
@@ -272,7 +272,7 @@ El \textbf{Capítulo 1} establece la base del estudio mediante la introducción 
 El Marco Teórico constituye el cimiento conceptual sobre el cual se erige esta investigación. Su propósito fundamental es articular las teorías, paradigmas y modelos previos que otorgan validez científica a la problemática planteada, sirviendo como mapa orientador para el desarrollo de la propuesta.
 
 \section{Ingeniería de Software y el ciclo de vida de los sistemas}
-La Ingeniería de Software se establece como una disciplina fundamental dentro de las ciencias computacionales, cuyo propósito principal es la aplicación de principios, métodos y herramientas sistemáticas para el desarrollo, operación y mantenimiento de software de alta calidad. No existe una única definición ni caracterización de este proceso de ingeniería, pero entre los trabajos que mejor la explican se encuentran \cite{Sommerville2015-px,swebok2014}, esta disciplina abarca no solo los aspectos técnicos de la construcción de programas, sino también la gestión de proyectos, el análisis de requerimientos y la garantía de calidad. Por su parte, la define como un enfoque ingenieril que busca resolver problemas complejos de desarrollo mediante la aplicación de procesos estructurados y estandarizados.
+La Ingeniería de Software se establece como una disciplina fundamental dentro de las ciencias computacionales, cuyo propósito principal es la aplicación de principios, métodos y herramientas sistemáticas para el desarrollo, operación y mantenimiento de software de alta calidad. No existe una única definición ni caracterización de este proceso de ingeniería, pero entre los trabajos que mejor la explican se encuentran \cite{Sommerville2015-px,swebok2024}, esta disciplina abarca no solo los aspectos técnicos de la construcción de programas, sino también la gestión de proyectos, el análisis de requerimientos y la garantía de calidad. Por su parte, la define como un enfoque ingenieril que busca resolver problemas complejos de desarrollo mediante la aplicación de procesos estructurados y estandarizados.
 
 En el corazón de la Ingeniería de Software se encuentra el Ciclo de Vida del Desarrollo de Sistemas (SDLC, por sus siglas en inglés Systems Development Life Cycle). Este modelo conceptual describe las fases necesarias para llevar un sistema informático desde su concepción inicial, pasando por su diseño y construcción, hasta su implementación, operación y eventual retirada \cite{12207IEEE}.
 
@@ -290,14 +290,14 @@ Tradicionalmente, el ciclo de vida se estructura en etapas secuenciales bien def
 
 6. Mantenimiento: Evolución continua del software para corregir fallos, mejorar el rendimiento o adaptarlo a nuevos entornos tecnológicos.
 
-7. Retiro o reemplazo<: Como se dispone del sistema y sus respectivas gestiones al termino se su vida o cuando entre otros sistema a relevarlo \cite{swebok2014}.
-Dependiendo de la naturaleza del proyecto de investigación, estas fases pueden adoptarse mediante enfoques predictivos tradicionales (como el modelo en cascada) o metodologías ágiles e iterativas, las cuales permiten una mayor flexibilidad ante los cambios constantes en los requerimientos del entorno \cite{12207IEEE,swebok2014}.
+7. Retiro o reemplazo<: Como se dispone del sistema y sus respectivas gestiones al termino se su vida o cuando entre otros sistema a relevarlo \cite{swebok2024}.
+Dependiendo de la naturaleza del proyecto de investigación, estas fases pueden adoptarse mediante enfoques predictivos tradicionales (como el modelo en cascada) o metodologías ágiles e iterativas, las cuales permiten una mayor flexibilidad ante los cambios constantes en los requerimientos del entorno \cite{12207IEEE,swebok2024}.
 
 
 \section{Sistemas de Auto-Ingeniería}
 %\cite perez
 En el trabajo de Perez-Carrillo Et. Al. \cite{perez2024} se busca que los mismos sistemas no terminen el ciclo de su vida en desecho, si no, que sin intervención humana continúen su operación bajo el concepto de elasticidad del sistema o que sufran una metamorfosis dando pie a un nuevo sistema, esta perspectiva se conoce como el marco de los sistemas de auto-ingeniería.
-Los SES contemplan un proceso muy similar a la ingeniería de software tradicional, es decir, las actividades como lo son ingeniería de requerimientos, diseño, implementación, pruebas, etc.\cite{sommerville2011software} tienen lugar en este marco de trabajo. Este trabajo unicamente esta enfocado en el diseño del software automatizado, basado en lineamientos presentes en \cite{swebok2014}. Por lo tanto el foco de este manuscrito esta puesto en la producción de artefactos de diseño, que fungen como planos del sistema antes de implementación en código.
+Los SES contemplan un proceso muy similar a la ingeniería de software tradicional, es decir, las actividades como lo son ingeniería de requerimientos, diseño, implementación, pruebas, etc.\cite{sommerville2011software} tienen lugar en este marco de trabajo. Este trabajo unicamente esta enfocado en el diseño del software automatizado, basado en lineamientos presentes en \cite{swebok2024}. Por lo tanto el foco de este manuscrito esta puesto en la producción de artefactos de diseño, que fungen como planos del sistema antes de implementación en código.
 
 La teoría SES introduce conceptos que permiten identificar fases y actividades dentro de la vida de estos sistemas \cite{PerezCarrillo2026}:
 
@@ -364,14 +364,14 @@ Un Sistema de Auto-Ingeniería (\textit{SES}) se define por su capacidad para ge
 
 \section{Actividades de diseño}
 %\cite sommerville
-Las actividades principales de la ingeniería de diseño son:
-\begin{enumerate}
-	\item Diseño de Arquitectura
-	\item Diseño de Interfaces
-	\item Diseño de componentes
-	\item Diseño de Estructuras de datos
-	\item Diseño de Algoritmos
-\end{enumerate}
+Siguiendo el modelo general de diseño propuesto por Sommerville en las dos ultimas ediciones de "Software Engineering" \cite{sommerville2011software,Sommerville2015-px}, se contemplan las actividades de Diseño Arquitectónico, Diseño de Interfaces, Diseño de Componentes y Diseño de Bases de Datos.
+
+
+
+Adicionalmente, se incluye de forma explícita la actividad de Diseño de Algoritmos como parte del diseño detallado de componentes. Esta decisión se fundamenta en:
+La necesidad de especificar con precisión la lógica de procesamiento cuando los algoritmos presentan alta complejidad computacional o requisitos no funcionales críticos (rendimiento, tiempo real, etc.).
+La recomendación de estándares y guías de referencia como lo son el "Software Design Descriptions" y la "Guide to the Software Engineering Body of Knowledge"  \cite{1016_2009, swebok2024} que reconocen el diseño de algoritmos como una actividad diferenciada dentro del diseño detallado.
+La separación de preocupaciones (separation of concerns), que facilita la verificación, el análisis de complejidad y la posterior implementación.
 
 
 

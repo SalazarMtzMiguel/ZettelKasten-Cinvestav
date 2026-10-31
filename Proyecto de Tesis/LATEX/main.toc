@@ -27,21 +27,21 @@
 \contentsline {subsection}{\numberline {2.3.3}Diseño de Componentes}{11}{subsection.2.3.3}%
 \contentsline {subsection}{\numberline {2.3.4}Diseño de Estructuras de datos}{11}{subsection.2.3.4}%
 \contentsline {subsection}{\numberline {2.3.5}Diseño de Algoritmos}{11}{subsection.2.3.5}%
-\contentsline {section}{\numberline {2.4}Sistemas multiagentes (MAS)}{11}{section.2.4}%
+\contentsline {section}{\numberline {2.4}Sistemas multiagentes (MAS)}{12}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}Fundamentos y arquitecturas de los Sistemas Multiagentes}{12}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}Tipología cognitiva de agentes: Modelos de caja negra (puramente estadísticos/reactivos ) vs. Modelos de caja gris (híbridos o neuro-simbólicos)}{12}{subsection.2.4.2}%
 \contentsline {subsection}{\numberline {2.4.3}Paradigmas de coordinación y comunicación ínter-agente}{12}{subsection.2.4.3}%
 \contentsline {section}{\numberline {2.5}Modelos grande de lenguaje (LLM)}{12}{section.2.5}%
 \contentsline {subsection}{\numberline {2.5.1}Principios de inferencia y generación de texto en modelos de lenguaje}{12}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}Capacidades de los LLMs en la comprensión, diseño y generación de código}{12}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.2}Capacidades de los LLMs en la comprensión, diseño y generación de código}{13}{subsection.2.5.2}%
 \contentsline {subsection}{\numberline {2.5.3}Limitaciones actuales: Alucinaciones, ventanas de contexto y deficiencias en el razonamiento algorítmico determinista}{13}{subsection.2.5.3}%
 \contentsline {section}{\numberline {2.6}Árbol de búsqueda de Monte-Carlo (MCTS)}{13}{section.2.6}%
 \contentsline {subsection}{\numberline {2.6.1}Espacios de búsqueda y métodos de toma de decisiones secuenciales}{14}{subsection.2.6.1}%
 \contentsline {subsection}{\numberline {2.6.2}Fases algorítmicas del MCTS}{14}{subsection.2.6.2}%
 \contentsline {section}{\numberline {2.7}Ontología como representación de conocimiento}{14}{section.2.7}%
-\contentsline {subsection}{\numberline {2.7.1}Definición y estructura de las ontologías computacionales (clases, atributos, relaciones)}{14}{subsection.2.7.1}%
-\contentsline {subsection}{\numberline {2.7.2}Lenguajes de modelado ontológico}{14}{subsection.2.7.2}%
-\contentsline {subsection}{\numberline {2.7.3}Modelado semántico para la taxonomía y clasificación de problemas algorítmicos}{14}{subsection.2.7.3}%
+\contentsline {subsection}{\numberline {2.7.1}Definición y estructura de las ontologías computacionales (clases, atributos, relaciones)}{15}{subsection.2.7.1}%
+\contentsline {subsection}{\numberline {2.7.2}Lenguajes de modelado ontológico}{15}{subsection.2.7.2}%
+\contentsline {subsection}{\numberline {2.7.3}Modelado semántico para la taxonomía y clasificación de problemas algorítmicos}{15}{subsection.2.7.3}%
 \contentsline {chapter}{\numberline {3}Estado del Arte}{16}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Conceptualización del Auto-Diseño}{16}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Automatización del Diseño}{17}{section.3.2}%
