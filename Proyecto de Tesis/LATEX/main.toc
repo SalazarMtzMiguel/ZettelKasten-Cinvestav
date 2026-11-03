@@ -38,51 +38,51 @@
 \contentsline {section}{\numberline {2.6}Árbol de búsqueda de Monte-Carlo (MCTS)}{17}{section.2.6}%
 \contentsline {section}{\numberline {2.7}Ontología como representación de conocimiento}{18}{section.2.7}%
 \contentsline {subsection}{\numberline {2.7.1}Definición y estructura de las ontologías computacionales (clases, atributos, relaciones)}{18}{subsection.2.7.1}%
-\contentsline {subsection}{\numberline {2.7.2}Lenguajes de modelado ontológico}{18}{subsection.2.7.2}%
-\contentsline {subsection}{\numberline {2.7.3}Modelado semántico para la taxonomía y clasificación de problemas algorítmicos}{18}{subsection.2.7.3}%
-\contentsline {chapter}{\numberline {3}Estado del Arte}{20}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Conceptualización del Auto-Diseño}{20}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Automatización del Diseño}{21}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Auto-diseño basado en Inteligencia Artificial y Aprendizaje}{21}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Autodiseño bio-inspirado, de reúso y búsqueda}{22}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Autodiseño basado en modelado de agentes}{22}{subsection.3.2.3}%
-\contentsline {section}{\numberline {3.3}Conceptos Emergentes y Mecanismos de Control en Autodiseño}{23}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Comparación de Trabajos}{23}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Propuesta}{24}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Metodología}{24}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Revisión Sistemática de literatura}{24}{subsection.4.1.1}%
-\contentsline {subsubsection}{\numberline {4.1.1.1}Formulación preguntas de investigación}{24}{subsubsection.4.1.1.1}%
-\contentsline {subsubsection}{\numberline {4.1.1.2}Estrategia de búsqueda}{25}{subsubsection.4.1.1.2}%
-\contentsline {subsubsection}{\numberline {4.1.1.3}Criterios de Inclusión y de exclusión}{29}{subsubsection.4.1.1.3}%
-\contentsline {subsubsection}{\numberline {4.1.1.4}Proceso de selección de estudios}{31}{subsubsection.4.1.1.4}%
-\contentsline {subsubsection}{\numberline {4.1.1.5}Extracción de datos}{33}{subsubsection.4.1.1.5}%
-\contentsline {subsubsection}{\numberline {4.1.1.6}Resultados}{34}{subsubsection.4.1.1.6}%
-\contentsline {subsubsection}{\numberline {4.1.1.7}Discusión}{34}{subsubsection.4.1.1.7}%
-\contentsline {subsection}{\numberline {4.1.2}Propuesta de un Sistema Multi-Agentes (MAS) para satisfacer el auto-diseño}{34}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Desarrollo de la metodología Prometheus}{35}{subsection.4.1.3}%
-\contentsline {subsubsection}{\numberline {4.1.3.1}Especificación del sistema}{36}{subsubsection.4.1.3.1}%
-\contentsline {subsubsection}{\numberline {4.1.3.2}Diseño arquitectónico}{37}{subsubsection.4.1.3.2}%
-\contentsline {subsubsection}{\numberline {4.1.3.3}Diseño detallado}{38}{subsubsection.4.1.3.3}%
-\contentsline {subsection}{\numberline {4.1.4}Análisis y validación del modelo de agentes}{39}{subsection.4.1.4}%
-\contentsline {section}{\numberline {4.2}Propuesta de marco conceptual y arquitectura}{40}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Definición conceptual y formal}{41}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Propuesta detallada}{41}{subsection.4.2.2}%
-\contentsline {subsubsection}{\numberline {4.2.2.1}Agente de arquitectura}{41}{subsubsection.4.2.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2.2}Agente de componentes e interfaces}{42}{subsubsection.4.2.2.2}%
-\contentsline {subsubsection}{\numberline {4.2.2.3}Agente de estructuras de datos}{42}{subsubsection.4.2.2.3}%
-\contentsline {subsubsection}{\numberline {4.2.2.4}Agente de algoritmos}{43}{subsubsection.4.2.2.4}%
-\contentsline {subsection}{\numberline {4.2.3}Mecanismo de coordinación y consenso}{43}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}Resumen conceptual}{44}{subsection.4.2.4}%
-\contentsline {chapter}{\numberline {5}Experimentación y Análisis de Resultados}{46}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Análisis de selección automática de algoritmos}{46}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Análisis de la arquitectura: auto-diseño}{46}{subsection.5.1.1}%
-\contentsline {section}{\numberline {5.2}Experimentación}{46}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Caso de estudio: nuevo problema, nueva solución}{46}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Experimento: Identificación del Problema}{46}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}Experimento: Identificación del Algoritmo}{46}{subsection.5.2.3}%
-\contentsline {chapter}{\numberline {6}Conclusiones y Trabajo Futuro}{47}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Conclusiones}{47}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Objetivos logrados}{47}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Trabajo a futuro}{47}{section.6.3}%
-\contentsline {chapter}{Referencias Bibliográficas}{48}{chapter*.16}%
-\contentsline {chapter}{\numberline {A}Código Fuente Relevante}{53}{appendix.A}%
+\contentsline {subsection}{\numberline {2.7.2}Lenguajes de modelado ontológico}{19}{subsection.2.7.2}%
+\contentsline {subsection}{\numberline {2.7.3}Modelado semántico para la taxonomía y clasificación de problemas algorítmicos}{20}{subsection.2.7.3}%
+\contentsline {chapter}{\numberline {3}Estado del Arte}{22}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Conceptualización del Auto-Diseño}{22}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Automatización del Diseño}{23}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Auto-diseño basado en Inteligencia Artificial y Aprendizaje}{23}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Autodiseño bio-inspirado, de reúso y búsqueda}{24}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Autodiseño basado en modelado de agentes}{24}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}Conceptos Emergentes y Mecanismos de Control en Autodiseño}{25}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Comparación de Trabajos}{25}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Propuesta}{26}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Metodología}{26}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Revisión Sistemática de literatura}{26}{subsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.1.1}Formulación preguntas de investigación}{26}{subsubsection.4.1.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.1.2}Estrategia de búsqueda}{27}{subsubsection.4.1.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.1.3}Criterios de Inclusión y de exclusión}{31}{subsubsection.4.1.1.3}%
+\contentsline {subsubsection}{\numberline {4.1.1.4}Proceso de selección de estudios}{33}{subsubsection.4.1.1.4}%
+\contentsline {subsubsection}{\numberline {4.1.1.5}Extracción de datos}{35}{subsubsection.4.1.1.5}%
+\contentsline {subsubsection}{\numberline {4.1.1.6}Resultados}{36}{subsubsection.4.1.1.6}%
+\contentsline {subsubsection}{\numberline {4.1.1.7}Discusión}{36}{subsubsection.4.1.1.7}%
+\contentsline {subsection}{\numberline {4.1.2}Propuesta de un Sistema Multi-Agentes (MAS) para satisfacer el auto-diseño}{36}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Desarrollo de la metodología Prometheus}{37}{subsection.4.1.3}%
+\contentsline {subsubsection}{\numberline {4.1.3.1}Especificación del sistema}{38}{subsubsection.4.1.3.1}%
+\contentsline {subsubsection}{\numberline {4.1.3.2}Diseño arquitectónico}{39}{subsubsection.4.1.3.2}%
+\contentsline {subsubsection}{\numberline {4.1.3.3}Diseño detallado}{40}{subsubsection.4.1.3.3}%
+\contentsline {subsection}{\numberline {4.1.4}Análisis y validación del modelo de agentes}{41}{subsection.4.1.4}%
+\contentsline {section}{\numberline {4.2}Propuesta de marco conceptual y arquitectura}{42}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Definición conceptual y formal}{43}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Propuesta detallada}{43}{subsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.2.1}Agente de arquitectura}{43}{subsubsection.4.2.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2.2}Agente de componentes e interfaces}{44}{subsubsection.4.2.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.2.3}Agente de estructuras de datos}{44}{subsubsection.4.2.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.2.4}Agente de algoritmos}{45}{subsubsection.4.2.2.4}%
+\contentsline {subsection}{\numberline {4.2.3}Mecanismo de coordinación y consenso}{45}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Resumen conceptual}{46}{subsection.4.2.4}%
+\contentsline {chapter}{\numberline {5}Experimentación y Análisis de Resultados}{48}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Análisis de selección automática de algoritmos}{48}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Análisis de la arquitectura: auto-diseño}{48}{subsection.5.1.1}%
+\contentsline {section}{\numberline {5.2}Experimentación}{48}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Caso de estudio: nuevo problema, nueva solución}{48}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Experimento: Identificación del Problema}{48}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Experimento: Identificación del Algoritmo}{48}{subsection.5.2.3}%
+\contentsline {chapter}{\numberline {6}Conclusiones y Trabajo Futuro}{49}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Conclusiones}{49}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Objetivos logrados}{49}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Trabajo a futuro}{49}{section.6.3}%
+\contentsline {chapter}{Referencias Bibliográficas}{50}{chapter*.16}%
+\contentsline {chapter}{\numberline {A}Código Fuente Relevante}{56}{appendix.A}%

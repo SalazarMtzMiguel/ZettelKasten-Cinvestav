@@ -470,19 +470,43 @@ El ciclo iterativo consta de cuatro fases: selección, expansión, simulación y
 \end{itemize}
 
 
-\section{Ontología como representación de conocimiento}
+\section{Ontología como representación de conocimiento} 
 
-Una ontología es una especificación formal y explícita de un dominio: define conceptos, relaciones, individuos, axiomas y restricciones para que el conocimiento pueda ser compartido, reutilizado y procesado por máquinas \cite{OntologyGuarino2009}.
-Se caracterizan por representaciones semánticas porque no solo organiza datos, sino que hace explícito el significado de esos datos y las relaciones entre entidades, lo que permite inferencia, interoperabilidad y comprensión automática por software.
+Una ontología es una especificación formal y explícita de una conceptualización compartida de un dominio \cite{GruberOntology, OntologyGuarino2009}. En el ámbito de las ciencias de la computación y la representación del conocimiento, las ontologías proporcionan un vocabulario estructurado que hace explícito el significado de los datos y las relaciones entre entidades \cite{Horrocks2003}. Cumplen un doble propósito: un propósito \textbf{representacional}, enfocado en la enumeración declarativa de los hechos del dominio, y un propósito \textbf{computacional}, orientado a la derivación de inferencias lógicas a partir de los hechos representados. Esta capacidad inferencial permite que sistemas de software e inteligencia artificial procesen, compartan, reutilicen y comprendan datos de forma autónoma, sin requerir intervención humana previa ni conocimientos precodificados. 
+\subsection{Definición y estructura de las ontologías computacionales (clases, atributos, relaciones)} Una ontología computacional organiza el conocimiento de un dominio a través de varios componentes lógicos interrelacionados: 
+\begin{itemize} 
+	\item \textbf{Clases o Conceptos}: Representan las categorías generales o conjuntos de objetos dentro del dominio de discurso. Se estructuran mediante jerarquías de subclases, donde los conceptos más específicos heredan las propiedades y características de las categorías más generales \cite{GruberOntology}. 
+	\item \textbf{Relaciones o Propiedades de Objeto}: Definen los vínculos y asociaciones entre diferentes clases o individuos. Permiten especificar cómo interactúan las entidades e incluyen restricciones de dominio (qué conceptos pueden originar la relación) y de rango (qué conceptos pueden recibirla), además de características lógicas como transitividad, simetría o relaciones inversas \cite{Horrocks2003}. 
+	\item \textbf{Atributos o Propiedades de Datos}: Asocian a los individuos o instancias con valores de datos concretos y literales, tales como números enteros, cadenas de texto, fechas o valores booleanos. 
+	\item \textbf{Individuos o Instancias}: Corresponden a los objetos o entidades concretos y particulares que existen dentro del dominio y que pertenecen a una o más clases específicas \cite{GruberOntology}. 
+	\item \textbf{Axiomas y Restricciones}: Reglas y afirmaciones lógicas que definen las condiciones necesarias y suficientes para la pertenencia a un concepto, restringen la interpretación del vocabulario y garantizan la consistencia lógica del sistema para fundamentar el razonamiento automático \cite{GruberOntology, Horrocks2003}. 
+\end{itemize} 
+\subsection{Lenguajes de modelado ontológico} Los lenguajes de modelado ontológico han evolucionado con el objetivo de equilibrar la riqueza expresiva en la representación del conocimiento con la eficiencia computacional durante el proceso de inferencia automática \cite{Horrocks2003}. Entre las tecnologías y estándares principales destacan: 
+\begin{itemize} 
+	\item \textbf{RDF y RDFS}: El Marco de Descripción de Recursos (\textit{Resource Description Framework}, RDF) proporciona una estructura básica basada en triples formados por sujeto, predicado y objeto para declarar datos en la Web. Por su parte, \textit{RDF Schema} (RDFS) extiende este marco ofreciendo un vocabulario para organizar clases en jerarquías y definir el dominio y el rango de las propiedades \cite{Horrocks2003}. 
+	\item \textbf{Lógicas de Descripción}: Constituyen una familia de formalismos lógicos derivados de la lógica de primer orden que proveen una semántica formal rigurosa basada en teoría de modelos, garantizando procedimientos de decisión decidibles para la deducción automática \cite{Horrocks2003}. 
+	\item \textbf{OWL (Web Ontology Language)}: Es el estándar del W3C diseñado para la representación de ontologías en la Web Semántica, construido sobre RDF/RDFS y fundamentado en las Lógicas de Descripción \cite{Horrocks2003}. OWL amplía la capacidad expresiva de RDFS al permitir combinaciones lógicas de clases (unión, intersección y complemento), la declaración de clases disjuntas, restricciones locales sobre propiedades y restricciones de cardinalidad. OWL se divide en tres sublenguajes o perfiles adaptados a distintos requerimientos:
+	\begin{enumerate} 
+		\item \textbf{OWL Lite}: Ofrece una sintaxis reducida y menor complejidad computacional, orientada a usuarios que requieren jerarquías simples y restricciones básicas con un razonamiento rápido. 
+		\item \textbf{OWL DL}: Basado en lógicas de descripción expresivas, garantiza la decidibilidad del razonamiento (asegurando que los algoritmos de inferencia siempre terminan en un tiempo finito) mientras mantiene una elevada capacidad de representación formal. 
+		\item \textbf{OWL Full}: Ofrece máxima compatibilidad semántica con RDF y permite el metamodelado (como tratar clases como si fuesen individuos), aunque pierde la garantía de decidibilidad computacional.
+	\end{enumerate} 
+\end{itemize} 
 
-\subsection{Definición y estructura de las ontologías computacionales (clases, atributos, relaciones)}
-
-
-\subsection{Lenguajes de modelado ontológico}
-Aquí va OWL
-
-\subsection{Modelado semántico para la taxonomía y clasificación de problemas algorítmicos}
-El trabajo de \cite{duran2026seleccion} une estos temas, para lograr la selección automática de algoritmos, esto en sistemas del internet de las cosas (IoT), la ontología deriva del trabajo \cite{DURANPOLANCO2023100904} donde se propone una taxonomía para la toma de decisiones bajo incertidumbre, considera características como el Objetivo, Tipo de Procesamiento, Capa de procesamiento, Interacción, incertidumbre, representación de conocimiento y un enfoque algorítmico.
+\subsection{Modelado semántico para la taxonomía y clasificación de problemas algorítmicos} 
+El modelado semántico resulta fundamental para estructurar la caracterización de problemas de decisión y guiar la selección adaptativa de algoritmos en entornos computacionales dinámicos \cite{duran2026seleccion}. El trabajo de \cite{DURANPOLANCO2023100904} introduce la taxonomía \textbf{TDMIoT} (\textit{Taxonomy for Decision-Making in IoT Systems}), la cual conceptualiza el proceso de decisión como una asociación estructurada entre un problema de decisión y una solución algorítmica. TDMIoT organiza el dominio a través de siete dimensiones clave organizadas en dos espacios:
+\begin{itemize} 
+	\item \textbf{Espacio del Problema}: Se define mediante el \textit{Objetivo} principal (pronóstico, optimización, planificación, resolución de conflictos o predicción esta última subclasificada en estimación, regresión y clasificación), el tipo de \textit{Procesamiento} (centralizado o descentralizado), la \textit{Capa de procesamiento} (percepción, middleware o aplicación), el tipo de \textit{Interacción} (del sistema o humana) y la fuente de \textit{Incertidumbre} (de medición, de parámetros o de modelo). 
+	\item \textbf{Espacio de la Solución}: Se caracteriza mediante la \textit{Representación del conocimiento} (basada en datos, simbólica, matemática o híbrida) y el \textit{Enfoque algorítmico} (guiado por criterios, guiado por datos, guiado por utilidad o guiado por probabilidad). 
+\end{itemize} 
+Sobre la base conceptual de esta taxonomía, \cite{duran2026seleccion} propone la ontología \textbf{O-DMIoT} (\textit{Ontology for Decision-Making in the IoT}), fundamentada en la ontología superior UFO (\textit{Unified Foundational Ontology}) y desarrollada mediante la metodología de ingeniería ontológica SABiO. O-DMIoT formaliza el conocimiento organizándolo en capas lógicas interconectadas: 
+\begin{itemize} 
+	\item \textbf{Capa de Requerimientos}: Caracteriza los problemas de decisión e independiza la definición del problema de la estrategia algorítmica, formalizando especificaciones de entrada, salida, parámetros y criterios de rendimiento. 
+	\item \textbf{Capa de Diseño}: Especifica las estrategias algorítmicas, supuestos, complejidad y restricciones teóricas del algoritmo sin vincularse al entorno de ejecución. 
+	\item \textbf{Capa de Ejecución}: Operativiza el algoritmo instanciándolo como un servicio desplegado dentro de la infraestructura tecnológica. 
+	\item \textbf{Rol de Evaluación}: Actúa de manera transversal asociando métricas de Calidad de Servicio (QoS), Calidad de Experiencia (QoE) y características intrínsecas del algoritmo (complejidad temporal y espacial) para evaluar el desempeño. 
+\end{itemize} 
+Este marco semántico permite abordar la selección de algoritmos como un proceso de planificación secuencial guiado por razonamiento ontológico y aprendizaje automático, posibilitando la reconfiguración adaptativa de servicios en tiempo de ejecución \cite{duran2026seleccion}.
 
 
 
