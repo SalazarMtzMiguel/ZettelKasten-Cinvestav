@@ -407,12 +407,43 @@ Esta actividad forma parte del diseño detallado de componentes y se enfoca en l
 
 %\section{Diseño Automatizado de Algoritmos}
 
-\section{Sistemas multiagentes (MAS)}
-Los sistemas multiagentes abordan un paradigma donde cada agente puede ser de distinto tipo, reactivos, BDI, basados en lógica, basados en planeación, basados en utilidad, basados en aprendizajes, de pizarra negra, basados en mercado, o híbridos mezclando características entre los mismos.
+
+\section{Sistemas Multiagentes (MAS)}
+Los Sistemas Multiagentes (MAS, por sus siglas en inglés) constituyen una subdisciplina fundamental de la Inteligencia Artificial Distribuida (DAI). Se definen como redes de entidades computacionales autónomas (agentes) que interactúan dentro de un entorno dinámico compartiendo conocimiento y recursos para resolver problemas complejos que exceden las capacidades individuales de un solo agente. A diferencia del paradigma de resolución de problemas distribuida (DPS) convencional, los MAS destacan por su flexibilidad, capacidad de cómputo paralelo, escalabilidad modular y tolerancia a fallos mediante una degradación suave del sistema en caso de avería de alguno de sus componentes.\cite{InnMAS2010}
+
 \subsection{Fundamentos y arquitecturas de los Sistemas Multiagentes}
-Un agente se puede caracterizar por cualquier elemento que tenga una función.
+Un agente se conceptualiza como una entidad autónoma o hilo de ejecución concurrente que percibe su entorno a través de sensores y actúa sobre él mediante actuadores. Sus características primordiales abarcan la autonomía en la toma de decisiones, la reactividad ante cambios del entorno, la proactividad orientada a metas y la capacidad de interacción social con otros agentes.
+
+En cuanto a la \textbf{arquitectura interna (micro-arquitectura)}, los agentes se clasifican principalmente en:
+\begin{itemize}
+	\item \textbf{Homogéneos:} Todos los agentes comparten la misma arquitectura interna, capacidad sensorial, estados locales y mecanismos de inferencia, diferenciándose únicamente en su ubicación física y en los datos recibidos del entorno.
+	\item \textbf{Heterogéneos:} Los agentes difieren en sus estructuras, funcionalidades y objetivos locales, lo que permite modelar escenarios y dinámicas del mundo real con mayor fidelidad.
+\end{itemize}
+Asimismo, según sus modelos cognoscitivos y de control, los agentes abarcan arquitecturas reactivas, basadas en reglas, modelos deliberativos BDI (\textit{Belief-Desire-Intention}), esquemas adaptativos basados en aprendizaje o enfoques híbridos que integran capas de control en tiempo real con módulos de inferencia superior.
+
+En el nivel de la \textbf{organización global (macro-arquitectura)}, la literatura identifica diversos patrones organizacionales:
+\begin{itemize}
+	\item \textbf{Jerárquica:} Estructura en árbol donde las directivas de control y supervisión fluyen desde niveles superiores a inferiores, mientras que los datos procesados ascienden en la jerarquía.
+	\item \textbf{Holónica:} Organización basada en estructuras estables y fractales denominadas holones y superholones, donde subagentes vinculados por compromisos eligen un agente cabeza (\textit{Head Agent}) para interactuar con el entorno exterior.
+	\item \textbf{Coaliciones:} Agrupaciones dinámicas y temporales de agentes orientadas a maximizar la utilidad o el rendimiento en tareas específicas, disolviéndose una vez alcanzado el objetivo.
+	\item \textbf{Equipos:} Estructuras cooperativas donde los agentes colaboran colectivamente para optimizar el desempeño global del grupo como un conjunto articulado.
+\end{itemize}
+
 \subsection{Paradigmas de coordinación y comunicación}
-\subsection{Comunicación por pizarra o tablero}
+La interacción en un MAS es indispensable para prevenir conflictos por recursos distribuidos, evitar situaciones de caos y optimizar los objetivos del sistema. La comunicación entre agentes se formaliza mediante Lenguajes de Comunicación de Agentes (ACL), como FIPA-ACL o KQML, los cuales requieren una ontología compartida y un formato de protocolo estandarizado.
+
+La \textbf{coordinación} dentro del sistema se articula a través de tres paradigmas principales:
+\begin{itemize}
+	\item \textbf{Basada en Protocolos:} Emplea mecanismos de negociación distribuida como el \textit{Contract Net Protocol} (CNP), donde los agentes administradores (*Managers*) subastan contratos a agentes ejecutores (*Contractors*) mediante licitaciones.
+	\item \textbf{Basada en Grafos de Coordinación:} Descompone el problema global en subjuegos locales y calcula acciones conjuntas óptimas mediante la combinación lineal de pagos a través de algoritmos como la eliminación de variables o \textit{max-plus}.
+	\item \textbf{Basada en Modelos de Creencias:} Cada agente mantiene un modelo interno del comportamiento de sus vecinos, facilitando la toma de decisiones ágil en entornos dinámicos con restricciones temporales estrictas.
+\end{itemize}
+
+\subsection{Comunicación por pizarra o tablero (Blackboard Communication)}
+A diferencia del paso directo de mensajes (\textit{message passing}), la comunicación mediante \textbf{pizarra o tablero (\textit{Blackboard})} constituye un esquema centralizado y desacoplado donde un grupo de agentes comparte un repositorio común de información.
+
+En este modelo, el \textit{Blackboard} actúa como un almacenamiento compartido para datos de diseño y conocimiento de control. El acceso a esta memoria compartida se gestiona mediante una interfaz de red o \textit{control shell}, encargada de notificar a los agentes cuando existe información relevante disponible. Aunque esta arquitectura simplifica la coordinación de grupos de agentes remotos, su principal limitación radica en que la pizarra representa un punto único de fallo (\textit{single point of failure}), por lo que una avería central puede inhabilitar al grupo completo.
+
 
 \section{Modelos grande de lenguaje (LLM)}
 Los LLM son tecnologías que procesan el lenguaje natural, derivado de un entrenamiento previo del modelo, estas son grandes herramientas que por si solas ayudan mucho a tareas de escritura y de análisis derivado de los patrones que ya reconocen.
