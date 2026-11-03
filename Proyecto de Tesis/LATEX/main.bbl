@@ -1576,6 +1576,65 @@
       \verb http://dx.doi.org/10.1109/ASEW67777.2025.00063
       \endverb
     \endentry
+    \entry{Maadli2025}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=ccfe4b6462cc2c41c5eac65db8ee7b55}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Ruiyin},
+           giveni={R\bibinitperiod}}}%
+        {{hash=6c7200e4b0c3035cbd3caf92698aa359}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yiran},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=83f23f4b03ba695beb33cc220aa82248}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Xiyu},
+           giveni={X\bibinitperiod}}}%
+        {{hash=41658c7f1126a9a84da600b357c5ceb5}{%
+           family={Liang},
+           familyi={L\bibinitperiod},
+           given={Peng},
+           giveni={P\bibinitperiod}}}%
+        {{hash=7aa93e9d7062492b9ca284653a9e9929}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Weisong},
+           giveni={W\bibinitperiod}}}%
+        {{hash=a6ea168bf59987fdcef79f355405ba98}{%
+           family={Xuan},
+           familyi={X\bibinitperiod},
+           given={Jifeng},
+           giveni={J\bibinitperiod}}}%
+        {{hash=59ead1ce694d996ebe61da34178792ee}{%
+           family={Jin},
+           familyi={J\bibinitperiod},
+           given={Zhi},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=621013bf54d3546375ad71f17f020b5b}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Yang},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{3e534aae46d44d58199d214a7429805f}
+      \strng{fullhash}{2fcaf447e12e050f6704873229942897}
+      \strng{fullhashraw}{2fcaf447e12e050f6704873229942897}
+      \strng{bibnamehash}{3e534aae46d44d58199d214a7429805f}
+      \strng{authorbibnamehash}{3e534aae46d44d58199d214a7429805f}
+      \strng{authornamehash}{3e534aae46d44d58199d214a7429805f}
+      \strng{authorfullhash}{2fcaf447e12e050f6704873229942897}
+      \strng{authorfullhashraw}{2fcaf447e12e050f6704873229942897}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2507.21382}
+      \field{title}{Maad: Automate software architecture design through knowledge-driven multi-agent collaboration}
+      \field{year}{2025}
+    \endentry
     \entry{Rajendran2025AMulti-Agent}{inproceedings}{}{}
       \name{author}{5}{}{%
         {{hash=2d96e269c08f78875b87e4d5a3ea15b9}{%
@@ -2032,7 +2091,6 @@
     \endentry
   \enddatalist
   \missing{1016}
-  \missing{ZhangYiranKnowledge}
 \endrefsection
 \endinput
 
