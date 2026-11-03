@@ -430,11 +430,11 @@ En el nivel de la \textbf{organización global (macro-arquitectura)}, la literat
 \end{itemize}
 
 \subsection{Paradigmas de coordinación y comunicación}
-La interacción en un MAS es indispensable para prevenir conflictos por recursos distribuidos, evitar situaciones de caos y optimizar los objetivos del sistema. La comunicación entre agentes se formaliza mediante Lenguajes de Comunicación de Agentes (ACL), como FIPA-ACL o KQML, los cuales requieren una ontología compartida y un formato de protocolo estandarizado.
+La interacción en un MAS es indispensable para prevenir conflictos por recursos distribuidos, evitar situaciones de caos y optimizar los objetivos del sistema. La comunicación entre agentes se formaliza mediante Lenguajes de Comunicación de Agentes (ACL), como FIPA-ACL (Foundation for Intelligent Physical Agents - Agent Communication Language) o KQML (Knowledge Query and Manipulation Language), los cuales requieren una ontología compartida y un formato de protocolo estandarizado.
 
 La \textbf{coordinación} dentro del sistema se articula a través de tres paradigmas principales:
 \begin{itemize}
-	\item \textbf{Basada en Protocolos:} Emplea mecanismos de negociación distribuida como el \textit{Contract Net Protocol} (CNP), donde los agentes administradores (*Managers*) subastan contratos a agentes ejecutores (*Contractors*) mediante licitaciones.
+	\item \textbf{Basada en Protocolos:} Emplea mecanismos de negociación distribuida como el \textit{Contract Net Protocol} (CNP), donde los agentes administradores (Managers) subastan contratos a agentes ejecutores (Contractors) mediante licitaciones.
 	\item \textbf{Basada en Grafos de Coordinación:} Descompone el problema global en subjuegos locales y calcula acciones conjuntas óptimas mediante la combinación lineal de pagos a través de algoritmos como la eliminación de variables o \textit{max-plus}.
 	\item \textbf{Basada en Modelos de Creencias:} Cada agente mantiene un modelo interno del comportamiento de sus vecinos, facilitando la toma de decisiones ágil en entornos dinámicos con restricciones temporales estrictas.
 \end{itemize}
