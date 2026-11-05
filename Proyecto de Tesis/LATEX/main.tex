@@ -183,19 +183,17 @@ Muchas Gracias a todos.
 %propuesta
 %delimitacion
 %ontribuciones
-El desarrollo de sistemas de software modernos requiere la ejecución coordinada de múltiples actividades de ingeniería de software, desde el análisis de requerimientos, diseño, implementación, pruebas, operación y mantenimiento hasta el desecho final de los sistemas \cite{swebok2024}.
+El desarrollo de sistemas de software modernos requiere la ejecución coordinada de múltiples actividades de ingeniería de software, desde el análisis de requerimientos, diseño, implementación y pruebas, hasta las fases de operación, mantenimiento y eventual reemplazo de los sistemas \cite{swebok2024}.
+A lo largo de las últimas décadas, diversos estudios han evidenciado que las actividades de mantenimiento, actualización y evolución de artefactos de software constituyen una de las etapas más costosas del ciclo de vida del software, tanto en términos de capital humano como de tiempo de desarrollo y recursos financieros \cite{thefinancial2015Areti,contemporanysoftware2025wesley}. Esta situación ha motivado la búsqueda de enfoques capaces de reducir la dependencia de la intervención humana en dichos procesos y automatizar las tareas de evolución del software.
+En este contexto surge la teoría de los Sistemas de Auto-Ingeniería (\textit{Self-Engineering Systems}, SES), la cual propone un marco conceptual y una meta-arquitectura que permiten a los sistemas ejecutar modificaciones autónomas sobre sí mismos, habilitando procesos de auto-evolución o metamorfosis \cite{perez2024}. \textbf{Su propósito fundamental es gestionar y ejecutar su propio proceso de ingeniería más allá del ciclo de vida convencional, minimizando o incluso eliminando la necesidad de intervención humana} \cite{PerezCarrillo2026}.
 
-A lo largo de las últimas décadas, se ha evidenciado que las actividades de mantenimiento, actualización y evolución de artefactos de software representan una etapa con alto coste en términos de capital humano, tiempo de desarrollo y recursos financieros \cite{thefinancial2015Areti}\cite{contemporanysoftware2025wesley}. Con el objetivo de eliminar la dependencia de la intervención humana y reducir el tiempo de desarrollo se origina la teoría de los Sistemas de Auto-Ingeniería (\textit{Self-Engineering Systems} - SES), la cual introduce un marco conceptual y una meta-arquitectura que habilitan a los sistemas ejecutar modificaciones autónomas sobre sí mismos, abriendo la posibilidad de realizar procesos de auto-evolución o metamorfosis \cite{perez2024}. \textbf{El propósito fundamental de un sistema SES es gestionar y ejecutar su propio proceso de ingeniería más allá de su ciclo de vida convencional, prescindiendo de la intervención humana.}\cite{PerezCarrillo2026}
-
-Una de las actividades fundamentales y de mayor impacto en la ingeniería de software es la actividad de diseño \cite{sommerville2011software}. Esta actividad es crítica debido a que es la encargada de traducir los requerimientos funcionales y no funcionales en especificaciones técnicas detalladas para la posterior implementación y ejecución del sistema. Para auto-diseñar en el contexto de los sistemas SES\cite{PerezCarrillo2026}, se persigue la automatización de las actividades que conforman el proceso tradicional de diseño, es decir, \textbf{dotar al sistema de capacidades de auto-diseño} implica que la plataforma no solo reaccione a fallos, sino que sea capaz de reconfigurar conceptualmente su propia lógica interna de manera válida, segura y coherente con las decisiones arquitectónicas previas.
+Una de las actividades fundamentales y de mayor impacto en la ingeniería de software es la actividad de diseño \cite{sommerville2011software}. Esta actividad es crítica debido a que es la encargada de traducir los requerimientos funcionales, no funcionales \cite{sommerville2011software} y el dominio de las aplicaciones \cite{notionof2010} en especificaciones técnicas detalladas para la posterior implementación y ejecución del sistema. Para auto-diseñar en el contexto de los sistemas SES \cite{PerezCarrillo2026}, se persigue la automatización de las actividades que conforman el proceso tradicional de diseño, es decir, \textbf{dotar al sistema de capacidades de auto-diseño} implica que la plataforma no solo reaccione a fallos, sino que sea capaz de reconfigurar conceptualmente su propia lógica interna de manera válida, segura y coherente con las decisiones arquitectónicas previas.
 
 Diversos trabajos han explorado la automatización de actividades específicas del diseño de software; sin embargo, la evidencia reportada en la literatura sugiere que estas iniciativas suelen enfocarse en etapas particulares del proceso de diseño y rara vez abordan su integración de manera integral, o permanecen como demostraciones conceptuales que no cubren de manera integral todas las actividades del diseño. Esto se analiza a profundidad en el \cref{arte}.
 
-En respuesta a esta problemática, \textbf{esta investigación propone una meta-arquitectura basada en un sistema multiagente para la generación autónoma de artefactos de diseño}. Una meta-arquitectura establece el marco de referencia y las reglas de composición que permiten abstraer, generalizar y coordinar múltiples configuraciones de orden inferior bajo un modelo unificado \cite{metaarch2005Smeda}. La propuesta se compone de cuatro agentes especializados responsables de las actividades de diseño arquitectónico, diseño de componentes e interfaces, diseño de estructuras de datos y diseño algorítmico. En conjunto, dichos agentes colaboran para construir una especificación progresivamente refinada a partir de los requerimientos del sistema.
+En respuesta a esta problemática, \textbf{la presente investigación propone una meta-arquitectura basada en un sistema multiagente para la generación autónoma de artefactos de diseño}. Una meta-arquitectura establece el marco de referencia y las reglas de composición que permiten abstraer, generalizar y coordinar múltiples configuraciones de orden inferior bajo un modelo unificado \cite{metaarch2005Smeda}. Como fundamento conceptual, esta propuesta adopta las actividades de diseño de software descritas por Sommerville \cite{Sommerville2015-px}.  En este contexto la propuesta está conformada por cuatro agentes especializados, encargados respectivamente del diseño arquitectónico, el diseño de componentes e interfaces, el diseño de estructuras de datos y el diseño algorítmico. En conjunto, estos agentes colaboran para construir una especificación progresivamente refinada a partir de los requerimientos del sistema, mediante sus procesos individuales y mecanismos de coordinación que permiten integrar sus resultados en una solución de diseño final.
 
-%Sin embargo, replicar la totalidad del proceso de diseño de sistemas (de software) constituye un desafío multidimensional, lo cual implica considerar simultáneamente restricciones de costo, sostenibilidad, seguridad, resiliencia y desempeño \cite{Maier2022} \cite{Crowder2016}. 
-
-La presente investigación define una meta-arquitectura que contempla las actividades de diseño descritas por Sommerville Et. Al. \cite{sommerville2011software}. No obstante, como prueba de concepto y mecanismo de validación, el desarrollo e implementación se concentran en el agente responsable del diseño algorítmico.
+No obstante, como prueba de concepto y mecanismo de validación, el desarrollo e implementación se concentran en el agente responsable del diseño algorítmico.
 
 Las principales contribuciones de esta investigación son las siguientes: 
 \begin{enumerate} 
@@ -228,7 +226,7 @@ Los artefactos resultantes deben permitir documentar y comunicar las decisiones 
 
 \section{Motivación}
 
-La presente investigación surge de la necesidad de avanzar hacia sistemas de software capaces de participar activamente en su propia evolución mediante la generación y adaptación de artefactos de diseño. En entornos dinámicos y sujetos a cambios constantes, la dependencia de la intervención humana para rediseñar soluciones limita la capacidad de respuesta y adaptación de los sistemas. En este contexto, la automatización de las actividades de diseño de software representa un paso fundamental para habilitar mecanismos de razonamiento y toma de decisiones sobre la estructura y comportamiento de los sistemas. La integración de agentes especializados y mecanismos de representación explícita del conocimiento permite establecer las bases para que futuras generaciones de software puedan modificar y justificar sus decisiones de diseño de manera consistente. Finalmente, esta investigación busca contribuir al desarrollo de capacidades de autodiseño que funcionen como habilitador para la evolución y metamorfosis de sistemas SES \cite{perez2024}, buscando erradicar la dependencia del mantenimiento manual.
+La presente investigación surge de la necesidad de avanzar hacia sistemas de software capaces de participar activamente en su propia evolución mediante la generación y adaptación de artefactos de diseño. A medida que los sistemas de software incrementan su complejidad, las actividades de mantenimiento tienden a incrementar la deuda técnica acumulada (derivado de priorizar el desarrollo) \cite{thefinancial2015Areti}. Esta situación se agrava por el hecho de que los sistemas operan en entornos dinámicos y sujetos a cambios constantes \cite{runtimeCarwehl2023Runtime}, donde la dependencia de la intervención humana para analizar requerimientos, rediseñar soluciones y actualizar artefactos de diseño limita su capacidad de respuesta y adaptación. En este contexto, la automatización de las actividades de diseño de software representa un paso fundamental para habilitar mecanismos de razonamiento y toma de decisiones sobre la estructura y comportamiento de los sistemas. La integración de agentes especializados y mecanismos de representación explícita del conocimiento permite establecer las bases para que futuras generaciones de software puedan modificar y justificar sus decisiones de diseño de manera consistente. Finalmente, esta investigación busca contribuir al desarrollo de capacidades de autodiseño que funcionen como habilitador para la evolución y metamorfosis de sistemas SES \cite{perez2024}, buscando erradicar la dependencia del mantenimiento manual.
 
 \section{Objetivos}
 
@@ -242,11 +240,11 @@ Desarrollar una meta-arquitectura basada en agentes para el diseño automatizado
     
 \item Sintetizar el estado del arte del diseño automatizado de software y la selección algorítmica autónoma mediante una Revisión Sistemática de la Literatura (RSL o SLR del ingles Sistematic Literature Review), con el fin de identificar tendencias, limitaciones y oportunidades de investigación.
 
-\item Diseñar una meta-arquitectura basada en sistemas multiagente que modele y coordine las actividades de diseño de software, definiendo mecanismos de interacción entre los distintos niveles de diseño y preservando la coherencia entre los artefactos generados.
+\item Diseñar una meta-arquitectura basada en sistemas multiagente que modele y coordine las actividades de diseño de software, definiendo mecanismos de interacción entre las distintas actividades de diseño.
 
 \item Desarrollar un agente de diseño algorítmico fundamentado en representación ontológica del conocimiento, capaz de establecer asociaciones problema-solución para la selección autónoma de alternativas algorítmicas.
 
-\item Validar la viabilidad de la meta-arquitectura propuesta mediante la implementación y evaluación del agente de diseño algorítmico en escenarios experimentales controlados, analizando su capacidad para adaptarse a cambios en los requerimientos y mantener la consistencia de los artefactos de diseño generados.
+\item Validar la funcionalidad de la meta-arquitectura propuesta mediante la implementación y evaluación del agente de diseño algorítmico en escenarios experimentales controlados, analizando su capacidad para adaptarse a cambios en los requerimientos y mantener la consistencia de los artefactos de diseño generados.
 
 \end{itemize}
 
@@ -271,27 +269,19 @@ El \textbf{Capítulo 1} establece la base del estudio mediante la introducción 
 
 El Marco Teórico constituye el cimiento conceptual sobre el cual se erige esta investigación. Su propósito fundamental es articular las teorías, paradigmas y modelos previos que otorgan validez científica a la problemática planteada, sirviendo como mapa orientador para el desarrollo de la propuesta.
 
-\section{Ingeniería de Software y el ciclo de vida de los sistemas}
-La Ingeniería de Software se establece como una disciplina fundamental dentro de las ciencias computacionales, cuyo propósito principal es la aplicación de principios, métodos y herramientas sistemáticas para el desarrollo, operación y mantenimiento de software de alta calidad. No existe una única definición ni caracterización de este proceso de ingeniería, pero entre los trabajos que mejor la explican se encuentran \cite{Sommerville2015-px,swebok2024}, esta disciplina abarca no solo los aspectos técnicos de la construcción de programas, sino también la gestión de proyectos, el análisis de requerimientos y la garantía de calidad. Por su parte, la define como un enfoque ingenieril que busca resolver problemas complejos de desarrollo mediante la aplicación de procesos estructurados y estandarizados.
-
-En el corazón de la Ingeniería de Software se encuentra el Ciclo de Vida del Desarrollo de Sistemas (SDLC, por sus siglas en inglés Systems Development Life Cycle). Este modelo conceptual describe las fases necesarias para llevar un sistema informático desde su concepción inicial, pasando por su diseño y construcción, hasta su implementación, operación y eventual retirada \cite{12207IEEE}.
-
-Tradicionalmente, el ciclo de vida se estructura en etapas secuenciales bien definidas:
-
-1. Análisis de Requisitos: Identificación y documentación de las necesidades del usuario y las restricciones del sistema.
-
-2. Diseño del Sistema: Traducción de los requisitos en una arquitectura de software y especificaciones detalladas de componentes, bases de datos e interfaces.
-
-3. Implementación (Codificación): Construcción del código fuente utilizando los lenguajes y herramientas de programación adecuados.
-
-4. Pruebas (Validación y Verificación): Detección sistemática de errores, asegurando que el software cumpla con los requerimientos funcionales y no funcionales especificados.
-
-5. Despliegue e Implementación: Puesta en marcha del sistema en el entorno de producción de los usuarios finales.
-
-6. Mantenimiento: Evolución continua del software para corregir fallos, mejorar el rendimiento o adaptarlo a nuevos entornos tecnológicos.
-
-7. Retiro o reemplazo<: Como se dispone del sistema y sus respectivas gestiones al termino se su vida o cuando entre otros sistema a relevarlo \cite{swebok2024}.
-Dependiendo de la naturaleza del proyecto de investigación, estas fases pueden adoptarse mediante enfoques predictivos tradicionales (como el modelo en cascada) o metodologías ágiles e iterativas, las cuales permiten una mayor flexibilidad ante los cambios constantes en los requerimientos del entorno \cite{12207IEEE,swebok2024}.
+\section{Ingeniería de Software y el ciclo de vida de los sistemas} 
+La Ingeniería de Software es una disciplina de la ingeniería que
+se interesa por todos los aspectos de la producción de software\cite{sommerville2011software}, cuyo propósito principal es la aplicación de principios, métodos y herramientas sistemáticas para el desarrollo, operación y mantenimiento de software de alta calidad. Si bien no existe una única definición ni caracterización universal de este proceso de ingeniería, trabajos de referencia como los de \cite{Sommerville2015-px,swebok2024} coinciden en que esta disciplina abarca no solo los aspectos técnicos de la construcción de programas. Por su parte, la guía SWEBOK \cite{swebok2024} la define como un enfoque sistemático que busca resolver problemas complejos de desarrollo mediante la aplicación de procesos estructurados y estandarizados. En el corazón de la Ingeniería de Software se encuentra el Ciclo de Vida del Desarrollo de Sistemas (SDLC, por sus siglas en inglés \textit{Systems Development Life Cycle}). Este modelo conceptual describe las fases necesarias para llevar un sistema informático desde su concepción inicial, pasando por su diseño y construcción, hasta su implementación, operación y eventual retirada \cite{swebok2024}. Tradicionalmente, en los enfoques predictivos o estructurados, el ciclo de vida se organiza en etapas bien definidas: 
+\begin{itemize} 
+	\item \textbf{Análisis de Requisitos:} Identificación y documentación de las necesidades del usuario, las características operativas y las restricciones del sistema. 
+	\item \textbf{Diseño del Sistema y del Software:} Traducción de los requisitos en una arquitectura global y especificaciones detalladas de componentes, bases de datos e interfaces. 
+	\item \textbf{Implementación (Codificación):} Construcción del código fuente y unidades de programa utilizando los lenguajes y herramientas de desarrollo adecuados. 
+	\item \textbf{Pruebas (Verificación y Validación):} Detección sistemática de errores para comprobar que el software cumple con su especificación técnica (verificación) y satisface las necesidades reales del usuario en su entorno operativo (validación). 
+	\item \textbf{Despliegue y Transición:} Puesta en marcha e instalación del sistema en el entorno de producción para los usuarios finales. 
+	\item \textbf{Mantenimiento y Evolución:} Evolución continua del software para corregir fallos, mejorar el rendimiento o adaptarlo a nuevos entornos tecnológicos o requerimientos cambiantes. 
+	\item \textbf{Retiro o Reemplazo (Disposición final):} Gestión de la desactivación, archivo de datos y sustitución del sistema al término de su ciclo de vida o tras la entrada de un nuevo sistema que lo releve. 
+\end{itemize} 
+Dependiendo de la naturaleza del proyecto, estas fases pueden adoptarse mediante enfoques predictivos tradicionales (como el modelo en cascada) o metodologías ágiles e iterativas, las cuales permiten una mayor flexibilidad ante los cambios constantes en los requerimientos del entorno \cite{12207IEEE,15288LifeCycle,swebok2024}.
 
 
 \section{Sistemas de Auto-Ingeniería}
@@ -309,18 +299,17 @@ A diferencia de la literatura tradicional que debate si el mantenimiento es un s
 	\item 	Evolución por Mantenimiento: Se genera cuando los mantenimientos adaptativos, aditivos o perfectivos provocan cambios en los requerimientos.
 	\item Evolución por Cambio de Problema: Ocurre cuando cambia el problema que el sistema busca resolver, siempre y cuando la arquitectura actual sea capaz de soportar dichos cambios.
 \end{itemize}
-\subsection{Actividades de Self-O \& M y Self-Evolution}
-Son las actividades fundamentales que el sistema ejecuta de manera autónoma tras su despliegue dentro de las fases de O\&M y Evolución, respectivamente, de allí el nombre de self, es decir desarrollado por si mismo.
+\subsection{Actividades de Auto-O \& M (Self-O \& M)  y Auto-Evolución (Self-Evolution)}
+Son las actividades fundamentales (descritas previamente) que el sistema ejecuta de manera autónoma tras su despliegue dentro de las fases de O\&M y Evolución, respectivamente, de allí el nombre de self, es decir desarrollado por si mismo.
 \subsection{Punto de Quiebre / Breaking Point}
 Representa el umbral en el cual la arquitectura original del sistema ya no puede satisfacer los nuevos requerimientos.
 Al alcanzar el \textbf{Breaking Point}, se suspenden las actividades de Self-O\&M y Self-Evolution, desencadenando el inicio de un nuevo proceso e inicio de ciclo de vida de ingeniería presentado como \textbf{metamorfosis} \cite{PerezCarrillo2026}.
 \subsection{Elasticidad del Sistema / System Elasticity}
-Fundamentada en los conceptos de evolucionabilidad (evolvability) y resiliencia.
-Se define como la capacidad del sistema para asimilar requerimientos nuevos o modificados sin la necesidad de construir un nuevo sistema.
+Se define como la capacidad del sistema para asimilar requerimientos nuevos o modificados sin la necesidad de construir un nuevo sistema \cite{PerezCarrillo2026}.
 \subsection{Metamorfosis / Metamorphosis}
 
 Es la fase fundamental del paradigma SES, definida como la \textbf{trascendencia del sistema original (Sistema A) hacia un nuevo sistema (Sistema B)} mediante un nuevo proceso de Auto-Ingeniería tras alcanzar un punto de ruptura.
-Involucra la ejecución coordinada de las actividades SES \textit{Self-*: Self-Requirements, Self-Design, Self-Implementation, Self-Testing* y Self-Deployment.}
+Involucra la ejecución coordinada de las actividades SES \textit{Self-*: Self-Requirements, Self-Design, Self-Implementation, Self-Testing* y Self-Deployment} \cite{PerezCarrillo2026}.
 
 Se desencadena bajo dos condiciones principales:
 \begin{itemize}
@@ -339,113 +328,106 @@ A diferencia de la ingeniería tradicional donde un arquitecto humano toma la de
 %Proceso RCM adaptado para SES (basado en \cite{sommerville2011software}):
 
 
-La estructura de requerimientos funcionales se divide en dos componentes principales, como se menciona a continuación. Se ha determinado que la funcionalidad se manifiesta a través de las acciones principales, expresadas en verbos, y la configuración. (parámetros de tiempo, modo o condición). En lo que respecta a los requerimientos no funcionales, las métricas y los parámetros se tratan como componentes de configuración.
-El impacto se distribuye en función del componente.
-En el caso de que el cambio se produzca únicamente en la configuración, el sistema lo asimila dentro de sus fases de O\&M (Mantenimiento y Operación) y evolución.
-En el caso de que el cambio suponga una afectación a la funcionalidad o bien genere un impacto en la arquitectura que la actual no soporte, se provoca una metamorfosis.
-El procedimiento RCM, adaptado para SES (basado en \cite{sommerville2011software}), se presenta de la siguiente manera:
+La estructura de \textbf{requerimientos funcionales} se divide en dos componentes principales, la \textit{funcionalidad} se manifiesta a través de las acciones principales, expresadas en verbos, y la \textit{configuración} especifica las condiciones y los parámetros que deben seguirse \cite{PerezCarrillo2026}. 
+En lo que respecta a los \textbf{requerimientos no funcionales}, las métricas y los parámetros se tratan como componentes de configuración.
+En el caso de que el cambio suponga una afectación a la funcionalidad o bien genere un impacto en la arquitectura que la actual si soporte y permita el cambio, este se gestiona mediante actividades de auto-operación y mantenimiento (Self-O\&M) y auto-evolución (Self-Evolution).
+En caso contrario (no se soporta), se provoca una metamorfosis.
+El procedimiento RCM, adaptado para SES (basado en lo descrito por Sommerville \cite{sommerville2011software}), se presenta de la siguiente manera:
 
 \begin{itemize}
-	\item  \textit{Especificación del Cambio}: Recepción y validación de la solicitud de cambio.
-	\item  \textit{Análisis del Cambio}: Evaluación de la elasticidad del sistema para determinar si el cambio produce una nueva versión o si se alcanzó el Breaking Point.
-	\item  \textit{Implementación del Cambio}: Si la arquitectura lo soporta, el sistema evoluciona a una nueva versión; si no lo soporta, se inicia un nuevo proceso de Auto-Ingeniería dando lugar a un nuevo sistema (metamorfosis).
+	\item  \textit{Cambio de especificaciones}: Surge cuando el problema que resuelve el sistema ha cambiado, o cuando se solicita un cambio específico. En esta fase, cada solicitud se valida \cite{PerezCarrillo2026}.
+	\item  \textit{Análisis del Cambio}: Evaluación de la elasticidad del sistema para determinar si el cambio produce una nueva versión es decir continuamos en proceso de evolución o si se alcanzó el punto de quiebre se desencadena una metamorfosis \cite{PerezCarrillo2026}.
+	\item  \textit{Implementación del Cambio}: Si la arquitectura lo soporta, el sistema evoluciona a una nueva versión; si no lo soporta, se inicia un nuevo proceso de Auto-Ingeniería dando lugar a un nuevo sistema mediante la metamorfosis \cite{PerezCarrillo2026}.
 \end{itemize}
 
-En el presente estudio se aborda la especificación del cambio, un aspecto de vital importancia en el ámbito de la gestión de procesos administrativos. En este sentido, se ha observado que la recepción y validación de la solicitud de cambio constituye un elemento fundamental en el proceso de implementación de modificaciones en los sistemas organizativos.
-Así mismo el análisis del cambio, para lo cual se ha llevado a cabo una evaluación de la elasticidad del sistema. Dicha evaluación tiene por objetivo determinar si el cambio produce una nueva versión o si se ha alcanzado el punto de inflexión.
-En el ámbito de la tecnología y la innovación, la implementación del cambio se erige como un factor determinante en la evolución de los sistemas de software. En este sentido, si la arquitectura del sistema es capaz de soportar las modificaciones, entonces se procede a la actualización a una nueva versión. Por el contrario, si la arquitectura no es capaz de soportar las modificaciones, se inicia un nuevo proceso de ingeniería automática que da lugar a la creación de un nuevo sistema, lo que se conoce como metamorfosis.
+En el trabajo de Pérez et al. \cite{PerezCarrillo2026} se aborda la especificación del cambio como un elemento fundamental en la gestión de procesos administrativos. Los autores destacan la importancia de la recepción y validación de las solicitudes de cambio como paso previo a su implementación. Asimismo, proponen un \textit{análisis de la elasticidad} del sistema con el fin de determinar si las modificaciones solicitadas pueden ser absorbidas mediante un proceso de \textbf{evolución} que dé lugar a una nueva versión del sistema o si, por el contrario, se ha alcanzado un punto de quiebre que requiere una \textbf{metamorfosis}. Finalmente, la implementación del cambio dependerá de la capacidad de la arquitectura para soportar las modificaciones propuestas: cuando dicha capacidad existe, el sistema evoluciona; en caso contrario, se inicia un nuevo proceso de Auto-Ingeniería que conduce a la creación de un nuevo sistema \cite{PerezCarrillo2026}.
 
 
 
 \subsection{Meta-Arquitectura del Marco de Sistemas de Auto-Ingeniería}
 
-Un Sistema de Auto-Ingeniería (\textit{SES}) se define por su capacidad para gestionar y llevar a cabo de manera autónoma su propio proceso de ingeniería a lo largo de su ciclo de vida y durante la trascendencia del mismo \cite{PerezCarrillo2026}. El núcleo operacional de este paradigma se fundamenta en la Meta-Arquitectura de Referencia, denominada \textit{Ether}, una abstracción estructural que permanece persistente por encima de la arquitectura central del sistema y se conserva a lo largo de las transiciones entre sucesivas versiones del mismo (incluyendo nuevos sistemas) \cite{PerezCarrillo2026}. Cabe señalar que las capacidades de gestión, evolución y metamorfosis abordadas en las secciones previas son orquestadas por el propio \textit{Ether}.
+Un Sistema de Auto-Ingeniería (\textit{SES}) se define por su capacidad para gestionar y llevar a cabo de manera autónoma su propio proceso de ingeniería a lo largo de su ciclo de vida y durante la trascendencia del mismo \cite{PerezCarrillo2026}. El núcleo de este paradigma se fundamenta en la Meta-Arquitectura de Referencia, denominada \textit{Ether}, una abstracción estructural que permanece persistente por encima de la arquitectura central del sistema y se conserva a lo largo de las versiones del mismo (incluyendo nuevos sistemas) \cite{PerezCarrillo2026}. Cabe señalar que las capacidades de gestión, evolución y metamorfosis abordadas en las secciones previas son orquestadas por el propio \textit{Ether}.
 
 
 \section{Actividades de diseño}
 %\cite sommerville
-Siguiendo el modelo general de diseño propuesto por Sommerville en las dos ultimas ediciones de "Software Engineering"  \cite{sommerville2011software,Sommerville2015-px}, se contemplan las actividades de Diseño Arquitectónico, Diseño de Interfaces, Diseño de Componentes y Diseño de Bases de Datos.
+Siguiendo el modelo general de diseño propuesto por Sommerville en las dos ultimas ediciones de \textit{"Software Engineering"}  \cite{sommerville2011software,Sommerville2015-px}, se contemplan las actividades de:
+\textit{Diseño Arquitectónico, Diseño de Interfaces, Diseño de Componentes y Diseño de Bases de Datos}.
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\textwidth]{figures/Fig3_DesignProcess.eps}
-	\caption{Diagrama del proceso de diseño inspirado en el diagrama 2.5 de Ingenieria de software de Sommerville.(Diagrama elaborado en Draw.io)}
+	\caption{Diagrama del proceso de diseño inspirado en el diagrama 2.5 de Ingenieria de software (10ma edicion) de Sommerville \cite{Sommerville2015-px}.(Diagrama elaborado en Draw.io)}
 	\label{fig:DesignProcess}
 \end{figure}
+
 \shorthandoff{"}
 Adicionalmente, se incluye de forma explícita la actividad de Diseño de Algoritmos como parte del diseño detallado de componentes. Esta decisión se fundamenta en:
 La necesidad de especificar con precisión la lógica de procesamiento cuando los algoritmos presentan alta complejidad computacional o requisitos no funcionales críticos (rendimiento, tiempo real, etc.).
-La recomendación de estándares y guías de referencia como lo son el "Software Design Descriptions" (SDD) y la "Guide to the Software Engineering Body of Knowledge"  \cite{1016_2009, swebok2024} que reconocen el diseño de algoritmos como una actividad diferenciada dentro del diseño detallado.
-La separación de preocupaciones (separation of concerns), que facilita la verificación, el análisis de complejidad y la posterior implementación.
+La recomendación de estándares y guías de referencia como lo son el \textit{"Software Design Descriptions"} (SDD) \cite{1016_2009}y la \textit{"Guide to the Software Engineering Body of Knowledge"}  \cite{swebok2024} reconocen el diseño de algoritmos como una actividad diferenciada dentro del diseño detallado porque facilita la verificación, el análisis de complejidad y la posterior implementación.
 \shorthandon{"}
 
 
 \subsection{Diseño de Arquitectura}
 
 %Esta especificación según \cite{sommerville2011software} es la parte en la cual se hace una visión general del sistema y como de be operar.
-Según Sommerville \cite{sommerville2011software}, el diseño arquitectónico consiste en identificar la estructura general del sistema, los componentes principales (también denominados sub-sistemas o módulos), sus relaciones y la forma en que se distribuyen. Esta actividad produce una visión de alto nivel que define cómo debe organizarse el sistema para satisfacer los requisitos funcionales y no funcionales. El SWEBOK \cite{swebok2024} y el estándar IEEE 1016 \cite{1016} refuerzan esta idea al considerar la arquitectura como la organización fundamental de los elementos de software y sus relaciones.
+Según Sommerville \cite{sommerville2011software}, el diseño arquitectónico consiste en identificar la estructura general del sistema, los componentes principales (también denominados sub-sistemas o módulos), sus relaciones y la forma en que se distribuyen. Esta actividad produce una visión de alto nivel que define cómo debe organizarse el sistema para satisfacer los requisitos funcionales y no funcionales. El \textit{SWEBOK} \cite{swebok2024} y el estándar \textit{IEEE 1016} \cite{1016_2009} refuerzan esta idea al considerar la arquitectura como la organización fundamental de los elementos de software y sus relaciones.
 
 \subsection{Diseño de Interfaces}
 %Esta actividad especifica como es que las interfaces van a a operar antes de incluso diseñar componentes, una vez declarado esto los componentes solo adaptas estas maneras de comunicación para garantizar cohesión y acoplamiento requerido.
-Esta actividad define de manera precisa e inequívoca las interfaces entre los componentes del sistema. Sommerville Et. Al. \cite{Sommerville2015-px} destaca que una vez especificadas las interfaces, los componentes pueden diseñarse y desarrollarse de forma concurrente, ya que cada uno solo necesita conocer el contrato de comunicación (operaciones, parámetros y comportamientos esperados). Esto favorece un bajo acoplamiento y una alta cohesión. El estandar IEEE 1016  \cite{1016_2009} incluye el punto de vista de la interfaz (Interface Viewpoint) como una de las vistas recomendadas para documentar estos contratos.
+Esta actividad define las interfaces entre los componentes del sistema. \textit{Sommerville} \cite{Sommerville2015-px} destaca que una vez especificadas las interfaces, los componentes pueden diseñarse y desarrollarse de forma concurrente, ya que cada uno solo necesita conocer el contrato de comunicación (operaciones, parámetros y comportamientos esperados). Esto favorece un bajo acoplamiento y una alta cohesión. El estandar \textit{IEEE 1016}  \cite{1016_2009} incluye el punto de vista de la interfaz (Interface Viewpoint) como una de las vistas recomendadas para documentar estos contratos.
 
 
 \subsection{Diseño de Componentes}
 
 %Aquí la actividad especifica como cada componente opera, cumpliendo funciones y objetivos específicos.
-En esta etapa se especifica con mayor precisión cómo operará cada uno de los componentes identificados durante el diseño arquitectónico. El diseño de componentes puede adoptar diferentes niveles de detalle según las necesidades del proyecto: desde una descripción funcional sencilla que indique qué debe hacer el componente, hasta la adaptación de un componente reutilizable ya existente, o bien la elaboración de un modelo de diseño detallado que defina su estructura interna, comportamiento y relaciones \cite{Sommerville2015-px}. El SWEBOK sitúa esta actividad dentro del detailed design (diseño detallado), cuyo propósito fundamental es describir cada componente con el nivel de detalle suficiente para que pueda ser construido de manera inequívoca por los desarrolladores. Esto implica definir no solo las responsabilidades del componente, sino también sus interfaces internas, las estructuras de datos que manipula, los algoritmos principales que ejecuta y las restricciones de rendimiento o de calidad que debe satisfacer \cite{swebok2024}.
+En esta etapa se especifica con mayor precisión cómo operará cada uno de los componentes identificados durante el diseño arquitectónico. El diseño de componentes puede adoptar diferentes niveles de detalle según las necesidades del proyecto: desde una descripción funcional sencilla que indique qué debe hacer el componente, hasta la adaptación de un componente reutilizable ya existente, o bien la elaboración de un modelo de diseño detallado que defina su estructura interna, comportamiento y relaciones \cite{Sommerville2015-px}. El \textit{SWEBOK} sitúa esta actividad dentro del diseño detallado (detailed design), cuyo propósito fundamental es describir cada componente con el nivel de detalle suficiente para que pueda ser construido de manera inequívoca por los desarrolladores. Esto implica definir no solo las responsabilidades del componente, sino también sus interfaces internas, las estructuras de datos que manipula, los algoritmos principales que ejecuta y las restricciones de rendimiento o de calidad que debe satisfacer \cite{swebok2024}.
 
 \subsection{Diseño de Base de datos}
 %Esta parte funciona para modelar todas la estructuras de datos que se usaran en los algoritmos, ademas de proporcionar diferentes esquemas para las bases de datos y viceversa, es decir se pueden moldear tablas a partir de estructura de datos necesarias o diseñar estructuras de datos a partir de los requerimientos de información en las bases de datos.
 El diseño de bases de datos consiste en definir las estructuras de datos del sistema y la forma en que éstas se representarán en una base de datos. Esta actividad abarca tanto el modelado lógico y físico de la base de datos (tablas, relaciones, índices, restricciones de integridad, etc.) como el diseño de las estructuras de datos en memoria que utilizarán los componentes y algoritmos del software (listas, árboles, tablas hash, grafos, colas, etc.)\cite{Sommerville2015-px}. Existe una relación estrecha y bidireccional entre ambos aspectos: las necesidades de información y los patrones de acceso definidos en la base de datos influyen directamente en las estructuras de datos que se emplean en la aplicación, y a su vez, los requisitos de rendimiento y manipulación de datos de los algoritmos condicionan el diseño del esquema de la base de datos.
-El SDD \cite{1016_2009} refuerza esta visión a través del Punto de vista de informacion (Information Viewpoint), donde se especifican los elementos de diseño relacionados con la información: las entidades de diseño (data items, data types and classes, data stores y access mechanisms), las relaciones de diseño (asociacion, usos, implementaciones), los atributos de datos junto con sus restricciones y relaciones estáticas, así como los atributos de diseño de persistencia y propiedades de calidad.
+El SDD \cite{1016_2009} refuerza esta visión a través del Punto de vista de informacion (Information Viewpoint), donde se especifican los elementos de diseño relacionados con la información: las entidades de diseño (elementos de datos, tipos de datos y clases, almacenes de datos y mecanismos de acceso), las relaciones de diseño (asociación, usos, implementaciones), los atributos de datos junto con sus restricciones y relaciones estáticas, así como los atributos de diseño de persistencia y propiedades de calidad.
 
 \subsection{Diseño de Algoritmos}
 %MEJORAR
 %Esta es la actividad en la que indagaremos, se encarga del diseño de algoritmos, según la necesidad, eficiencia y eficacia de lo que necesitemos resolver.
-Esta actividad forma parte del diseño detallado de componentes y se enfoca en la definición de los algoritmos que implementarán la lógica de procesamiento de cada componente. Su objetivo es seleccionar o diseñar soluciones algorítmicas que sean correctas, eficientes y adecuadas a los requisitos de rendimiento, tiempo de respuesta y uso de recursos del sistema. Aunque Sommerville \cite{Sommerville2015-px} la integra dentro del diseño de componentes, estándares como el IEEE 1016 \cite{1016_2009} (a través del Algorithm Viewpoint) y el SWEBOK \cite{swebok2024}reconocen la importancia de especificar explícitamente los algoritmos cuando su complejidad o criticidad lo justifica. En este trabajo se trata como una actividad diferenciada para permitir un análisis riguroso de corrección, complejidad computacional y optimización.
+Esta actividad forma parte del diseño detallado de componentes y se enfoca en la definición de los algoritmos que implementarán la lógica de procesamiento de cada componente. Su objetivo es seleccionar o diseñar soluciones algorítmicas que sean correctas, eficientes y adecuadas a los requisitos de rendimiento, tiempo de respuesta y uso de recursos del sistema. Aunque \textit{Sommerville} \cite{Sommerville2015-px} la integra dentro del diseño de componentes, estándares como el \textit{IEEE 1016} \cite{1016_2009} (a través del Algorithm Viewpoint) y el \textit{SWEBOK} \cite{swebok2024} reconocen la importancia de especificar explícitamente los algoritmos cuando su complejidad o criticidad lo justifica. En este trabajo se trata como una actividad diferenciada para permitir un análisis riguroso de corrección, complejidad computacional y optimización.
 
 %\section{Diseño Automatizado de Algoritmos}
 
 
 \section{Sistemas Multiagentes (MAS)}
-Los Sistemas Multiagentes (MAS, por sus siglas en inglés) constituyen una subdisciplina fundamental de la Inteligencia Artificial Distribuida (DAI). Se definen como redes de entidades computacionales autónomas (agentes) que interactúan dentro de un entorno dinámico compartiendo conocimiento y recursos para resolver problemas complejos que exceden las capacidades individuales de un solo agente. A diferencia del paradigma de resolución de problemas distribuida (DPS) convencional, los MAS destacan por su flexibilidad, capacidad de cómputo paralelo, escalabilidad modular y tolerancia a fallos mediante una degradación suave del sistema en caso de avería de alguno de sus componentes.\cite{InnMAS2010}
+%Un agente es una entidad autónoma, comunicativa y orientada a objetivos dentro de arquitecturas distribuidas, con caracteristicas como la percepcion, capacidad de inferencia, .
+Un \textit{agente} se define como una entidad computacional autónoma e hilo de ejecución concurrente que encapsula un estado interno, percibe su entorno a través de sensores y actúa sobre él mediante actuadores para alcanzar objetivos específicos dentro de una arquitectura distribuida \cite{InnMAS2010}. Sus características fundamentales abarcan: \begin{itemize} \item \textbf{Situacionalidad (Percepción y Acción):} Capacidad de interactuar de forma directa e inmersa con el entorno, recibiendo estímulos sensoriales y modificando dicho entorno mediante actuadores \cite{InnMAS2010}. \item \textbf{Autonomía:} Habilidad para tomar decisiones y seleccionar acciones de forma independiente sin intervención externa, preservando su estado interno frente a perturbaciones del sistema \cite{InnMAS2010}. \item \textbf{Capacidad de Inferencia:} Competencia para procesar información abstracta, deducir observaciones a partir del conocimiento disponible y ejecutar planes orientados a metas \cite{InnMAS2010}. \item \textbf{Reactividad y Proactividad:} Habilidad para responder oportunamente ante cambios dinámicos del entorno (reactividad), manteniendo a su vez un comportamiento con iniciativa propia dirigido a metas (proactividad) \cite{InnMAS2010}. \item \textbf{Comportamiento Social:} Capacidad para comunicarse, cooperar o negociar con otros agentes o humanos mediante el intercambio estructurado de mensajes para resolver problemas complejos \cite{InnMAS2010}. \end{itemize}
+Un \textit{Sistema Multiagentes} (MAS, por sus siglas en inglés) se definen como redes de entidades computacionales autónomas (agentes) que interactúan dentro de un entorno dinámico compartiendo conocimiento y recursos para resolver problemas complejos \cite{InnMAS2010}. Los MAS destacan por su flexibilidad, capacidad de cómputo paralelo, escalabilidad modular y tolerancia a fallos mediante una degradación suave del sistema en caso de avería de alguno de sus componentes \cite{InnMAS2010}.
 
 \subsection{Fundamentos y arquitecturas de los Sistemas Multiagentes}
 Un agente se conceptualiza como una entidad autónoma o hilo de ejecución concurrente que percibe su entorno a través de sensores y actúa sobre él mediante actuadores. Sus características primordiales abarcan la autonomía en la toma de decisiones, la reactividad ante cambios del entorno, la proactividad orientada a metas y la capacidad de interacción social con otros agentes \cite{InnMAS2010}.
 
 En cuanto a la \textbf{arquitectura interna (micro-arquitectura)}, los agentes se clasifican principalmente en:
 \begin{itemize}
-	\item \textbf{Homogéneos:} Todos los agentes comparten la misma arquitectura interna, capacidad sensorial, estados locales y mecanismos de inferencia, diferenciándose únicamente en su ubicación física y en los datos recibidos del entorno.
-	\item \textbf{Heterogéneos:} Los agentes difieren en sus estructuras, funcionalidades y objetivos locales, lo que permite modelar escenarios y dinámicas del mundo real con mayor fidelidad.
+	\item \textbf{Homogéneos:} Todos los agentes comparten la misma arquitectura interna, capacidad sensorial, estados locales y mecanismos de inferencia, diferenciándose únicamente en su ubicación física y en los datos recibidos del entorno \cite{InnMAS2010}.
+	\item \textbf{Heterogéneos:} Los agentes difieren en sus estructuras, funcionalidades y objetivos locales, lo que permite modelar escenarios y dinámicas del mundo real con mayor fidelidad \cite{InnMAS2010}.
 \end{itemize}
-Asimismo, según sus modelos cognitivos y de control, los agentes abarcan arquitecturas reactivas, basadas en reglas, modelos deliberativos BDI (\textit{Belief-Desire-Intention}), esquemas adaptativos basados en aprendizaje o enfoques híbridos que integran capas de control en tiempo real con módulos de inferencia superior.
 
-En el nivel de la \textbf{organización global (macro-arquitectura)}, la literatura identifica diversos patrones organizacionales:
-\begin{itemize}
-	\item \textbf{Jerárquica:} Estructura en árbol donde las directivas de control y supervisión fluyen desde niveles superiores a inferiores, mientras que los datos procesados ascienden en la jerarquía.
-	\item \textbf{Holónica:} Organización basada en estructuras estables y fractales denominadas holones y superholones, donde subagentes vinculados por compromisos eligen un agente cabeza (\textit{Head Agent}) para interactuar con el entorno exterior.
-	\item \textbf{Coaliciones:} Agrupaciones dinámicas y temporales de agentes orientadas a maximizar la utilidad o el rendimiento en tareas específicas, disolviéndose una vez alcanzado el objetivo.
-	\item \textbf{Equipos:} Estructuras cooperativas donde los agentes colaboran colectivamente para optimizar el desempeño global del grupo como un conjunto articulado.
-\end{itemize}
 
 \subsection{Paradigmas de coordinación y comunicación}
-La interacción en un MAS es indispensable para prevenir conflictos por recursos distribuidos, evitar situaciones de caos y optimizar los objetivos del sistema. La comunicación entre agentes se formaliza mediante Lenguajes de Comunicación de Agentes (ACL), como FIPA-ACL (Foundation for Intelligent Physical Agents - Agent Communication Language) o KQML (Knowledge Query and Manipulation Language), los cuales requieren una ontología compartida y un formato de protocolo estandarizado.
+La interacción en un \textit{MAS} es indispensable para prevenir conflictos por recursos distribuidos, evitar situaciones de caos y optimizar los objetivos del sistema. La comunicación entre agentes se formaliza mediante \textit{Lenguajes de Comunicación de Agentes} (ACL), como \textit{FIPA-ACL} (Foundation for Intelligent Physical Agents - Agent Communication Language) o \textit{KQML} (Knowledge Query and Manipulation Language), los cuales requieren una ontología compartida y un formato de protocolo estandarizado \cite{InnMAS2010}.
 
 La \textbf{coordinación} dentro del sistema se articula a través de tres paradigmas principales:
 \begin{itemize}
-	\item \textbf{Basada en Protocolos:} Emplea mecanismos de negociación distribuida como el \textit{Contract Net Protocol} (CNP), donde los agentes administradores (Managers) subastan contratos a agentes ejecutores (Contractors) mediante licitaciones.
-	\item \textbf{Basada en Grafos de Coordinación:} Descompone el problema global en subjuegos locales y calcula acciones conjuntas óptimas mediante la combinación lineal de pagos a través de algoritmos como la eliminación de variables o \textit{max-plus}.
-	\item \textbf{Basada en Modelos de Creencias:} Cada agente mantiene un modelo interno del comportamiento de sus vecinos, facilitando la toma de decisiones ágil en entornos dinámicos con restricciones temporales estrictas.
+	\item \textbf{Basada en Protocolos:} Emplea mecanismos de negociación distribuida como el \textit{Contract Net Protocol} (CNP), donde los agentes administradores (Managers) subastan contratos a agentes ejecutores (Contractors) mediante licitaciones \cite{InnMAS2010}.
+	\item \textbf{Basada en Grafos de Coordinación:} Descompone el problema global en subjuegos locales y calcula acciones conjuntas óptimas mediante la combinación lineal de pagos a través de algoritmos como la eliminación de variables o \textit{max-plus} \cite{InnMAS2010}.
+	\item \textbf{Basada en Modelos de Creencias:} Cada agente mantiene un modelo interno del comportamiento de sus vecinos, facilitando la toma de decisiones ágil en entornos dinámicos con restricciones temporales estrictas \cite{InnMAS2010}.
 \end{itemize}
 
 \subsection{Comunicación por pizarra o tablero (Blackboard Communication)}
-A diferencia del paso directo de mensajes (\textit{message passing}), la comunicación mediante \textbf{pizarra o tablero (\textit{Blackboard})} constituye un esquema centralizado y desacoplado donde un grupo de agentes comparte un repositorio común de información.
+A diferencia del paso directo de mensajes (\textit{message passing}), la comunicación mediante \textbf{pizarra o tablero (\textit{Blackboard})} constituye un esquema centralizado y desacoplado donde un grupo de agentes comparte un repositorio común de información \cite{InnMAS2010}.
 
-En este modelo, el \textit{Blackboard} actúa como un almacenamiento compartido para datos de diseño y conocimiento de control. El acceso a esta memoria compartida se gestiona mediante una interfaz de red o \textit{control shell}, encargada de notificar a los agentes cuando existe información relevante disponible. Aunque esta arquitectura simplifica la coordinación de grupos de agentes remotos, su principal limitación radica en que la pizarra representa un punto único de fallo (\textit{single point of failure}), por lo que una avería central puede inhabilitar al grupo completo.
+En este modelo, el \textit{Blackboard} actúa como un almacenamiento compartido para datos de diseño y conocimiento de control. El acceso a esta memoria compartida se gestiona mediante una interfaz de red o \textit{control shell}, encargada de notificar a los agentes cuando existe información relevante disponible. Aunque esta arquitectura simplifica la coordinación de grupos de agentes remotos, su principal limitación radica en que la pizarra representa un punto único de fallo (\textit{single point of failure}), por lo que una avería central puede inhabilitar al grupo completo \cite{InnMAS2010}.
 
 
-\section{Modelos grandes de lenguaje (LLM)} Los modelos grandes de lenguaje (LLM, por sus siglas en inglés) son arquitecturas avanzadas basadas principalmente en la red neuronal Transformer que procesan y generan lenguaje natural mediante un entrenamiento auto-supervisado masivo sobre extensos corpus de texto  \cite{TrendonAI2026,SurveyforLLM,xiao2026foundationslargelanguagemodels}. A través de esta etapa de pre-entrenamiento, el modelo comprime conocimiento lingüístico y conceptual de amplio dominio, lo que le permite identificar patrones semánticos y estructurales complejos de manera implícita. Como resultado, los LLM actúan como herramientas de propósito general capaces de resolver directamente tareas de redacción, análisis de texto, traducción y síntesis de información sin requerir entrenamiento específico para cada aplicación \cite{TrendonAI2026,SurveyforLLM,xiao2026foundationslargelanguagemodels}. 
+\section{Modelos grandes de lenguaje (LLM)} Los modelos grandes de lenguaje (LLM, por sus siglas en inglés) son arquitecturas avanzadas basadas principalmente en la red neuronal \textit{Transformer} que procesan y generan lenguaje natural mediante un entrenamiento auto-supervisado masivo sobre extensos corpus de texto  \cite{TrendonAI2026,SurveyforLLM,xiao2026foundationslargelanguagemodels}. A través de esta etapa de pre-entrenamiento, el modelo comprime conocimiento lingüístico y conceptual de amplio dominio, lo que le permite identificar patrones semánticos y estructurales complejos de manera implícita. Como resultado, los LLM actúan como herramientas de propósito general capaces de resolver directamente tareas de redacción, análisis de texto, traducción y síntesis de información sin requerir entrenamiento específico para cada aplicación \cite{TrendonAI2026,SurveyforLLM,xiao2026foundationslargelanguagemodels}. 
 \subsection{Principios de inferencia y generación de texto en modelos de lenguaje} La inferencia en los LLM se fundamenta en un proceso autorregresivo de predicción del siguiente token, condicionando probabilísticamente cada palabra o subpalabra generada al contexto previo y al \textit{prompt} de entrada \cite{SurveyforLLM}. Esta arquitectura habilita la adaptación del comportamiento del modelo mediante el aprendizaje en contexto (\textit{In-Context Learning} o ICL) y el seguimiento de instrucciones, respondiendo conforme a las restricciones y formatos especificados \cite{xiao2026foundationslargelanguagemodels}. Sin embargo, desde una perspectiva operacional, los LLM se comportan como sistemas de "caja negra", donde la precisión y el estilo de la respuesta varían sustancialmente entre modelos en función de la arquitectura de la red, la escala y diversidad de los datos de entrenamiento, la ventana de contexto y la calidad del \textit{prompt} \cite{xiao2026foundationslargelanguagemodels, SurveyforLLM, shojaee2025illusion}. 
 \subsection{Capacidades de los LLMs en la comprensión, diseño y generación de código} En la ingeniería de software y el desarrollo de sistemas, las capacidades de síntesis y comprensión de código de los LLM se derivan de la inclusión de vastos repositorios de software y documentación técnica durante su pre-entrenamiento \cite{SurveyforLLM}. La exposición a esta información especializada capacita al modelo para reconocer dependencias de largo alcance, sintaxis estructurada y patrones lógicos de programación \cite{xiao2026foundationslargelanguagemodels}. Durante la fase de diseño de software, el modelo puede evaluar las especificaciones proporcionadas en el contexto y recomendar patrones de diseño adecuados, por ejemplo evaluar la arquitectura de un sistema y sugerir un enfoque Modelo-Vista-Controlador (MVC) al contrastar los requerimientos recibidos con las abstracciones aprendidas en su entrenamiento \cite{SurveyforLLM, TrendonAI2026}. Asimismo, los LLM aceleran el ciclo de vida del desarrollo mediante la generación automática de código, la refactorización, el depurado y la creación de scripts de prueba automatizados \cite{SurveyforLLM, TrendonAI2026}. 
 \subsection{Limitaciones actuales: Alucinaciones, ventanas de contexto y deficiencias en el razonamiento algorítmico determinista} A pesar de sus amplias capacidades, los LLM presentan importantes limitaciones técnicas e inherentes \cite{SurveyforLLM, shojaee2025illusion}. En primer lugar, el fenómeno de la alucinación ocurre cuando el modelo genera información inconsistente o no verificable respecto a las fuentes factuales existentes, debido a imprecisiones en los datos de entrenamiento, sesgos en las estrategias de muestreo estocástico y la naturaleza probabilística del objetivo de predicción de texto \cite{SurveyforLLM, TrendonAI2026}. En segundo lugar, las restricciones en la ventana de contexto condicionan el volumen de información procesable simultáneamente; aunque el texto se segmenta en tokens (unidades discretas de representación), secuencias de entrada extensas provocan degradación en la atención sobre detalles intermedios, fenómeno conocido como \textit{lost in the middle} \cite{xiao2026foundationslargelanguagemodels}. Por último, existen marcadas deficiencias en el razonamiento algorítmico determinista y la ejecución simbólica \cite{shojaee2025illusion}. Incluso los modelos de razonamiento avanzado (\textit{Large Reasoning Models} o LRM) diseñados para generar cadenas de pensamiento (\textit{Chain-of-Thought}), sufren una caída drástica de precisión hasta el colapso total al incrementar la complejidad compositiva del problema \cite{shojaee2025illusion}. Esto demuestra que los modelos no ejecutan algoritmos explícitos de manera rigurosa ni se benefician de la inclusión del algoritmo en el prompt, sino que dependen de la imitación probabilística de patrones aprendidos \cite{shojaee2025illusion}. 
@@ -453,9 +435,9 @@ En este modelo, el \textit{Blackboard} actúa como un almacenamiento compartido 
 
 
 \section{Árbol de búsqueda de Monte-Carlo (MCTS)}
-Un Monte Carlo Tree Search, (MCTS) es un algoritmo de búsqueda y toma de decisiones que construye un árbol de forma incremental mediante simulaciones estocásticas para evaluar opciones y elegir la acción más prometedora, cada nodo es un estado o configuraciones de un problema y las aristas son transiciones (acciones) de nodo a nodo \cite{mctswiechowski2022}.
+Un \textit{Monte Carlo Tree Search}, (MCTS) es un algoritmo de búsqueda y toma de decisiones que construye un árbol de forma incremental mediante simulaciones estocásticas para evaluar opciones y elegir la acción más prometedora, cada nodo es un estado o configuraciones de un problema y las aristas son transiciones (acciones) de nodo a nodo \cite{mctswiechowski2022}.
 
-El ciclo iterativo consta de cuatro fases: selección, expansión, simulación y propagación hacia atrás (retropropagacion). 
+El ciclo iterativo consta de cuatro fases: \textit{selección, expansión, simulación y propagación hacia atrás} (retropropagacion). 
 
 \begin{itemize}
 
@@ -476,7 +458,7 @@ Una ontología es una especificación formal y explícita de una conceptualizaci
 \subsection{Definición y estructura de las ontologías computacionales (clases, atributos, relaciones)} Una ontología computacional organiza el conocimiento de un dominio a través de varios componentes lógicos interrelacionados: 
 \begin{itemize} 
 	\item \textbf{Clases o Conceptos}: Representan las categorías generales o conjuntos de objetos dentro del dominio de discurso. Se estructuran mediante jerarquías de subclases, donde los conceptos más específicos heredan las propiedades y características de las categorías más generales \cite{GruberOntology}. 
-	\item \textbf{Relaciones o Propiedades de Objeto}: Definen los vínculos y asociaciones entre diferentes clases o individuos. Permiten especificar cómo interactúan las entidades e incluyen restricciones de dominio (qué conceptos pueden originar la relación) y de rango (qué conceptos pueden recibirla), además de características lógicas como transitividad, simetría o relaciones inversas \cite{Horrocks2003}. 
+	\item \textbf{Relaciones o Propiedades de Objeto}: Definen los vínculos y asociaciones entre diferentes clases o individuos. Permiten especificar cómo interactúan las entidades e incluyen restricciones de dominio (qué conceptos pueden originar la relación) y de rango (qué conceptos pueden recibirla), además de características lógicas como transitividad, simetría, relaciones inversas, entre otras. \cite{Horrocks2003}. 
 	\item \textbf{Atributos o Propiedades de Datos}: Asocian a los individuos o instancias con valores de datos concretos y literales, tales como números enteros, cadenas de texto, fechas o valores booleanos. 
 	\item \textbf{Individuos o Instancias}: Corresponden a los objetos o entidades concretos y particulares que existen dentro del dominio y que pertenecen a una o más clases específicas \cite{GruberOntology}. 
 	\item \textbf{Axiomas y Restricciones}: Reglas y afirmaciones lógicas que definen las condiciones necesarias y suficientes para la pertenencia a un concepto, restringen la interpretación del vocabulario y garantizan la consistencia lógica del sistema para fundamentar el razonamiento automático \cite{GruberOntology, Horrocks2003}. 
@@ -485,7 +467,7 @@ Una ontología es una especificación formal y explícita de una conceptualizaci
 \begin{itemize} 
 	\item \textbf{RDF y RDFS}: El Marco de Descripción de Recursos (\textit{Resource Description Framework}, RDF) proporciona una estructura básica basada en triples formados por sujeto, predicado y objeto para declarar datos en la Web. Por su parte, \textit{RDF Schema} (RDFS) extiende este marco ofreciendo un vocabulario para organizar clases en jerarquías y definir el dominio y el rango de las propiedades \cite{Horrocks2003}. 
 	\item \textbf{Lógicas de Descripción}: Constituyen una familia de formalismos lógicos derivados de la lógica de primer orden que proveen una semántica formal rigurosa basada en teoría de modelos, garantizando procedimientos de decisión decidibles para la deducción automática \cite{Horrocks2003}. 
-	\item \textbf{OWL (Web Ontology Language)}: Es el estándar del W3C diseñado para la representación de ontologías en la Web Semántica, construido sobre RDF/RDFS y fundamentado en las Lógicas de Descripción \cite{Horrocks2003}. OWL amplía la capacidad expresiva de RDFS al permitir combinaciones lógicas de clases (unión, intersección y complemento), la declaración de clases disjuntas, restricciones locales sobre propiedades y restricciones de cardinalidad. OWL se divide en tres sublenguajes o perfiles adaptados a distintos requerimientos:
+	\item \textbf{OWL (Web Ontology Language)}: Es el estándar del W3C diseñado para la representación de ontologías en la Web Semántica, construido sobre RDF/RDFS y fundamentado en las Lógicas de Descripción \cite{Horrocks2003}. OWL amplía la capacidad expresiva de RDFS al permitir combinaciones lógicas de clases (unión, intersección y complemento), la declaración de clases disjuntas, restricciones locales sobre propiedades y restricciones de cardinalidad. OWL se divide en tres sublenguajes o perfiles adaptados a distintos requerimientos \cite{Horrocks2003}:
 	\begin{enumerate} 
 		\item \textbf{OWL Lite}: Ofrece una sintaxis reducida y menor complejidad computacional, orientada a usuarios que requieren jerarquías simples y restricciones básicas con un razonamiento rápido. 
 		\item \textbf{OWL DL}: Basado en lógicas de descripción expresivas, garantiza la decidibilidad del razonamiento (asegurando que los algoritmos de inferencia siempre terminan en un tiempo finito) mientras mantiene una elevada capacidad de representación formal. 
@@ -494,7 +476,7 @@ Una ontología es una especificación formal y explícita de una conceptualizaci
 \end{itemize} 
 
 \subsection{Modelado semántico para la taxonomía y clasificación de problemas algorítmicos} 
-El modelado semántico resulta fundamental para estructurar la caracterización de problemas de decisión y guiar la selección adaptativa de algoritmos en entornos computacionales dinámicos \cite{duran2026seleccion}. El trabajo de \cite{DURANPOLANCO2023100904} introduce la taxonomía \textbf{TDMIoT} (\textit{Taxonomy for Decision-Making in IoT Systems}), la cual conceptualiza el proceso de decisión como una asociación estructurada entre un problema de decisión y una solución algorítmica. TDMIoT organiza el dominio a través de siete dimensiones clave organizadas en dos espacios:
+El modelado semántico resulta fundamental para estructurar la caracterización de problemas de decisión y guiar la selección adaptativa de algoritmos en entornos computacionales dinámicos \cite{duran2026seleccion}. El trabajo de Duran Et. Al.  \cite{DURANPOLANCO2023100904} introduce la taxonomía \textbf{TDMIoT} (\textit{Taxonomy for Decision-Making in IoT Systems}), la cual conceptualiza el proceso de decisión como una asociación estructurada entre un problema de decisión y una solución algorítmica. TDMIoT organiza el dominio a través de siete dimensiones clave organizadas en dos espacios:
 \begin{itemize} 
 	\item \textbf{Espacio del Problema}: Se define mediante el \textit{Objetivo} principal (pronóstico, optimización, planificación, resolución de conflictos o predicción esta última subclasificada en estimación, regresión y clasificación), el tipo de \textit{Procesamiento} (centralizado o descentralizado), la \textit{Capa de procesamiento} (percepción, middleware o aplicación), el tipo de \textit{Interacción} (del sistema o humana) y la fuente de \textit{Incertidumbre} (de medición, de parámetros o de modelo). 
 	\item \textbf{Espacio de la Solución}: Se caracteriza mediante la \textit{Representación del conocimiento} (basada en datos, simbólica, matemática o híbrida) y el \textit{Enfoque algorítmico} (guiado por criterios, guiado por datos, guiado por utilidad o guiado por probabilidad). 
@@ -774,301 +756,6 @@ Los resultados completos están en el articulo titulado "Automated Software Desi
 
 La revisión revela un punto de inflexión hacia la automatización del diseño de software a través de cuatro paradigmas principales: la refactorización basada en búsqueda (SBR), el autodiseño algorítmico mediante mejora genética (GI), la adaptabilidad formal con ontologías y planificación (PDDL), y la transición hacia la Ingeniería de Software 3.0 (SE 3.0) basada en ecosistemas multiagente. Aunque estos enfoques permiten manipular arquitecturas complejas y redefinen el rol del desarrollador hacia el de un orquestador estratégico, enfrentan importantes desafíos técnicos: la pérdida de semántica en los modelos matemáticos, la inestabilidad durante el reemplazo de código en caliente, la sobrecarga computacional en entornos inciertos y el riesgo de alucinaciones de diseño ante la falta de restricciones verificables y gobernanza en los agentes. Finalmente, se evidencia una brecha crítica entre el potencial teórico y la práctica, ya que la mayoría de los estudios se limitan a entornos controlados o sintéticos; por ello, se concluye que la integración del razonamiento simbólico con modelos de lenguaje es indispensable para lograr arquitecturas autogeneradas transparentes, funcionales y viables en entornos de producción reales.
 
-\subsection{Propuesta de un Sistema Multi-Agentes (MAS) para satisfacer el auto-diseño}
-
-El auto-diseño se define como el conjunto de actividades que un sistema realiza para producir artefactos, especificaciones y demás elementos necesarios de diseño (diagramas por ejemplo),para establecer una representación del software que deberá ser construido a partir de un conjunto de requerimientos. Estas actividades pueden ocurrir tanto durante procesos de evolución o metamorfosis del sistema hacia una nueva configuración arquitectónica (nuevo diseño de software).
-
-Para automatizar estas actividades se propone la utilización de un sistema multiagente (MAS), en el cual diferentes agentes especializados participan en las distintas actividades que conforman el proceso de diseño. Cada agente posee una responsabilidad específica, un conjunto de conocimientos y mecanismos para tomar decisiones sobre los artefactos bajo su responsabilidad.
-
-La utilización de múltiples agentes permite distribuir el proceso de diseño en diferentes responsabilidades, evitando concentrar todas las decisiones en un único componente. Asimismo, permite establecer mecanismos de comunicación y coordinación mediante los cuales las decisiones tomadas por un agente pueden ser utilizadas como información por los demás agentes.
-
-En este trabajo, el sistema multi-agente se organiza alrededor de cuatro responsabilidades principales: diseño arquitectónico, diseño de componentes e interfaces, selección de estructuras de datos y selección de algoritmos. Estas responsabilidades corresponden a diferentes actividades del proceso de diseño y mantienen dependencias entre sí.
-
-El proceso tradicional puede representarse como:
-
-\begin{center} Requerimientos $\rightarrow$ Arquitectura $\rightarrow$ Componentes $\rightarrow$ Interfaces $\rightarrow$ Estructuras de Datos $\rightarrow$ Algoritmos \end{center}
-
-Este flujo representa la secuencia principal de diseño; sin embargo, no implica que las decisiones sean irreversibles. Una modificación realizada en una etapa posterior puede generar restricciones o incompatibilidades que requieran la reconsideración de decisiones previamente adoptadas. Por este motivo, la arquitectura propuesta contempla mecanismos de retroalimentación y coordinación entre agentes.
-
-\subsection{Desarrollo de la metodología Prometheus}
-
-Para especificar el sistema multiagente se empleó la metodología Prometheus, debido a que proporciona un proceso sistemático para identificar los agentes, sus objetivos, percepciones, acciones, capacidades y mecanismos de interacción \cite{prometheus_padgham2005}.
-
-Prometheus permite describir el sistema desde diferentes niveles de abstracción mediante tres fases principales: especificación del sistema, diseño arquitectónico y diseño detallado. Estas fases permiten pasar de la identificación de las necesidades generales del sistema a la definición de la organización de los agentes y, posteriormente, a la especificación de su funcionamiento interno.
-
-En el contexto de este trabajo, Prometheus se utiliza no solamente para representar un flujo de trabajo, sino para establecer las características que permiten considerar a los participantes del proceso de diseño como agentes. En particular, se consideran sus objetivos, percepciones, acciones, conocimientos y mecanismos de decisión.
-
-Aunque idealmente todos los agentes podrían contar con una descripción detallada de su funcionamiento interno, el alcance de este trabajo se concentra en proporcionar una descripción de caja blanca del agente encargado de la selección de algoritmos. Este agente incorpora un mecanismo explícito de búsqueda mediante Monte Carlo Tree Search (MCTS) sobre una ontología de conocimiento. Los demás agentes son descritos principalmente desde su comportamiento externo y sus responsabilidades dentro del proceso de diseño.
-
-\subsubsection{Especificación del sistema}
-
-La fase de especificación del sistema tiene como propósito identificar las funcionalidades principales, los objetivos generales, las percepciones y las acciones que permiten definir el comportamiento esperado del sistema multiagente.
-
-En esta fase se identifica el cambio en los requerimientos como uno de los principales estímulos del sistema. A partir de este cambio, los agentes deben analizar el diseño existente y determinar las modificaciones necesarias para satisfacer el nuevo estado de requerimientos.
-
-Los objetivos generales identificados son:
-
-\begin{itemize}
-	\item Analizar a que nivel los nuevos requerimientos modifican el diseño actual;
-	\item Determinar los artefactos de diseño afectados;
-	\item Generar o modificar los artefactos de diseño;
-	\item Mantener la consistencia entre las diferentes decisiones de diseño;
-	\item Seleccionar alternativas de diseño compatibles con los requerimientos;
-	\item Coordinar las decisiones realizadas por los diferentes agentes.
-\end{itemize}
-
-A partir de estos objetivos se identifican cuatro agentes principales:
-
-\begin{enumerate}
-	\item \textbf{Agente de arquitectura}: responsable de analizar los requerimientos y la arquitectura existente para determinar si debe realizarse una modificación incremental o una metamorfosis del sistema.
-	
-	\item \textbf{Agente de componentes e interfaces}: responsable de determinar y adaptar los componentes y mecanismos de interacción necesarios para implementar la arquitectura seleccionada.
-	
-	\item \textbf{Agente de estructuras de datos}: responsable de analizar las necesidades de representación y acceso a la información y seleccionar las estructuras de datos correspondientes.
-	
-	\item \textbf{Agente de algoritmos}: responsable de caracterizar los problemas algorítmicos y seleccionar algoritmos que satisfagan las características y restricciones identificadas mediante un mecanismo de búsqueda basado en MCTS.
-	
-\end{enumerate}
-
-Cada agente recibe información procedente del entorno y de los demás agentes. Esta información constituye sus percepciones y permite actualizar el conocimiento utilizado para tomar decisiones.
-
-\subsubsection{Diseño arquitectónico}
-
-La fase de diseño arquitectónico establece la organización de los agentes y las relaciones de comunicación existentes entre ellos.
-
-La arquitectura propuesta se organiza alrededor de un flujo principal de diseño:
-
-\begin{center} $IN_{\text{requerimientos}} \rightarrow Agent_{\text{arq}} \rightarrow Agent_{\text{comp/int}} \rightarrow Agent_{\text{est.datos}} \rightarrow Agent_{\text{alg}} \rightarrow OUT_{SDD}$ \end{center}
-
-donde $IN_{\text{requerimientos}}$ representa la entrada de requerimientos, mientras que $Agent_{\text{arq}}$, $Agent_{\text{comp/int}}$, $Agent_{\text{est.datos}}$, $Agent_{\text{alg}}$ representan los agentes de arquitectura, componentes e interfaces, estructuras de datos y algoritmos, respectivamente.
-Por ultimo $OUT_{SDD}$ representa la salida como si fuera un SDD (software design document) con las especificaciones desarrolladas.
-
-El flujo anterior representa la dependencia natural entre las decisiones. La arquitectura determina los componentes necesarios; los componentes e interfaces determinan las necesidades de comunicación; las estructuras de datos determinan las formas de representación y acceso a la información; y estas decisiones establecen restricciones que pueden ser utilizadas durante la selección de algoritmos.
-
-Sin embargo, la interacción no se limita a una comunicación unidireccional. Cuando una decisión posterior resulta incompatible con decisiones previamente adoptadas, el agente puede generar una notificación o solicitud de reconsideración dirigida al agente responsable de la decisión afectada.
-
-De esta manera, el sistema combina un flujo principal secuencial con mecanismos de retroalimentación:
-
-\begin{equation}
-	A_i \rightarrow A_{i+1}
-\end{equation}
-
-y
-
-\begin{equation}
-	A_{i+1} \rightarrow A_i
-\end{equation}
-
-cuando una decisión posterior requiere reconsiderar una decisión previa.
-
-Este mecanismo permite representar el proceso de diseño como una actividad iterativa y no únicamente como una cadena rígida de procesamiento.
-
-\subsubsection{Diseño detallado}
-
-La fase de diseño detallado especifica el funcionamiento interno de los agentes. En esta etapa se definen sus metas, creencias, percepciones, acciones, capacidades e intenciones, siguiendo una aproximación basada en el modelo Belief-Desire-Intention (BDI).
-
-Para cada agente se identifican:
-
-\begin{itemize}
-	\item \textbf{Creencias}: Información que el agente mantiene acerca del sistema, los requerimientos y los artefactos de diseño.
-	\item \textbf{Metas}: Estados que el agente intenta alcanzar.
-	\item \textbf{Intenciones}: Decisiones adoptadas por el agente respecto de las acciones que ejecutará para alcanzar sus metas.
-	\item \textbf{Percepciones}: Información obtenida del entorno o de otros agentes.
-	\item \textbf{Acciones}: Operaciones que el agente puede ejecutar sobre los artefactos de diseño.
-	\item \textbf{Capacidades}: Mecanismos mediante los cuales el agente puede realizar sus acciones.
-\end{itemize}
-
-El ciclo de operación de cada agente puede expresarse de manera general como:
-
-\begin{center}
-	$Percepcion \rightarrow Actualizacion\ de\ Creencias \rightarrow Evaluacion\ de\ Metas \rightarrow Intencion \rightarrow Accion$
-\end{center}
-
-Después de ejecutar una acción, el agente recibe nueva información y actualiza nuevamente sus creencias. Este ciclo permite incorporar comportamiento reactivo y mecanismos de reconsideración de decisiones.
-
-El agente de algoritmos constituye el caso de estudio de caja blanca de esta investigación. Su funcionamiento interno incorpora una caracterización del problema algorítmico, una búsqueda sobre el espacio de soluciones representado mediante una ontología y un mecanismo MCTS para determinar la alternativa que mejor satisface las características del problema.
-
-\subsection{Análisis y validación del modelo de agentes}
-
-Una vez definidos los agentes y sus interacciones, se analiza si cada participante satisface las características necesarias para ser considerado un agente dentro del sistema multiagente.
-
-Para este propósito se consideran las siguientes propiedades:
-
-\begin{itemize}
-	\item autonomía;
-	\item comportamiento reactivo;
-	\item orientación hacia metas;
-	\item capacidad de interacción;
-	\item estado y conocimiento interno;
-	\item capacidad de tomar decisiones;
-	\item capacidad de modificar su comportamiento en función del contexto.
-\end{itemize}
-
-La autonomía se analiza verificando que el agente pueda determinar una acción a partir de sus metas, creencias y percepciones, sin que cada decisión deba ser especificada externamente.
-
-La reactividad se analiza verificando que el agente pueda responder ante cambios en el entorno, modificaciones de requerimientos o información proporcionada por otros agentes.
-
-La orientación hacia metas se verifica mediante la existencia de objetivos explícitos que guían la selección de acciones.
-
-Finalmente, la capacidad de interacción se analiza mediante los mecanismos utilizados para intercambiar información, propuestas, restricciones y solicitudes de reconsideración entre los agentes.
-
-Este análisis permite distinguir entre un componente que únicamente ejecuta una función predeterminada y un agente que mantiene un proceso interno de percepción, deliberación y acción.
-
-\section{Propuesta de marco conceptual y arquitectura}
-
-La propuesta integra los conceptos de auto-diseño, sistemas multiagentes, agentes BDI, coordinación entre agentes y mecanismos especializados de búsqueda.
-
-El marco conceptual establece que el proceso de auto-diseño puede ser descompuesto en actividades de diseño especializadas, cada una de las cuales es responsabilidad de un agente. La especialización permite que cada agente utilice mecanismos de razonamiento apropiados para el tipo de decisión que debe realizar.
-
-La arquitectura resultante se representa mediante cuatro agentes principales:
-
-\begin{equation}
-	MAS = {A_{arch},A_{comp},A_{ds},A_{alg}}
-\end{equation}
-
-donde:
-
-\begin{itemize}
-	\item $A_{arch}$ representa el agente de arquitectura;
-	\item $A_{comp}$ representa el agente de componentes e interfaces;
-	\item $A_{ds}$ representa el agente de estructuras de datos;
-	\item $A_{alg}$ representa el agente de algoritmos.
-\end{itemize}
-
-Los agentes comparten un estado de diseño que permite mantener la trazabilidad entre las decisiones. Este estado contiene los artefactos generados y las restricciones derivadas de decisiones anteriores.
-
-\subsection{Definición conceptual y formal}
-
-Sea $R$ el conjunto de requerimientos del sistema:
-
-\begin{equation}
-	R = {r_1,r_2,\ldots,r_n}
-\end{equation}
-
-y sea:
-
-\begin{equation}
-	D = {D_A,D_C,D_{DS},D_{ALG}}
-\end{equation}
-
-el conjunto de artefactos de diseño correspondientes a arquitectura, componentes e interfaces, estructuras de datos y algoritmos.
-
-Cada agente $A_i$ recibe un estado de diseño $S$ y un conjunto de percepciones $P_i$, actualiza sus creencias $B_i$ y determina una intención $I_i$ orientada a alcanzar una meta $G_i$.
-
-Formalmente:
-
-\begin{equation}
-	A_i:(B_i,P_i,G_i,S)\rightarrow(I_i,D_i)
-\end{equation}
-
-donde $D_i$ representa la decisión o artefacto producido por el agente.
-
-El diseño global puede expresarse como:
-
-\begin{equation}
-	D^{*}=D_A \cup D_C \cup D_{DS} \cup D_{ALG}
-\end{equation}
-
-sujeto a las restricciones establecidas por los requerimientos y por las dependencias existentes entre los diferentes artefactos.
-
-\subsection{Propuesta detallada}
-
-\subsubsection{Agente de arquitectura}
-
-El agente de arquitectura analiza los cambios en los requerimientos y determina el impacto que estos producen sobre la arquitectura existente. A partir de sus creencias acerca del sistema, puede adoptar como intención modificar la arquitectura existente o iniciar una metamorfosis hacia una nueva arquitectura.
-
-Sus principales responsabilidades son:
-
-\begin{itemize}
-	\item analizar cambios en los requerimientos;
-	\item evaluar la arquitectura existente;
-	\item identificar elementos arquitectónicos afectados;
-	\item modificar la arquitectura cuando sea suficiente una adaptación;
-	\item generar una nueva arquitectura cuando las modificaciones requeridas superen las capacidades de adaptación.
-\end{itemize}
-
-\subsubsection{Agente de componentes e interfaces}
-
-Este agente analiza la arquitectura y determina los componentes e interfaces necesarios para implementarla. Además, considera las condiciones operativas del sistema para determinar si las configuraciones actuales continúan siendo adecuadas.
-
-Entre sus responsabilidades se encuentran:
-
-\begin{itemize}
-	\item seleccionar componentes;
-	\item configurar relaciones entre componentes;
-	\item adaptar interfaces;
-	\item detectar incompatibilidades;
-	\item modificar mecanismos de comunicación;
-	\item adaptar configuraciones ante cambios del entorno.
-\end{itemize}
-
-Un ejemplo corresponde a la detección de una modificación en las condiciones de carga del sistema. El agente puede determinar que la configuración actual de componentes e interfaces no satisface los requerimientos y adoptar una intención de reconfiguración, por ejemplo mediante la incorporación o modificación de un mecanismo de balanceo de carga.
-
-\subsubsection{Agente de estructuras de datos}
-
-El agente de estructuras de datos analiza los requerimientos de almacenamiento y acceso a información junto con los artefactos generados por los agentes anteriores.
-
-Sus decisiones consideran, entre otros factores:
-
-\begin{itemize}
-	\item operaciones requeridas;
-	\item patrones de acceso;
-	\item volumen de información;
-	\item restricciones de memoria;
-	\item restricciones temporales;
-	\item relaciones con componentes e interfaces.
-\end{itemize}
-
-A partir de esta información, el agente selecciona, modifica o reemplaza estructuras de datos para satisfacer las restricciones establecidas.
-
-\subsubsection{Agente de algoritmos}
-
-El agente de algoritmos recibe los requerimientos algorítmicos y los artefactos generados por los agentes anteriores. Su primera actividad consiste en caracterizar el problema mediante un conjunto de propiedades que permiten identificar el espacio de soluciones relevante.
-
-La caracterización del problema se representa mediante:
-
-\begin{equation}
-	P=(Objective,Interaction,Knowledge,Processing,Layer,Uncertainty)
-\end{equation}
-
-A partir de esta representación, el agente explora una ontología de algoritmos mediante Monte Carlo Tree Search. Las expansiones del árbol corresponden a restricciones o características que permiten reducir el espacio de soluciones hasta identificar alternativas compatibles con el problema.
-
-El mecanismo de búsqueda constituye el comportamiento de caja blanca del agente de algoritmos, permitiendo analizar explícitamente cómo se construye el espacio de búsqueda, cómo se evalúan las alternativas y cómo se actualizan los valores asociados a las ramas exploradas.
-
-\subsection{Mecanismo de coordinación y consenso}
-
-Debido a que las decisiones de diseño presentan dependencias entre sí, los agentes requieren un mecanismo para detectar y resolver inconsistencias.
-
-Se propone un proceso iterativo de coordinación compuesto por cuatro etapas:
-
-\begin{enumerate}
-	\item generación de propuestas;
-	\item evaluación de compatibilidad;
-	\item identificación y negociación de conflictos;
-	\item aceptación o reconsideración de las decisiones.
-\end{enumerate}
-
-Cada propuesta contiene una decisión, las restricciones satisfechas, las dependencias identificadas y una justificación de la decisión.
-
-Cuando dos decisiones son compatibles, ambas pueden incorporarse al estado global del diseño. Cuando existe un conflicto, los agentes involucrados reconsideran sus decisiones utilizando la nueva información disponible.
-
-El proceso puede expresarse como:
-
-\begin{equation}
-	Proponer \rightarrow Evaluar \rightarrow Detectar\ conflicto \rightarrow Reconsiderar \rightarrow Aceptar
-\end{equation}
-
-Este mecanismo permite mantener la autonomía de los agentes sin convertir la coordinación en una decisión centralizada. Cada agente conserva la responsabilidad sobre su dominio de diseño, mientras que el estado compartido permite identificar las dependencias entre las decisiones.
-
-\subsection{Resumen conceptual}
-
-El sistema se estructura como un sistema multiagente orientado al proceso de diseño de software. Los agentes colaboran mediante un flujo de trabajo secuencial, en el cual cada agente posee una responsabilidad de diseño específica y produce información que condiciona las decisiones de los agentes posteriores.
-
-La metodología Prometheus se emplea para identificar y modelar los agentes, sus metas, percepciones, acciones, capacidades e interacciones. El modelo BDI proporciona una estructura para representar el conocimiento, las metas y las intenciones de los agentes, mientras que los mecanismos de coordinación permiten gestionar las dependencias y conflictos entre decisiones.
-
-El flujo principal está constituido por los agentes de arquitectura, componentes e interfaces, estructuras de datos y algoritmos. Este flujo no se considera estrictamente lineal, debido a que una decisión puede provocar la reconsideración de decisiones previamente adoptadas.
-
-Finalmente, el agente de algoritmos incorpora un mecanismo explícito de razonamiento mediante la caracterización del problema y la búsqueda MCTS sobre una ontología. De esta manera, el sistema combina una organización multiagente, comportamiento reactivo, toma de decisiones orientada a metas y mecanismos especializados de búsqueda para automatizar diferentes actividades del proceso de diseño de software.
 
 
 \chapter{Experimentación y Análisis de Resultados}\label{resultados}
