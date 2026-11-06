@@ -1,24 +1,24 @@
 [0] Config.pm:329> INFO - This is Biber 2.22
 [0] Config.pm:332> INFO - Logfile is 'main.blg'
-[89] biber-MSWIN64:342> INFO - === 
-[131] Biber.pm:421> INFO - Reading 'main.bcf'
-[235] Biber.pm:1002> INFO - Found 45 citekeys in bib section 0
-[247] Biber.pm:4487> INFO - Processing section 0
-[256] Biber.pm:4680> INFO - Looking for bibtex file 'references.bib' for section 0
-[331] bibtex.pm:1713> INFO - LaTeX decoding ...
-[539] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
-[764] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[764] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[764] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'es-ES'
-[786] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[812] bbl.pm:779> INFO - Output to main.bbl
-[813] Biber.pm:132> WARN - legacy month field 'aug' in entry 'perez2024' is not an integer - this will probably not sort properly.
-[813] Biber.pm:132> WARN - legacy month field 'jul' in entry 'Sommerville2015-px' is not an integer - this will probably not sort properly.
-[813] Biber.pm:132> WARN - legacy month field 'jun' in entry 'shojaee2025illusion' is not an integer - this will probably not sort properly.
-[813] Biber.pm:132> WARN - legacy month field 'jun' in entry 'ibm2006autonomic' is not an integer - this will probably not sort properly.
-[813] Biber.pm:132> WARN - legacy month field 'May' in entry 'WeynsDannyFromSelf-Adaptation' is not an integer - this will probably not sort properly.
-[813] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\Mikec\AppData\Local\Temp\biber_tmp_D4JZ\33e59b5ca9ec342068223d604c3f8d55_42044.utf8, line 2215, warning: undefined macro "July"
-[813] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\Mikec\AppData\Local\Temp\biber_tmp_D4JZ\33e59b5ca9ec342068223d604c3f8d55_42044.utf8, line 2271, warning: undefined macro "Sept"
-[813] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\Mikec\AppData\Local\Temp\biber_tmp_D4JZ\33e59b5ca9ec342068223d604c3f8d55_42044.utf8, line 2441, warning: undefined macro "July"
-[813] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\Mikec\AppData\Local\Temp\biber_tmp_D4JZ\33e59b5ca9ec342068223d604c3f8d55_42044.utf8, line 2485, warning: undefined macro "Sept"
-[813] Biber.pm:134> INFO - WARNINGS: 9
+[101] biber-MSWIN64:342> INFO - === 
+[148] Biber.pm:421> INFO - Reading 'main.bcf'
+[270] Biber.pm:1002> INFO - Found 45 citekeys in bib section 0
+[280] Biber.pm:4487> INFO - Processing section 0
+[290] Biber.pm:4680> INFO - Looking for bibtex file 'references.bib' for section 0
+[381] bibtex.pm:1713> INFO - LaTeX decoding ...
+[593] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[815] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[816] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[816] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'es-ES'
+[838] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[865] bbl.pm:779> INFO - Output to main.bbl
+[866] Biber.pm:132> WARN - legacy month field 'aug' in entry 'perez2024' is not an integer - this will probably not sort properly.
+[866] Biber.pm:132> WARN - legacy month field 'jul' in entry 'Sommerville2015-px' is not an integer - this will probably not sort properly.
+[866] Biber.pm:132> WARN - legacy month field 'jun' in entry 'shojaee2025illusion' is not an integer - this will probably not sort properly.
+[866] Biber.pm:132> WARN - legacy month field 'jun' in entry 'ibm2006autonomic' is not an integer - this will probably not sort properly.
+[866] Biber.pm:132> WARN - legacy month field 'May' in entry 'WeynsDannyFromSelf-Adaptation' is not an integer - this will probably not sort properly.
+[866] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\Mikec\AppData\Local\Temp\biber_tmp_JME0\33e59b5ca9ec342068223d604c3f8d55_7960.utf8, line 2215, warning: undefined macro "July"
+[866] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\Mikec\AppData\Local\Temp\biber_tmp_JME0\33e59b5ca9ec342068223d604c3f8d55_7960.utf8, line 2271, warning: undefined macro "Sept"
+[866] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\Mikec\AppData\Local\Temp\biber_tmp_JME0\33e59b5ca9ec342068223d604c3f8d55_7960.utf8, line 2441, warning: undefined macro "July"
+[866] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\Mikec\AppData\Local\Temp\biber_tmp_JME0\33e59b5ca9ec342068223d604c3f8d55_7960.utf8, line 2485, warning: undefined macro "Sept"
+[866] Biber.pm:134> INFO - WARNINGS: 9
