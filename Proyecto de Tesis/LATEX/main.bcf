@@ -2526,6 +2526,8 @@
     <bcf:citekey order="130" intorder="1">Gusenbauer2020</bcf:citekey>
     <bcf:citekey order="131" intorder="1">Wohlin2014</bcf:citekey>
     <bcf:citekey order="132" intorder="1">li2025riseaiteammatessoftware</bcf:citekey>
+    <bcf:citekey order="133" intorder="1">prometheus_padgham2005</bcf:citekey>
+    <bcf:citekey order="134" intorder="1">PerezCarrillo2026</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

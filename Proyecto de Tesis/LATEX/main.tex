@@ -689,130 +689,19 @@ La revisión revela un punto de inflexión hacia la automatización del diseño 
 
 \section{Propuesta de un Sistema Multi-Agente (MAS) para el Auto-Diseño}
 
-El desarrollo de este Sistema Multi-Agentes orientado en el auto-diseño, fue siguiendo la metodología Prometheus \cite{prometheus_padgham2005}, recordando que se debe acoplar al Ether de la teoria SES \cite{PerezCarrillo2026}
+El desarrollo de este Sistema Multi-Agentes orientado en el auto-diseño, fue siguiendo la metodología Prometheus \cite{prometheus_padgham2005}, recordando que se debe acoplar al Ether de la teoría SES \cite{PerezCarrillo2026}, partimos de funciones teóricas por lo tanto ya tenemos supuestos:
 
-\subsection{Formulación General del Sistema}
-% Presentación directa del problema de auto-diseño de software y metamorfosis arquitectónica.
-\subsubsection{Definición del Entorno y Modelo de Auto-Diseño}
-% Describe brevemente la necesidad de automatizar el diseño a partir de cambios en requerimientos.
+\subsection{Escenarios}
 
-\subsubsection{Formalización Matemática del MAS}
-% Incorpora las definiciones formales de tu propuesta:
-Sea $R = \{r_1, r_2, \ldots, r_n\}$ el conjunto de requerimientos del sistema y $D^* = D_A \cup D_C \cup D_{DS} \cup D_{ALG}$ el conjunto de artefactos de diseño producidos. El sistema multiagente se define como:
-\begin{equation}
-	MAS = \{A_{arch}, A_{comp}, A_{ds}, A_{alg}\}
-\end{equation}
-donde cada agente $A_i$ opera bajo la función de transición BDI:
-\begin{equation}
-	A_i: (B_i, P_i, G_i, S) \rightarrow (I_i, D_i)
-\end{equation}
-
-% -----------------------------------------------------------------
-\subsection{Especificación del Sistema (System Specification)}
-% Fase 1 de Prometheus: Requerimientos formales e interfaz con el entorno.
-
-\subsubsection{Jerarquía de Metas (System Goals)}
-% Presenta las metas principales y submetas organizadas del sistema.
-\begin{itemize}
-	\item \textbf{G1. Mantener la consistencia del diseño ($D^*$):}
-	\begin{itemize}
-		\item \textbf{G1.1:} Analizar el impacto de cambios en requerimientos ($R$).
-		\item \textbf{G1.2:} Evaluar la necesidad de adaptación incremental vs. metamorfosis.
-	\end{itemize}
-	\item \textbf{G2. Seleccionar alternativas óptimas por capa de diseño:}
-	\begin{itemize}
-		\item \textbf{G2.1:} Determinar componentes e interfaces compatibles.
-		\item \textbf{G2.2:} Seleccionar estructuras de datos eficientes.
-		\item \textbf{G2.3:} Seleccionar algoritmos mediante búsqueda MCTS.
-	\end{itemize}
-\end{itemize}
-
-\subsubsection{Interfaz con el Entorno (Percepts y Actions)}
-% Especificación de entradas y salidas del sistema multiagente.
-\begin{description}
-	\item[Percepciones ($P$):] Notificación de cambios en requerimientos ($IN_{\text{requerimientos}}$), condiciones de carga operativa, alertas de incompatibilidad inter-agente.
-	\item[Acciones ($Actions$):] Generación/modificación de artefactos $D_i$, actualización del Estado de Diseño ($S$), emisión de solicitudes de reconsideración, exportación del documento final ($OUT_{SDD}$).
-\end{description}
-
-\subsubsection{Escenarios de Uso Principales (Scenarios)}
-% Representación secuencial de los casos de uso nominales y de retroalimentación.
-\begin{enumerate}
-	\item \textbf{Escenario Nominal de Diseño en Cascada:} Recepción de requerimientos $\rightarrow$ Modificación arquitectónica ($A_{arch}$) $\rightarrow$ Reconfiguración de componentes ($A_{comp}$) $\rightarrow$ Selección de datos ($A_{ds}$) $\rightarrow$ Búsqueda algorítmica ($A_{alg}$) $\rightarrow$ Generación de $OUT_{SDD}$.
-	\item \textbf{Escenario de Retroalimentación por Conflictos:} Detección de incompatibilidad en $A_{alg}$ $\rightarrow$ Emisión de alerta de conflicto a $A_{ds}$ / $A_{comp}$ $\rightarrow$ Reconsideración de decisiones previas $\rightarrow$ Re-evaluación de consistencia global.
-\end{enumerate}
-
-% -----------------------------------------------------------------
-\subsection{Diseño Arquitectónico (Architectural Design)}
-% Fase 2 de Prometheus: Definición de tipos de agentes, estructura y protocolos.
-
-\subsubsection{Identificación y Justificación de Agentes}
-% Análisis de cohesión y acoplamiento para los 4 agentes principales.
-\begin{itemize}
-	\item \textbf{Agente de Arquitectura ($A_{arch}$):} Alta cohesión en análisis de requerimientos y decisiones estructurales globales.
-	\item \textbf{Agente de Componentes e Interfaces ($A_{comp}$):} Dominio sobre contratos de interacción y topología de módulos.
-	\item \textbf{Agente de Estructuras de Datos ($A_{ds}$):} Dominio sobre esquemas de almacenamiento y accesos.
-	\item \textbf{Agente de Algoritmos ($A_{alg}$):} Especialización en caracterización del problema y optimización algorítmica.
-\end{itemize}
-
-\subsubsection{Estructura Global del Sistema (System Overview)}
-% Descripción gráfica/textual del flujo general de datos y estado compartido.
-El flujo general de procesamiento y dependencia de decisiones se expresa como:
-\begin{equation}
-	IN_{\text{requerimientos}} \rightarrow A_{arch} \rightarrow A_{comp} \rightarrow A_{ds} \rightarrow A_{alg} \rightarrow OUT_{SDD}
-\end{equation}
-Todos los agentes interactúan leyendo y actualizando el Almacén de Datos Compartido que contiene el Estado Global de Diseño ($S$).
-
-\subsubsection{Protocolo de Negociación y Coordinación}
-% Mecanismo de consenso en 4 etapas ante decisiones dependientes.
-El mecanismo de retroalimentación para la resolución de conflictos inter-agente se rige bajo la secuencia iterativa:
-\begin{equation}
-	\text{Proponer } (A_i \rightarrow S) \;\rightarrow\; \text{Evaluar } (A_{i+1}) \;\rightarrow\; \text{Detectar Conflicto } (A_{i+1} \rightarrow A_i) \;\rightarrow\; \text{Reconsiderar}
-\end{equation}
-
-% -----------------------------------------------------------------
-\subsection{Diseño Detallado BDI (Detailed Design)}
-% Fase 3 de Prometheus: Especificación interna BDI de los agentes.
-
-\subsubsection{Estructura BDI Interna de los Agentes}
-% Tabla o resumen de creencias, metas, intenciones y capacidades.
-\begin{table}[h!]
-	\centering
-	\small
-	\begin{tabular}{|l|p{3.5cm}|p{3.5cm}|p{4cm}|}
-		\hline
-		\textbf{Agente} & \textbf{Creencias ($B$)} & \textbf{Metas ($G$)} & \textbf{Planes / Intenciones ($I$)} \\ \hline
-		$A_{arch}$ & Arquitectura actual, historial de cambios, catálogo de estilos. & Minimizar costo de metamorfosis, garantizar cobertura de $R$. & Plan de Adaptación Incremental, Plan de Metamorfosis Arquitectónica. \\ \hline
-		$A_{comp}$ & Contratos de interfaz, métricas de carga del entorno. & Balancear carga, evitar incompatibilidad de interfaces. & Plan de Reconfiguración de Componentes, Plan de Adaptación de Conectores. \\ \hline
-		$A_{ds}$ & Patrones de acceso, volumen de datos, restricciones de memoria. & Optimizar tiempo de acceso y uso de memoria. & Plan de Selección de Estructuras, Plan de Re-mapeo de Datos. \\ \hline
-		$A_{alg}$ & Ontología de algoritmos, espacio de características $P$. & Encontrar algoritmo óptimo compatible. & Plan de Caracterización de Problema, Plan de Búsqueda MCTS. \\ \hline
-	\end{tabular}
-	\caption{Especificación BDI de los agentes del MAS propuesta.}
-\end{table}
-
-\subsubsection{Caso de Estudio de Caja Blanca: Agente de Algoritmos ($A_{alg}$)}
-% Descripción detallada del funcionamiento interno de A_alg.
-El agente $A_{alg}$ opera mediante un mecanismo explícito de razonamiento en tres fases:
-\begin{enumerate}
-	\item \textbf{Caracterización del Problema:} Representado mediante la tupla:
-	\begin{equation}
-		P = (Objective, Interaction, Knowledge, Processing, Layer, Uncertainty)
-	\end{equation}
-	\item \textbf{Búsqueda mediante MCTS sobre Ontología:} Búsqueda guiada en el árbol de soluciones donde cada expansión evalúa la compatibilidad con las restricciones impuestas por $A_{arch}$, $A_{comp}$ y $A_{ds}$.
-	\item \textbf{Disparo de Eventos de Retroalimentación:} Si la rama MCTS no encuentra alternativas válidas, el agente genera un evento interno de conflicto que activa la re-evaluación en los agentes previos.
-\end{enumerate}
-
-% -----------------------------------------------------------------
-\subsection{Análisis de Propiedades del Modelo de Agentes}
-% Demostración de que las entidades cumplen con los atributos de agente.
-\begin{itemize}
-	\item \textbf{Autonomía:} Cada agente evalúa sus intenciones sin control centralizadoizado, tomando decisiones en su dominio de diseño.
-	\item \textbf{Reactividad:} Respuesta ante modificaciones en los requerimientos ($IN_{\text{requerimientos}}$) o alertas de incompatibilidad.
-	\item \textbf{Orientación a Metas:} Comportamiento guiado por la preservación de la consistencia del diseño ($D^*$).
-	\item \textbf{Interacción y Coordinación:} Intercambio de propuestas y reconsideraciones vía el protocolo de consenso.
-\end{itemize}
+Escenario 1 Evolución por Mantenimiento: Si los requerimientos cambian solo en su componente de configuración o parches menores, la arquitectura base se conserva. Los agentes actualizan únicamente interfaces o componentes aislados en el SDD.
+Escenario 2 Evolución por Cambio de Problema: Si el problema cambia pero permanece dentro de la elasticidad del sistema, el Agente Arquitectura reestructura el diseño lógico (adición de servicios/componentes) sin descartar el núcleo existente.
+Escenario 3 Metamorfosis: Si la solicitud de cambio invalida la arquitectura actual (se alcanza el Punto de Quiebre), los agentes descartan el diseño previo y generan un SDD completamente nuevo para un nuevo sistema Self-Engineering.
 
 
+\subsection{Supuestos}
 
+Supuesto 4 (Entradas Estandarizadas): Los insumos de entrada (_Información de la plataforma, Requerimientos y Descripciones de datos_) están previamente estructurados en el repositorio compartido (Pizarra) en formatos legibles por LLMs y ontologías.
+Supuesto 5 (Modelo de Pizarra): La comunicación desacoplada y asíncrona a través de una pizarra compartida permite que cualquier modificación hecha por un agente notifique automáticamente a los demás agentes para recalcular o ajustar sus decisiones.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
