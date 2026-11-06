@@ -724,6 +724,16 @@ El diseño arquitectónico se basa en la sección de especificaciones del sistem
 
 \begin{table}[htbp] \centering \caption{Agentes especializados de la meta-arquitectura} \label{tab:agentes_metaarquitectura} \renewcommand{\arraystretch}{1.2} \begin{tabularx}{\textwidth}{|p{3.5cm}|p{3cm}|X|} \hline \textbf{Agente} & \textbf{Tecnología} & \textbf{Rol y Responsabilidad Principal} \\ \hline \textbf{Agente Arquitectura} \newline \textit{(Architecture Agent)} & MetaGPT + Ollama (LLM) & \textbf{Líder Arquitecto:} Evalúa el impacto del cambio (determina si es Mantenimiento, Cambio de Problema o Metamorfosis). Define el patrón de arquitectura macro (Microservicios, Capas, Event-Driven) y estructura el esqueleto global del SDD. \\ \hline \textbf{Agente Componentes e Interfaces} \newline \textit{(Component Agent)} & MetaGPT + Ollama (LLM) & \textbf{Diseñador de Módulos:} Desglosa la arquitectura macro en componentes, módulos y define las interfaces de comunicación (REST, gRPC, MQTT, etc.) y contratos de interacción. \\ \hline \textbf{Agente Estructura de Datos y BD} \newline \textit{(Data \& DB Agent)} & MetaGPT + Ollama (LLM) & \textbf{Arquitecto de Datos:} Diseña las estructuras de datos en memoria, esquemas de bases de datos (SQL/NoSQL) y modelos de persistencia orientados a la plataforma elegida. \\ \hline \textbf{Agente Algoritmos} \newline \textit{(Algorithm Agent)} & MCTS + Ontología OWL/RDF & \textbf{Especialista Algorítmico:} Realiza una búsqueda en árbol Monte Carlo (MCTS) navegando una ontología para asociar un par (Problema, Restricción) con la estructura algorítmica óptima. \\ \hline \end{tabularx} \end{table}
 
+\subsection{Pizarra o tablero}
+
+La Pizarra se divide en cuatro regiones de memoria compartida:
+
+Region: Inputs: Almacena `PlatformInfo`, `RequirementsSpec`, y `DataDescription`.
+Region: Governance \& Lifecycle: Contiene el estado del ciclo de vida (`Evolution\_Maintenance`, `Evolution\_ProblemChange`, `Metamorphosis`) determinado por el Agente Arquitectura.
+Region: SDD\_Draft: Secciones del documento (`SDD.Architecture`, `SDD.Components`, `SDD.Database`, `SDD.Algorithms`).
+Region: Event\_Bus: Canal de notificaciones y triggers (`EVENT\_REQUIREMENT\_CHANGED`, `EVENT\_ARCH\_UPDATED`, `EVENT\_ALGORITHM\_REQUESTED`).
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{Experimentación y Análisis de Resultados}\label{resultados}
 
