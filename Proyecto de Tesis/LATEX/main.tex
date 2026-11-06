@@ -169,20 +169,8 @@ Muchas Gracias a todos.
 % ---------------------------------------------------------
 \mainmatter
 
-% Si prefieres usar archivos separados, comenta las líneas de abajo y usa:
-% \include{capitulos/01_introduccion}
-% Por ahora, incluyo los capítulos aquí mismo para que sea una plantilla rápida.
-
 \chapter{Introducción}\label{introduccion}
-%contexto general
-%los ses
-%acotar problema de diseño
-%presentar el problema
-%brecha del e. del arte
-%objetivo de la tesis
-%propuesta
-%delimitacion
-%ontribuciones
+
 El desarrollo de sistemas de software modernos requiere la ejecución coordinada de múltiples actividades de ingeniería de software, desde el análisis de requerimientos, diseño, implementación y pruebas, hasta las fases de operación, mantenimiento y eventual reemplazo de los sistemas \cite{swebok2024}.
 A lo largo de las últimas décadas, diversos estudios han evidenciado que las actividades de mantenimiento, actualización y evolución de artefactos de software constituyen una de las etapas más costosas del ciclo de vida del software, tanto en términos de capital humano como de tiempo de desarrollo y recursos financieros \cite{thefinancial2015Areti,contemporanysoftware2025wesley}. Esta situación ha motivado la búsqueda de enfoques capaces de reducir la dependencia de la intervención humana en dichos procesos y automatizar las tareas de evolución del software.
 En este contexto surge la teoría de los Sistemas de Auto-Ingeniería (\textit{Self-Engineering Systems}, SES), la cual propone un marco conceptual y una meta-arquitectura que permiten a los sistemas ejecutar modificaciones autónomas sobre sí mismos, habilitando procesos de auto-evolución o metamorfosis \cite{perez2024}. \textbf{Su propósito fundamental es gestionar y ejecutar su propio proceso de ingeniería más allá del ciclo de vida convencional, minimizando o incluso eliminando la necesidad de intervención humana} \cite{PerezCarrillo2026}.
@@ -203,18 +191,7 @@ Las principales contribuciones de esta investigación son las siguientes:
 \end{enumerate}
 
 \section{Planteamiento del Problema}
-%--------V1-----------
-%El diseño de software constituye una etapa fundamental del ciclo de desarrollo, ya que comprende desde las abstracciones de alto nivel formalizadas mediante las distintas vistas arquitectónicas del sistema \cite{Kruchten1995The} hasta la especificación detallada de sus componentes y algoritmos. Históricamente, estos artefactos han servido como mecanismos para documentar, comunicar y validar decisiones de diseño, además de preservar la trazabilidad entre los requisitos, la arquitectura y la implementación. Sin embargo, la transición hacia el paradigma de la Ingeniería de Software 3.0, impulsada por agentes autónomos y modelos de lenguaje de gran escala, ha promovido enfoques centrados en la generación directa de código \cite{li2025riseaiteammatessoftware}. Como consecuencia, los artefactos formales de diseño suelen ser omitidos o tratados como productos secundarios, reduciendo las oportunidades de validación entre pares y dificultando la justificación explícita de las decisiones arquitectónicas y algorítmicas.
 
-%Esta tendencia genera una desconexión entre las capacidades de síntesis de software ofrecidas por los sistemas inteligentes y los principios tradicionales de la ingeniería de software orientados a la trazabilidad, mantenibilidad y evolución controlada de los sistemas. En particular, los enfoques actuales carecen de mecanismos que articulen de manera consistente los distintos niveles de diseño, desde la arquitectura hasta los algoritmos, mediante representaciones formales que permitan preservar las relaciones de dependencia entre dichos niveles.
-
-%Durante la revisión de la literatura de esta investigación se encontraron mecanismos para describir actividades de forma transparente y articulada, por lo que es posible hacer un proceso híbrido con enfoques de caja negras y blancas.
-%El problema técnico se manifiesta en la ausencia de un mecanismo capaz de integrar un agente diseñador de algoritmos con las actividades de diseño previas, tales como la definición arquitectónica, el diseño de componentes y la selección de estructuras de datos. Sin una abstracción que permita tratar estas capas como entidades de caja negra con contratos explícitos y estables, los sistemas adaptativos no pueden modificar su lógica operacional de forma aislada ante cambios dinámicos en los requerimientos sin comprometer la coherencia global del diseño. En consecuencia, la adaptación de los algoritmos tiende a propagarse hacia otros niveles del sistema, afectando su trazabilidad, mantenibilidad y capacidad de evolución.
-
-%Para abordar esta limitación, se requiere un modelo de abstracción que preserve la separación entre los distintos niveles de diseño y que permita a los agentes razonar sobre ellos de manera autónoma. En este contexto, una ontología puede actuar como puente semántico entre el espacio del problema, representado por los requerimientos y sus relaciones conceptuales, y el espacio de la solución, representado por los algoritmos y mecanismos de resolución disponibles. De esta manera, la selección, sustitución e integración de algoritmos podría realizarse de forma autónoma, manteniendo la compatibilidad con los artefactos de diseño previamente definidos y preservando las interfaces establecidas.
-%----------------V2-------------------
-%El diseño de software constituye una etapa fundamental del ciclo de desarrollo, ya que comprende un conjunto de actividades orientadas a transformar los requerimientos en soluciones técnicamente viables mediante distintos niveles de abstracción. Estas actividades abarcan desde la definición de la arquitectura del sistema y la especificación de sus componentes hasta la selección de estructuras de datos y el diseño de algoritmos \cite{Kruchten1995The,sommerville2011software}. Los artefactos resultantes permiten documentar y comunicar decisiones de diseño, facilitar su validación y mantener la trazabilidad entre los requerimientos, la arquitectura, los componentes y la implementación. Sin embargo, la transición hacia la Ingeniería de Software 3.0, impulsada por modelos de lenguaje de gran escala y agentes autónomos capaces de sintetizar software, ha promovido enfoques centrados principalmente en la generación automática de código \cite{li2025riseaiteammatessoftware}. Aunque estas tecnologías han demostrado capacidades crecientes para producir implementaciones funcionales, los artefactos formales de diseño suelen ser omitidos o considerados productos secundarios del proceso de desarrollo. Como consecuencia, gran parte de las decisiones arquitectónicas, estructurales y algorítmicas quedan implícitas dentro del código generado, dificultando su análisis, validación, evolución y reutilización. Esta situación evidencia una limitación más profunda dentro de los enfoques actuales de automatización del desarrollo de software. La mayoría de las propuestas se enfocan en resolver tareas específicas de manera aislada, tales como la generación de código, la producción de documentación o la automatización de actividades particulares del ciclo de vida. No obstante, el diseño de software es un proceso compuesto por múltiples actividades interdependientes cuyas decisiones influyen mutuamente. La arquitectura condiciona el diseño de componentes; los componentes imponen restricciones sobre las estructuras de datos y los algoritmos; y estos, a su vez, deben satisfacer los objetivos funcionales y de calidad definidos desde etapas previas. A pesar de estas dependencias, los enfoques actuales carecen de mecanismos que permitan representar, coordinar y preservar dichas relaciones de manera explícita. Como resultado, las distintas actividades de diseño suelen ser tratadas como procesos independientes, lo que dificulta mantener la coherencia entre los niveles de abstracción involucrados. En particular, cuando los sistemas deben adaptarse a cambios en sus requerimientos o condiciones operativas, las modificaciones realizadas en un nivel del diseño pueden propagarse hacia otros niveles debido a la ausencia de mecanismos que definan claramente sus límites, dependencias y contratos de interacción. Esta situación reduce la trazabilidad de las decisiones tomadas, incrementa los costos de mantenimiento y limita la capacidad de evolución autónoma de los sistemas. La revisión de la literatura realizada en esta investigación identificó avances significativos en áreas como los sistemas multiagente, la ingeniería del conocimiento, las ontologías y el diseño automatizado asistido por inteligencia artificial. Asimismo, se encontraron mecanismos que permiten describir capacidades, actividades y relaciones de manera explícita, favoreciendo la integración de enfoques de caja negra, basados en modelos generativos, con enfoques de caja blanca fundamentados en representaciones semánticas. Sin embargo, no se encontró evidencia de una meta-arquitectura que articule de forma sistemática las distintas actividades de diseño de software descritas por la ingeniería de software tradicional mediante agentes especializados capaces de colaborar y preservar la coherencia global del diseño. En consecuencia, persiste la necesidad de un marco conceptual y arquitectónico que permita modelar las actividades de diseño de software como entidades coordinadas dentro de un sistema multiagente, preservando las relaciones existentes entre sus artefactos y facilitando el razonamiento autónomo sobre las decisiones de diseño. Dicho marco debe proporcionar mecanismos que permitan a agentes especializados operar sobre distintos niveles de abstracción sin comprometer la consistencia de los artefactos generados ni las dependencias establecidas entre ellos. Bajo esta perspectiva, el diseño algorítmico representa un caso de estudio particularmente relevante debido a su estrecha relación con los requerimientos funcionales, las estructuras de datos y los componentes que conforman el sistema. No obstante, los enfoques actuales carecen de mecanismos que permitan a un agente de diseño algorítmico seleccionar, justificar y adaptar alternativas de solución considerando explícitamente el contexto de diseño previamente definido. Esta limitación dificulta que los algoritmos puedan evolucionar de forma autónoma y consistente frente a cambios en el problema que buscan resolver. Por lo tanto, resulta necesario desarrollar mecanismos que permitan asociar formalmente los problemas de diseño con alternativas de solución representadas mediante conocimiento explícito. En este contexto, las ontologías pueden proporcionar una representación semántica capaz de vincular conceptos del dominio, requerimientos, propiedades del problema y características de los algoritmos disponibles. De esta manera, la selección, adaptación e integración de soluciones algorítmicas podría realizarse de forma autónoma y justificable, manteniendo la compatibilidad con los artefactos de diseño previamente establecidos y contribuyendo a la construcción de sistemas de diseño de software más coherentes, trazables y evolutivos.
-%-------------------V3----------
 
 Durante el desarrollo, operación y mantenimiento de un sistema de software, este experimenta cambios en sus requerimientos que pueden dar lugar a la generación de nuevos artefactos de diseño o a la modificación de los ya existentes; este proceso se conoce como actividad de diseño \cite{sommerville2011software}. La actividad de diseño abarca desde la definición de la arquitectura del sistema y la especificación de sus componentes hasta la selección de estructuras de datos, el diseño de algoritmos y otros artefactos con distinto nivel de detalle, como diagramas y casos de uso \cite{Kruchten1995The}. Bajo la teoría de los Sistemas Evolutivos de Software (SES) \cite{PerezCarrillo2026}, se busca que estas actividades puedan realizarse sin intervención humana. Sin embargo, aún no existe un mecanismo que automatice la actividad de diseño dentro de dicha teoría. A partir de este planteamiento surgen los siguientes cuestionamientos: 
 \begin{enumerate} 
@@ -252,7 +229,6 @@ Desarrollar una meta-arquitectura basada en agentes para el diseño automatizado
 
 \section{Hipótesis}
 
-%Es posible dotar a un sistema de un mecanismo que le permita analizar cambios en sus requerimientos y gestionar de manera autónoma el rediseño de sí mismo, ya sea mediante la generación de un nuevo diseño o la adaptación del diseño existente cuando este continúe satisfaciendo los nuevos requerimientos.
 Es posible gestionar de manera autónoma la generación y adaptación de artefactos de diseño de software ante cambios en los requerimientos mediante una meta-arquitectura basada en agentes especializados, capaz de coordinar distintas actividades de diseño y seleccionar alternativas de solución consistentes con las restricciones y decisiones previamente establecidas.
 
 
@@ -285,7 +261,6 @@ Dependiendo de la naturaleza del proyecto, estas fases pueden adoptarse mediante
 
 
 \section{Sistemas de Auto-Ingeniería}
-%\cite perez
 En el trabajo de Perez-Carrillo Et. Al. \cite{perez2024} se busca que los mismos sistemas no terminen el ciclo de su vida en desecho, si no, que sin intervención humana continúen su operación bajo el concepto de elasticidad del sistema o que sufran una metamorfosis dando pie a un nuevo sistema, esta perspectiva se conoce como el marco de los sistemas de auto-ingeniería.
 Los SES contemplan un proceso muy similar a la ingeniería de software tradicional, es decir, las actividades como lo son ingeniería de requerimientos, diseño, implementación, pruebas, etc.\cite{sommerville2011software} tienen lugar en este marco de trabajo. Este trabajo unicamente esta enfocado en el diseño del software automatizado, basado en lineamientos presentes en \cite{swebok2024}. Por lo tanto el foco de este manuscrito esta puesto en la producción de artefactos de diseño, que fungen como planos del sistema antes de implementación en código.
 
@@ -320,14 +295,6 @@ A diferencia de la ingeniería tradicional donde un arquitecto humano toma la de
 
 \subsection{Gestión de Cambios de Requerimientos / Requirements Change Management (RCM)}
 
-
-%Estructura de requerimientos funcionales: Se dividen en dos componentes principales: \textbf{Funcionalidad} (las acciones principales expresadas en verbos) y \textbf{Configuración} (parámetros de tiempo, modo o condición). En los requerimientos no funcionales, las métricas y parámetros se tratan como componentes de configuración.
-%Impacto según el componente:
-%Si el cambio ocurre solo en la configuración, el sistema lo absorbe dentro de sus fases de O\&M y evolución.
-%Si el cambio afecta la funcionalidad o genera un impacto en la arquitectura que la actual no soporta, se provoca una metamorfosis.
-%Proceso RCM adaptado para SES (basado en \cite{sommerville2011software}):
-
-
 La estructura de \textbf{requerimientos funcionales} se divide en dos componentes principales, la \textit{funcionalidad} se manifiesta a través de las acciones principales, expresadas en verbos, y la \textit{configuración} especifica las condiciones y los parámetros que deben seguirse \cite{PerezCarrillo2026}. 
 En lo que respecta a los \textbf{requerimientos no funcionales}, las métricas y los parámetros se tratan como componentes de configuración.
 En el caso de que el cambio suponga una afectación a la funcionalidad o bien genere un impacto en la arquitectura que la actual si soporte y permita el cambio, este se gestiona mediante actividades de auto-operación y mantenimiento (Self-O\&M) y auto-evolución (Self-Evolution).
@@ -350,7 +317,6 @@ Un Sistema de Auto-Ingeniería (\textit{SES}) se define por su capacidad para ge
 
 
 \section{Actividades de diseño}
-%\cite sommerville
 Siguiendo el modelo general de diseño propuesto por Sommerville en las dos ultimas ediciones de \textit{"Software Engineering"}  \cite{sommerville2011software,Sommerville2015-px}, se contemplan las actividades de:
 \textit{Diseño Arquitectónico, Diseño de Interfaces, Diseño de Componentes y Diseño de Bases de Datos}.
 
@@ -370,34 +336,26 @@ La recomendación de estándares y guías de referencia como lo son el \textit{"
 
 \subsection{Diseño de Arquitectura}
 
-%Esta especificación según \cite{sommerville2011software} es la parte en la cual se hace una visión general del sistema y como de be operar.
 Según Sommerville \cite{sommerville2011software}, el diseño arquitectónico consiste en identificar la estructura general del sistema, los componentes principales (también denominados sub-sistemas o módulos), sus relaciones y la forma en que se distribuyen. Esta actividad produce una visión de alto nivel que define cómo debe organizarse el sistema para satisfacer los requisitos funcionales y no funcionales. El \textit{SWEBOK} \cite{swebok2024} y el estándar \textit{IEEE 1016} \cite{1016_2009} refuerzan esta idea al considerar la arquitectura como la organización fundamental de los elementos de software y sus relaciones.
 
 \subsection{Diseño de Interfaces}
-%Esta actividad especifica como es que las interfaces van a a operar antes de incluso diseñar componentes, una vez declarado esto los componentes solo adaptas estas maneras de comunicación para garantizar cohesión y acoplamiento requerido.
 Esta actividad define las interfaces entre los componentes del sistema. \textit{Sommerville} \cite{Sommerville2015-px} destaca que una vez especificadas las interfaces, los componentes pueden diseñarse y desarrollarse de forma concurrente, ya que cada uno solo necesita conocer el contrato de comunicación (operaciones, parámetros y comportamientos esperados). Esto favorece un bajo acoplamiento y una alta cohesión. El estandar \textit{IEEE 1016}  \cite{1016_2009} incluye el punto de vista de la interfaz (Interface Viewpoint) como una de las vistas recomendadas para documentar estos contratos.
 
 
 \subsection{Diseño de Componentes}
 
-%Aquí la actividad especifica como cada componente opera, cumpliendo funciones y objetivos específicos.
 En esta etapa se especifica con mayor precisión cómo operará cada uno de los componentes identificados durante el diseño arquitectónico. El diseño de componentes puede adoptar diferentes niveles de detalle según las necesidades del proyecto: desde una descripción funcional sencilla que indique qué debe hacer el componente, hasta la adaptación de un componente reutilizable ya existente, o bien la elaboración de un modelo de diseño detallado que defina su estructura interna, comportamiento y relaciones \cite{Sommerville2015-px}. El \textit{SWEBOK} sitúa esta actividad dentro del diseño detallado (detailed design), cuyo propósito fundamental es describir cada componente con el nivel de detalle suficiente para que pueda ser construido de manera inequívoca por los desarrolladores. Esto implica definir no solo las responsabilidades del componente, sino también sus interfaces internas, las estructuras de datos que manipula, los algoritmos principales que ejecuta y las restricciones de rendimiento o de calidad que debe satisfacer \cite{swebok2024}.
 
 \subsection{Diseño de Base de datos}
-%Esta parte funciona para modelar todas la estructuras de datos que se usaran en los algoritmos, ademas de proporcionar diferentes esquemas para las bases de datos y viceversa, es decir se pueden moldear tablas a partir de estructura de datos necesarias o diseñar estructuras de datos a partir de los requerimientos de información en las bases de datos.
 El diseño de bases de datos consiste en definir las estructuras de datos del sistema y la forma en que éstas se representarán en una base de datos. Esta actividad abarca tanto el modelado lógico y físico de la base de datos (tablas, relaciones, índices, restricciones de integridad, etc.) como el diseño de las estructuras de datos en memoria que utilizarán los componentes y algoritmos del software (listas, árboles, tablas hash, grafos, colas, etc.)\cite{Sommerville2015-px}. Existe una relación estrecha y bidireccional entre ambos aspectos: las necesidades de información y los patrones de acceso definidos en la base de datos influyen directamente en las estructuras de datos que se emplean en la aplicación, y a su vez, los requisitos de rendimiento y manipulación de datos de los algoritmos condicionan el diseño del esquema de la base de datos.
 El SDD \cite{1016_2009} refuerza esta visión a través del Punto de vista de informacion (Information Viewpoint), donde se especifican los elementos de diseño relacionados con la información: las entidades de diseño (elementos de datos, tipos de datos y clases, almacenes de datos y mecanismos de acceso), las relaciones de diseño (asociación, usos, implementaciones), los atributos de datos junto con sus restricciones y relaciones estáticas, así como los atributos de diseño de persistencia y propiedades de calidad.
 
 \subsection{Diseño de Algoritmos}
-%MEJORAR
-%Esta es la actividad en la que indagaremos, se encarga del diseño de algoritmos, según la necesidad, eficiencia y eficacia de lo que necesitemos resolver.
 Esta actividad forma parte del diseño detallado de componentes y se enfoca en la definición de los algoritmos que implementarán la lógica de procesamiento de cada componente. Su objetivo es seleccionar o diseñar soluciones algorítmicas que sean correctas, eficientes y adecuadas a los requisitos de rendimiento, tiempo de respuesta y uso de recursos del sistema. Aunque \textit{Sommerville} \cite{Sommerville2015-px} la integra dentro del diseño de componentes, estándares como el \textit{IEEE 1016} \cite{1016_2009} (a través del Algorithm Viewpoint) y el \textit{SWEBOK} \cite{swebok2024} reconocen la importancia de especificar explícitamente los algoritmos cuando su complejidad o criticidad lo justifica. En este trabajo se trata como una actividad diferenciada para permitir un análisis riguroso de corrección, complejidad computacional y optimización.
 
-%\section{Diseño Automatizado de Algoritmos}
 
 
 \section{Sistemas Multiagentes (MAS)}
-%Un agente es una entidad autónoma, comunicativa y orientada a objetivos dentro de arquitecturas distribuidas, con caracteristicas como la percepcion, capacidad de inferencia, .
 Un \textit{agente} se define como una entidad computacional autónoma e hilo de ejecución concurrente que encapsula un estado interno, percibe su entorno a través de sensores y actúa sobre él mediante actuadores para alcanzar objetivos específicos dentro de una arquitectura distribuida \cite{InnMAS2010}. Sus características fundamentales abarcan: \begin{itemize} \item \textbf{Situacionalidad (Percepción y Acción):} Capacidad de interactuar de forma directa e inmersa con el entorno, recibiendo estímulos sensoriales y modificando dicho entorno mediante actuadores \cite{InnMAS2010}. \item \textbf{Autonomía:} Habilidad para tomar decisiones y seleccionar acciones de forma independiente sin intervención externa, preservando su estado interno frente a perturbaciones del sistema \cite{InnMAS2010}. \item \textbf{Capacidad de Inferencia:} Competencia para procesar información abstracta, deducir observaciones a partir del conocimiento disponible y ejecutar planes orientados a metas \cite{InnMAS2010}. \item \textbf{Reactividad y Proactividad:} Habilidad para responder oportunamente ante cambios dinámicos del entorno (reactividad), manteniendo a su vez un comportamiento con iniciativa propia dirigido a metas (proactividad) \cite{InnMAS2010}. \item \textbf{Comportamiento Social:} Capacidad para comunicarse, cooperar o negociar con otros agentes o humanos mediante el intercambio estructurado de mensajes para resolver problemas complejos \cite{InnMAS2010}. \end{itemize}
 Un \textit{Sistema Multiagentes} (MAS, por sus siglas en inglés) se definen como redes de entidades computacionales autónomas (agentes) que interactúan dentro de un entorno dinámico compartiendo conocimiento y recursos para resolver problemas complejos \cite{InnMAS2010}. Los MAS destacan por su flexibilidad, capacidad de cómputo paralelo, escalabilidad modular y tolerancia a fallos mediante una degradación suave del sistema en caso de avería de alguno de sus componentes \cite{InnMAS2010}.
 
@@ -491,7 +449,7 @@ Sobre la base conceptual de esta taxonomía, \cite{duran2026seleccion} propone l
 Este marco semántico permite abordar la selección de algoritmos como un proceso de planificación secuencial guiado por razonamiento ontológico y aprendizaje automático, posibilitando la reconfiguración adaptativa de servicios en tiempo de ejecución \cite{duran2026seleccion}.
 
 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{Estado del Arte}\label{arte}
 
 Este capítulo examina el estado del arte relacionado con el diseño automatizado de software y el concepto de \textit{Self-Design} (diseño automatizado). Dado el carácter emergente de esta línea de investigación, la literatura disponible es aún limitada y se encuentra distribuida en áreas afines con diversos enfoques. Por ello, este capítulo adopta presentar resultados relevante obtenidos mediante una Revisión Sistemática de la Literatura descrita en el Capítulo~\ref{propuesta}. Se realizo con un enfoque exploratorio orientado a identificar conceptos, tendencias, enfoques y mecanismos relevantes que permitan evaluar trabajos relacionados con el problema y área de dominio de esta misma investigación.
@@ -555,7 +513,7 @@ A continuación, la Tabla \ref{tab:comparacion_autodiseno} sintetiza y clasifica
 	}
 \end{table}
 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{Propuesta}\label{propuesta}
 
 \section{Metodología}
@@ -757,7 +715,7 @@ Los resultados completos están en el articulo titulado "Automated Software Desi
 La revisión revela un punto de inflexión hacia la automatización del diseño de software a través de cuatro paradigmas principales: la refactorización basada en búsqueda (SBR), el autodiseño algorítmico mediante mejora genética (GI), la adaptabilidad formal con ontologías y planificación (PDDL), y la transición hacia la Ingeniería de Software 3.0 (SE 3.0) basada en ecosistemas multiagente. Aunque estos enfoques permiten manipular arquitecturas complejas y redefinen el rol del desarrollador hacia el de un orquestador estratégico, enfrentan importantes desafíos técnicos: la pérdida de semántica en los modelos matemáticos, la inestabilidad durante el reemplazo de código en caliente, la sobrecarga computacional en entornos inciertos y el riesgo de alucinaciones de diseño ante la falta de restricciones verificables y gobernanza en los agentes. Finalmente, se evidencia una brecha crítica entre el potencial teórico y la práctica, ya que la mayoría de los estudios se limitan a entornos controlados o sintéticos; por ello, se concluye que la integración del razonamiento simbólico con modelos de lenguaje es indispensable para lograr arquitecturas autogeneradas transparentes, funcionales y viables en entornos de producción reales.
 
 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{Experimentación y Análisis de Resultados}\label{resultados}
 
 
@@ -783,7 +741,7 @@ La revisión revela un punto de inflexión hacia la automatización del diseño 
 
 \subsection{Experimento: Identificación del Algoritmo}
 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{Conclusiones y Trabajo Futuro}\label{conclusiones}
 
 
