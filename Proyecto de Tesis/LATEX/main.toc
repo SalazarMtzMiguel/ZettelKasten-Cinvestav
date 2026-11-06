@@ -43,57 +43,49 @@
 \contentsline {subsection}{\numberline {2.7.3}Modelado semántico para la taxonomía y clasificación de problemas algorítmicos}{21}{subsection.2.7.3}%
 \contentsline {chapter}{\numberline {3}Estado del Arte}{23}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Conceptualización del Auto-Diseño}{23}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Automatización del Diseño}{24}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Auto-diseño basado en Inteligencia Artificial y Aprendizaje}{24}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Autodiseño bio-inspirado, de reúso y búsqueda}{25}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Autodiseño basado en modelado de agentes}{25}{subsection.3.2.3}%
-\contentsline {section}{\numberline {3.3}Conceptos Emergentes y Mecanismos de Control en Autodiseño}{26}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Comparación de Trabajos}{26}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Estado del Arte y Actividades de Auto-Diseño}{27}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Automatización de las Actividades de Diseño de Software}{27}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Actividades de Diseño Arquitectónico (Macro-nivel)}{27}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Actividades de Diseño de Componentes e Interfaces (Meso-nivel)}{28}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Actividades de Diseño de Estructuras de Datos (Micro-nivel de Almacenamiento)}{28}{subsection.4.1.3}%
-\contentsline {subsection}{\numberline {4.1.4}Actividades de Diseño de Algoritmos y Heurísticas (Micro-nivel Lógico)}{29}{subsection.4.1.4}%
-\contentsline {section}{\numberline {4.2}Dimensión Transversal: Soporte de Ejecución y Auto-Evolución}{29}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Síntesis Comparativa y Declaración del Vacío de Investigación}{30}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Declaración del Vacío de Investigación (Research Gap)}{31}{subsection.4.3.1}%
-\contentsline {chapter}{\numberline {5}Propuesta}{32}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Metodología}{32}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Revisión Sistemática de literatura}{32}{subsection.5.1.1}%
-\contentsline {subsubsection}{\numberline {5.1.1.1}Formulación preguntas de investigación}{32}{subsubsection.5.1.1.1}%
-\contentsline {subsubsection}{\numberline {5.1.1.2}Estrategia de búsqueda}{33}{subsubsection.5.1.1.2}%
-\contentsline {subsubsection}{\numberline {5.1.1.3}Criterios de Inclusión y de exclusión}{37}{subsubsection.5.1.1.3}%
-\contentsline {subsubsection}{\numberline {5.1.1.4}Proceso de selección de estudios}{39}{subsubsection.5.1.1.4}%
-\contentsline {subsubsection}{\numberline {5.1.1.5}Extracción de datos}{41}{subsubsection.5.1.1.5}%
-\contentsline {subsubsection}{\numberline {5.1.1.6}Resultados}{42}{subsubsection.5.1.1.6}%
-\contentsline {subsubsection}{\numberline {5.1.1.7}Discusión}{42}{subsubsection.5.1.1.7}%
-\contentsline {section}{\numberline {5.2}Propuesta de un Sistema Multi-Agente (MAS) para el Auto-Diseño}{43}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Formulación General del Sistema}{43}{subsection.5.2.1}%
-\contentsline {subsubsection}{\numberline {5.2.1.1}Definición del Entorno y Modelo de Auto-Diseño}{43}{subsubsection.5.2.1.1}%
-\contentsline {subsubsection}{\numberline {5.2.1.2}Formalización Matemática del MAS}{43}{subsubsection.5.2.1.2}%
-\contentsline {subsection}{\numberline {5.2.2}Especificación del Sistema (System Specification)}{43}{subsection.5.2.2}%
-\contentsline {subsubsection}{\numberline {5.2.2.1}Jerarquía de Metas (System Goals)}{43}{subsubsection.5.2.2.1}%
-\contentsline {subsubsection}{\numberline {5.2.2.2}Interfaz con el Entorno (Percepts y Actions)}{43}{subsubsection.5.2.2.2}%
-\contentsline {subsubsection}{\numberline {5.2.2.3}Escenarios de Uso Principales (Scenarios)}{44}{subsubsection.5.2.2.3}%
-\contentsline {subsection}{\numberline {5.2.3}Diseño Arquitectónico (Architectural Design)}{44}{subsection.5.2.3}%
-\contentsline {subsubsection}{\numberline {5.2.3.1}Identificación y Justificación de Agentes}{44}{subsubsection.5.2.3.1}%
-\contentsline {subsubsection}{\numberline {5.2.3.2}Estructura Global del Sistema (System Overview)}{44}{subsubsection.5.2.3.2}%
-\contentsline {subsubsection}{\numberline {5.2.3.3}Protocolo de Negociación y Coordinación}{45}{subsubsection.5.2.3.3}%
-\contentsline {subsection}{\numberline {5.2.4}Diseño Detallado BDI (Detailed Design)}{45}{subsection.5.2.4}%
-\contentsline {subsubsection}{\numberline {5.2.4.1}Estructura BDI Interna de los Agentes}{45}{subsubsection.5.2.4.1}%
-\contentsline {subsubsection}{\numberline {5.2.4.2}Caso de Estudio de Caja Blanca: Agente de Algoritmos ($A_{alg}$)}{45}{subsubsection.5.2.4.2}%
-\contentsline {subsection}{\numberline {5.2.5}Análisis de Propiedades del Modelo de Agentes}{46}{subsection.5.2.5}%
-\contentsline {chapter}{\numberline {6}Experimentación y Análisis de Resultados}{47}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Análisis de selección automática de algoritmos}{47}{section.6.1}%
-\contentsline {subsection}{\numberline {6.1.1}Análisis de la arquitectura: auto-diseño}{47}{subsection.6.1.1}%
-\contentsline {section}{\numberline {6.2}Experimentación}{47}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Caso de estudio: nuevo problema, nueva solución}{47}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}Experimento: Identificación del Problema}{47}{subsection.6.2.2}%
-\contentsline {subsection}{\numberline {6.2.3}Experimento: Identificación del Algoritmo}{47}{subsection.6.2.3}%
-\contentsline {chapter}{\numberline {7}Conclusiones y Trabajo Futuro}{48}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Conclusiones}{48}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Objetivos logrados}{48}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Trabajo a futuro}{48}{section.7.3}%
-\contentsline {chapter}{Referencias Bibliográficas}{49}{chapter*.18}%
-\contentsline {chapter}{\numberline {A}Código Fuente Relevante}{55}{appendix.A}%
+\contentsline {section}{\numberline {3.2}Automatización de las Actividades de Diseño de Software}{24}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Diseño Arquitectónico}{24}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Diseño de Componentes e Interfaces}{24}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Diseño de Estructuras de Datos}{25}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Diseño de Algoritmos}{25}{subsection.3.2.4}%
+\contentsline {section}{\numberline {3.3}Soporte en operación y Auto-Evolución}{25}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Síntesis del estado del arte}{26}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Propuesta}{28}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Metodología}{28}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Revisión Sistemática de literatura}{28}{subsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.1.1}Formulación preguntas de investigación}{28}{subsubsection.4.1.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.1.2}Estrategia de búsqueda}{29}{subsubsection.4.1.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.1.3}Criterios de Inclusión y de exclusión}{33}{subsubsection.4.1.1.3}%
+\contentsline {subsubsection}{\numberline {4.1.1.4}Proceso de selección de estudios}{35}{subsubsection.4.1.1.4}%
+\contentsline {subsubsection}{\numberline {4.1.1.5}Extracción de datos}{37}{subsubsection.4.1.1.5}%
+\contentsline {subsubsection}{\numberline {4.1.1.6}Resultados}{38}{subsubsection.4.1.1.6}%
+\contentsline {subsubsection}{\numberline {4.1.1.7}Discusión}{38}{subsubsection.4.1.1.7}%
+\contentsline {section}{\numberline {4.2}Propuesta de un Sistema Multi-Agente (MAS) para el Auto-Diseño}{39}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Formulación General del Sistema}{39}{subsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.1.1}Definición del Entorno y Modelo de Auto-Diseño}{39}{subsubsection.4.2.1.1}%
+\contentsline {subsubsection}{\numberline {4.2.1.2}Formalización Matemática del MAS}{39}{subsubsection.4.2.1.2}%
+\contentsline {subsection}{\numberline {4.2.2}Especificación del Sistema (System Specification)}{39}{subsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.2.1}Jerarquía de Metas (System Goals)}{39}{subsubsection.4.2.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2.2}Interfaz con el Entorno (Percepts y Actions)}{39}{subsubsection.4.2.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.2.3}Escenarios de Uso Principales (Scenarios)}{40}{subsubsection.4.2.2.3}%
+\contentsline {subsection}{\numberline {4.2.3}Diseño Arquitectónico (Architectural Design)}{40}{subsection.4.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.3.1}Identificación y Justificación de Agentes}{40}{subsubsection.4.2.3.1}%
+\contentsline {subsubsection}{\numberline {4.2.3.2}Estructura Global del Sistema (System Overview)}{40}{subsubsection.4.2.3.2}%
+\contentsline {subsubsection}{\numberline {4.2.3.3}Protocolo de Negociación y Coordinación}{41}{subsubsection.4.2.3.3}%
+\contentsline {subsection}{\numberline {4.2.4}Diseño Detallado BDI (Detailed Design)}{41}{subsection.4.2.4}%
+\contentsline {subsubsection}{\numberline {4.2.4.1}Estructura BDI Interna de los Agentes}{41}{subsubsection.4.2.4.1}%
+\contentsline {subsubsection}{\numberline {4.2.4.2}Caso de Estudio de Caja Blanca: Agente de Algoritmos ($A_{alg}$)}{41}{subsubsection.4.2.4.2}%
+\contentsline {subsection}{\numberline {4.2.5}Análisis de Propiedades del Modelo de Agentes}{42}{subsection.4.2.5}%
+\contentsline {chapter}{\numberline {5}Experimentación y Análisis de Resultados}{43}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Análisis de selección automática de algoritmos}{43}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Análisis de la arquitectura: auto-diseño}{43}{subsection.5.1.1}%
+\contentsline {section}{\numberline {5.2}Experimentación}{43}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Caso de estudio: nuevo problema, nueva solución}{43}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Experimento: Identificación del Problema}{43}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Experimento: Identificación del Algoritmo}{43}{subsection.5.2.3}%
+\contentsline {chapter}{\numberline {6}Conclusiones y Trabajo Futuro}{44}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Conclusiones}{44}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Objetivos logrados}{44}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Trabajo a futuro}{44}{section.6.3}%
+\contentsline {chapter}{Referencias Bibliográficas}{45}{chapter*.17}%
+\contentsline {chapter}{\numberline {A}Código Fuente Relevante}{51}{appendix.A}%

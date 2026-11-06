@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.10.22)  6 NOV 2026 00:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.10.22)  6 NOV 2026 01:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -915,7 +915,7 @@ Package hyperref Info: Link coloring ON on input line 61.
 \openout4 = `main.out'.
 
 Package babel Info: Main language set to 'spanish'.
-<figures/CINV.png, id=395, 349.305pt x 344.78813pt>
+<figures/CINV.png, id=363, 349.305pt x 344.78813pt>
 File: figures/CINV.png Graphic file (type png)
 <use figures/CINV.png>
 Package pdftex.def Info: figures/CINV.png  used on input line 73.
@@ -1026,7 +1026,7 @@ o.pdf>
 rocess-eps-converted-to.pdf figures/Fig3_DesignProcess.eps>
 (epstopdf)             \includegraphics on input line 335.
 Package epstopdf Info: Output file is already uptodate.
-<figures/Fig3_DesignProcess-eps-converted-to.pdf, id=713, 475.7775pt x 264.99pt
+<figures/Fig3_DesignProcess-eps-converted-to.pdf, id=669, 475.7775pt x 264.99pt
 >
 File: figures/Fig3_DesignProcess-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/Fig3_DesignProcess-eps-converted-to.pdf>
@@ -1038,246 +1038,226 @@ on input line 335.
 Cap\'{\i }tulo 3.
 [23
 
-] [24] [25] [26]
-Cap\'{\i }tulo 4.
-[27
-
-] [28]
-Overfull \hbox (16.15263pt too wide) in paragraph at lines 519--519
-[]\T1/cmr/bx/n/17.28 Dimensión Trans-ver-sal: So-por-te de Eje-cu-ción y Auto-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 521--521
+] [24] [25]
+Underfull \hbox (badness 10000) in paragraph at lines 482--482
 []|\T1/cmr/bx/n/12 ¾Qué ge-ne-ran?
  []
 
 
-Underfull \hbox (badness 5592) in paragraph at lines 521--521
-[]|\T1/cmr/bx/n/12 ¾Qué NO ge-ne-
+Underfull \hbox (badness 1484) in paragraph at lines 482--482
+[]|\T1/cmr/m/n/12 Diseño de com-po-nen-
  []
 
 
-Underfull \hbox (badness 8000) in paragraph at lines 521--521
-[]|\T1/cmr/m/n/12 Modelos de vis-tas
- []
-
-
-Underfull \hbox (badness 2762) in paragraph at lines 521--521
-\T1/cmr/m/n/12 com-po-nen-tes ope-ra-
- []
-
-
-Underfull \hbox (badness 1365) in paragraph at lines 521--521
+Underfull \hbox (badness 1365) in paragraph at lines 482--482
 []|\T1/cmr/m/n/12 Modelos UML con-
  []
 
 
-Underfull \hbox (badness 3679) in paragraph at lines 521--521
+Underfull \hbox (badness 3679) in paragraph at lines 482--482
 \T1/cmr/m/n/12 cep-tua-les y re-so-lu-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 521--521
-[]|\T1/cmr/m/n/12 Enfoque con-cep-tual
+Underfull \hbox (badness 1484) in paragraph at lines 482--482
+[]|\T1/cmr/m/n/12 Diseño de com-po-nen-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 521--521
+Underfull \hbox (badness 10000) in paragraph at lines 482--482
 []|\T1/cmr/m/n/12 Agrupamiento mo-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 521--521
+Underfull \hbox (badness 1728) in paragraph at lines 482--482
+[]|\T1/cmr/m/n/12 Diseño ar-qui-tec-tó-ni-co,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 482--482
 []|\T1/cmr/m/n/12 Refactorización
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 521--521
+Underfull \hbox (badness 1728) in paragraph at lines 482--482
+[]|\T1/cmr/m/n/12 Diseño ar-qui-tec-tó-ni-co,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 482--482
 []|\T1/cmr/m/n/12 Reconfiguración
  []
 
 
-Underfull \hbox (badness 1297) in paragraph at lines 521--521
-\T1/cmr/m/n/12 di-ná-mi-cas por \T1/cmr/m/it/12 Hot-
+Underfull \hbox (badness 10000) in paragraph at lines 482--482
+\T1/cmr/m/n/12 di-ná-mi-ca me-dian-te
  []
 
 
-Underfull \hbox (badness 8075) in paragraph at lines 521--521
-[]|\T1/cmr/m/n/12 Artefactos for-ma-les
+Underfull \hbox (badness 1728) in paragraph at lines 482--482
+[]|\T1/cmr/m/n/12 Diseño ar-qui-tec-tó-ni-co,
  []
 
 
-Underfull \hbox (badness 1881) in paragraph at lines 521--521
-\T1/cmr/m/n/12 de di-se-ño (mo-de-los
+Underfull \hbox (badness 1728) in paragraph at lines 482--482
+[]|\T1/cmr/m/n/12 Diseño ar-qui-tec-tó-ni-co,
  []
 
 
-Underfull \hbox (badness 2197) in paragraph at lines 521--521
-\T1/cmr/m/n/12 exis-ten-tes he-chos por
+Underfull \hbox (badness 1728) in paragraph at lines 482--482
+[]|\T1/cmr/m/n/12 Diseño ar-qui-tec-tó-ni-co,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 521--521
-[]|\T1/cmr/m/n/12 Hiper-especializado
+Underfull \hbox (badness 10000) in paragraph at lines 482--482
+[]|\T1/cmr/m/n/12 Metaheurísticas y
  []
 
 
-Underfull \hbox (badness 2521) in paragraph at lines 521--521
-\T1/cmr/m/n/12 en al-ma-ce-na-mien-to a
+Underfull \hbox (badness 1728) in paragraph at lines 482--482
+[]|\T1/cmr/m/n/12 Diseño ar-qui-tec-tó-ni-co,
  []
 
 
-Underfull \hbox (badness 2310) in paragraph at lines 521--521
-\T1/cmr/m/n/12 micro-nivel; ig-no-ra el
+Underfull \hbox (badness 1521) in paragraph at lines 482--482
+\T1/cmr/m/n/12 ces, y es-truc-tu-ras de
  []
 
 
-Underfull \hbox (badness 1009) in paragraph at lines 521--521
-[]|\T1/cmr/m/n/12 Módulos de soft-wa-
+Underfull \hbox (badness 3679) in paragraph at lines 482--482
+[]|\T1/cmr/m/n/12 Mecanismos de re-
  []
 
 
-Underfull \hbox (badness 1009) in paragraph at lines 521--521
-[]|\T1/cmr/m/n/12 Generación aco-ta-da a
+Underfull \hbox (badness 10000) in paragraph at lines 482--482
+[]|\T1/cmr/m/n/12 Generación de ar-
  []
 
 
-Underfull \hbox (badness 4168) in paragraph at lines 521--521
-\T1/cmr/m/n/12 se-cuen-cias ló-gi-cas de
+Underfull \hbox (badness 10000) in paragraph at lines 482--482
+\T1/cmr/m/n/12 te-fac-tos de di-se-ño
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 521--521
-[]|\T1/cmr/m/n/12 Reconfiguración es-
+Underfull \hbox (badness 10000) in paragraph at lines 482--482
+[]|\T1/cmr/m/n/12 Marco con-cep-tual
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 521--521
-[]|\T1/cmr/m/n/12 Auto-Evolución
+Underfull \hbox (badness 10000) in paragraph at lines 482--482
+[]|\T1/cmr/m/n/12 Generación de ar-
  []
 
 
-Underfull \hbox (badness 1953) in paragraph at lines 521--521
-[]|\T1/cmr/m/n/12 Marco teó-ri-co pa-ra
+Underfull \hbox (badness 10000) in paragraph at lines 482--482
+\T1/cmr/m/n/12 te-fac-tos de di-se-ño
  []
 
+[26] [27]
+Cap\'{\i }tulo 4.
+[28
 
-Underfull \hbox (badness 8075) in paragraph at lines 521--521
-[]|\T1/cmr/m/n/12 Artefactos for-ma-les
- []
-
-[29] [30]
-Overfull \hbox (2.35464pt too wide) in paragraph at lines 521--521
-[]\T1/cmr/m/n/12 Desconexión en-tre Di-se-ño y Me-ca-nis-mos de Eje-cu-ción: Lo
-s mar-cos de auto-adaptación
- []
-
-[31]
-Cap\'{\i }tulo 5.
-[32
-
-] [33] [34]
-Underfull \hbox (badness 10000) in paragraph at lines 605--605
+] [29] [30]
+Underfull \hbox (badness 10000) in paragraph at lines 568--568
 []|\T1/cmtt/m/n/12 TITLE-ABS-KEY ((("self-architecting" OR
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 605--605
+Underfull \hbox (badness 10000) in paragraph at lines 568--568
 \T1/cmtt/m/n/12 "self architectural" OR " auto-architecting"
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 605--605
+Underfull \hbox (badness 10000) in paragraph at lines 568--568
 \T1/cmtt/m/n/12 OR "auto architectural") W/3 "system*") OR
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 605--605
+Underfull \hbox (badness 10000) in paragraph at lines 568--568
 \T1/cmtt/m/n/12 (("self-architectural" OR "auto-architectural") W/3
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 605--605
+Underfull \hbox (badness 10000) in paragraph at lines 568--568
 \T1/cmtt/m/n/12 "design")) AND PUBYEAR > 2014 AND PUBYEAR < 2027 AND
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 605--605
+Underfull \hbox (badness 10000) in paragraph at lines 568--568
 \T1/cmtt/m/n/12 (LIMIT-TO (SUBJAREA, "COMP") OR LIMIT-TO (SUBJAREA,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 619--619
+Underfull \hbox (badness 10000) in paragraph at lines 582--582
 []|\T1/cmr/m/n/12 1. Self-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 619--619
+Underfull \hbox (badness 10000) in paragraph at lines 582--582
 \T1/cmr/m/n/12 Architecting
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 621--621
+Underfull \hbox (badness 10000) in paragraph at lines 584--584
 []|\T1/cmr/m/n/12 3. Evo-lu-tio-nary
  []
 
 
-Underfull \hbox (badness 1297) in paragraph at lines 622--622
+Underfull \hbox (badness 1297) in paragraph at lines 585--585
 []|\T1/cmr/m/n/12 (("generative de-sign" OR "ge-ne-ra-ti-ve soft-wa-re de-sign"
 ) AND
  []
 
 
-Underfull \hbox (badness 3168) in paragraph at lines 623--623
+Underfull \hbox (badness 3168) in paragraph at lines 586--586
 []|\T1/cmr/m/n/12 5. Soft-wa-re De-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 624--624
+Underfull \hbox (badness 10000) in paragraph at lines 587--587
 []|\T1/cmr/m/n/12 6. Self-Sufficient
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 626--626
+Underfull \hbox (badness 10000) in paragraph at lines 589--589
 []|\T1/cmr/m/n/12 8. Self/Auto-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 626--626
+Underfull \hbox (badness 10000) in paragraph at lines 589--589
 \T1/cmr/m/n/12 Architectural
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 627--627
+Underfull \hbox (badness 10000) in paragraph at lines 590--590
 []|\T1/cmr/m/n/12 9. Self/Auto-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 628--628
+Underfull \hbox (badness 10000) in paragraph at lines 591--591
 []|\T1/cmr/m/n/12 10. Self/Auto-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 628--628
+Underfull \hbox (badness 10000) in paragraph at lines 591--591
 \T1/cmr/m/n/12 Component
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 629--629
+Underfull \hbox (badness 10000) in paragraph at lines 592--592
 []|\T1/cmr/m/n/12 11. Self/Auto-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 630--630
+Underfull \hbox (badness 10000) in paragraph at lines 593--593
 []|\T1/cmr/m/n/12 12. Self/Auto-
  []
 
-[35]
+[31]
 Overfull \vbox (8.28314pt too high) has occurred while \output is active []
 
 
-[36] [37] [38]
+[32] [33] [34]
 Package epstopdf Info: Source file: <figures/Fig1_Workflow.eps>
 (epstopdf)                    date: 2026-08-18 20:59:10
 (epstopdf)                    size: 183240 bytes
@@ -1287,16 +1267,15 @@ Package epstopdf Info: Source file: <figures/Fig1_Workflow.eps>
 (epstopdf)                    size: 63031 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figures/Fig1_Workflo
 w-eps-converted-to.pdf figures/Fig1_Workflow.eps>
-(epstopdf)             \includegraphics on input line 696.
+(epstopdf)             \includegraphics on input line 659.
 Package epstopdf Info: Output file is already uptodate.
-<figures/Fig1_Workflow-eps-converted-to.pdf, id=1010, 604.2575pt x 709.65125pt>
-
+<figures/Fig1_Workflow-eps-converted-to.pdf, id=922, 604.2575pt x 709.65125pt>
 File: figures/Fig1_Workflow-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/Fig1_Workflow-eps-converted-to.pdf>
 Package pdftex.def Info: figures/Fig1_Workflow-eps-converted-to.pdf  used on in
-put line 696.
+put line 659.
 (pdftex.def)             Requested size: 320.46199pt x 376.3516pt.
- [39]
+ [35]
 Package epstopdf Info: Source file: <figures/Fig2_StudySelection.eps>
 (epstopdf)                    date: 2026-08-18 20:59:10
 (epstopdf)                    size: 578496 bytes
@@ -1306,18 +1285,18 @@ to.pdf>
 (epstopdf)                    size: 560289 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figures/Fig2_StudySe
 lection-eps-converted-to.pdf figures/Fig2_StudySelection.eps>
-(epstopdf)             \includegraphics on input line 705.
+(epstopdf)             \includegraphics on input line 668.
 Package epstopdf Info: Output file is already uptodate.
-<figures/Fig2_StudySelection-eps-converted-to.pdf, id=1017, 717.68124pt x 685.5
-6125pt>
+<figures/Fig2_StudySelection-eps-converted-to.pdf, id=929, 717.68124pt x 685.56
+125pt>
 File: figures/Fig2_StudySelection-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/Fig2_StudySelection-eps-converted-to.pdf>
 Package pdftex.def Info: figures/Fig2_StudySelection-eps-converted-to.pdf  used
- on input line 705.
+ on input line 668.
 (pdftex.def)             Requested size: 412.02156pt x 393.58792pt.
- [40 <./figures/Fig1_Workflow-eps-converted-to.pdf>]
-[41 <./figures/Fig2_StudySelection-eps-converted-to.pdf>] [42] [43]
-Overfull \hbox (20.8731pt too wide) detected at line 805
+ [36 <./figures/Fig1_Workflow-eps-converted-to.pdf>]
+[37 <./figures/Fig2_StudySelection-eps-converted-to.pdf>] [38] [39]
+Overfull \hbox (20.8731pt too wide) detected at line 768
 [][][][][]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 A[] \OMS/cmsy/m/n/12 ! \OML/cmm/m/i
 t/12 S\OT1/cmr/m/n/12 )  \OMS/cmsy/m/n/12 !  []\OT1/cmr/m/n/12 (\OML/cmm/m/it/1
 2 A[]\OT1/cmr/m/n/12 )  \OMS/cmsy/m/n/12 !  []\OT1/cmr/m/n/12 (\OML/cmm/m/it/12
@@ -1325,57 +1304,57 @@ t/12 S\OT1/cmr/m/n/12 )  \OMS/cmsy/m/n/12 !  []\OT1/cmr/m/n/12 (\OML/cmm/m/it/1
  !  []
  []
 
-[44]
-Underfull \hbox (badness 1281) in paragraph at lines 819--819
+[40]
+Underfull \hbox (badness 1281) in paragraph at lines 782--782
 []|\T1/cmr/m/n/10.95 Minimizar cos-to de
  []
 
 
-Underfull \hbox (badness 5548) in paragraph at lines 819--819
+Underfull \hbox (badness 5548) in paragraph at lines 782--782
 \T1/cmr/m/n/10.95 ta-mor-fo-sis Ar-qui-tec-tó-
  []
 
 
-Underfull \hbox (badness 1418) in paragraph at lines 820--820
+Underfull \hbox (badness 1418) in paragraph at lines 783--783
 []|\T1/cmr/m/n/10.95 Contratos de in-ter-
  []
 
 
-Underfull \hbox (badness 4621) in paragraph at lines 821--821
+Underfull \hbox (badness 4621) in paragraph at lines 784--784
 \T1/cmr/m/n/10.95 vo-lu-men de da-tos,
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 827.
+(hyperref)                removing `math shift' on input line 790.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 827.
+(hyperref)                removing `subscript' on input line 790.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 827.
+(hyperref)                removing `math shift' on input line 790.
 
-[45] [46]
-Cap\'{\i }tulo 6.
-[47
+[41] [42]
+Cap\'{\i }tulo 5.
+[43
 
 ]
-Cap\'{\i }tulo 7.
-[48
+Cap\'{\i }tulo 6.
+[44
 
-] [49
+] [45
 
-] [50] [51]
-Overfull \hbox (7.38779pt too wide) in paragraph at lines 900--900
+] [46] [47]
+Overfull \hbox (7.38779pt too wide) in paragraph at lines 863--863
 \T1/cmr/m/n/12 2016, Seattle, WA, USA: As-so-cia-tion for Com-pu-ting Ma-chi-ne
 ry, 2016, págs. 1073[]1075,
  []
 
-[52] [53] [54]
+[48] [49] [50]
 Ap\'{e}ndice A.
-[55
+[51
 
 ] (main.aux
 LaTeX Info: Redefining \. on input line 12.
@@ -1387,19 +1366,19 @@ LaTeX2e <2026-06-01>
 L3 programming layer <2026-09-09>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 1F9351E6DA8E037B483042084E58D55A;26008.
+(rerunfilecheck)             Checksum: A9205547AC0C95F5D7E9B3B1C9132A67;22496.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25355 strings out of 467392
- 466109 string characters out of 5405638
- 1416166 words of memory out of 5000000
- 54168 multiletter control sequences out of 15000+600000
+ 25325 strings out of 467392
+ 465700 string characters out of 5405638
+ 1408890 words of memory out of 5000000
+ 54154 multiletter control sequences out of 15000+600000
  648886 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,12n,77p,6345b,3081s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 73i,12n,77p,2579b,3081s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm
 1095.pk> <C:\Users\Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\ecbx1095.pk> <C:\Users\Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
@@ -1427,9 +1406,9 @@ ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Mik
 ec/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/
 Users/Mikec/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.
 pfb>
-Output written on main.pdf (67 pages, 1388976 bytes).
+Output written on main.pdf (63 pages, 1358473 bytes).
 PDF statistics:
- 2117 PDF objects out of 2487 (max. 8388607)
- 249 named destinations out of 1000 (max. 500000)
- 805 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2017 PDF objects out of 2073 (max. 8388607)
+ 233 named destinations out of 1000 (max. 500000)
+ 741 words of extra memory for PDF output out of 10000 (max. 10000000)
 
