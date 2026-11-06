@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.10.22)  5 NOV 2026 23:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.10.22)  6 NOV 2026 00:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1043,98 +1043,98 @@ Cap\'{\i }tulo 4.
 [27
 
 ] [28] [29]
-Underfull \hbox (badness 10000) in paragraph at lines 601--601
+Underfull \hbox (badness 10000) in paragraph at lines 603--603
 []|\T1/cmtt/m/n/12 TITLE-ABS-KEY ((("self-architecting" OR
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 601--601
+Underfull \hbox (badness 10000) in paragraph at lines 603--603
 \T1/cmtt/m/n/12 "self architectural" OR " auto-architecting"
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 601--601
+Underfull \hbox (badness 10000) in paragraph at lines 603--603
 \T1/cmtt/m/n/12 OR "auto architectural") W/3 "system*") OR
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 601--601
+Underfull \hbox (badness 10000) in paragraph at lines 603--603
 \T1/cmtt/m/n/12 (("self-architectural" OR "auto-architectural") W/3
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 601--601
+Underfull \hbox (badness 10000) in paragraph at lines 603--603
 \T1/cmtt/m/n/12 "design")) AND PUBYEAR > 2014 AND PUBYEAR < 2027 AND
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 601--601
+Underfull \hbox (badness 10000) in paragraph at lines 603--603
 \T1/cmtt/m/n/12 (LIMIT-TO (SUBJAREA, "COMP") OR LIMIT-TO (SUBJAREA,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 615--615
+Underfull \hbox (badness 10000) in paragraph at lines 617--617
 []|\T1/cmr/m/n/12 1. Self-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 615--615
+Underfull \hbox (badness 10000) in paragraph at lines 617--617
 \T1/cmr/m/n/12 Architecting
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 617--617
+Underfull \hbox (badness 10000) in paragraph at lines 619--619
 []|\T1/cmr/m/n/12 3. Evo-lu-tio-nary
  []
 
 
-Underfull \hbox (badness 1297) in paragraph at lines 618--618
+Underfull \hbox (badness 1297) in paragraph at lines 620--620
 []|\T1/cmr/m/n/12 (("generative de-sign" OR "ge-ne-ra-ti-ve soft-wa-re de-sign"
 ) AND
  []
 
 
-Underfull \hbox (badness 3168) in paragraph at lines 619--619
+Underfull \hbox (badness 3168) in paragraph at lines 621--621
 []|\T1/cmr/m/n/12 5. Soft-wa-re De-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 620--620
+Underfull \hbox (badness 10000) in paragraph at lines 622--622
 []|\T1/cmr/m/n/12 6. Self-Sufficient
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 622--622
+Underfull \hbox (badness 10000) in paragraph at lines 624--624
 []|\T1/cmr/m/n/12 8. Self/Auto-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 622--622
+Underfull \hbox (badness 10000) in paragraph at lines 624--624
 \T1/cmr/m/n/12 Architectural
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 623--623
+Underfull \hbox (badness 10000) in paragraph at lines 625--625
 []|\T1/cmr/m/n/12 9. Self/Auto-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 624--624
+Underfull \hbox (badness 10000) in paragraph at lines 626--626
 []|\T1/cmr/m/n/12 10. Self/Auto-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 624--624
+Underfull \hbox (badness 10000) in paragraph at lines 626--626
 \T1/cmr/m/n/12 Component
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 627--627
 []|\T1/cmr/m/n/12 11. Self/Auto-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 626--626
+Underfull \hbox (badness 10000) in paragraph at lines 628--628
 []|\T1/cmr/m/n/12 12. Self/Auto-
  []
 
@@ -1152,13 +1152,13 @@ Package epstopdf Info: Source file: <figures/Fig1_Workflow.eps>
 (epstopdf)                    size: 63031 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figures/Fig1_Workflo
 w-eps-converted-to.pdf figures/Fig1_Workflow.eps>
-(epstopdf)             \includegraphics on input line 692.
+(epstopdf)             \includegraphics on input line 694.
 Package epstopdf Info: Output file is already uptodate.
 <figures/Fig1_Workflow-eps-converted-to.pdf, id=911, 604.2575pt x 709.65125pt>
 File: figures/Fig1_Workflow-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/Fig1_Workflow-eps-converted-to.pdf>
 Package pdftex.def Info: figures/Fig1_Workflow-eps-converted-to.pdf  used on in
-put line 692.
+put line 694.
 (pdftex.def)             Requested size: 320.46199pt x 376.3516pt.
  [34]
 Package epstopdf Info: Source file: <figures/Fig2_StudySelection.eps>
@@ -1170,18 +1170,18 @@ to.pdf>
 (epstopdf)                    size: 560289 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=figures/Fig2_StudySe
 lection-eps-converted-to.pdf figures/Fig2_StudySelection.eps>
-(epstopdf)             \includegraphics on input line 701.
+(epstopdf)             \includegraphics on input line 703.
 Package epstopdf Info: Output file is already uptodate.
 <figures/Fig2_StudySelection-eps-converted-to.pdf, id=918, 717.68124pt x 685.56
 125pt>
 File: figures/Fig2_StudySelection-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/Fig2_StudySelection-eps-converted-to.pdf>
 Package pdftex.def Info: figures/Fig2_StudySelection-eps-converted-to.pdf  used
- on input line 701.
+ on input line 703.
 (pdftex.def)             Requested size: 412.02156pt x 393.58792pt.
  [35 <./figures/Fig1_Workflow-eps-converted-to.pdf>]
 [36 <./figures/Fig2_StudySelection-eps-converted-to.pdf>] [37] [38]
-Overfull \hbox (20.8731pt too wide) detected at line 801
+Overfull \hbox (20.8731pt too wide) detected at line 803
 [][][][][]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 A[] \OMS/cmsy/m/n/12 ! \OML/cmm/m/i
 t/12 S\OT1/cmr/m/n/12 )  \OMS/cmsy/m/n/12 !  []\OT1/cmr/m/n/12 (\OML/cmm/m/it/1
 2 A[]\OT1/cmr/m/n/12 )  \OMS/cmsy/m/n/12 !  []\OT1/cmr/m/n/12 (\OML/cmm/m/it/12
@@ -1190,36 +1190,36 @@ t/12 S\OT1/cmr/m/n/12 )  \OMS/cmsy/m/n/12 !  []\OT1/cmr/m/n/12 (\OML/cmm/m/it/1
  []
 
 [39]
-Underfull \hbox (badness 1281) in paragraph at lines 815--815
+Underfull \hbox (badness 1281) in paragraph at lines 817--817
 []|\T1/cmr/m/n/10.95 Minimizar cos-to de
  []
 
 
-Underfull \hbox (badness 5548) in paragraph at lines 815--815
+Underfull \hbox (badness 5548) in paragraph at lines 817--817
 \T1/cmr/m/n/10.95 ta-mor-fo-sis Ar-qui-tec-tó-
  []
 
 
-Underfull \hbox (badness 1418) in paragraph at lines 816--816
+Underfull \hbox (badness 1418) in paragraph at lines 818--818
 []|\T1/cmr/m/n/10.95 Contratos de in-ter-
  []
 
 
-Underfull \hbox (badness 4621) in paragraph at lines 817--817
+Underfull \hbox (badness 4621) in paragraph at lines 819--819
 \T1/cmr/m/n/10.95 vo-lu-men de da-tos,
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 823.
+(hyperref)                removing `math shift' on input line 825.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 823.
+(hyperref)                removing `subscript' on input line 825.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 823.
+(hyperref)                removing `math shift' on input line 825.
 
 [40] [41]
 Cap\'{\i }tulo 5.
@@ -1232,7 +1232,7 @@ Cap\'{\i }tulo 6.
 ] [44
 
 ] [45] [46]
-Overfull \hbox (7.38779pt too wide) in paragraph at lines 896--896
+Overfull \hbox (7.38779pt too wide) in paragraph at lines 898--898
 \T1/cmr/m/n/12 2016, Seattle, WA, USA: As-so-cia-tion for Com-pu-ting Ma-chi-ne
 ry, 2016, págs. 1073[]1075,
  []
@@ -1259,7 +1259,7 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  25321 strings out of 467392
  465648 string characters out of 5405638
- 1408887 words of memory out of 5000000
+ 1408884 words of memory out of 5000000
  54152 multiletter control sequences out of 15000+600000
  648886 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1291,7 +1291,7 @@ ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Mik
 ec/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/
 Users/Mikec/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.
 pfb>
-Output written on main.pdf (62 pages, 1354988 bytes).
+Output written on main.pdf (62 pages, 1354842 bytes).
 PDF statistics:
  2002 PDF objects out of 2073 (max. 8388607)
  231 named destinations out of 1000 (max. 500000)

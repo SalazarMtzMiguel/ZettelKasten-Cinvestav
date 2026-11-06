@@ -463,7 +463,7 @@ En la vasta literatura sobre sistemas auto-adaptativos y auto-gestionados con or
 
 Sin embargo, desde la perspectiva de la ingeniería de software clásica, este enfoque no satisface completamente el ciclo de diseño, ya que no concibe el diseño como el conjunto de actividades estructuradas que entregan artefactos de diseño formales (como diagramas arquitectónicos, especificaciones de componentes, interfaces, etc.) \cite{sommerville2011software}, si no un reemplazo de componentes establecidos dependiendo de la funcionalidad.
 
-Con una especificación mas concreta centrada en estructuras de datos, el trabajo  \cite{StratosIdreos2019LearningData} describe una metodología para automatizar el diseño de estructuras de almacenamiento personalizadas. En lugar de depender de diseños tradicionales e inflexibles, este enfoque construye estructuras a la medida partiendo de un conjunto de primitivas de diseño lógicas y físicas clasificadas en su "Tabla Periódica de las Estructuras de Datos" \cite{idreos2018periodic}. El conjunto combinatorio de estas primitivas conforma un vasto espacio de diseño en el cual se evalúan rigurosamente los compromisos entre rendimiento y utilización de recursos. Tras este análisis, el candidato óptimo es enviado a un generador de código que sintetiza el diseño en código C++ ejecutable para el sistema final.
+Con una especificación mas concreta centrada en estructuras de datos, el trabajo Idreos Et. Al. \cite{StratosIdreos2019LearningData} describe una metodología para automatizar el diseño de estructuras de almacenamiento personalizadas. En lugar de depender de diseños tradicionales e inflexibles, este enfoque construye estructuras a la medida partiendo de un conjunto de primitivas de diseño lógicas y físicas clasificadas en su "Tabla Periódica de las Estructuras de Datos" \cite{idreos2018periodic}. El conjunto combinatorio de estas primitivas conforma un vasto espacio de diseño en el cual se evalúan rigurosamente los compromisos entre rendimiento y utilización de recursos. Tras este análisis, el candidato óptimo es enviado a un generador de código que sintetiza el diseño en código C++ ejecutable para el sistema final.
 
 De manera complementaria en esta especificación, la herramienta COZY desarrollada por Loncaric et al. \cite{loncaric2016Datastructure, loncaric2018Generalizeddata} presenta un marco de síntesis lógica de colecciones de datos. La entrada del sistema consiste en una especificación declarativa de alto nivel que describe el estado abstracto (datos lógicos como usuarios, grupos o membresías), las consultas requeridas y las operaciones de actualización. A través de un bucle iterativo de refinamiento, incrementalización y verificación formal apoyado por el resolvedor SMT Z3 (mediante síntesis inductiva guiada por contra ejemplos, CEGIS), COZY genera estructuras de datos intrusivas y seguras por diseño, listas para su compilación.
 
@@ -497,24 +497,26 @@ A continuación, la Tabla \ref{tab:comparacion_autodiseno} sintetiza y clasifica
 
 \begin{table}[htbp]
 	\centering
-	\caption{Matriz comparativa de enfoques de automatización y auto-diseño de software.}
+	\caption{Matriz comparativa de enfoques de automatización y artefacto de software.}
 	\label{tab:comparacion_autodiseno}
 	\resizebox{\textwidth}{!}{%
 		\begin{tabular}{|l|l|l|l|l|}
 			\hline
-			\textbf{Enfoque / Autor} & \textbf{Nivel de Abstracción} & \textbf{Técnica Principal} & \textbf{Fase de Aplicación} & \textbf{Artefacto Generado} \\ \hline
-			Porter et al. \cite{Porter2024SelfDesigning} & Componentes / Módulos & Hot-Swapping \& Meta-composers & Tiempo de Ejecución & Ensamblado dinámico \\ \hline
-			Idreos et al. \cite{StratosIdreos2019LearningData} & Estructuras de Datos & Primitivas de Layout \& Cost Models & Diseño / Auto-tuning & Código C++ optimizado \\ \hline
-			Loncaric et al. \cite{loncaric2016Datastructure} & Estructuras de Datos & Síntesis Lógica \& CEGIS (Z3) & Tiempo de Diseño & Estructuras intrusivas C++ \\ \hline
-			Zhao et al. \cite{Zhao2025AutomatedMetaheuristic} & Algoritmos / Heurísticas & Transformers Autorregresivos & Tiempo de Diseño & Algoritmos de búsqueda \\ \hline
-			Ramírez et al. \cite{AuroraRamirez2015234} & Arquitectura de Software & Algoritmos Evolutivos (SBSE) & Tiempo de Diseño & Componentes e Interfaces \\ \hline
-			Zhang et al. \cite{Maadli2025} & Arquitectura de Software & LLMs Multi-Agente \& Consenso & Tiempo de Diseño & Diagramas UML / SRS \\ \hline
-			Rajendran et al. \cite{Rajendran2025AMulti-Agent} & Arquitectura / Refactorización & Agentes Especializados \& Subastas & Tiempo de Diseño / Runtime & Código Refactorizado \\ \hline
-			Affonso et al. \cite{Affonso2024AReferenceArchitecture} & Entidades de Software & Reflexión Computacional & Tiempo de Ejecución & Reconfiguración estructural \\ \hline
-			Weyns et al. \cite{WeynsDannyFromSelf-Adaptation} & Marco de Auto-Evolución & Análisis de ODD & Tiempo de Ejecución & Extensión del Dominio $ODD$ \\ \hline
+			\textbf{Autor} & \textbf{Nivel de Abstracción} & \textbf{Técnica Principal}  & \textbf{Artefacto Generado} \\ \hline
+			Porter et al. \cite{Porter2024SelfDesigning} & Componentes / Módulos & Hot-Swapping \& Meta-composers  & Ensamblado dinámico \\ \hline
+			Idreos et al. \cite{StratosIdreos2019LearningData} & Estructuras de Datos & Primitivas de Layout \& Cost Models  & Código C++ optimizado \\ \hline
+			Loncaric et al. \cite{loncaric2016Datastructure} & Estructuras de Datos & Síntesis Lógica \& CEGIS (Z3)   & Estructuras intrusivas C++ \\ \hline
+			Zhao et al. \cite{Zhao2025AutomatedMetaheuristic} & Algoritmos / Heurísticas & Transformers Autorregresivos & Algoritmos de búsqueda \\ \hline
+			Ramírez et al. \cite{AuroraRamirez2015234} & Arquitectura de Software & Algoritmos Evolutivos (SBSE)  & Componentes e Interfaces \\ \hline
+			Zhang et al. \cite{Maadli2025} & Arquitectura de Software & LLMs Multi-Agente \& Consenso  & Diagramas UML / SRS \\ \hline
+			Rajendran et al. \cite{Rajendran2025AMulti-Agent} & Arquitectura / Refactorización & Agentes Especializados \& Subastas  / Runtime & Código Refactorizado \\ \hline
+			Affonso et al. \cite{Affonso2024AReferenceArchitecture} & Entidades de Software & Reflexión Computacional & Reconfiguración estructural \\ \hline
+			Weyns et al. \cite{WeynsDannyFromSelf-Adaptation} & Marco de Auto-Evolución & Análisis de ODD & Extensión del Dominio $ODD$ \\ \hline
 		\end{tabular}
 	}
 \end{table}
+
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
