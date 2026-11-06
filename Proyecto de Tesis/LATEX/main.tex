@@ -346,7 +346,7 @@ El diseño de bases de datos consiste en definir las estructuras de datos del si
 El SDD \cite{1016_2009} refuerza esta visión a través de los puntos de vista de informacion (Information Viewpoint), donde se especifican los elementos de diseño relacionados con la información: las entidades de diseño (elementos de datos, tipos de datos y clases, almacenes de datos y mecanismos de acceso), las relaciones de diseño (asociación, usos, implementaciones), los atributos de datos junto con sus restricciones y relaciones estáticas, así como los atributos de diseño de persistencia y propiedades de calidad.
 
 \subsection{Diseño de Algoritmos}
-Esta actividad forma parte del diseño detallado de componentes y se enfoca en la definición de los algoritmos que implementarán la lógica de procesamiento de cada componente. Su objetivo es seleccionar o diseñar soluciones algorítmicas que sean correctas, eficientes y adecuadas a los requisitos de rendimiento, tiempo de respuesta y uso de recursos del sistema. Aunque \textit{Sommerville} \cite{Sommerville2015-px} la integra dentro del diseño de componentes, estándares como el \textit{IEEE 1016} \cite{1016_2009} (a través del punto de vista del algoritmo) y el \textit{SWEBOK} \cite{swebok2024} reconocen la importancia de especificar explícitamente los algoritmos cuando su complejidad o criticidad lo justifica. En este trabajo se trata como una actividad diferenciada para permitir un análisis riguroso de corrección, complejidad computacional y optimización.
+Esta actividad forma parte del diseño detallado de componentes y se enfoca en la definición de los algoritmos que implementarán la lógica de procesamiento de cada componente. Su objetivo es seleccionar o diseñar soluciones algorítmicas que sean correctas, eficientes y adecuadas a los requisitos de rendimiento, tiempo de respuesta y uso de recursos del sistema. Aunque \textit{Sommerville} \cite{Sommerville2015-px} la integra dentro del diseño de componentes, estándares como el \textit{IEEE 1016} \cite{1016_2009} (a través del punto de vista del algoritmo) y el \textit{SWEBOK} \cite{swebok2024} reconocen la importancia de especificar explícitamente los algoritmos.
 
 
 
@@ -354,23 +354,13 @@ Esta actividad forma parte del diseño detallado de componentes y se enfoca en l
 Un \textit{agente} se define como una entidad computacional autónoma e hilo de ejecución concurrente que encapsula un estado interno, percibe su entorno a través de sensores y actúa sobre él mediante actuadores para alcanzar objetivos específicos dentro de una arquitectura distribuida \cite{InnMAS2010}. Sus características fundamentales abarcan: \begin{itemize} \item \textbf{Situacionalidad (Percepción y Acción):} Capacidad de interactuar de forma directa e inmersa con el entorno, recibiendo estímulos sensoriales y modificando dicho entorno mediante actuadores \cite{InnMAS2010}. \item \textbf{Autonomía:} Habilidad para tomar decisiones y seleccionar acciones de forma independiente sin intervención externa, preservando su estado interno frente a perturbaciones del sistema \cite{InnMAS2010}. \item \textbf{Capacidad de Inferencia:} Competencia para procesar información abstracta, deducir observaciones a partir del conocimiento disponible y ejecutar planes orientados a metas \cite{InnMAS2010}. \item \textbf{Reactividad y Proactividad:} Habilidad para responder oportunamente ante cambios dinámicos del entorno (reactividad), manteniendo a su vez un comportamiento con iniciativa propia dirigido a metas (proactividad) \cite{InnMAS2010}. \item \textbf{Comportamiento Social:} Capacidad para comunicarse, cooperar o negociar con otros agentes o humanos mediante el intercambio estructurado de mensajes para resolver problemas complejos \cite{InnMAS2010}. \end{itemize}
 Un \textit{Sistema Multiagentes} (MAS, por sus siglas en inglés) se definen como redes de entidades computacionales autónomas (agentes) que interactúan dentro de un entorno dinámico compartiendo conocimiento y recursos para resolver problemas complejos \cite{InnMAS2010}. Los MAS destacan por su flexibilidad, capacidad de cómputo paralelo, escalabilidad modular y tolerancia a fallos mediante una degradación suave del sistema en caso de avería de alguno de sus componentes \cite{InnMAS2010}.
 
-\subsection{Fundamentos y arquitecturas de los Sistemas Multiagentes}
-Un agente se conceptualiza como una entidad autónoma o hilo de ejecución concurrente que percibe su entorno a través de sensores y actúa sobre él mediante actuadores. Sus características primordiales abarcan la autonomía en la toma de decisiones, la reactividad ante cambios del entorno, la proactividad orientada a metas y la capacidad de interacción social con otros agentes \cite{InnMAS2010}.
-
-En cuanto a la \textbf{arquitectura interna (micro-arquitectura)}, los agentes se clasifican principalmente en:
-\begin{itemize}
-	\item \textbf{Homogéneos:} Todos los agentes comparten la misma arquitectura interna, capacidad sensorial, estados locales y mecanismos de inferencia, diferenciándose únicamente en su ubicación física y en los datos recibidos del entorno \cite{InnMAS2010}.
-	\item \textbf{Heterogéneos:} Los agentes difieren en sus estructuras, funcionalidades u objetivos locales, lo que permite modelar escenarios y dinámicas del mundo real con mayor fidelidad \cite{InnMAS2010}.
-\end{itemize}
-
-
 \subsection{Paradigmas de coordinación y comunicación}
 La interacción en un \textit{MAS} es indispensable para prevenir conflictos por recursos distribuidos, evitar situaciones de caos y optimizar los objetivos del sistema. La comunicación entre agentes se formaliza mediante \textit{Lenguajes de Comunicación de Agentes} (ACL), como \textit{FIPA-ACL} (Foundation for Intelligent Physical Agents - Agent Communication Language) o \textit{KQML} (Knowledge Query and Manipulation Language), los cuales requieren una ontología compartida y un formato de protocolo estandarizado \cite{InnMAS2010}.
 
 La \textbf{coordinación} dentro del sistema se articula a través de tres paradigmas principales:
 \begin{itemize}
 	\item \textbf{Basada en Protocolos:} Emplea mecanismos de negociación distribuida como el \textit{Contract Net Protocol} (CNP), donde los agentes administradores (Managers) subastan contratos a agentes ejecutores (Contractors) mediante licitaciones \cite{InnMAS2010}.
-	\item \textbf{Basada en Grafos de Coordinación:} Descompone el problema global en subjuegos locales y calcula acciones conjuntas óptimas mediante la combinación lineal de pagos a través de algoritmos como la eliminación de variables o \textit{max-plus} \cite{InnMAS2010}.
+	\item \textbf{Basada en Grafos de Coordinación:} Descompone el problema global en subjuegos locales y calcula acciones conjuntas óptimas mediante la combinación lineal de pagos a través de algoritmos como la eliminación de variables \cite{InnMAS2010}.
 	\item \textbf{Basada en Modelos de Creencias:} Cada agente mantiene un modelo interno del comportamiento de sus vecinos, facilitando la toma de decisiones ágil en entornos dinámicos con restricciones temporales estrictas \cite{InnMAS2010}.
 \end{itemize}
 
@@ -383,7 +373,7 @@ En este modelo, el \textit{Blackboard} actúa como un almacenamiento compartido 
 \section{Modelos grandes de lenguaje (LLM)} Los modelos grandes de lenguaje (LLM, por sus siglas en inglés) son arquitecturas avanzadas basadas principalmente en la red neuronal \textit{Transformer} que procesan y generan lenguaje natural mediante un entrenamiento masivo sobre extensos corpus de texto  \cite{TrendonAI2026,SurveyforLLM,xiao2026foundationslargelanguagemodels}. A través de esta etapa de pre-entrenamiento, el modelo comprime conocimiento lingüístico y conceptual de amplio dominio, lo que le permite identificar patrones semánticos y estructurales complejos de manera implícita. Como resultado, los LLM actúan como herramientas de propósito general capaces de resolver directamente tareas de redacción, análisis de texto, traducción y síntesis de información sin requerir entrenamiento específico, si no, pueden usar una amplia diversidad de fuentes \cite{TrendonAI2026,SurveyforLLM,xiao2026foundationslargelanguagemodels}. 
 
 \shorthandoff{"}
-\subsection{Principios de inferencia y generación de texto en modelos de lenguaje} La inferencia en los LLM se fundamenta en un proceso autorregresivo de predicción del siguiente token, condicionando probabilísticamente cada palabra o subpalabra generada al contexto previo y al \textit{prompt} de entrada \cite{SurveyforLLM}. Esta arquitectura habilita la adaptación del comportamiento del modelo mediante el aprendizaje en contexto (\textit{In-Context Learning} o ICL) y el seguimiento de instrucciones, respondiendo conforme a las restricciones y formatos especificados \cite{xiao2026foundationslargelanguagemodels}. Sin embargo, desde una perspectiva operacional, los LLM se comportan como sistemas de "caja negra", donde la precisión y el estilo de la respuesta varían sustancialmente entre modelos en función de la arquitectura de la red, la escala y diversidad de los datos de entrenamiento, la ventana de contexto y la calidad del \textit{prompt} \cite{xiao2026foundationslargelanguagemodels, SurveyforLLM, shojaee2025illusion}. 
+\subsection{Principios de inferencia y generación de texto en modelos de lenguaje} La inferencia en los LLM se fundamenta en un proceso autorregresivo de predicción del siguiente token, condicionando probabilísticamente cada palabra o subpalabra generada al contexto previo y al \textit{prompt} de entrada \cite{SurveyforLLM}. Esta arquitectura habilita la adaptación del comportamiento del modelo mediante el aprendizaje en contexto (\textit{In-Context Learning} o ICL) y el seguimiento de instrucciones, respondiendo conforme a las restricciones y formatos especificados \cite{xiao2026foundationslargelanguagemodels}. Sin embargo, desde una perspectiva operacional, los LLM se comportan como sistemas de "caja negra", donde la precisión y el estilo de la respuesta varían sustancialmente entre modelos en función de la arquitectura de la red, la escala y diversidad de los datos de entrenamiento, la ventana de contexto y la calidad del \textit{prompt} proporcionado \cite{xiao2026foundationslargelanguagemodels, SurveyforLLM, shojaee2025illusion}. 
 \shorthandon{"}
 \subsection{Capacidades de los LLMs en la comprensión, diseño y generación de código} En la ingeniería de software y el desarrollo de sistemas, las capacidades de síntesis y comprensión de código de los LLM se derivan de la inclusión de vastos repositorios de software y documentación técnica durante su pre-entrenamiento \cite{SurveyforLLM}. La exposición a esta información especializada capacita al modelo para reconocer dependencias de largo alcance, sintaxis estructurada y patrones lógicos de programación \cite{xiao2026foundationslargelanguagemodels}. Durante la fase de diseño de software, el modelo puede evaluar las especificaciones proporcionadas en el contexto y recomendar patrones de diseño adecuados, por ejemplo evaluar la arquitectura de un sistema y sugerir un enfoque Modelo-Vista-Controlador (MVC) al contrastar los requerimientos recibidos con las abstracciones aprendidas en su entrenamiento \cite{SurveyforLLM, TrendonAI2026}. Asimismo, los LLM aceleran el ciclo de vida del desarrollo mediante la generación automática de código, la refactorización, el depurado y la creación de scripts de prueba automatizados \cite{SurveyforLLM, TrendonAI2026}. 
 \subsection{Limitaciones actuales: Alucinaciones, ventanas de contexto y deficiencias en el razonamiento algorítmico determinista} A pesar de sus amplias capacidades, los LLM presentan importantes limitaciones técnicas e inherentes \cite{SurveyforLLM, shojaee2025illusion}. En primer lugar, el fenómeno de la alucinación ocurre cuando el modelo genera información inconsistente o no verificable respecto a las fuentes factuales existentes, debido a imprecisiones en los datos de entrenamiento, sesgos en las estrategias de muestreo estocástico y la naturaleza probabilística del objetivo de predicción de texto \cite{SurveyforLLM, TrendonAI2026}. En segundo lugar, las restricciones en la ventana de contexto condicionan el volumen de información procesable simultáneamente; aunque el texto se segmenta en tokens (unidades discretas de representación), secuencias de entrada extensas provocan degradación en la atención sobre detalles intermedios, fenómeno conocido como \textit{lost in the middle} \cite{xiao2026foundationslargelanguagemodels}. Por último, existen marcadas deficiencias en el razonamiento algorítmico determinista y la ejecución simbólica \cite{shojaee2025illusion}. Incluso los modelos de razonamiento avanzado (\textit{Large Reasoning Models} o LRM) diseñados para generar cadenas de pensamiento (\textit{Chain-of-Thought}), sufren una caída drástica de precisión hasta el colapso total al incrementar la complejidad compositiva del problema \cite{shojaee2025illusion}. Esto demuestra que los modelos no ejecutan algoritmos explícitos de manera rigurosa ni se benefician de la inclusión del algoritmo en el prompt, sino que dependen de la imitación probabilística de patrones aprendidos \cite{shojaee2025illusion}. 
@@ -711,6 +701,133 @@ Los resultados completos están en el articulo titulado "Automated Software Desi
 
 
 La revisión revela un punto de inflexión hacia la automatización del diseño de software a través de cuatro paradigmas principales: la \textit{refactorización basada en búsqueda (SBR)}, el \textit{autodiseño algorítmico mediante mejora genética (GI)}, la \textit{adaptabilidad formal con ontologías y planificación (PDDL)}, y la transición hacia la \textit{Ingeniería de Software 3.0 (SE 3.0)} basada en ecosistemas multiagente. Aunque estos enfoques permiten manipular arquitecturas complejas y redefinen el rol del desarrollador hacia el de un orquestador estratégico, enfrentan importantes desafíos técnicos: la pérdida de semántica en los modelos matemáticos, la inestabilidad durante el reemplazo de código en caliente, la sobrecarga computacional en entornos inciertos y el riesgo de alucinaciones de diseño ante la falta de restricciones verificables y gobernanza en los agentes. Finalmente, se evidencia una brecha crítica entre el potencial teórico y la práctica, ya que la mayoría de los estudios se limitan a entornos controlados o sintéticos; por ello, se concluye que la integración del razonamiento simbólico con modelos de lenguaje es indispensable para lograr arquitecturas autogeneradas transparentes, funcionales y viables en entornos de producción reales.
+
+
+
+\section{Propuesta de un Sistema Multi-Agente (MAS) para el Auto-Diseño}
+
+\subsection{Formulación General del Sistema}
+% Presentación directa del problema de auto-diseño de software y metamorfosis arquitectónica.
+\subsubsection{Definición del Entorno y Modelo de Auto-Diseño}
+% Describe brevemente la necesidad de automatizar el diseño a partir de cambios en requerimientos.
+
+\subsubsection{Formalización Matemática del MAS}
+% Incorpora las definiciones formales de tu propuesta:
+Sea $R = \{r_1, r_2, \ldots, r_n\}$ el conjunto de requerimientos del sistema y $D^* = D_A \cup D_C \cup D_{DS} \cup D_{ALG}$ el conjunto de artefactos de diseño producidos. El sistema multiagente se define como:
+\begin{equation}
+	MAS = \{A_{arch}, A_{comp}, A_{ds}, A_{alg}\}
+\end{equation}
+donde cada agente $A_i$ opera bajo la función de transición BDI:
+\begin{equation}
+	A_i: (B_i, P_i, G_i, S) \rightarrow (I_i, D_i)
+\end{equation}
+
+% -----------------------------------------------------------------
+\subsection{Especificación del Sistema (System Specification)}
+% Fase 1 de Prometheus: Requerimientos formales e interfaz con el entorno.
+
+\subsubsection{Jerarquía de Metas (System Goals)}
+% Presenta las metas principales y submetas organizadas del sistema.
+\begin{itemize}
+	\item \textbf{G1. Mantener la consistencia del diseño ($D^*$):}
+	\begin{itemize}
+		\item \textbf{G1.1:} Analizar el impacto de cambios en requerimientos ($R$).
+		\item \textbf{G1.2:} Evaluar la necesidad de adaptación incremental vs. metamorfosis.
+	\end{itemize}
+	\item \textbf{G2. Seleccionar alternativas óptimas por capa de diseño:}
+	\begin{itemize}
+		\item \textbf{G2.1:} Determinar componentes e interfaces compatibles.
+		\item \textbf{G2.2:} Seleccionar estructuras de datos eficientes.
+		\item \textbf{G2.3:} Seleccionar algoritmos mediante búsqueda MCTS.
+	\end{itemize}
+\end{itemize}
+
+\subsubsection{Interfaz con el Entorno (Percepts y Actions)}
+% Especificación de entradas y salidas del sistema multiagente.
+\begin{description}
+	\item[Percepciones ($P$):] Notificación de cambios en requerimientos ($IN_{\text{requerimientos}}$), condiciones de carga operativa, alertas de incompatibilidad inter-agente.
+	\item[Acciones ($Actions$):] Generación/modificación de artefactos $D_i$, actualización del Estado de Diseño ($S$), emisión de solicitudes de reconsideración, exportación del documento final ($OUT_{SDD}$).
+\end{description}
+
+\subsubsection{Escenarios de Uso Principales (Scenarios)}
+% Representación secuencial de los casos de uso nominales y de retroalimentación.
+\begin{enumerate}
+	\item \textbf{Escenario Nominal de Diseño en Cascada:} Recepción de requerimientos $\rightarrow$ Modificación arquitectónica ($A_{arch}$) $\rightarrow$ Reconfiguración de componentes ($A_{comp}$) $\rightarrow$ Selección de datos ($A_{ds}$) $\rightarrow$ Búsqueda algorítmica ($A_{alg}$) $\rightarrow$ Generación de $OUT_{SDD}$.
+	\item \textbf{Escenario de Retroalimentación por Conflictos:} Detección de incompatibilidad en $A_{alg}$ $\rightarrow$ Emisión de alerta de conflicto a $A_{ds}$ / $A_{comp}$ $\rightarrow$ Reconsideración de decisiones previas $\rightarrow$ Re-evaluación de consistencia global.
+\end{enumerate}
+
+% -----------------------------------------------------------------
+\subsection{Diseño Arquitectónico (Architectural Design)}
+% Fase 2 de Prometheus: Definición de tipos de agentes, estructura y protocolos.
+
+\subsubsection{Identificación y Justificación de Agentes}
+% Análisis de cohesión y acoplamiento para los 4 agentes principales.
+\begin{itemize}
+	\item \textbf{Agente de Arquitectura ($A_{arch}$):} Alta cohesión en análisis de requerimientos y decisiones estructurales globales.
+	\item \textbf{Agente de Componentes e Interfaces ($A_{comp}$):} Dominio sobre contratos de interacción y topología de módulos.
+	\item \textbf{Agente de Estructuras de Datos ($A_{ds}$):} Dominio sobre esquemas de almacenamiento y accesos.
+	\item \textbf{Agente de Algoritmos ($A_{alg}$):} Especialización en caracterización del problema y optimización algorítmica.
+\end{itemize}
+
+\subsubsection{Estructura Global del Sistema (System Overview)}
+% Descripción gráfica/textual del flujo general de datos y estado compartido.
+El flujo general de procesamiento y dependencia de decisiones se expresa como:
+\begin{equation}
+	IN_{\text{requerimientos}} \rightarrow A_{arch} \rightarrow A_{comp} \rightarrow A_{ds} \rightarrow A_{alg} \rightarrow OUT_{SDD}
+\end{equation}
+Todos los agentes interactúan leyendo y actualizando el Almacén de Datos Compartido que contiene el Estado Global de Diseño ($S$).
+
+\subsubsection{Protocolo de Negociación y Coordinación}
+% Mecanismo de consenso en 4 etapas ante decisiones dependientes.
+El mecanismo de retroalimentación para la resolución de conflictos inter-agente se rige bajo la secuencia iterativa:
+\begin{equation}
+	\text{Proponer } (A_i \rightarrow S) \;\rightarrow\; \text{Evaluar } (A_{i+1}) \;\rightarrow\; \text{Detectar Conflicto } (A_{i+1} \rightarrow A_i) \;\rightarrow\; \text{Reconsiderar}
+\end{equation}
+
+% -----------------------------------------------------------------
+\subsection{Diseño Detallado BDI (Detailed Design)}
+% Fase 3 de Prometheus: Especificación interna BDI de los agentes.
+
+\subsubsection{Estructura BDI Interna de los Agentes}
+% Tabla o resumen de creencias, metas, intenciones y capacidades.
+\begin{table}[h!]
+	\centering
+	\small
+	\begin{tabular}{|l|p{3.5cm}|p{3.5cm}|p{4cm}|}
+		\hline
+		\textbf{Agente} & \textbf{Creencias ($B$)} & \textbf{Metas ($G$)} & \textbf{Planes / Intenciones ($I$)} \\ \hline
+		$A_{arch}$ & Arquitectura actual, historial de cambios, catálogo de estilos. & Minimizar costo de metamorfosis, garantizar cobertura de $R$. & Plan de Adaptación Incremental, Plan de Metamorfosis Arquitectónica. \\ \hline
+		$A_{comp}$ & Contratos de interfaz, métricas de carga del entorno. & Balancear carga, evitar incompatibilidad de interfaces. & Plan de Reconfiguración de Componentes, Plan de Adaptación de Conectores. \\ \hline
+		$A_{ds}$ & Patrones de acceso, volumen de datos, restricciones de memoria. & Optimizar tiempo de acceso y uso de memoria. & Plan de Selección de Estructuras, Plan de Re-mapeo de Datos. \\ \hline
+		$A_{alg}$ & Ontología de algoritmos, espacio de características $P$. & Encontrar algoritmo óptimo compatible. & Plan de Caracterización de Problema, Plan de Búsqueda MCTS. \\ \hline
+	\end{tabular}
+	\caption{Especificación BDI de los agentes del MAS propuesta.}
+\end{table}
+
+\subsubsection{Caso de Estudio de Caja Blanca: Agente de Algoritmos ($A_{alg}$)}
+% Descripción detallada del funcionamiento interno de A_alg.
+El agente $A_{alg}$ opera mediante un mecanismo explícito de razonamiento en tres fases:
+\begin{enumerate}
+	\item \textbf{Caracterización del Problema:} Representado mediante la tupla:
+	\begin{equation}
+		P = (Objective, Interaction, Knowledge, Processing, Layer, Uncertainty)
+	\end{equation}
+	\item \textbf{Búsqueda mediante MCTS sobre Ontología:} Búsqueda guiada en el árbol de soluciones donde cada expansión evalúa la compatibilidad con las restricciones impuestas por $A_{arch}$, $A_{comp}$ y $A_{ds}$.
+	\item \textbf{Disparo de Eventos de Retroalimentación:} Si la rama MCTS no encuentra alternativas válidas, el agente genera un evento interno de conflicto que activa la re-evaluación en los agentes previos.
+\end{enumerate}
+
+% -----------------------------------------------------------------
+\subsection{Análisis de Propiedades del Modelo de Agentes}
+% Demostración de que las entidades cumplen con los atributos de agente.
+\begin{itemize}
+	\item \textbf{Autonomía:} Cada agente evalúa sus intenciones sin control centralizadoizado, tomando decisiones en su dominio de diseño.
+	\item \textbf{Reactividad:} Respuesta ante modificaciones en los requerimientos ($IN_{\text{requerimientos}}$) o alertas de incompatibilidad.
+	\item \textbf{Orientación a Metas:} Comportamiento guiado por la preservación de la consistencia del diseño ($D^*$).
+	\item \textbf{Interacción y Coordinación:} Intercambio de propuestas y reconsideraciones vía el protocolo de consenso.
+\end{itemize}
+
+
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

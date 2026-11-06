@@ -28,16 +28,15 @@
 \contentsline {subsection}{\numberline {2.3.4}Diseño de Base de datos}{12}{subsection.2.3.4}%
 \contentsline {subsection}{\numberline {2.3.5}Diseño de Algoritmos}{13}{subsection.2.3.5}%
 \contentsline {section}{\numberline {2.4}Sistemas Multiagentes (MAS)}{13}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Fundamentos y arquitecturas de los Sistemas Multiagentes}{14}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Paradigmas de coordinación y comunicación}{15}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Comunicación por pizarra o tablero (Blackboard Communication)}{15}{subsection.2.4.3}%
-\contentsline {section}{\numberline {2.5}Modelos grandes de lenguaje (LLM)}{16}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Principios de inferencia y generación de texto en modelos de lenguaje}{16}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.4.1}Paradigmas de coordinación y comunicación}{14}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Comunicación por pizarra o tablero (Blackboard Communication)}{15}{subsection.2.4.2}%
+\contentsline {section}{\numberline {2.5}Modelos grandes de lenguaje (LLM)}{15}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Principios de inferencia y generación de texto en modelos de lenguaje}{15}{subsection.2.5.1}%
 \contentsline {subsection}{\numberline {2.5.2}Capacidades de los LLMs en la comprensión, diseño y generación de código}{16}{subsection.2.5.2}%
-\contentsline {subsection}{\numberline {2.5.3}Limitaciones actuales: Alucinaciones, ventanas de contexto y deficiencias en el razonamiento algorítmico determinista}{17}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.3}Limitaciones actuales: Alucinaciones, ventanas de contexto y deficiencias en el razonamiento algorítmico determinista}{16}{subsection.2.5.3}%
 \contentsline {section}{\numberline {2.6}Árbol de búsqueda de Monte-Carlo (MCTS)}{17}{section.2.6}%
 \contentsline {section}{\numberline {2.7}Ontología como representación de conocimiento}{18}{section.2.7}%
-\contentsline {subsection}{\numberline {2.7.1}Definición y estructura de las ontologías computacionales (clases, atributos, relaciones)}{19}{subsection.2.7.1}%
+\contentsline {subsection}{\numberline {2.7.1}Definición y estructura de las ontologías computacionales (clases, atributos, relaciones)}{18}{subsection.2.7.1}%
 \contentsline {subsection}{\numberline {2.7.2}Lenguajes de modelado ontológico}{19}{subsection.2.7.2}%
 \contentsline {subsection}{\numberline {2.7.3}Modelado semántico para la taxonomía y clasificación de problemas algorítmicos}{20}{subsection.2.7.3}%
 \contentsline {chapter}{\numberline {3}Estado del Arte}{22}{chapter.3}%
@@ -58,16 +57,32 @@
 \contentsline {subsubsection}{\numberline {4.1.1.5}Extracción de datos}{35}{subsubsection.4.1.1.5}%
 \contentsline {subsubsection}{\numberline {4.1.1.6}Resultados}{36}{subsubsection.4.1.1.6}%
 \contentsline {subsubsection}{\numberline {4.1.1.7}Discusión}{36}{subsubsection.4.1.1.7}%
-\contentsline {chapter}{\numberline {5}Experimentación y Análisis de Resultados}{37}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Análisis de selección automática de algoritmos}{37}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Análisis de la arquitectura: auto-diseño}{37}{subsection.5.1.1}%
-\contentsline {section}{\numberline {5.2}Experimentación}{37}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Caso de estudio: nuevo problema, nueva solución}{37}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Experimento: Identificación del Problema}{37}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}Experimento: Identificación del Algoritmo}{37}{subsection.5.2.3}%
-\contentsline {chapter}{\numberline {6}Conclusiones y Trabajo Futuro}{38}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Conclusiones}{38}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Objetivos logrados}{38}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Trabajo a futuro}{38}{section.6.3}%
-\contentsline {chapter}{Referencias Bibliográficas}{39}{chapter*.16}%
-\contentsline {chapter}{\numberline {A}Código Fuente Relevante}{45}{appendix.A}%
+\contentsline {section}{\numberline {4.2}Propuesta de un Sistema Multi-Agente (MAS) para el Auto-Diseño}{37}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Formulación General del Sistema}{37}{subsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.1.1}Definición del Entorno y Modelo de Auto-Diseño}{37}{subsubsection.4.2.1.1}%
+\contentsline {subsubsection}{\numberline {4.2.1.2}Formalización Matemática del MAS}{37}{subsubsection.4.2.1.2}%
+\contentsline {subsection}{\numberline {4.2.2}Especificación del Sistema (System Specification)}{37}{subsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.2.1}Jerarquía de Metas (System Goals)}{37}{subsubsection.4.2.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2.2}Interfaz con el Entorno (Percepts y Actions)}{37}{subsubsection.4.2.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.2.3}Escenarios de Uso Principales (Scenarios)}{38}{subsubsection.4.2.2.3}%
+\contentsline {subsection}{\numberline {4.2.3}Diseño Arquitectónico (Architectural Design)}{38}{subsection.4.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.3.1}Identificación y Justificación de Agentes}{38}{subsubsection.4.2.3.1}%
+\contentsline {subsubsection}{\numberline {4.2.3.2}Estructura Global del Sistema (System Overview)}{38}{subsubsection.4.2.3.2}%
+\contentsline {subsubsection}{\numberline {4.2.3.3}Protocolo de Negociación y Coordinación}{39}{subsubsection.4.2.3.3}%
+\contentsline {subsection}{\numberline {4.2.4}Diseño Detallado BDI (Detailed Design)}{39}{subsection.4.2.4}%
+\contentsline {subsubsection}{\numberline {4.2.4.1}Estructura BDI Interna de los Agentes}{39}{subsubsection.4.2.4.1}%
+\contentsline {subsubsection}{\numberline {4.2.4.2}Caso de Estudio de Caja Blanca: Agente de Algoritmos ($A_{alg}$)}{39}{subsubsection.4.2.4.2}%
+\contentsline {subsection}{\numberline {4.2.5}Análisis de Propiedades del Modelo de Agentes}{40}{subsection.4.2.5}%
+\contentsline {chapter}{\numberline {5}Experimentación y Análisis de Resultados}{41}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Análisis de selección automática de algoritmos}{41}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Análisis de la arquitectura: auto-diseño}{41}{subsection.5.1.1}%
+\contentsline {section}{\numberline {5.2}Experimentación}{41}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Caso de estudio: nuevo problema, nueva solución}{41}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Experimento: Identificación del Problema}{41}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Experimento: Identificación del Algoritmo}{41}{subsection.5.2.3}%
+\contentsline {chapter}{\numberline {6}Conclusiones y Trabajo Futuro}{42}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Conclusiones}{42}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Objetivos logrados}{42}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Trabajo a futuro}{42}{section.6.3}%
+\contentsline {chapter}{Referencias Bibliográficas}{43}{chapter*.17}%
+\contentsline {chapter}{\numberline {A}Código Fuente Relevante}{49}{appendix.A}%

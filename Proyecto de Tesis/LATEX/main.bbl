@@ -525,8 +525,8 @@
       \strng{authornamehash}{be9688573eb88963e7effe4a0265e26e}
       \strng{authorfullhash}{c10ae09183a3cf31080a3014ddc4de7a}
       \strng{authorfullhashraw}{c10ae09183a3cf31080a3014ddc4de7a}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Transactions on Artificial Intelligence}
@@ -672,8 +672,8 @@
       \strng{authorfullhash}{c77794829e21d0fcb5d1c43c053fed58}
       \strng{authorfullhashraw}{c77794829e21d0fcb5d1c43c053fed58}
       \field{extraname}{1}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2095-2236}
@@ -714,8 +714,8 @@
       \strng{authornamehash}{ceb863673c97634498db3ff3c6ab25be}
       \strng{authorfullhash}{ceb863673c97634498db3ff3c6ab25be}
       \strng{authorfullhashraw}{ceb863673c97634498db3ff3c6ab25be}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{cs.CL}
@@ -866,8 +866,8 @@
       \strng{authornamehash}{afb9b0d3d5b76f30ab451acf45400285}
       \strng{authorfullhash}{afb9b0d3d5b76f30ab451acf45400285}
       \strng{authorfullhashraw}{afb9b0d3d5b76f30ab451acf45400285}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1042-8143}
@@ -917,8 +917,8 @@
       \strng{authornamehash}{6c3c7597845804f3adc7cf5bb612d6c3}
       \strng{authorfullhash}{991a5696e889a30328c95db9f6b06457}
       \strng{authorfullhashraw}{991a5696e889a30328c95db9f6b06457}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Handbook on Ontologies}
@@ -968,8 +968,8 @@
       \strng{authornamehash}{a0161a9fc3b03ed4d8455991bb86456b}
       \strng{authorfullhash}{a76b9e7e7c84d993798053e9ab877b38}
       \strng{authorfullhashraw}{a76b9e7e7c84d993798053e9ab877b38}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1570-8268}
@@ -1013,8 +1013,8 @@
       \strng{authornamehash}{b2571093a9f15851cd9f4d13da420046}
       \strng{authorfullhash}{b2571093a9f15851cd9f4d13da420046}
       \strng{authorfullhashraw}{b2571093a9f15851cd9f4d13da420046}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{2}
@@ -1043,8 +1043,8 @@
       \strng{authornamehash}{c870bd896795848331f11a87a348dc63}
       \strng{authorfullhash}{c870bd896795848331f11a87a348dc63}
       \strng{authorfullhashraw}{c870bd896795848331f11a87a348dc63}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2542-6605}
