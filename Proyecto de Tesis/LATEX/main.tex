@@ -703,6 +703,20 @@ Escenario 3 Metamorfosis: Si la solicitud de cambio invalida la arquitectura act
 Supuesto 4 (Entradas Estandarizadas): Los insumos de entrada (Información de la plataforma, Requerimientos y Descripciones de datos) están previamente estructurados en el repositorio compartido (Pizarra) en formatos legibles por LLMs y ontologías.\\
 Supuesto 5 (Pizarra): La comunicación desacoplada y asíncrona a través de una pizarra compartida permite que cualquier modificación hecha por un agente notifique automáticamente a los demás agentes para recalcular o ajustar sus decisiones.
 
+\section{Especificacion del sistema}
+
+Objetivo Principal del Sistema: Transformar las especificaciones del problema (plataforma, requerimientos, datos) en un SDD completo, adaptando la arquitectura según el nivel de cambio (Mantenimiento, Cambio de Problema o Metamorfosis).
+Percepción (Inputs):
+Platform_Info: Características del entorno de despliegue (hardware, SO, restricciones IoT/CPS).
+RequirementsSpec: Requerimientos funcionales y no funcionales estructurados.
+DataDescription: Tipos de datos, volúmenes, tasas de llegada y persistencia.
+Acciones (Outputs):
+Publish_SDD: Publicación del Software Design Document final consolidado.
+Share_Designs: Compartir con los demas agentes los diseños propuestos.
+4. Funcionalidades del Sistema:
+Descomposición Módular y Firma de Interfaces.
+Modelado de Persistencia y Modelos de Datos.
+Búsqueda y Selección Algorítmica Optimizada.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{Experimentación y Análisis de Resultados}\label{resultados}
