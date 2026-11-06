@@ -1306,6 +1306,7 @@
       \strng{authornamehash}{3e534aae46d44d58199d214a7429805f}
       \strng{authorfullhash}{2fcaf447e12e050f6704873229942897}
       \strng{authorfullhashraw}{2fcaf447e12e050f6704873229942897}
+      \field{extraname}{1}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -2202,6 +2203,51 @@
       \endverb
       \verb{url}
       \verb http://dx.doi.org/10.1145/2601248.2601268
+      \endverb
+    \endentry
+    \entry{li2025riseaiteammatessoftware}{misc}{}{}
+      \name{author}{3}{}{%
+        {{hash=2620b9afd37cca5b9b7354f67c036d4d}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Hao},
+           giveni={H\bibinitperiod}}}%
+        {{hash=4f3335a012f1025af007b1682409473d}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Haoxiang},
+           giveni={H\bibinitperiod}}}%
+        {{hash=37a79f9b3d67c262a89ed8c5521d654f}{%
+           family={Hassan},
+           familyi={H\bibinitperiod},
+           given={Ahmed\bibnamedelima E.},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{daaeb7670772db8a47b015a37e6672bc}
+      \strng{fullhash}{21253d0e49e6fb0aca5bd5f0a246452c}
+      \strng{fullhashraw}{21253d0e49e6fb0aca5bd5f0a246452c}
+      \strng{bibnamehash}{21253d0e49e6fb0aca5bd5f0a246452c}
+      \strng{authorbibnamehash}{21253d0e49e6fb0aca5bd5f0a246452c}
+      \strng{authornamehash}{daaeb7670772db8a47b015a37e6672bc}
+      \strng{authorfullhash}{21253d0e49e6fb0aca5bd5f0a246452c}
+      \strng{authorfullhashraw}{21253d0e49e6fb0aca5bd5f0a246452c}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.SE}
+      \field{eprinttype}{arXiv}
+      \field{title}{The Rise of AI Teammates in Software Engineering (SE) 3.0: How Autonomous Coding Agents Are Reshaping Software Engineering}
+      \field{year}{2025}
+      \verb{eprint}
+      \verb 2507.15003
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2507.15003
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2507.15003
       \endverb
     \endentry
   \enddatalist
