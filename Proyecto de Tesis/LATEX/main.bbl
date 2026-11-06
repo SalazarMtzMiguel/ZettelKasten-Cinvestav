@@ -19,41 +19,6 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global/global}
-    \entry{swebok2024}{book}{}{}
-      \name{author}{1}{}{%
-        {{hash=6b600542ba3d4a21aea8e7d8ee988932}{%
-           family={{IEEE Computer Society}},
-           familyi={I\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Los Alamitos, CA}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{6b600542ba3d4a21aea8e7d8ee988932}
-      \strng{fullhash}{6b600542ba3d4a21aea8e7d8ee988932}
-      \strng{fullhashraw}{6b600542ba3d4a21aea8e7d8ee988932}
-      \strng{bibnamehash}{6b600542ba3d4a21aea8e7d8ee988932}
-      \strng{authorbibnamehash}{6b600542ba3d4a21aea8e7d8ee988932}
-      \strng{authornamehash}{6b600542ba3d4a21aea8e7d8ee988932}
-      \strng{authorfullhash}{6b600542ba3d4a21aea8e7d8ee988932}
-      \strng{authorfullhashraw}{6b600542ba3d4a21aea8e7d8ee988932}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{4}
-      \field{isbn}{978-0-7695-5166-1}
-      \field{title}{{Guide to the Software Engineering Body of Knowledge (SWEBOK)}}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://www.computer.org/education/bodies-of-knowledge/software-engineering
-      \endverb
-      \verb{url}
-      \verb https://www.computer.org/education/bodies-of-knowledge/software-engineering
-      \endverb
-    \endentry
     \entry{thefinancial2015Areti}{article}{}{}
       \name{author}{4}{}{%
         {{hash=8cc2c2ccc6e6b8a05040d85b54f4f570}{%
@@ -85,8 +50,8 @@
       \strng{authornamehash}{4ef4fee20040398c74759317fdcfd39d}
       \strng{authorfullhash}{5643e2e771ff5373009b312a6eb0a113}
       \strng{authorfullhashraw}{5643e2e771ff5373009b312a6eb0a113}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0950-5849}
@@ -149,8 +114,8 @@
       \strng{authornamehash}{559eea0e6a11001bfc1643657ad3fa58}
       \strng{authorfullhash}{2b292918f42448dafd3be930f3cfbfd4}
       \strng{authorfullhashraw}{2b292918f42448dafd3be930f3cfbfd4}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1049-331X}
@@ -193,8 +158,8 @@
       \strng{authornamehash}{67eb3fae0a519f2fc153a0b75a1ae068}
       \strng{authorfullhash}{67eb3fae0a519f2fc153a0b75a1ae068}
       \strng{authorfullhashraw}{67eb3fae0a519f2fc153a0b75a1ae068}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{8}
@@ -232,8 +197,8 @@
       \strng{authornamehash}{960f38df80a37a2254c836211b105f6f}
       \strng{authorfullhash}{1ed3a3b45f1b9a65350f95b167c384ac}
       \strng{authorfullhashraw}{1ed3a3b45f1b9a65350f95b167c384ac}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Automated Software Engineering}
@@ -249,92 +214,6 @@
       \verb{url}
       \verb http://dx.doi.org/10.21203/rs.3.rs-9577141/v1
       \endverb
-    \endentry
-    \entry{sommerville2011software}{book}{}{}
-      \name{author}{1}{}{%
-        {{hash=70341b3bfcce7026902f4eb1e4111b58}{%
-           family={Sommerville},
-           familyi={S\bibinitperiod},
-           given={Ian},
-           giveni={I\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Boston}%
-      }
-      \list{publisher}{1}{%
-        {Addison-Wesley}%
-      }
-      \strng{namehash}{70341b3bfcce7026902f4eb1e4111b58}
-      \strng{fullhash}{70341b3bfcce7026902f4eb1e4111b58}
-      \strng{fullhashraw}{70341b3bfcce7026902f4eb1e4111b58}
-      \strng{bibnamehash}{70341b3bfcce7026902f4eb1e4111b58}
-      \strng{authorbibnamehash}{70341b3bfcce7026902f4eb1e4111b58}
-      \strng{authornamehash}{70341b3bfcce7026902f4eb1e4111b58}
-      \strng{authorfullhash}{70341b3bfcce7026902f4eb1e4111b58}
-      \strng{authorfullhashraw}{70341b3bfcce7026902f4eb1e4111b58}
-      \field{extraname}{1}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{9}
-      \field{isbn}{978-0-13-703515-1}
-      \field{title}{Software Engineering}
-      \field{year}{2011}
-    \endentry
-    \entry{notionof2010}{inproceedings}{}{}
-      \name{author}{3}{}{%
-        {{hash=744c71635df72dba2ed4b87884181b61}{%
-           family={Mairiza},
-           familyi={M\bibinitperiod},
-           given={Dewi},
-           giveni={D\bibinitperiod}}}%
-        {{hash=e13693988a455e9d940e2cc20bd39a59}{%
-           family={Zowghi},
-           familyi={Z\bibinitperiod},
-           given={Didar},
-           giveni={D\bibinitperiod}}}%
-        {{hash=7e47de7344a617ff05913f483229cff0}{%
-           family={Nurmuliani},
-           familyi={N\bibinitperiod},
-           given={Nurie},
-           giveni={N\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Sierre, Switzerland}%
-      }
-      \list{publisher}{1}{%
-        {Association for Computing Machinery}%
-      }
-      \strng{namehash}{8efb748bffbb487fa430e2b87ba60909}
-      \strng{fullhash}{439b59c4c57db4dc0621d9e54584ab5f}
-      \strng{fullhashraw}{439b59c4c57db4dc0621d9e54584ab5f}
-      \strng{bibnamehash}{439b59c4c57db4dc0621d9e54584ab5f}
-      \strng{authorbibnamehash}{439b59c4c57db4dc0621d9e54584ab5f}
-      \strng{authornamehash}{8efb748bffbb487fa430e2b87ba60909}
-      \strng{authorfullhash}{439b59c4c57db4dc0621d9e54584ab5f}
-      \strng{authorfullhashraw}{439b59c4c57db4dc0621d9e54584ab5f}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the 2010 ACM Symposium on Applied Computing}
-      \field{isbn}{9781605586397}
-      \field{series}{SAC '10}
-      \field{title}{An investigation into the notion of non-functional requirements}
-      \field{year}{2010}
-      \field{pages}{311\bibrangedash 317}
-      \range{pages}{7}
-      \verb{doi}
-      \verb 10.1145/1774088.1774153
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1145/1774088.1774153
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1145/1774088.1774153
-      \endverb
-      \keyw{application domain,classification,non-functional requirements,type of system,types}
     \endentry
     \entry{metaarch2005Smeda}{inproceedings}{}{}
       \name{author}{3}{}{%
@@ -362,8 +241,8 @@
       \strng{authornamehash}{40953bb8b60ce17f337dcd793b95305d}
       \strng{authorfullhash}{3e6eaf07afb6d6d0eb50782132a19e93}
       \strng{authorfullhashraw}{3e6eaf07afb6d6d0eb50782132a19e93}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Third ACIS Int'l Conference on Software Engineering Research, Management and Applications (SERA'05)}
@@ -401,15 +280,47 @@
       \strng{authornamehash}{70341b3bfcce7026902f4eb1e4111b58}
       \strng{authorfullhash}{70341b3bfcce7026902f4eb1e4111b58}
       \strng{authorfullhashraw}{70341b3bfcce7026902f4eb1e4111b58}
-      \field{extraname}{2}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extraname}{1}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{10}
       \field{month}{7}
       \field{title}{Software Engineering, Global Edition}
       \field{year}{2015}
+    \endentry
+    \entry{sommerville2011software}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=70341b3bfcce7026902f4eb1e4111b58}{%
+           family={Sommerville},
+           familyi={S\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boston}%
+      }
+      \list{publisher}{1}{%
+        {Addison-Wesley}%
+      }
+      \strng{namehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{fullhash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{fullhashraw}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{bibnamehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authorbibnamehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authornamehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authorfullhash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authorfullhashraw}{70341b3bfcce7026902f4eb1e4111b58}
+      \field{extraname}{2}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{9}
+      \field{isbn}{978-0-13-703515-1}
+      \field{title}{Software Engineering}
+      \field{year}{2011}
     \endentry
     \entry{Kruchten1995The}{article}{}{}
       \name{author}{1}{}{%
@@ -427,8 +338,8 @@
       \strng{authornamehash}{dca64ceea72185cf29648fc367546339}
       \strng{authorfullhash}{dca64ceea72185cf29648fc367546339}
       \strng{authorfullhashraw}{dca64ceea72185cf29648fc367546339}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Softw.}
@@ -485,9 +396,44 @@
       \verb 10.1109/seams59076.2023.00024
       \endverb
     \endentry
+    \entry{swebok2024}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=6b600542ba3d4a21aea8e7d8ee988932}{%
+           family={{IEEE Computer Society}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Los Alamitos, CA}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{6b600542ba3d4a21aea8e7d8ee988932}
+      \strng{fullhash}{6b600542ba3d4a21aea8e7d8ee988932}
+      \strng{fullhashraw}{6b600542ba3d4a21aea8e7d8ee988932}
+      \strng{bibnamehash}{6b600542ba3d4a21aea8e7d8ee988932}
+      \strng{authorbibnamehash}{6b600542ba3d4a21aea8e7d8ee988932}
+      \strng{authornamehash}{6b600542ba3d4a21aea8e7d8ee988932}
+      \strng{authorfullhash}{6b600542ba3d4a21aea8e7d8ee988932}
+      \strng{authorfullhashraw}{6b600542ba3d4a21aea8e7d8ee988932}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{4}
+      \field{isbn}{978-0-7695-5166-1}
+      \field{title}{{Guide to the Software Engineering Body of Knowledge (SWEBOK)}}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.computer.org/education/bodies-of-knowledge/software-engineering
+      \endverb
+      \verb{url}
+      \verb https://www.computer.org/education/bodies-of-knowledge/software-engineering
+      \endverb
+    \endentry
     \entry{12207IEEE}{article}{}{}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE/EIA 12207.1-1997}
       \field{title}{IEEE/EIA Guide - Industry Implementation of International Standard ISO/IEC 12207 : 1995 (ISO/IEC 12207) - Software Life Cycle Processes - Life Cycle Data}
@@ -500,8 +446,8 @@
       \keyw{Software standards;acquisition process;audit;configuration management;development process;maintenance process;operation process;quality assurance;supply process;tailoring process;validation;verification}
     \endentry
     \entry{15288LifeCycle}{article}{}{}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
       \field{journaltitle}{ISO/IEC 15288:2008(E) IEEE Std 15288-2008 (Revision of IEEE Std 15288-2004)}
       \field{title}{ISO/IEC/IEEE International Standard - Systems and software engineering System life cycle processes}
@@ -513,8 +459,8 @@
       \endverb
     \endentry
     \entry{1016_2009}{article}{}{}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE STD 1016-2009}
       \field{title}{IEEE Standard for Information Technology--Systems Design--Software Design Descriptions}
