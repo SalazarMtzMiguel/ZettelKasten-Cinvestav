@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.10.22)  6 NOV 2026 18:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.10.22)  6 NOV 2026 18:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1383,13 +1383,13 @@ Cap\'{\i }tulo 6.
 ] [44
 
 ] [45] [46]
-Overfull \hbox (7.38779pt too wide) in paragraph at lines 786--786
+Overfull \hbox (7.38779pt too wide) in paragraph at lines 788--788
 \T1/cmr/m/n/12 2016, Seattle, WA, USA: As-so-cia-tion for Com-pu-ting Ma-chi-ne
 ry, 2016, págs. 1073[]1075,
  []
 
 [47] [48]
-Overfull \hbox (6.58615pt too wide) in paragraph at lines 786--786
+Overfull \hbox (6.58615pt too wide) in paragraph at lines 788--788
 \T1/cmr/m/n/12 en \T1/cmr/m/it/12 Agent-oriented metho-do-lo-gies\T1/cmr/m/n/12
  , IGI Glo-bal Scien-ti-fic Pu-blishing, 2005, págs. 107[]135. 
  []
@@ -1438,7 +1438,7 @@ Users\Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk
 > <C:\Users\Mikec\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1
 440.pk><C:/Users/Mikec/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmmi12.pfb>
-Output written on main.pdf (61 pages, 1254242 bytes).
+Output written on main.pdf (61 pages, 1254326 bytes).
 PDF statistics:
  1839 PDF objects out of 2073 (max. 8388607)
  214 named destinations out of 1000 (max. 500000)
